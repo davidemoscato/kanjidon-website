@@ -1,0 +1,10 @@
+# Redirect old domain to new domain (301 permanent)
+https://kanjidonapp.com/* https://kanjidon.com/:splat 301
+https://www.kanjidonapp.com/* https://kanjidon.com/:splat 301
+
+# Clean URLs - serve .html files without extension
+/privacy    /privacy.html   200
+/terms      /terms.html     200
+/delete     /delete.html    200
+/support    /support.html   200
+/marketing  /marketing.html 200

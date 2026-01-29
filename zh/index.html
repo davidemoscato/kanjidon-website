@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload (reduces FOUT - Flash of Unstyled Text) -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- SEO Primary -->
+    <title>Kanjidon - Kanji Flashcards</title>
+    <meta name="description" content="颠覆你学习日本汉字的方式。智能测验、PvP对战、SRS系统。从零基础到JLPT N1。">
+    <meta name="keywords" content="汉字, 学习汉字, 日本汉字学习, 日本字卡片, 间隔重复, JLPT, jlpt n5, n4, n3, n2, n1, 汉字app, 日语学习">
+    <meta name="author" content="Kanjidon - Davide Moscato">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh/">
+
+    <!-- Alternate languages for SEO -->
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/en/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/en/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kanjidon - Kanji Flashcards">
+    <meta property="og:description" content="颠覆你学习日本汉字的方式。智能测验、PvP对战、SRS系统。从零基础到JLPT N1。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="Kanjidon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanjidon - Kanji Flashcards">
+    <meta name="twitter:description" content="颠覆你学习日本汉字的方式。智能测验、PvP对战、SRS系统。从零基础到JLPT N1。">
+    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Schema.org - App -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Kanjidon",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "CNY"
+        },
+        "description": "通过学习卡、互动测验、PvP 对战和 SRS 系统学习日本汉字的应用程序。涵盖所有 JLPT 等级，从 N5 到 N1。",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "500"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "inLanguage": ["it", "en", "fr", "es", "de", "pt", "ru", "ko", "zh", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil"]
+    }
+    </script>
+
+    <!-- Schema.org - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kanjidon",
+        "url": "https://kanjidon.com",
+        "logo": "https://kanjidon.com/assets/images/icona.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@kanjidon.com",
+            "contactType": "customer support",
+            "availableLanguage": ["Italian", "English"]
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IT"
+        },
+        "vatID": "IT01691020083"
+    }
+    </script>
+
+    <!-- Schema.org - FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Kanjidon 是什么？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon 是一款免费的日语汉字学习应用程序，通过学习卡、互动测验、PvP 对战和间隔重复系统（SRS）帮助你有效记忆。涵盖所有 JLPT 等级，从 N5 到 N1，超过 5000 个汉字。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kanjidon 是免费的吗？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "是的！你可以免费使用 Kanjidon 的所有基本功能。Kanjidon Pass 订阅可解锁额外内容、每包 6 张卡片、无限测验，并移除广告。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "什么是 JLPT？Kanjidon 涵盖哪些等级？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JLPT（日本语能力测试）是官方的日语能力认证考试。Kanjidon 涵盖所有等级：假名（平假名和片假名）、N5（初级）、N4、N3、N2 到 N1（高级），超过 5000 张汉字学习卡。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kanjidon 的 SRS 系统如何运作？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon 使用 SM-2 算法，这是经过科学验证的间隔重复系统。汉字会在最佳记忆间隔出现：如果你答对了，间隔会延长；如果答错了，间隔会缩短以巩固记忆。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "我可以离线使用 Kanjidon 吗？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "可以，测验和学习卡学习可以离线使用。PvP 对战和云端同步需要网络连接。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kanjidon 支持哪些语言？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon 支持 21 种语言：意大利语、英语、法语、西班牙语、德语、葡萄牙语、俄语、泰语、印尼语、阿拉伯语、中文、韩语、印地语、土耳其语、越南语、波斯语、波兰语、菲律宾语和马来语。"
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon - 学习汉字应用程序" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">功能</a>
+                <a href="#faq">常见问题</a>
+                <a href="#download" class="btn btn-primary btn-sm"><strong>免费下载</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>收集汉字。<br><span class="text-primary">全部收齐。</span></h1>
+                <p class="hero-subtitle">开卡包、完成收藏、边玩边学。智能测验、多人挑战、每日目标和互动课程。从初学者到 JLPT N1。</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary btn-lg"><strong>免费下载</strong></a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">汉字学习卡</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">种测验模式</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">N5-N1</span>
+                        <span class="stat-label">JLPT</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-label">课程</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-phone floating">
+                    <img src="../assets/images/IMG_5863-portrait.webp" alt="Kanjidon 应用程序 - 首页截图">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="rating-section">
+        <div class="container">
+            <div class="rating-showcase reveal-on-scroll">
+                <div class="rating-laurel">
+                    <img src="../assets/images/laurel-wreath.png" alt="App Store 评分" class="rating-laurel-img">
+                    <span class="rating-score">4.8</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">如何使用</h2>
+            <div class="steps-with-phones">
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5865-portrait.webp" alt="打开 Kanjidon 卡包" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <h3>打开卡包</h3>
+                        <p>开卡包、收集独特设计的学习卡。每张卡都有不同类型和稀有度，从 1 星到 4 星。</p>
+                    </div>
+                </div>
+                <div class="step-row step-row-reverse">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5868-portrait.webp" alt="Kanjidon SRS 测验" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <h3>用测验学习</h3>
+                        <p>SRS 算法会在最佳时机呈现汉字。每天 10 分钟就能有真正的进步。</p>
+                    </div>
+                </div>
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5869-portrait.webp" alt="Kanjidon PvP 对战" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <h3>挑战与进步</h3>
+                        <p>PvP 对战、联盟排名、任务和连续学习。每天都有回来学习的理由。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">为什么选择 Kanjidon？</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>汉字学习卡</h3>
+                    <p>超过 5000 张独特设计的收藏卡。每个汉字都包含意思、音读/训读和例句。开卡、收集、学习。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>SRS 智能测验</h3>
+                    <p>8 种不同的测验模式搭配 SM-2 算法。每次练习都会根据你的程度调整，SRS 会在最佳时机呈现汉字，让你真正记住。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="6" x2="10" y1="12" y2="12"/>
+                            <line x1="8" x2="8" y1="10" y2="14"/>
+                            <line x1="15" x2="15.01" y1="13" y2="13"/>
+                            <line x1="18" x2="18.01" y1="11" y2="11"/>
+                            <rect width="20" height="12" x="2" y="6" rx="2"/>
+                        </svg>
+                    </div>
+                    <h3>PvP 对战</h3>
+                    <p>即时挑战其他玩家。从 E 级爬到传说 S 级。道具加成、连胜和经验值奖励。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>所有 JLPT 等级</h3>
+                    <p>从平假名、片假名到最高级的汉字。用分级学习卡准备考试：N5、N4、N3、N2、N1。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3>完整游戏化</h3>
+                    <p>50 个等级、Tama 金币、专属头像、每日任务、收藏印章和连续学习奖励。学习从未如此有趣。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>支持 21 种语言</h3>
+                    <p>意大利语、英语、法语、西班牙语、德语、葡萄牙语、俄语、韩语、中文、阿拉伯语、印地语、泰语等等。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Showcase -->
+    <section class="collection-showcase">
+        <div class="container">
+            <h2 class="section-title">收集独特卡片</h2>
+
+            <!-- Floating Cards Display -->
+            <div class="cards-display reveal-on-scroll">
+                <div class="floating-card card-1">
+                    <img src="../assets/images/Carta_20260110_155446.webp" alt="汉字卡片" loading="lazy">
+                </div>
+                <div class="floating-card card-2">
+                    <img src="../assets/images/Carta_20260110_155504.webp" alt="汉字卡片" loading="lazy">
+                </div>
+                <div class="floating-card card-3">
+                    <img src="../assets/images/Carta_20260110_155555.webp" alt="汉字卡片" loading="lazy">
+                </div>
+                <div class="floating-card card-4">
+                    <img src="../assets/images/Carta_20260110_155623.webp" alt="汉字卡片" loading="lazy">
+                </div>
+                <div class="floating-card card-5">
+                    <img src="../assets/images/Carta_20260110_155642.webp" alt="汉字卡片" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Packs Display -->
+            <div class="packs-display reveal-on-scroll">
+                <p class="packs-label">每个 JLPT 等级都有卡包</p>
+                <div class="packs-row">
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n5_2.webp" alt="N5 卡包" loading="lazy">
+                        <span>N5</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n4_1.webp" alt="N4 卡包" loading="lazy">
+                        <span>N4</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n3_2.webp" alt="N3 卡包" loading="lazy">
+                        <span>N3</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n2_1.webp" alt="N2 卡包" loading="lazy">
+                        <span>N2</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n1_1.webp" alt="N1 卡包" loading="lazy">
+                        <span>N1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container download-content">
+            <h2 class="section-title">立即开始，完全免费</h2>
+            <p class="download-subtitle">iOS 和 Android 都可使用。开始不需要信用卡。</p>
+            <div class="store-badges">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/app-store-badge.svg" alt="在 App Store 下载 Kanjidon">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/google-play-badge.svg" alt="在 Google Play 下载 Kanjidon">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">常见问题</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>Kanjidon 是什么？</summary>
+                    <p>Kanjidon 把汉字学习变成一场史诗冒险，每个符号都是可收集的卡片，每次测验都是要赢的挑战。这是一款结合游戏化和学习的应用程序，搭配间隔重复系统（SRS）把汉字锁进你的长期记忆。开卡包、挑战动态测验、跟随课程，并用详细的统计追踪进度。</p>
+                </details>
+                <details class="faq-item">
+                    <summary>应用程序是免费的吗？</summary>
+                    <p>是的！你可以免费使用 Kanjidon 的所有基本功能。免费用户每天可以开最多 3 包，并无限次使用「决定」测验。Kanjidon Pass 订阅可解锁每包 6 张卡片、无限测验、所有语法课程、发音音频，并移除广告。</p>
+                </details>
+                <details class="faq-item">
+                    <summary>什么是 JLPT？Kanjidon 涵盖哪些等级？</summary>
+                    <p>JLPT（日本语能力测试）是认证日语能力的官方考试。分为 5 个等级：N5（初级）到 N1（高级）。Kanjidon 涵盖所有等级，超过 5000 张汉字学习卡，还包括假名卡片给从零开始学平假名和片假名的人。</p>
+                </details>
+                <details class="faq-item">
+                    <summary>SRS 系统如何运作？</summary>
+                    <p>Kanjidon 使用 SM-2 算法，这是经过科学验证的间隔重复系统。它基于数十年的神经科学研究：每个汉字都有一个会根据你的学习情况调整的分数。如果你答对了，它会在越来越长的间隔后再出现。如果你答错了，间隔会缩短以巩固记忆。</p>
+                </details>
+                <details class="faq-item">
+                    <summary>什么是 PvP 对战？</summary>
+                    <p>对战是与其他玩家的即时挑战。你可以在本地挑战朋友、随机线上玩家，或对抗电脑。每场对战有 15 道关于音读、训读和意思的题目。赢得比赛可提升排名（从 E 到 S）并为联盟排行榜赚取经验值。</p>
+                </details>
+                <details class="faq-item">
+                    <summary>我可以离线使用应用程序吗？</summary>
+                    <p>可以，测验和学习卡学习可以 100% 离线使用。PvP 对战、云端同步和社交功能需要网络连接。</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Kanjidon 支持哪些语言？</summary>
+                    <p>Kanjidon 支持 21 种语言：意大利语、英语、法语、西班牙语、德语、葡萄牙语、俄语、泰语、印尼语、阿拉伯语、中文（简体和繁体）、韩语、印地语、土耳其语、越南语、波斯语、波兰语、菲律宾语和马来语。</p>
+                </details>
+                <details class="faq-item">
+                    <summary>连续学习如何运作？</summary>
+                    <p>连续学习会计算你连续几天打开 Kanjidon。天数越高，每天获得的 Tama 奖励就越多（从 7 到 50 Tama）。付费用户可获得双倍奖励。达到 30、60 或 365 天等里程碑可解锁护盾，在你跳过一天时保护你的连续纪录。</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Learn Japanese kanji by playing.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service (EULA)</a>
+                    <a href="/delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="/support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="language-name">English</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/en/" class="language-option active">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Francais
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Espanol
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Portugues
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Russkij
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> Hangugeo
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> Zhongwen
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> Zhongwen (Traditional)
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> Alarabiya
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> Hindi
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> Thai
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tieng Viet
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Turkce
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> Farsi
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Banner -->
+    <div class="privacy-banner" id="privacyBanner">
+        <div class="privacy-banner-content">
+            <p>本网站不使用追踪 Cookie。<a href="/privacy">隐私政策</a></p>
+            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="关闭">好</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+            if (!localStorage.getItem('privacyBannerDismissed')) {
+                document.getElementById('privacyBanner').classList.add('visible');
+            }
+        });
+
+        function closePrivacyBanner() {
+            document.getElementById('privacyBanner').classList.remove('visible');
+            localStorage.setItem('privacyBannerDismissed', 'true');
+        }
+    </script>
+
+    <!-- Sticky Download Bar -->
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Sticky Download Bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const downloadSection = document.getElementById('download');
+            const footer = document.querySelector('.footer');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

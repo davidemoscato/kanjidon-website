@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload (reduces FOUT - Flash of Unstyled Text) -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- SEO Primary -->
+    <title>Kanjidon - Kanji Flashcards</title>
+    <meta name="description" content="Instant na Kanji Flashcards. Matuto ng kanji gamit ang Kanjidon.">
+    <meta name="keywords" content="kanji, matuto kanji, matuto ng Hapon, mga letra ng Hapon, JLPT pagsusulit, libreng kanji, jlpt n5, jlpt n4, n3, n2, n1, kanji flashcards, kanji aplikasyon">
+    <meta name="author" content="Kanjidon - Davide Moscato">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/fil/">
+
+    <!-- Alternate languages for SEO -->
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/en/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/en/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kanjidon - Kanji Flashcards">
+    <meta property="og:description" content="Instant na Kanji Flashcards. Matuto ng kanji gamit ang Kanjidon.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/fil/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fil_PH">
+    <meta property="og:site_name" content="Kanjidon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanjidon - Kanji Flashcards">
+    <meta name="twitter:description" content="Instant na Kanji Flashcards. Matuto ng kanji gamit ang Kanjidon.">
+    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Fonts: Self-hosted for GDPR compliance -->
+
+    <!-- Schema.org - App -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Kanjidon",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "App para sa pag-aaral ng Japanese kanji gamit ang flashcards, interactive quizzes, PvP battles, at SRS system. Sakop lahat ng JLPT levels mula N5 hanggang N1.",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "500"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "inLanguage": ["it", "en", "fr", "es", "de", "pt", "ru", "ko", "zh", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil"]
+    }
+    </script>
+
+    <!-- Schema.org - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kanjidon",
+        "url": "https://kanjidon.com",
+        "logo": "https://kanjidon.com/assets/images/icona.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@kanjidon.com",
+            "contactType": "customer support",
+            "availableLanguage": ["Italian", "English"]
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IT"
+        },
+        "vatID": "IT01691020083"
+    }
+    </script>
+
+    <!-- Schema.org - FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Ano ang Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ang Kanjidon ay isang libreng app para sa pag-aaral ng Japanese kanji gamit ang flashcards, interactive quizzes, PvP battles, at spaced repetition system (SRS) na tumutulong sa iyo na mag-memorize ng epektibo. Sakop nito ang lahat ng JLPT levels mula N5 hanggang N1 na may higit sa 5000 kanji."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Libre ba ang Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oo! Puwede mong gamitin ang Kanjidon nang libre kasama ang lahat ng basic features. Ang Kanjidon Pass subscription ay nagbu-bukas ng extra content, 6 cards per pack, unlimited quizzes, at tinatanggal ang mga ads."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Ano ang JLPT at anong levels ang sakop ng Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ang JLPT (Japanese Language Proficiency Test) ay ang opisyal na Japanese language exam. Sakop ng Kanjidon ang lahat ng levels: Kana (hiragana at katakana), N5 (beginner), N4, N3, N2 hanggang N1 (advanced), na may higit sa 5000 kanji flashcards."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Paano gumagana ang SRS system ng Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Gumagamit ang Kanjidon ng SM-2 algorithm, isang scientifically validated spaced repetition system. Ang mga kanji ay ipinakikita sa optimal intervals para sa pag-memorize: kung tama ang sagot mo, tumatagal ang interval; kung mali, bumababa para ma-consolidate ang memory."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Puwede ko bang gamitin ang Kanjidon offline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oo, gumagana ang mga quizzes at flashcard study offline. Ang PvP battles at cloud sync ay nangangailangan ng internet connection."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Anong mga wika ang available sa Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sumusuporta ang Kanjidon sa 21 wika: Italian, English, French, Spanish, German, Portuguese, Russian, Thai, Indonesian, Arabic, Chinese, Korean, Hindi, Turkish, Vietnamese, Persian, Polish, Filipino, at Malay."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/fil/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon - Learn Kanji App" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Mga Feature</a>
+                <a href="#faq">FAQ</a>
+                <a href="#download" class="btn btn-primary btn-sm"><strong>I-download Libre</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Kolektahin ang Kanji.<br><span class="text-primary">Lahat Sila.</span></h1>
+                <p class="hero-subtitle">Buksan ang mga packs, kumpletuhin ang koleksyon mo, at matuto habang naglalaro. Smart quizzes, multiplayer challenges, daily goals, at interactive lessons. Mula beginner level hanggang JLPT N1.</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary btn-lg"><strong>I-download Libre</strong></a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">Kanji Flashcards</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Uri ng Quiz</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">N5-N1</span>
+                        <span class="stat-label">JLPT</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-label">Mga Lesson</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-phone floating">
+                    <img src="../assets/images/IMG_5863-portrait.webp" alt="Kanjidon App - Homepage Screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="rating-section">
+        <div class="container">
+            <div class="rating-showcase reveal-on-scroll">
+                <div class="rating-laurel">
+                    <img src="../assets/images/laurel-wreath.png" alt="App Store Rating" class="rating-laurel-img">
+                    <span class="rating-score">4.8</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Paano Ito Gumagana</h2>
+            <div class="steps-with-phones">
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5865-portrait.webp" alt="Buksan ang Kanjidon card packs" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <h3>Buksan ang Card Packs</h3>
+                        <p>Buksan ang mga packs at kolektahin ang mga Flashcards na may unique designs. Bawat card ay may iba't ibang uri at rarity, mula 1 hanggang 4 stars.</p>
+                    </div>
+                </div>
+                <div class="step-row step-row-reverse">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5868-portrait.webp" alt="Kanjidon SRS Quiz" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <h3>Mag-aral gamit ang Quizzes</h3>
+                        <p>Ang SRS algorithm ay nagpapakita ng kanji sa tamang oras. 10 minuto bawat araw ay sapat na para sa tunay na pag-unlad.</p>
+                    </div>
+                </div>
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5869-portrait.webp" alt="Kanjidon PvP Battles" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <h3>Mag-Challenge at Umunlad</h3>
+                        <p>PvP battles, League rankings, missions, at streaks. Araw-araw may dahilan para bumalik at matuto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Bakit Piliin ang Kanjidon?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>Mga Kanji Flashcard</h3>
+                    <p>Higit sa 5000 collectible cards na may unique designs. Bawat kanji ay may kahulugan, on/kun readings, at sample sentences. Buksan, kolektahin, matuto.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Smart Quizzes na may SRS</h3>
+                    <p>8 iba't ibang quiz modes na may SM-2 algorithm. Bawat session ay nag-a-adapt sa level mo at ang SRS ay nagpapakita ng kanji sa optimal time para sa tunay na pag-memorize.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="6" x2="10" y1="12" y2="12"/>
+                            <line x1="8" x2="8" y1="10" y2="14"/>
+                            <line x1="15" x2="15.01" y1="13" y2="13"/>
+                            <line x1="18" x2="18.01" y1="11" y2="11"/>
+                            <rect width="20" height="12" x="2" y="6" rx="2"/>
+                        </svg>
+                    </div>
+                    <h3>Mga PvP Battle</h3>
+                    <p>Hamunin ang ibang players sa real time. Umakyat sa leaderboard mula rank E hanggang legendary rank S. Power-ups, streaks, at XP rewards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>Lahat ng JLPT Levels</h3>
+                    <p>Mula hiragana, katakana hanggang sa pinaka-advanced na kanji. Maghanda para sa exam gamit ang mga Flashcard na organized by level: N5, N4, N3, N2, N1.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3>Full Gamification</h3>
+                    <p>50 levels, Tama coins, exclusive avatars, daily missions, collectible stamps, at streaks na may bonuses. Hindi pa kailanman naging ganito ka-engaging ang pag-aaral.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>21 Wika ang Sinusuportahan</h3>
+                    <p>Italian, English, French, Spanish, German, Portuguese, Russian, Korean, Chinese, Arabic, Hindi, Thai, at marami pang iba.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Showcase -->
+    <section class="collection-showcase">
+        <div class="container">
+            <h2 class="section-title">Kolektahin ang mga Unique Cards</h2>
+
+            <!-- Floating Cards Display -->
+            <div class="cards-display reveal-on-scroll">
+                <div class="floating-card card-1">
+                    <img src="../assets/images/Carta_20260110_155446.webp" alt="Kanji Card" loading="lazy">
+                </div>
+                <div class="floating-card card-2">
+                    <img src="../assets/images/Carta_20260110_155504.webp" alt="Kanji Card" loading="lazy">
+                </div>
+                <div class="floating-card card-3">
+                    <img src="../assets/images/Carta_20260110_155555.webp" alt="Kanji Card" loading="lazy">
+                </div>
+                <div class="floating-card card-4">
+                    <img src="../assets/images/Carta_20260110_155623.webp" alt="Kanji Card" loading="lazy">
+                </div>
+                <div class="floating-card card-5">
+                    <img src="../assets/images/Carta_20260110_155642.webp" alt="Kanji Card" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Packs Display -->
+            <div class="packs-display reveal-on-scroll">
+                <p class="packs-label">Mga Packs para sa bawat JLPT level</p>
+                <div class="packs-row">
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n5_2.webp" alt="N5 Pack" loading="lazy">
+                        <span>N5</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n4_1.webp" alt="N4 Pack" loading="lazy">
+                        <span>N4</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n3_2.webp" alt="N3 Pack" loading="lazy">
+                        <span>N3</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n2_1.webp" alt="N2 Pack" loading="lazy">
+                        <span>N2</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n1_1.webp" alt="N1 Pack" loading="lazy">
+                        <span>N1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container download-content">
+            <h2 class="section-title">Magsimula Na Ngayon, Libre</h2>
+            <p class="download-subtitle">Available sa iOS at Android. Hindi kailangan ng credit card para magsimula.</p>
+            <div class="store-badges">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/app-store-badge.svg" alt="I-download ang Kanjidon sa App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/google-play-badge.svg" alt="I-download ang Kanjidon sa Google Play">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Mga Madalas Itanong</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>Ano ang Kanjidon?</summary>
+                    <p>Ginagawang epic adventure ng Kanjidon ang pag-aaral ng kanji, kung saan bawat simbolo ay isang card na kokolektahin at bawat quiz ay isang challenge na pananagumpayan. Ito ay isang app na pinagsasama ang gamification at learning, na may spaced repetition system (SRS) na naglo-lock ng kanji sa long-term memory mo. Buksan ang mga packs, harapin ang dynamic quizzes, sundan ang mga lessons, at subaybayan ang progress mo gamit ang detailed statistics.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Libre ba ang app?</summary>
+                    <p>Oo! Puwede mong gamitin ang Kanjidon nang libre kasama ang lahat ng basic features. Puwedeng magbukas ang mga free users ng hanggang 3 packs bawat araw at unlimited access sa "Decide" quiz. Ang Kanjidon Pass subscription ay nagbu-bukas ng 6 cards per pack, unlimited quizzes, lahat ng grammar lessons, audio pronunciation, at tinatanggal ang ads.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Ano ang JLPT at anong levels ang sakop ng Kanjidon?</summary>
+                    <p>Ang JLPT (Japanese Language Proficiency Test) ay ang opisyal na exam para patunayan ang Japanese language skills. Nahahati ito sa 5 levels: N5 (beginner) hanggang N1 (advanced). Sakop ng Kanjidon ang lahat ng levels na may higit sa 5000 kanji flashcards, kasama ang Kana cards para sa mga nagsisimula mula zero sa hiragana at katakana.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Paano gumagana ang SRS system?</summary>
+                    <p>Gumagamit ang Kanjidon ng SM-2 algorithm, isang scientifically validated spaced repetition system. Ito ay batay sa decades ng neuroscience research: bawat kanji ay may score na nag-a-adapt sa pag-aaral mo. Kung tama ang sagot mo, ipapakita ulit ito pagkatapos ng mas matagal na intervals. Kung mali, bumababa ang interval para ma-consolidate ang memory.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Ano ang PvP Battles?</summary>
+                    <p>Ang Battles ay real-time challenges laban sa ibang players. Puwede mong hamunin ang isang kaibigan locally, isang random online player, o lumaban sa CPU. Bawat battle ay may 15 tanong tungkol sa on readings, kun readings, at meanings. Manalo para umakyat sa Ranks (mula E hanggang S) at kumita ng XP para sa League Leaderboard mo.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Puwede ko bang gamitin ang app offline?</summary>
+                    <p>Oo, gumagana ang quizzes at flashcard study 100% offline. Ang PvP battles, cloud sync, at social features ay nangangailangan ng internet connection.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Anong mga wika ang available sa Kanjidon?</summary>
+                    <p>Sumusuporta ang Kanjidon sa 21 wika: Italian, English, French, Spanish, German, Portuguese, Russian, Thai, Indonesian, Arabic, Chinese (Simplified at Traditional), Korean, Hindi, Turkish, Vietnamese, Persian, Polish, Filipino, at Malay.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Paano gumagana ang Streak?</summary>
+                    <p>Binibilang ng Streak kung ilang magkakasunod na araw mong binuksan ang Kanjidon. Mas mataas ito, mas maraming bonus Tama ang matatanggap mo bawat araw (mula 7 hanggang 50 Tama). Doble para sa Premium users. Abutin ang milestones tulad ng 30, 60, o 365 days para ma-unlock ang mga Shields na nagpoprotekta sa Streak mo kung may nalaktawan kang araw.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Learn Japanese kanji by playing.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service (EULA)</a>
+                    <a href="/delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="/support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="language-name">English</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/en/" class="language-option active">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Francais
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Espanol
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Portugues
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Russkij
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> Hangugeo
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> Zhongwen
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> Zhongwen (Traditional)
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> Alarabiya
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> Hindi
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> Thai
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tieng Viet
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Turkce
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> Farsi
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Banner (informational only - no cookies used) -->
+    <div class="privacy-banner" id="privacyBanner">
+        <div class="privacy-banner-content">
+            <p>Hindi gumagamit ng profiling cookies ang site na ito. <a href="/privacy">Privacy Policy</a></p>
+            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Isara">OK</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Scroll Reveal Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+            // Privacy Banner
+            if (!localStorage.getItem('privacyBannerDismissed')) {
+                document.getElementById('privacyBanner').classList.add('visible');
+            }
+        });
+
+        function closePrivacyBanner() {
+            document.getElementById('privacyBanner').classList.remove('visible');
+            localStorage.setItem('privacyBannerDismissed', 'true');
+        }
+    </script>
+
+    <!-- Sticky Download Bar -->
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Sticky Download Bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const downloadSection = document.getElementById('download');
+            const footer = document.querySelector('.footer');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

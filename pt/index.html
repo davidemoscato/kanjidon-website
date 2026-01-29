@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload (reduces FOUT - Flash of Unstyled Text) -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- SEO Primary -->
+    <title>Kanjidon - Kanji Flashcards</title>
+    <meta name="description" content="O app que revoluciona a forma de aprender kanji japoneses. Quizzes inteligentes, batalhas PvP e sistema SRS. De iniciante a JLPT N1.">
+    <meta name="keywords" content="kanji, aprender kanji, estudar japonês, caracteres japoneses, kanji JLPT, jlpt n5, n4, n3, n2, n1, kanji grátis, app kanji">
+    <meta name="author" content="Kanjidon - Davide Moscato">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/pt/">
+
+    <!-- Alternate languages for SEO -->
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/en/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/en/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kanjidon - Kanji Flashcards">
+    <meta property="og:description" content="O app que revoluciona a forma de aprender kanji japoneses. Quizzes inteligentes, batalhas PvP e sistema SRS. De iniciante a JLPT N1.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/pt/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_PT">
+    <meta property="og:site_name" content="Kanjidon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanjidon - Kanji Flashcards">
+    <meta name="twitter:description" content="O app que revoluciona a forma de aprender kanji japoneses. Quizzes inteligentes, batalhas PvP e sistema SRS. De iniciante a JLPT N1.">
+    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Schema.org - App -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Kanjidon",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR"
+        },
+        "description": "App para aprender kanji japones com flashcards, quizzes interativos, batalhas PvP e sistema SRS. Cobre todos os niveis JLPT de N5 a N1.",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "500"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "inLanguage": ["it", "en", "fr", "es", "de", "pt", "ru", "ko", "zh", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil"]
+    }
+    </script>
+
+    <!-- Schema.org - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kanjidon",
+        "url": "https://kanjidon.com",
+        "logo": "https://kanjidon.com/assets/images/icona.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@kanjidon.com",
+            "contactType": "customer support",
+            "availableLanguage": ["Italian", "English"]
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IT"
+        },
+        "vatID": "IT01691020083"
+    }
+    </script>
+
+    <!-- Schema.org - FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "O que e Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon e um app gratuito para aprender kanji japones com flashcards, quizzes interativos, batalhas PvP e um sistema de repeticao espacada (SRS) que te ajuda a memorizar de forma eficaz. Cobre todos os niveis JLPT de N5 a N1 com mais de 5000 kanji."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "O Kanjidon e gratuito?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim! Podes usar o Kanjidon gratuitamente com todas as funcoes basicas. A assinatura Kanjidon Pass desbloqueia conteudo extra, 6 cartas por pacote, quizzes ilimitados e remove a publicidade."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "O que e o JLPT e que niveis o Kanjidon cobre?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O JLPT (Japanese Language Proficiency Test) e o exame oficial de japones. O Kanjidon cobre todos os niveis: Kana (hiragana e katakana), N5 (iniciante), N4, N3, N2 ate N1 (avancado), com mais de 5000 flashcards de kanji."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Como funciona o sistema SRS do Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O Kanjidon usa o algoritmo SM-2, um sistema de repeticao espacada cientificamente validado. Os kanji sao apresentados em intervalos otimos para memorizacao: se responderes corretamente, o intervalo aumenta; se errares, diminui para consolidar a memoria."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Posso usar o Kanjidon offline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim, os quizzes e o estudo de flashcards funcionam offline. As batalhas PvP e a sincronizacao na nuvem requerem conexao com a internet."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Em que idiomas o Kanjidon esta disponivel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O Kanjidon suporta 21 idiomas: italiano, ingles, frances, espanhol, alemao, portugues, russo, tailandes, indonesio, arabe, chines, coreano, hindi, turco, vietnamita, persa, polones, filipino e malaio."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/pt/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon - Aprende Kanji" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Funcoes</a>
+                <a href="#faq">FAQ</a>
+                <a href="#download" class="btn btn-primary btn-sm"><strong>Baixar Gratis</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Coleciona os Kanji.<br><span class="text-primary">Todos.</span></h1>
+                <p class="hero-subtitle">Abre pacotes, completa a tua colecao e aprende enquanto te divertes. Quizzes inteligentes, desafios multijogador, objetivos diarios e licoes interativas. Do nivel iniciante ate ao JLPT N1.</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary btn-lg"><strong>Baixar gratis</strong></a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">Flashcards Kanji</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Tipos de Quiz</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">N5-N1</span>
+                        <span class="stat-label">JLPT</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-label">Licoes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-phone floating">
+                    <img src="../assets/images/IMG_5863-portrait.webp" alt="App Kanjidon - Captura de tela">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="rating-section">
+        <div class="container">
+            <div class="rating-showcase reveal-on-scroll">
+                <div class="rating-laurel">
+                    <img src="../assets/images/laurel-wreath.png" alt="Avaliacao App Store" class="rating-laurel-img">
+                    <span class="rating-score">4.8</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Como Funciona</h2>
+            <div class="steps-with-phones">
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5865-portrait.webp" alt="Abrir pacotes Kanjidon" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <h3>Abre os Pacotes</h3>
+                        <p>Abre pacotes e coleciona Flashcards com designs unicos. Cada carta tem diferentes tipos e raridades, de 1 a 4 estrelas.</p>
+                    </div>
+                </div>
+                <div class="step-row step-row-reverse">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5868-portrait.webp" alt="Quiz SRS Kanjidon" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <h3>Estuda com os Quizzes</h3>
+                        <p>O algoritmo SRS apresenta-te os kanji no momento certo. 10 minutos por dia sao suficientes para um progresso real.</p>
+                    </div>
+                </div>
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5869-portrait.webp" alt="Batalhas PvP Kanjidon" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <h3>Desafia e Melhora</h3>
+                        <p>Batalhas PvP, rankings por Liga, missoes e sequencias. Todos os dias uma razao para voltar e aprender.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Porque Escolher Kanjidon?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>Flashcards Kanji</h3>
+                    <p>Mais de 5000 cartas colecionaveis com designs unicos. Cada kanji inclui significado, leituras on/kun e frases de exemplo. Abre, coleciona, aprende.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Quizzes Inteligentes com SRS</h3>
+                    <p>8 modos de quiz diferentes com o algoritmo SM-2. Cada sessao adapta-se ao teu nivel e o SRS apresenta os kanji no momento otimo para uma memorizacao real.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="6" x2="10" y1="12" y2="12"/>
+                            <line x1="8" x2="8" y1="10" y2="14"/>
+                            <line x1="15" x2="15.01" y1="13" y2="13"/>
+                            <line x1="18" x2="18.01" y1="11" y2="11"/>
+                            <rect width="20" height="12" x="2" y="6" rx="2"/>
+                        </svg>
+                    </div>
+                    <h3>Batalhas PvP</h3>
+                    <p>Desafia outros jogadores em tempo real. Sobe no ranking do nivel E ate ao lendario nivel S. Power-ups, sequencias e recompensas XP.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>Todos os Niveis JLPT</h3>
+                    <p>Desde hiragana e katakana ate aos kanji mais avancados. Prepara-te para o exame com Flashcards organizadas por nivel: N5, N4, N3, N2, N1.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3>Gamificacao Completa</h3>
+                    <p>50 niveis, moedas Tama, avatares exclusivos, missoes diarias, selos colecionaveis e sequencias com bonus. Aprender nunca foi tao envolvente.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>21 Idiomas Suportados</h3>
+                    <p>Italiano, ingles, frances, espanhol, alemao, portugues, russo, coreano, chines, arabe, hindi, tailandes e muitos mais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Showcase -->
+    <section class="collection-showcase">
+        <div class="container">
+            <h2 class="section-title">Coleciona Cartas Unicas</h2>
+
+            <!-- Floating Cards Display -->
+            <div class="cards-display reveal-on-scroll">
+                <div class="floating-card card-1">
+                    <img src="../assets/images/Carta_20260110_155446.webp" alt="Carta Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-2">
+                    <img src="../assets/images/Carta_20260110_155504.webp" alt="Carta Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-3">
+                    <img src="../assets/images/Carta_20260110_155555.webp" alt="Carta Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-4">
+                    <img src="../assets/images/Carta_20260110_155623.webp" alt="Carta Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-5">
+                    <img src="../assets/images/Carta_20260110_155642.webp" alt="Carta Kanji" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Packs Display -->
+            <div class="packs-display reveal-on-scroll">
+                <p class="packs-label">Pacotes para cada nivel JLPT</p>
+                <div class="packs-row">
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n5_2.webp" alt="Pacote N5" loading="lazy">
+                        <span>N5</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n4_1.webp" alt="Pacote N4" loading="lazy">
+                        <span>N4</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n3_2.webp" alt="Pacote N3" loading="lazy">
+                        <span>N3</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n2_1.webp" alt="Pacote N2" loading="lazy">
+                        <span>N2</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n1_1.webp" alt="Pacote N1" loading="lazy">
+                        <span>N1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container download-content">
+            <h2 class="section-title">Comeca Agora, Gratis</h2>
+            <p class="download-subtitle">Disponivel no iOS e Android. Nenhum cartao necessario para comecar.</p>
+            <div class="store-badges">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/app-store-badge.svg" alt="Baixar Kanjidon na App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/google-play-badge.svg" alt="Baixar Kanjidon no Google Play">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>O que e Kanjidon?</summary>
+                    <p>Kanjidon transforma o estudo de kanji numa aventura epica, onde cada simbolo e uma carta para colecionar e cada quiz um desafio a vencer. E um app que combina gamificacao e aprendizagem, com um sistema de repeticao espacada (SRS) que fixa os kanji na tua memoria a longo prazo. Abre pacotes, enfrenta quizzes dinamicos, segue licoes e acompanha o teu progresso com estatisticas detalhadas.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>O app e gratuito?</summary>
+                    <p>Sim! Podes usar o Kanjidon gratuitamente com todas as funcoes basicas. Os utilizadores gratuitos podem abrir ate 3 pacotes por dia e aceder ao quiz "Decide" de forma ilimitada. A assinatura Kanjidon Pass desbloqueia 6 cartas por pacote, quizzes ilimitados, todas as licoes de gramatica, pronuncia audio e remove a publicidade.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>O que e o JLPT e que niveis o Kanjidon cobre?</summary>
+                    <p>O JLPT (Japanese Language Proficiency Test) e o exame oficial para certificar competencias em japones. Esta dividido em 5 niveis: N5 (iniciante) ate N1 (avancado). O Kanjidon cobre todos os niveis com mais de 5000 flashcards de kanji, incluindo cartas Kana para quem comeca do zero com hiragana e katakana.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Como funciona o sistema SRS?</summary>
+                    <p>O Kanjidon usa o algoritmo SM-2, um sistema de repeticao espacada cientificamente validado. Baseia-se em decadas de pesquisa em neurociencia: cada kanji tem uma pontuacao que se adapta a tua aprendizagem. Se responderes corretamente, sera apresentado novamente apos intervalos cada vez mais longos. Se errares, o intervalo encurta para consolidar a memoria.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>O que sao as Batalhas PvP?</summary>
+                    <p>As Batalhas sao desafios em tempo real contra outros jogadores. Podes desafiar um amigo localmente, um jogador aleatorio online ou enfrentar uma CPU. Cada batalha tem 15 perguntas sobre leituras on, kun e significados. Ganha para subir de Nivel (de E a S) e ganhar XP para o Ranking da tua Liga.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Posso usar o app offline?</summary>
+                    <p>Sim, os quizzes e o estudo de flashcards funcionam 100% offline. As batalhas PvP, a sincronizacao na nuvem e as funcoes sociais requerem conexao com a internet.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Em que idiomas o Kanjidon esta disponivel?</summary>
+                    <p>O Kanjidon suporta 21 idiomas: italiano, ingles, frances, espanhol, alemao, portugues, russo, tailandes, indonesio, arabe, chines (simplificado e tradicional), coreano, hindi, turco, vietnamita, persa, polones, filipino e malaio.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Como funciona a Sequencia?</summary>
+                    <p>A Sequencia conta quantos dias consecutivos abres o Kanjidon. Quanto mais alta, mais Tama bonus recebes por dia (de 7 ate 50 Tama). Os utilizadores Premium recebem o dobro. Alcanca marcos como 30, 60 ou 365 dias para desbloquear Escudos que protegem a tua Sequencia se faltares um dia.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Learn Japanese kanji by playing.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service (EULA)</a>
+                    <a href="/delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="/support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="language-name">English</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/en/" class="language-option active">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Francais
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Espanol
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Portugues
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Russkij
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> Hangugeo
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> Zhongwen
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> Zhongwen (Traditional)
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> Alarabiya
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> Hindi
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> Thai
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tieng Viet
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Turkce
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> Farsi
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Banner (informational only - no cookies used) -->
+    <div class="privacy-banner" id="privacyBanner">
+        <div class="privacy-banner-content">
+            <p>Este site nao utiliza cookies de rastreamento. <a href="/privacy">Privacy Policy</a></p>
+            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Fechar">OK</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Scroll Reveal Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+            // Privacy Banner
+            if (!localStorage.getItem('privacyBannerDismissed')) {
+                document.getElementById('privacyBanner').classList.add('visible');
+            }
+        });
+
+        function closePrivacyBanner() {
+            document.getElementById('privacyBanner').classList.remove('visible');
+            localStorage.setItem('privacyBannerDismissed', 'true');
+        }
+    </script>
+
+    <!-- Sticky Download Bar -->
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Sticky Download Bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const downloadSection = document.getElementById('download');
+            const footer = document.querySelector('.footer');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

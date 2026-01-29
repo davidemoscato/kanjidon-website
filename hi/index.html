@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload (reduces FOUT - Flash of Unstyled Text) -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- SEO Primary -->
+    <title>Kanjidon - Kanji Flashcards</title>
+    <meta name="description" content="तुरंत कांजी फ्लैशकार्ड। Kanjidon के साथ कांजी याद करो।">
+    <meta name="keywords" content="कांजी, कांजी फ्लैशकार्ड, कांजी कार्ड, कांजी सीखो, jlpt n5, jlpt n4, n3, n2, n1, jlpt कांजी, n5 कांजी, srs कांजी">
+    <meta name="author" content="Kanjidon - Davide Moscato">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/hi/">
+
+    <!-- Alternate languages for SEO -->
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/en/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/en/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kanjidon - Kanji Flashcards">
+    <meta property="og:description" content="तुरंत कांजी फ्लैशकार्ड। Kanjidon के साथ कांजी याद करो।">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/hi/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="hi_IN">
+    <meta property="og:site_name" content="Kanjidon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanjidon - Kanji Flashcards">
+    <meta name="twitter:description" content="तुरंत कांजी फ्लैशकार्ड। Kanjidon के साथ कांजी याद करो।">
+    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Fonts: Self-hosted for GDPR compliance -->
+
+    <!-- Schema.org - App -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Kanjidon",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "INR"
+        },
+        "description": "फ्लैशकार्ड, इंटरैक्टिव क्विज़, PvP बैटल और SRS सिस्टम के ज़रिए जापानी कांजी सीखने का ऐप। N5 से N1 तक सभी JLPT लेवल कवर करता है।",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "500"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "inLanguage": ["it", "en", "fr", "es", "de", "pt", "ru", "ko", "zh", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil"]
+    }
+    </script>
+
+    <!-- Schema.org - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kanjidon",
+        "url": "https://kanjidon.com",
+        "logo": "https://kanjidon.com/assets/images/icona.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@kanjidon.com",
+            "contactType": "customer support",
+            "availableLanguage": ["Italian", "English"]
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IT"
+        },
+        "vatID": "IT01691020083"
+    }
+    </script>
+
+    <!-- Schema.org - FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Kanjidon क्या है?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon जापानी कांजी सीखने के लिए एक मुफ्त ऐप है जो फ्लैशकार्ड, इंटरैक्टिव क्विज़, PvP बैटल और स्पेस्ड रिपीटिशन सिस्टम (SRS) का इस्तेमाल करता है। N5 से N1 तक सभी JLPT लेवल कवर करता है, 5000 से ज़्यादा कांजी के साथ।"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "क्या Kanjidon मुफ्त है?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "हां! तुम Kanjidon को सभी बेसिक फीचर्स के साथ मुफ्त में इस्तेमाल कर सकते हो। Kanjidon Pass सब्सक्रिप्शन से एक्स्ट्रा कंटेंट, हर पैक में 6 कार्ड, अनलिमिटेड क्विज़ और एड्स हट जाते हैं।"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "JLPT क्या है और Kanjidon किन लेवल को कवर करता है?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JLPT (Japanese Language Proficiency Test) जापानी भाषा की ऑफिशियल परीक्षा है। Kanjidon सभी लेवल कवर करता है: काना (हिरागाना और कटाकाना), N5 (बिगिनर), N4, N3, N2 से N1 (एडवांस्ड), 5000 से ज़्यादा कांजी फ्लैशकार्ड के साथ।"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kanjidon का SRS सिस्टम कैसे काम करता है?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon SM-2 अल्गोरिदम का इस्तेमाल करता है, जो वैज्ञानिक रूप से प्रमाणित स्पेस्ड रिपीटिशन सिस्टम है। कांजी सही समय पर दिखाई जाती है: अगर तुम सही जवाब दो तो इंटरवल बढ़ता है; अगर गलत हो तो मेमोरी मजबूत करने के लिए कम होता है।"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "क्या मैं Kanjidon ऑफलाइन इस्तेमाल कर सकता हूं?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "हां, क्विज़ और फ्लैशकार्ड स्टडी ऑफलाइन काम करते हैं। PvP बैटल और क्लाउड सिंक के लिए इंटरनेट चाहिए।"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kanjidon किन भाषाओं में उपलब्ध है?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon 21 भाषाओं में उपलब्ध है: इटालियन, इंग्लिश, फ्रेंच, स्पैनिश, जर्मन, पुर्तगाली, रशियन, थाई, इंडोनेशियन, अरबी, चीनी, कोरियन, हिंदी, तुर्की, वियतनामी, फारसी, पोलिश, फिलिपिनो और मलय।"
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/hi/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon - कांजी सीखने का ऐप" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">फीचर्स</a>
+                <a href="#faq">FAQ</a>
+                <a href="#download" class="btn btn-primary btn-sm"><strong>मुफ्त डाउनलोड</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>कांजी इकट्ठा करो।<br><span class="text-primary">सब के सब।</span></h1>
+                <p class="hero-subtitle">पैक खोलो, अपना कलेक्शन पूरा करो, और मज़े से सीखो। स्मार्ट क्विज़, मल्टीप्लेयर चैलेंज, डेली गोल्स और इंटरैक्टिव लेसन। बिगिनर लेवल से JLPT N1 तक।</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary btn-lg"><strong>मुफ्त डाउनलोड</strong></a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">कांजी फ्लैशकार्ड</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">क्विज़ टाइप</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">N5-N1</span>
+                        <span class="stat-label">JLPT</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-label">लेसन</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-phone floating">
+                    <img src="../assets/images/IMG_5863-portrait.webp" alt="Kanjidon ऐप - होमपेज स्क्रीनशॉट">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="rating-section">
+        <div class="container">
+            <div class="rating-showcase reveal-on-scroll">
+                <div class="rating-laurel">
+                    <img src="../assets/images/laurel-wreath.png" alt="App Store रेटिंग" class="rating-laurel-img">
+                    <span class="rating-score">4.8</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">कैसे काम करता है</h2>
+            <div class="steps-with-phones">
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5865-portrait.webp" alt="Kanjidon कार्ड पैक खोलो" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <h3>कार्ड पैक खोलो</h3>
+                        <p>पैक खोलो और यूनिक डिज़ाइन वाले फ्लैशकार्ड इकट्ठा करो। हर कार्ड की अलग-अलग टाइप और रेरिटी होती है, 1 से 4 स्टार तक।</p>
+                    </div>
+                </div>
+                <div class="step-row step-row-reverse">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5868-portrait.webp" alt="Kanjidon SRS क्विज़" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <h3>क्विज़ से पढ़ो</h3>
+                        <p>SRS अल्गोरिदम कांजी को सही समय पर दिखाता है। रोज़ 10 मिनट काफी हैं असली प्रोग्रेस के लिए।</p>
+                    </div>
+                </div>
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5869-portrait.webp" alt="Kanjidon PvP बैटल" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <h3>चैलेंज करो और बढ़ो</h3>
+                        <p>PvP बैटल, लीग रैंकिंग, मिशन और स्ट्रीक। हर दिन वापस आने और सीखने की एक वजह।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Kanjidon क्यों चुनो?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>कांजी फ्लैशकार्ड</h3>
+                    <p>5000 से ज़्यादा कलेक्टिबल कार्ड यूनिक डिज़ाइन के साथ। हर कांजी में मीनिंग, ऑन/कुन रीडिंग और उदाहरण वाक्य। खोलो, इकट्ठा करो, सीखो।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>SRS के साथ स्मार्ट क्विज़</h3>
+                    <p>SM-2 अल्गोरिदम के साथ 8 अलग-अलग क्विज़ मोड। हर सेशन तुम्हारे लेवल के हिसाब से एडजस्ट होता है और SRS कांजी को सही समय पर दिखाता है।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="6" x2="10" y1="12" y2="12"/>
+                            <line x1="8" x2="8" y1="10" y2="14"/>
+                            <line x1="15" x2="15.01" y1="13" y2="13"/>
+                            <line x1="18" x2="18.01" y1="11" y2="11"/>
+                            <rect width="20" height="12" x="2" y="6" rx="2"/>
+                        </svg>
+                    </div>
+                    <h3>PvP बैटल</h3>
+                    <p>रियल टाइम में दूसरे प्लेयर्स को चैलेंज करो। E रैंक से लीजेंडरी S रैंक तक पहुंचो। पावर-अप्स, स्ट्रीक और XP रिवॉर्ड।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>सभी JLPT लेवल</h3>
+                    <p>हिरागाना, कटाकाना से लेकर सबसे एडवांस्ड कांजी तक। लेवल के हिसाब से फ्लैशकार्ड से एग्जाम की तैयारी करो: N5, N4, N3, N2, N1।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3>पूरी गेमिफिकेशन</h3>
+                    <p>50 लेवल, तामा कॉइन, एक्सक्लूसिव अवतार, डेली मिशन, कलेक्टिबल स्टैम्प और बोनस वाली स्ट्रीक। सीखना कभी इतना मज़ेदार नहीं था।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>21 भाषाओं में उपलब्ध</h3>
+                    <p>इटालियन, इंग्लिश, फ्रेंच, स्पैनिश, जर्मन, पुर्तगाली, रशियन, कोरियन, चीनी, अरबी, हिंदी, थाई और कई और।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Showcase -->
+    <section class="collection-showcase">
+        <div class="container">
+            <h2 class="section-title">यूनिक कार्ड इकट्ठा करो</h2>
+
+            <!-- Floating Cards Display -->
+            <div class="cards-display reveal-on-scroll">
+                <div class="floating-card card-1">
+                    <img src="../assets/images/Carta_20260110_155446.webp" alt="कांजी कार्ड" loading="lazy">
+                </div>
+                <div class="floating-card card-2">
+                    <img src="../assets/images/Carta_20260110_155504.webp" alt="कांजी कार्ड" loading="lazy">
+                </div>
+                <div class="floating-card card-3">
+                    <img src="../assets/images/Carta_20260110_155555.webp" alt="कांजी कार्ड" loading="lazy">
+                </div>
+                <div class="floating-card card-4">
+                    <img src="../assets/images/Carta_20260110_155623.webp" alt="कांजी कार्ड" loading="lazy">
+                </div>
+                <div class="floating-card card-5">
+                    <img src="../assets/images/Carta_20260110_155642.webp" alt="कांजी कार्ड" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Packs Display -->
+            <div class="packs-display reveal-on-scroll">
+                <p class="packs-label">हर JLPT लेवल के लिए पैक</p>
+                <div class="packs-row">
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n5_2.webp" alt="N5 पैक" loading="lazy">
+                        <span>N5</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n4_1.webp" alt="N4 पैक" loading="lazy">
+                        <span>N4</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n3_2.webp" alt="N3 पैक" loading="lazy">
+                        <span>N3</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n2_1.webp" alt="N2 पैक" loading="lazy">
+                        <span>N2</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n1_1.webp" alt="N1 पैक" loading="lazy">
+                        <span>N1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container download-content">
+            <h2 class="section-title">अभी शुरू करो, मुफ्त</h2>
+            <p class="download-subtitle">iOS और Android पर उपलब्ध। शुरू करने के लिए क्रेडिट कार्ड की ज़रूरत नहीं।</p>
+            <div class="store-badges">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/app-store-badge.svg" alt="App Store से Kanjidon डाउनलोड करो">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/google-play-badge.svg" alt="Google Play से Kanjidon डाउनलोड करो">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">अक्सर पूछे जाने वाले सवाल</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>Kanjidon क्या है?</summary>
+                    <p>Kanjidon कांजी पढ़ाई को एक एपिक एडवेंचर में बदल देता है, जहां हर सिंबल एक कार्ड है जिसे इकट्ठा करना है और हर क्विज़ जीतने का चैलेंज। यह एक ऐप है जो गेमिफिकेशन और लर्निंग को जोड़ता है, स्पेस्ड रिपीटिशन सिस्टम (SRS) के साथ जो कांजी को तुम्हारी लॉन्ग-टर्म मेमोरी में लॉक कर देता है। पैक खोलो, डायनामिक क्विज़ से जूझो, लेसन फॉलो करो और डीटेल्ड स्टैटिस्टिक्स से अपनी प्रोग्रेस ट्रैक करो।</p>
+                </details>
+                <details class="faq-item">
+                    <summary>क्या ऐप मुफ्त है?</summary>
+                    <p>हां! तुम Kanjidon को सभी बेसिक फीचर्स के साथ मुफ्त इस्तेमाल कर सकते हो। फ्री यूज़र्स रोज़ 3 पैक तक खोल सकते हैं और "डिसाइड" क्विज़ अनलिमिटेड बार एक्सेस कर सकते हैं। Kanjidon Pass सब्सक्रिप्शन से हर पैक में 6 कार्ड, अनलिमिटेड क्विज़, सभी ग्रामर लेसन, ऑडियो प्रोनंसिएशन मिलता है और एड्स हट जाते हैं।</p>
+                </details>
+                <details class="faq-item">
+                    <summary>JLPT क्या है और Kanjidon किन लेवल को कवर करता है?</summary>
+                    <p>JLPT (Japanese Language Proficiency Test) जापानी भाषा की स्किल्स को सर्टिफाई करने की ऑफिशियल परीक्षा है। इसमें 5 लेवल हैं: N5 (बिगिनर) से N1 (एडवांस्ड)। Kanjidon सभी लेवल कवर करता है 5000 से ज़्यादा कांजी फ्लैशकार्ड के साथ, साथ ही काना कार्ड उनके लिए जो हिरागाना और कटाकाना से शुरू कर रहे हैं।</p>
+                </details>
+                <details class="faq-item">
+                    <summary>SRS सिस्टम कैसे काम करता है?</summary>
+                    <p>Kanjidon SM-2 अल्गोरिदम का इस्तेमाल करता है, जो वैज्ञानिक रूप से वैलिडेटेड स्पेस्ड रिपीटिशन सिस्टम है। यह दशकों की न्यूरोसाइंस रिसर्च पर बेस्ड है: हर कांजी का एक स्कोर होता है जो तुम्हारी लर्निंग के हिसाब से एडजस्ट होता है। अगर तुम सही जवाब दो तो यह धीरे-धीरे बढ़ते इंटरवल के बाद फिर दिखेगा। अगर गलत करो तो मेमोरी मजबूत करने के लिए इंटरवल कम हो जाता है।</p>
+                </details>
+                <details class="faq-item">
+                    <summary>PvP बैटल क्या हैं?</summary>
+                    <p>बैटल दूसरे प्लेयर्स के खिलाफ रियल-टाइम चैलेंज हैं। तुम किसी दोस्त को लोकली चैलेंज कर सकते हो, रैंडम ऑनलाइन प्लेयर को, या CPU से खेल सकते हो। हर बैटल में ऑन रीडिंग, कुन रीडिंग और मीनिंग पर 15 सवाल होते हैं। जीतो और रैंक्स में ऊपर जाओ (E से S) और लीग लीडरबोर्ड के लिए XP कमाओ।</p>
+                </details>
+                <details class="faq-item">
+                    <summary>क्या मैं ऐप ऑफलाइन इस्तेमाल कर सकता हूं?</summary>
+                    <p>हां, क्विज़ और फ्लैशकार्ड स्टडी 100% ऑफलाइन काम करते हैं। PvP बैटल, क्लाउड सिंक और सोशल फीचर्स के लिए इंटरनेट कनेक्शन चाहिए।</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Kanjidon किन भाषाओं में उपलब्ध है?</summary>
+                    <p>Kanjidon 21 भाषाओं में उपलब्ध है: इटालियन, इंग्लिश, फ्रेंच, स्पैनिश, जर्मन, पुर्तगाली, रशियन, थाई, इंडोनेशियन, अरबी, चीनी (सिंप्लिफाइड और ट्रेडिशनल), कोरियन, हिंदी, तुर्की, वियतनामी, फारसी, पोलिश, फिलिपिनो और मलय।</p>
+                </details>
+                <details class="faq-item">
+                    <summary>स्ट्रीक कैसे काम करती है?</summary>
+                    <p>स्ट्रीक काउंट करती है कि तुमने कितने लगातार दिन Kanjidon खोला। जितनी ज़्यादा हो, उतना ज़्यादा बोनस तामा रोज़ मिलता है (7 से 50 तामा तक)। प्रीमियम यूज़र्स को डबल मिलता है। 30, 60 या 365 दिन जैसे माइलस्टोन पूरे करो और शील्ड अनलॉक करो जो एक दिन छूटने पर तुम्हारी स्ट्रीक बचाती है।</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Learn Japanese kanji by playing.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service (EULA)</a>
+                    <a href="/delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="/support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="language-name">English</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/en/" class="language-option active">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Francais
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Espanol
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Portugues
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Russkij
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> Hangugeo
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> Zhongwen
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> Zhongwen (Traditional)
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> Alarabiya
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> Hindi
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> Thai
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tieng Viet
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Turkce
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> Farsi
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Banner (informational only - no cookies used) -->
+    <div class="privacy-banner" id="privacyBanner">
+        <div class="privacy-banner-content">
+            <p>यह साइट प्रोफाइलिंग कुकीज़ का इस्तेमाल नहीं करती। <a href="/privacy">प्राइवेसी पॉलिसी</a></p>
+            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="बंद करो">ठीक है</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Scroll Reveal Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+            // Privacy Banner
+            if (!localStorage.getItem('privacyBannerDismissed')) {
+                document.getElementById('privacyBanner').classList.add('visible');
+            }
+        });
+
+        function closePrivacyBanner() {
+            document.getElementById('privacyBanner').classList.remove('visible');
+            localStorage.setItem('privacyBannerDismissed', 'true');
+        }
+    </script>
+
+    <!-- Sticky Download Bar -->
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Sticky Download Bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const downloadSection = document.getElementById('download');
+            const footer = document.querySelector('.footer');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

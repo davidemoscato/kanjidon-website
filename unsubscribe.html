@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Unsubscribe - Kanjidon</title>
+    <meta name="description" content="Unsubscribe from Kanjidon marketing emails.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://kanjidon.com/unsubscribe">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/icona.png">
+    <link rel="apple-touch-icon" href="assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .unsubscribe-container {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .unsubscribe-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            margin-bottom: 24px;
+        }
+
+        .unsubscribe-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1C1C1E;
+            margin-bottom: 16px;
+        }
+
+        .unsubscribe-message {
+            font-size: 16px;
+            color: #5C5C5C;
+            line-height: 1.6;
+            max-width: 480px;
+            margin-bottom: 32px;
+        }
+
+        .unsubscribe-status {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .status-loading {
+            background: #FFF5ED;
+            color: #DE6A35;
+        }
+
+        .status-success {
+            background: #E8F5E9;
+            color: #2E7D32;
+        }
+
+        .status-error {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+
+        .status-already {
+            background: #E3F2FD;
+            color: #1565C0;
+        }
+
+        .loader {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #DE6A35;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .back-link {
+            margin-top: 24px;
+            color: #DE6A35;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Hide elements by state */
+        [data-state="loading"] .show-success,
+        [data-state="loading"] .show-error,
+        [data-state="loading"] .show-already,
+        [data-state="success"] .show-loading,
+        [data-state="success"] .show-error,
+        [data-state="success"] .show-already,
+        [data-state="error"] .show-loading,
+        [data-state="error"] .show-success,
+        [data-state="error"] .show-already,
+        [data-state="already"] .show-loading,
+        [data-state="already"] .show-success,
+        [data-state="already"] .show-error {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/" class="logo">
+                <img src="assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/">Home</a>
+                <a href="/support.html">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Unsubscribe Content -->
+    <main class="unsubscribe-container" data-state="loading" id="main-content">
+        <img src="assets/images/icona.png" alt="Kanjidon" class="unsubscribe-icon">
+
+        <!-- Loading State -->
+        <h1 class="unsubscribe-title show-loading">Processing...</h1>
+        <p class="unsubscribe-message show-loading">Please wait while we process your unsubscribe request.</p>
+        <span class="unsubscribe-status status-loading show-loading">
+            <span class="loader"></span>Processing
+        </span>
+
+        <!-- Success State -->
+        <h1 class="unsubscribe-title show-success">Unsubscribed</h1>
+        <p class="unsubscribe-message show-success">You have been successfully unsubscribed from Kanjidon marketing emails. You will no longer receive our welcome series or promotional emails.</p>
+        <span class="unsubscribe-status status-success show-success">Unsubscribed</span>
+
+        <!-- Already Unsubscribed State -->
+        <h1 class="unsubscribe-title show-already">Already Unsubscribed</h1>
+        <p class="unsubscribe-message show-already">You were already unsubscribed from Kanjidon marketing emails. No action needed.</p>
+        <span class="unsubscribe-status status-already show-already">Already Unsubscribed</span>
+
+        <!-- Error State -->
+        <h1 class="unsubscribe-title show-error">Something Went Wrong</h1>
+        <p class="unsubscribe-message show-error" id="error-message">We couldn't process your unsubscribe request. The link may be invalid or expired.</p>
+        <span class="unsubscribe-status status-error show-error">Error</span>
+
+        <a href="/" class="back-link">Back to Kanjidon</a>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="./assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Learn Japanese kanji by playing.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service (EULA)</a>
+                    <a href="/delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="/support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="language-name">English</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/en/" class="language-option active">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Francais
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Espanol
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Portugues
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Russkij
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> Hangugeo
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> Zhongwen
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> Zhongwen (Traditional)
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> Alarabiya
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> Hindi
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> Thai
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tieng Viet
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Turkce
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> Farsi
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Supabase Edge Function URL
+        const SUPABASE_URL = 'https://gjralasjbogndfzkcczc.supabase.co';
+        const FUNCTION_URL = `${SUPABASE_URL}/functions/v1/handle-email-unsubscribe`;
+
+        async function processUnsubscribe() {
+            const mainContent = document.getElementById('main-content');
+            const errorMessage = document.getElementById('error-message');
+
+            // Get token from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const token = urlParams.get('token');
+
+            if (!token) {
+                mainContent.dataset.state = 'error';
+                errorMessage.textContent = 'No unsubscribe token provided. Please use the link from your email.';
+                return;
+            }
+
+            try {
+                const response = await fetch(FUNCTION_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ token })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    if (data.message === 'already_unsubscribed') {
+                        mainContent.dataset.state = 'already';
+                    } else {
+                        mainContent.dataset.state = 'success';
+                    }
+                } else {
+                    mainContent.dataset.state = 'error';
+                    if (data.error === 'invalid_token') {
+                        errorMessage.textContent = 'Invalid or expired unsubscribe link. Please contact support if you need help.';
+                    } else {
+                        errorMessage.textContent = 'An error occurred. Please try again or contact support.';
+                    }
+                }
+            } catch (error) {
+                console.error('Unsubscribe error:', error);
+                mainContent.dataset.state = 'error';
+                errorMessage.textContent = 'Network error. Please check your connection and try again.';
+            }
+        }
+
+        // Process on page load
+        document.addEventListener('DOMContentLoaded', processUnsubscribe);
+    </script>
+</body>
+</html>

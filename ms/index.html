@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload (reduces FOUT - Flash of Unstyled Text) -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- SEO Primary -->
+    <title>Kanjidon - Kanji Flashcards</title>
+    <meta name="description" content="Kad Imbas Kanji Segera. Ingat kanji dengan Kanjidon.">
+    <meta name="keywords" content="kanji, kad imbas kanji, kad kanji, belajar kanji, jlpt n5, jlpt n4, n3, n2, n1, jlpt kanji, n5 kanji, srs kanji">
+    <meta name="author" content="Kanjidon - Davide Moscato">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ms/">
+
+    <!-- Alternate languages for SEO -->
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/en/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/en/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kanjidon - Kanji Flashcards">
+    <meta property="og:description" content="Kad Imbas Kanji Segera. Ingat kanji dengan Kanjidon.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ms/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ms_MY">
+    <meta property="og:site_name" content="Kanjidon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanjidon - Kanji Flashcards">
+    <meta name="twitter:description" content="Kad Imbas Kanji Segera. Ingat kanji dengan Kanjidon.">
+    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Fonts: Self-hosted for GDPR compliance -->
+
+    <!-- Schema.org - App -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Kanjidon",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "MYR"
+        },
+        "description": "Aplikasi untuk belajar kanji Jepun dengan kad imbas, kuiz interaktif, pertempuran PvP, dan sistem SRS. Meliputi semua tahap JLPT dari N5 hingga N1.",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "500"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "inLanguage": ["it", "en", "fr", "es", "de", "pt", "ru", "ko", "zh", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil"]
+    }
+    </script>
+
+    <!-- Schema.org - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kanjidon",
+        "url": "https://kanjidon.com",
+        "logo": "https://kanjidon.com/assets/images/icona.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@kanjidon.com",
+            "contactType": "customer support",
+            "availableLanguage": ["Italian", "English"]
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Davide Moscato"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IT"
+        },
+        "vatID": "IT01691020083"
+    }
+    </script>
+
+    <!-- Schema.org - FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Apa itu Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon adalah aplikasi percuma untuk belajar kanji Jepun melalui kad imbas, kuiz interaktif, pertempuran PvP, dan sistem pengulangan berjarak (SRS) yang membantu kamu menghafal dengan berkesan. Ia meliputi semua tahap JLPT dari N5 hingga N1 dengan lebih 5000 kanji."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Adakah Kanjidon percuma?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ya! Kamu boleh guna Kanjidon secara percuma dengan semua ciri asas. Langganan Kanjidon Pass membuka kandungan tambahan, 6 kad setiap pek, kuiz tanpa had, dan membuang iklan."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Apa itu JLPT dan tahap mana yang diliputi Kanjidon?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JLPT (Japanese Language Proficiency Test) adalah peperiksaan rasmi bahasa Jepun. Kanjidon meliputi semua tahap: Kana (hiragana dan katakana), N5 (permulaan), N4, N3, N2 hingga N1 (lanjutan), dengan lebih 5000 kad imbas kanji."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Bagaimana sistem SRS Kanjidon berfungsi?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon menggunakan algoritma SM-2, sistem pengulangan berjarak yang disahkan secara saintifik. Kanji dipersembahkan pada selang waktu optimum untuk hafalan: jika kamu jawab betul, selang waktu bertambah; jika kamu tersalah, ia dipendekkan untuk mengukuhkan ingatan."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Bolehkah saya guna Kanjidon secara luar talian?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ya, kuiz dan kajian kad imbas berfungsi secara luar talian. Pertempuran PvP dan penyegerakan awan memerlukan sambungan internet."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Dalam bahasa apa Kanjidon tersedia?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kanjidon menyokong 21 bahasa: Itali, Inggeris, Perancis, Sepanyol, Jerman, Portugis, Rusia, Thai, Indonesia, Arab, Cina, Korea, Hindi, Turki, Vietnam, Parsi, Poland, Filipina, dan Melayu."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ms/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon - Aplikasi Belajar Kanji" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Ciri-ciri</a>
+                <a href="#faq">Soalan Lazim</a>
+                <a href="#download" class="btn btn-primary btn-sm"><strong>Muat Turun Percuma</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Kumpul Kanji.<br><span class="text-primary">Semuanya.</span></h1>
+                <p class="hero-subtitle">Buka pek, lengkapkan koleksi kamu, dan belajar sambil berseronok. Kuiz pintar, cabaran berbilang pemain, matlamat harian, dan pelajaran interaktif. Dari tahap permulaan hingga JLPT N1.</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary btn-lg"><strong>Muat Turun Percuma</strong></a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">Kad Imbas Kanji</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Jenis Kuiz</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">N5-N1</span>
+                        <span class="stat-label">JLPT</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-label">Pelajaran</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-phone floating">
+                    <img src="../assets/images/IMG_5863-portrait.webp" alt="Aplikasi Kanjidon - Tangkapan Skrin Halaman Utama">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="rating-section">
+        <div class="container">
+            <div class="rating-showcase reveal-on-scroll">
+                <div class="rating-laurel">
+                    <img src="../assets/images/laurel-wreath.png" alt="Penilaian App Store" class="rating-laurel-img">
+                    <span class="rating-score">4.8</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Bagaimana Ia Berfungsi</h2>
+            <div class="steps-with-phones">
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5865-portrait.webp" alt="Buka pek kad Kanjidon" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <h3>Buka Pek Kad</h3>
+                        <p>Buka pek dan kumpul Kad Imbas dengan reka bentuk unik. Setiap kad mempunyai jenis dan kelangkaan berbeza, dari 1 hingga 4 bintang.</p>
+                    </div>
+                </div>
+                <div class="step-row step-row-reverse">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5868-portrait.webp" alt="Kuiz SRS Kanjidon" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <h3>Belajar dengan Kuiz</h3>
+                        <p>Algoritma SRS mempersembahkan kanji pada masa yang tepat. 10 minit sehari sudah cukup untuk kemajuan sebenar.</p>
+                    </div>
+                </div>
+                <div class="step-row">
+                    <div class="step-phone">
+                        <img src="../assets/images/IMG_5869-portrait.webp" alt="Pertempuran PvP Kanjidon" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <h3>Cabar dan Tingkatkan</h3>
+                        <p>Pertempuran PvP, kedudukan Liga, misi, dan streak. Setiap hari ada sebab untuk kembali dan belajar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Kenapa Pilih Kanjidon?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>Kad Imbas Kanji</h3>
+                    <p>Lebih 5000 kad boleh dikumpul dengan reka bentuk unik. Setiap kanji termasuk makna, bacaan on/kun, dan contoh ayat. Buka, kumpul, belajar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Kuiz Pintar dengan SRS</h3>
+                    <p>8 mod kuiz berbeza dengan algoritma SM-2. Setiap sesi menyesuaikan dengan tahap kamu dan SRS mempersembahkan kanji pada masa optimum untuk hafalan sebenar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="6" x2="10" y1="12" y2="12"/>
+                            <line x1="8" x2="8" y1="10" y2="14"/>
+                            <line x1="15" x2="15.01" y1="13" y2="13"/>
+                            <line x1="18" x2="18.01" y1="11" y2="11"/>
+                            <rect width="20" height="12" x="2" y="6" rx="2"/>
+                        </svg>
+                    </div>
+                    <h3>Pertempuran PvP</h3>
+                    <p>Cabar pemain lain secara langsung. Naik kedudukan dari pangkat E ke pangkat legenda S. Power-up, streak, dan ganjaran XP.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>Semua Tahap JLPT</h3>
+                    <p>Dari hiragana, katakana hingga kanji paling lanjutan. Sedia untuk peperiksaan dengan Kad Imbas disusun mengikut tahap: N5, N4, N3, N2, N1.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3>Gamifikasi Penuh</h3>
+                    <p>50 tahap, syiling Tama, avatar eksklusif, misi harian, setem boleh dikumpul, dan streak dengan bonus. Belajar tak pernah semenarik ini.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>21 Bahasa Disokong</h3>
+                    <p>Itali, Inggeris, Perancis, Sepanyol, Jerman, Portugis, Rusia, Korea, Cina, Arab, Hindi, Thai, dan banyak lagi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Showcase -->
+    <section class="collection-showcase">
+        <div class="container">
+            <h2 class="section-title">Kumpul Kad Unik</h2>
+
+            <!-- Floating Cards Display -->
+            <div class="cards-display reveal-on-scroll">
+                <div class="floating-card card-1">
+                    <img src="../assets/images/Carta_20260110_155446.webp" alt="Kad Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-2">
+                    <img src="../assets/images/Carta_20260110_155504.webp" alt="Kad Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-3">
+                    <img src="../assets/images/Carta_20260110_155555.webp" alt="Kad Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-4">
+                    <img src="../assets/images/Carta_20260110_155623.webp" alt="Kad Kanji" loading="lazy">
+                </div>
+                <div class="floating-card card-5">
+                    <img src="../assets/images/Carta_20260110_155642.webp" alt="Kad Kanji" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Packs Display -->
+            <div class="packs-display reveal-on-scroll">
+                <p class="packs-label">Pek untuk setiap tahap JLPT</p>
+                <div class="packs-row">
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n5_2.webp" alt="Pek N5" loading="lazy">
+                        <span>N5</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n4_1.webp" alt="Pek N4" loading="lazy">
+                        <span>N4</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n3_2.webp" alt="Pek N3" loading="lazy">
+                        <span>N3</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n2_1.webp" alt="Pek N2" loading="lazy">
+                        <span>N2</span>
+                    </div>
+                    <div class="pack-item">
+                        <img src="../assets/images/busta_n1_1.webp" alt="Pek N1" loading="lazy">
+                        <span>N1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container download-content">
+            <h2 class="section-title">Mula Sekarang, Percuma</h2>
+            <p class="download-subtitle">Tersedia di iOS dan Android. Tiada kad kredit diperlukan untuk bermula.</p>
+            <div class="store-badges">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/app-store-badge.svg" alt="Muat Turun Kanjidon di App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../assets/images/google-play-badge.svg" alt="Muat Turun Kanjidon di Google Play">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Soalan Lazim</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>Apa itu Kanjidon?</summary>
+                    <p>Kanjidon mengubah kajian kanji menjadi pengembaraan epik, di mana setiap simbol adalah kad untuk dikumpul dan setiap kuiz adalah cabaran untuk dimenangi. Ia adalah aplikasi yang menggabungkan gamifikasi dan pembelajaran, dengan sistem pengulangan berjarak (SRS) yang mengunci kanji ke dalam ingatan jangka panjang kamu. Buka pek, hadapi kuiz dinamik, ikuti pelajaran, dan jejak kemajuan kamu dengan statistik terperinci.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Adakah aplikasi ini percuma?</summary>
+                    <p>Ya! Kamu boleh guna Kanjidon secara percuma dengan semua ciri asas. Pengguna percuma boleh buka sehingga 3 pek sehari dan akses kuiz "Tentukan" tanpa had. Langganan Kanjidon Pass membuka 6 kad setiap pek, kuiz tanpa had, semua pelajaran tatabahasa, sebutan audio, dan membuang iklan.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Apa itu JLPT dan tahap mana yang diliputi Kanjidon?</summary>
+                    <p>JLPT (Japanese Language Proficiency Test) adalah peperiksaan rasmi untuk mengesahkan kemahiran bahasa Jepun. Ia dibahagikan kepada 5 tahap: N5 (permulaan) hingga N1 (lanjutan). Kanjidon meliputi semua tahap dengan lebih 5000 kad imbas kanji, termasuk kad Kana untuk mereka yang bermula dari sifar dengan hiragana dan katakana.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Bagaimana sistem SRS berfungsi?</summary>
+                    <p>Kanjidon menggunakan algoritma SM-2, sistem pengulangan berjarak yang disahkan secara saintifik. Ia berdasarkan dekad penyelidikan neurosains: setiap kanji mempunyai skor yang menyesuaikan dengan pembelajaran kamu. Jika kamu jawab betul, ia akan dipersembahkan semula selepas selang waktu yang semakin lama. Jika kamu tersalah, selang waktu dipendekkan untuk mengukuhkan ingatan.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Apa itu Pertempuran PvP?</summary>
+                    <p>Pertempuran adalah cabaran masa nyata melawan pemain lain. Kamu boleh cabar rakan secara tempatan, pemain rawak dalam talian, atau hadapi CPU. Setiap pertempuran mempunyai 15 soalan tentang bacaan on, bacaan kun, dan makna. Menang untuk naik Pangkat (dari E ke S) dan dapat XP untuk Kedudukan Liga kamu.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Bolehkah saya guna aplikasi secara luar talian?</summary>
+                    <p>Ya, kuiz dan kajian kad imbas berfungsi 100% secara luar talian. Pertempuran PvP, penyegerakan awan, dan ciri sosial memerlukan sambungan internet.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Dalam bahasa apa Kanjidon tersedia?</summary>
+                    <p>Kanjidon menyokong 21 bahasa: Itali, Inggeris, Perancis, Sepanyol, Jerman, Portugis, Rusia, Thai, Indonesia, Arab, Cina (Ringkas dan Tradisional), Korea, Hindi, Turki, Vietnam, Parsi, Poland, Filipina, dan Melayu.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Bagaimana Streak berfungsi?</summary>
+                    <p>Streak mengira berapa hari berturut-turut kamu buka Kanjidon. Semakin tinggi, semakin banyak bonus Tama yang kamu terima setiap hari (dari 7 hingga 50 Tama). Pengguna premium dapat berganda. Capai pencapaian seperti 30, 60, atau 365 hari untuk buka Perisai yang melindungi Streak kamu jika kamu terlepas sehari.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Learn Japanese kanji by playing.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service (EULA)</a>
+                    <a href="/delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="/support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="language-name">English</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/en/" class="language-option active">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Francais
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Espanol
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Portugues
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Russkij
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> Hangugeo
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> Zhongwen
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> Zhongwen (Traditional)
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> Alarabiya
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> Hindi
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> Thai
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tieng Viet
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Turkce
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> Farsi
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Banner (informational only - no cookies used) -->
+    <div class="privacy-banner" id="privacyBanner">
+        <div class="privacy-banner-content">
+            <p>Laman ini tidak menggunakan kuki pemprofilan. <a href="/privacy">Privacy Policy</a></p>
+            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Tutup">OK</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Scroll Reveal Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+            // Privacy Banner
+            if (!localStorage.getItem('privacyBannerDismissed')) {
+                document.getElementById('privacyBanner').classList.add('visible');
+            }
+        });
+
+        function closePrivacyBanner() {
+            document.getElementById('privacyBanner').classList.remove('visible');
+            localStorage.setItem('privacyBannerDismissed', 'true');
+        }
+    </script>
+
+    <!-- Sticky Download Bar -->
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Sticky Download Bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const downloadSection = document.getElementById('download');
+            const footer = document.querySelector('.footer');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>
