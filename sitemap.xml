@@ -4,71 +4,71 @@
 
     <!-- Homepage English (default) -->
     <url>
-        <loc>https://kanjidon.com/</loc>
+        <loc>https://www.kanjidon.com/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://www.kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://www.kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://www.kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://www.kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://www.kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://www.kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://www.kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://www.kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://www.kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://www.kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kanjidon.com/"/>
     </url>
 
     <!-- FAQ English (default) -->
     <url>
-        <loc>https://kanjidon.com/faq/</loc>
+        <loc>https://www.kanjidon.com/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/faq/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/faq/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/faq/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/faq/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/faq/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/faq/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/faq/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/faq/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/faq/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/faq/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/faq/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/faq/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/faq/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/faq/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/faq/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/faq/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/faq/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/faq/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/faq/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/faq/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.kanjidon.com/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.kanjidon.com/it/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.kanjidon.com/fr/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.kanjidon.com/es/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://www.kanjidon.com/de/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.kanjidon.com/pt/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.kanjidon.com/ru/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://www.kanjidon.com/ko/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.kanjidon.com/zh/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.kanjidon.com/zh-tw/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.kanjidon.com/ar/faq/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://www.kanjidon.com/hi/faq/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://www.kanjidon.com/th/faq/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://www.kanjidon.com/vi/faq/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://www.kanjidon.com/id/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://www.kanjidon.com/ms/faq/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.kanjidon.com/tr/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://www.kanjidon.com/pl/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://www.kanjidon.com/fa/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://www.kanjidon.com/fil/faq/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kanjidon.com/faq/"/>
     </url>
 
     <!-- Italian -->
     <url>
-        <loc>https://kanjidon.com/it/</loc>
+        <loc>https://www.kanjidon.com/it/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/it/faq/</loc>
+        <loc>https://www.kanjidon.com/it/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -76,13 +76,13 @@
 
     <!-- French -->
     <url>
-        <loc>https://kanjidon.com/fr/</loc>
+        <loc>https://www.kanjidon.com/fr/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fr/faq/</loc>
+        <loc>https://www.kanjidon.com/fr/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -90,13 +90,13 @@
 
     <!-- Spanish -->
     <url>
-        <loc>https://kanjidon.com/es/</loc>
+        <loc>https://www.kanjidon.com/es/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/es/faq/</loc>
+        <loc>https://www.kanjidon.com/es/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -104,13 +104,13 @@
 
     <!-- German -->
     <url>
-        <loc>https://kanjidon.com/de/</loc>
+        <loc>https://www.kanjidon.com/de/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/de/faq/</loc>
+        <loc>https://www.kanjidon.com/de/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -118,13 +118,13 @@
 
     <!-- Portuguese -->
     <url>
-        <loc>https://kanjidon.com/pt/</loc>
+        <loc>https://www.kanjidon.com/pt/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pt/faq/</loc>
+        <loc>https://www.kanjidon.com/pt/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -132,13 +132,13 @@
 
     <!-- Russian -->
     <url>
-        <loc>https://kanjidon.com/ru/</loc>
+        <loc>https://www.kanjidon.com/ru/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ru/faq/</loc>
+        <loc>https://www.kanjidon.com/ru/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -146,13 +146,13 @@
 
     <!-- Korean -->
     <url>
-        <loc>https://kanjidon.com/ko/</loc>
+        <loc>https://www.kanjidon.com/ko/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ko/faq/</loc>
+        <loc>https://www.kanjidon.com/ko/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -160,13 +160,13 @@
 
     <!-- Chinese Simplified -->
     <url>
-        <loc>https://kanjidon.com/zh/</loc>
+        <loc>https://www.kanjidon.com/zh/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh/faq/</loc>
+        <loc>https://www.kanjidon.com/zh/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -174,13 +174,13 @@
 
     <!-- Chinese Traditional -->
     <url>
-        <loc>https://kanjidon.com/zh-tw/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh-tw/faq/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -188,13 +188,13 @@
 
     <!-- Arabic -->
     <url>
-        <loc>https://kanjidon.com/ar/</loc>
+        <loc>https://www.kanjidon.com/ar/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/faq/</loc>
+        <loc>https://www.kanjidon.com/ar/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -202,13 +202,13 @@
 
     <!-- Hindi -->
     <url>
-        <loc>https://kanjidon.com/hi/</loc>
+        <loc>https://www.kanjidon.com/hi/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/faq/</loc>
+        <loc>https://www.kanjidon.com/hi/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -216,13 +216,13 @@
 
     <!-- Thai -->
     <url>
-        <loc>https://kanjidon.com/th/</loc>
+        <loc>https://www.kanjidon.com/th/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/faq/</loc>
+        <loc>https://www.kanjidon.com/th/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -230,13 +230,13 @@
 
     <!-- Vietnamese -->
     <url>
-        <loc>https://kanjidon.com/vi/</loc>
+        <loc>https://www.kanjidon.com/vi/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/faq/</loc>
+        <loc>https://www.kanjidon.com/vi/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -244,13 +244,13 @@
 
     <!-- Indonesian -->
     <url>
-        <loc>https://kanjidon.com/id/</loc>
+        <loc>https://www.kanjidon.com/id/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/faq/</loc>
+        <loc>https://www.kanjidon.com/id/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -258,13 +258,13 @@
 
     <!-- Malay -->
     <url>
-        <loc>https://kanjidon.com/ms/</loc>
+        <loc>https://www.kanjidon.com/ms/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/faq/</loc>
+        <loc>https://www.kanjidon.com/ms/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -272,13 +272,13 @@
 
     <!-- Turkish -->
     <url>
-        <loc>https://kanjidon.com/tr/</loc>
+        <loc>https://www.kanjidon.com/tr/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/faq/</loc>
+        <loc>https://www.kanjidon.com/tr/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -286,13 +286,13 @@
 
     <!-- Polish -->
     <url>
-        <loc>https://kanjidon.com/pl/</loc>
+        <loc>https://www.kanjidon.com/pl/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/faq/</loc>
+        <loc>https://www.kanjidon.com/pl/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -300,13 +300,13 @@
 
     <!-- Persian -->
     <url>
-        <loc>https://kanjidon.com/fa/</loc>
+        <loc>https://www.kanjidon.com/fa/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/faq/</loc>
+        <loc>https://www.kanjidon.com/fa/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -314,13 +314,13 @@
 
     <!-- Filipino -->
     <url>
-        <loc>https://kanjidon.com/fil/</loc>
+        <loc>https://www.kanjidon.com/fil/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/faq/</loc>
+        <loc>https://www.kanjidon.com/fil/faq/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -329,49 +329,49 @@
 
     <!-- Blog Pages -->
     <url>
-        <loc>https://kanjidon.com/blog/</loc>
+        <loc>https://www.kanjidon.com/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/blog/how-many-kanji-jlpt/</loc>
+        <loc>https://www.kanjidon.com/blog/how-many-kanji-jlpt/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/blog/hiragana-katakana-kanji-differences/</loc>
+        <loc>https://www.kanjidon.com/blog/hiragana-katakana-kanji-differences/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/blog/100-most-used-kanji/</loc>
+        <loc>https://www.kanjidon.com/blog/100-most-used-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -379,13 +379,13 @@
 
     <!-- WaniKani/Anki Alternative - Italian -->
     <url>
-        <loc>https://kanjidon.com/it/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/it/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/it/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/it/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -393,13 +393,13 @@
 
     <!-- WaniKani/Anki Alternative - French -->
     <url>
-        <loc>https://kanjidon.com/fr/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fr/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -407,13 +407,13 @@
 
     <!-- WaniKani/Anki Alternative - Spanish -->
     <url>
-        <loc>https://kanjidon.com/es/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/es/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/es/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/es/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -421,13 +421,13 @@
 
     <!-- WaniKani/Anki Alternative - German -->
     <url>
-        <loc>https://kanjidon.com/de/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/de/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/de/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/de/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -435,13 +435,13 @@
 
     <!-- WaniKani/Anki Alternative - Portuguese -->
     <url>
-        <loc>https://kanjidon.com/pt/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pt/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -449,13 +449,13 @@
 
     <!-- WaniKani/Anki Alternative - Russian -->
     <url>
-        <loc>https://kanjidon.com/ru/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ru/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -463,13 +463,13 @@
 
     <!-- WaniKani/Anki Alternative - Korean -->
     <url>
-        <loc>https://kanjidon.com/ko/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ko/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -477,13 +477,13 @@
 
     <!-- WaniKani/Anki Alternative - Chinese -->
     <url>
-        <loc>https://kanjidon.com/zh/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -491,13 +491,13 @@
 
     <!-- WaniKani/Anki Alternative - Turkish -->
     <url>
-        <loc>https://kanjidon.com/tr/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/tr/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/tr/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -505,13 +505,13 @@
 
     <!-- WaniKani/Anki Alternative - Polish -->
     <url>
-        <loc>https://kanjidon.com/pl/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/pl/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/pl/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -519,13 +519,13 @@
 
     <!-- WaniKani/Anki Alternative - Thai -->
     <url>
-        <loc>https://kanjidon.com/th/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/th/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/th/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -533,13 +533,13 @@
 
     <!-- WaniKani/Anki Alternative - Vietnamese -->
     <url>
-        <loc>https://kanjidon.com/vi/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -547,13 +547,13 @@
 
     <!-- WaniKani/Anki Alternative - Indonesian -->
     <url>
-        <loc>https://kanjidon.com/id/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/id/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/id/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -561,13 +561,13 @@
 
     <!-- WaniKani/Anki Alternative - Malay -->
     <url>
-        <loc>https://kanjidon.com/ms/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -575,13 +575,13 @@
 
     <!-- WaniKani/Anki Alternative - Arabic -->
     <url>
-        <loc>https://kanjidon.com/ar/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -589,13 +589,13 @@
 
     <!-- WaniKani/Anki Alternative - Hindi -->
     <url>
-        <loc>https://kanjidon.com/hi/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -603,13 +603,13 @@
 
     <!-- WaniKani/Anki Alternative - Persian -->
     <url>
-        <loc>https://kanjidon.com/fa/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/fa/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/fa/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -617,13 +617,13 @@
 
     <!-- WaniKani/Anki Alternative - Filipino -->
     <url>
-        <loc>https://kanjidon.com/fil/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/fil/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/fil/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -631,698 +631,698 @@
 
     <!-- WaniKani/Anki Alternative - Chinese Traditional -->
     <url>
-        <loc>https://kanjidon.com/zh-tw/blog/wanikani-alternative/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/wanikani-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh-tw/blog/anki-alternative/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/anki-alternative/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://kanjidon.com/it/blog/</loc>
+        <loc>https://www.kanjidon.com/it/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/it/blog/come-imparare-kanji/</loc>
+        <loc>https://www.kanjidon.com/it/blog/come-imparare-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/it/blog/quanti-kanji-jlpt/</loc>
+        <loc>https://www.kanjidon.com/it/blog/quanti-kanji-jlpt/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/it/blog/hiragana-katakana-kanji-differenze/</loc>
+        <loc>https://www.kanjidon.com/it/blog/hiragana-katakana-kanji-differenze/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/it/blog/ripetizione-spaziata-kanji/</loc>
+        <loc>https://www.kanjidon.com/it/blog/ripetizione-spaziata-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/it/blog/100-kanji-piu-usati/</loc>
+        <loc>https://www.kanjidon.com/it/blog/100-kanji-piu-usati/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fr/blog/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fr/blog/comment-apprendre-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fr/blog/combien-kanji-jlpt/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fr/blog/hiragana-katakana-kanji-differences/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fr/blog/repetition-espacee-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fr/blog/100-kanji-plus-utilises/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/es/blog/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/es/blog/como-aprender-kanji/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/comment-apprendre-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/es/blog/cuantos-kanji-jlpt/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/combien-kanji-jlpt/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/es/blog/hiragana-katakana-kanji-diferencias/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/hiragana-katakana-kanji-differences/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/es/blog/repeticion-espaciada-kanji/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/repetition-espacee-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/es/blog/100-kanji-mas-usados/</loc>
+        <loc>https://www.kanjidon.com/fr/blog/100-kanji-plus-utilises/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/de/blog/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/de/blog/wie-kanji-lernen/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/de/blog/wie-viele-kanji-jlpt/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/de/blog/hiragana-katakana-kanji-unterschiede/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/de/blog/spaced-repetition-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/de/blog/100-wichtigste-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/pt/blog/</loc>
+        <loc>https://www.kanjidon.com/es/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pt/blog/como-aprender-kanji/</loc>
+        <loc>https://www.kanjidon.com/es/blog/como-aprender-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pt/blog/quantos-kanji-jlpt/</loc>
+        <loc>https://www.kanjidon.com/es/blog/cuantos-kanji-jlpt/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pt/blog/hiragana-katakana-kanji-diferencas/</loc>
+        <loc>https://www.kanjidon.com/es/blog/hiragana-katakana-kanji-diferencias/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pt/blog/repeticao-espacada-kanji/</loc>
+        <loc>https://www.kanjidon.com/es/blog/repeticion-espaciada-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pt/blog/100-kanji-mais-usados/</loc>
+        <loc>https://www.kanjidon.com/es/blog/100-kanji-mas-usados/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ru/blog/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ru/blog/how-to-learn-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ru/blog/kanji-jlpt-guide/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ru/blog/hiragana-katakana-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ru/blog/spaced-repetition-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ru/blog/100-common-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ko/blog/</loc>
+        <loc>https://www.kanjidon.com/de/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ko/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/de/blog/wie-kanji-lernen/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ko/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/de/blog/wie-viele-kanji-jlpt/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ko/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/de/blog/hiragana-katakana-kanji-unterschiede/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ko/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/de/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ko/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/de/blog/100-wichtigste-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh/blog/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh/blog/how-to-learn-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh/blog/kanji-jlpt-guide/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh/blog/hiragana-katakana-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh/blog/spaced-repetition-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh/blog/100-common-kanji/</loc>
-        <lastmod>2026-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh-tw/blog/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh-tw/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/como-aprender-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh-tw/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/quantos-kanji-jlpt/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh-tw/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/hiragana-katakana-kanji-diferencas/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh-tw/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/repeticao-espacada-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/zh-tw/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/pt/blog/100-kanji-mais-usados/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/blog/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ar/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/ru/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/blog/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/hi/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/ko/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/blog/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/th/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/blog/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/vi/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/zh-tw/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/blog/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/id/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/ar/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/blog/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/ms/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/hi/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/blog/</loc>
+        <loc>https://www.kanjidon.com/th/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/th/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/th/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/th/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/th/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/tr/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/th/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/blog/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/pl/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/vi/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/blog/</loc>
+        <loc>https://www.kanjidon.com/id/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/id/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/id/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/id/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/id/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fa/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/id/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/blog/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/blog/how-to-learn-kanji/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/how-to-learn-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/blog/kanji-jlpt-guide/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/kanji-jlpt-guide/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/blog/hiragana-katakana-kanji/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/hiragana-katakana-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/blog/spaced-repetition-kanji/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/spaced-repetition-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://kanjidon.com/fil/blog/100-common-kanji/</loc>
+        <loc>https://www.kanjidon.com/ms/blog/100-common-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/tr/blog/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/tr/blog/how-to-learn-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/tr/blog/kanji-jlpt-guide/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/tr/blog/hiragana-katakana-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/tr/blog/spaced-repetition-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/tr/blog/100-common-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/pl/blog/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/pl/blog/how-to-learn-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/pl/blog/kanji-jlpt-guide/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/pl/blog/hiragana-katakana-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/pl/blog/spaced-repetition-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/pl/blog/100-common-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fa/blog/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fa/blog/how-to-learn-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fa/blog/kanji-jlpt-guide/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fa/blog/hiragana-katakana-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fa/blog/spaced-repetition-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fa/blog/100-common-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fil/blog/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fil/blog/how-to-learn-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fil/blog/kanji-jlpt-guide/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fil/blog/hiragana-katakana-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fil/blog/spaced-repetition-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.kanjidon.com/fil/blog/100-common-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
