@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <!-- SEO -->
+    <title>เกี่ยวกับเรา | Kanjidon</title>
+    <meta name="description" content="พบกับทีม Kanjidon: กลุ่มเล็กๆ ของผู้หลงใหลในภาษาและวัฒนธรรมญี่ปุ่นที่สร้างแอปเพื่อให้การเรียนคันจิมีประสิทธิภาพและน่าสนใจ">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/th/about.html">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/about.html">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/about.html">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/about.html">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/about.html">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/about.html">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/about.html">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/about.html">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/about.html">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/about.html">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/about.html">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/about.html">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/about.html">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/about.html">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/about.html">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/about.html">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/about.html">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/about.html">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/about.html">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/about.html">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/about.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="เกี่ยวกับเรา | Kanjidon">
+    <meta property="og:description" content="พบกับทีม Kanjidon: กลุ่มเล็กๆ ของผู้หลงใหลในภาษาและวัฒนธรรมญี่ปุ่นที่สร้างแอปเพื่อให้การเรียนคันจิมีประสิทธิภาพและน่าสนใจ">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/th/about.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="เกี่ยวกับเรา | Kanjidon">
+    <meta name="twitter:description" content="พบกับทีม Kanjidon: กลุ่มเล็กๆ ของผู้หลงใหลในภาษาและวัฒนธรรมญี่ปุ่นที่สร้างแอปเพื่อให้การเรียนคันจิมีประสิทธิภาพและน่าสนใจ">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- About Page Styles -->
+    <style>
+        .about-page {
+            padding: 80px 0 60px;
+            min-height: 70vh;
+        }
+        .about-content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .about-content h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 48px;
+            text-align: center;
+            color: #1a1a1a;
+        }
+        .about-lead {
+            font-size: 1.35rem;
+            line-height: 1.7;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .about-highlight {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-bottom: 32px;
+        }
+        .about-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .about-quote {
+            font-size: 1.15rem;
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #ff6b35;
+            padding-left: 24px;
+            margin: 32px 0;
+            line-height: 1.8;
+        }
+        .about-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #ddd, transparent);
+            margin: 40px 0;
+        }
+        .about-closing {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .about-final {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-top: 24px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .about-content h1 {
+                font-size: 2rem;
+            }
+            .about-lead, .about-highlight {
+                font-size: 1.15rem;
+            }
+            .about-content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/th/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/th/">กลับหน้าหลัก</a>
+                <a href="/th/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Content -->
+    <main class="about-page">
+        <div class="about-content">
+            <h1>เกี่ยวกับเรา</h1>
+                    <p class="about-lead">เราเป็นทีมเล็กๆ เล็กมากจนบางครั้งเราดูเหมือนมองไม่เห็น</p>
+                    <p class="about-highlight">และนั่นก็เป็นเหตุผลที่ Kanjidon มีอยู่</p>
+                    <p>เราเริ่มต้นเหมือนคนอื่นๆ หลายคน: นักเรียนภาษาญี่ปุ่นที่เรียนรู้ด้วยตัวเอง ไม่มีทางลัด ไม่มีสูตรมหัศจรรย์ ชั่วโมง วัน ปี ที่ใช้ไปกับคันจิที่ไม่ยอมจำและวิธีการที่ทำงานบนกระดาษแต่ตายไปกับความว่อกแว่กครั้งแรก ในที่สุด เราก็ไปถึงเป้าหมายนั้น: ระดับ N1 ได้มาด้วยเหงื่อ สมควรได้รับ จริงแท้</p>
+                    <blockquote class="about-quote">ตลอดการเดินทางนั้น มีคำถามหนึ่งที่กลับมาเสมอ น่ารำคาญเหมือนคันจิที่ไม่ยอมถูกจำ: "ทำไมไม่มีแอปที่สอนภาษาญี่ปุ่นในแบบที่เราต้องการ?"</blockquote>
+                    <p>ดังนั้นเราจึงตัดสินใจสร้างมันขึ้นมา</p>
+                    <p>Kanjidon เกิดจากความฝันที่จะเรียนอย่างมีประสิทธิภาพ แต่ก็ยังน่าสนใจด้วย สถานที่ที่วินัยพบกับการเล่น ที่ความสม่ำเสมอได้รับรางวัล ที่ความพยายามไม่หายไปแต่หยุดน่าเบื่อ แอปที่เราอยากมีตอนที่เราเรียน</p>
+                    <hr class="about-divider">
+                    <p>ไม่ใช่แค่การเรียนที่ขับเคลื่อนเรา เรารักวัฒนธรรมญี่ปุ่นในทุกรูปแบบอย่างลึกซึ้ง การเดินทาง การหลงทางในสถานที่ต่างๆ การเดินไกล การปีนสูง</p>
+                    <p>เราหลงรักวัฒนธรรมป๊อป เรื่องราว โลกในจินตนาการที่รู้จักทำให้ซาบซึ้ง เราเขียนนวนิยาย สร้างโปรเจกต์ ทดลอง บางอย่างคุณรู้จัก บางอย่างไม่รู้ บางอย่างยังไม่ได้เห็นแสงสว่าง</p>
+                    <p>Kanjidon คือจุดที่ทุกสิ่งนี้มาบรรจบกัน การเรียนจริงจัง ความหลงใหลแท้จริง ความปรารถนาที่จะทำสิ่งที่แตกต่างโดยไม่สูญเสียความเป็นตัวเอง</p>
+                    <hr class="about-divider">
+                    <p class="about-closing">เราไม่ใช่บริษัทยักษ์ใหญ่</p>
+                    <p class="about-closing">เราคือคนที่เชื่อมั่นในไอเดียมากพอที่จะทำให้มันเป็นจริง</p>
+                    <p class="about-final">และนี่เป็นแค่จุดเริ่มต้น</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="../blog/">Blog</a>
+                    <a href="../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="../privacy.html">Privacy Policy</a>
+                    <a href="../terms.html">Terms of Service (EULA)</a>
+                    <a href="../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="../about.html">About Us</a>
+                    <a href="../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇭</span>
+                        <span class="language-name">ไทย</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option active">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Language Selector Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

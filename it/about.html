@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <!-- SEO -->
+    <title>Chi Siamo | Kanjidon</title>
+    <meta name="description" content="Scopri chi siamo: un piccolo team di appassionati di lingua e cultura giapponese che ha creato Kanjidon per rendere lo studio dei kanji efficace e coinvolgente.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/it/about.html">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/about.html">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/about.html">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/about.html">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/about.html">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/about.html">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/about.html">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/about.html">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/about.html">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/about.html">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/about.html">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/about.html">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/about.html">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/about.html">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/about.html">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/about.html">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/about.html">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/about.html">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/about.html">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/about.html">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/about.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Chi Siamo | Kanjidon">
+    <meta property="og:description" content="Scopri chi siamo: un piccolo team di appassionati di lingua e cultura giapponese che ha creato Kanjidon per rendere lo studio dei kanji efficace e coinvolgente.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/it/about.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chi Siamo | Kanjidon">
+    <meta name="twitter:description" content="Scopri chi siamo: un piccolo team di appassionati di lingua e cultura giapponese che ha creato Kanjidon per rendere lo studio dei kanji efficace e coinvolgente.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../assets/images/icona.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- About Page Styles -->
+    <style>
+        .about-page {
+            padding: 80px 0 60px;
+            min-height: 70vh;
+        }
+        .about-content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .about-content h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 48px;
+            text-align: center;
+            color: #1a1a1a;
+        }
+        .about-lead {
+            font-size: 1.35rem;
+            line-height: 1.7;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .about-highlight {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-bottom: 32px;
+        }
+        .about-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .about-quote {
+            font-size: 1.15rem;
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #ff6b35;
+            padding-left: 24px;
+            margin: 32px 0;
+            line-height: 1.8;
+        }
+        .about-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #ddd, transparent);
+            margin: 40px 0;
+        }
+        .about-closing {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .about-final {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-top: 24px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .about-content h1 {
+                font-size: 2rem;
+            }
+            .about-lead, .about-highlight {
+                font-size: 1.15rem;
+            }
+            .about-content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/it/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/it/">Torna alla Home</a>
+                <a href="/it/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Content -->
+    <main class="about-page">
+        <div class="about-content">
+            <h1>Chi Siamo</h1>
+                    <p class="about-lead">Siamo un team minuscolo. Talmente minuscolo che spesso sembriamo invisibili.</p>
+                    <p class="about-highlight">Ed è anche per questo che Kanjidon esiste.</p>
+                    <p>Siamo partiti come tanti altri: studenti autodidatti di giapponese, senza scorciatoie, senza formule magiche. Ore, giorni, anni passati tra kanji che non volevano entrare in testa e metodi che funzionavano sulla carta ma morivano alla prima distrazione. Alla fine, però, quel traguardo lo abbiamo raggiunto: il livello N1. Sudato. Meritato. Reale.</p>
+                    <blockquote class="about-quote">Durante quel percorso c'era una domanda che tornava sempre, fastidiosa come un kanji che non si lascia memorizzare: "Perché non esiste un'app che faccia studiare il giapponese come lo vorremmo noi?"</blockquote>
+                    <p>Così abbiamo deciso di costruirla.</p>
+                    <p>Kanjidon nasce dal sogno di studiare in modo efficace, ma anche coinvolgente. Un posto dove la disciplina incontra il gioco, dove la costanza viene premiata, dove la fatica non sparisce ma smette di essere noiosa. L'app che avremmo voluto avere quando studiavamo noi.</p>
+                    <hr class="about-divider">
+                    <p>A muoverci non è solo lo studio. Amiamo profondamente la cultura giapponese, in tutte le sue forme. Viaggiare, perderci nei luoghi, camminare a lungo, salire in alto.</p>
+                    <p>Siamo innamorati della cultura pop, delle storie, dei mondi immaginari che sanno emozionare. Scriviamo romanzi, creiamo progetti, sperimentiamo. Alcuni li conoscete, altri no. Alcuni devono ancora venire alla luce.</p>
+                    <p>Kanjidon è il punto in cui tutto questo si incontra. Studio serio, passione autentica, voglia di fare qualcosa di diverso senza snaturare nulla.</p>
+                    <hr class="about-divider">
+                    <p class="about-closing">Non siamo un'azienda gigante.</p>
+                    <p class="about-closing">Siamo persone che hanno creduto abbastanza forte in un'idea da trasformarla in realtà.</p>
+                    <p class="about-final">E questo è solo l'inizio.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="../blog/">Blog</a>
+                    <a href="../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="../privacy.html">Privacy Policy</a>
+                    <a href="../terms.html">Terms of Service (EULA)</a>
+                    <a href="../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="../about.html">About Us</a>
+                    <a href="../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇮🇹</span>
+                        <span class="language-name">Italiano</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option active">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Language Selector Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
