@@ -721,6 +721,39 @@
 
             window.addEventListener('scroll', updateStickyBar, { passive: true });
             updateStickyBar();
+
+            // Infinite Loop Testimonials Carousel
+            const carousel = document.querySelector('.testimonials-carousel');
+            if (carousel) {
+                const cards = carousel.querySelectorAll('.testimonial-card');
+                cards.forEach(card => {
+                    const clone = card.cloneNode(true);
+                    carousel.appendChild(clone);
+                });
+
+                let isResetting = false;
+                carousel.addEventListener('scroll', function() {
+                    if (isResetting) return;
+                    const scrollLeft = carousel.scrollLeft;
+                    const scrollWidth = carousel.scrollWidth;
+                    const clientWidth = carousel.clientWidth;
+                    const halfScroll = (scrollWidth - clientWidth) / 2;
+
+                    if (scrollLeft >= halfScroll + 50) {
+                        isResetting = true;
+                        carousel.style.scrollBehavior = 'auto';
+                        carousel.scrollLeft = scrollLeft - halfScroll;
+                        carousel.style.scrollBehavior = 'smooth';
+                        setTimeout(() => isResetting = false, 50);
+                    } else if (scrollLeft <= 0) {
+                        isResetting = true;
+                        carousel.style.scrollBehavior = 'auto';
+                        carousel.scrollLeft = halfScroll;
+                        carousel.style.scrollBehavior = 'smooth';
+                        setTimeout(() => isResetting = false, 50);
+                    }
+                }, { passive: true });
+            }
         })();
     </script>
 </body>
