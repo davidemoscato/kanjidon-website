@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>if(location.hostname.includes("kanjidonapp"))location.replace("https://kanjidon.com"+location.pathname+location.search);</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,7 +8,7 @@
     <title>Unsubscribe - Kanjidon</title>
     <meta name="description" content="Unsubscribe from Kanjidon marketing emails.">
     <meta name="robots" content="noindex, nofollow">
-    <link rel="canonical" href="https://www.kanjidon.com/unsubscribe">
+    <link rel="canonical" href="https://kanjidon.com/unsubscribe">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/icona.png">
@@ -110,16 +109,66 @@
         [data-state="loading"] .show-success,
         [data-state="loading"] .show-error,
         [data-state="loading"] .show-already,
+        [data-state="loading"] .show-form,
         [data-state="success"] .show-loading,
         [data-state="success"] .show-error,
         [data-state="success"] .show-already,
+        [data-state="success"] .show-form,
         [data-state="error"] .show-loading,
         [data-state="error"] .show-success,
         [data-state="error"] .show-already,
+        [data-state="error"] .show-form,
         [data-state="already"] .show-loading,
         [data-state="already"] .show-success,
-        [data-state="already"] .show-error {
+        [data-state="already"] .show-error,
+        [data-state="already"] .show-form,
+        [data-state="form"] .show-loading,
+        [data-state="form"] .show-success,
+        [data-state="form"] .show-error,
+        [data-state="form"] .show-already {
             display: none;
+        }
+
+        .email-form {
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .email-input {
+            width: 100%;
+            padding: 14px 16px;
+            font-size: 16px;
+            border: 2px solid #E5E5E5;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .email-input:focus {
+            border-color: #DE6A35;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            background: #DE6A35;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .submit-btn:hover {
+            background: #C55A2A;
+        }
+
+        .submit-btn:disabled {
+            background: #ADA9A4;
+            cursor: not-allowed;
         }
     </style>
 </head>
@@ -163,6 +212,14 @@
         <h1 class="unsubscribe-title show-error">Something Went Wrong</h1>
         <p class="unsubscribe-message show-error" id="error-message">We couldn't process your unsubscribe request. The link may be invalid or expired.</p>
         <span class="unsubscribe-status status-error show-error">Error</span>
+
+        <!-- Email Form State (fallback when token is invalid) -->
+        <h1 class="unsubscribe-title show-form">Unsubscribe</h1>
+        <p class="unsubscribe-message show-form">Enter your email address to unsubscribe from Kanjidon marketing emails.</p>
+        <form class="email-form show-form" id="email-form">
+            <input type="email" class="email-input" id="email-input" placeholder="your@email.com" required>
+            <button type="submit" class="submit-btn" id="submit-btn">Unsubscribe</button>
+        </form>
 
         <a href="/" class="back-link">Back to Kanjidon</a>
     </main>
@@ -281,9 +338,9 @@
             const urlParams = new URLSearchParams(window.location.search);
             const token = urlParams.get('token');
 
-            if (!token) {
-                mainContent.dataset.state = 'error';
-                errorMessage.textContent = 'No unsubscribe token provided. Please use the link from your email.';
+            // If no token or placeholder token, show email form
+            if (!token || token === 'test' || token === 'xxx') {
+                mainContent.dataset.state = 'form';
                 return;
             }
 
@@ -305,9 +362,56 @@
                         mainContent.dataset.state = 'success';
                     }
                 } else {
+                    // If token invalid, show email form as fallback
+                    if (data.error === 'invalid_token') {
+                        mainContent.dataset.state = 'form';
+                    } else {
+                        mainContent.dataset.state = 'error';
+                        errorMessage.textContent = 'An error occurred. Please try again or contact support.';
+                    }
+                }
+            } catch (error) {
+                console.error('Unsubscribe error:', error);
+                mainContent.dataset.state = 'error';
+                errorMessage.textContent = 'Network error. Please check your connection and try again.';
+            }
+        }
+
+        // Handle email form submission
+        async function handleEmailSubmit(e) {
+            e.preventDefault();
+            const mainContent = document.getElementById('main-content');
+            const emailInput = document.getElementById('email-input');
+            const submitBtn = document.getElementById('submit-btn');
+            const errorMessage = document.getElementById('error-message');
+
+            const email = emailInput.value.trim();
+            if (!email) return;
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Processing...';
+
+            try {
+                const response = await fetch(FUNCTION_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    if (data.message === 'already_unsubscribed') {
+                        mainContent.dataset.state = 'already';
+                    } else {
+                        mainContent.dataset.state = 'success';
+                    }
+                } else {
                     mainContent.dataset.state = 'error';
                     if (data.error === 'invalid_token') {
-                        errorMessage.textContent = 'Invalid or expired unsubscribe link. Please contact support if you need help.';
+                        errorMessage.textContent = 'Email not found. Please check your email address and try again.';
                     } else {
                         errorMessage.textContent = 'An error occurred. Please try again or contact support.';
                     }
@@ -320,7 +424,10 @@
         }
 
         // Process on page load
-        document.addEventListener('DOMContentLoaded', processUnsubscribe);
+        document.addEventListener('DOMContentLoaded', () => {
+            processUnsubscribe();
+            document.getElementById('email-form').addEventListener('submit', handleEmailSubmit);
+        });
     </script>
 </body>
 </html>

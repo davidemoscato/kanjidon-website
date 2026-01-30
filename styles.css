@@ -865,6 +865,63 @@ img {
     max-width: 800px;
 }
 
+/* Testimonials Carousel */
+.testimonials {
+    padding: var(--spacing-xxl) 0;
+    background: var(--surface);
+    overflow: hidden;
+}
+
+.testimonials-carousel {
+    display: flex;
+    gap: var(--spacing-m);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: var(--spacing-s) var(--spacing-l);
+    margin: 0 calc(-1 * var(--spacing-l));
+}
+
+.testimonials-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.testimonial-card {
+    flex: 0 0 300px;
+    background: var(--background);
+    border-radius: var(--radius-m);
+    padding: var(--spacing-l);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    scroll-snap-align: start;
+}
+
+.testimonial-stars {
+    color: var(--primary);
+    font-size: 12px;
+    margin-bottom: var(--spacing-s);
+    letter-spacing: 1px;
+}
+
+.testimonial-text {
+    color: var(--secondary);
+    font-size: var(--font-s);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-m);
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: var(--subtle);
+    font-size: var(--font-xs);
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        flex: 0 0 280px;
+    }
+}
+
 /* Footer */
 .footer {
     padding: var(--spacing-xxl) 0 var(--spacing-xl);
@@ -1982,6 +2039,44 @@ img {
 
 .article-cta .store-badges {
     justify-content: center;
+}
+
+/* Related Articles */
+.related-articles {
+    max-width: 720px;
+    margin: var(--spacing-xl) auto;
+    padding: var(--spacing-l);
+    background: var(--surface);
+    border-radius: var(--radius-m);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.related-articles h3 {
+    font-size: var(--font-m);
+    color: var(--secondary);
+    margin-bottom: var(--spacing-m);
+}
+
+.related-articles ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-articles li {
+    margin-bottom: var(--spacing-s);
+}
+
+.related-articles a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.related-articles a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 /* Article Disclaimer */
