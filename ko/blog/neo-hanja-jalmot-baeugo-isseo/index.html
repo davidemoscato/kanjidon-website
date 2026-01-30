@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>너 한자 잘못 배우고 있어 (우리도 그랬어) | Kanjidon</title>
+    <meta name="description" content="혼자 공부하는 게 왜 안 되는지, 디스코드 커뮤니티가 일본어 여정을 어떻게 바꾸는지 알아봐. 뇌는 사회적 학습을 위해 만들어졌어.">
+    <meta name="keywords" content="한자 커뮤니티, 일본어 스터디 그룹, 한자 같이 공부, 일본어 디스코드, 한자 스터디 파트너">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ko/blog/neo-hanja-jalmot-baeugo-isseo/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/neo-hanja-jalmot-baeugo-isseo/">
+
+    <meta property="og:title" content="너 한자 잘못 배우고 있어 (우리도 그랬어)">
+    <meta property="og:description" content="혼자 공부하는 게 왜 안 되는지, 디스코드 커뮤니티가 일본어 여정을 어떻게 바꾸는지 알아봐. 뇌는 사회적 학습을 위해 만들어졌어.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ko/blog/neo-hanja-jalmot-baeugo-isseo/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="너 한자 잘못 배우고 있어 (우리도 그랬어)">
+    <meta name="twitter:description" content="혼자 공부하는 게 왜 안 되는지, 디스코드 커뮤니티가 일본어 여정을 어떻게 바꾸는지 알아봐. 뇌는 사회적 학습을 위해 만들어졌어.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "너 한자 잘못 배우고 있어 (우리도 그랬어)",
+        "description": "혼자 공부하는 게 왜 안 되는지, 디스코드 커뮤니티가 일본어 여정을 어떻게 바꾸는지 알아봐. 뇌는 사회적 학습을 위해 만들어졌어.",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ko/blog/neo-hanja-jalmot-baeugo-isseo/"
+        },
+        "datePublished": "2026-01-15",
+        "dateModified": "2026-01-15"
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ko/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ko/blog/">Blog</a>
+                <a href="/ko/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <div class="article-header">
+                <a href="/ko/blog/" class="back-link">&larr; Modeun gisa</a>
+                <h1>너 한자 잘못 배우고 있어 (우리도 그랬어)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span> ·
+                    <span class="read-time">7 min bun</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <p class="article-intro">밤 11시. 플래시카드 넘기고 있어. 火 = 불. 안다. 다음. 水 = 물. 그것도 안다. 다음. 일주일 뒤에 火曜日 보면 — 머리가 새하얘. 익숙해? 문제는 한자가 아니야. 문제는 혼자 배우고 있다는 거야.</p>
+<h2>네 뇌는 사회적 기계야</h2>
+<p>잘 안 하는 얘기가 있어: 뇌는 사회적 학습을 위해 설계됐어. 다른 사람들이랑 뭔가 할 때 — 누군가 같은 시간에 같은 한자 공부하는 거 알기만 해도 — 도파민이 다르게 분비돼. 정보가 더 깊이 박혀. 이건 동기부여 헛소리가 아니야 — 신경과학이야.</p>
+<p>혼자 공부는 효과 있어... 안 될 때까지. 그리고 동기가 떨어지면, 손 잡아줄 사람이 없어.</p>
+<h2>1일차 — 의욕 넘침. 60일차 — &#039;보고 싶어요&#039;</h2>
+<p>첫째 날: 의욕 만땅. 일곱째 날: 아직 잘 하고 있어. 삼십째 날: 건너뛰기 시작. 육십째 날: 앱이 슬픈 알림 보냄. 이건 의지력 문제가 아니야. 구조가 없는 거야.</p>
+<p>자기 훈련은 신화야. 구조가 현실이야. 네가 그만둔 걸 아무도 모르면, 그만두기 쉬워.</p>
+<h2>다른 사람들이랑 하면 뭐가 달라지나</h2>
+<p>다른 사람들이랑 공부하면 재밌는 일이 생겨. 네가 불가능하다고 생각한 똑같은 한자로 고생하는 사람 보면, 갑자기 덜 무거워. 너보다 늦게 시작한 사람이 벌써 N5 합격한 거 보면, 불이 붙어. 밤 11시에 질문하면 — 1분 안에 세 개 답변 와.</p>
+<ul><li>외부 동기, 내부만이 아니라</li><li>몇 분 안에 답변, 검색하느라 몇 시간 아니고</li><li>다른 사람들 보면서 내 진전이 보여</li><li>힘든 날이 덜 외로워</li><li>좋은 날은 같이 축하</li></ul>
+<h2>우리 디스코드에 뭐가 있나</h2>
+<ul><li>매일 챌린지 — 템포 유지하는 작은 미션</li><li>PvP 도전 — 한자 연속 문제 누가 빨리 맞추나</li><li>스터디 스프린트 — 30분 같이 집중</li><li>책임감 파트너 — 파트너 찾고 서로 긴장 유지</li></ul>
+<h2>왜 지금 가입해야 하나</h2>
+<p>커뮤니티가 아직 작아. 근데 그게 장점이야. 수천 명 속에 익명 닉네임이 아닐 거야. 처음 멤버 중 하나가 될 거야 — 문화를 만드는 사람. 커뮤니티가 커지면, 넌 창립 멤버지, 나중에 온 손님이 아니라.</p>
+<h2>앱이랑 커뮤니티가 어떻게 같이 작동하나</h2>
+<p>아침에 Kanjidon 열어 — 간격 반복 팩 돌려. 오후에 디스코드 들어가 — 챌린지나 스터디 스프린트 참여. 저녁에 — 커뮤니티 누군가랑 PvP 배틀. 하루 세 번 접촉. 한자 안 까먹어.</p>
+<h2>누구를 위한 거냐</h2>
+<ul><li>JLPT 준비 중 — N5부터 N1까지 아무 레벨</li><li>애니, 만화, 게임 때문에 일본어 배우는 중</li><li>일본에서 살거나 일할 계획</li><li>중간에 포기하고 싶지 않음</li></ul>
+<h2>어떻게 가입하나</h2>
+<ul><li>1. 링크 눌러: https://discord.gg/RnrPqYnC</li><li>2. #소개 채널에서 자기소개</li><li>3. 레벨 선택하고 참여 시작</li></ul>
+<h2>요점</h2>
+<p>한자는 마라톤이야. 마라톤은 같이 뛸 때 더 쉬워. 네가 약해서가 아니야. 뇌가 그렇게 만들어졌으니까. 혼자 공부 가능해. 근데 같이 하면? 끝까지 가기 더 쉬워.</p>
+<p>우리랑 함께해: https://discord.gg/RnrPqYnC</p>
+            </div>
+
+            <div class="article-cta">
+                <h3>Oneul kanji baeugi sijakaseyo</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇰🇷</span>
+                        <span class="language-name">한국어</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option active">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

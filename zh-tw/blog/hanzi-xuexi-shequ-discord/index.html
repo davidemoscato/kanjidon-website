@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>你學漢字的方式是錯的（我們也是） | Kanjidon</title>
+    <meta name="description" content="發現為什麼獨自學漢字效果差，以及加入Discord社群如何改變一切。大腦有社交學習迴路，用起來。">
+    <meta name="keywords" content="漢字社群, 日語學習群, 一起學漢字, 日語discord, 漢字學習夥伴, 學習社群">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh-tw/blog/hanzi-xuexi-shequ-discord/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/hanzi-xuexi-shequ-discord/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/hanzi-xuexi-shequ-discord/">
+
+    <meta property="og:title" content="你學漢字的方式是錯的（我們也是）">
+    <meta property="og:description" content="發現為什麼獨自學漢字效果差，以及加入Discord社群如何改變一切。大腦有社交學習迴路，用起來。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh-tw/blog/hanzi-xuexi-shequ-discord/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="你學漢字的方式是錯的（我們也是）">
+    <meta name="twitter:description" content="發現為什麼獨自學漢字效果差，以及加入Discord社群如何改變一切。大腦有社交學習迴路，用起來。">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "你學漢字的方式是錯的（我們也是）",
+        "description": "發現為什麼獨自學漢字效果差，以及加入Discord社群如何改變一切。大腦有社交學習迴路，用起來。",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/zh-tw/blog/hanzi-xuexi-shequ-discord/"
+        },
+        "datePublished": "2026-01-15",
+        "dateModified": "2026-01-15"
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh-tw/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh-tw/blog/">Blog</a>
+                <a href="/zh-tw/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <div class="article-header">
+                <a href="/zh-tw/blog/" class="back-link">&larr; Suoyou wenzhang</a>
+                <h1>你學漢字的方式是錯的（我們也是）</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span> ·
+                    <span class="read-time">6 min fenzhong</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <p class="article-intro">晚上11點。你盯著閃卡。火 = fire。這個你已經知道三個月了。明天？又會忘。不是因為你笨。是因為你在獨自學習。這才是真正的問題。</p>
+<h2>為什麼你的大腦討厭獨自學習</h2>
+<p>你的大腦裡有一個社交學習迴路。當你獨自學習時，多巴胺是平的。但當有人看著你學、和你一起學、或者和你競爭時，多巴胺飆升。這不是雞湯，是神經科學。</p>
+<p>幾千年來，人類都是在群體中學習的。獨自學習是最近才發明的。你的大腦還沒適應。</p>
+<h2>獨自學習的真正問題</h2>
+<p>第一天：興奮滿滿。第七天：還在堅持。第三十天：開始跳過。第六十天：App發來「我們想你」通知。聽起來熟悉嗎？</p>
+<p>這不是意志力問題。是結構問題。你需要的不是更多紀律，而是一個讓堅持變得容易的環境。</p>
+<h2>當你不再孤獨時，一切都變了</h2>
+<p>和別人一起學習時，神奇的事情發生了：</p>
+<ul><li>動力變成外部的——有人會注意到你缺席</li><li>問題幾分鐘內得到回答，不用搜尋幾小時</li><li>進步變得可見——你能看到別人的程度</li><li>糟糕的日子不再那麼孤獨</li><li>好日子有人一起慶祝</li></ul>
+<h2>Kanjidon Discord：裡面有什麼</h2>
+<p>我們為日語學習者創建了一個專門的Discord社群。這是裡面的內容：</p>
+<ul><li>每日挑戰：每天新的漢字任務</li><li>PvP約戰：公開挑戰其他學習者</li><li>學習衝刺：定時的集中學習時段</li><li>責任夥伴：找人互相監督</li><li>進度分享：曬你的連續打卡天數</li><li>求助頻道：任何問題都可以問</li></ul>
+<h2>為什麼現在加入，趁它還小</h2>
+<p>加入一個10000人的社群，你是隱形的。加入一個剛起步的社群，你是創始成員。你的聲音被聽到。你參與塑造文化。你認識核心成員。</p>
+<p>現在的Kanjidon Discord還很小。這是特點，不是缺點。</p>
+<h2>App + 社群如何協同運作</h2>
+<p>這是一個典型的日子：</p>
+<ul><li>早上：在App裡完成每日學習包</li><li>下午：Discord機器人發起挑戰，看誰能答對最多</li><li>晚上：和Discord裡認識的人來一場PvP對戰</li></ul>
+<p>App給你內容。社群給你動力。兩者結合才是完整的學習體驗。</p>
+<h2>這個社群適合誰</h2>
+<p>你可能是：</p>
+<ul><li>正在準備JLPT的考生</li><li>想看懂動漫原版的粉絲</li><li>計畫去日本旅行的人</li><li>正在挑戰365天連續打卡的勇士</li></ul>
+<p>不管你在哪個階段，這裡的氛圍是支持性的。沒有高手炫耀，沒有新人歧視。只有一群想進步的人。</p>
+<h2>如何加入</h2>
+<ul><li>第一步：下載Kanjidon（如果還沒有的話）</li><li>第二步：點擊這個連結加入Discord：https://discord.gg/RnrPqYnC</li><li>第三步：在#自我介紹頻道打個招呼</li></ul>
+<p>就這麼簡單。不到兩分鐘。</p>
+<h2>最後的話</h2>
+<p>漢字是馬拉松，不是短跑。馬拉松和別人一起跑更容易。我們在Discord裡等你。</p>
+            </div>
+
+            <div class="article-cta">
+                <h3>Jintian kaishi xuexi hanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇼</span>
+                        <span class="language-name">繁體中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option active">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

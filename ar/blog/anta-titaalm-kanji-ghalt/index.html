@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>أنت تتعلم الكانجي بشكل خاطئ (وكنا كذلك) | Kanjidon</title>
+    <meta name="description" content="اكتشف لماذا الدراسة وحدك لا تنجح وكيف مجتمع Discord يمكن أن يغير رحلتك في اليابانية. الدماغ مصمم للتعلم الاجتماعي.">
+    <meta name="keywords" content="مجتمع كانجي, مجموعة دراسة يابانية, تعلم كانجي معاً, ديسكورد ياباني, شريك دراسة كانجي">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ar/blog/anta-titaalm-kanji-ghalt/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/anta-titaalm-kanji-ghalt/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/anta-titaalm-kanji-ghalt/">
+
+    <meta property="og:title" content="أنت تتعلم الكانجي بشكل خاطئ (وكنا كذلك)">
+    <meta property="og:description" content="اكتشف لماذا الدراسة وحدك لا تنجح وكيف مجتمع Discord يمكن أن يغير رحلتك في اليابانية. الدماغ مصمم للتعلم الاجتماعي.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ar/blog/anta-titaalm-kanji-ghalt/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="أنت تتعلم الكانجي بشكل خاطئ (وكنا كذلك)">
+    <meta name="twitter:description" content="اكتشف لماذا الدراسة وحدك لا تنجح وكيف مجتمع Discord يمكن أن يغير رحلتك في اليابانية. الدماغ مصمم للتعلم الاجتماعي.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "أنت تتعلم الكانجي بشكل خاطئ (وكنا كذلك)",
+        "description": "اكتشف لماذا الدراسة وحدك لا تنجح وكيف مجتمع Discord يمكن أن يغير رحلتك في اليابانية. الدماغ مصمم للتعلم الاجتماعي.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ar/blog/anta-titaalm-kanji-ghalt/"
+        },
+        "datePublished": "2026-01-15",
+        "dateModified": "2026-01-15"
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ar/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ar/blog/">Blog</a>
+                <a href="/ar/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <div class="article-header">
+                <a href="/ar/blog/" class="back-link">&larr; Jami almaqalat</a>
+                <h1>أنت تتعلم الكانجي بشكل خاطئ (وكنا كذلك)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span> ·
+                    <span class="read-time">7 min daqiqa</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <p class="article-intro">الساعة 11 مساءً. تقلب البطاقات. 火 = نار. تعرفها. التالية. 水 = ماء. تعرفها أيضاً. التالية. بعد أسبوع ترى 火曜日 — والدماغ فارغ. يبدو مألوفاً؟ المشكلة ليست الكانجي. المشكلة أنك تتعلمها وحدك.</p>
+<h2>دماغك جهاز اجتماعي</h2>
+<p>هذا ما نادراً يُقال: الدماغ مصمم للتعلم الاجتماعي. عندما تفعل شيئاً مع آخرين — حتى لو فقط تعرف أن شخصاً آخر يدرس نفس الكانجي في نفس الوقت — الدوبامين يُفرز بشكل مختلف. المعلومات تثبت أعمق. هذا ليس كلام تحفيزي — هذا علم أعصاب.</p>
+<p>التعلم وحدك ينجح... حتى لا ينجح. وعندما يسقط الحافز، لا أحد يمسك بيدك.</p>
+<h2>اليوم 1 — حماس. اليوم 60 — &#039;نفتقدك&#039;</h2>
+<p>اليوم الأول: متحمس جداً. اليوم السابع: لا تزال مستمراً. اليوم الثلاثون: تبدأ بتفويت الجلسات. اليوم الستون: التطبيق يرسل إشعارات حزينة. هذا ليس إرادة ضعيفة. هذا غياب هيكل.</p>
+<p>الانضباط خرافة. الهيكل حقيقة. عندما لا يلاحظ أحد أنك توقفت، التوقف سهل.</p>
+<h2>ما الذي يتغير عندما تكون مع آخرين</h2>
+<p>عندما تتعلم مع آخرين، يحدث شيء مثير. ترى شخصاً يصارع نفس الكانجي التي ظننتها مستحيلة — ويصبح أسهل. ترى شخصاً بدأ بعدك اجتاز N5 بالفعل — وتشتعل فيك نار. تسأل سؤالاً في الحادية عشرة مساءً — وتحصل على ثلاث إجابات في دقيقة.</p>
+<ul><li>حافز خارجي، ليس داخلياً فقط</li><li>إجابات في دقائق، ليس ساعات من البحث</li><li>ترى تقدمك مقارنة بالآخرين</li><li>الأيام السيئة أقل وحدة</li><li>الأيام الجيدة تُحتفل بها</li></ul>
+<h2>ماذا يوجد في Discord</h2>
+<ul><li>تحديات يومية — مهام صغيرة للحفاظ على الإيقاع</li><li>تحديات PvP — من أسرع في الإجابة على سلسلة كانجي</li><li>سباقات دراسية — نصف ساعة من التركيز الجماعي</li><li>شركاء مسؤولية — تجد شريكاً وتحافظون على بعضكم</li></ul>
+<h2>لماذا تنضم الآن</h2>
+<p>المجتمع لا يزال صغيراً. وهذا ميزة. لن تكون اسم مستخدم مجهول في حشد الآلاف. ستكون من الأوائل — من يشكل الثقافة. عندما يكبر المجتمع، ستكون مؤسساً، لا ضيفاً عابراً.</p>
+<h2>كيف يعمل التطبيق والمجتمع معاً</h2>
+<p>صباحاً تفتح Kanjidon — تمر على حزمة التكرار المتباعد. بعد الظهر تدخل Discord — تشارك في تحدٍ أو سباق دراسي. مساءً — معركة PvP مع شخص من المجتمع. ثلاث نقاط اتصال يومياً. الكانجي لا تُنسى.</p>
+<h2>لمن هذا</h2>
+<ul><li>تستعد لـ JLPT — أي مستوى من N5 إلى N1</li><li>تتعلم اليابانية من أجل الأنيمي أو المانغا أو الألعاب</li><li>تخطط للعيش أو العمل في اليابان</li><li>ببساطة لا تريد الاستسلام في منتصف الطريق</li></ul>
+<h2>كيف تنضم</h2>
+<ul><li>1. اضغط على الرابط: https://discord.gg/RnrPqYnC</li><li>2. قدم نفسك في قناة #التعارف</li><li>3. اختر مستواك وابدأ المشاركة</li></ul>
+<h2>الخلاصة</h2>
+<p>الكانجي ماراثون. والماراثون أسهل عندما تركض مع آخرين. ليس لأنك ضعيف. بل لأن الدماغ مصمم هكذا. الدراسة وحدك ممكنة. لكن معاً — أسهل أن تصل للنهاية.</p>
+<p>انضم إلينا: https://discord.gg/RnrPqYnC</p>
+            </div>
+
+            <div class="article-cta">
+                <h3>Ibda taallum al-kanji al-yawm</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇸🇦</span>
+                        <span class="language-name">العربية</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option active">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

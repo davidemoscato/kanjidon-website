@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Ты учишь кандзи неправильно (и мы тоже так делали) | Kanjidon</title>
+    <meta name="description" content="Узнай, почему одиночная зубрёжка не работает и как Discord-сообщество может изменить твой путь в японском. Мозг создан для социального обучения.">
+    <meta name="keywords" content="сообщество кандзи, группа изучения японского, учить кандзи вместе, дискорд японский, напарник по кандзи">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ru/blog/ty-uchish-kanji-nepravilno/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/ty-uchish-kanji-nepravilno/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/ty-uchish-kanji-nepravilno/">
+
+    <meta property="og:title" content="Ты учишь кандзи неправильно (и мы тоже так делали)">
+    <meta property="og:description" content="Узнай, почему одиночная зубрёжка не работает и как Discord-сообщество может изменить твой путь в японском. Мозг создан для социального обучения.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ru/blog/ty-uchish-kanji-nepravilno/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ты учишь кандзи неправильно (и мы тоже так делали)">
+    <meta name="twitter:description" content="Узнай, почему одиночная зубрёжка не работает и как Discord-сообщество может изменить твой путь в японском. Мозг создан для социального обучения.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Ты учишь кандзи неправильно (и мы тоже так делали)",
+        "description": "Узнай, почему одиночная зубрёжка не работает и как Discord-сообщество может изменить твой путь в японском. Мозг создан для социального обучения.",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ru/blog/ty-uchish-kanji-nepravilno/"
+        },
+        "datePublished": "2026-01-15",
+        "dateModified": "2026-01-15"
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ru/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ru/blog/">Blog</a>
+                <a href="/ru/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <div class="article-header">
+                <a href="/ru/blog/" class="back-link">&larr; Vse stati</a>
+                <h1>Ты учишь кандзи неправильно (и мы тоже так делали)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span> ·
+                    <span class="read-time">7 min min chteniya</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <p class="article-intro">11 вечера. Ты листаешь карточки. 火 = огонь. Знаешь. Следующая. 水 = вода. Тоже знаешь. Следующая. Через неделю видишь 火曜日 — и мозг пустой. Знакомо? Проблема не в кандзи. Проблема в том, что ты учишь их в одиночку.</p>
+<h2>Твой мозг — социальное устройство</h2>
+<p>Вот что редко говорят: мозг устроен для социального обучения. Когда ты делаешь что-то с другими — даже если просто знаешь, что кто-то ещё в это же время учит те же кандзи — дофамин выбрасывается иначе. Информация закрепляется глубже. Это не мотивационная болтовня — это нейронаука.</p>
+<p>Одиночное обучение работает... пока не перестаёт. И когда мотивация падает, никто не держит за руку.</p>
+<h2>День 1 — энтузиазм. День 60 — &#039;мы скучаем&#039;</h2>
+<p>День первый: горишь энтузиазмом. День седьмой: ещё держишься. День тридцатый: начинаешь пропускать. День шестидесятый: приложение шлёт грустные уведомления. Это не слабая воля. Это отсутствие структуры.</p>
+<p>Дисциплина — миф. Структура — реальность. Когда никто не замечает, что ты бросил, бросить легко.</p>
+<h2>Что меняется, когда рядом другие</h2>
+<p>Когда учишься с другими, происходит интересное. Видишь, что кто-то бьётся над тем же кандзи, что казался тебе невозможным — и становится легче. Видишь, что кто-то, начавший позже, уже сдал N5 — и загорается огонь. Задаёшь вопрос в 11 вечера — и получаешь три ответа за минуту.</p>
+<ul><li>Внешняя мотивация, не только внутренняя</li><li>Ответы за минуты, не часы гугления</li><li>Видишь свой прогресс на фоне других</li><li>Плохие дни не такие одинокие</li><li>Хорошие дни празднуются</li></ul>
+<h2>Что есть в нашем Discord</h2>
+<ul><li>Ежедневные челленджи — маленькие задания, чтобы не терять темп</li><li>PvP-вызовы — кто быстрее ответит на серию кандзи</li><li>Учебные спринты — полчаса совместной концентрации</li><li>Партнёры по ответственности — находишь напарника и держите друг друга в тонусе</li></ul>
+<h2>Почему стоит присоединиться сейчас</h2>
+<p>Сообщество пока маленькое. И это преимущество. Ты не будешь невидимым ником в толпе тысяч. Ты станешь одним из первых — тем, кто формирует культуру. Когда сообщество вырастет, ты будешь его основателем, а не случайным гостем.</p>
+<h2>Как приложение и сообщество работают вместе</h2>
+<p>Утром открываешь Kanjidon — проходишь свой пакет на интервальном повторении. Днём заходишь в Discord — участвуешь в челлендже или учебном спринте. Вечером — PvP-батл с кем-то из сообщества. Три точки контакта в день. Кандзи не забываются.</p>
+<h2>Для кого это</h2>
+<ul><li>Готовишься к JLPT — любой уровень от N5 до N1</li><li>Учишь японский ради аниме, манги или игр</li><li>Планируешь жить или работать в Японии</li><li>Просто хочешь не бросить на полпути</li></ul>
+<h2>Как присоединиться</h2>
+<ul><li>1. Переходи по ссылке: https://discord.gg/RnrPqYnC</li><li>2. Представься в канале #знакомства</li><li>3. Выбери свой уровень и начни участвовать</li></ul>
+<h2>Суть</h2>
+<p>Кандзи — это марафон. А марафон легче бежать с другими. Не потому что ты слабый. А потому что мозг так устроен. Одиночная зубрёжка возможна. Но вместе — реальнее дойти до конца.</p>
+<p>Присоединяйся: https://discord.gg/RnrPqYnC</p>
+            </div>
+
+            <div class="article-cta">
+                <h3>Nachni izuchat kanzi segodnya</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇷🇺</span>
+                        <span class="language-name">Русский</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option active">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>
