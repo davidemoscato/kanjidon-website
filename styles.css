@@ -2,14 +2,19 @@
    KANJIDON WEBSITE - Design System (from Flutter design_tokens.dart)
    ============================================================================ */
 
-/* Self-hosted Nunito Font (GDPR compliant - no Google connection) */
-/* WOFF2 primary (66% smaller), TTF fallback for older browsers */
-/* font-display: optional = zero FOUT, font loads within 100ms or fallback is used */
+/* ==========================================================================
+   FONT LOADING STRATEGY (Best Practice 2025)
+   - font-display: optional = Zero FOUT guaranteed
+   - Fallback font with matched metrics = Zero CLS (layout shift)
+   - Preload in HTML for critical weights (500, 700, 800)
+   ========================================================================== */
+
+/* Nunito Custom Font - optional for zero FOUT */
 @font-face {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 500;
-    font-display: swap;
+    font-display: optional;
     src: url('assets/fonts/nunito-500.woff2') format('woff2'),
          url('assets/fonts/nunito-500.ttf') format('truetype');
 }
@@ -18,7 +23,7 @@
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
+    font-display: optional;
     src: url('assets/fonts/nunito-700.woff2') format('woff2'),
          url('assets/fonts/nunito-700.ttf') format('truetype');
 }
@@ -27,9 +32,19 @@
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 800;
-    font-display: swap;
+    font-display: optional;
     src: url('assets/fonts/nunito-800.woff2') format('woff2'),
          url('assets/fonts/nunito-800.ttf') format('truetype');
+}
+
+/* Fallback font with metrics matched to Nunito - eliminates layout shift */
+@font-face {
+    font-family: 'Nunito Fallback';
+    src: local('BlinkMacSystemFont'), local('Segoe UI'), local('Arial');
+    size-adjust: 100.9%;
+    ascent-override: 99%;
+    descent-override: 22%;
+    line-gap-override: 0%;
 }
 
 /* CSS Variables - Mapped from DesignTokens */
@@ -111,7 +126,7 @@ html {
 }
 
 body {
-    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Nunito', 'Nunito Fallback', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: var(--font-m);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-normal);

@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Preload -->
+    <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
 
     <!-- SEO Primary -->
     <title>FAQ - Kanjidon</title>
@@ -592,7 +601,7 @@
                         "name": "Power-up คืออะไร?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "ระหว่างการต่อสู้ การตอบถูกจะให้ Power-up ที่ใช้เป็นข้อได้เปรียบ:  • กระจก: พลิกการ์ดของคู่ต่อสู้ ทำให้สับสน • Makkuro: ทำให้มุมมองของศัตรูมืดลง • 50%: ตัดตัวเลือกผิดครึ่งหนึ่งออก ช่วยให้เดาง่ายขึ้น  ใช้มันอย่างมีกลยุทธ์เพื่อชนะ!"
+                                "text": "ระหว่างการต่อสู้ การตอบถูกจะให้ Power-up ที่ใช้เป็นข้อได้เปรียบ! แต่ละการต่อสู้มี 3 power-ups สุ่มเลือกจาก 7 ตัวนี้:  • กระจก: พลิกการ์ดของคู่ต่อสู้ • Makkuro: ทำให้หน้าจอคู่ต่อสู้มืดลง • 50%: ตัดตัวเลือกผิดครึ่งหนึ่งออก • แผ่นดินไหว: ทำให้การ์ดของคู่ต่อสู้สั่น • พลิก: พลิกการ์ดของคู่ต่อสู้คว่ำลง • ฟองสบู่: เติมฟองให้เต็มหน้าจอคู่ต่อสู้ให้แตก • สลับ: เปลี่ยนคำถามเป็นคำถามที่ตอบไปแล้ว  ใช้มันอย่างมีกลยุทธ์เพื่อชนะ!"
                         }
                 },
                 {
@@ -1170,7 +1179,7 @@
                     </details>
                     <details class="faq-item">
                         <summary>Power-up คืออะไร?</summary>
-                        <p>ระหว่างการต่อสู้ การตอบถูกจะให้ Power-up ที่ใช้เป็นข้อได้เปรียบ:<br><br>• กระจก: พลิกการ์ดของคู่ต่อสู้ ทำให้สับสน<br>• Makkuro: ทำให้มุมมองของศัตรูมืดลง<br>• 50%: ตัดตัวเลือกผิดครึ่งหนึ่งออก ช่วยให้เดาง่ายขึ้น<br><br>ใช้มันอย่างมีกลยุทธ์เพื่อชนะ!</p>
+                        <p>ระหว่างการต่อสู้ การตอบถูกจะให้ Power-up ที่ใช้เป็นข้อได้เปรียบ! แต่ละการต่อสู้มี 3 power-ups สุ่มเลือกจาก 7 ตัวนี้:<br><br>• กระจก: พลิกการ์ดของคู่ต่อสู้<br>• Makkuro: ทำให้หน้าจอคู่ต่อสู้มืดลง<br>• 50%: ตัดตัวเลือกผิดครึ่งหนึ่งออก<br>• แผ่นดินไหว: ทำให้การ์ดของคู่ต่อสู้สั่น<br>• พลิก: พลิกการ์ดของคู่ต่อสู้คว่ำลง<br>• ฟองสบู่: เติมฟองให้เต็มหน้าจอคู่ต่อสู้ให้แตก<br>• สลับ: เปลี่ยนคำถามเป็นคำถามที่ตอบไปแล้ว<br><br>ใช้มันอย่างมีกลยุทธ์เพื่อชนะ!</p>
                     </details>
                     <details class="faq-item">
                         <summary>ชนะการต่อสู้ยังไง?</summary>
@@ -1334,97 +1343,18 @@
         <div class="container footer-content">
             <div class="footer-brand">
                 <img src="../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
-                <p>Learn Japanese kanji by playing.</p>
             </div>
             <div class="footer-links">
                 <div class="footer-col">
-                    <h4>Legal</h4>
-                    <a href="/privacy.html">Privacy Policy</a>
-                    <a href="/terms.html">Terms of Service (EULA)</a>
-                    <a href="/delete.html">Delete Account</a>
+                    <a href="../../privacy.html">Privacy Policy</a>
+                    <a href="../../terms.html">Terms of Service</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Support</h4>
-                    <a href="/support.html">Help Center</a>
+                    <a href="../../support.html">Support</a>
                     <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="footer-legal">
-                    <p><strong>D. Moscato</strong></p>
-                    <p>VAT: IT01691020083</p>
-                </div>
-                <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
-                        <span class="flag-icon">🇬🇧</span>
-                        <span class="language-name">English</span>
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"/>
-                        </svg>
-                    </button>
-                    <div class="language-dropdown">
-                        <a href="/it/" class="language-option">
-                            <span class="flag-icon">🇮🇹</span> Italiano
-                        </a>
-                        <a href="/en/" class="language-option active">
-                            <span class="flag-icon">🇬🇧</span> English
-                        </a>
-                        <a href="/fr/" class="language-option">
-                            <span class="flag-icon">🇫🇷</span> Francais
-                        </a>
-                        <a href="/es/" class="language-option">
-                            <span class="flag-icon">🇪🇸</span> Espanol
-                        </a>
-                        <a href="/de/" class="language-option">
-                            <span class="flag-icon">🇩🇪</span> Deutsch
-                        </a>
-                        <a href="/pt/" class="language-option">
-                            <span class="flag-icon">🇵🇹</span> Portugues
-                        </a>
-                        <a href="/ru/" class="language-option">
-                            <span class="flag-icon">🇷🇺</span> Russkij
-                        </a>
-                        <a href="/ko/" class="language-option">
-                            <span class="flag-icon">🇰🇷</span> Hangugeo
-                        </a>
-                        <a href="/zh/" class="language-option">
-                            <span class="flag-icon">🇨🇳</span> Zhongwen
-                        </a>
-                        <a href="/zh-tw/" class="language-option">
-                            <span class="flag-icon">🇹🇼</span> Zhongwen (Traditional)
-                        </a>
-                        <a href="/ar/" class="language-option">
-                            <span class="flag-icon">🇸🇦</span> Alarabiya
-                        </a>
-                        <a href="/hi/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> Hindi
-                        </a>
-                        <a href="/th/" class="language-option">
-                            <span class="flag-icon">🇹🇭</span> Thai
-                        </a>
-                        <a href="/vi/" class="language-option">
-                            <span class="flag-icon">🇻🇳</span> Tieng Viet
-                        </a>
-                        <a href="/id/" class="language-option">
-                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
-                        </a>
-                        <a href="/ms/" class="language-option">
-                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
-                        </a>
-                        <a href="/tr/" class="language-option">
-                            <span class="flag-icon">🇹🇷</span> Turkce
-                        </a>
-                        <a href="/pl/" class="language-option">
-                            <span class="flag-icon">🇵🇱</span> Polski
-                        </a>
-                        <a href="/fa/" class="language-option">
-                            <span class="flag-icon">🇮🇷</span> Farsi
-                        </a>
-                        <a href="/fil/" class="language-option">
-                            <span class="flag-icon">🇵🇭</span> Filipino
-                        </a>
-                    </div>
-                </div>
                 <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
             </div>
         </div>
