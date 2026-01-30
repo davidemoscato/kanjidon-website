@@ -1,0 +1,46 @@
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="{{ASSETS_PATH}}assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="{{ASSETS_PATH}}blog/">Blog</a>
+                    <a href="{{ASSETS_PATH}}faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="{{ASSETS_PATH}}privacy.html">Privacy Policy</a>
+                    <a href="{{ASSETS_PATH}}terms.html">Terms of Service</a>
+                    <a href="{{ASSETS_PATH}}delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="{{ASSETS_PATH}}about.html">About Us</a>
+                    <a href="{{ASSETS_PATH}}support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">{{CURRENT_FLAG}}</span>
+                        <span class="language-name">{{CURRENT_LANG_NAME}}</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+{{LANGUAGE_OPTIONS}}
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
