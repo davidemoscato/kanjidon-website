@@ -438,6 +438,7 @@
 
 
 
+
     <!-- Blog Pages -->
     <url>
         <loc>https://kanjidon.com/blog/</loc>
@@ -519,6 +520,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/blog/how-to-pass-jlpt-strategies/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/kanji-learning-community-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -608,6 +615,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/it/blog/community-kanji-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/fr/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -687,6 +700,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/fr/blog/comment-reussir-jlpt-strategies/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/communaute-kanji-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -776,6 +795,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/es/blog/comunidad-kanji-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/de/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -855,6 +880,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/de/blog/jlpt-bestehen-strategien/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/kanji-community-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -944,6 +975,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/pt/blog/comunidade-kanji-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/ru/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1023,6 +1060,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/ru/blog/kak-sdat-jlpt-strategii/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/soobshchestvo-kanji-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1112,6 +1155,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/ko/blog/kanji-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/zh/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1191,6 +1240,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/zh/blog/jlpt-tonguo-celue/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/hanzi-xuexi-shequ-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1280,6 +1335,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/zh-tw/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/ar/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1359,6 +1420,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/ar/blog/kayf-tanjah-jlpt-istratijiyat/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/mujtama-kanji-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1448,6 +1515,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/hi/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/th/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1527,6 +1600,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/th/blog/jlpt-phan-yutsart/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/kanji-learning-community-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1616,6 +1695,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/vi/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/id/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1695,6 +1780,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/id/blog/cara-lulus-jlpt-strategi/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/kanji-learning-community-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1784,6 +1875,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/ms/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/tr/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1863,6 +1960,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/tr/blog/jlpt-nasil-gecilir-stratejiler/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/kanji-learning-community-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1952,6 +2055,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/pl/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/fa/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -2036,6 +2145,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/fa/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/fil/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -2115,6 +2230,12 @@
     </url>
     <url>
         <loc>https://kanjidon.com/fil/blog/paano-pumasa-jlpt-estratehiya/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/kanji-learning-community-discord/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
