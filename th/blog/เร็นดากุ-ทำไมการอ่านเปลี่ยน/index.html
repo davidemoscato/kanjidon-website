@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>เร็นดากุ: ทำไมการอ่านคันจิเปลี่ยน (人→hito แต่ 人々→hitobito) | Kanjidon</title>
+    <meta name="description" content="เร็นดากุคืออะไรและทำไม hito กลายเป็น bito? คู่มือปรากฏการณ์เสียงญี่ปุ่นที่เปลี่ยนพยัญชนะไม่ก้องเป็นก้อง">
+    <meta name="keywords" content="เร็นดากุญี่ปุ่น, การอ่านคันจิเปลี่ยน, hito bito, ปรากฏการณ์เร็นดากุ, พยัญชนะญี่ปุ่น">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/th/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+
+    <meta property="og:title" content="เร็นดากุ: ทำไมการอ่านคันจิเปลี่ยน (人→hito แต่ 人々→hitobito)">
+    <meta property="og:description" content="เร็นดากุคืออะไรและทำไม hito กลายเป็น bito? คู่มือปรากฏการณ์เสียงญี่ปุ่นที่เปลี่ยนพยัญชนะไม่ก้องเป็นก้อง">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/th/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="เร็นดากุ: ทำไมการอ่านคันจิเปลี่ยน (人→hito แต่ 人々→hitobito)">
+    <meta name="twitter:description" content="เร็นดากุคืออะไรและทำไม hito กลายเป็น bito? คู่มือปรากฏการณ์เสียงญี่ปุ่นที่เปลี่ยนพยัญชนะไม่ก้องเป็นก้อง">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "เร็นดากุ: ทำไมการอ่านคันจิเปลี่ยน (人→hito แต่ 人々→hitobito)",
+        "description": "เร็นดากุคืออะไรและทำไม hito กลายเป็น bito? คู่มือปรากฏการณ์เสียงญี่ปุ่นที่เปลี่ยนพยัญชนะไม่ก้องเป็นก้อง",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/th/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/th/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "เร็นดากุ: ทำไมการอ่านคันจิเปลี่ยน (人→hito แต่ 人々→hitobito)",
+                        "item": "https://kanjidon.com/th/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/th/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/th/blog/">Blog</a>
+                <a href="/th/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/th/">Home</a>
+                <span class="separator">›</span>
+                <a href="/th/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">เร็นดากุ: ทำไมการอ่านคันจิเปลี่ยน (人→hito แต่ 人々→hitobito)</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>เร็นดากุ: ทำไมการอ่านคันจิเปลี่ยน (人→hito แต่ 人々→hitobito)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 ธ.ค. 2568</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 นาที</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">คุณเรียนว่า 人 อ่าน &#039;hito&#039; แล้วเจอ 人々 และมันคือ &#039;hitobito&#039; ไม่ใช่ &#039;hitohito&#039; &#039;h&#039; กลายเป็น &#039;b&#039; ทำไม? ยินดีต้อนรับสู่โลกของเร็นดากุ (連濁) หนึ่งในปรากฏการณ์ที่สับสน (แต่สง่างาม) ที่สุดในภาษาญี่ปุ่น</p>
+<h2>เร็นดากุคืออะไร?</h2>
+<p>เร็นดากุ (連濁) แปลว่า &#039;การออกเสียงก้องต่อเนื่อง&#039; เมื่อสองคำรวมกัน พยัญชนะต้นของคำที่สองอาจกลายเป็นเสียงก้อง (dakuon) ในทางปฏิบัติ:</p>
+<ul><li>K → G: 国 (kuni) → บางคำผสมใช้เสียง g</li><li>S → Z: 空 (sora) → 青空 (aozora, ไม่ใช่ aosora)</li><li>T → D: 時 (toki) → 時々 (tokidoki, ไม่ใช่ tokitoki)</li><li>H → B: 花 (hana) → 花火 (hanabi, ไม่ใช่ hanahi)</li><li>H → P (หายาก): 発 (hatsu) → 出発 (shuppatsu)</li></ul>
+<h2>ตัวอย่างเร็นดากุที่พบบ่อย</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>คำพื้นฐาน</th><th>การอ่านพื้นฐาน</th><th>คำผสม</th><th>การอ่านคำผสม</th></tr></thead>
+                <tbody><tr><td>人 (คน)</td><td>hito</td><td>人々 (ผู้คน)</td><td>hitobito</td></tr><tr><td>空 (ท้องฟ้า)</td><td>sora</td><td>青空 (ท้องฟ้าสีฟ้า)</td><td>aozora</td></tr><tr><td>花 (ดอกไม้)</td><td>hana</td><td>花火 (พลุ)</td><td>hanabi</td></tr><tr><td>時 (เวลา)</td><td>toki</td><td>時々 (บางครั้ง)</td><td>tokidoki</td></tr><tr><td>紙 (กระดาษ)</td><td>kami</td><td>折り紙 (โอริงามิ)</td><td>origami</td></tr><tr><td>寿司 (ซูชิ)</td><td>sushi</td><td>巻き寿司 (มากิซูชิ)</td><td>makizushi</td></tr></tbody>
+            </table></div>
+<h2>เร็นดากุใช้เมื่อไหร่?</h2>
+<p>นี่คือปัญหา: ไม่มีกฎตายตัว เร็นดากุเป็นแนวโน้มมากกว่ากฎหมาย แต่มีรูปแบบบางอย่าง:</p>
+<ul><li>คำญี่ปุ่นพื้นเมือง (和語): เร็นดากุบ่อย</li><li>คำจีน (漢語): เร็นดากุน้อยกว่า</li><li>คำต่างประเทศ (外来語): แทบไม่มีเร็นดากุ</li><li>คำผสมแบบคู่ (A และ B): มักมีเร็นดากุ</li><li>คำผสมบรรยาย: แล้วแต่</li></ul>
+<h2>เมื่อไม่ใช้: กฎของไลแมน</h2>
+<p>มีกฎที่บล็อกเร็นดากุ เรียกว่า &#039;กฎของไลแมน&#039;: ถ้าคำที่สองมีพยัญชนะก้องอยู่แล้ว (g, z, d, b) เร็นดากุจะไม่ใช้</p>
+<ul><li>風 (kaze, ลม) มี &#039;z&#039; อยู่แล้ว → 神風 = kamikaze (ไม่ใช่ *kamigaze)</li><li>傷 (kizu, บาดแผล) มี &#039;z&#039; อยู่แล้ว → ไม่เปลี่ยน</li></ul>
+<p>กฎนี้ใช้ได้ประมาณ 80% ที่เหลือ 20%? ข้อยกเว้นที่ต้องจำ</p>
+<h2>คำที่มีเร็นดากุที่ควรจำ</h2>
+<ul><li>青空 (aozora) - ท้องฟ้าสีฟ้า</li><li>花火 (hanabi) - พลุ</li><li>手紙 (tegami) - จดหมาย</li><li>時々 (tokidoki) - บางครั้ง</li><li>人々 (hitobito) - ผู้คน</li><li>日々 (hibi) - วันๆ ทุกวัน</li><li>様々 (samazama) - หลากหลาย</li><li>巻き寿司 (makizushi) - ซูชิม้วน</li><li>居酒屋 (izakaya) - อิซากายะ (ผับ)</li><li>鼻血 (hanaji) - เลือดกำเดา</li></ul>
+<h2>วิธีเรียนเร็นดากุ</h2>
+<p>อย่าพยายามจำกฎ เรียนทีละคำ เมื่อเวลาผ่านไปจะพัฒนาสัญชาตญาณว่าอะไร &#039;ฟังดูถูก&#039; นี่คือวิธี:</p>
+<ul><li>เมื่อเรียนคำผสมใหม่ สังเกตว่ามีเร็นดากุไหม</li><li>อ่านและฟังเยอะๆ: การสัมผัสสร้างสัญชาตญาณ</li><li>อย่าเครียดมาก: แม้แต่คนญี่ปุ่นก็ผิดบางครั้ง</li><li>เมื่อไม่แน่ใจ อย่าใช้เร็นดากุ: เป็นความผิดที่เบากว่า</li></ul>
+<h2>สรุป</h2>
+<p>เร็นดากุเป็นหนึ่งในปรากฏการณ์ที่ดูเหมือนเป็นไปไม่ได้ที่จะเข้าใจตอนแรก แต่กลายเป็นธรรมชาติเมื่อสัมผัส ไม่ใช่สิ่งที่ต้อง &#039;เรียน&#039; แต่ต้อง &#039;ซึมซับ&#039; ทุกครั้งที่เรียนคำใหม่กับ Kanjidon สังเกตการอ่าน เมื่อรู้หลายพันคำ รูปแบบจะปรากฏเอง</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Khun aat chob sing ni duay</h3>
+                <div class="related-grid">
+                    
+                    <a href="/th/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/th/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/th/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Rerm rian kanji wan ni</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇭</span>
+                        <span class="language-name">ไทย</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option active">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

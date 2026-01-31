@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>ريندكو: لماذا تتغير قراءات الكانجي (人→hito لكن 人々→hitobito) | Kanjidon</title>
+    <meta name="description" content="ما هو ريندكو ولماذا تصبح hito بيتو؟ الدليل للظاهرة الصوتية اليابانية التي تحول الحروف الساكنة من غير مجهورة إلى مجهورة.">
+    <meta name="keywords" content="ريندكو يابانية، تغير قراءات كانجي، hito bito، ظاهرة ريندكو، حروف ساكنة يابانية">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ar/blog/rendaku-limadha-qiraat-tataghayyar/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/rendaku-limadha-qiraat-tataghayyar/">
+
+    <meta property="og:title" content="ريندكو: لماذا تتغير قراءات الكانجي (人→hito لكن 人々→hitobito)">
+    <meta property="og:description" content="ما هو ريندكو ولماذا تصبح hito بيتو؟ الدليل للظاهرة الصوتية اليابانية التي تحول الحروف الساكنة من غير مجهورة إلى مجهورة.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ar/blog/rendaku-limadha-qiraat-tataghayyar/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ريندكو: لماذا تتغير قراءات الكانجي (人→hito لكن 人々→hitobito)">
+    <meta name="twitter:description" content="ما هو ريندكو ولماذا تصبح hito بيتو؟ الدليل للظاهرة الصوتية اليابانية التي تحول الحروف الساكنة من غير مجهورة إلى مجهورة.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "ريندكو: لماذا تتغير قراءات الكانجي (人→hito لكن 人々→hitobito)",
+        "description": "ما هو ريندكو ولماذا تصبح hito بيتو؟ الدليل للظاهرة الصوتية اليابانية التي تحول الحروف الساكنة من غير مجهورة إلى مجهورة.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ar/blog/rendaku-limadha-qiraat-tataghayyar/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ar/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "ريندكو: لماذا تتغير قراءات الكانجي (人→hito لكن 人々→hitobito)",
+                        "item": "https://kanjidon.com/ar/blog/rendaku-limadha-qiraat-tataghayyar/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ar/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ar/blog/">Blog</a>
+                <a href="/ar/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ar/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ar/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">ريندكو: لماذا تتغير قراءات الكانجي (人→hito لكن 人々→hitobito)</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>ريندكو: لماذا تتغير قراءات الكانجي (人→hito لكن 人々→hitobito)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">١٥ ديسمبر ٢٠٢٥</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">تعلمت أن 人 تُقرأ &#039;hito&#039;. ثم تقابل 人々 وهي &#039;hitobito&#039;، لا &#039;hitohito&#039;. الـ &#039;h&#039; أصبحت &#039;b&#039;. لماذا؟ مرحباً بك في عالم ريندكو (連濁)، واحدة من أكثر الظواهر إرباكاً (لكن أيضاً أناقة) في اليابانية.</p>
+<h2>ما هو ريندكو؟</h2>
+<p>ريندكو (連濁) تعني حرفياً &#039;التجهير المتتابع&#039;. عندما تتركب كلمتان، الحرف الساكن الأول في الكلمة الثانية قد يصبح مجهوراً (داكون). عملياً:</p>
+<ul><li>K → G: 国 (kuni) ← بعض التركيبات تستخدم صوت g</li><li>S → Z: 空 (sora) → 青空 (aozora، لا aosora)</li><li>T → D: 時 (toki) → 時々 (tokidoki، لا tokitoki)</li><li>H → B: 花 (hana) → 花火 (hanabi، لا hanahi)</li><li>H → P (نادر): 発 (hatsu) → 出発 (shuppatsu)</li></ul>
+<h2>أمثلة شائعة على ريندكو</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>الكلمة الأساسية</th><th>القراءة الأساسية</th><th>التركيب</th><th>قراءة التركيب</th></tr></thead>
+                <tbody><tr><td>人 (شخص)</td><td>hito</td><td>人々 (ناس)</td><td>hitobito</td></tr><tr><td>空 (سماء)</td><td>sora</td><td>青空 (سماء زرقاء)</td><td>aozora</td></tr><tr><td>花 (زهرة)</td><td>hana</td><td>花火 (ألعاب نارية)</td><td>hanabi</td></tr><tr><td>時 (وقت)</td><td>toki</td><td>時々 (أحياناً)</td><td>tokidoki</td></tr><tr><td>紙 (ورق)</td><td>kami</td><td>折り紙 (أوريغامي)</td><td>origami</td></tr><tr><td>寿司 (سوشي)</td><td>sushi</td><td>巻き寿司 (ماكي سوشي)</td><td>makizushi</td></tr></tbody>
+            </table></div>
+<h2>متى يُطبق ريندكو؟</h2>
+<p>هنا المشكلة: لا توجد قاعدة صارمة. ريندكو ميل أكثر من قانون. لكن هناك بعض الأنماط:</p>
+<h3>ميول عامة</h3>
+<ul><li>كلمات يابانية أصلية (和語): ريندكو متكرر</li><li>كلمات من أصل صيني (漢語): ريندكو أقل شيوعاً</li><li>كلمات أجنبية (外来語): تقريباً أبداً ريندكو</li><li>تركيبات تنسيقية (A و B): غالباً ريندكو</li><li>تركيبات وصفية: يعتمد</li></ul>
+<h2>متى لا يُطبق: قانون لايمان</h2>
+<p>هناك قاعدة تمنع ريندكو، تُسمى &#039;قانون لايمان&#039;: إذا كانت الكلمة الثانية تحتوي أصلاً على حرف ساكن مجهور (g، z، d، b)، لا يُطبق ريندكو.</p>
+<ul><li>風 (kaze، ريح) فيها أصلاً &#039;z&#039; ← 神風 = kamikaze (لا *kamigaze)</li><li>傷 (kizu، جرح) فيها أصلاً &#039;z&#039; ← لا تتغير</li></ul>
+<p>هذه القاعدة تنفع حوالي 80% من الوقت. الـ 20% الباقية؟ استثناءات يجب حفظها.</p>
+<h2>عوامل أخرى تؤثر على ريندكو</h2>
+<ul><li>التركيبات القديمة: أكثر احتمالاً لريندكو (اندمجت مع الوقت)</li><li>التركيبات الجديدة: أقل احتمالاً (لا تزال تُعتبر كلمتين منفصلتين)</li><li>أسماء العلم: غالباً تحافظ على الشكل الأصلي</li><li>المحاكاة الصوتية: تقريباً دائماً ريندكو (ドキドキ، ガタガタ)</li><li>تكرار نفس الكلمة: غالباً ريندكو (人々، 様々، 時々)</li></ul>
+<h2>كلمات شائعة بريندكو للحفظ</h2>
+<ul><li>青空 (aozora) - سماء زرقاء</li><li>花火 (hanabi) - ألعاب نارية</li><li>手紙 (tegami) - رسالة</li><li>時々 (tokidoki) - أحياناً</li><li>人々 (hitobito) - ناس</li><li>日々 (hibi) - أيام، يومياً</li><li>様々 (samazama) - متنوع</li><li>巻き寿司 (makizushi) - لفة سوشي</li><li>居酒屋 (izakaya) - إزاكايا (حانة)</li><li>鼻血 (hanaji) - نزيف أنف</li></ul>
+<h2>كيف تتعلم ريندكو</h2>
+<p>لا تحاول حفظ القواعد. تعلم كلمة بكلمة. مع الوقت، ستطور حدساً لما &#039;يبدو صحيحاً&#039;. إليك كيف:</p>
+<ul><li>عند تعلم كلمة مركبة جديدة، لاحظ إذا كان هناك ريندكو</li><li>اقرأ واستمع كثيراً: التعرض يبني الحدس</li><li>لا تقلق كثيراً: حتى اليابانيون يخطئون أحياناً</li><li>عند الشك، لا تطبق ريندكو: إنه الخطأ الأقل خطورة</li></ul>
+<h2>الخلاصة</h2>
+<p>ريندكو واحدة من تلك الظواهر التي تبدو مستحيلة الفهم في البداية، لكنها تصبح طبيعية مع التعرض. إنها ليست شيئاً &#039;تدرسه&#039; بقدر ما &#039;تستوعبه&#039;. كل مرة تتعلم كلمة جديدة مع Kanjidon، لاحظ القراءة. مع آلاف الكلمات، يظهر النمط من تلقاء نفسه.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Qad yujibuka aydaan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ar/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/ar/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/ar/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Ibda taallum al-kanji al-yawm</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇸🇦</span>
+                        <span class="language-name">العربية</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option active">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -43,96 +43,242 @@
     <section class="blog-hero">
         <div class="container">
             <h1 class="section-title">Blog</h1>
-            <p class="blog-hero-subtitle">14 Modeun gisa</p>
+            <p class="blog-hero-subtitle">22 Gisa</p>
         </div>
     </section>
 
     <section class="blog-list">
         <div class="container">
-            <div class="blog-grid">
+            <!-- Category Filters -->
+            <div class="category-filters" role="tablist" aria-label="Filter articles by category">
+                <button class="filter-btn active" data-category="all" role="tab" aria-selected="true" aria-controls="blog-articles">Jeonbu</button>
+                <button class="filter-btn" data-category="jlpt" role="tab" aria-selected="false" aria-controls="blog-articles">JLPT</button>
+                <button class="filter-btn" data-category="method" role="tab" aria-selected="false" aria-controls="blog-articles">Bangbeop</button>
+                <button class="filter-btn" data-category="beginner" role="tab" aria-selected="false" aria-controls="blog-articles">Chogeunja</button>
+                <button class="filter-btn" data-category="apps" role="tab" aria-selected="false" aria-controls="blog-articles">Aep</button>
+                <button class="filter-btn" data-category="community" role="tab" aria-selected="false" aria-controls="blog-articles">Keomuyniti</button>
+            </div>
+
+            <div class="blog-grid" id="blog-articles" role="tabpanel">
                 
-        <a href="/ko/blog/how-to-learn-kanji/" class="blog-card">
+        <a href="/ko/blog/how-to-learn-kanji/" class="blog-card" data-categories="beginner method">
             <h2>How to Learn Kanji: Complete Guide</h2>
             <p>Discover how to learn Japanese kanji effectively with proven methods.</p>
-            <span class="read-time">8 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 5일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/kanji-jlpt-guide/" class="blog-card">
+        <a href="/ko/blog/kanji-jlpt-guide/" class="blog-card" data-categories="beginner">
             <h2>How Many Kanji for JLPT? N5 to N1 Guide</h2>
             <p>Learn how many kanji you need for each JLPT level.</p>
-            <span class="read-time">6 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/hiragana-katakana-kanji/" class="blog-card">
+        <a href="/ko/blog/hiragana-katakana-kanji/" class="blog-card" data-categories="beginner">
             <h2>Hiragana vs Katakana vs Kanji: Which First?</h2>
             <p>Learn the differences and the right learning order.</p>
-            <span class="read-time">7 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/spaced-repetition-kanji/" class="blog-card">
+        <a href="/ko/blog/spaced-repetition-kanji/" class="blog-card" data-categories="method">
             <h2>Spaced Repetition: Scientific Method for Kanji</h2>
             <p>Learn how SRS helps memorize kanji efficiently.</p>
-            <span class="read-time">6 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 24일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/100-common-kanji/" class="blog-card">
+        <a href="/ko/blog/100-common-kanji/" class="blog-card" data-categories="beginner">
             <h2>100 Most Common Kanji for Daily Life</h2>
             <p>The most useful kanji for everyday situations in Japan.</p>
-            <span class="read-time">10 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">10 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/wanji-oeuji-motaneun-iyu/" class="blog-card">
+        <a href="/ko/blog/wanji-oeuji-motaneun-iyu/" class="blog-card" data-categories="beginner">
             <h2>한자를 외울 수 없는 진짜 이유 (그리고 효과적인 방법)</h2>
             <p>한자 공부가 안 되는 이유는 한자 자체가 아니라 공부 방법에 있어. 전통적인 방식이 왜 실패하는지, 진짜 효과적인 방법은 뭔지 알아보자.</p>
-            <span class="read-time">5 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/araboneun-geot-gieokaneun-geot-dareuda/" class="blog-card">
+        <a href="/ko/blog/araboneun-geot-gieokaneun-geot-dareuda/" class="blog-card" data-categories="beginner">
             <h2>알아보는 것과 기억하는 것은 다르다: 한자의 진짜 문제</h2>
             <p>안다고 생각한 한자를 왜 잊어버릴까? 인식과 기억은 달라. 그 차이와 제대로 공부하는 방법을 알아보자.</p>
-            <span class="read-time">5 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/hanja-eoneo-choejong-boseu/" class="blog-card">
+        <a href="/ko/blog/hanja-eoneo-choejong-boseu/" class="blog-card" data-categories="beginner">
             <h2>한자가 언어의 최종 보스인 이유 (그리고 이기는 방법)</h2>
             <p>2136개의 한자, 여러 읽기, 무한한 조합. 전통적인 방법이 왜 실패하는지, 일본어 한자를 배우려면 진짜 뭐가 필요한지 알아보자.</p>
-            <span class="read-time">6 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/jlpt-hapgyeok-gigan/" class="blog-card">
+        <a href="/ko/blog/jlpt-hapgyeok-gigan/" class="blog-card" data-categories="beginner">
             <h2>JLPT 합격까지 얼마나 걸릴까? 아무도 안 알려주는 진실</h2>
             <p>JLPT 각 레벨 합격에 진짜 얼마나 걸리는지 알아보자. N5부터 N1까지. 현실적인 기간이야, 불가능한 약속이 아니라.</p>
-            <span class="read-time">7 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/jlpt-n5-wanjeon-gaideu/" class="blog-card">
+        <a href="/ko/blog/jlpt-n5-wanjeon-gaideu/" class="blog-card" data-categories="beginner">
             <h2>JLPT N5: 첫 시험에 합격하기 위한 완전 가이드</h2>
             <p>JLPT N5에 대해 알아야 할 모든 것: 뭘 공부할지, 어떻게 준비할지, 피해야 할 실수. 초보자를 위한 완전 가이드.</p>
-            <span class="read-time">8 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/jlpt-iljeong-deungnok-biyo/" class="blog-card">
+        <a href="/ko/blog/jlpt-iljeong-deungnok-biyo/" class="blog-card" data-categories="beginner">
             <h2>JLPT 2025-2026: 일정, 등록, 비용 및 알아야 할 모든 것</h2>
             <p>JLPT 실용 가이드: 언제 열리는지, 어떻게 등록하는지, 비용은 얼마인지. 2025-2026 업데이트 정보.</p>
-            <span class="read-time">5 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/jlpt-n5-n1-chaii/" class="blog-card">
+        <a href="/ko/blog/jlpt-n5-n1-chaii/" class="blog-card" data-categories="beginner">
             <h2>JLPT N5 vs N4 vs N3 vs N2 vs N1: 레벨 간 진짜 차이</h2>
             <p>JLPT 모든 레벨 상세 비교. N5부터 N1까지 난이도, 내용, 실용적 활용 면에서 뭐가 달라지는지 알아보자.</p>
-            <span class="read-time">7 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/jlpt-hapgyeok-jeonryak/" class="blog-card">
+        <a href="/ko/blog/jlpt-hapgyeok-jeonryak/" class="blog-card" data-categories="beginner">
             <h2>JLPT 합격하는 방법: 진짜 효과 있는 10가지 전략</h2>
             <p>어떤 레벨이든 JLPT 합격을 위한 실용적이고 검증된 전략. 공부, 시간 관리, 시험 당일에 뭘 해야 하는지 조언.</p>
-            <span class="read-time">8 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/ko/blog/neo-hanja-jalmot-baeugo-isseo/" class="blog-card">
+        <a href="/ko/blog/neo-hanja-jalmot-baeugo-isseo/" class="blog-card" data-categories="beginner">
             <h2>너 한자 잘못 배우고 있어 (우리도 그랬어)</h2>
             <p>혼자 공부하는 게 왜 안 되는지, 디스코드 커뮤니티가 일본어 여정을 어떻게 바꾸는지 알아봐. 뇌는 사회적 학습을 위해 만들어졌어.</p>
-            <span class="read-time">7 min bun</span>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/ilboneo-josa-ni-de-wo-wa-ga/" class="blog-card" data-categories="beginner">
+            <h2>일본어 조사 완벽 가이드: に, で, を, は, が 마스터하기</h2>
+            <p>실용적인 예문으로 일본어 조사 に, で, を, は, が를 완벽하게 익혀보자. 다시는 헷갈리지 않는 완벽 가이드.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">10분</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/ilbon-hyeolaekhyeong-seonggyeok/" class="blog-card" data-categories="beginner">
+            <h2>일본 혈액형 성격론: 혈액형이 말해주는 당신의 성격</h2>
+            <p>일본인들이 혈액형과 성격에 대해 어떻게 생각하는지 알아보자. 이 흥미로운 일본 문화 신앙에 대한 완벽 가이드.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7분</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/ilboneo-gongbu-anime-chucheon/" class="blog-card" data-categories="beginner">
+            <h2>일본어 공부에 좋은 애니메이션 10선 (레벨별)</h2>
+            <p>레벨별로 정리한 일본어 공부에 좋은 애니메이션을 알아보자. 초급부터 고급까지, 무엇을 들어야 하는지 팁과 함께.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">9분</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/ilboneo-cheoeumbuteo-wanbyeok-gaideu/" class="blog-card" data-categories="beginner">
+            <h2>일본어 처음부터 배우기: 2026 완벽 로드맵</h2>
+            <p>제로에서 일본어 배우기 완벽 가이드. 완전한 로드맵: 히라가나, 가타카나, 한자, 문법, 리소스. 필요한 모든 것.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">15분</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/ilbon-yeohaeng-pilsu-hanja/" class="blog-card" data-categories="beginner">
+            <h2>일본 여행 필수 한자 50개</h2>
+            <p>일본 관광객으로 살아남기 위해 꼭 알아야 할 한자. 역, 레스토랑, 화장실, 상점: 어디서나 볼 수 있는 모든 글자.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8분</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/ilboneo-hochingseo-gaideu/" class="blog-card" data-categories="beginner">
+            <h2>일본어 호칭 완벽 가이드: 대명사와 경칭</h2>
+            <p>일본어로 사람을 어떻게 부르지? さん, 君, ちゃん은 언제 쓰지? あなた는 무례해? 대명사와 경칭 완벽 가이드.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8분</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/rendaku-hanja-dokbeop-byeonhwa/" class="blog-card" data-categories="beginner">
+            <h2>렌다쿠: 왜 한자 읽기가 바뀔까 (人→hito인데 人々→hitobito)</h2>
+            <p>렌다쿠가 뭐고 왜 hito가 bito가 될까? 무성 자음을 유성 자음으로 바꾸는 일본어 음성 현상 가이드.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6분</span>
+            </div>
+        </a>
+    
+        <a href="/ko/blog/n5-hanja-hu-mueol-ilkeuji/" class="blog-card" data-categories="beginner">
+            <h2>N5 한자 후에 뭘 읽지: 초보자를 위한 리소스</h2>
+            <p>N5 한자를 배웠어, 이제 뭘 해? 배운 걸 연습할 수 있는 것들: 그레이디드 리더, 만화, 앱과 네 레벨에 딱 맞는 리소스.</p>
+            <div class="card-meta">
+                <span class="publish-date">2025년 12월 15일</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7분</span>
+            </div>
         </a>
     
             </div>
@@ -161,18 +307,23 @@
             </div>
             <div class="footer-links">
                 <div class="footer-col">
-                    <h4>Resources</h4>
+                    <strong class="footer-heading">Resources</strong>
                     <a href="../../blog/">Blog</a>
                     <a href="../../faq/">FAQ</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Legal</h4>
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
                     <a href="../../privacy.html">Privacy Policy</a>
                     <a href="../../terms.html">Terms of Service</a>
                     <a href="../../delete.html">Delete Account</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Support</h4>
+                    <strong class="footer-heading">Support</strong>
                     <a href="../../about.html">About Us</a>
                     <a href="../../support.html">Help Center</a>
                     <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
@@ -286,6 +437,67 @@
                     languageDropdown.classList.remove('show');
                 });
             }
+
+            // Category filter
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card');
+
+            function activateFilter(btn) {
+                const category = btn.dataset.category;
+
+                // Update active state
+                filterBtns.forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-selected', 'false');
+                    b.setAttribute('tabindex', '-1');
+                });
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+                btn.setAttribute('tabindex', '0');
+                btn.focus();
+
+                // Filter cards
+                blogCards.forEach(card => {
+                    const cardCategories = card.dataset.categories.split(' ');
+                    if (category === 'all' || cardCategories.includes(category)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            filterBtns.forEach((btn, index) => {
+                // Set initial tabindex (only active tab is focusable)
+                btn.setAttribute('tabindex', btn.classList.contains('active') ? '0' : '-1');
+
+                btn.addEventListener('click', function() {
+                    activateFilter(this);
+                });
+
+                // Keyboard navigation (WCAG 2.1)
+                btn.addEventListener('keydown', function(e) {
+                    let targetIndex = index;
+
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                        e.preventDefault();
+                        targetIndex = (index + 1) % filterBtns.length;
+                    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                        e.preventDefault();
+                        targetIndex = (index - 1 + filterBtns.length) % filterBtns.length;
+                    } else if (e.key === 'Home') {
+                        e.preventDefault();
+                        targetIndex = 0;
+                    } else if (e.key === 'End') {
+                        e.preventDefault();
+                        targetIndex = filterBtns.length - 1;
+                    }
+
+                    if (targetIndex !== index) {
+                        activateFilter(filterBtns[targetIndex]);
+                    }
+                });
+            });
         });
 
         // Sticky download bar

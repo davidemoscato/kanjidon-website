@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito) | Kanjidon</title>
+    <meta name="description" content="Czym jest rendaku i dlaczego hito staje się bito? Przewodnik po japońskim zjawisku fonetycznym, które zamienia spółgłoski bezdźwięczne na dźwięczne.">
+    <meta name="keywords" content="rendaku japoński, odczyty kanji zmieniają się, hito bito, zjawisko rendaku, japońskie spółgłoski">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/pl/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+
+    <meta property="og:title" content="Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito)">
+    <meta property="og:description" content="Czym jest rendaku i dlaczego hito staje się bito? Przewodnik po japońskim zjawisku fonetycznym, które zamienia spółgłoski bezdźwięczne na dźwięczne.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/pl/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito)">
+    <meta name="twitter:description" content="Czym jest rendaku i dlaczego hito staje się bito? Przewodnik po japońskim zjawisku fonetycznym, które zamienia spółgłoski bezdźwięczne na dźwięczne.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito)",
+        "description": "Czym jest rendaku i dlaczego hito staje się bito? Przewodnik po japońskim zjawisku fonetycznym, które zamienia spółgłoski bezdźwięczne na dźwięczne.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/pl/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/pl/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito)",
+                        "item": "https://kanjidon.com/pl/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/pl/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/pl/blog/">Blog</a>
+                <a href="/pl/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/pl/">Home</a>
+                <span class="separator">›</span>
+                <a href="/pl/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito)</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 gru 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Nauczyłeś się, że 人 czyta się &#039;hito&#039;. Potem spotykasz 人々 i to &#039;hitobito&#039;, nie &#039;hitohito&#039;. Dźwięk &#039;h&#039; staje się &#039;b&#039;. Dlaczego? Witaj w świecie rendaku (連濁), jednego z najbardziej mylących (ale też najbardziej eleganckich) zjawisk w japońskim.</p>
+<h2>Czym jest rendaku?</h2>
+<p>Rendaku (連濁) dosłownie oznacza &#039;sekwencyjne udźwięcznienie&#039;. Gdy dwa słowa się łączą, początkowa spółgłoska drugiego słowa może stać się dźwięczna (dakuon). W praktyce:</p>
+<ul><li>K → G: 国 (kuni) → w niektórych złożeniach używa się dźwięku g</li><li>S → Z: 空 (sora) → 青空 (aozora, nie aosora)</li><li>T → D: 時 (toki) → 時々 (tokidoki, nie tokitoki)</li><li>H → B: 花 (hana) → 花火 (hanabi, nie hanahi)</li><li>H → P (rzadko): 発 (hatsu) → 出発 (shuppatsu)</li></ul>
+<h2>Częste przykłady rendaku</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Podstawowe słowo</th><th>Podstawowy odczyt</th><th>Złożenie</th><th>Odczyt złożenia</th></tr></thead>
+                <tbody><tr><td>人 (osoba)</td><td>hito</td><td>人々 (ludzie)</td><td>hitobito</td></tr><tr><td>空 (niebo)</td><td>sora</td><td>青空 (błękitne niebo)</td><td>aozora</td></tr><tr><td>花 (kwiat)</td><td>hana</td><td>花火 (fajerwerki)</td><td>hanabi</td></tr><tr><td>時 (czas)</td><td>toki</td><td>時々 (czasami)</td><td>tokidoki</td></tr><tr><td>紙 (papier)</td><td>kami</td><td>折り紙 (origami)</td><td>origami</td></tr><tr><td>寿司 (sushi)</td><td>sushi</td><td>巻き寿司 (maki sushi)</td><td>makizushi</td></tr></tbody>
+            </table></div>
+<h2>Kiedy stosuje się rendaku?</h2>
+<p>Oto problem: nie ma ścisłej reguły. Rendaku to bardziej tendencja niż prawo. Ale są pewne wzorce:</p>
+<h3>Ogólne tendencje</h3>
+<ul><li>Rdzennie japońskie słowa (和語): rendaku częste</li><li>Słowa chińskiego pochodzenia (漢語): rendaku rzadsze</li><li>Zapożyczenia (外来語): prawie nigdy rendaku</li><li>Złożenia współrzędne (A i B): często rendaku</li><li>Złożenia opisowe: zależy</li></ul>
+<h2>Kiedy NIE stosować: prawo Lymana</h2>
+<p>Jest reguła, która BLOKUJE rendaku, zwana &#039;prawem Lymana&#039;: jeśli drugie słowo już zawiera dźwięczną spółgłoskę (g, z, d, b), rendaku nie zachodzi.</p>
+<ul><li>風 (kaze, wiatr) już ma &#039;z&#039; → 神風 = kamikaze (nie *kamigaze)</li><li>傷 (kizu, rana) już ma &#039;z&#039; → nie zmienia się</li></ul>
+<p>Ta reguła działa w około 80% przypadków. Pozostałe 20%? Wyjątki do zapamiętania.</p>
+<h2>Inne czynniki wpływające na rendaku</h2>
+<ul><li>Stare złożenia: bardziej prawdopodobne rendaku (z czasem się &#039;zrosły&#039;)</li><li>Nowe złożenia: mniej prawdopodobne rendaku (wciąż postrzegane jako dwa słowa)</li><li>Nazwy własne: często zachowują oryginalną formę</li><li>Onomatopeje: prawie zawsze rendaku (ドキドキ, ガタガタ)</li><li>Powtórzenie tego samego słowa: często rendaku (人々, 様々, 時々)</li></ul>
+<h2>Częste słowa z rendaku do zapamiętania</h2>
+<ul><li>青空 (aozora) - błękitne niebo</li><li>花火 (hanabi) - fajerwerki</li><li>手紙 (tegami) - list</li><li>時々 (tokidoki) - czasami</li><li>人々 (hitobito) - ludzie</li><li>日々 (hibi) - dni, codziennie</li><li>様々 (samazama) - różnorodne</li><li>巻き寿司 (makizushi) - maki</li><li>居酒屋 (izakaya) - izakaya (pub)</li><li>鼻血 (hanaji) - krew z nosa</li></ul>
+<h2>Jak uczyć się rendaku</h2>
+<p>Nie próbuj zapamiętywać reguł. Ucz się słowo po słowie. Z czasem wyrobisz intuicję tego, co &#039;brzmi dobrze&#039;. Oto jak:</p>
+<ul><li>Ucząc się nowego złożenia, zwracaj uwagę czy jest rendaku</li><li>Dużo czytaj i słuchaj: ekspozycja buduje intuicję</li><li>Nie stresuj się za bardzo: nawet Japończycy czasem się mylą</li><li>W razie wątpliwości nie stosuj rendaku: to mniej poważny błąd</li></ul>
+<h2>Podsumowanie</h2>
+<p>Rendaku to jedno z tych zjawisk, które na początku wydają się niemożliwe do zrozumienia, ale stają się naturalne z ekspozycją. To nie jest coś do &#039;nauki&#039;, raczej do &#039;wchłonięcia&#039;. Za każdym razem, gdy uczysz się nowego słowa w Kanjidon, zwracaj uwagę na odczyt. Z tysiącami słów wzorzec wyłoni się sam.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Moze ci sie tez spodobac</h3>
+                <div class="related-grid">
+                    
+                    <a href="/pl/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/pl/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/pl/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Zacznij uczyc sie kanji dzis</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇵🇱</span>
+                        <span class="language-name">Polski</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option active">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

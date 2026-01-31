@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>50 kanji essentiels pour voyager au Japon | Kanjidon</title>
+    <meta name="description" content="Les kanji indispensables pour survivre au Japon en tant que touriste. Gares, restaurants, toilettes, magasins : tous les caracteres que tu verras partout.">
+    <meta name="keywords" content="kanji voyage Japon, kanji pour touristes, kanji gare, kanji restaurant, lire panneaux japonais">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/fr/blog/kanji-pour-voyager-au-japon/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/kanji-pour-voyager-au-japon/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-pour-voyager-au-japon/">
+
+    <meta property="og:title" content="50 kanji essentiels pour voyager au Japon">
+    <meta property="og:description" content="Les kanji indispensables pour survivre au Japon en tant que touriste. Gares, restaurants, toilettes, magasins : tous les caracteres que tu verras partout.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/fr/blog/kanji-pour-voyager-au-japon/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="50 kanji essentiels pour voyager au Japon">
+    <meta name="twitter:description" content="Les kanji indispensables pour survivre au Japon en tant que touriste. Gares, restaurants, toilettes, magasins : tous les caracteres que tu verras partout.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "50 kanji essentiels pour voyager au Japon",
+        "description": "Les kanji indispensables pour survivre au Japon en tant que touriste. Gares, restaurants, toilettes, magasins : tous les caracteres que tu verras partout.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/fr/blog/kanji-pour-voyager-au-japon/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/fr/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "50 kanji essentiels pour voyager au Japon",
+                        "item": "https://kanjidon.com/fr/blog/kanji-pour-voyager-au-japon/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/fr/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/fr/blog/">Blog</a>
+                <a href="/fr/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/fr/">Home</a>
+                <span class="separator">›</span>
+                <a href="/fr/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">50 kanji essentiels pour voyager au Japon</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>50 kanji essentiels pour voyager au Japon</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 déc. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Tu t&#039;appretes a visiter le Japon et tu sais rien lire ? Bonne nouvelle : t&#039;as pas besoin de 2000 kanji. Avec ces 50 caracteres tu survivras partout : gares, restaurants, toilettes, magasins. Ce sont les kanji que tu verras litteralement des centaines de fois par jour.</p>
+<h2>Gares et transports</h2>
+<p>Les transports japonais sont excellents, mais les panneaux peuvent etre deroutants. Ces kanji vont te sauver :</p>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">駅</span>
+                    <span class="kanji-meaning">gare</span>
+                    <span class="kanji-reading">eki</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">入</span>
+                    <span class="kanji-meaning">entrer</span>
+                    <span class="kanji-reading">iri, hairu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">出</span>
+                    <span class="kanji-meaning">sortie</span>
+                    <span class="kanji-reading">de, deru</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">口</span>
+                    <span class="kanji-meaning">sortie/entree</span>
+                    <span class="kanji-reading">guchi, kuchi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">東</span>
+                    <span class="kanji-meaning">est</span>
+                    <span class="kanji-reading">higashi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">西</span>
+                    <span class="kanji-meaning">ouest</span>
+                    <span class="kanji-reading">nishi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">南</span>
+                    <span class="kanji-meaning">sud</span>
+                    <span class="kanji-reading">minami</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">北</span>
+                    <span class="kanji-meaning">nord</span>
+                    <span class="kanji-reading">kita</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">線</span>
+                    <span class="kanji-meaning">ligne (train)</span>
+                    <span class="kanji-reading">sen</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">急</span>
+                    <span class="kanji-meaning">express/rapide</span>
+                    <span class="kanji-reading">kyu</span>
+                </div></div>
+<p>Combinaisons utiles : 入口 (iriguchi, entree), 出口 (deguchi, sortie), 東口 (higashiguchi, sortie est), 急行 (kyuko, train express).</p>
+<h2>Toilettes publiques</h2>
+<p>Priorite numero un pour tout touriste. Memorise ceux-la avant d&#039;atterrir :</p>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">男</span>
+                    <span class="kanji-meaning">homme</span>
+                    <span class="kanji-reading">otoko</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">女</span>
+                    <span class="kanji-meaning">femme</span>
+                    <span class="kanji-reading">onna</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">手</span>
+                    <span class="kanji-meaning">main (pour laver)</span>
+                    <span class="kanji-reading">te</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">洗</span>
+                    <span class="kanji-meaning">laver</span>
+                    <span class="kanji-reading">arai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">空</span>
+                    <span class="kanji-meaning">vide/libre</span>
+                    <span class="kanji-reading">ku, sora</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">使</span>
+                    <span class="kanji-meaning">en usage</span>
+                    <span class="kanji-reading">shi, tsukau</span>
+                </div></div>
+<p>Combinaisons : お手洗い (otearai, toilettes - litteralement &#039;lavage des mains&#039;), 空室 (kushitsu, libre), 使用中 (shiyochu, occupe).</p>
+<h2>Restaurants et nourriture</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">食</span>
+                    <span class="kanji-meaning">nourriture/manger</span>
+                    <span class="kanji-reading">shoku, taberu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">飲</span>
+                    <span class="kanji-meaning">boire</span>
+                    <span class="kanji-reading">in, nomu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">肉</span>
+                    <span class="kanji-meaning">viande</span>
+                    <span class="kanji-reading">niku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">魚</span>
+                    <span class="kanji-meaning">poisson</span>
+                    <span class="kanji-reading">sakana</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">野</span>
+                    <span class="kanji-meaning">legume (dans 野菜)</span>
+                    <span class="kanji-reading">ya</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">菜</span>
+                    <span class="kanji-meaning">legume</span>
+                    <span class="kanji-reading">sai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">定</span>
+                    <span class="kanji-meaning">menu fixe</span>
+                    <span class="kanji-reading">tei</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">席</span>
+                    <span class="kanji-meaning">place</span>
+                    <span class="kanji-reading">seki</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">禁</span>
+                    <span class="kanji-meaning">interdit</span>
+                    <span class="kanji-reading">kin</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">煙</span>
+                    <span class="kanji-meaning">fumee</span>
+                    <span class="kanji-reading">en, kemuri</span>
+                </div></div>
+<p>Combinaisons : 定食 (teishoku, menu fixe), 禁煙 (kin&#039;en, non-fumeur), 野菜 (yasai, legumes), 食べ放題 (tabehoudai, a volonte).</p>
+<h2>Chiffres et prix</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">一</span>
+                    <span class="kanji-meaning">un</span>
+                    <span class="kanji-reading">ichi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">二</span>
+                    <span class="kanji-meaning">deux</span>
+                    <span class="kanji-reading">ni</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">三</span>
+                    <span class="kanji-meaning">trois</span>
+                    <span class="kanji-reading">san</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">四</span>
+                    <span class="kanji-meaning">quatre</span>
+                    <span class="kanji-reading">yon, shi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">五</span>
+                    <span class="kanji-meaning">cinq</span>
+                    <span class="kanji-reading">go</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">六</span>
+                    <span class="kanji-meaning">six</span>
+                    <span class="kanji-reading">roku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">七</span>
+                    <span class="kanji-meaning">sept</span>
+                    <span class="kanji-reading">nana, shichi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">八</span>
+                    <span class="kanji-meaning">huit</span>
+                    <span class="kanji-reading">hachi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">九</span>
+                    <span class="kanji-meaning">neuf</span>
+                    <span class="kanji-reading">kyu, ku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">十</span>
+                    <span class="kanji-meaning">dix</span>
+                    <span class="kanji-reading">ju</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">百</span>
+                    <span class="kanji-meaning">cent</span>
+                    <span class="kanji-reading">hyaku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">千</span>
+                    <span class="kanji-meaning">mille</span>
+                    <span class="kanji-reading">sen</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">万</span>
+                    <span class="kanji-meaning">dix mille</span>
+                    <span class="kanji-reading">man</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">円</span>
+                    <span class="kanji-meaning">yen</span>
+                    <span class="kanji-reading">en</span>
+                </div></div>
+<p>Exemple pratique : 三千五百円 = 3 500 yens. Les prix sont souvent en chiffres arabes, mais tu verras des kanji dans les contextes traditionnels.</p>
+<h2>Magasins et shopping</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">店</span>
+                    <span class="kanji-meaning">magasin</span>
+                    <span class="kanji-reading">mise, ten</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">売</span>
+                    <span class="kanji-meaning">vendre</span>
+                    <span class="kanji-reading">uri, bai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">買</span>
+                    <span class="kanji-meaning">acheter</span>
+                    <span class="kanji-reading">kai, kau</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">品</span>
+                    <span class="kanji-meaning">produit</span>
+                    <span class="kanji-reading">hin</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">半</span>
+                    <span class="kanji-meaning">moitie (soldes)</span>
+                    <span class="kanji-reading">han</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">無</span>
+                    <span class="kanji-meaning">sans/gratuit</span>
+                    <span class="kanji-reading">mu, nai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">料</span>
+                    <span class="kanji-meaning">frais</span>
+                    <span class="kanji-reading">ryo</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">税</span>
+                    <span class="kanji-meaning">taxe</span>
+                    <span class="kanji-reading">zei</span>
+                </div></div>
+<p>Combinaisons : 無料 (muryo, gratuit), 半額 (hangaku, moitie prix), 税込 (zeikomi, TTC), 税抜 (zeinuki, HT).</p>
+<h2>Avertissements et securite</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">止</span>
+                    <span class="kanji-meaning">stop/interdit</span>
+                    <span class="kanji-reading">tome, shi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">注</span>
+                    <span class="kanji-meaning">attention</span>
+                    <span class="kanji-reading">chu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">意</span>
+                    <span class="kanji-meaning">attention</span>
+                    <span class="kanji-reading">i</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">危</span>
+                    <span class="kanji-meaning">danger</span>
+                    <span class="kanji-reading">ki, abunai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">険</span>
+                    <span class="kanji-meaning">danger</span>
+                    <span class="kanji-reading">ken</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">非</span>
+                    <span class="kanji-meaning">urgence</span>
+                    <span class="kanji-reading">hi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">常</span>
+                    <span class="kanji-meaning">normal/constant</span>
+                    <span class="kanji-reading">jo</span>
+                </div></div>
+<p>Combinaisons : 注意 (chui, attention !), 危険 (kiken, danger), 非常口 (hijoguchi, sortie de secours), 立入禁止 (tachiirikinshi, acces interdit).</p>
+<h2>Jours et temps</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">今</span>
+                    <span class="kanji-meaning">maintenant/aujourd&#039;hui</span>
+                    <span class="kanji-reading">ima, kon</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">日</span>
+                    <span class="kanji-meaning">jour/soleil</span>
+                    <span class="kanji-reading">hi, nichi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">月</span>
+                    <span class="kanji-meaning">mois/lune</span>
+                    <span class="kanji-reading">tsuki, getsu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">火</span>
+                    <span class="kanji-meaning">feu (mardi)</span>
+                    <span class="kanji-reading">hi, ka</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">水</span>
+                    <span class="kanji-meaning">eau (mercredi)</span>
+                    <span class="kanji-reading">mizu, sui</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">木</span>
+                    <span class="kanji-meaning">arbre (jeudi)</span>
+                    <span class="kanji-reading">ki, moku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">金</span>
+                    <span class="kanji-meaning">or/argent (vendredi)</span>
+                    <span class="kanji-reading">kane, kin</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">土</span>
+                    <span class="kanji-meaning">terre (samedi)</span>
+                    <span class="kanji-reading">tsuchi, do</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">時</span>
+                    <span class="kanji-meaning">heure</span>
+                    <span class="kanji-reading">toki, ji</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">分</span>
+                    <span class="kanji-meaning">minute</span>
+                    <span class="kanji-reading">fun, pun</span>
+                </div></div>
+<p>Jours de la semaine : 月曜日 (lundi), 火曜日 (mardi), 水曜日 (mercredi), 木曜日 (jeudi), 金曜日 (vendredi), 土曜日 (samedi), 日曜日 (dimanche).</p>
+<h2>L&#039;astuce finale : Les mots composes</h2>
+<p>La magie des kanji c&#039;est qu&#039;ils se combinent logiquement. Si tu connais les composants, tu peux deviner le sens :</p>
+<ul><li>入 (entrer) + 口 (ouverture) = 入口 (entree)</li><li>出 (sortir) + 口 (ouverture) = 出口 (sortie)</li><li>大 (grand) + 人 (personne) = 大人 (adulte)</li><li>電 (electricite) + 車 (vehicule) = 電車 (train)</li><li>自 (soi) + 動 (mouvement) + 車 (vehicule) = 自動車 (automobile)</li></ul>
+<h2>Conclusion</h2>
+<p>Avec ces 50 kanji tu navigueras au Japon sans problemes. Tu seras pas fluent, mais tu seras pas perdu. Avant ton voyage, installe Kanjidon et revise ces caracteres jusqu&#039;a les reconnaitre instantanement. Bon voyage ! いい旅を !</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>A lire aussi</h3>
+                <div class="related-grid">
+                    
+                    <a href="/fr/blog/comment-apprendre-kanji/" class="related-card">
+                        <h4>Comment Apprendre les Kanji : Guide Complet pour Debutants</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/fr/blog/combien-kanji-jlpt/" class="related-card">
+                        <h4>Combien de Kanji pour le JLPT ? Guide de N5 a N1</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/fr/blog/hiragana-katakana-kanji-differences/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji : Lequel Apprendre en Premier ?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Commencez a apprendre les kanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇫🇷</span>
+                        <span class="language-name">Français</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option active">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

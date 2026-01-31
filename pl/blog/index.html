@@ -43,96 +43,242 @@
     <section class="blog-hero">
         <div class="container">
             <h1 class="section-title">Blog</h1>
-            <p class="blog-hero-subtitle">14 Wszystkie Artykuly</p>
+            <p class="blog-hero-subtitle">22 Artykuly</p>
         </div>
     </section>
 
     <section class="blog-list">
         <div class="container">
-            <div class="blog-grid">
+            <!-- Category Filters -->
+            <div class="category-filters" role="tablist" aria-label="Filter articles by category">
+                <button class="filter-btn active" data-category="all" role="tab" aria-selected="true" aria-controls="blog-articles">Wszystkie</button>
+                <button class="filter-btn" data-category="jlpt" role="tab" aria-selected="false" aria-controls="blog-articles">JLPT</button>
+                <button class="filter-btn" data-category="method" role="tab" aria-selected="false" aria-controls="blog-articles">Metoda</button>
+                <button class="filter-btn" data-category="beginner" role="tab" aria-selected="false" aria-controls="blog-articles">Poczatkujacy</button>
+                <button class="filter-btn" data-category="apps" role="tab" aria-selected="false" aria-controls="blog-articles">Aplikacje</button>
+                <button class="filter-btn" data-category="community" role="tab" aria-selected="false" aria-controls="blog-articles">Spolecznosc</button>
+            </div>
+
+            <div class="blog-grid" id="blog-articles" role="tabpanel">
                 
-        <a href="/pl/blog/how-to-learn-kanji/" class="blog-card">
+        <a href="/pl/blog/how-to-learn-kanji/" class="blog-card" data-categories="beginner method">
             <h2>How to Learn Kanji: Complete Guide</h2>
             <p>Discover how to learn Japanese kanji effectively with proven methods.</p>
-            <span class="read-time">8 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">5 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/kanji-jlpt-guide/" class="blog-card">
+        <a href="/pl/blog/kanji-jlpt-guide/" class="blog-card" data-categories="beginner">
             <h2>How Many Kanji for JLPT? N5 to N1 Guide</h2>
             <p>Learn how many kanji you need for each JLPT level.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/hiragana-katakana-kanji/" class="blog-card">
+        <a href="/pl/blog/hiragana-katakana-kanji/" class="blog-card" data-categories="beginner">
             <h2>Hiragana vs Katakana vs Kanji: Which First?</h2>
             <p>Learn the differences and the right learning order.</p>
-            <span class="read-time">7 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/spaced-repetition-kanji/" class="blog-card">
+        <a href="/pl/blog/spaced-repetition-kanji/" class="blog-card" data-categories="method">
             <h2>Spaced Repetition: Scientific Method for Kanji</h2>
             <p>Learn how SRS helps memorize kanji efficiently.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">24 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/100-common-kanji/" class="blog-card">
+        <a href="/pl/blog/100-common-kanji/" class="blog-card" data-categories="beginner">
             <h2>100 Most Common Kanji for Daily Life</h2>
             <p>The most useful kanji for everyday situations in Japan.</p>
-            <span class="read-time">10 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">10 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/dlaczego-nie-mozesz-zapamietac-kanji/" class="blog-card">
+        <a href="/pl/blog/dlaczego-nie-mozesz-zapamietac-kanji/" class="blog-card" data-categories="beginner">
             <h2>Dlaczego nie możesz zapamiętać kanji (i co naprawdę działa)</h2>
             <p>Dowiedz się, dlaczego tradycyjna metoda nauki kanji nie działa i co robić zamiast tego. Problem to nie kanji, ale sposób, w jaki je poznałeś.</p>
-            <span class="read-time">5 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/rozpoznawanie-to-nie-pamietanie-kanji/" class="blog-card">
+        <a href="/pl/blog/rozpoznawanie-to-nie-pamietanie-kanji/" class="blog-card" data-categories="beginner">
             <h2>Rozpoznawanie to nie pamiętanie: prawdziwy problem z kanji</h2>
             <p>Dlaczego zapominasz kanji, które wydawało ci się, że znasz? Rozpoznawanie to nie pamiętanie. Poznaj różnicę i dowiedz się, jak naprawdę się uczyć.</p>
-            <span class="read-time">5 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/kanji-ostatni-boss-jezykow/" class="blog-card">
+        <a href="/pl/blog/kanji-ostatni-boss-jezykow/" class="blog-card" data-categories="beginner">
             <h2>Dlaczego kanji to ostatni boss języków (i jak go pokonać)</h2>
             <p>2136 kanji, wielokrotne odczyty, nieskończone kombinacje. Oto dlaczego tradycyjne metody zawodzą i co naprawdę jest potrzebne, żeby nauczyć się japońskich kanji.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/ile-czasu-zdac-jlpt/" class="blog-card">
+        <a href="/pl/blog/ile-czasu-zdac-jlpt/" class="blog-card" data-categories="beginner">
             <h2>Ile czasu potrzeba, żeby zdać JLPT? Prawda, której nikt ci nie mówi</h2>
             <p>Dowiedz się, ile czasu naprawdę potrzeba, żeby zdać każdy poziom JLPT, od N5 do N1. Realistyczne terminy, nie nierealne obietnice.</p>
-            <span class="read-time">7 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/jlpt-n5-kompletny-przewodnik/" class="blog-card">
+        <a href="/pl/blog/jlpt-n5-kompletny-przewodnik/" class="blog-card" data-categories="beginner">
             <h2>JLPT N5: Kompletny przewodnik, jak zdać za pierwszym razem</h2>
             <p>Wszystko, co musisz wiedzieć o JLPT N5: co się uczyć, jak się przygotować, jakich błędów unikać. Definitywny przewodnik dla początkujących.</p>
-            <span class="read-time">8 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/jlpt-terminy-rejestracja-koszty/" class="blog-card">
+        <a href="/pl/blog/jlpt-terminy-rejestracja-koszty/" class="blog-card" data-categories="beginner">
             <h2>JLPT 2025-2026: Terminy, rejestracja, koszty i wszystko, co musisz wiedzieć</h2>
             <p>Praktyczny przewodnik po JLPT: kiedy się odbywa, jak się zapisać, ile kosztuje, gdzie zdawać w Polsce. Wszystkie aktualne informacje 2025-2026.</p>
-            <span class="read-time">5 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/roznice-jlpt-n5-n1/" class="blog-card">
+        <a href="/pl/blog/roznice-jlpt-n5-n1/" class="blog-card" data-categories="beginner">
             <h2>JLPT N5 vs N4 vs N3 vs N2 vs N1: Co naprawdę zmienia się między poziomami</h2>
             <p>Szczegółowe porównanie wszystkich poziomów JLPT. Dowiedz się, co zmienia się od N5 do N1 pod względem trudności, treści i praktycznej użyteczności.</p>
-            <span class="read-time">7 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/jak-zdac-jlpt-strategie/" class="blog-card">
+        <a href="/pl/blog/jak-zdac-jlpt-strategie/" class="blog-card" data-categories="beginner">
             <h2>Jak zdać JLPT: 10 strategii, które naprawdę działają</h2>
             <p>Praktyczne i sprawdzone strategie zdania JLPT na każdym poziomie. Porady dotyczące nauki, zarządzania czasem i co robić w dniu egzaminu.</p>
-            <span class="read-time">8 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/pl/blog/kanji-learning-community-discord/" class="blog-card">
+        <a href="/pl/blog/kanji-learning-community-discord/" class="blog-card" data-categories="community">
             <h2>Uczysz się kanji źle (my też tak robiliśmy)</h2>
             <p>Odkryj dlaczego nauka kanji w pojedynkę nie działa i jak społeczność może odmienić twoje studia japońskiego. Metody poparte nauką i prawdziwa odpowiedzialność.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">20 sty 2026</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/japonskie-partykuly-ni-de-wo-wa-ga/" class="blog-card" data-categories="beginner">
+            <h2>Japońskie partykuły: kompletny przewodnik po に, で, を, は, が</h2>
+            <p>Opanuj japońskie partykuły に, で, を, は i が z praktycznymi przykładami. Kompletny przewodnik, żebyś już nigdy ich nie mylił.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">10 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/japonskie-grupy-krwi-osobowosc/" class="blog-card" data-categories="beginner">
+            <h2>Grupy krwi w Japonii: co mówią o twojej osobowości</h2>
+            <p>Odkryj, co Japończycy myślą o grupach krwi i osobowości. Kompletny przewodnik po tym ciekawym japońskim fenomenie kulturowym.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/anime-do-nauki-japonskiego/" class="blog-card" data-categories="beginner">
+            <h2>10 najlepszych anime do nauki japońskiego (według poziomu)</h2>
+            <p>Odkryj najlepsze anime do nauki japońskiego, uporządkowane według poziomu. Od początkującego do zaawansowanego, ze wskazówkami na co zwracać uwagę.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">9 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/nauka-japonskiego-od-zera-kompletny-przewodnik/" class="blog-card" data-categories="beginner">
+            <h2>Nauka japońskiego od zera: kompletna mapa drogowa 2026</h2>
+            <p>Ostateczny przewodnik po nauce japońskiego od zera. Kompletna mapa: hiragana, katakana, kanji, gramatyka, zasoby. Wszystko czego potrzebujesz.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">15 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/kanji-do-podrozy-po-japonii/" class="blog-card" data-categories="beginner">
+            <h2>50 niezbędnych kanji do podróży po Japonii</h2>
+            <p>Kanji, które musisz znać, żeby przetrwać w Japonii jako turysta. Stacje, restauracje, toalety, sklepy: wszystkie znaki, które zobaczysz wszędzie.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/jak-zwracac-sie-do-ludzi-po-japonsku/" class="blog-card" data-categories="beginner">
+            <h2>Jak zwracać się do ludzi po japońsku: przewodnik po zaimkach i tytułach</h2>
+            <p>Jak nazywać ludzi po japońsku? Kiedy używać さん, 君, ちゃん? Czy あなた jest niegrzeczne? Kompletny przewodnik po zaimkach i sufiksach grzecznościowych.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/" class="blog-card" data-categories="beginner">
+            <h2>Rendaku: dlaczego odczyty kanji się zmieniają (人→hito, ale 人々→hitobito)</h2>
+            <p>Czym jest rendaku i dlaczego hito staje się bito? Przewodnik po japońskim zjawisku fonetycznym, które zamienia spółgłoski bezdźwięczne na dźwięczne.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
+        </a>
+    
+        <a href="/pl/blog/co-czytac-po-kanji-n5/" class="blog-card" data-categories="beginner">
+            <h2>Co czytać po kanji N5: zasoby dla początkujących</h2>
+            <p>Nauczyłeś się kanji N5, co teraz? Oto co czytać, żeby ćwiczyć: graded readers, manga, aplikacje i zasoby idealne dla twojego poziomu.</p>
+            <div class="card-meta">
+                <span class="publish-date">15 gru 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
             </div>
@@ -161,18 +307,23 @@
             </div>
             <div class="footer-links">
                 <div class="footer-col">
-                    <h4>Resources</h4>
+                    <strong class="footer-heading">Resources</strong>
                     <a href="../../blog/">Blog</a>
                     <a href="../../faq/">FAQ</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Legal</h4>
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
                     <a href="../../privacy.html">Privacy Policy</a>
                     <a href="../../terms.html">Terms of Service</a>
                     <a href="../../delete.html">Delete Account</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Support</h4>
+                    <strong class="footer-heading">Support</strong>
                     <a href="../../about.html">About Us</a>
                     <a href="../../support.html">Help Center</a>
                     <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
@@ -286,6 +437,67 @@
                     languageDropdown.classList.remove('show');
                 });
             }
+
+            // Category filter
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card');
+
+            function activateFilter(btn) {
+                const category = btn.dataset.category;
+
+                // Update active state
+                filterBtns.forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-selected', 'false');
+                    b.setAttribute('tabindex', '-1');
+                });
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+                btn.setAttribute('tabindex', '0');
+                btn.focus();
+
+                // Filter cards
+                blogCards.forEach(card => {
+                    const cardCategories = card.dataset.categories.split(' ');
+                    if (category === 'all' || cardCategories.includes(category)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            filterBtns.forEach((btn, index) => {
+                // Set initial tabindex (only active tab is focusable)
+                btn.setAttribute('tabindex', btn.classList.contains('active') ? '0' : '-1');
+
+                btn.addEventListener('click', function() {
+                    activateFilter(this);
+                });
+
+                // Keyboard navigation (WCAG 2.1)
+                btn.addEventListener('keydown', function(e) {
+                    let targetIndex = index;
+
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                        e.preventDefault();
+                        targetIndex = (index + 1) % filterBtns.length;
+                    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                        e.preventDefault();
+                        targetIndex = (index - 1 + filterBtns.length) % filterBtns.length;
+                    } else if (e.key === 'Home') {
+                        e.preventDefault();
+                        targetIndex = 0;
+                    } else if (e.key === 'End') {
+                        e.preventDefault();
+                        targetIndex = filterBtns.length - 1;
+                    }
+
+                    if (targetIndex !== index) {
+                        activateFilter(filterBtns[targetIndex]);
+                    }
+                });
+            });
         });
 
         // Sticky download bar

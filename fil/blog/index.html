@@ -43,96 +43,242 @@
     <section class="blog-hero">
         <div class="container">
             <h1 class="section-title">Blog</h1>
-            <p class="blog-hero-subtitle">14 Lahat ng Artikulo</p>
+            <p class="blog-hero-subtitle">22 Artikulo</p>
         </div>
     </section>
 
     <section class="blog-list">
         <div class="container">
-            <div class="blog-grid">
+            <!-- Category Filters -->
+            <div class="category-filters" role="tablist" aria-label="Filter articles by category">
+                <button class="filter-btn active" data-category="all" role="tab" aria-selected="true" aria-controls="blog-articles">Lahat</button>
+                <button class="filter-btn" data-category="jlpt" role="tab" aria-selected="false" aria-controls="blog-articles">JLPT</button>
+                <button class="filter-btn" data-category="method" role="tab" aria-selected="false" aria-controls="blog-articles">Paraan</button>
+                <button class="filter-btn" data-category="beginner" role="tab" aria-selected="false" aria-controls="blog-articles">Baguhan</button>
+                <button class="filter-btn" data-category="apps" role="tab" aria-selected="false" aria-controls="blog-articles">Apps</button>
+                <button class="filter-btn" data-category="community" role="tab" aria-selected="false" aria-controls="blog-articles">Komunidad</button>
+            </div>
+
+            <div class="blog-grid" id="blog-articles" role="tabpanel">
                 
-        <a href="/fil/blog/how-to-learn-kanji/" class="blog-card">
+        <a href="/fil/blog/how-to-learn-kanji/" class="blog-card" data-categories="beginner method">
             <h2>How to Learn Kanji: Complete Guide</h2>
             <p>Discover how to learn Japanese kanji effectively with proven methods.</p>
-            <span class="read-time">8 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 5, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/kanji-jlpt-guide/" class="blog-card">
+        <a href="/fil/blog/kanji-jlpt-guide/" class="blog-card" data-categories="beginner">
             <h2>How Many Kanji for JLPT? N5 to N1 Guide</h2>
             <p>Learn how many kanji you need for each JLPT level.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/hiragana-katakana-kanji/" class="blog-card">
+        <a href="/fil/blog/hiragana-katakana-kanji/" class="blog-card" data-categories="beginner">
             <h2>Hiragana vs Katakana vs Kanji: Which First?</h2>
             <p>Learn the differences and the right learning order.</p>
-            <span class="read-time">7 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/spaced-repetition-kanji/" class="blog-card">
+        <a href="/fil/blog/spaced-repetition-kanji/" class="blog-card" data-categories="method">
             <h2>Spaced Repetition: Scientific Method for Kanji</h2>
             <p>Learn how SRS helps memorize kanji efficiently.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 24, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/100-common-kanji/" class="blog-card">
+        <a href="/fil/blog/100-common-kanji/" class="blog-card" data-categories="beginner">
             <h2>100 Most Common Kanji for Daily Life</h2>
             <p>The most useful kanji for everyday situations in Japan.</p>
-            <span class="read-time">10 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">10 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/bakit-hindi-mo-matandaan-kanji/" class="blog-card">
+        <a href="/fil/blog/bakit-hindi-mo-matandaan-kanji/" class="blog-card" data-categories="beginner">
             <h2>Bakit Hindi Mo Matandaan ang Kanji (At Ano ang Talagang Gumagana)</h2>
             <p>Alamin kung bakit hindi gumagana ang tradisyonal na paraan ng pag-aaral ng kanji at ano ang dapat mong gawin sa halip. Hindi ang kanji ang problema, kundi kung paano mo sila nakilala.</p>
-            <span class="read-time">5 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/pagkilala-hindi-pag-alala-kanji/" class="blog-card">
+        <a href="/fil/blog/pagkilala-hindi-pag-alala-kanji/" class="blog-card" data-categories="beginner">
             <h2>Ang Pagkilala ay Hindi Pag-alala: Ang Tunay na Problema sa Kanji</h2>
             <p>Bakit nakakalimutan mo ang kanji na akala mo ay alam mo na? Ang pagkilala ay hindi pag-alala. Alamin ang pagkakaiba at kung paano talagang mag-aral.</p>
-            <span class="read-time">5 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/kanji-final-boss-ng-wika/" class="blog-card">
+        <a href="/fil/blog/kanji-final-boss-ng-wika/" class="blog-card" data-categories="beginner">
             <h2>Bakit ang Kanji ang Final Boss ng mga Wika (At Paano Sila Talunin)</h2>
             <p>2136 kanji, maraming pagbasa, walang katapusang kombinasyon. Alamin kung bakit nabibigo ang mga tradisyonal na paraan at ano talaga ang kailangan para matuto ng Japanese kanji.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/gaano-katagal-pumasa-jlpt/" class="blog-card">
+        <a href="/fil/blog/gaano-katagal-pumasa-jlpt/" class="blog-card" data-categories="beginner">
             <h2>Gaano Katagal Bago Pumasa sa JLPT? Ang Katotohanang Hindi Sinasabi sa Iyo</h2>
             <p>Alamin kung gaano talaga katagal bago pumasa sa bawat antas ng JLPT, mula N5 hanggang N1. Makatotohanang timeline, hindi imposibleng pangako.</p>
-            <span class="read-time">7 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/jlpt-n5-kumpletong-gabay/" class="blog-card">
+        <a href="/fil/blog/jlpt-n5-kumpletong-gabay/" class="blog-card" data-categories="beginner">
             <h2>JLPT N5: Ang Kumpletong Gabay para Pumasa sa Unang Pagsubok</h2>
             <p>Lahat ng kailangan mong malaman tungkol sa JLPT N5: ano ang pag-aralan, paano maghanda, mga pagkakamaling dapat iwasan. Ang pinakakumpletong gabay para sa mga nagsisimula.</p>
-            <span class="read-time">8 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/jlpt-petsa-pagpapa-rehistro-bayad/" class="blog-card">
+        <a href="/fil/blog/jlpt-petsa-pagpapa-rehistro-bayad/" class="blog-card" data-categories="beginner">
             <h2>JLPT 2025-2026: Mga Petsa, Pagpapa-rehistro, Bayad at Lahat ng Dapat Mong Malaman</h2>
             <p>Praktikal na gabay sa JLPT: kailan ginaganap, paano magpa-rehistro, magkano ang bayad, saan ito magagawa. Lahat ng updated na impormasyon para 2025-2026.</p>
-            <span class="read-time">5 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">5 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/pagkakaiba-jlpt-n5-n1/" class="blog-card">
+        <a href="/fil/blog/pagkakaiba-jlpt-n5-n1/" class="blog-card" data-categories="beginner">
             <h2>JLPT N5 vs N4 vs N3 vs N2 vs N1: Ano Talaga ang Pagkakaiba ng mga Antas</h2>
             <p>Detalyadong paghahambing ng lahat ng antas ng JLPT. Alamin kung ano ang nagbabago mula N5 hanggang N1 sa usapin ng kahirapan, nilalaman at praktikal na gamit.</p>
-            <span class="read-time">7 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/paano-pumasa-jlpt-estratehiya/" class="blog-card">
+        <a href="/fil/blog/paano-pumasa-jlpt-estratehiya/" class="blog-card" data-categories="beginner">
             <h2>Paano Pumasa sa JLPT: 10 Estratehiyang Talagang Gumagana</h2>
             <p>Praktikal at nasubok na mga estratehiya para pumasa sa JLPT sa anumang antas. Mga tip sa pag-aaral, pamamahala ng oras, at ano ang dapat gawin sa araw ng eksam.</p>
-            <span class="read-time">8 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 min</span>
+            </div>
         </a>
     
-        <a href="/fil/blog/kanji-learning-community-discord/" class="blog-card">
+        <a href="/fil/blog/kanji-learning-community-discord/" class="blog-card" data-categories="community">
             <h2>Mali ang Pag-aaral Mo ng Kanji (Ganun Din Kami Dati)</h2>
             <p>Alamin kung bakit hindi gumagana ang pag-aaral ng kanji mag-isa at paano mababago ng community ang pag-aaral mo ng Japanese. Science-backed methods at totoong accountability.</p>
-            <span class="read-time">6 min min</span>
+            <div class="card-meta">
+                <span class="publish-date">Ene 20, 2026</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 min</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/gabay-sa-japanese-particles/" class="blog-card" data-categories="beginner">
+            <h2>Mga Japanese Particle: Kompletong Gabay sa は, が, を, に, で</h2>
+            <p>Unawain ang Japanese particles ng husto. Praktikal na gabay sa は, が, を, に, で na may mga halimbawa at tips na hindi mo malilimutan.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">10 minuto</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/japanese-blood-types-personalidad/" class="blog-card" data-categories="beginner">
+            <h2>Japanese Blood Types: Ano ang Sinasabi Nito Tungkol sa Personality Mo</h2>
+            <p>Alamin kung ano ang pinaniniwalaan ng mga Japanese tungkol sa blood types at personality. Kompletong gabay sa kakaibang Japanese cultural belief na ito.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 minuto</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/anime-para-matuto-ng-japanese/" class="blog-card" data-categories="beginner">
+            <h2>10 Pinakamahusay na Anime para Matuto ng Japanese (Ayon sa Level)</h2>
+            <p>Alamin ang pinakamahusay na anime para matuto ng Japanese, organized ayon sa level. Mula beginner hanggang advanced, na may tips kung ano ang dapat pakinggan.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">9 minuto</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/matuto-ng-japanese-mula-sa-simula/" class="blog-card" data-categories="beginner">
+            <h2>Matuto ng Japanese Mula sa Simula: Ang Kompletong Roadmap 2026</h2>
+            <p>Ang ultimate guide para matuto ng Japanese mula zero. Kompletong roadmap: hiragana, katakana, kanji, grammar, resources. Lahat ng kailangan mo.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">15 minuto</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/kanji-para-sa-pagbiyahe-sa-japan/" class="blog-card" data-categories="beginner">
+            <h2>50 Importanteng Kanji para sa Pagbiyahe sa Japan</h2>
+            <p>Ang mga must-know kanji para makasurvive sa Japan bilang turista. Stations, restaurants, bathrooms, shops: lahat ng characters na makikita mo everywhere.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 minuto</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/paano-tawagin-ang-mga-tao-sa-japanese/" class="blog-card" data-categories="beginner">
+            <h2>Paano Tawagin ang mga Tao sa Japanese: Gabay sa Pronouns at Titles</h2>
+            <p>Paano mo tatawagin ang mga tao sa Japanese? Kailan gagamitin ang さん, 君, ちゃん? Bastos ba ang あなた? Kompletong gabay sa pronouns at honorific suffixes.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">8 minuto</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/rendaku-bakit-nagbabago-ang-readings/" class="blog-card" data-categories="beginner">
+            <h2>Rendaku: Bakit Nagbabago ang Kanji Readings (人→hito pero 人々→hitobito)</h2>
+            <p>Ano ang rendaku at bakit naging bito ang hito? Ang gabay sa Japanese phonetic phenomenon na nagbabago ng voiceless consonants sa voiced.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">6 minuto</span>
+            </div>
+        </a>
+    
+        <a href="/fil/blog/ano-ang-babasahin-pagkatapos-ng-n5-kanji/" class="blog-card" data-categories="beginner">
+            <h2>Ano ang Babasahin Pagkatapos ng N5 Kanji: Resources para sa Beginners</h2>
+            <p>Natutunan mo na ang N5 kanji, ngayon ano na? Eto ang mga babasahin para ma-practice ang alam mo: graded readers, manga, apps at resources na perfect para sa level mo.</p>
+            <div class="card-meta">
+                <span class="publish-date">Dis 15, 2025</span>
+                <span class="meta-separator">·</span>
+                <span class="read-time">7 minuto</span>
+            </div>
         </a>
     
             </div>
@@ -161,18 +307,23 @@
             </div>
             <div class="footer-links">
                 <div class="footer-col">
-                    <h4>Resources</h4>
+                    <strong class="footer-heading">Resources</strong>
                     <a href="../../blog/">Blog</a>
                     <a href="../../faq/">FAQ</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Legal</h4>
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
                     <a href="../../privacy.html">Privacy Policy</a>
                     <a href="../../terms.html">Terms of Service</a>
                     <a href="../../delete.html">Delete Account</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Support</h4>
+                    <strong class="footer-heading">Support</strong>
                     <a href="../../about.html">About Us</a>
                     <a href="../../support.html">Help Center</a>
                     <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
@@ -286,6 +437,67 @@
                     languageDropdown.classList.remove('show');
                 });
             }
+
+            // Category filter
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card');
+
+            function activateFilter(btn) {
+                const category = btn.dataset.category;
+
+                // Update active state
+                filterBtns.forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-selected', 'false');
+                    b.setAttribute('tabindex', '-1');
+                });
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+                btn.setAttribute('tabindex', '0');
+                btn.focus();
+
+                // Filter cards
+                blogCards.forEach(card => {
+                    const cardCategories = card.dataset.categories.split(' ');
+                    if (category === 'all' || cardCategories.includes(category)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            filterBtns.forEach((btn, index) => {
+                // Set initial tabindex (only active tab is focusable)
+                btn.setAttribute('tabindex', btn.classList.contains('active') ? '0' : '-1');
+
+                btn.addEventListener('click', function() {
+                    activateFilter(this);
+                });
+
+                // Keyboard navigation (WCAG 2.1)
+                btn.addEventListener('keydown', function(e) {
+                    let targetIndex = index;
+
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                        e.preventDefault();
+                        targetIndex = (index + 1) % filterBtns.length;
+                    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                        e.preventDefault();
+                        targetIndex = (index - 1 + filterBtns.length) % filterBtns.length;
+                    } else if (e.key === 'Home') {
+                        e.preventDefault();
+                        targetIndex = 0;
+                    } else if (e.key === 'End') {
+                        e.preventDefault();
+                        targetIndex = filterBtns.length - 1;
+                    }
+
+                    if (targetIndex !== index) {
+                        activateFilter(filterBtns[targetIndex]);
+                    }
+                });
+            });
         });
 
         // Sticky download bar

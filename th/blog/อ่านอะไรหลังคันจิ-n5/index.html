@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>อ่านอะไรหลังจบคันจิ N5: แหล่งข้อมูลสำหรับผู้เริ่มต้น | Kanjidon</title>
+    <meta name="description" content="เรียนคันจิ N5 จบแล้ว แล้วไง? นี่คือสิ่งที่ควรอ่านเพื่อฝึกสิ่งที่รู้: graded readers มังงะ แอป และแหล่งข้อมูลที่เหมาะกับระดับ">
+    <meta name="keywords" content="อ่านญี่ปุ่น N5, graded readers ญี่ปุ่น, มังงะง่ายๆ ญี่ปุ่น, การอ่านผู้เริ่มต้น, หลัง JLPT N5">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/th/blog/อ่านอะไรหลังคันจิ-n5/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/อ่านอะไรหลังคันจิ-n5/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/อ่านอะไรหลังคันจิ-n5/">
+
+    <meta property="og:title" content="อ่านอะไรหลังจบคันจิ N5: แหล่งข้อมูลสำหรับผู้เริ่มต้น">
+    <meta property="og:description" content="เรียนคันจิ N5 จบแล้ว แล้วไง? นี่คือสิ่งที่ควรอ่านเพื่อฝึกสิ่งที่รู้: graded readers มังงะ แอป และแหล่งข้อมูลที่เหมาะกับระดับ">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/th/blog/อ่านอะไรหลังคันจิ-n5/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="อ่านอะไรหลังจบคันจิ N5: แหล่งข้อมูลสำหรับผู้เริ่มต้น">
+    <meta name="twitter:description" content="เรียนคันจิ N5 จบแล้ว แล้วไง? นี่คือสิ่งที่ควรอ่านเพื่อฝึกสิ่งที่รู้: graded readers มังงะ แอป และแหล่งข้อมูลที่เหมาะกับระดับ">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "อ่านอะไรหลังจบคันจิ N5: แหล่งข้อมูลสำหรับผู้เริ่มต้น",
+        "description": "เรียนคันจิ N5 จบแล้ว แล้วไง? นี่คือสิ่งที่ควรอ่านเพื่อฝึกสิ่งที่รู้: graded readers มังงะ แอป และแหล่งข้อมูลที่เหมาะกับระดับ",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/th/blog/อ่านอะไรหลังคันจิ-n5/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/th/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "อ่านอะไรหลังจบคันจิ N5: แหล่งข้อมูลสำหรับผู้เริ่มต้น",
+                        "item": "https://kanjidon.com/th/blog/อ่านอะไรหลังคันจิ-n5/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/th/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/th/blog/">Blog</a>
+                <a href="/th/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/th/">Home</a>
+                <span class="separator">›</span>
+                <a href="/th/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">อ่านอะไรหลังจบคันจิ N5: แหล่งข้อมูลสำหรับผู้เริ่มต้น</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>อ่านอะไรหลังจบคันจิ N5: แหล่งข้อมูลสำหรับผู้เริ่มต้น</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 ธ.ค. 2568</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 นาที</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">คุณเรียน 100 คันจิ JLPT N5 แล้ว จำได้ใน flashcards แล้วไง? การกระโดดจากทฤษฎีสู่การปฏิบัติเป็นช่วงเวลาที่ละเอียดอ่อนที่สุด อ่าน &#039;เนื้อหาจริง&#039; ยังเร็วไป แต่ไม่อ่านเลยก็เสียของ นี่คือแหล่งข้อมูลที่สมบูรณ์แบบสำหรับช่วงนี้</p>
+<h2>ปัญหา &#039;ช่องว่าง&#039;</h2>
+<p>มีช่องว่างมหาศาลระหว่าง &#039;ฉันรู้คันจิ N5&#039; และ &#039;ฉันอ่านมังงะได้&#039; คันจิ N5 ครอบคลุมอาจ 30% ของข้อความง่ายๆ ที่เหลือไม่รู้ สิ่งนี้ทำให้หลายคนท้อ กลับไปทำ flashcards และไม่อ่านเลย</p>
+<p>ทางแก้: สื่อที่สร้างมาเฉพาะสำหรับระดับคุณ เรียกว่า graded readers และเป็นจุดหมายต่อไปของคุณ</p>
+<h2>Graded Readers: คืออะไร</h2>
+<p>Graded readers คือหนังสือที่เขียนด้วยคำศัพท์และไวยากรณ์จำกัดที่ระดับหนึ่ง สร้างสำหรับผู้เรียน ไม่ใช่คนพื้นเมือง เรื่องราวง่ายแต่สมบูรณ์ และอ่านได้โดยไม่ต้องใช้พจนานุกรม (ส่วนใหญ่)</p>
+<h3>Graded Readers ที่ดีที่สุดสำหรับ N5</h3>
+<ul><li>Japanese Graded Readers (Ask Publishing): ซีรีส์คลาสสิก ระดับ 0-4 ระดับ 0 และ 1 เหมาะสำหรับ N5 มีเสียงด้วย</li><li>Tadoku Graded Readers: ออนไลน์ฟรี (tadoku.org) ระดับตั้งแต่ 0 ถึง 5 เรื่องหลากหลาย รูปแบบดิจิทัล</li><li>Satori Reader (แอป/เว็บ): เรื่องราวพร้อมคำอธิบายไวยากรณ์ในตัว ปรับความยากได้</li><li>Crystal Hunters (มังงะ): มังงะสร้างสำหรับนักเรียน ใช้ไวยากรณ์และคำศัพท์จำกัด มีคู่มือการสอน</li></ul>
+<h2>NHK News Web Easy</h2>
+<p>NHK (สถานีโทรทัศน์สาธารณะญี่ปุ่น) มีเว็บข่าวแบบง่าย: NHK News Web Easy บทความใช้คำศัพท์ง่าย ฟุริกานะทุกคันจิ และเสียงอ่านช้าๆ</p>
+<ul><li>ข้อดี: เนื้อหาจริง อัพเดททุกวัน ฟรี</li><li>ข้อเสีย: แม้ &#039;ง่าย&#039; ก็ยากสำหรับ N5 ล้วนๆ ดีกว่ารอจนถึง N4</li><li>เคล็ดลับ: เริ่มดูเพื่อคุ้นเคย ยอมรับว่าไม่เข้าใจทุกอย่าง</li></ul>
+<h2>มังงะสำหรับผู้เริ่มต้น</h2>
+<p>มังงะ &#039;ปกติ&#039; ยากเกินไปสำหรับ N5 แต่บางเรื่องเข้าถึงได้ง่ายกว่า:</p>
+<ul><li>よつばと！(Yotsuba&amp;!): คำแนะนำคลาสสิกสำหรับทุกคน เด็กผู้หญิงสำรวจโลก ภาษาประจำวัน สแลงน้อย ความยาก: N4 แต่ทำได้กับ N5 และพจนานุกรม</li><li>しろくまカフェ (Shirokuma Café): บทสนทนาช้า สถานการณ์ประจำวัน มีหนังสือแบบง่ายอิงจากอนิเมะด้วย</li><li>ドラえもん (Doraemon): สร้างสำหรับเด็กญี่ปุ่น ประโยคสั้น ทำซ้ำบ่อย มีฟุริกานะ</li><li>ちびまる子ちゃん (Chibi Maruko-chan): ชีวิตประจำวันของเด็กผู้หญิง สถานการณ์คุ้นเคย คำศัพท์พื้นฐาน</li></ul>
+<h2>แอปและแหล่งข้อมูลดิจิทัล</h2>
+<ul><li>Todai Easy Japanese: แอปพร้อมข่าวแบบง่าย มีแบบทดสอบในตัว</li><li>Tangoristo: ข่าวพร้อมระดับความยาก แตะเพื่อดูความหมาย</li><li>LingQ: นำเข้าเนื้อหาและสร้าง flashcards จากคำที่ไม่รู้</li><li>Bunpro: ไวยากรณ์พร้อมตัวอย่างการอ่านในตัว</li></ul>
+<h2>กลยุทธ์การอ่านสำหรับ N5</h2>
+<p>อย่าอ่านเหมือนภาษาไทย นี่คือวิธีที่ถูกต้อง:</p>
+<ul><li>ยอมรับความไม่สมบูรณ์: เข้าใจ 60-70% ก็โอเคมาก</li><li>อย่าเปิดพจนานุกรมทุกคำ: ช้าเกินไป เปิดแค่คำสำคัญ</li><li>อ่านหลายรอบ: รอบแรกเพื่อความหมายรวม แล้วค่อยรายละเอียด</li><li>อ่านออกเสียง: ช่วยการออกเสียงและความจำ</li><li>ไม่กี่นาทีทุกวัน: 10 นาทีทุกวันดีกว่า 1 ชั่วโมงครั้งเดียว</li></ul>
+<h2>วิธีใช้ Kanjidon สนับสนุนการอ่าน</h2>
+<p>Kanjidon เตรียมคันจิของคุณ การอ่านตอกย้ำมัน นี่คือวิธีผสม:</p>
+<ul><li>เช้า: 10 นาทีทบทวนบน Kanjidon</li><li>เย็น: 10 นาทีอ่าน graded readers</li><li>เมื่อเจอคันจิที่รู้: ความพึงพอใจ!</li><li>เมื่อเจอคันจิไม่รู้: เพิกเฉยหรือเปิดดู แล้วไปต่อ</li></ul>
+<h2>ตารางแหล่งข้อมูลตามระดับ</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>แหล่งข้อมูล</th><th>ระดับ</th><th>ราคา</th><th>รูปแบบ</th></tr></thead>
+                <tbody><tr><td>Tadoku Graded Readers</td><td>N5-N3</td><td>ฟรี</td><td>PDF/เว็บ</td></tr><tr><td>Japanese Graded Readers</td><td>N5-N2</td><td>$8-15/เล่ม</td><td>หนังสือ+เสียง</td></tr><tr><td>Satori Reader</td><td>N4-N2</td><td>$9/เดือน</td><td>แอป/เว็บ</td></tr><tr><td>Crystal Hunters</td><td>N5-N4</td><td>$5-10</td><td>มังงะ</td></tr><tr><td>NHK Easy News</td><td>N4-N3</td><td>ฟรี</td><td>เว็บ</td></tr><tr><td>Yotsuba&amp;!</td><td>N4</td><td>$6-8</td><td>มังงะ</td></tr></tbody>
+            </table></div>
+<h2>สรุป</h2>
+<p>อ่านหลัง N5 ยาก แต่ไม่เป็นไปไม่ได้ กุญแจคือเลือกสื่อที่เหมาะกับระดับและยอมรับว่าไม่เข้าใจทุกอย่าง ทุกหน้าที่อ่าน ทุกเรื่องที่จบ ตอกย้ำคันจิที่เรียนมาและเตรียมคุณสำหรับขั้นตอนต่อไป ทีละตัวอักษร ทีละหน้า</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Khun aat chob sing ni duay</h3>
+                <div class="related-grid">
+                    
+                    <a href="/th/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/th/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/th/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Rerm rian kanji wan ni</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇭</span>
+                        <span class="language-name">ไทย</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option active">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload -->
+    <link rel="preload" href="/assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('/assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('/assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('/assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Page Not Found | Kanjidon</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Return to Kanjidon homepage or browse our blog.">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="icon" type="image/png" href="/assets/images/icona.png">
+    <link rel="apple-touch-icon" href="/assets/images/icona.png">
+    <link rel="stylesheet" href="/styles.css">
+
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: var(--spacing-xl);
+            text-align: center;
+        }
+
+        .error-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: var(--radius-m);
+            margin-bottom: var(--spacing-l);
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: var(--font-weight-heavy);
+            color: var(--primary);
+            line-height: 1;
+            margin-bottom: var(--spacing-s);
+        }
+
+        .error-title {
+            font-size: var(--font-xl);
+            color: var(--secondary);
+            margin-bottom: var(--spacing-m);
+        }
+
+        .error-message {
+            font-size: var(--font-m);
+            color: var(--subtle);
+            max-width: 400px;
+            margin-bottom: var(--spacing-xl);
+            line-height: 1.6;
+        }
+
+        .error-links {
+            display: flex;
+            gap: var(--spacing-m);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .error-link {
+            display: inline-flex;
+            align-items: center;
+            padding: var(--spacing-s) var(--spacing-l);
+            border-radius: var(--radius-m);
+            font-weight: var(--font-weight-bold);
+            text-decoration: none;
+            transition: transform var(--duration-fast), opacity var(--duration-fast);
+        }
+
+        .error-link:hover {
+            transform: translateY(-2px);
+            opacity: 1;
+        }
+
+        .error-link-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .error-link-secondary {
+            background-color: transparent;
+            border: 1px solid var(--muted);
+            color: var(--secondary);
+        }
+
+        .error-link-secondary:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        @media (max-width: 600px) {
+            .error-code {
+                font-size: 80px;
+            }
+
+            .error-title {
+                font-size: var(--font-l);
+            }
+
+            .error-links {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .error-link {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="error-page">
+        <img src="/assets/images/icona.png" alt="Kanjidon" class="error-logo">
+        <div class="error-code">404</div>
+        <h1 class="error-title" id="error-title">Page Not Found</h1>
+        <p class="error-message" id="error-message">
+            The page you're looking for doesn't exist or has been moved.
+            Let's get you back on track!
+        </p>
+        <div class="error-links">
+            <a href="/" class="error-link error-link-primary" id="home-link">Go to Homepage</a>
+            <a href="/blog/" class="error-link error-link-secondary" id="blog-link">Browse Blog</a>
+        </div>
+    </main>
+
+    <script>
+        // Detect user language and update text
+        (function() {
+            const lang = navigator.language || navigator.userLanguage;
+            const langCode = lang.split('-')[0].toLowerCase();
+
+            const translations = {
+                'it': {
+                    title: 'Pagina Non Trovata',
+                    message: 'La pagina che cerchi non esiste o e stata spostata. Torniamo sulla strada giusta!',
+                    home: 'Vai alla Homepage',
+                    blog: 'Esplora il Blog'
+                },
+                'fr': {
+                    title: 'Page Non Trouvee',
+                    message: 'La page que vous cherchez n\'existe pas ou a ete deplacee. Revenons sur la bonne voie!',
+                    home: 'Retour a l\'accueil',
+                    blog: 'Parcourir le Blog'
+                },
+                'es': {
+                    title: 'Pagina No Encontrada',
+                    message: 'La pagina que buscas no existe o ha sido movida. Volvamos al camino correcto!',
+                    home: 'Ir al Inicio',
+                    blog: 'Explorar el Blog'
+                },
+                'de': {
+                    title: 'Seite Nicht Gefunden',
+                    message: 'Die Seite, die du suchst, existiert nicht oder wurde verschoben. Lass uns zuruck auf den richtigen Weg!',
+                    home: 'Zur Startseite',
+                    blog: 'Blog durchsuchen'
+                },
+                'pt': {
+                    title: 'Pagina Nao Encontrada',
+                    message: 'A pagina que procuras nao existe ou foi movida. Vamos voltar ao caminho certo!',
+                    home: 'Ir para o Inicio',
+                    blog: 'Explorar o Blog'
+                },
+                'ja': {
+                    title: 'ページが見つかりません',
+                    message: 'お探しのページは存在しないか、移動されました。正しい道に戻りましょう！',
+                    home: 'ホームへ戻る',
+                    blog: 'ブログを見る'
+                },
+                'ko': {
+                    title: '페이지를 찾을 수 없습니다',
+                    message: '찾으시는 페이지가 존재하지 않거나 이동되었습니다. 다시 돌아가 봅시다!',
+                    home: '홈으로 이동',
+                    blog: '블로그 둘러보기'
+                },
+                'zh': {
+                    title: '页面未找到',
+                    message: '您要查找的页面不存在或已被移动。让我们回到正轨！',
+                    home: '返回首页',
+                    blog: '浏览博客'
+                }
+            };
+
+            const t = translations[langCode];
+            if (t) {
+                document.getElementById('error-title').textContent = t.title;
+                document.getElementById('error-message').textContent = t.message;
+                document.getElementById('home-link').textContent = t.home;
+                document.getElementById('blog-link').textContent = t.blog;
+            }
+        })();
+    </script>
+</body>
+</html>

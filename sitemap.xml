@@ -451,6 +451,7 @@
 
 
 
+
     <!-- Blog Pages -->
     <url>
         <loc>https://kanjidon.com/blog/</loc>
@@ -538,6 +539,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/japanese-particles-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/japanese-blood-types-personality/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/anime-to-learn-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/learn-japanese-from-scratch-complete-guide/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/kanji-for-traveling-japan-survival/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/how-to-address-people-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/rendaku-why-readings-change/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/what-to-read-after-n5-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -633,6 +682,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/it/blog/particelle-giapponesi-ni-de-wo-wa/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/gruppi-sanguigni-giappone-personalita/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/anime-per-imparare-giapponese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/imparare-giapponese-da-zero-guida-completa/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/kanji-viaggiare-giappone-sopravvivenza/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/come-rivolgersi-altri-giapponese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/rendaku-perche-letture-cambiano/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/cosa-leggere-dopo-kanji-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/fr/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -718,6 +815,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/fr/blog/communaute-kanji-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/particules-japonaises-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/groupes-sanguins-japonais-personnalite/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/anime-pour-apprendre-japonais/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/apprendre-japonais-de-zero-guide-complet/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/kanji-pour-voyager-au-japon/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/comment-appeler-les-gens-en-japonais/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/rendaku-pourquoi-les-lectures-changent/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/quoi-lire-apres-kanji-n5/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -813,6 +958,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/es/blog/particulas-japonesas-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/grupos-sanguineos-japoneses-personalidad/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/anime-para-aprender-japones/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/aprender-japones-desde-cero-guia-completa/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/kanji-para-viajar-a-japon/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/como-llamar-a-la-gente-en-japones/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/rendaku-por-que-las-lecturas-cambian/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/que-leer-despues-de-kanji-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/de/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -898,6 +1091,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/de/blog/kanji-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/japanische-partikel-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/japanische-blutgruppen-persoenlichkeit/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/anime-zum-japanisch-lernen/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/japanisch-lernen-von-null-komplettguide/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/kanji-fuer-japan-reise-survival/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/wie-man-leute-auf-japanisch-anspricht/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/rendaku-warum-lesungen-sich-aendern/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/was-lesen-nach-n5-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -993,6 +1234,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/pt/blog/particulas-japonesas-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/blog/tipos-sanguineos-japoneses-personalidade/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/blog/anime-pra-aprender-japones/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/blog/aprender-japones-do-zero-guia-completo/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/blog/kanji-pra-viajar-pro-japao/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/blog/como-chamar-as-pessoas-em-japones/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/blog/rendaku-por-que-as-leituras-mudam/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/blog/o-que-ler-depois-dos-kanji-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/ru/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1078,6 +1367,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/ru/blog/ty-uchish-kanji-nepravilno/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/yaponskie-chastitsy-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/yaponskie-gruppy-krovi-lichnost/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/anime-dlya-izucheniya-yaponskogo/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/vyuchit-yaponskiy-s-nulya-polniy-gid/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/kandzi-dlya-puteshestviya-po-yaponii/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/kak-obrashchatsya-k-lyudyam-po-yaponski/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/rendaku-pochemu-chteniya-menyayutsya/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/blog/chto-chitat-posle-kandzi-n5/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1173,6 +1510,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/ko/blog/ilboneo-josa-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/blog/ilbon-hyeolaekhyeong-seonggyeok/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/blog/ilboneo-gongbu-anime-chucheon/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/blog/ilboneo-cheoeumbuteo-wanbyeok-gaideu/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/blog/ilbon-yeohaeng-pilsu-hanja/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/blog/ilboneo-hochingseo-gaideu/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/blog/rendaku-hanja-dokbeop-byeonhwa/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/blog/n5-hanja-hu-mueol-ilkeuji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/zh/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1258,6 +1643,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/zh/blog/hanzi-xuexi-shequ-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/riyu-zhuchi-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/riyu-xuexing-xingge/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/kan-dongman-xue-riyu/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/cong-ling-kaishi-xue-riyu-2026/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/riben-lvxing-bixue-hanzi/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/riyu-chenghu-zhinan/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/rendaku-weishenme-duyin-huibian/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/blog/n5-hanzi-hou-du-shenme/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1353,6 +1786,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/zh-tw/blog/riyu-zhuci-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/blog/riyu-xuexing-xingge/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/blog/kan-dongman-xue-riyu/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/blog/cong-ling-kaishi-xue-riyu-2026/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/blog/riben-lvxing-bixue-hanzi/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/blog/riyu-chenghu-zhinan/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/blog/rendaku-weishenme-duyin-huibian/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/blog/n5-hanzi-hou-du-shenme/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/ar/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1438,6 +1919,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/ar/blog/anta-titaalm-kanji-ghalt/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/adawat-yapaniya-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/fasail-dam-yapaniya-shakhsiya/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/anime-litaalum-yapaniya/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/taallum-yapaniya-min-sifr/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/kanji-lisafar-yapan/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/munadata-ashkhas-yapaniya/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/rendaku-limadha-qiraat-tataghayyar/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/blog/madha-taqra-baad-n5-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1533,6 +2062,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/hi/blog/japanese-particles-guide-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/blog/japanese-blood-type-personality/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/blog/best-anime-learn-japanese-by-level/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/blog/learn-japanese-from-zero-2026-roadmap/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/blog/essential-kanji-japan-travel/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/blog/japanese-pronouns-titles-guide/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/blog/rendaku-kanji-reading-changes/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/blog/what-to-read-after-n5-resources/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/th/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1618,6 +2195,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/th/blog/rian-kanji-phid-withee/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/คู่มือคำช่วยภาษาญี่ปุ่น/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/กรุ๊ปเลือดญี่ปุ่นกับบุคลิกภาพ/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/อนิเมะเรียนภาษาญี่ปุ่น/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/เรียนญี่ปุ่นจากศูนย์/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/คันจิเที่ยวญี่ปุ่น/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/วิธีเรียกคนญี่ปุ่น/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/อ่านอะไรหลังคันจิ-n5/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1713,6 +2338,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/vi/blog/tro-tu-tieng-nhat-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/nhom-mau-tinh-cach-nhat-ban/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/anime-hoc-tieng-nhat/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/hoc-tieng-nhat-tu-dau-huong-dan-day-du/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/kanji-du-lich-nhat-ban/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/cach-xung-ho-tieng-nhat/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/rendaku-tai-sao-cach-doc-thay-doi/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/doc-gi-sau-khi-hoc-kanji-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/id/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1798,6 +2471,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/id/blog/cara-belajar-kanji-salah/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/panduan-partikel-bahasa-jepang/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/golongan-darah-jepang-kepribadian/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/anime-untuk-belajar-bahasa-jepang/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/belajar-jepang-dari-nol/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/kanji-traveling-ke-jepang/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/cara-memanggil-orang-jepang/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/rendaku-kenapa-bacaan-berubah/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/apa-yang-dibaca-setelah-kanji-n5/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1893,6 +2614,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/ms/blog/panduan-partikel-bahasa-jepun/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/blog/golongan-darah-jepun-personaliti/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/blog/anime-untuk-belajar-bahasa-jepun/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/blog/belajar-jepun-dari-kosong/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/blog/kanji-travel-ke-jepun/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/blog/cara-panggil-orang-jepun/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/blog/rendaku-kenapa-bacaan-berubah/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/blog/apa-yang-dibaca-selepas-kanji-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/tr/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1978,6 +2747,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/tr/blog/kanji-yanlis-ogreniyorsun/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/japoncada-parcaciklar-ni-de-wo-wa-ga-rehberi/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/japonlarda-kan-gruplari-ve-kisilik/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/japonca-ogrenmek-icin-en-iyi-animeler/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/sifirdan-japonca-ogren-tam-rehber/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/japonya-seyahati-icin-temel-kanjiler/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/japoncada-insanlara-nasil-hitap-edilir/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/rendaku-kanji-okumalari-neden-degisir/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/n5-kanjiden-sonra-ne-okunur/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -2073,6 +2890,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/pl/blog/japonskie-partykuly-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/blog/japonskie-grupy-krwi-osobowosc/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/blog/anime-do-nauki-japonskiego/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/blog/nauka-japonskiego-od-zera-kompletny-przewodnik/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/blog/kanji-do-podrozy-po-japonii/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/blog/jak-zwracac-sie-do-ludzi-po-japonsku/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/blog/rendaku-dlaczego-odczyty-sie-zmieniaja/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/blog/co-czytac-po-kanji-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/fa/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -2163,6 +3028,54 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/fa/blog/rahnamaye-adavat-yapani-ni-de-wo-wa-ga/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/blog/goruh-khun-yapani-shakhsiyat/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/blog/behtarin-anime-baraye-yadgiri-yapani/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/blog/yadgiri-yapani-az-sefr-2026/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/blog/kanji-safar-yapan/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/blog/zamayer-alghab-yapani/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/blog/rendaku-chera-telaffoz-avaz-mishavad/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/blog/che-bekhanam-baad-az-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/fil/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -2248,6 +3161,54 @@
     </url>
     <url>
         <loc>https://kanjidon.com/fil/blog/kanji-learning-community-discord/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/gabay-sa-japanese-particles/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/japanese-blood-types-personalidad/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/anime-para-matuto-ng-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/matuto-ng-japanese-mula-sa-simula/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/kanji-para-sa-pagbiyahe-sa-japan/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/paano-tawagin-ang-mga-tao-sa-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/rendaku-bakit-nagbabago-ang-readings/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/blog/ano-ang-babasahin-pagkatapos-ng-n5-kanji/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>

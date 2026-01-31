@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>50 Kanji Thiết Yếu Để Du Lịch Nhật Bản | Kanjidon</title>
+    <meta name="description" content="Những kanji cần biết để sống sót ở Nhật với tư cách du khách. Nhà ga, nhà hàng, nhà vệ sinh, cửa hàng: tất cả ký tự bạn sẽ thấy ở khắp nơi.">
+    <meta name="keywords" content="kanji du lịch Nhật, kanji cho du khách, kanji nhà ga, kanji nhà hàng, đọc biển hiệu tiếng Nhật">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/vi/blog/kanji-du-lich-nhat-ban/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/kanji-du-lich-nhat-ban/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-du-lich-nhat-ban/">
+
+    <meta property="og:title" content="50 Kanji Thiết Yếu Để Du Lịch Nhật Bản">
+    <meta property="og:description" content="Những kanji cần biết để sống sót ở Nhật với tư cách du khách. Nhà ga, nhà hàng, nhà vệ sinh, cửa hàng: tất cả ký tự bạn sẽ thấy ở khắp nơi.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/vi/blog/kanji-du-lich-nhat-ban/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="50 Kanji Thiết Yếu Để Du Lịch Nhật Bản">
+    <meta name="twitter:description" content="Những kanji cần biết để sống sót ở Nhật với tư cách du khách. Nhà ga, nhà hàng, nhà vệ sinh, cửa hàng: tất cả ký tự bạn sẽ thấy ở khắp nơi.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "50 Kanji Thiết Yếu Để Du Lịch Nhật Bản",
+        "description": "Những kanji cần biết để sống sót ở Nhật với tư cách du khách. Nhà ga, nhà hàng, nhà vệ sinh, cửa hàng: tất cả ký tự bạn sẽ thấy ở khắp nơi.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/vi/blog/kanji-du-lich-nhat-ban/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/vi/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "50 Kanji Thiết Yếu Để Du Lịch Nhật Bản",
+                        "item": "https://kanjidon.com/vi/blog/kanji-du-lich-nhat-ban/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/vi/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/vi/blog/">Blog</a>
+                <a href="/vi/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/vi/">Home</a>
+                <span class="separator">›</span>
+                <a href="/vi/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">50 Kanji Thiết Yếu Để Du Lịch Nhật Bản</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>50 Kanji Thiết Yếu Để Du Lịch Nhật Bản</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 thg 12, 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Bạn sắp đến Nhật và không đọc được gì? Tin tốt: bạn không cần 2000 kanji. Với 50 ký tự này bạn sẽ sống sót ở mọi nơi: nhà ga, nhà hàng, nhà vệ sinh, cửa hàng. Đây là những kanji bạn sẽ thấy hàng trăm lần mỗi ngày.</p>
+<h2>Nhà Ga và Giao Thông</h2>
+<p>Giao thông Nhật Bản tuyệt vời, nhưng biển hiệu có thể gây nhầm lẫn. Những kanji này sẽ cứu bạn:</p>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">駅</span>
+                    <span class="kanji-meaning">nhà ga</span>
+                    <span class="kanji-reading">eki</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">入</span>
+                    <span class="kanji-meaning">vào</span>
+                    <span class="kanji-reading">iri, hairu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">出</span>
+                    <span class="kanji-meaning">ra</span>
+                    <span class="kanji-reading">de, deru</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">口</span>
+                    <span class="kanji-meaning">cửa ra/vào</span>
+                    <span class="kanji-reading">guchi, kuchi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">東</span>
+                    <span class="kanji-meaning">đông</span>
+                    <span class="kanji-reading">higashi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">西</span>
+                    <span class="kanji-meaning">tây</span>
+                    <span class="kanji-reading">nishi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">南</span>
+                    <span class="kanji-meaning">nam</span>
+                    <span class="kanji-reading">minami</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">北</span>
+                    <span class="kanji-meaning">bắc</span>
+                    <span class="kanji-reading">kita</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">線</span>
+                    <span class="kanji-meaning">tuyến (tàu)</span>
+                    <span class="kanji-reading">sen</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">急</span>
+                    <span class="kanji-meaning">tốc hành/nhanh</span>
+                    <span class="kanji-reading">kyū</span>
+                </div></div>
+<p>Tổ hợp hữu ích: 入口 (iriguchi, lối vào), 出口 (deguchi, lối ra), 東口 (higashiguchi, cửa phía đông), 急行 (kyūkō, tàu tốc hành).</p>
+<h2>Nhà Vệ Sinh Công Cộng</h2>
+<p>Ưu tiên số một cho mọi du khách. Học thuộc những cái này trước khi đáp máy bay:</p>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">男</span>
+                    <span class="kanji-meaning">nam</span>
+                    <span class="kanji-reading">otoko</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">女</span>
+                    <span class="kanji-meaning">nữ</span>
+                    <span class="kanji-reading">onna</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">手</span>
+                    <span class="kanji-meaning">tay (để rửa)</span>
+                    <span class="kanji-reading">te</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">洗</span>
+                    <span class="kanji-meaning">rửa</span>
+                    <span class="kanji-reading">arai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">空</span>
+                    <span class="kanji-meaning">trống/rảnh</span>
+                    <span class="kanji-reading">kū, sora</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">使</span>
+                    <span class="kanji-meaning">đang sử dụng</span>
+                    <span class="kanji-reading">shi, tsukau</span>
+                </div></div>
+<p>Tổ hợp: お手洗い (otearai, nhà vệ sinh - nghĩa đen &#039;rửa tay&#039;), 空室 (kūshitsu, trống), 使用中 (shiyōchū, đang sử dụng).</p>
+<h2>Nhà Hàng và Đồ Ăn</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">食</span>
+                    <span class="kanji-meaning">thức ăn/ăn</span>
+                    <span class="kanji-reading">shoku, taberu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">飲</span>
+                    <span class="kanji-meaning">uống</span>
+                    <span class="kanji-reading">in, nomu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">肉</span>
+                    <span class="kanji-meaning">thịt</span>
+                    <span class="kanji-reading">niku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">魚</span>
+                    <span class="kanji-meaning">cá</span>
+                    <span class="kanji-reading">sakana</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">野</span>
+                    <span class="kanji-meaning">rau (trong 野菜)</span>
+                    <span class="kanji-reading">ya</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">菜</span>
+                    <span class="kanji-meaning">rau</span>
+                    <span class="kanji-reading">sai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">定</span>
+                    <span class="kanji-meaning">set menu</span>
+                    <span class="kanji-reading">tei</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">席</span>
+                    <span class="kanji-meaning">chỗ ngồi</span>
+                    <span class="kanji-reading">seki</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">禁</span>
+                    <span class="kanji-meaning">cấm</span>
+                    <span class="kanji-reading">kin</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">煙</span>
+                    <span class="kanji-meaning">khói</span>
+                    <span class="kanji-reading">en, kemuri</span>
+                </div></div>
+<p>Tổ hợp: 定食 (teishoku, set meal), 禁煙 (kin&#039;en, cấm hút thuốc), 野菜 (yasai, rau củ), 食べ放題 (tabehōdai, ăn thỏa thích).</p>
+<h2>Số và Giá</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">一</span>
+                    <span class="kanji-meaning">một</span>
+                    <span class="kanji-reading">ichi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">二</span>
+                    <span class="kanji-meaning">hai</span>
+                    <span class="kanji-reading">ni</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">三</span>
+                    <span class="kanji-meaning">ba</span>
+                    <span class="kanji-reading">san</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">四</span>
+                    <span class="kanji-meaning">bốn</span>
+                    <span class="kanji-reading">yon, shi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">五</span>
+                    <span class="kanji-meaning">năm</span>
+                    <span class="kanji-reading">go</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">六</span>
+                    <span class="kanji-meaning">sáu</span>
+                    <span class="kanji-reading">roku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">七</span>
+                    <span class="kanji-meaning">bảy</span>
+                    <span class="kanji-reading">nana, shichi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">八</span>
+                    <span class="kanji-meaning">tám</span>
+                    <span class="kanji-reading">hachi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">九</span>
+                    <span class="kanji-meaning">chín</span>
+                    <span class="kanji-reading">kyū, ku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">十</span>
+                    <span class="kanji-meaning">mười</span>
+                    <span class="kanji-reading">jū</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">百</span>
+                    <span class="kanji-meaning">trăm</span>
+                    <span class="kanji-reading">hyaku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">千</span>
+                    <span class="kanji-meaning">nghìn</span>
+                    <span class="kanji-reading">sen</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">万</span>
+                    <span class="kanji-meaning">vạn</span>
+                    <span class="kanji-reading">man</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">円</span>
+                    <span class="kanji-meaning">yên</span>
+                    <span class="kanji-reading">en</span>
+                </div></div>
+<p>Ví dụ thực tế: 三千五百円 = 3,500 yên. Giá thường dùng số Ả Rập, nhưng bạn sẽ thấy kanji trong ngữ cảnh truyền thống.</p>
+<h2>Cửa Hàng và Mua Sắm</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">店</span>
+                    <span class="kanji-meaning">cửa hàng</span>
+                    <span class="kanji-reading">mise, ten</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">売</span>
+                    <span class="kanji-meaning">bán</span>
+                    <span class="kanji-reading">uri, bai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">買</span>
+                    <span class="kanji-meaning">mua</span>
+                    <span class="kanji-reading">kai, kau</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">品</span>
+                    <span class="kanji-meaning">sản phẩm</span>
+                    <span class="kanji-reading">hin</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">半</span>
+                    <span class="kanji-meaning">một nửa (giảm giá)</span>
+                    <span class="kanji-reading">han</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">無</span>
+                    <span class="kanji-meaning">không/miễn phí</span>
+                    <span class="kanji-reading">mu, nai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">料</span>
+                    <span class="kanji-meaning">phí</span>
+                    <span class="kanji-reading">ryō</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">税</span>
+                    <span class="kanji-meaning">thuế</span>
+                    <span class="kanji-reading">zei</span>
+                </div></div>
+<p>Tổ hợp: 無料 (muryō, miễn phí), 半額 (hangaku, nửa giá), 税込 (zeikomi, đã bao gồm thuế), 税抜 (zeinuki, chưa tính thuế).</p>
+<h2>Cảnh Báo và An Toàn</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">止</span>
+                    <span class="kanji-meaning">dừng/cấm</span>
+                    <span class="kanji-reading">tome, shi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">注</span>
+                    <span class="kanji-meaning">cẩn thận</span>
+                    <span class="kanji-reading">chū</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">意</span>
+                    <span class="kanji-meaning">chú ý</span>
+                    <span class="kanji-reading">i</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">危</span>
+                    <span class="kanji-meaning">nguy hiểm</span>
+                    <span class="kanji-reading">ki, abunai</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">険</span>
+                    <span class="kanji-meaning">nguy hiểm</span>
+                    <span class="kanji-reading">ken</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">非</span>
+                    <span class="kanji-meaning">khẩn cấp</span>
+                    <span class="kanji-reading">hi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">常</span>
+                    <span class="kanji-meaning">bình thường/liên tục</span>
+                    <span class="kanji-reading">jō</span>
+                </div></div>
+<p>Tổ hợp: 注意 (chūi, cẩn thận!), 危険 (kiken, nguy hiểm), 非常口 (hijōguchi, lối thoát hiểm), 立入禁止 (tachiirikinshi, cấm vào).</p>
+<h2>Ngày và Thời Gian</h2>
+<div class="kanji-grid">
+                <div class="kanji-card">
+                    <span class="kanji-char">今</span>
+                    <span class="kanji-meaning">bây giờ/hôm nay</span>
+                    <span class="kanji-reading">ima, kon</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">日</span>
+                    <span class="kanji-meaning">ngày/mặt trời</span>
+                    <span class="kanji-reading">hi, nichi</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">月</span>
+                    <span class="kanji-meaning">tháng/mặt trăng</span>
+                    <span class="kanji-reading">tsuki, getsu</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">火</span>
+                    <span class="kanji-meaning">lửa (Thứ Ba)</span>
+                    <span class="kanji-reading">hi, ka</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">水</span>
+                    <span class="kanji-meaning">nước (Thứ Tư)</span>
+                    <span class="kanji-reading">mizu, sui</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">木</span>
+                    <span class="kanji-meaning">cây (Thứ Năm)</span>
+                    <span class="kanji-reading">ki, moku</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">金</span>
+                    <span class="kanji-meaning">vàng/tiền (Thứ Sáu)</span>
+                    <span class="kanji-reading">kane, kin</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">土</span>
+                    <span class="kanji-meaning">đất (Thứ Bảy)</span>
+                    <span class="kanji-reading">tsuchi, do</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">時</span>
+                    <span class="kanji-meaning">giờ</span>
+                    <span class="kanji-reading">toki, ji</span>
+                </div>
+                <div class="kanji-card">
+                    <span class="kanji-char">分</span>
+                    <span class="kanji-meaning">phút</span>
+                    <span class="kanji-reading">fun, pun</span>
+                </div></div>
+<p>Các ngày trong tuần: 月曜日 (Thứ Hai), 火曜日 (Thứ Ba), 水曜日 (Thứ Tư), 木曜日 (Thứ Năm), 金曜日 (Thứ Sáu), 土曜日 (Thứ Bảy), 日曜日 (Chủ Nhật).</p>
+<h2>Mẹo Cuối: Từ Ghép</h2>
+<p>Điều kỳ diệu của kanji là chúng kết hợp một cách logic. Nếu bạn biết các thành phần, bạn có thể đoán nghĩa:</p>
+<ul><li>入 (vào) + 口 (cửa) = 入口 (lối vào)</li><li>出 (ra) + 口 (cửa) = 出口 (lối ra)</li><li>大 (lớn) + 人 (người) = 大人 (người lớn)</li><li>電 (điện) + 車 (xe) = 電車 (tàu điện)</li><li>自 (tự) + 動 (động) + 車 (xe) = 自動車 (ô tô)</li></ul>
+<h2>Kết Luận</h2>
+<p>Với 50 kanji này bạn sẽ di chuyển ở Nhật không vấn đề gì. Bạn sẽ không lưu loát, nhưng sẽ không bị lạc. Trước chuyến đi, cài Kanjidon và ôn tập những ký tự này cho đến khi nhận ra chúng ngay lập tức. Chúc chuyến đi vui vẻ! いい旅を!</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ban cung co the thich</h3>
+                <div class="related-grid">
+                    
+                    <a href="/vi/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/vi/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/vi/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Bat dau hoc kanji hom nay</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇻🇳</span>
+                        <span class="language-name">Tiếng Việt</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option active">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

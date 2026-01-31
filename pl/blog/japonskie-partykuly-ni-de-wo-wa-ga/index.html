@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Japońskie partykuły: kompletny przewodnik po に, で, を, は, が | Kanjidon</title>
+    <meta name="description" content="Opanuj japońskie partykuły に, で, を, は i が z praktycznymi przykładami. Kompletny przewodnik, żebyś już nigdy ich nie mylił.">
+    <meta name="keywords" content="japońskie partykuły, ni de wo, wa vs ga, japońska gramatyka, partykuły JLPT, nauka japońskich partykuł">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/pl/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+
+    <meta property="og:title" content="Japońskie partykuły: kompletny przewodnik po に, で, を, は, が">
+    <meta property="og:description" content="Opanuj japońskie partykuły に, で, を, は i が z praktycznymi przykładami. Kompletny przewodnik, żebyś już nigdy ich nie mylił.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/pl/blog/japonskie-partykuly-ni-de-wo-wa-ga/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Japońskie partykuły: kompletny przewodnik po に, で, を, は, が">
+    <meta name="twitter:description" content="Opanuj japońskie partykuły に, で, を, は i が z praktycznymi przykładami. Kompletny przewodnik, żebyś już nigdy ich nie mylił.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Japońskie partykuły: kompletny przewodnik po に, で, を, は, が",
+        "description": "Opanuj japońskie partykuły に, で, を, は i が z praktycznymi przykładami. Kompletny przewodnik, żebyś już nigdy ich nie mylił.",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/pl/blog/japonskie-partykuly-ni-de-wo-wa-ga/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/pl/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Japońskie partykuły: kompletny przewodnik po に, で, を, は, が",
+                        "item": "https://kanjidon.com/pl/blog/japonskie-partykuly-ni-de-wo-wa-ga/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/pl/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/pl/blog/">Blog</a>
+                <a href="/pl/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/pl/">Home</a>
+                <span class="separator">›</span>
+                <a href="/pl/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Japońskie partykuły: kompletny przewodnik po に, で, を, は, が</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Japońskie partykuły: kompletny przewodnik po に, で, を, は, が</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 gru 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Partykuły to koszmar każdego, kto uczy się japońskiego. に czy で? は czy が? Kiedy używać を? Jeśli spędziłeś godziny próbując zrozumieć różnicę, nie jesteś sam. Problem w tym, że większość wyjaśnień jest zbyt teoretyczna. Oto jak partykuły naprawdę działają, z przykładami, które możesz użyć od razu.</p>
+<h2>Czym są partykuły?</h2>
+<p>Partykuły (助詞, joshi) to małe słowa, które wskazują funkcję gramatyczną tego, co je poprzedza. W polskim używamy końcówek i szyku zdania. W japońskim całą robotę wykonują partykuły. Użyjesz złej partykuły, a zdanie znaczy coś zupełnie innego.</p>
+<h2>は (wa) - znacznik tematu</h2>
+<p>は wskazuje temat, czyli &#039;o czym mówimy&#039;. To nie podmiot gramatyczny (to が). To jakby powiedzieć &#039;jeśli chodzi o X...&#039; na początku zdania.</p>
+<ul><li>私は学生です (Watashi wa gakusei desu) - Jeśli chodzi o mnie, jestem studentem</li><li>今日は暑いです (Kyō wa atsui desu) - Jeśli chodzi o dziś, jest gorąco</li><li>この本は面白い (Kono hon wa omoshiroi) - Jeśli chodzi o tę książkę, jest ciekawa</li></ul>
+<h2>が (ga) - znacznik podmiotu</h2>
+<p>が wskazuje podmiot, który wykonuje czynność lub posiada cechę. Używaj go, gdy podmiot to nowa informacja, przy odpowiadaniu na &#039;kto?&#039; lub &#039;co?&#039;, albo z pewnymi czasownikami jak わかる, ある, いる, 好き, 欲しい.</p>
+<ul><li>誰が来ましたか？田中さんが来ました (Kto przyszedł? Przyszedł Tanaka-san)</li><li>日本語がわかります (Rozumiem japoński - dosłownie: japoński jest zrozumiały)</li><li>猫が好きです (Lubię koty - dosłownie: koty są lubiane)</li></ul>
+<h3>は vs が: praktyczna zasada</h3>
+<p>Prosta reguła: は dla starej/znanej informacji, が dla nowej informacji. &#039;Kot zjadł rybę&#039; → 猫は魚を食べた (już wiemy o kocie). &#039;Jakiś kot zjadł rybę&#039; → 猫が魚を食べた (wprowadzamy kota).</p>
+<h2>を (wo/o) - znacznik dopełnienia bliższego</h2>
+<p>を wskazuje dopełnienie bliższe, czyli rzecz, na którą skierowana jest czynność. Jeśli możesz zapytać &#039;co?&#039; po czasowniku, ta rzecz dostaje を.</p>
+<ul><li>りんごを食べる (Jem jabłko) - co jem? Jabłko</li><li>本を読む (Czytam książkę) - co czytam? Książkę</li><li>日本語を勉強する (Uczę się japońskiego) - czego się uczę? Japońskiego</li></ul>
+<p>Uwaga: を jest też używane do wskazania ruchu przez miejsce: 公園を歩く (iść przez park), 道を渡る (przechodzić przez ulicę).</p>
+<h2>に (ni) - cel, czas, istnienie</h2>
+<p>に to najbardziej wszechstronna partykuła. Trzy główne zastosowania: cel podróży (dokąd), konkretny czas (kiedy) i miejsce istnienia (gdzie coś jest).</p>
+<h3>に dla celu</h3>
+<ul><li>学校に行く (Idę do szkoły) - cel ruchu</li><li>日本に来た (Przyjechałem do Japonii)</li><li>家に帰る (Wracam do domu)</li></ul>
+<h3>に dla konkretnego czasu</h3>
+<ul><li>7時に起きる (Wstaję o 7)</li><li>月曜日に会いましょう (Spotkajmy się w poniedziałek)</li><li>2024年に日本に行った (Pojechałem do Japonii w 2024 roku)</li></ul>
+<h3>に dla istnienia</h3>
+<ul><li>東京に住んでいる (Mieszkam w Tokio)</li><li>机の上に本がある (Na biurku leży książka)</li><li>公園に猫がいる (W parku jest kot)</li></ul>
+<h2>で (de) - miejsce czynności, środek, przyczyna</h2>
+<p>で wskazuje miejsce, gdzie dzieje się czynność, czym ją wykonujesz lub dlaczego coś się dzieje. Różnica od に jest kluczowa: に to statyka (gdzie coś JEST), で to dynamika (gdzie coś się DZIEJE).</p>
+<h3>で dla miejsca czynności</h3>
+<ul><li>図書館で勉強する (Uczę się w bibliotece) - czynność dzieje się tam</li><li>レストランで食べる (Jem w restauracji)</li><li>公園で遊ぶ (Bawię się w parku)</li></ul>
+<h3>で dla środka/narzędzia</h3>
+<ul><li>箸で食べる (Jem pałeczkami)</li><li>電車で行く (Jadę pociągiem)</li><li>日本語で話す (Mówię po japońsku)</li></ul>
+<h3>で dla przyczyny</h3>
+<ul><li>病気で休んだ (Nie było mnie z powodu choroby)</li><li>雨で試合が中止になった (Mecz został odwołany z powodu deszczu)</li></ul>
+<h2>に vs で: ostateczne porównanie</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Sytuacja</th><th>に</th><th>で</th></tr></thead>
+                <tbody><tr><td>Gdzie mieszkam</td><td>東京に住む ✓</td><td>×</td></tr><tr><td>Gdzie się uczę</td><td>×</td><td>図書館で勉強する ✓</td></tr><tr><td>Gdzie coś jest</td><td>机の上にある ✓</td><td>×</td></tr><tr><td>Gdzie coś się dzieje</td><td>×</td><td>ここで事故があった ✓</td></tr></tbody>
+            </table></div>
+<p>Mnemotechnika: に = punkt docelowy/istnienia (statyka). で = scena akcji (dynamika). Jeśli akcja się tam &#039;dzieje&#039;, użyj で. Jeśli coś tam &#039;jest/idzie tam&#039;, użyj に.</p>
+<h2>Inne ważne partykuły</h2>
+<h3>へ (e) - kierunek</h3>
+<p>Podobne do に dla kierunku, ale bardziej podkreśla &#039;w stronę&#039;. 日本へ行く akcentuje kierunek, 日本に行く akcentuje cel. W praktyce często wymienne.</p>
+<h3>と (to) - z, i</h3>
+<ul><li>友達と行く (Idę z przyjacielem)</li><li>りんごとバナナ (Jabłko i banan)</li><li>彼と話した (Rozmawiałem z nim)</li></ul>
+<h3>から (kara) i まで (made) - od i do</h3>
+<ul><li>9時から5時まで働く (Pracuję od 9 do 5)</li><li>東京から大阪まで (Z Tokio do Osaki)</li><li>子供から大人まで (Od dzieci do dorosłych)</li></ul>
+<h3>の (no) - posiadanie i związek</h3>
+<ul><li>私の本 (Moja książka)</li><li>日本の文化 (Japońska kultura)</li><li>友達の友達 (Przyjaciel przyjaciela)</li></ul>
+<h2>Typowe błędy do uniknięcia</h2>
+<ul><li>❌ 学校で行く → ✓ 学校に行く (cel = に)</li><li>❌ 図書館に勉強する → ✓ 図書館で勉強する (czynność = で)</li><li>❌ 日本語を話す人は... → ✓ 日本語が話せる人は... (zdolność = が)</li><li>❌ 私が田中です → ✓ 私は田中です (przedstawienie = は, chyba że odpowiadasz na &#039;kto?&#039;)</li></ul>
+<h2>Jak ćwiczyć</h2>
+<p>Partykuł nie zapamiętuje się. Opanowuje się je przez użycie. Za każdym razem, gdy czytasz lub słuchasz japońskiego, pytaj się: dlaczego ta partykuła tutaj? Z Kanjidon uczysz się kanji w kontekście prawdziwych słów i zdań, naturalnie poznając partykuły w działaniu.</p>
+<h2>Podsumowanie</h2>
+<p>Partykuły wydają się skomplikowane, bo szukamy polskich odpowiedników, które nie istnieją. Przestań tłumaczyć i zacznij czuć funkcję. に wskazuje, で przyjmuje akcję, を otrzymuje, は przedstawia, が identyfikuje. Z praktyką staje się to intuicyjne.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Moze ci sie tez spodobac</h3>
+                <div class="related-grid">
+                    
+                    <a href="/pl/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/pl/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/pl/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Zacznij uczyc sie kanji dzis</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇵🇱</span>
+                        <span class="language-name">Polski</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option active">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

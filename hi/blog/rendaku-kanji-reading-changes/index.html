@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Rendaku: Compound Words में Kanji Readings क्यों बदलते हैं | Kanjidon</title>
+    <meta name="description" content="समझो क्यों はな (hana) compound में ばな (bana) बन जाता है। Rendaku के rules और exceptions।">
+    <meta name="keywords" content="rendaku, japanese pronunciation change, kanji compound, dakuten, voiced sounds japanese">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/hi/blog/rendaku-kanji-reading-changes/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/rendaku-kanji-reading-changes/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/rendaku-kanji-reading-changes/">
+
+    <meta property="og:title" content="Rendaku: Compound Words में Kanji Readings क्यों बदलते हैं">
+    <meta property="og:description" content="समझो क्यों はな (hana) compound में ばな (bana) बन जाता है। Rendaku के rules और exceptions।">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/hi/blog/rendaku-kanji-reading-changes/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rendaku: Compound Words में Kanji Readings क्यों बदलते हैं">
+    <meta name="twitter:description" content="समझो क्यों はな (hana) compound में ばな (bana) बन जाता है। Rendaku के rules और exceptions।">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Rendaku: Compound Words में Kanji Readings क्यों बदलते हैं",
+        "description": "समझो क्यों はな (hana) compound में ばな (bana) बन जाता है। Rendaku के rules और exceptions।",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/hi/blog/rendaku-kanji-reading-changes/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/hi/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Rendaku: Compound Words में Kanji Readings क्यों बदलते हैं",
+                        "item": "https://kanjidon.com/hi/blog/rendaku-kanji-reading-changes/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/hi/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/hi/blog/">Blog</a>
+                <a href="/hi/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/hi/">Home</a>
+                <span class="separator">›</span>
+                <a href="/hi/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Rendaku: Compound Words में Kanji Readings क्यों बदलते हैं</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Rendaku: Compound Words में Kanji Readings क्यों बदलते हैं</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 दिस॰ 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">क्यों 花 (hana - flower) 花火 (hanabi - fireworks) में hana रहता है, लेकिन 生け花 (ikebana - flower arrangement) में bana बन जाता है? ये है rendaku (連濁), एक phonetic phenomenon जो compound words में kanji readings बदल देता है। Japanese के सबसे confusing parts में से एक, लेकिन समझने योग्य।</p>
+<h2>Rendaku क्या है?</h2>
+<p>Rendaku (連濁) का मतलब है &#039;sequential voicing&#039;। जब दो words combine होते हैं, दूसरे word का पहला sound voiced हो सकता है:</p>
+<ul><li>k → g: 国 (kuni) → 島国 (shimaguni)</li><li>s → z: 空 (sora) → 青空 (aozora)</li><li>t → d: 時 (toki) → 時々 (tokidoki)</li><li>h → b: 花 (hana) → 生け花 (ikebana)</li></ul>
+<h2>Rendaku कब होता है?</h2>
+<p>Unfortunately, 100% fixed rule नहीं है। लेकिन patterns हैं:</p>
+<h3>Usually होता है</h3>
+<ul><li>Native Japanese compounds (kun&#039;yomi + kun&#039;yomi)</li><li>जब दूसरा word एक syllable या short हो</li><li>जब combined meaning एक unified concept हो</li></ul>
+<h3>Usually नहीं होता</h3>
+<ul><li>Chinese-origin compounds (on&#039;yomi + on&#039;yomi)</li><li>जब दूसरे word में पहले से voiced sound हो (Lyman&#039;s Law)</li><li>Proper nouns में</li><li>Repetitive words (重ね言葉) में</li></ul>
+<h2>Lyman&#039;s Law</h2>
+<p>अगर दूसरे word में पहले से voiced sound है (g, z, d, b), तो rendaku नहीं होता। Example:</p>
+<ul><li>紙 (kami) → 折り紙 (origami) ✓ Rendaku happens</li><li>風 (kaze - already has z) → 神風 (kamikaze, not kamigazeकामिकाज़े) ✗ No rendaku</li></ul>
+<h2>Common Examples</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Original Word</th><th>With Rendaku</th><th>Without Rendaku</th></tr></thead>
+                <tbody><tr><td>人 (hito)</td><td>日本人 (nihonjin - no)</td><td>恋人 (koibito)</td></tr><tr><td>時 (toki)</td><td>時々 (tokidoki)</td><td>常時 (jōji)</td></tr><tr><td>島 (shima)</td><td>島国 (shimaguni - no)</td><td>半島 (hantō)</td></tr><tr><td>寿司 (sushi)</td><td>巻き寿司 (makizushi)</td><td>-</td></tr></tbody>
+            </table></div>
+<h2>कैसे सीखें</h2>
+<ul><li>Memorize मत करो, धीरे-धीरे सीखो: Listening और reading से patterns दिमाग में बैठ जाते हैं</li><li>On&#039;yomi vs kun&#039;yomi पर ध्यान दो: Rendaku mostly kun&#039;yomi में होता है</li><li>Words को compound के रूप में सीखो: 生け花 को एक unit की तरह सीखो</li><li>Audio dictionary use करो: सुनो कैसे pronounce होता है</li></ul>
+<h2>Conclusion</h2>
+<p>Rendaku उन चीज़ों में से है जो 100% predict नहीं हो सकती। Japanese native speakers भी कभी-कभी गलती करते हैं। परेशान मत हो अगर अभी सब rules समझ नहीं आए। Time और exposure के साथ, feel आ जाएगा। अभी के लिए, words को जैसे सुनो वैसे सीखो।</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Aapko ye bhi pasand aa sakta hai</h3>
+                <div class="related-grid">
+                    
+                    <a href="/hi/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/hi/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/hi/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Aaj kanji sikhna shuru karen</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/RnrPqYnC" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇮🇳</span>
+                        <span class="language-name">हिन्दी</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option active">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>
