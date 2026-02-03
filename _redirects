@@ -1,3 +1,6 @@
+# Redirect www to non-www (301 permanent) - CRITICAL for SEO
+https://www.kanjidon.com/* https://kanjidon.com/:splat 301
+
 # Redirect old domain to new domain (301 permanent)
 https://kanjidonapp.com/* https://kanjidon.com/:splat 301
 https://www.kanjidonapp.com/* https://kanjidon.com/:splat 301

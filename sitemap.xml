@@ -455,6 +455,7 @@
 
 
 
+
     <!-- Blog Pages -->
     <url>
         <loc>https://kanjidon.com/blog/</loc>
@@ -590,6 +591,30 @@
     </url>
     <url>
         <loc>https://kanjidon.com/blog/what-to-read-after-n5-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/kanjidon-vs-wanikani/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/kanjidon-vs-anki/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/kanjidon-vs-duolingo-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/blog/best-kanji-apps-2026/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -733,6 +758,30 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/it/blog/kanjidon-vs-wanikani/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/kanjidon-vs-anki/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/kanjidon-vs-duolingo-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/blog/best-kanji-apps-2026/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/fr/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -866,6 +915,30 @@
     </url>
     <url>
         <loc>https://kanjidon.com/fr/blog/quoi-lire-apres-kanji-n5/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/kanjidon-vs-wanikani/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/kanjidon-vs-anki/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/kanjidon-vs-duolingo-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/blog/best-kanji-apps-2026/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -1009,6 +1082,30 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://kanjidon.com/es/blog/kanjidon-vs-wanikani/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/kanjidon-vs-anki/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/kanjidon-vs-duolingo-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/blog/best-kanji-apps-2026/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://kanjidon.com/de/blog/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>weekly</changefreq>
@@ -1142,6 +1239,30 @@
     </url>
     <url>
         <loc>https://kanjidon.com/de/blog/was-lesen-nach-n5-kanji/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/kanjidon-vs-wanikani/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/kanjidon-vs-anki/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/kanjidon-vs-duolingo-japanese/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/blog/best-kanji-apps-2026/</loc>
         <lastmod>2026-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
