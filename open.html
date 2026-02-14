@@ -6,6 +6,9 @@
     <title>Open Kanjidon</title>
     <meta name="robots" content="noindex, nofollow">
     <meta name="apple-itunes-app" content="app-id=6747951805">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -89,31 +92,31 @@
             color: #ADA9A4;
         }
         .footer a { color: #DE6A35; text-decoration: none; }
-
-        /* Desktop: nascondi il bottone "Apri App" */
         .desktop-hidden { display: block; }
         @media (min-width: 768px) and (hover: hover) {
             .desktop-hidden { display: none; }
         }
+        /* RTL */
+        [dir="rtl"] .store-buttons { direction: ltr; }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="https://kanjidon.com/assets/images/icona.png" alt="Kanjidon" class="icon">
         <div class="logo">Kanjidon</div>
-        <p class="subtitle" id="subtitle">I tuoi kanji ti aspettano.</p>
+        <p class="subtitle" id="subtitle"></p>
 
-        <a id="open-app" href="#" class="btn-primary desktop-hidden">Apri Kanjidon</a>
+        <a id="open-app" href="#" class="btn-primary desktop-hidden"></a>
 
-        <div class="divider"><span id="divider-text">oppure scarica</span></div>
+        <div class="divider"><span id="divider-text"></span></div>
 
         <div class="store-buttons">
-            <a href="https://apps.apple.com/app/id6747951805" class="btn-store" id="btn-ios">
+            <a href="https://apps.apple.com/app/id6747951805" class="btn-store">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
                 App Store
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" class="btn-store" id="btn-android">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M3.18 23.04c.17.32.48.53.84.53.15 0 .31-.04.46-.11l4.44-2.22c-1.26-.61-2.35-1.53-3.14-2.69L3.18 23.04zm17.64 0l-2.6-4.49c-.79 1.16-1.88 2.08-3.14 2.69l4.44 2.22c.15.07.31.11.46.11.36 0 .67-.21.84-.53zM12 2C6.48 2 2 6.48 2 12h20c0-5.52-4.48-10-10-10zm0 2c1.93 0 3.68.71 5.05 1.86L12 9l-5.05-3.14A7.96 7.96 0 0112 4zm-6.83 8.75a7.93 7.93 0 01-.01-1.5h13.68c.12.49.16.99.16 1.5H5.17zM2 13h20c0 5.52-4.48 10-10 10S2 18.52 2 13z"/></svg>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" class="btn-store">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M3 20.5v-17c0-.83.52-1.28 1-1.5l10 10-10 10c-.48-.22-1-.67-1-1.5zm1.5-18.5l12 9.5-3.5 3-8.5-8v-4.5zm14 9.5l-3.5 3 3.5 3 4-3-4-3zm-14 9.5l8.5-8 3.5 3-12 9.5v-4.5z"/></svg>
                 Google Play
             </a>
         </div>
@@ -125,6 +128,31 @@
 
     <script>
     (function() {
+        // Traduzioni 21 lingue (registro informale)
+        var i18n = {
+            it: { subtitle: 'I tuoi kanji ti aspettano.', btn: 'Apri Kanjidon', divider: 'oppure scarica da', desktopSub: 'Scarica Kanjidon e inizia a imparare i kanji giocando.' },
+            en: { subtitle: 'Your kanji are waiting.', btn: 'Open Kanjidon', divider: 'or download from', desktopSub: 'Download Kanjidon and start learning kanji by playing.' },
+            fr: { subtitle: 'Tes kanji t\'attendent.', btn: 'Ouvrir Kanjidon', divider: 'ou telecharge depuis', desktopSub: 'Telecharge Kanjidon et apprends les kanji en jouant.' },
+            es: { subtitle: 'Tus kanji te esperan.', btn: 'Abrir Kanjidon', divider: 'o descarga desde', desktopSub: 'Descarga Kanjidon y empieza a aprender kanji jugando.' },
+            de: { subtitle: 'Deine Kanji warten.', btn: 'Kanjidon offnen', divider: 'oder lade herunter von', desktopSub: 'Lade Kanjidon herunter und lerne Kanji spielend.' },
+            pt: { subtitle: 'Seus kanji estao esperando.', btn: 'Abrir Kanjidon', divider: 'ou baixe de', desktopSub: 'Baixe Kanjidon e aprenda kanji jogando.' },
+            ru: { subtitle: '\u0422\u0432\u043E\u0438 \u043A\u0430\u043D\u0434\u0437\u0438 \u0436\u0434\u0443\u0442.', btn: '\u041E\u0442\u043A\u0440\u044B\u0442\u044C Kanjidon', divider: '\u0438\u043B\u0438 \u0441\u043A\u0430\u0447\u0430\u0439', desktopSub: '\u0421\u043A\u0430\u0447\u0430\u0439 Kanjidon \u0438 \u0443\u0447\u0438 \u043A\u0430\u043D\u0434\u0437\u0438 \u0438\u0433\u0440\u0430\u044F.' },
+            ja: { subtitle: '\u6F22\u5B57\u304C\u5F85\u3063\u3066\u308B\u3088\u3002', btn: 'Kanjidon\u3092\u958B\u304F', divider: '\u307E\u305F\u306F\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9', desktopSub: 'Kanjidon\u3092\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u3057\u3066\u904A\u3073\u306A\u304C\u3089\u6F22\u5B57\u3092\u5B66\u307C\u3046\u3002' },
+            zh: { subtitle: '\u4F60\u7684\u6C49\u5B57\u5728\u7B49\u4F60\u3002', btn: '\u6253\u5F00 Kanjidon', divider: '\u6216\u4E0B\u8F7D', desktopSub: '\u4E0B\u8F7D Kanjidon\uFF0C\u8FB9\u73A9\u8FB9\u5B66\u6C49\u5B57\u3002' },
+            ko: { subtitle: '\uB124 \uD55C\uC790\uAC00 \uAE30\uB2E4\uB9AC\uACE0 \uC788\uC5B4.', btn: 'Kanjidon \uC5F4\uAE30', divider: '\uB610\uB294 \uB2E4\uC6B4\uB85C\uB4DC', desktopSub: 'Kanjidon\uC744 \uB2E4\uC6B4\uB85C\uB4DC\uD558\uACE0 \uD50C\uB808\uC774\uD558\uBA70 \uD55C\uC790\uB97C \uBC30\uC6CC\uBCF4\uC138\uC694.' },
+            th: { subtitle: '\u0E04\u0E31\u0E19\u0E08\u0E34\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E23\u0E2D\u0E2D\u0E22\u0E39\u0E48', btn: '\u0E40\u0E1B\u0E34\u0E14 Kanjidon', divider: '\u0E2B\u0E23\u0E37\u0E2D\u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14\u0E08\u0E32\u0E01', desktopSub: '\u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14 Kanjidon \u0E41\u0E25\u0E49\u0E27\u0E40\u0E23\u0E35\u0E22\u0E19\u0E04\u0E31\u0E19\u0E08\u0E34\u0E41\u0E1A\u0E1A\u0E2A\u0E19\u0E38\u0E01' },
+            vi: { subtitle: 'Kanji c\u1EE7a b\u1EA1n \u0111ang ch\u1EDD.', btn: 'M\u1EDF Kanjidon', divider: 'ho\u1EB7c t\u1EA3i t\u1EEB', desktopSub: 'T\u1EA3i Kanjidon v\u00E0 h\u1ECDc kanji qua tr\u00F2 ch\u01A1i.' },
+            id: { subtitle: 'Kanjimu sudah menunggu.', btn: 'Buka Kanjidon', divider: 'atau unduh dari', desktopSub: 'Unduh Kanjidon dan mulai belajar kanji sambil bermain.' },
+            ar: { subtitle: '\u0643\u0627\u0646\u062C\u064A\u0643 \u0628\u0627\u0646\u062A\u0638\u0627\u0631\u0643.', btn: '\u0627\u0641\u062A\u062D Kanjidon', divider: '\u0623\u0648 \u062D\u0645\u0651\u0644 \u0645\u0646', desktopSub: '\u062D\u0645\u0651\u0644 Kanjidon \u0648\u0627\u0628\u062F\u0623 \u062A\u0639\u0644\u0645 \u0627\u0644\u0643\u0627\u0646\u062C\u064A \u0628\u0627\u0644\u0644\u0639\u0628.' },
+            hi: { subtitle: '\u0924\u0941\u092E\u094D\u0939\u093E\u0930\u0947 \u0915\u093E\u0902\u091C\u0940 \u0907\u0902\u0924\u091C\u093C\u093E\u0930 \u0915\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902\u0964', btn: 'Kanjidon \u0916\u094B\u0932\u094B', divider: '\u092F\u093E \u0921\u093E\u0909\u0928\u0932\u094B\u0921 \u0915\u0930\u094B', desktopSub: 'Kanjidon \u0921\u093E\u0909\u0928\u0932\u094B\u0921 \u0915\u0930\u094B \u0914\u0930 \u0916\u0947\u0932\u0924\u0947 \u0939\u0941\u090F \u0915\u093E\u0902\u091C\u0940 \u0938\u0940\u0916\u094B\u0964' },
+            tr: { subtitle: 'Kanjilerin seni bekliyor.', btn: 'Kanjidon\'u a\u00E7', divider: 'veya indir', desktopSub: 'Kanjidon\'u indir ve oynayarak kanji \u00F6\u011Fren.' },
+            pl: { subtitle: 'Twoje kanji czekaj\u0105.', btn: 'Otw\u00F3rz Kanjidon', divider: 'lub pobierz z', desktopSub: 'Pobierz Kanjidon i ucz si\u0119 kanji graj\u0105c.' },
+            uk: { subtitle: '\u0422\u0432\u043E\u0457 \u043A\u0430\u043D\u0434\u0437\u0456 \u0447\u0435\u043A\u0430\u044E\u0442\u044C.', btn: '\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 Kanjidon', divider: '\u0430\u0431\u043E \u0437\u0430\u0432\u0430\u043D\u0442\u0430\u0436', desktopSub: '\u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436 Kanjidon \u0456 \u0432\u0447\u0438 \u043A\u0430\u043D\u0434\u0437\u0456 \u0433\u0440\u0430\u044E\u0447\u0438.' },
+            fa: { subtitle: '\u06A9\u0627\u0646\u062C\u06CC\u200C\u0647\u0627\u062A \u0645\u0646\u062A\u0638\u0631\u0646.', btn: 'Kanjidon \u0631\u0648 \u0628\u0627\u0632 \u06A9\u0646', divider: '\u06CC\u0627 \u062F\u0627\u0646\u0644\u0648\u062F \u06A9\u0646 \u0627\u0632', desktopSub: 'Kanjidon \u0631\u0648 \u062F\u0627\u0646\u0644\u0648\u062F \u06A9\u0646 \u0648 \u0628\u0627 \u0628\u0627\u0632\u06CC \u06A9\u0627\u0646\u062C\u06CC \u06CC\u0627\u062F \u0628\u06AF\u06CC\u0631.' },
+            ms: { subtitle: 'Kanji anda menunggu.', btn: 'Buka Kanjidon', divider: 'atau muat turun dari', desktopSub: 'Muat turun Kanjidon dan belajar kanji sambil bermain.' },
+            fil: { subtitle: 'Naghihintay ang kanji mo.', btn: 'Buksan ang Kanjidon', divider: 'o i-download mula sa', desktopSub: 'I-download ang Kanjidon at matuto ng kanji habang naglalaro.' }
+        };
+
         var ua = navigator.userAgent || navigator.vendor || window.opera;
         var params = new URLSearchParams(window.location.search);
         var to = params.get('to') || '';
@@ -132,42 +160,44 @@
         var isAndroid = /android/i.test(ua);
         var isMobile = isIOS || isAndroid;
 
+        // Rileva lingua: 1) parametro URL, 2) browser locale, 3) fallback EN
+        var langParam = params.get('lang') || '';
+        var browserLang = (navigator.language || '').split('-')[0].toLowerCase();
+        var lang = (langParam && i18n[langParam]) ? langParam : (i18n[browserLang] ? browserLang : 'en');
+        var t = i18n[lang];
+
+        // RTL per arabo e farsi
+        if (lang === 'ar' || lang === 'fa') {
+            document.documentElement.setAttribute('dir', 'rtl');
+        }
+        document.documentElement.setAttribute('lang', lang);
+
         var appStoreUrl = 'https://apps.apple.com/app/id6747951805';
         var playStoreUrl = 'https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon';
         var storeUrl = isIOS ? appStoreUrl : playStoreUrl;
-
-        // Deep link: kanjidon:// + destinazione (packs, quiz, battle, review)
         var deepLink = to ? 'kanjidon://' + to : 'kanjidon://home';
 
         var openBtn = document.getElementById('open-app');
         var subtitle = document.getElementById('subtitle');
         var dividerText = document.getElementById('divider-text');
 
+        openBtn.textContent = t.btn;
+        dividerText.textContent = t.divider;
+
         if (isMobile) {
-            // Mobile: mostra bottone "Apri Kanjidon"
-            openBtn.href = '#';
+            subtitle.textContent = t.subtitle;
             openBtn.addEventListener('click', function(e) {
                 e.preventDefault();
-
-                // Prova ad aprire l'app via custom scheme
                 var now = Date.now();
                 window.location.href = deepLink;
-
-                // Se dopo 1.5s la pagina e' ancora visibile, l'app non e' installata
-                // → redirect allo store
                 setTimeout(function() {
                     if (!document.hidden && Date.now() - now < 3000) {
                         window.location.href = storeUrl;
                     }
                 }, 1500);
             });
-
-            subtitle.textContent = 'I tuoi kanji ti aspettano.';
-            dividerText.textContent = isIOS ? 'oppure scarica da' : 'oppure scarica da';
         } else {
-            // Desktop: nascondi bottone app, mostra solo store badges
-            subtitle.textContent = 'Scarica Kanjidon e inizia a imparare i kanji giocando.';
-            dividerText.textContent = 'scarica da';
+            subtitle.textContent = t.desktopSub;
         }
     })();
     </script>
