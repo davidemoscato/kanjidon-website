@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.davidemoscato.kanjidon",
+    "sha256_cert_fingerprints": [
+      "1F:0F:71:3F:5B:EF:97:1B:3B:63:6D:46:4A:ED:9D:32:92:1A:5C:09:B8:E9:33:A9:F5:1E:A2:C1:9A:16:A5:CA"
+    ]
+  }
+}]
