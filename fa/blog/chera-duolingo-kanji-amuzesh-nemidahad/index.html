@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Duolingo به کانجی آموزش نمی دهد: در اینجا چرا | Kanjidon</title>
+    <meta name="description" content="Duolingo برای ژاپنی محدودیت های ساختاری در کانجی دارد. تجزیه و تحلیل صادقانه از آنچه خوب است و چه چیزی نیست، با جایگزین هایی که واقعا کار می کنند.">
+    <meta name="keywords" content="duolingo kanji, duolingo ژاپنی, duolingo ژاپنی, جایگزین duolingo ژاپنی, یادگیری کانجی بدون duolingo">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/fa/blog/chera-duolingo-kanji-amuzesh-nemidahad/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/why-duolingo-cant-teach-kanji/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/perche-duolingo-non-insegna-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/pourquoi-duolingo-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/por-que-duolingo-no-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/warum-duolingo-kein-kanji/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/por-que-duolingo-nao-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/pochemu-duolingo-ne-uchit-kanji/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/duolingo-kanji-munje/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/duolingo-bu-jiao-kanji/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/duolingo-bu-jiao-kanji-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/limadha-duolingo-la-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/duolingo-kanji-kyon-nahi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/thammai-duolingo-mai-son-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tai-sao-duolingo-khong-day-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kenapa-duolingo-tidak-ajar-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kenapa-duolingo-tak-ajar-kanji/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/neden-duolingo-kanji-ogretmez/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/dlaczego-duolingo-nie-uczy-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/chera-duolingo-kanji-amuzesh-nemidahad/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/bakit-duolingo-hindi-nagtuturo-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/why-duolingo-cant-teach-kanji/">
+
+    <meta property="og:title" content="Duolingo به کانجی آموزش نمی دهد: در اینجا چرا">
+    <meta property="og:description" content="Duolingo برای ژاپنی محدودیت های ساختاری در کانجی دارد. تجزیه و تحلیل صادقانه از آنچه خوب است و چه چیزی نیست، با جایگزین هایی که واقعا کار می کنند.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/fa/blog/chera-duolingo-kanji-amuzesh-nemidahad/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Duolingo به کانجی آموزش نمی دهد: در اینجا چرا">
+    <meta name="twitter:description" content="Duolingo برای ژاپنی محدودیت های ساختاری در کانجی دارد. تجزیه و تحلیل صادقانه از آنچه خوب است و چه چیزی نیست، با جایگزین هایی که واقعا کار می کنند.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Duolingo به کانجی آموزش نمی دهد: در اینجا چرا",
+        "description": "Duolingo برای ژاپنی محدودیت های ساختاری در کانجی دارد. تجزیه و تحلیل صادقانه از آنچه خوب است و چه چیزی نیست، با جایگزین هایی که واقعا کار می کنند.",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/fa/blog/chera-duolingo-kanji-amuzesh-nemidahad/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/fa/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Duolingo به کانجی آموزش نمی دهد: در اینجا چرا",
+                        "item": "https://kanjidon.com/fa/blog/chera-duolingo-kanji-amuzesh-nemidahad/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/fa/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/fa/blog/">Blog</a>
+                <a href="/fa/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/fa/">Home</a>
+                <span class="separator">›</span>
+                <a href="/fa/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Duolingo به کانجی آموزش نمی دهد: در اینجا چرا</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Duolingo به کانجی آموزش نمی دهد: در اینجا چرا</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">۲۴ آذر ۱۴۰۴</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Duolingo پر بارگیری ترین برنامه زبان در جهان است. جغد سبز همه جا هست و سیستم خطی اعتیادآور است. اما مشکلی وجود دارد که هیچ‌کس نمی‌خواهد آن را بپذیرد: برای ژاپنی‌ها و به‌ویژه برای کانجی، Duolingo دارای محدودیت‌های ساختاری است که هیچ به‌روزرسانی نمی‌تواند آنها را حل کند. این تقصیر Duolingo نیست - و برای آن طراحی نشده است.</p>
+<h2>کاری که Duolingo خوب انجام می دهد (بیایید آن را به سزار بدهیم ...)</h2>
+<p>قبل از انتقاد، محاسن را بشناسیم. Duolingo برخی کارها را بهتر از دیگران انجام می دهد:</p>
+<ul><li>دسترسی: هر کسی می تواند در 30 ثانیه، به صورت رایگان، بدون اینکه چیزی بداند شروع کند</li><li>گیمیفیکیشن: رگه ها، قلب ها، تابلوهای امتیازات. این باعث می‌شود که هر روز برگردی، و این به وزن طلا می‌ارزد</li><li>واژگان پایه: کلمات مفید را در زمینه، با صدای بومی بیاموزید</li><li>گرامر مقدماتی: ساختارهای اساسی زبان ژاپنی به روشی شهودی معرفی شده اند</li><li>هیراگانا و کاتاکانا: این دوره به خوبی آنها را در سطوح اولیه آموزش می دهد</li></ul>
+<p>برای زبان های اروپایی (اسپانیایی، فرانسوی، آلمانی)، Duolingo به طرز شگفت آوری خوب کار می کند. مشکل با زبان ژاپنی به وجود می آید، زبانی که به روشی کاملاً متفاوت کار می کند.</p>
+<h2>مشکل اساسی: Duolingo عبارات را آموزش می دهد، نه شخصیت ها</h2>
+<p>معماری Duolingo برای زبان های حروف الفبا طراحی شده است: شما یاد می گیرید با کلماتی که می توانید بخوانید جملات بسازید زیرا الفبا را می دانید. اما ژاپنی دارای سه سیستم نوشتاری است (هیراگانا، کاتاکانا، کانجی) و کانجی یک الفبا نیست - آنها یک سیستم لوگوگرافی با هزاران کاراکتر هستند که هر کدام دارای معانی و قرائت های متعدد هستند.</p>
+<p>Duolingo کانجی را در جملات به شما نشان می دهد، اما آنها را به طور سیستماتیک به شما آموزش نمی دهد. شما رادیکال ها را یاد نمی گیرید، خواندن ON و KUN را یاد نمی گیرید، هیچ سیستم تکرار فاصله ای اختصاص داده شده به شخصیت ها وجود ندارد. شما با آنها روبرو می شوید، آنها را در متن آن جمله خاص تشخیص می دهید، اما واقعا آنها را یاد نمی گیرید.</p>
+<h2>اعدادی که دروغ نمی گویند</h2>
+<p>در اینجا چیزی است که در عمل پس از 6 ماه Duolingo ژاپنی (30 دقیقه در روز، استفاده مداوم) اتفاق می افتد:</p>
+<ul><li>کانجی در زمینه شناسایی شد: تقریباً 30-50</li><li>کانجی را می توانید به صورت جداگانه بخوانید: حدود 10-20</li><li>کانجی برای JLPT N5 مورد نیاز است: 103</li><li>کانجی برای JLPT N4 مورد نیاز است: 284</li><li>خوانده‌های ON/KUN: تقریباً هیچ کدام آگاهانه</li></ul>
+<p>پس از 6 ماه تلاش روزانه، هنوز با سطح پایه آزمون JLPT فاصله دارید. نه به این دلیل که شما کند هستید، بلکه به این دلیل که ابزار برای این منظور طراحی نشده است. با یک برنامه متمرکز بر کانجی مانند کانجیدون، همان 6 ماه و 15 دقیقه در روز شما را فراتر از 284 کانجی سطح N4 می برد، با خواندن، معانی و یادداشت ها برای هر کدام.</p>
+<h2>4 محدودیت ساختاری Duolingo برای کانجی</h2>
+<h3>1. عدم آموزش سیستماتیک رادیکال ها</h3>
+<p>رادیکال ها بلوک های سازنده کانجی هستند. دانستن آنها 2000 کاراکتر به ظاهر تصادفی را به ترکیبات منطقی تبدیل می کند. Duolingo حتی به آنها اشاره نمی کند. هر کانجی به عنوان یک نقاشی جدید برای شما ظاهر می شود که باید به زور آن را به خاطر بسپارید.</p>
+<h3>2. بدون SRS اختصاص داده شده به کانجی فردی</h3>
+<p>Duolingo یک سیستم مرور دارد، اما در سطح درس است، نه در سطح کانجی فردی. اگر 書 (نوشتن) و 読 (خواندن) را با هم اشتباه بگیرم، برنامه به من اجازه نمی دهد آن دو کانجی خاص را تا زمانی که آنها را تشخیص دهم بررسی کنم. یک سیستم SRS جدی مانند کانجیدون، تک تک کانجی ها را ردیابی می کند و دقیقاً در لحظه ای که می خواهید آن را فراموش کنید دوباره آن را ارائه می دهد.</p>
+<h3>3. Readings ON و KUN: The Great Absents</h3>
+<p>هر کانجی حداقل دو نوع خواندن دارد: خواندن چینی (ON-yomi) و یک ژاپنی (KUN-yomi). دانستن زمان استفاده از آن برای خواندن ژاپنی واقعی بسیار مهم است. Duolingo کلمات را با یک خواندن خاص به شما آموزش می دهد، اما سیستم را توضیح نمی دهد. نتیجه: خارج از متن آن کلمه، شما نمی دانید چگونه کانجی را بخوانید.</p>
+<h3>4. فقدان Mnemonics</h3>
+<p>یادگاری - داستان های بصری که شکل، معنا و خواندن یک کانجی را به هم متصل می کند - موثرترین ابزار برای حفظ طولانی مدت است. Duolingo از هیچ کدام برای کانجی استفاده نمی کند. این کاراکتر، معنی را به شما نشان می دهد و امیدوار است که آن را به خاطر بسپارید. برای 20 مورد اول کار می کند. برای 200، این یک فاجعه است.</p>
+<h2>من نمی گویم Duolingo را رها کنید</h2>
+<p>Duolingo کارهایی را انجام می دهد که سایر برنامه ها انجام نمی دهند: گرامر را به طور مستقیم به شما آموزش می دهد، شما را در معرض جملات واقعی قرار می دهد، و انگیزه شما را با گیمیفیکیشن حفظ می کند. مشکل خود Duolingo نیست، بلکه استفاده از Duolingo به عنوان تنها ابزار ژاپنی است.</p>
+<p>و چگونه از یک چکش برای ساختن خانه استفاده کنیم. چکش مفید است، اما به پیچ گوشتی، اره و تراز نیز نیاز دارید.</p>
+<h2>ترکیب کامل: چگونه واقعا مطالعه کنیم</h2>
+<p>استراتژی که به بهترین شکل کار می‌کند، ابزارهای مختلفی را با هم ترکیب می‌کند، که هر کدام قدرت خاص خود را دارند:</p>
+<ul><li>برای کانجی: یک برنامه تخصصی با SRS، رادیکال ها و یادگاری. Kanjidon تمام 2136 جویو کانجی را با 9 نوع آزمون و یادداشت به 21 زبان - از جمله انگلیسی - پوشش می دهد.</li><li>برای دستور زبان: Duolingo (پایه) + کتابی مانند Genki یا Tae Kim (عمیق)</li><li>برای واژگان: Duolingo + خواندن درجه بندی شده (NHK Easy News، خوانندگان درجه بندی شده)</li><li>برای گوش دادن: انیمه با زیرنویس ژاپنی، پادکست، ویدیوهای یوتیوب</li><li>برای مکالمه: معلم در Italki (وقتی آماده هستید، نه فورا)</li></ul>
+<p>با این رویکرد، 30 دقیقه در روز به این صورت تقسیم می شود: 15 دقیقه کانجی (Kanjidon) + 15 دقیقه گرامر / واژگان (Duolingo). شما کانجی را به طور جدی یاد می گیرید، گرامر را به طور شهودی جذب می کنید، و همه چیز یکدیگر را تقویت می کند.</p>
+<h2>آنچه واقعا برای کانجی کار می کند</h2>
+<p>اگر کانجی مورد شماست (و اگر ژاپنی می‌خوانید، باید اینطور باشد)، در اینجا چیزی است که باید در یک برنامه جستجو کنید:</p>
+<ul><li>SRS در سطح کانجی منفرد: الگوریتم هر شخصیت را به صورت جداگانه دنبال می کند</li><li>رادیکال ها به عنوان پایه: شما اجزای قبل از کانجی پیچیده را یاد می گیرید</li><li>Mnemonics: داستان های بصری برای هر کانجی، به زبان شما</li><li>خواندن صریح ON/KUN: شما همیشه می دانید که کدام خواندن را یاد می گیرید</li><li>سازمان JLPT: از N5 تا N1، همیشه می دانید کجا هستید</li><li>انواع آزمون ها: فلش کارت ها به تنهایی کافی نیستند، تمرین های مختلف مورد نیاز است</li></ul>
+<p>واقعیت ساده این است: Duolingo برای شروع و گرامر پایه عالی است، اما برای کانجی به ابزاری نیاز دارید که به طور خاص برای آن طراحی شده باشد. Kanjidon را به پشته مطالعه خود اضافه کنید و تنها در عرض چند هفته تفاوت را خواهید دید. می توانید اولین 103 N5 کانجی را به صورت رایگان یاد بگیرید - آن را امتحان کنید و خودتان قضاوت کنید.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Shayad in ham dust dashte bashid</h3>
+                <div class="related-grid">
+                    
+                    <a href="/fa/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/fa/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/fa/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Emruz yadgiri kanji ra aghaz konid</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇮🇷</span>
+                        <span class="language-name">فارسی</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option active">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

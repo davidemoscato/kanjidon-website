@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste) | Kanjidon</title>
+    <meta name="description" content="Ile czasu zajmuje nauka kanji? Uczciwy podział według poziomu JLPT, porównanie metod i realistyczny harmonogram. Żadnych niemożliwych obietnic.">
+    <meta name="keywords" content="jak długo uczyć się kanji, czas na naukę kanji, ile czasu zajmuje kanji, szybko nauczyć się kanji, kanji jak długo">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/pl/blog/ile-czasu-nauka-kanji/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/how-long-learn-kanji/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/quanto-tempo-imparare-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/combien-temps-apprendre-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/cuanto-tiempo-aprender-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/wie-lange-kanji-lernen/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/quanto-tempo-aprender-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/skolko-vremeni-uchit-kanji/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-gongbu-sigan/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/xuexi-kanji-shijian/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/xuexi-kanji-shijian-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kam-yastghreq-taallum-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-sikhne-mein-kitna-samay/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/rian-kanji-chai-wela-thaorai/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/hoc-kanji-mat-bao-lau/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/berapa-lama-belajar-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/berapa-lama-belajar-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-ogrenmek-ne-kadar-surer/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/ile-czasu-nauka-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/chand-vaght-yadgiri-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gaano-katagal-matuto-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/how-long-learn-kanji/">
+
+    <meta property="og:title" content="Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste)">
+    <meta property="og:description" content="Ile czasu zajmuje nauka kanji? Uczciwy podział według poziomu JLPT, porównanie metod i realistyczny harmonogram. Żadnych niemożliwych obietnic.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/pl/blog/ile-czasu-nauka-kanji/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste)">
+    <meta name="twitter:description" content="Ile czasu zajmuje nauka kanji? Uczciwy podział według poziomu JLPT, porównanie metod i realistyczny harmonogram. Żadnych niemożliwych obietnic.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste)",
+        "description": "Ile czasu zajmuje nauka kanji? Uczciwy podział według poziomu JLPT, porównanie metod i realistyczny harmonogram. Żadnych niemożliwych obietnic.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/pl/blog/ile-czasu-nauka-kanji/"
+        },
+        "datePublished": "2026-01-04",
+        "dateModified": "2026-01-04"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/pl/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste)",
+                        "item": "https://kanjidon.com/pl/blog/ile-czasu-nauka-kanji/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/pl/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/pl/blog/">Blog</a>
+                <a href="/pl/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/pl/">Home</a>
+                <span class="separator">›</span>
+                <a href="/pl/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste)</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">4 sty 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Ile czasu zajmuje nauka kanji? To pytanie, które prędzej czy później zadaje sobie każdy japoński student. Internet jest pełen absurdalnych obietnic (naucz się 2000 kanji w 30 dni!) i niejasnych odpowiedzi (to zależy...). Tutaj znajdziesz liczby rzeczywiste, oparte na twardych danych i doświadczeniu tysięcy studentów.</p>
+<h2>Krótka odpowiedź</h2>
+<p>Oto realistyczne szacunki, obliczone na podstawie 15–30 minut nauki dziennie przy dobrym systemie powtarzania:</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Poziom JLPT</th><th>Kanji do nauki</th><th>Całkowite Kanji</th><th>Szacowany czas</th></tr></thead>
+                <tbody><tr><td>N5</td><td>103</td><td>103</td><td>1-2 mesi</td></tr><tr><td>N4</td><td>+181 nowy</td><td>Razem 284</td><td>3-5 mesi</td></tr><tr><td>N3</td><td>+361 nowy</td><td>Razem 645</td><td>8-12 mesi</td></tr><tr><td>N2</td><td>+415 nowy</td><td>Łącznie 1060</td><td>18-24 mesi</td></tr><tr><td>N1</td><td>+1076 nowych</td><td>Łącznie 2136</td><td>3-4 anni</td></tr><tr><td>Wszystkie radości</td><td>2136</td><td>2136</td><td>3-4 anni</td></tr></tbody>
+            </table></div>
+<p>Te czasy wymagają ciągłego i codziennego studiowania. Jeśli uczysz się tylko w weekendy, pomnóż przez 2-3. Jeśli używasz nieefektywnej metody (ręczne kopiowanie znaków kanji bez SRS), pomnóż przez 3-5. W przypadku Kanjidon SRS czasy te zwykle mieszczą się w dolnej granicy, ponieważ algorytm pozwala przeglądać tylko te znaki kanji, o których zapomniałeś — nie musisz tracić czasu na te, które już znasz.</p>
+<h2>Czynniki, które zmieniają wszystko</h2>
+<p>Nie każdemu zajmuje to tyle samo czasu i nie jest to tylko kwestia inteligencji. Oto, co naprawdę robi różnicę:</p>
+<h3>1. Metoda badania</h3>
+<p>To jest najważniejszy czynnik. Różnica pomiędzy kopiowaniem znaków kanji do notatnika a stosowaniem powtórzeń w odstępach za pomocą mnemoników jest ogromna: mówimy o 2-3 razy szybszym działaniu przy właściwej metodzie. Nauka jest jasna: SRS (Spaced Repetition System) to najskuteczniejszy sposób na zapamiętywanie dużych ilości informacji.</p>
+<h3>2. Konstancja</h3>
+<p>15 minut każdego dnia zastępuje 2 godziny w weekend. Zawsze. Mózg konsoliduje pamięć podczas snu, więc nauka mało, ale często, tworzy silniejsze połączenia. Student, który uczy się 15 minut dziennie przez 6 miesięcy, uczy się więcej niż student, który uczy się 3 godziny tygodniowo przez ten sam okres.</p>
+<h3>3. Język ojczysty</h3>
+<p>Jest to przewaga, której nie możesz kontrolować, ale która istnieje. Osoby mówiące po chińsku mają ogromną przewagę: znają już wiele znaków (nawet jeśli ich odczyty są różne). Osoby mówiące po koreańsku rozpoznają wiele słów chińsko-koreańskich. Dla osób posługujących się językami europejskimi kanji są zupełnie nowe — zajmuje to więcej czasu, ale przy odpowiedniej metodzie luka się zaciera.</p>
+<h3>4. Cel</h3>
+<p>Rozpoznanie znaku kanji (przeczytanie go w tekście) jest znacznie szybsze niż umiejętność napisania go ręcznie. Jeśli Twoim celem jest czytanie, skup się na rozpoznawaniu. Pisanie odręczne to niezłe ćwiczenie, ale w 2026 roku większość Japończyków do pisania używa telefonu.</p>
+<h3>5. Zanurzenie</h3>
+<p>Ci, którzy mieszkają w Japonii, widzą kanji wszędzie: w pociągach, menu, znakach, reklamach. To ciągłe, pasywne wzmocnienie ogromnie przyspiesza naukę. Jeśli uczysz się w domu, możesz to zrekompensować mangą, anime z japońskimi napisami i NHK Easy News.</p>
+<h2>Mit o „30 dniach nauki kanji”</h2>
+<p>Musisz wiedzieć jedno: każdy, kto obiecuje nauczyć Cię wszystkich 2136 kanji w 30 dni, okłamuje Cię. Ludzki mózg ma biologiczne ograniczenia w tworzeniu pamięci długotrwałej. Czy możesz wystawić swój mózg na działanie 2136 znaków kanji w 30 dni? Tak. Czy będziesz je pamiętać po 3 miesiącach bez recenzji? Absolutnie nie.</p>
+<p>Co możesz zrobić w 30 dni i nauczyć się kanji 103 N5 w solidny sposób, przy ciągłych powtórkach. Jest to wspaniałe osiągnięcie: stanowi podstawę wszystkiego innego. Nie daj się zwieść marketingowi: ścieżka kanji to maraton, a nie sprint.</p>
+<h2>Porównanie metod: co jest szybsze?</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Metoda</th><th>Prędkość</th><th>Retencja po 3 miesiącach</th><th>Idealny dla</th></tr></thead>
+                <tbody><tr><td>Skopiuj ręcznie</td><td>Powolny</td><td>Bassa (20-30%)</td><td>Ćwicz pisanie</td></tr><tr><td>Fiszki papierowe</td><td>Przeciętny</td><td>Media (40-50%)</td><td>Studenci offline</td></tr><tr><td>Cyfrowy SRS</td><td>Szybko</td><td>Alta (70-80%)</td><td>Większość uczniów</td></tr><tr><td>SRS + Mnemoniki</td><td>Najszybszy</td><td>Molto alta (80-90%)</td><td>Ci, którzy chcą maksymalizować wydajność</td></tr><tr><td>Czyste zanurzenie</td><td>Zmienny</td><td>Wysoki dla popularnych słów</td><td>Kto mieszka w Japonii</td></tr></tbody>
+            </table></div>
+<p>Zwycięzca jest jasny: SRS w połączeniu z mnemonikami. Kanjidon używa dokładnie tej kombinacji — algorytmu SM-2 do powtarzania w odstępach i mnemoników w 21 językach dla każdego kanji. Dzięki 9 różnym typom quizów Twój mózg za każdym razem staje przed różnymi wyzwaniami, unikając efektu autopilota.</p>
+<h2>Jak zmaksymalizować szybkość uczenia się</h2>
+<ul><li>Ucz się codziennie, choćby tylko 10 minut. Spójność przewyższa intensywność.</li><li>Skorzystaj z systemu SRS. Nie trać czasu na przeglądanie znaków kanji, które już znasz.</li><li>Naucz się rodników przed złożonym kanji. Rozbicie go jest łatwiejsze niż zapamiętywanie.</li><li>Studiuj kanji w kontekście: ucz się słów, które je zawierają, a nie izolowanych znaczeń.</li><li>Nie przekraczaj 10 nowych znaków kanji dziennie. 5-7 to idealna liczba dla większości ludzi.</li><li>Przeglądaj rano, zaraz po przebudzeniu, lub wieczorem przed snem — mózg lepiej się konsoliduje.</li><li>Kiedy poczujesz, że utknąłeś, zmień rodzaj ćwiczenia: przejdź od fiszek, przez quizy, po czytanie.</li></ul>
+<h2>Realistyczna oś czasu miesiąc po miesiącu (N5 i N4)</h2>
+<p>Oto, czego możesz się spodziewać, jeśli będziesz uczyć się 20 minut dziennie metodą SRS + mnemoniki:</p>
+<ul><li>Tygodnie 1-2: 30 kanji N5. Liczby, dni tygodnia, podstawowe pojęcia. Nadal czujesz się jak początkujący.</li><li>Tygodnie 3-4: 60 znaków kanji N5. Zaczynasz rozpoznawać kanji w menu i znakach. Mała satysfakcja.</li><li>Tygodnie 5-8: ukończono 103 N5 kanji. Potrafisz czytać proste zdania. Magiczna chwila.</li><li>Miesiące 3-4: 180 kanji (w połowie N4). Czytaj NHK Easy News przy mniejszym wysiłku. Kanji zaczynają wyglądać znajomo.</li><li>Miesiące 5-6: 284 kanji (kompletne N4). Możesz poradzić sobie z prostą mangą i podstawowymi rozmowami pisemnymi.</li></ul>
+<p>Ścieżka jest szybsza niż myślisz, jeśli metoda jest właściwa. Sekretem nie jest uczyć się więcej, ale uczyć się lepiej. Kanjidon automatyzuje nudną część (decydując, co i kiedy przejrzeć) i pozwala Ci skupić się na jedynej rzeczy, która się liczy: nauce. Rozpocznij bezpłatnie i spójrz wstecz na tę oś czasu za miesiąc — będziesz zaskoczony, jak daleko już jesteś.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Moze ci sie tez spodobac</h3>
+                <div class="related-grid">
+                    
+                    <a href="/pl/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/pl/blog/przewodnik-radykaly-kanji/" class="related-card">
+                        <h4>Radykalne kanji: 2000 znaków zamienia się w 200</h4>
+                        <span class="read-time">12 min</span>
+                    </a>
+                    <a href="/pl/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Zacznij uczyc sie kanji dzis</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇵🇱</span>
+                        <span class="language-name">Polski</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option active">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Кандзи-радикалы: 2000 символов становятся 200 | Kanjidon</title>
+    <meta name="description" content="Откройте для себя радикалы кандзи: 214 основных компонентов, которые открывают тысячи символов. Путеводитель по 30 наиболее важным радикалам с практичес...">
+    <meta name="keywords" content="кандзи-радикалы, японские радикалы, компоненты кандзи, радикальный справочник, 214 радикалов, радикалы канси">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/guida-radicali-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/guide-radicaux-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/guia-radicales-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/guia-radicais-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-bushou-zhinan/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/dalil-judhor-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-radical-guide-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/panduan-radikal-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/panduan-radikal-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-radikal-rehberi/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rahnama-radical-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gabay-radical-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+
+    <meta property="og:title" content="Кандзи-радикалы: 2000 символов становятся 200">
+    <meta property="og:description" content="Откройте для себя радикалы кандзи: 214 основных компонентов, которые открывают тысячи символов. Путеводитель по 30 наиболее важным радикалам с практичес...">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Кандзи-радикалы: 2000 символов становятся 200">
+    <meta name="twitter:description" content="Откройте для себя радикалы кандзи: 214 основных компонентов, которые открывают тысячи символов. Путеводитель по 30 наиболее важным радикалам с практичес...">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Кандзи-радикалы: 2000 символов становятся 200",
+        "description": "Откройте для себя радикалы кандзи: 214 основных компонентов, которые открывают тысячи символов. Путеводитель по 30 наиболее важным радикалам с практичес...",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ru/blog/radikaly-kanji-gid/"
+        },
+        "datePublished": "2025-12-26",
+        "dateModified": "2025-12-26"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ru/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Кандзи-радикалы: 2000 символов становятся 200",
+                        "item": "https://kanjidon.com/ru/blog/radikaly-kanji-gid/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ru/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ru/blog/">Blog</a>
+                <a href="/ru/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ru/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ru/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Кандзи-радикалы: 2000 символов становятся 200</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Кандзи-радикалы: 2000 символов становятся 200</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">26 дек. 2025 г.</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">2136 кандзи, которые нужно выучить. Просто читая номер, вы начинаете беспокоиться. Но есть секрет, который меняет все: все эти 2136 символов состоят из одних и тех же 214 основных частей, называемых радикалами. Изучение радикалов и как учить алфавит раньше слов: как только вы узнаете части, сложные кандзи станут логическими комбинациями, а не загадочными узорами.</p>
+<h2>Что такое радикалы?</h2>
+<p>Радикалы (бусю, 部首) являются основными компонентами кандзи. Каждый кандзи состоит из одного или нескольких радикалов. Думайте о них как о буквах алфавита: сами по себе они мало что значат, но в сочетании они составляют тысячи слов. В классической системе их 214 (радикалы Канси), но в повседневной практике около 30-50 охватывают подавляющее большинство кандзи, с которыми вы столкнетесь.</p>
+<p>Каждый радикал имеет значение и часто предполагает значение или категорию кандзи, который его содержит. Водный радикал (氵) появляется в кандзи, относящихся к жидкостям. Радикальный человек (亻) появляется в кандзи, связанных с человеческими действиями. Распознавание этих закономерностей — настоящая суперсила в изучении кандзи.</p>
+<h2>Почему радикалы меняют все</h2>
+<p>Если не считать радикалов, каждый кандзи представляет собой уникальный дизайн для запоминания. В радикалах каждый кандзи представляет собой комбинацию уже известных вам частей. Вот три конкретных примера.</p>
+<h3>Пример 1: Водный радикал (水/氵)</h3>
+<p>Радикал 水 (вода) появляется в сокращенной форме как 氵 (три капли слева). Как только вы это узнаете, все эти кандзи станут интуитивно понятными:</p>
+<ul><li>海 (море) = 氵 вода + 毎 каждый → вода повсюду = море</li><li>泳 (плавать) = 氵 вода + 永 вечный → двигаться в воде вечно = плавать</li><li>河 (река) = 氵 вода + 可 возможно → текущая вода = река</li><li>湖 (озеро) = 氵 вода + 胡 древний → древняя, стоячая вода = озеро</li><li>波 (волна) = 氵 вода + 皮 кожа → кожа воды = волна</li><li>洗 (мыть) = 氵 вода + 先 сначала → сначала положить воду = мыть</li></ul>
+<p>Шесть кандзи, один радикал. Вместо запоминания шести бессмысленных рисунков вы видите логику. И это только начало.</p>
+<h3>Пример 2: Корень дерева (木)</h3>
+<p>Радикальный 木 (дерево) встречается во многих кандзи, связанных с природой, деревом и растениями:</p>
+<ul><li>森 (лес) = 木 + 木 + 木 → три дерева = лес</li><li>林 (лес) = 木 + 木 → два дерева = лес</li><li>桜 (вишневое дерево) = 木 + 女 + 女 → женское дерево (цветение вишни ассоциировалось с красотой)</li><li>机 (стол) = 木 + 几 → дерево + опора = стол</li><li>板 (доска/доска) = 木 + 反 → плоское дерево = доска</li></ul>
+<h3>Пример 3: Радикал личности (人/亻)</h3>
+<p>Радикал 人 (человек) в латеральной позиции становится 亻. Оно появляется во многих кандзи, связанных с человеческими действиями и условиями:</p>
+<ul><li>休 (отдых) = 亻 человек + 木 дерево → человек, отдыхающий под деревом</li><li>体 (тело) = 亻 человек + 本 происхождение → происхождение человека = тело</li><li>住 (жить) = 亻 человек + 主 владелец → человек, которому принадлежит место = жить</li><li>作 (делать/создать) = 亻 человек + 乍 внезапно → человек, который создает = делать</li><li>何 (что/что) = 亻 человек + 可 возможный → человек, который спрашивает, что и возможно = что?</li></ul>
+<p>Канджидон учит вас радикалам в правильном порядке, используя для каждого из них визуальную мнемонику на английском языке. Вам не придется придумывать истории самостоятельно: вы можете найти их готовыми для каждого кандзи.</p>
+<h2>30 самых важных радикалов</h2>
+<p>Вам не нужны все 214, чтобы начать. Эти 30 радикалов охватывают около 80% кандзи, с которыми вы встретитесь на уровнях N5–N3.</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Радикальный</th><th>Имя</th><th>Значение</th><th>Общий кандзи</th></tr></thead>
+                <tbody><tr><td>人/亻</td><td>Хито/Нинбен</td><td>Человек</td><td>休体住作何</td></tr><tr><td>口</td><td>кучи</td><td>Рот</td><td>知味吸呼品</td></tr><tr><td>日</td><td>привет/ничи</td><td>Воскресенье</td><td>明時早昼暗</td></tr><tr><td>月</td><td>цуки</td><td>Луна/месяц</td><td>朝期明服脳</td></tr><tr><td>水/氵</td><td>Мидзу/Сандзуи</td><td>Водопад</td><td>海泳河湖洗</td></tr><tr><td>火/灬</td><td>привет/ренга</td><td>Огонь</td><td>炎焼煮燃点</td></tr><tr><td>木</td><td>ки</td><td>Дерево</td><td>森林桜机板</td></tr><tr><td>金</td><td>Кейн</td><td>Металл/золото</td><td>銀 鉄 針 鏡 鋼</td></tr><tr><td>土</td><td>цучи</td><td>Земля</td><td>地場塩城堂</td></tr><tr><td>山</td><td>яма</td><td>Гора</td><td>岩峠崎島岸</td></tr><tr><td>手/扌</td><td>тэ/тэн</td><td>Рука</td><td>持打押投指</td></tr><tr><td>心/忄</td><td>Кокоро/риссинбен</td><td>Сердце/разум</td><td>思感悲怒情</td></tr><tr><td>目</td><td>мне</td><td>Глаз</td><td>見眠眼瞬看</td></tr><tr><td>言/訁</td><td>кото/гонбен</td><td>Слово</td><td>語話読記説</td></tr><tr><td>食/飠</td><td>шоку</td><td>Еда</td><td>飲 飯 餓 飼 館</td></tr><tr><td>力</td><td>чикара</td><td>Сила</td><td>動助勉努功</td></tr><tr><td>女</td><td>онна</td><td>Женщина</td><td>好妹姉婚嫁</td></tr><tr><td>子</td><td>ко</td><td>Ребенок</td><td>学字孫季存</td></tr><tr><td>大</td><td>ну давай же</td><td>Большой</td><td>天太奥央奈</td></tr><tr><td>小</td><td>показать</td><td>Маленький</td><td>少尖省尚劣</td></tr><tr><td>田</td><td>та</td><td>Рисовое поле</td><td>男 町 画 畑 略</td></tr><tr><td>石</td><td>иши</td><td>Камень</td><td>岩砂研破確</td></tr><tr><td>糸</td><td>это</td><td>Ряд</td><td>紙組結織縁</td></tr><tr><td>竹</td><td>брать</td><td>Бамбук</td><td>笑筆箱簡算</td></tr><tr><td>雨</td><td>я</td><td>Дождь</td><td>雪雲電霧雷</td></tr><tr><td>門</td><td>понедельник</td><td>Приносит</td><td>開閉関間聞</td></tr><tr><td>車</td><td>курума</td><td>Транспортное средство</td><td>転 軽 輸 輪 載</td></tr><tr><td>足</td><td>аши</td><td>Ступня</td><td>路 跳 踊 距 跡</td></tr><tr><td>刀/刂</td><td>катана/ритто</td><td>лопата</td><td>切分別判刻</td></tr><tr><td>貝</td><td>Кай</td><td>Оболочка</td><td>買 貸 費 貯 賞</td></tr></tbody>
+            </table></div>
+<h2>Как использовать радикалы для запоминания сложных кандзи</h2>
+<p>Метод прост: разбейте кандзи на радикалы, затем создайте (или найдите) историю, которая их связывает. Вот пять примеров в деталях.</p>
+<ul><li>休 (отдых) = 亻 человек + 木 дерево → Представьте себе уставшего человека, сидящего под деревом, чтобы отдохнуть. Просто, наглядно, невозможно забыть.</li><li>明 (яркий) = 日 солнце + 月 луна → Когда видно и солнце, и луну, свет двойной. Очень яркий.</li><li>好 (приятный/хороший) = 女 женщина + 子 ребенок → Женщина с ребенком. Связь матери и сына – это самое прекрасное. Хороший.</li><li>語 (язык/язык) = 言 слово + 五 пять + 口 рот → Пять ртов, говорящих словами. Язык.</li><li>体 (тело) = 亻 человек + 本 книга/происхождение → Происхождение человека, его основа. Тело.</li></ul>
+<p>Каждый кандзи в кандзидоне показывает свои радикальные компоненты и мнемоническую историю, позволяющую его запомнить. Вам не нужно ничего придумывать: откройте кандзи, прочитайте историю, а ваш мозг сделает все остальное. С помощью SRS алгоритм решает, когда вам следует просмотреть каждый кандзи, как раз тогда, когда вы собираетесь его забыть.</p>
+<h2>214 радикалов Канси: все ли они служат?</h2>
+<p>Всего в классической радикальной системе Канси их 214. Хорошая новость: вам не обязательно учить их все, прежде чем начать изучать кандзи. 30 в таблице выше охватывают подавляющее большинство персонажей, с которыми вы встретитесь, от N5 до N3. Изучайте других, когда сталкиваетесь с ними, используя более сложные кандзи. Многие из 214 радикалов редки или встречаются в очень небольшом количестве кандзи — изучение их всех одновременно было бы пустой тратой времени.</p>
+<h2>Стратегия: как изучать радикалы</h2>
+<ul><li>Сначала изучите 30 фундаментальных радикалов из таблицы выше.</li><li>Для каждого из них запомните значение и форму (даже сокращенную, например 氵 для воды).</li><li>Изучая новый кандзи, всегда идентифицируйте радикалы, входящие в его состав.</li><li>Создайте или найдите историю, которая связывает радикалы со значением кандзи.</li><li>Не изучайте радикалы изолированно неделями: начните с кандзи прямо сейчас, используя радикалы как инструмент.</li><li>Добавляйте новые радикалы по мере их появления в более сложных кандзи.</li></ul>
+<p>Радикалы не являются обязательным условием: они являются инструментом. Используйте их из первого кандзи, и они станут вашим секретным оружием. Алгоритм SRS Kanjidon показывает вам радикалы в контексте реальных кандзи с мнемоническими историями для каждого персонажа от уровня N5 до N1. Начните бесплатно и узнайте, насколько это проще, когда кандзи больше не представляют собой загадочные рисунки, а представляют собой уже знакомые вам логические комбинации частей.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Vam takzhe mozhet ponravitsya</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ru/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/ru/blog/skolko-vremeni-uchit-kanji/" class="related-card">
+                        <h4>Сколько времени нужно, чтобы выучить кандзи? (Реальные чи...</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                    <a href="/ru/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Nachni izuchat kanzi segodnya</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇷🇺</span>
+                        <span class="language-name">Русский</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option active">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

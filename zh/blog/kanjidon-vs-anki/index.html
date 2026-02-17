@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Kanjidon vs Anki 2026：哪个更适合学习汉字？ | Kanjidon</title>
+    <meta name="description" content="Kanjidon 与 Anki：汉字学习的详细比较。了解 2026 年哪种 SRS 抽认卡应用程序最适合您 - 功能、易用性和有效性。">
+    <meta name="keywords" content="kanjidon 与 anki、anki 替代方案、anki 汉字甲板、最佳汉字抽认卡、anki 与 kanjidon、SRS 汉字应用程序、anki 日语、汉字学习应用程序比较">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh/blog/kanjidon-vs-anki/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/kanjidon-vs-anki/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanjidon-vs-anki/">
+
+    <meta property="og:title" content="Kanjidon vs Anki 2026：哪个更适合学习汉字？">
+    <meta property="og:description" content="Kanjidon 与 Anki：汉字学习的详细比较。了解 2026 年哪种 SRS 抽认卡应用程序最适合您 - 功能、易用性和有效性。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh/blog/kanjidon-vs-anki/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanjidon vs Anki 2026：哪个更适合学习汉字？">
+    <meta name="twitter:description" content="Kanjidon 与 Anki：汉字学习的详细比较。了解 2026 年哪种 SRS 抽认卡应用程序最适合您 - 功能、易用性和有效性。">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kanjidon vs Anki 2026：哪个更适合学习汉字？",
+        "description": "Kanjidon 与 Anki：汉字学习的详细比较。了解 2026 年哪种 SRS 抽认卡应用程序最适合您 - 功能、易用性和有效性。",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/zh/blog/kanjidon-vs-anki/"
+        },
+        "datePublished": "2026-02-03",
+        "dateModified": "2026-02-03"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/zh/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Kanjidon vs Anki 2026：哪个更适合学习汉字？",
+                        "item": "https://kanjidon.com/zh/blog/kanjidon-vs-anki/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh/blog/">Blog</a>
+                <a href="/zh/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/zh/">Home</a>
+                <span class="separator">›</span>
+                <a href="/zh/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Kanjidon vs Anki 2026：哪个更适合学习汉字？</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Kanjidon vs Anki 2026：哪个更适合学习汉字？</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2026年2月3日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">11 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">十多年来，Anki 一直是语言学习者首选的抽认卡应用程序。它功能强大、免费且可无限定制。但这种灵活性是有代价的：复杂性。 Kanjidon 采用了不同的方法——专为汉字设计，无需零设置。让我们比较这两种流行的选项，帮助您决定哪一种适合您的学习风格。</p>
+<h2>快速比较：Kanjidon 与 Anki</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>特征</th><th>汉字丼</th><th>安基</th></tr></thead>
+                <tbody><tr><td>价格</td><td>免费/高级</td><td>免费（AnkiMobile 24.99 美元）</td></tr><tr><td>设置时间</td><td>0分钟</td><td>几小时到几天</td></tr><tr><td>汉字内容</td><td>5,000+ built-in</td><td>需要下载/创建套牌</td></tr><tr><td>SRS算法</td><td>SM-2 (optimized)</td><td>SM-2 (configurable)</td></tr><tr><td>测验类型</td><td>9种专业模式</td><td>仅基本抽认卡</td></tr><tr><td>移动体验</td><td>原生 iOS + 安卓</td><td>AnkiDroid 免费，AnkiMobile 25 美元</td></tr><tr><td>游戏化</td><td>完整（战斗、排名、奖励）</td><td>没有任何</td></tr><tr><td>学习曲线</td><td>即时启动</td><td>陡</td></tr><tr><td>定制化</td><td>精心策划的体验</td><td>无限但复杂</td></tr></tbody>
+            </table></div>
+<h2>设置问题：小时与秒</h2>
+<p>这是 Anki 的肮脏秘密：在你学习一个汉字之前，你需要花几个小时进行设置。您需要找到一个好的平台（有数百个，大多数平庸），配置设置，也许安装附加组件，跨设备同步，并找出界面。许多学习者在开始之前就放弃了。</p>
+<p>汉字丼？下载，打开，开始学习。所有 5,000 多个汉字都已存在，按 JLPT 级别组织，包含含义、读法和例句。 SRS 已预先配置了最佳设置。您将在安装后 30 秒内查看汉字。</p>
+<h2>内容质量：策划与 DIY</h2>
+<h3>Anki 的套牌彩票</h3>
+<p>Anki 套牌的质量差异很大。一些流行的汉字卡片有错误、过时的信息或格式不良。您可能会学习几个月，然后才意识到您的套牌教授的读数不正确。创建自己的套牌是一种选择，但在您学到任何东西之前需要花费数十个小时的工作。</p>
+<h3>Kanjidon 精选图书馆</h3>
+<p>Kanjidon 中的每个汉字都经过验证，具有准确的含义、所有常用读法、笔顺和母语例句。内容经过专业创建并定期更新。无需寻找甲板，无质量问题，无需维护。</p>
+<h2>学习经历：多样性与单调</h2>
+<p>Anki 向您展示一张卡片，您想到答案，翻转它，然后对自己进行评分。重复数千次。它有效，但很单调。几个月后，你就进入了自动驾驶状态——通过视觉模式来识别卡片，而不是真正了解汉字。</p>
+<p>Kanjidon 通过九种不同的测验类型来应对这一问题：意义识别、阅读练习、听力理解、笔画顺序书写、上下文句子等等。多样性可以让你的大脑保持活跃，并从多个角度测试知识。当你接受九种不同方式的测试时，你不能假装知道汉字。</p>
+<h2>移动体验：原生与事后思考</h2>
+<p>Anki 是为桌面而构建的。移动版本是由不同开发商开发的独立应用程序。 AnkiDroid（Android）是免费的，但很笨重。 AnkiMobile (iOS) 的售价为 24.99 美元——是的，移动抽认卡应用程序售价为 25 美元。设备之间的同步需要 AnkiWeb 帐户，有时会失败。</p>
+<p>Kanjidon 的设计以移动设备为先。 iOS 和 Android 应用程序完全相同、精美且免费。云同步自动且可靠。离线模式完美运行。该界面经过优化，适合通勤时单手使用拇指。</p>
+<h2>动机因素</h2>
+<p>学习 2,000 多个汉字是一场马拉松。 Anki 的界面纯粹是功能性的——灰卡、基本按钮、评论计数。没有什么值得期待的，没有什么值得庆祝的进步。许多用户都精疲力竭了。</p>
+<p>Kanjidon 将汉字视为游戏。您可以收集漂亮的汉字卡，在实时 PvP 中与其他学习者战斗，从 E 级上升到 S 级，完成每日任务，保持连胜，并解锁头像和印章。这听起来很愚蠢，直到你意识到你已经学习了 45 分钟而没有检查时钟。</p>
+<h2>当 Anki 有意义时</h2>
+<p>公平地说：Anki 对于某些用户来说具有合法的优势。</p>
+<ul><li>您想在一个应用程序中学习多个科目（不仅仅是汉字）</li><li>您喜欢修改设置和优化系统</li><li>您有一套自己喜欢的特定套牌，但不想更换</li><li>您需要高级功能，例如完形填空或图像遮挡</li><li>您已经是拥有多年数据的 Anki 高级用户</li></ul>
+<h2>当 Kanjidon 有意义时</h2>
+<ul><li>您想立即开始学习汉字，而不是下周</li><li>与 DIY 相比，您更喜欢精心打造的定制体验</li><li>游戏、竞争和奖励会激励您</li><li>您主要在移动设备上学习</li><li>您比最大程度的定制更珍惜您的时间</li><li>您希望测试方式多样化</li><li>您尝试过 Anki 并摆脱了复杂性</li></ul>
+<h2>“免费”的隐性成本</h2>
+<p>Anki 是免费的，但请考虑实际成本：寻找和评估套牌的时间、配置设置的时间、25 美元的 iOS 应用程序、对同步问题的挫败感以及维护自己的学习系统的精神能量。对于许多学习者来说，这个“免费”应用程序的费用超过一年的 Kanjidon Premium。</p>
+<p>Kanjidon 的免费套餐包含无限的核心功能。高级版添加了额外的测验类型、删除了广告并解锁了高级功能。但即使是免费用户也能获得完整、精致的汉字学习体验。</p>
+<h2>真实对话：从 Anki 切换</h2>
+<p>如果您是一位已有多年进步的 Anki 用户，那么切换会让人感到害怕。但事情是这样的：你知道汉字，你真的知道。他们在任何系统中都会很快回来。你在 Anki 中“复习”汉字却没有真正学习？ Kanjidon 的各种测验类型将暴露并弥补这些差距。</p>
+<p>许多 Kanjidon 用户来自 Anki，他们表示进步更快，记忆力更好，而且最重要的是，第一次真正享受他们的学习课程。</p>
+<h2>判决</h2>
+<p>Anki 是一个强大的通用工具。如果您需要最大的灵活性并且不介意设置，它可以用于汉字。但这就像用瑞士军刀吃晚饭一样——技术上是可行的，但有更好的工具可以完成这项工作。</p>
+<p>Kanjidon 专为汉字学习而设计。它消除了导致大多数学习者退出的摩擦，增加了让您回来的激励系统，并以 Anki 无法做到的方式测试您的知识。如果您的目标是学习汉字（而不是成为 Anki 专家），那么 Kanjidon 是更明智的选择。</p>
+<p>立即免费下载 Kanjidon，看看有何不同。您的第一个汉字正在等待中 - 无需任何设置。</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ni keneng ye xihuan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/zh/blog/kanjidon-vs-wanikani/" class="related-card">
+                        <h4>Kanjidon vs WaniKani 2026：哪个汉字应用程序适合您？</h4>
+                        <span class="read-time">12 min</span>
+                    </a>
+                    <a href="/zh/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/zh/blog/spaced-repetition-kanji/" class="related-card">
+                        <h4>Spaced Repetition: Scientific Method for Kanji</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Jintian kaishi xuexi hanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇨🇳</span>
+                        <span class="language-name">中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option active">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

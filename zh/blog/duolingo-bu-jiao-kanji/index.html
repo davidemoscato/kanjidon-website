@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Duolingo 不教汉字：原因如下 | Kanjidon</title>
+    <meta name="description" content="日语 Duolingo 对汉字有结构限制。诚实地分析什么是好的，什么是不好的，以及真正有效的替代方案。">
+    <meta name="keywords" content="duolingo 汉字、日语 duolingo、日语 duolingo 作品、日语 duolingo 替代品、无需 duolingo 即可学习汉字">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh/blog/duolingo-bu-jiao-kanji/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/why-duolingo-cant-teach-kanji/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/perche-duolingo-non-insegna-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/pourquoi-duolingo-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/por-que-duolingo-no-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/warum-duolingo-kein-kanji/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/por-que-duolingo-nao-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/pochemu-duolingo-ne-uchit-kanji/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/duolingo-kanji-munje/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/duolingo-bu-jiao-kanji/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/duolingo-bu-jiao-kanji-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/limadha-duolingo-la-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/duolingo-kanji-kyon-nahi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/thammai-duolingo-mai-son-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tai-sao-duolingo-khong-day-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kenapa-duolingo-tidak-ajar-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kenapa-duolingo-tak-ajar-kanji/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/neden-duolingo-kanji-ogretmez/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/dlaczego-duolingo-nie-uczy-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/chera-duolingo-kanji-amuzesh-nemidahad/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/bakit-duolingo-hindi-nagtuturo-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/why-duolingo-cant-teach-kanji/">
+
+    <meta property="og:title" content="Duolingo 不教汉字：原因如下">
+    <meta property="og:description" content="日语 Duolingo 对汉字有结构限制。诚实地分析什么是好的，什么是不好的，以及真正有效的替代方案。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh/blog/duolingo-bu-jiao-kanji/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Duolingo 不教汉字：原因如下">
+    <meta name="twitter:description" content="日语 Duolingo 对汉字有结构限制。诚实地分析什么是好的，什么是不好的，以及真正有效的替代方案。">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Duolingo 不教汉字：原因如下",
+        "description": "日语 Duolingo 对汉字有结构限制。诚实地分析什么是好的，什么是不好的，以及真正有效的替代方案。",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/zh/blog/duolingo-bu-jiao-kanji/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/zh/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Duolingo 不教汉字：原因如下",
+                        "item": "https://kanjidon.com/zh/blog/duolingo-bu-jiao-kanji/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh/blog/">Blog</a>
+                <a href="/zh/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/zh/">Home</a>
+                <span class="separator">›</span>
+                <a href="/zh/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Duolingo 不教汉字：原因如下</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Duolingo 不教汉字：原因如下</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2025年12月15日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Duolingo 是世界上下载次数最多的语言应用程序。绿色猫头鹰无处不在，条纹系统令人上瘾。但有一个问题没有人愿意承认：对于日语，特别是汉字，Duolingo 存在任何更新都无法解决的结构限制。这不是 Duolingo 的错——它也不是为此而设计的。</p>
+<h2>Duolingo 擅长什么（让我们把它交给凯撒......）</h2>
+<p>在批评之前，让我们先认识一下优点。 Duolingo 在某些方面比其他任何人都做得更好：</p>
+<ul><li>辅助功能：任何人都可以在 30 秒内免费开始，无需了解任何内容</li><li>游戏化：连胜、红心、排行榜。它让您每天都回来，这是物有所值的</li><li>基本词汇：通过原生音频在上下文中学习有用的单词</li><li>语法入门：直观介绍日语的基本结构</li><li>平假名和片假名：课程在早期阶段教得很好</li></ul>
+<p>对于欧洲语言（西班牙语、法语、德语），Duolingo 的效果出奇的好。日语出现了问题，这是一种以完全不同的方式工作的语言。</p>
+<h2>根本问题：Duolingo 教的是短语，而不是汉字</h2>
+<p>Duolingo 的架构是为字母语言设计的：您可以学习用您可以阅读的单词造句，因为您了解字母表。但日语有三种书写系统（平假名、片假名、汉字），而汉字不是字母表——它们是一个拥有数千个字符的表意系统，每个字符都有多种含义和读法。</p>
+<p>Duolingo 会向您显示句子中的汉字，但不会系统地教您它们。你不学习部首，你不学习 ON 和 KUN 读法，没有专门针对单个字符的间隔重复系统。你遇到它们，你在特定句子的上下文中认识它们，但你并没有真正学习它们。</p>
+<h2>不会说谎的数字</h2>
+<p>以下是使用 Japanese Duolingo 6 个月后的实际情况（每天 30 分钟，持续使用）：</p>
+<ul><li>上下文中识别的汉字：大约 30-50 个</li><li>可以单独阅读的汉字：约10-20个</li><li>JLPT N5 所需汉字：103</li><li>日本语能力考试 N4 所需汉字：284</li><li>ON/KUN读物学习：几乎没有自觉</li></ul>
+<p>经过6个月的日复一日的努力，你离JLPT考试的基础水平还很远。不是因为你速度慢，而是因为该工具不是为此目的而设计的。使用像 Kanjidon 这样以汉字为中心的应用程序，同样的 6 个月时间，每天 15 分钟，您就可以超越 N4 级别的 284 个汉字，每个汉字都有读法、含义和助记符。</p>
+<h2>Duolingo 对汉字的 4 个结构限制</h2>
+<h3>1.部首没有系统的教学</h3>
+<p>部首是汉字的组成部分。了解它们可以将 2,000 个看似随机的字符变成逻辑组合。 Duolingo 甚至没有提到它们。每个汉字对你来说都是一幅新的图画，你必须牢牢记住。</p>
+<h3>2. 没有专门针对单个汉字的 SRS</h3>
+<p>Duolingo 有一个复习系统，但它是在课程级别，而不是在个人汉字级别。如果我混淆了“书”（写）和“読”（读），该应用程序不会让我复习这两个特定的汉字，直到我区分它们。像 Kanjidon 这样的严肃的 SRS 系统会跟踪每一个汉字，并在您快要忘记的时候再次呈现它。</p>
+<h3>3. 读物ON和KUN：伟大的缺席</h3>
+<p>每个汉字至少有两种读法：中文读法（ON-yomi）和日语读法（KUN-yomi）。知道何时使用哪个对于阅读真正的日语至关重要。 Duolingo 通过特定的阅读方式教您单词，但不解释系统。结果：脱离了该单词的上下文，您不知道如何阅读汉字。</p>
+<h3>4. 缺乏助记符</h3>
+<p>助记符——将汉字的形式、含义和阅读联系起来的视觉故事——是长期记忆的最有效工具。 Duolingo 不使用任何汉字。它向你展示了这个字、意义，并希望你记住它。对于前 20 个，它有效。对于200人来说，这是一场灾难。</p>
+<h2>我并不是说放弃 Duolingo</h2>
+<p>Duolingo 可以做其他应用程序没有的事情：直观地教您语法，让您接触真实的句子，并通过游戏化让您保持动力。问题不在于 Duolingo 本身，而在于使用 Duolingo 作为日语的唯一工具。</p>
+<p>以及如何仅使用锤子来建造房屋。锤子很有用，但你还需要螺丝刀、锯子和水平仪。</p>
+<h2>完美的组合：如何真正学习</h2>
+<p>最有效的策略结合了不同的工具，每个工具都有自己的优势：</p>
+<ul><li>对于汉字：一款带有 SRS、部首和助记符的专用应用程序。 Kanjidon 涵盖了所有 2,136 个常用汉字，以及 21 种语言（包括英语）的 9 种测验和助记符。</li><li>语法：Duolingo（基础）+ Genki 或 Tae Kim（深入）之类的书</li><li>对于词汇：Duolingo + 分级阅读（NHK Easy News，分级阅读器）</li><li>适合聆听：带日语字幕的动漫、播客、YouTube 视频</li><li>对话：Italki 导师（当你准备好时，而不是马上）</li></ul>
+<p>按照这种方法，每天 30 分钟的时间是这样划分的：15 分钟的汉字（Kanjidon）+ 15 分钟的语法/词汇（Duolingo）。你认真地学习汉字，直观地吸收语法，一切都是相辅相成的。</p>
+<h2>什么对汉字真正有效</h2>
+<p>如果您喜欢汉字（如果您学习日语，那么它一定是），那么您需要在应用程序中寻找以下内容：</p>
+<ul><li>单汉字级别的 SRS：算法单独跟踪每个字符</li><li>部首作为基础：在复杂的汉字之前学习组件</li><li>助记符：每个汉字的视觉故事，用您的语言</li><li>明确的 ON/KUN 阅读材料：您始终知道自己正在学习哪种阅读材料</li><li>JLPT组织：从N5到N1，你永远知道自己在哪里</li><li>测验多样化：仅凭抽认卡是不够的，需要不同的练习</li></ul>
+<p>简单的事实是：Duolingo 非常适合入门和基本语法，但对于汉字，您需要专门为此设计的工具。将 Kanjidon 添加到您的学习堆栈中，只需几周您就会看到差异。您可以免费学习前 103 个 N5 汉字 — 尝试一下并自行判断。</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ni keneng ye xihuan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/zh/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/zh/blog/kanji-jlpt-guide/" class="related-card">
+                        <h4>How Many Kanji for JLPT? N5 to N1 Guide</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/zh/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Jintian kaishi xuexi hanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇨🇳</span>
+                        <span class="language-name">中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option active">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Kanji-Radikale: Aus 2.000 Zeichen werden 200 | Kanjidon</title>
+    <meta name="description" content="Entdecken Sie Kanji-Radikale: die 214 Grundkomponenten, die Tausende von Zeichen freischalten. Leitfaden zu den 30 wichtigsten Radikalen mit praktischen...">
+    <meta name="keywords" content="Kanji-Radikale, japanische Radikale, Kanji-Komponenten, Radikalführer, 214 Radikale, Kangxi-Radikale">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/guida-radicali-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/guide-radicaux-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/guia-radicales-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/guia-radicais-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-bushou-zhinan/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/dalil-judhor-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-radical-guide-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/panduan-radikal-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/panduan-radikal-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-radikal-rehberi/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rahnama-radical-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gabay-radical-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+
+    <meta property="og:title" content="Kanji-Radikale: Aus 2.000 Zeichen werden 200">
+    <meta property="og:description" content="Entdecken Sie Kanji-Radikale: die 214 Grundkomponenten, die Tausende von Zeichen freischalten. Leitfaden zu den 30 wichtigsten Radikalen mit praktischen...">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanji-Radikale: Aus 2.000 Zeichen werden 200">
+    <meta name="twitter:description" content="Entdecken Sie Kanji-Radikale: die 214 Grundkomponenten, die Tausende von Zeichen freischalten. Leitfaden zu den 30 wichtigsten Radikalen mit praktischen...">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kanji-Radikale: Aus 2.000 Zeichen werden 200",
+        "description": "Entdecken Sie Kanji-Radikale: die 214 Grundkomponenten, die Tausende von Zeichen freischalten. Leitfaden zu den 30 wichtigsten Radikalen mit praktischen...",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/de/blog/kanji-radikale-guide/"
+        },
+        "datePublished": "2025-12-26",
+        "dateModified": "2025-12-26"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/de/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Kanji-Radikale: Aus 2.000 Zeichen werden 200",
+                        "item": "https://kanjidon.com/de/blog/kanji-radikale-guide/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/de/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/de/blog/">Blog</a>
+                <a href="/de/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/de/">Home</a>
+                <span class="separator">›</span>
+                <a href="/de/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Kanji-Radikale: Aus 2.000 Zeichen werden 200</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Kanji-Radikale: Aus 2.000 Zeichen werden 200</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">26. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">2.136 Kanji zum Lernen. Allein das Lesen der Zahl macht einem Angst. Aber es gibt ein Geheimnis, das alles verändert: Diese 2.136 Charaktere bestehen alle aus denselben 214 Grundstücken, den sogenannten Radikalen. Radikale lernen und das Alphabet vor Wörtern lernen: Sobald Sie die Teile kennen, werden komplexe Kanji zu logischen Kombinationen und nicht zu mysteriösen Designs.</p>
+<h2>Was sind Radikale?</h2>
+<p>Radikale (bushu, 部首) sind die Grundbestandteile von Kanji. Jedes Kanji besteht aus einem oder mehreren Radikalen. Betrachten Sie sie wie die Buchstaben des Alphabets: Für sich genommen bedeuten sie nicht viel, aber zusammen ergeben sie Tausende von Wörtern. Das klassische System hat 214 (die Kangxi-Radikale), aber in der täglichen Praxis decken etwa 30–50 die überwiegende Mehrheit der Kanji ab, denen Sie begegnen werden.</p>
+<p>Jedes Radikal hat eine Bedeutung und weist oft auf die Bedeutung oder Kategorie des Kanji hin, in dem es enthalten ist. Das Wasserradikal (氵) erscheint im Kanji im Zusammenhang mit Flüssigkeiten. Das Personenradikal (亻) erscheint in Kanji und bezieht sich auf menschliche Handlungen. Das Erkennen dieser Muster ist die wahre Superkraft beim Lernen von Kanji.</p>
+<h2>Warum Radikale alles verändern</h2>
+<p>Ohne Radikale ist jedes Kanji ein einzigartiges Design zum Auswendiglernen. Bei Radikalen ist jedes Kanji eine Kombination aus Teilen, die Sie bereits kennen. Hier sind drei konkrete Beispiele.</p>
+<h3>Beispiel 1: Das Wasserradikal (水/氵)</h3>
+<p>Der Rest 水 (Wasser) erscheint in reduzierter Form als 氵 (drei Tropfen links). Sobald Sie es erkennen, werden alle diese Kanji intuitiv:</p>
+<ul><li>海 (Meer) = 氵 Wasser + 毎 jedes → Wasser überall = Meer</li><li>泳 (schwimmen) = 氵 Wasser + 永 ewig → sich für immer im Wasser bewegen = schwimmen</li><li>河 (Fluss) = 氵 Wasser + 可 möglich → fließendes Wasser = Fluss</li><li>湖 (See) = 氵 Wasser + 胡 uralt → uraltes, stilles Wasser = See</li><li>波 (Welle) = 氵 Wasser + 皮 Haut → Wasserhaut = Welle</li><li>洗 (waschen) = 氵 Wasser + 先 zuerst → zuerst Wasser geben = waschen</li></ul>
+<p>Sechs Kanji, ein Radikal. Anstatt sechs bedeutungslose Zeichnungen auswendig zu lernen, sehen Sie Logik. Und das ist erst der Anfang.</p>
+<h3>Beispiel 2: Die Wurzel des Baumes (木)</h3>
+<p>Der Wortstamm 木 (Baum) kommt in vielen Kanji vor, die sich auf Natur, Holz und Pflanzen beziehen:</p>
+<ul><li>森 (Wald) = 木 + 木 + 木 → drei Bäume = Wald</li><li>林 (Wald) = 木 + 木 → zwei Bäume = Wald</li><li>桜 (Kirschbaum) = 木 + 女 + 女 → der Frauenbaum (Kirschblüten wurden mit Schönheit in Verbindung gebracht)</li><li>机 (Schreibtisch) = 木 + 几 → Holz + Stütze = Schreibtisch</li><li>板 (Brett/Brett) = 木 + 反 → flaches Holz = Brett</li></ul>
+<h3>Beispiel 3: Das Radikal der Person (人/亻)</h3>
+<p>Das Radikal 人 (Person) in Seitenstellung wird zu 亻. Es kommt in vielen Kanji vor, die sich auf menschliche Handlungen und Zustände beziehen:</p>
+<ul><li>休 (Ruhe) = 亻 Person + 木 Baum → Person, die unter einem Baum ruht</li><li>体 (Körper) = 亻 Person + 本 Herkunft → der Ursprung der Person = Körper</li><li>住 (leben) = 亻 Person + 主 Eigentümer → Person, der der Ort gehört = leben</li><li>作 (tun/erschaffen) = 亻 Person + 乍 plötzlich → Person, die erschafft = tun</li><li>何 (was/was) = ​​亻 Person + 可 möglich → Person, die was fragt und möglich = was?</li></ul>
+<p>Kanjidon bringt Ihnen die Radikale in der richtigen Reihenfolge bei, mit visuellen Gedächtnisstützen auf Englisch für jedes Wort. Sie müssen Geschichten nicht selbst erfinden: Sie können sie für jedes Kanji bereithalten.</p>
+<h2>Die 30 wichtigsten Radikale</h2>
+<p>Sie benötigen nicht alle 214, um loszulegen. Diese 30 Radikale decken etwa 80 % der Kanji ab, denen Sie in den Stufen N5–N3 begegnen.</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Radikale</th><th>Name</th><th>Bedeutung</th><th>Gewöhnliches Kanji</th></tr></thead>
+                <tbody><tr><td>人/亻</td><td>Hito/Ninben</td><td>Person</td><td>休体住作何</td></tr><tr><td>口</td><td>kuchi</td><td>Mund</td><td>知味吸呼品</td></tr><tr><td>日</td><td>Hallo/Nichi</td><td>Sonntag</td><td>明時早昼暗</td></tr><tr><td>月</td><td>Tsuki</td><td>Mond/Monat</td><td>朝期明服脳</td></tr><tr><td>水/氵</td><td>mizu/sanzui</td><td>Wasserfall</td><td>海泳河湖洗</td></tr><tr><td>火/灬</td><td>Hallo/Renga</td><td>Feuer</td><td>炎焼煮燃点</td></tr><tr><td>木</td><td>ki</td><td>Baum</td><td>森林桜机板</td></tr><tr><td>金</td><td>Kane</td><td>Metall/Gold</td><td>銀 鉄 針 鏡 鋼</td></tr><tr><td>土</td><td>Tsuchi</td><td>Erde</td><td>地場塩城堂</td></tr><tr><td>山</td><td>Yama</td><td>Berg</td><td>岩峠崎島岸</td></tr><tr><td>手/扌</td><td>te/tehen</td><td>Hand</td><td>持打押投指</td></tr><tr><td>心/忄</td><td>kokoro/risshinben</td><td>Herz/Verstand</td><td>思感悲怒情</td></tr><tr><td>目</td><td>Mich</td><td>Auge</td><td>見眠眼瞬看</td></tr><tr><td>言/訁</td><td>koto/gonben</td><td>Wort</td><td>語話読記説</td></tr><tr><td>食/飠</td><td>shoku</td><td>Essen</td><td>飲 飯 餓 飼 館</td></tr><tr><td>力</td><td>chikara</td><td>Gewalt</td><td>動助勉努功</td></tr><tr><td>女</td><td>onna</td><td>Frau</td><td>好妹姉婚嫁</td></tr><tr><td>子</td><td>ko</td><td>Kind</td><td>学字孫季存</td></tr><tr><td>大</td><td>Komm schon</td><td>Großartig</td><td>天太奥央奈</td></tr><tr><td>小</td><td>shou</td><td>Klein</td><td>少尖省尚劣</td></tr><tr><td>田</td><td>ta</td><td>Reisfeld</td><td>男 町 画 畑 略</td></tr><tr><td>石</td><td>ishi</td><td>Stein</td><td>岩砂研破確</td></tr><tr><td>糸</td><td>ito</td><td>Reihe</td><td>紙組結織縁</td></tr><tr><td>竹</td><td>nehmen</td><td>Bambus</td><td>笑筆箱簡算</td></tr><tr><td>雨</td><td>ame</td><td>Regen</td><td>雪雲電霧雷</td></tr><tr><td>門</td><td>Mo</td><td>Bringt</td><td>開閉関間聞</td></tr><tr><td>車</td><td>Kuruma</td><td>Fahrzeug</td><td>転 軽 輸 輪 載</td></tr><tr><td>足</td><td>ashi</td><td>Fuß</td><td>路 跳 踊 距 跡</td></tr><tr><td>刀/刂</td><td>Katana/Rittou</td><td>Spaten</td><td>切分別判刻</td></tr><tr><td>貝</td><td>kai</td><td>Hülse</td><td>買 貸 費 貯 賞</td></tr></tbody>
+            </table></div>
+<h2>Wie man Radikale verwendet, um sich komplexe Kanji zu merken</h2>
+<p>Die Methode ist einfach: Zerlegen Sie das Kanji in seine Grundbegriffe und erstellen (oder finden) Sie dann eine Geschichte, die sie verbindet. Hier fünf Beispiele im Detail.</p>
+<ul><li>休 (Ruhe) = 亻 Person + 木 Baum → Stellen Sie sich eine müde Person vor, die unter einem Baum sitzt, um sich auszuruhen. Einfach, visuell, unmöglich zu vergessen.</li><li>明 (hell) = 日 Sonne + 月 Mond → Wenn Sonne und Mond beide sichtbar sind, ist das Licht doppelt so groß. Sehr hell.</li><li>好 (angenehm/gut) = 女 Frau + 子 Kind → Eine Frau mit ihrem Kind. Die Mutter-Sohn-Bindung ist das Schönste. Gut.</li><li>語 (Zunge/Sprache) = 言 Wort + 五 fünf + 口 Mund → Fünf Münder, die mit Worten sprechen. Sprache.</li><li>体 (Körper) = 亻 Person + 本 Buch/Herkunft → Der Ursprung einer Person, ihre Grundlage. Der Körper.</li></ul>
+<p>Jedes Kanji im Kanjidon zeigt seine Grundbestandteile und eine Erinnerungsgeschichte zur Erinnerung. Sie müssen nichts erfinden: Öffnen Sie das Kanji, lesen Sie die Geschichte und Ihr Gehirn erledigt den Rest. Mit SRS entscheidet der Algorithmus, wann Sie jedes Kanji erneut lesen müssen, und zwar genau dann, wenn Sie es vergessen.</p>
+<h2>Die 214 Kangxi-Radikalen: Dienen sie alle?</h2>
+<p>Das klassische Kangxi-Radikalsystem hat insgesamt 214. Die gute Nachricht: Sie müssen nicht alle lernen, bevor Sie mit Kanji beginnen. Die 30 in der Tabelle oben decken die überwiegende Mehrheit der Charaktere ab, denen Sie von N5 bis N3 begegnen werden. Lernen Sie andere kennen, während Sie ihnen in fortgeschrittenerem Kanji begegnen. Viele der 214 Radikale sind selten oder kommen in sehr wenigen Kanji vor – sie alle auf einmal zu lernen wäre Zeitverschwendung.</p>
+<h2>Strategie: Wie man Radikale untersucht</h2>
+<ul><li>Lernen Sie zunächst die 30 Grundradikale aus der obigen Tabelle</li><li>Merken Sie sich für jede einzelne die Bedeutung und Form (auch die reduzierte, wie 氵 für Wasser).</li><li>Wenn Sie ein neues Kanji lernen, identifizieren Sie immer die Radikale, aus denen es besteht</li><li>Erstellen oder finden Sie eine Geschichte, die die Radikale mit der Bedeutung des Kanji verbindet</li><li>Studieren Sie Radikale nicht wochenlang isoliert, sondern beginnen Sie gleich mit Kanji und verwenden Sie Radikale als Werkzeug</li><li>Fügen Sie neue Radikale hinzu, wenn Sie ihnen in fortgeschritteneren Kanji begegnen</li></ul>
+<p>Radikale sind keine Voraussetzung: Sie sind ein Werkzeug. Benutzen Sie sie ab dem ersten Kanji und sie werden zu Ihrer Geheimwaffe. Der SRS-Algorithmus von Kanjidon zeigt Ihnen Radikale im Kontext echter Kanji, mit mnemonischen Historien für jedes Zeichen von Stufe N5 bis N1. Starten Sie kostenlos und entdecken Sie, wie viel einfacher es ist, wenn die Kanji keine mysteriösen Zeichnungen mehr sind, sondern logische Kombinationen von Teilen, die Sie bereits kennen.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Das konnte dich interessieren</h3>
+                <div class="related-grid">
+                    
+                    <a href="/de/blog/wie-kanji-lernen/" class="related-card">
+                        <h4>Wie Man Kanji Lernt: Vollstandiger Leitfaden fur Anfanger</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/de/blog/wie-lange-kanji-lernen/" class="related-card">
+                        <h4>Wie lange dauert es, Kanji zu lernen? (Reelle Zahlen)</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                    <a href="/de/blog/hiragana-katakana-kanji-unterschiede/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Was Zuerst Lernen?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Lerne heute Kanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇩🇪</span>
+                        <span class="language-name">Deutsch</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option active">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Radykalne kanji: 2000 znaków zamienia się w 200 | Kanjidon</title>
+    <meta name="description" content="Odkryj radykały kanji: 214 podstawowych elementów, które odblokowują tysiące znaków. Przewodnik po 30 najważniejszych radykałach z praktycznymi przykład...">
+    <meta name="keywords" content="rodniki kanji, rodniki japońskie, składniki kanji, przewodnik po rodnikach, rodniki 214, rodniki kangxi">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/guida-radicali-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/guide-radicaux-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/guia-radicales-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/guia-radicais-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-bushou-zhinan/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/dalil-judhor-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-radical-guide-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/panduan-radikal-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/panduan-radikal-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-radikal-rehberi/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rahnama-radical-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gabay-radical-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+
+    <meta property="og:title" content="Radykalne kanji: 2000 znaków zamienia się w 200">
+    <meta property="og:description" content="Odkryj radykały kanji: 214 podstawowych elementów, które odblokowują tysiące znaków. Przewodnik po 30 najważniejszych radykałach z praktycznymi przykład...">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Radykalne kanji: 2000 znaków zamienia się w 200">
+    <meta name="twitter:description" content="Odkryj radykały kanji: 214 podstawowych elementów, które odblokowują tysiące znaków. Przewodnik po 30 najważniejszych radykałach z praktycznymi przykład...">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Radykalne kanji: 2000 znaków zamienia się w 200",
+        "description": "Odkryj radykały kanji: 214 podstawowych elementów, które odblokowują tysiące znaków. Przewodnik po 30 najważniejszych radykałach z praktycznymi przykład...",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/"
+        },
+        "datePublished": "2025-12-26",
+        "dateModified": "2025-12-26"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/pl/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Radykalne kanji: 2000 znaków zamienia się w 200",
+                        "item": "https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/pl/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/pl/blog/">Blog</a>
+                <a href="/pl/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/pl/">Home</a>
+                <span class="separator">›</span>
+                <a href="/pl/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Radykalne kanji: 2000 znaków zamienia się w 200</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Radykalne kanji: 2000 znaków zamienia się w 200</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">26 gru 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">2136 kanji do nauki. Samo przeczytanie numeru wywołuje niepokój. Ale jest sekret, który wszystko zmienia: wszystkie te 2136 znaków są wykonane z tych samych 214 podstawowych elementów, zwanych radykałami. Nauka radykałów i nauka alfabetu przed słowami: gdy już poznasz fragmenty, złożone znaki kanji staną się logicznymi kombinacjami, a nie tajemniczymi wzorami.</p>
+<h2>Kim są radykałowie?</h2>
+<p>Rodniki (bushu, 部首) są podstawowymi składnikami kanji. Każde kanji składa się z jednego lub większej liczby rodników. Pomyśl o nich jak o literach alfabetu: same w sobie nie znaczą wiele, ale razem tworzą tysiące słów. Klasyczny system ma 214 (rodniki Kangxi), ale w codziennej praktyce około 30-50 obejmuje zdecydowaną większość znaków kanji, z którymi się spotkasz.</p>
+<p>Każdy pierwiastek ma znaczenie i często sugeruje znaczenie lub kategorię znaku kanji, który go zawiera. Rodnik wodny (氵) pojawia się w kanji odnoszącym się do cieczy. Osoba radykalna (亻) pojawia się w kanji w odniesieniu do ludzkich działań. Rozpoznawanie tych wzorców jest prawdziwą supermocą w studiowaniu kanji.</p>
+<h2>Dlaczego radykałowie zmieniają wszystko</h2>
+<p>Bez rodników każde kanji jest unikalnym wzorem do zapamiętania. W przypadku rodników każde kanji jest kombinacją elementów, które już znasz. Oto trzy konkretne przykłady.</p>
+<h3>Przykład 1: Rodnik Wodny (水/氵)</h3>
+<p>Rodnik 水 (woda) pojawia się w formie zredukowanej jako 氵 (trzy krople po lewej stronie). Kiedy już to rozpoznasz, wszystkie znaki kanji staną się intuicyjne:</p>
+<ul><li>海 (morze) = 氵 woda + 毎 każdy → woda wszędzie = morze</li><li>泳 (pływać) = 氵 woda + 永 wieczny → poruszać się w wodzie na zawsze = pływać</li><li>河 (rzeka) = 氵 woda + 可 możliwe → woda płynąca = rzeka</li><li>湖 (jezioro) = 氵 woda + 胡 starożytny → starożytny, spokojna woda = jezioro</li><li>波 (fala) = 氵 woda + 皮 skóra → wodna skóra = fala</li><li>洗 (myć) = 氵 woda + 先 najpierw → wlej wodę jako pierwszą = umyj</li></ul>
+<p>Sześć kanji, jeden radykalny. Zamiast zapamiętywać sześć bezsensownych rysunków, widzisz logikę. A to dopiero początek.</p>
+<h3>Przykład 2: Korzeń drzewa (木)</h3>
+<p>Rodnik 木 (drzewo) pojawia się w wielu kanji związanych z naturą, drewnem i roślinami:</p>
+<ul><li>森 (las) = ​​木 + 木 + 木 → trzy drzewa = las</li><li>林 (las) = ​​木 + 木 → dwa drzewa = las</li><li>桜 (wiśniowe drzewo) = 木 + 女 + 女 → drzewo kobiece (kwiaty wiśni kojarzono z pięknem)</li><li>机 (biurko) = 木 + 几 → drewno + podpórka = biurko</li><li>板 (deska / deska) = 木 + 反 → płaskie drewno = deska</li></ul>
+<h3>Przykład 3: Radykał osoby (人/亻)</h3>
+<p>Rodnik 人 (osoba) w pozycji bocznej staje się 亻. Występuje w wielu kanji związanych z ludzkimi działaniami i warunkami:</p>
+<ul><li>休 (odpoczynek) = 亻 osoba + 木 drzewo → osoba odpoczywająca pod drzewem</li><li>体 (ciało) = 亻 osoba + 本 pochodzenie → pochodzenie osoby = ciało</li><li>住 (mieszkać) = 亻 osoba + 主 właściciel → osoba będąca właścicielem miejsca = mieszkać</li><li>作 (zrobić / stworzyć) = 亻 osoba + 乍 nagle → osoba, która tworzy = robić</li><li>何 (co/co) = 亻 osoba + 可 możliwa → osoba, która pyta o co i możliwe = co?</li></ul>
+<p>Kanjidon uczy radykałów we właściwej kolejności, z wizualnymi mnemonikami w języku angielskim dla każdego. Nie musisz sam wymyślać historii: możesz znaleźć je gotowe dla każdego kanji.</p>
+<h2>30 najważniejszych radykałów</h2>
+<p>Nie potrzebujesz wszystkich 214, aby zacząć. Te 30 rodników obejmuje około 80% znaków kanji, które napotkasz na poziomach N5-N3.</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Rodnik</th><th>Nazwa</th><th>Oznaczający</th><th>Wspólne Kanji</th></tr></thead>
+                <tbody><tr><td>人/亻</td><td>hito/ninben</td><td>Osoba</td><td>体住作何</td></tr><tr><td>口</td><td>kuchi</td><td>Usta</td><td>知味吸呼品</td></tr><tr><td>日</td><td>cześć/nichi</td><td>Niedziela</td><td>明時早昼暗</td></tr><tr><td>月</td><td>Tsuki</td><td>Księżyc/miesiąc</td><td>朝期明服脳</td></tr><tr><td>水/氵</td><td>mizu/sanzui</td><td>Wodospad</td><td>海泳河湖洗</td></tr><tr><td>火/灬</td><td>cześć/renga</td><td>Ogień</td><td>炎焼煮燃点</td></tr><tr><td>木</td><td>ki</td><td>Drzewo</td><td>森林桜机板</td></tr><tr><td>金</td><td>Kane</td><td>Metal/złoto</td><td>銀 鉄 針 鏡 鋼</td></tr><tr><td>土</td><td>tsuchi</td><td>Ziemia</td><td>地場塩城堂</td></tr><tr><td>山</td><td>Yama</td><td>Góra</td><td>岩峠崎島岸</td></tr><tr><td>手/扌</td><td>te/nastolatek</td><td>Ręka</td><td>持打押投指</td></tr><tr><td>心/忄</td><td>kokoro/risshinben</td><td>Serce/umysł</td><td>思感悲怒情</td></tr><tr><td>目</td><td>Ja</td><td>Oko</td><td>見眠眼瞬看</td></tr><tr><td>言/訁</td><td>koto/gonben</td><td>Słowo</td><td>語話読記説</td></tr><tr><td>食/飠</td><td>Shoku</td><td>Żywność</td><td>飲 飯 餓 飼 館</td></tr><tr><td>力</td><td>chikara</td><td>Siła</td><td>動助勉努功</td></tr><tr><td>女</td><td>ona</td><td>Kobieta</td><td>好妹姉婚嫁</td></tr><tr><td>子</td><td>ko</td><td>Dziecko</td><td>学字孫季存</td></tr><tr><td>大</td><td>Pospiesz się</td><td>Świetnie</td><td>天太奥央奈</td></tr><tr><td>小</td><td>ty</td><td>Mały</td><td>少尖省尚劣</td></tr><tr><td>田</td><td>ta</td><td>Pole ryżowe</td><td>男 町 画 畑 略</td></tr><tr><td>石</td><td>Ishi</td><td>Kamień</td><td>岩砂研破確</td></tr><tr><td>糸</td><td>to</td><td>Wiersz</td><td>紙組結織縁</td></tr><tr><td>竹</td><td>Brać</td><td>Bambus</td><td>笑筆箱簡算</td></tr><tr><td>雨</td><td>ja</td><td>Deszcz</td><td>雪雲電霧雷</td></tr><tr><td>門</td><td>pon</td><td>Przynosi</td><td>開閉関間聞</td></tr><tr><td>車</td><td>kuruma</td><td>Pojazd</td><td>転 軽 輸 輪 載</td></tr><tr><td>足</td><td>Ashi</td><td>Stopa</td><td>路 跳 踊 距 跡</td></tr><tr><td>刀/刂</td><td>katana/rittou</td><td>Łopata</td><td>切分別判刻</td></tr><tr><td>貝</td><td>kai</td><td>Powłoka</td><td>買 貸 費 貯 賞</td></tr></tbody>
+            </table></div>
+<h2>Jak używać rodników do zapamiętania złożonego Kanji</h2>
+<p>Metoda jest prosta: rozbij kanji na pierwiastki, a następnie utwórz (lub znajdź) historię, która je łączy. Oto szczegółowo pięć przykładów.</p>
+<ul><li>休 (odpoczynek) = 亻 osoba + 木 drzewo → Wyobraź sobie zmęczoną osobę siedzącą pod drzewem, aby odpocząć. Prosty, wizualny, nie do zapomnienia.</li><li>明 (jasny) = 日 słońce + 月 księżyc → Kiedy zarówno słońce, jak i księżyc są widoczne, światło jest podwójne. Bardzo jasny.</li><li>好 (przyjemny/dobry) = 女 kobieta + 子 dziecko → Kobieta z dzieckiem. Więź matka-syn jest najpiękniejszą rzeczą. Dobry.</li><li>語 (język/język) = 言 słowo + 五 pięć + 口 usta → Pięć ust, które mówią słowami. Język.</li><li>体 (ciało) = 亻 osoba + 本 księga/pochodzenie → Pochodzenie osoby, jej podstawa. Ciało.</li></ul>
+<p>Każde kanji w Kanjidon pokazuje swoje radykalne elementy i historię mnemoniczną, aby je zapamiętać. Nie musisz niczego wymyślać: otwórz kanji, przeczytaj historię, a twój mózg zrobi resztę. Dzięki SRS algorytm decyduje, kiedy zmusić Cię do przejrzenia każdego znaku kanji, właśnie wtedy, gdy masz już o nim zapomnieć.</p>
+<h2>214 radykałów z Kangxi: czy wszyscy służą?</h2>
+<p>Klasyczny system radykalny Kangxi ma łącznie 214. Dobra wiadomość: nie musisz uczyć się ich wszystkich, zanim zaczniesz posługiwać się kanji. Liczba 30 w powyższej tabeli obejmuje zdecydowaną większość postaci, które spotkasz od N5 do N3. Ucz się innych, gdy ich spotykasz, w bardziej zaawansowanym kanji. Wiele z 214 rodników jest rzadkich lub występuje w bardzo niewielu znakach kanji — nauczenie się ich wszystkich na raz byłoby stratą czasu.</p>
+<h2>Strategia: Jak badać radykały</h2>
+<ul><li>Najpierw poznaj 30 podstawowych rodników z powyższej tabeli</li><li>Dla każdego z nich zapamiętaj znaczenie i formę (nawet zredukowaną, jak 氵 dla wody)</li><li>Studiując nowe kanji, zawsze identyfikuj radykały, które je tworzą</li><li>Stwórz lub znajdź historię, która łączy radykałów ze znaczeniem kanji</li><li>Nie studiuj radykałów w izolacji tygodniami: zacznij od kanji od razu, używając rodników jako narzędzia</li><li>Dodawaj nowe rodniki, gdy je napotkasz w bardziej zaawansowanym kanji</li></ul>
+<p>Radykałowie nie są warunkiem wstępnym: są narzędziem. Używaj ich od pierwszego kanji, a staną się twoją tajną bronią. Algorytm SRS Kanjidon pokazuje radykały w kontekście prawdziwego kanji, z historiami mnemonicznymi dla każdej postaci od poziomu N5 do N1. Zacznij za darmo i odkryj, o ile łatwiej jest, gdy kanji nie są już tajemniczymi rysunkami, ale logicznymi kombinacjami elementów, które już znasz.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Moze ci sie tez spodobac</h3>
+                <div class="related-grid">
+                    
+                    <a href="/pl/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/pl/blog/ile-czasu-nauka-kanji/" class="related-card">
+                        <h4>Ile czasu zajmuje nauka Kanji? (Liczby rzeczywiste)</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                    <a href="/pl/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Zacznij uczyc sie kanji dzis</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇵🇱</span>
+                        <span class="language-name">Polski</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option active">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

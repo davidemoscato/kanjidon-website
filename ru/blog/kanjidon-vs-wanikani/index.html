@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Kanjidon против WaniKani 2026: какое приложение кандзи по... | Kanjidon</title>
+    <meta name="description" content="Kanjidon vs WaniKani — подробное сравнение функций, методов обучения и пользовательского опыта. Узнайте, какое приложение для изучения иероглифов соотве...">
+    <meta name="keywords" content="кандзидон против ваникани, альтернатива ваникани, сравнение ваникани, лучшее приложение кандзи 2026 года, сравнение приложений для изучения кандзи, ваникани против кандзидона, приложение кандзи SRS, приложение для карточек кандзи">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ru/blog/kanjidon-vs-wanikani/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/kanjidon-vs-wanikani/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanjidon-vs-wanikani/">
+
+    <meta property="og:title" content="Kanjidon против WaniKani 2026: какое приложение кандзи по...">
+    <meta property="og:description" content="Kanjidon vs WaniKani — подробное сравнение функций, методов обучения и пользовательского опыта. Узнайте, какое приложение для изучения иероглифов соотве...">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ru/blog/kanjidon-vs-wanikani/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanjidon против WaniKani 2026: какое приложение кандзи по...">
+    <meta name="twitter:description" content="Kanjidon vs WaniKani — подробное сравнение функций, методов обучения и пользовательского опыта. Узнайте, какое приложение для изучения иероглифов соотве...">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kanjidon против WaniKani 2026: какое приложение кандзи по...",
+        "description": "Kanjidon vs WaniKani — подробное сравнение функций, методов обучения и пользовательского опыта. Узнайте, какое приложение для изучения иероглифов соотве...",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ru/blog/kanjidon-vs-wanikani/"
+        },
+        "datePublished": "2026-02-03",
+        "dateModified": "2026-02-03"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ru/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Kanjidon против WaniKani 2026: какое приложение кандзи по...",
+                        "item": "https://kanjidon.com/ru/blog/kanjidon-vs-wanikani/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ru/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ru/blog/">Blog</a>
+                <a href="/ru/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ru/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ru/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Kanjidon против WaniKani 2026: какое приложение кандзи по...</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Kanjidon против WaniKani 2026: какое приложение кандзи по...</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">3 февр. 2026 г.</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Выбор правильного приложения для изучения кандзи может улучшить или разрушить ваше путешествие по японскому языку. ВаниКани уже много лет пользуется популярностью, но новые альтернативы, такие как Канджидон, меняют правила игры. В этом всестороннем сравнении мы проанализируем оба приложения по всем важным параметрам: методу обучения, функциям и реальной эффективности.</p>
+<h2>Быстрое сравнение: краткий обзор Канджидона и ВаниКани</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Особенность</th><th>Канджидон</th><th>ВаниКани</th></tr></thead>
+                <tbody><tr><td>Цена</td><td>Бесплатно/Премиум</td><td>9 долларов в месяц или 299 долларов на всю жизнь</td></tr><tr><td>Кандзи покрытый</td><td>5000+ (от Каны до N1)</td><td>2000+ (от N5 до N1)</td></tr><tr><td>Алгоритм SRS</td><td>SM-2 (proven)</td><td>Пользовательские СРС</td></tr><tr><td>Типы викторин</td><td>9 различных режимов</td><td>Только ввод текста</td></tr><tr><td>Мобильное приложение</td><td>iOS + Android родной</td><td>Web-based (no app)</td></tr><tr><td>Автономный режим</td><td>Да</td><td>Нет</td></tr><tr><td>Геймификация</td><td>Полный (бои, ранги, карты)</td><td>Ограничено (только уровни)</td></tr><tr><td>Бесплатная пробная версия</td><td>Неограниченный бесплатный уровень</td><td>Только первые 3 уровня</td></tr><tr><td>Языки</td><td>21 язык интерфейса</td><td>только английский</td></tr></tbody>
+            </table></div>
+<h2>Метод обучения: две разные философии</h2>
+<h3>Подход Ваникани: радикалы и мнемоника</h3>
+<p>ВаниКани разбивает кандзи на радикалы (основные компоненты) и создает для каждого из них английскую мнемонику. Сначала вы изучаете радикалы, затем кандзи, в которых используются эти радикалы, а затем словарный запас. Система жесткая, но структурированная: вам необходимо пройти каждый уровень, прежде чем двигаться дальше.</p>
+<p>Мнемоника креативна, но очень специфична. Вы запомните истории о таких персонажах, как «Миссис. Чоу» и «Коичи». Некоторым учащимся они подходят идеально. Для других запоминание мнемоники кажется дополнительной работой помимо запоминания кандзи.</p>
+<h3>Подход Канджидона: визуальные карты и разнообразие</h3>
+<p>Канджидон рассматривает кандзи как коллекционные карточки. Каждый символ представляет собой красиво оформленную карточку с указанием кандзи, значений, прочтений и примеров предложений. Вы создаете свою коллекцию, открывая пакеты и просматривая то, что вы собрали.</p>
+<p>Вместо одного типа викторины Канджидон предлагает восемь: означают распознавание, практику чтения, аудирования, практику письма и многое другое. Это разнообразие предотвращает «проблему автопилота», когда вы распознаете карты, не изучая их по-настоящему. Алгоритм SM-2 (та же проверенная система, которую используют миллионы) рассчитывает оптимальные интервалы просмотра.</p>
+<h2>Цены: Слон в комнате</h2>
+<p>Давайте будем честными: ВаниКани стоит дорого. При цене 9 долларов в месяц или 299 долларов за пожизненный доступ это значительная инвестиция. Уровень бесплатного пользования охватывает только первые 3 уровня (около 100 кандзи), чего недостаточно, чтобы оценить, работает ли система для вас.</p>
+<p>Kanjidon предлагает щедрый уровень бесплатного пользования с полным доступом к основным функциям. Вы можете открывать 3 пакета в день и использовать основной режим викторины неограниченное количество раз. Премиум-подписка открывает все типы тестов, удаляет рекламу и добавляет дополнительные функции, такие как аудиопроизношение.</p>
+<h2>Мобильный опыт: нативное приложение против Интернета</h2>
+<p>У WaniKani нет официального мобильного приложения. Вы используете его через веб-браузер, который работает, но не оптимизирован для мобильного обучения. Сторонние приложения существуют, но стоят дополнительно и могут выйти из строя при обновлении WaniKani.</p>
+<p>Kanjidon был создан в первую очередь для мобильных устройств с использованием собственных приложений для iOS и Android. Этот процесс плавный, быстрый и предназначен для быстрых учебных занятий. Офлайн-режим позволяет просматривать видео где угодно — в метро, ​​в самолете, в сельской местности при отсутствии сигнала.</p>
+<h2>Геймификация: почему это важно</h2>
+<p>Изучение более 2000 кандзи занимает месяцы или годы. Мотивация – это все. Геймификация WaniKani минимальна: у вас есть уровни, и на этом все. Отзывы накапливаются, и многие пользователи выгорают примерно на 20-30 уровне.</p>
+<p>Kanjidon делает ставку на геймификацию: PvP-сражения против других учеников, рейтинги от E до S, ежедневные миссии, серии с наградами, коллекционные аватары и марки. Это звучит как игра, потому что она одна, но она учит вас настоящему японскому языку.</p>
+<h2>Покрытие JLPT</h2>
+<p>Оба приложения охватывают JLPT с N5 по N1. WaniKani фокусируется на 2136 кандзи дзёё плюс словарном запасе. Канджидон включает более 5000 кандзи, а также охватывает кану (хирагану и катакану) для начинающих.</p>
+<p>Kanjidon позволяет сразу фильтровать по уровню JLPT. Хотите сосредоточиться только на кандзи N3 на предстоящем экзамене? Ты можешь. Система уровней WaniKani не совсем соответствует уровням JLPT, что может расстраивать, если вы готовитесь к конкретному экзамену.</p>
+<h2>Темп и гибкость</h2>
+<p>ВаниКани жестко контролирует ваш темп. Даже если вы уже знаете 500 кандзи из учебников Genki, вы начинаете с уровня 1. Пропустить вперед нельзя. Вы не можете замедляться, не накапливая отзывов. Система работает, но требует адаптации к ней.</p>
+<p>Канджидон более гибок. Изучайте, что хотите и когда хотите. Сосредоточьтесь на слабых местах. Пропустите то, что вы уже знаете. SRS по-прежнему творит чудеса, но у вас больше контроля над своим процессом обучения.</p>
+<h2>Кому следует выбрать Ваникани?</h2>
+<ul><li>Учащиеся, которые любят структурированные, управляемые системы</li><li>Тем, кому полезна английская мнемоника</li><li>Люди, которые предпочитают онлайн-обучение</li><li>Пользователи, готовые платить более высокую цену за проверенную систему</li><li>Учащиеся, которые не против начать с нуля, независимо от предварительных знаний</li></ul>
+<h2>Кому стоит выбрать Канджидон?</h2>
+<ul><li>Учащиеся, которым нужен мобильный опыт</li><li>Обучающиеся-визуалы, предпочитающие изображения мнемонике.</li><li>Экономные студенты</li><li>Геймеры, которые реагируют на конкуренцию и награды</li><li>Люди, которые хотят разнообразия в своих методах обучения</li><li>Не говорящие по-английски (21 язык интерфейса)</li><li>Учащиеся, которые ценят гибкость и контроль</li></ul>
+<h2>Вердикт: все зависит от вас</h2>
+<p>WaniKani — хороший выбор, если у вас есть бюджет, вы предпочитаете веб-обучение и предпочитаете структурированные мнемонические системы. Это помогло тысячам учащихся научиться свободно владеть кандзи.</p>
+<p>Kanjidon — лучший выбор, если вам нужен современный мобильный интерфейс, вы цените геймификацию, вам нужны недорогие варианты или вы предпочитаете визуальные и разнообразные методы обучения. Уровень бесплатного пользования позволяет вам опробовать всю систему, прежде чем принять решение.</p>
+<p>Лучшее приложение — это то, которое вы будете использовать постоянно. Оба могут помочь вам освоить кандзи — вопрос в том, какой из них соответствует вашему стилю обучения, бюджету и образу жизни. Попробуйте бесплатный уровень Kanjidon сегодня и посмотрите, понравится ли он. Ваше путешествие кандзи ждет.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Vam takzhe mozhet ponravitsya</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ru/blog/kanjidon-vs-anki/" class="related-card">
+                        <h4>Канджидон против Анки 2026: что лучше для изучения кандзи?</h4>
+                        <span class="read-time">11 min</span>
+                    </a>
+                    <a href="/ru/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/ru/blog/spaced-repetition-kanji/" class="related-card">
+                        <h4>Spaced Repetition: Scientific Method for Kanji</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Nachni izuchat kanzi segodnya</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇷🇺</span>
+                        <span class="language-name">Русский</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option active">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>漢字部首：2000 個字元變成 200 個 | Kanjidon</title>
+    <meta name="description" content="探索漢字部首：可解鎖數千個字元的 214 個基本組件。 30 個最重要的部首指南並附有實例。">
+    <meta name="keywords" content="漢字部首、日文部首、漢字成分、部首指南、214部首、康熙部首">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/guida-radicali-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/guide-radicaux-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/guia-radicales-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/guia-radicais-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-bushou-zhinan/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/dalil-judhor-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-radical-guide-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/panduan-radikal-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/panduan-radikal-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-radikal-rehberi/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rahnama-radical-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gabay-radical-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+
+    <meta property="og:title" content="漢字部首：2000 個字元變成 200 個">
+    <meta property="og:description" content="探索漢字部首：可解鎖數千個字元的 214 個基本組件。 30 個最重要的部首指南並附有實例。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="漢字部首：2000 個字元變成 200 個">
+    <meta name="twitter:description" content="探索漢字部首：可解鎖數千個字元的 214 個基本組件。 30 個最重要的部首指南並附有實例。">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "漢字部首：2000 個字元變成 200 個",
+        "description": "探索漢字部首：可解鎖數千個字元的 214 個基本組件。 30 個最重要的部首指南並附有實例。",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/"
+        },
+        "datePublished": "2025-12-26",
+        "dateModified": "2025-12-26"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/zh-tw/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "漢字部首：2000 個字元變成 200 個",
+                        "item": "https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh-tw/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh-tw/blog/">Blog</a>
+                <a href="/zh-tw/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/zh-tw/">Home</a>
+                <span class="separator">›</span>
+                <a href="/zh-tw/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">漢字部首：2000 個字元變成 200 個</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>漢字部首：2000 個字元變成 200 個</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2025年12月26日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">2,136 個漢字可供學習。光是看到這個數字就會讓你感到焦慮。但有一個秘密改變了一切：這 2,136 個字元都是由相同的 214 個基本部分組成，稱為部首。學習部首以及如何先學習字母再學習單字：一旦你了解了各個部分，複雜的漢字就會變成邏輯組合，而不是神秘的設計。</p>
+<h2>什麼是激進派？</h2>
+<p>部首（部首）是漢字的基本組成部分。每個漢字由一個或多個部首組成。將它們想像成字母表中的字母：它們本身並沒有多大意義，但組合起來就構成了數千個單字。古典系統有 214 個（康熙部首），但在日常練習中，大約 30-50 個涵蓋了您將遇到的絕大多數漢字。</p>
+<p>每個部首都有一個含義，並且通常暗示包含它的漢字的含義或類別。水根（氵）出現在與液體有關的漢字中。人部首（亻）出現在與人類行為有關的漢字。認識這些模式是學習漢字的真正超能力。</p>
+<h2>為什麼激進分子改變一切</h2>
+<p>沒有部首，每個漢字都是獨特的設計來記憶。對於部首，每個漢字都是您已知的部分的組合。以下是三個具體例子。</p>
+<h3>例1：水根（水/氵）</h3>
+<p>部首「水」以簡化形式出現為「氵」（左邊三滴）。一旦你認識到它，所有這些漢字就會變得直觀：</p>
+<ul><li>海（海）=氵水+毎每→到處都是水=海</li><li>泳（游泳）=氬水+永永恆→永遠在水中移動=游泳</li><li>河（河）=氵水+可能→流水=河</li><li>湖（湖）=氬水+胡古→古、靜水=湖</li><li>波（波）=氬水+皮皮→水皮=波</li><li>洗（wash）=氬水+先→先放水=洗</li></ul>
+<p>六個漢字，一個部首。你不再需要記住六張毫無意義的圖畫，而是看到邏輯。而這只是開始。</p>
+<h3>例 2：樹的根（木）</h3>
+<p>部首「木」出現在許多與自然、木材和植物相關的漢字中：</p>
+<ul><li>森（森林）=木+木+木→三棵樹=森林</li><li>林（森林）=木+木→兩棵樹=森林</li><li>桜（櫻花）=木+女+女→女人樹（櫻花與美有關）</li><li>機（桌子）=木+幾→木+支撐=桌子</li><li>板 (asse/tavola) = 木 + 反 → legno piatto = asse</li></ul>
+<h3>例3：人部首（人/亻）</h3>
+<p>部首「人」橫向位置變成亻。它出現在許多與人類行為和條件相關的漢字中：</p>
+<ul><li>休（休息）=亻人+木樹→在樹下休息的人</li><li>體（身體）=亻人+本源→人的本源=身體</li><li>住（居住）=亻人+主主人→擁有該地方的人=居住</li><li>作（做/創造）=亻人+乍乍→創造者=做</li><li>何（什麼/什麼）=亻人+可能→問什麼的人與可能=什麼？</li></ul>
+<p>Kanjidon 以正確的順序教您部首，並為每個部首提供英語視覺助記符。您不必自己編故事：您可以找到適合每個漢字的故事。</p>
+<h2>30 個最重要的激進分子</h2>
+<p>您不需要全部 214 即可開始。這 30 個部首涵蓋了您在 N5-N3 級別中遇到的漢字的大約 80%。</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>激進的</th><th>姓名</th><th>意義</th><th>普通漢字</th></tr></thead>
+                <tbody><tr><td>人/亻</td><td>仁本</td><td>人</td><td>休體居住作何</td></tr><tr><td>口</td><td>庫奇</td><td>嘴</td><td>知味吸呼品</td></tr><tr><td>日</td><td>嗨/日</td><td>星期日</td><td>明時早晝暗</td></tr><tr><td>月</td><td>月</td><td>月亮/月</td><td>朝期明服脳</td></tr><tr><td>水/氵</td><td>三水</td><td>瀑布</td><td>海泳河湖洗</td></tr><tr><td>火/灬</td><td>你好/倫加</td><td>火</td><td>炎焼煮燃點</td></tr><tr><td>木</td><td>氣</td><td>樹</td><td>森林桜機板</td></tr><tr><td>金</td><td>凱恩</td><td>金屬/金</td><td>銀鉄針鏡鋼</td></tr><tr><td>土</td><td>土</td><td>地球</td><td>地場塩城堂</td></tr><tr><td>山</td><td>閻王</td><td>山</td><td>岩峠崎島岸</td></tr><tr><td>手/扌</td><td>特/特恩</td><td>手</td><td>持打押投指</td></tr><tr><td>心/忄</td><td>心/立新本</td><td>心/頭腦</td><td>思感悲憤</td></tr><tr><td>目</td><td>我</td><td>眼睛</td><td>見睡眠眼瞬視</td></tr><tr><td>言/訁</td><td>江東/權本</td><td>單字</td><td>語話竄記說</td></tr><tr><td>食/飠</td><td>食</td><td>食物</td><td>飲飯 飢餓 飼館</td></tr><tr><td>力</td><td>力</td><td>力量</td><td>動助勉努功</td></tr><tr><td>女</td><td>恩納</td><td>女士</td><td>好妹姊妹結婚</td></tr><tr><td>子</td><td>科</td><td>孩子</td><td>學字孫季存</td></tr><tr><td>大</td><td>快點</td><td>偉大的</td><td>天太奧央奈</td></tr><tr><td>小</td><td>受</td><td>小的</td><td>少尖省尚優秀</td></tr><tr><td>田</td><td>塔</td><td>稻田</td><td>男町畫畑略</td></tr><tr><td>石</td><td>石</td><td>石頭</td><td>岩砂研破</td></tr><tr><td>糸</td><td>伊藤</td><td>排</td><td>紙組結織縁</td></tr><tr><td>竹</td><td>拿</td><td>竹子</td><td>笑筆箱簡算</td></tr><tr><td>雨</td><td>梅</td><td>雨</td><td>雪雲電霧雷</td></tr><tr><td>門</td><td>週一</td><td>帶來</td><td>開閉關間聞</td></tr><tr><td>車</td><td>車馬</td><td>車輛</td><td>転 軽 輸輪 載</td></tr><tr><td>足</td><td>阿什</td><td>腳</td><td>·跳踴距跡</td></tr><tr><td>刀/刂</td><td>武士刀/律東</td><td>鏟</td><td>切分別判刻</td></tr><tr><td>貝</td><td>凱</td><td>殼</td><td>買貸費貯賞</td></tr></tbody>
+            </table></div>
+<h2>如何使用部首來記住複雜的漢字</h2>
+<p>方法很簡單：將漢字分解為部首，然後創建（或找到）一個將它們連接起來的故事。這裡有五個詳細的例子。</p>
+<ul><li>休（休息）=亻人+木樹→想像一個疲憊的人坐在樹下休息。簡單、直覺、難以忘懷。</li><li>明（明亮）=日太陽+月月亮→當太陽和月亮都可見時，光是重的。非常明亮。</li><li>好（愉快/好）=女女人+子孩子→女人和她的孩子。母子之間的感情是最美好的。好的。</li><li>語 (lingua/linguaggio) = 言 parola + 五 cinque + 口 bocca → Cinque bocche che parlano con parole. Linguaggio.</li><li>體（身體）=亻人+本書/本源→人的本源，他的依據。身體。</li></ul>
+<p>Kanjidon 中的每個漢字都顯示了其部首成分和一個記憶故事來記住它。你不需要發明任何東西：打開漢字，閱讀故事，你的大腦就會完成剩下的事情。借助 SRS，演算法會在您即將忘記每個漢字時決定何時讓您複習每個漢字。</p>
+<h2>214名康熙激進份子：他們都服役嗎？</h2>
+<p>經典的康熙部首系統共有214個。好消息：在開始學習漢字之前，您不必學習所有這些內容。上表中的30個字元涵蓋了從N5到N3您會遇到的絕大多數字元。當你遇到其他人時，用更高級的漢字來學習他們。 214 個部首中有許多是罕見的，或者只出現在很少的漢字中——一次性學習所有這些部首會浪費時間。</p>
+<h2>策略：如何研究激進分子</h2>
+<ul><li>先學習上表中的30個基本部首</li><li>對於每一個，記住其含義和形式（即使是簡化的，例如水的氵）</li><li>當學習一個新的漢字時，一定要找出組成它的部首</li><li>創造或找到一個故事，將部首與漢字的意思連結起來</li><li>不要孤立地學習部首數週：立即從漢字開始，使用部首作為工具</li><li>當您在更高級的漢字中遇到新的部首時，添加新的部首</li></ul>
+<p>激進分子不是先決條件：它們是一種工具。從第一個漢字開始使用它們，它們將成為你的秘密武器。 Kanjidon 的 SRS 演算法向您顯示真實漢字上下文中的部首，以及從 N5 到 N1 層級的每個字元的助記歷史。免費開始，發現當漢字不再是神秘的圖畫，而是您已經知道的片段的邏輯組合時，事情變得多麼容易。</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ni keneng ye xihuan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/zh-tw/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/zh-tw/blog/xuexi-kanji-shijian-tw/" class="related-card">
+                        <h4>學習漢字需要多長時間？ （實數）</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                    <a href="/zh-tw/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Jintian kaishi xuexi hanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇼</span>
+                        <span class="language-name">繁體中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option active">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

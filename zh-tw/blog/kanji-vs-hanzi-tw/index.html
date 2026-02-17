@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>漢字與漢字：中國人讀日文嗎？ | Kanjidon</title>
+    <meta name="description" content="日本漢字和中國漢字：相同的字符，不同的語言。差異、虛假的朋友和相互理解的真相。">
+    <meta name="keywords" content="漢字與漢字，中文漢字，漢字漢字區別，中文日文漢字，日文與漢字，漢字與漢字">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh-tw/blog/kanji-vs-hanzi-tw/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-vs-chinese/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/kanji-vs-cinese/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/kanji-vs-chinois/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/kanji-vs-chino/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-vs-chinesisch/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/kanji-vs-chines/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/kanji-vs-kitayskiy/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-vs-hanja/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-vs-hanzi/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-vs-hanzi-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kanji-vs-hanzi-ar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-vs-chinese-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/kanji-vs-hanzi-th/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/kanji-vs-han-tu/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kanji-vs-hanzi-id/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kanji-vs-hanzi-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-vs-hanzi-tr/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/kanji-vs-chinskie/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/kanji-vs-hanzi-fa/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/kanji-vs-hanzi-fil/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-vs-chinese/">
+
+    <meta property="og:title" content="漢字與漢字：中國人讀日文嗎？">
+    <meta property="og:description" content="日本漢字和中國漢字：相同的字符，不同的語言。差異、虛假的朋友和相互理解的真相。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh-tw/blog/kanji-vs-hanzi-tw/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="漢字與漢字：中國人讀日文嗎？">
+    <meta name="twitter:description" content="日本漢字和中國漢字：相同的字符，不同的語言。差異、虛假的朋友和相互理解的真相。">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "漢字與漢字：中國人讀日文嗎？",
+        "description": "日本漢字和中國漢字：相同的字符，不同的語言。差異、虛假的朋友和相互理解的真相。",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/zh-tw/blog/kanji-vs-hanzi-tw/"
+        },
+        "datePublished": "2026-01-06",
+        "dateModified": "2026-01-06"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/zh-tw/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "漢字與漢字：中國人讀日文嗎？",
+                        "item": "https://kanjidon.com/zh-tw/blog/kanji-vs-hanzi-tw/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh-tw/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh-tw/blog/">Blog</a>
+                <a href="/zh-tw/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/zh-tw/">Home</a>
+                <span class="separator">›</span>
+                <a href="/zh-tw/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">漢字與漢字：中國人讀日文嗎？</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>漢字與漢字：中國人讀日文嗎？</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2026年1月6日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">11 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">漢字和漢字。日文和中文。相同的角色，兩種完全不同的語言。但它們到底有多相似呢？中國人拿起一份日本報紙就能看懂嗎？日本人看得懂中文菜單嗎？答案比簡單的是或否要複雜（也有趣）得多。</p>
+<h2>故事：漢字如何來到日本</h2>
+<p>漢字（漢字）在 5 世紀至 6 世紀左右透過朝鮮以及與中國的直接貿易往來傳入日本。日本人採用它們來編寫自己的語言，但有一個問題：日語在結構上與中文有很大不同。因此，他們同時做了一些巧妙而瘋狂的事情：他們採用漢字並對其進行改編，為他們中的許多人提供了兩種閱讀方式——原始的中文閱讀（on&#039;yomi）和本土的日語閱讀（kun&#039;yomi）。這就是漢字著名的複雜性的由來。</p>
+<h2>5 個根本差異</h2>
+<h3>一、字形</h3>
+<p>20世紀，日本和中國都簡化了一些文字，但方式不同且各自獨立。結果：今天有許多角色的三個版本。</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>意義</th><th>傳統（台灣/香港）</th><th>日本人</th><th>簡體（中文）</th></tr></thead>
+                <tbody><tr><td>村莊</td><td>國</td><td>國</td><td>國</td></tr><tr><td>學習</td><td>學</td><td>學</td><td>學</td></tr><tr><td>精神</td><td>氣</td><td>気</td><td>氣</td></tr><tr><td>地圖</td><td>圖</td><td>図</td><td>圖</td></tr><tr><td>藝術</td><td>藝</td><td>芸</td><td>藝</td></tr><tr><td>身體</td><td>體</td><td>體</td><td>體</td></tr><tr><td>風</td><td>風</td><td>風</td><td>風</td></tr><tr><td>龍</td><td>龍</td><td>竜</td><td>龍</td></tr></tbody>
+            </table></div>
+<p>如您所看到的，有時日文和簡體中文一致（國、學），有時則不一致（気 vs 氣，図 vs 圖）。日文的簡化字比中國少，因此處於繁體字和簡體字之間的中間位置。</p>
+<h3>2. 閱讀：最大的差距</h3>
+<p>這就是使一切變得複雜的差異。在中文中，每個字元通常都有一個發音（拼音）。在日文中，根據上下文，同一個字元可以有 2、3 甚至 10 多個不同的讀法。</p>
+<p>極端的例子：漢字“生”（生命/出生）在日語中至少有 10 個讀法：セイ、ショウ、い(きる)、う(まれる)、は(える)、なま、き、お(う) 等。有中文嗎？盛止。學習日語的中國人很快就能學會其意義，但閱讀起來卻是一場全新的惡夢。</p>
+<h3>3. 不同的意義（危險的假朋友）</h3>
+<p>許多字符在兩種語言中具有相同的含義。但有些意義完全不同，可能會造成尷尬的局面。</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>單字</th><th>日語</th><th>中文</th><th>尷尬程度</th></tr></thead>
+                <tbody><tr><td>手紙 (tegami)</td><td>信件（信）</td><td>衛生紙</td><td>高的</td></tr><tr><td>勉強 (benkyo)</td><td>學習</td><td>強制/強制</td><td>中等的</td></tr><tr><td>大丈夫 (daijoubu)</td><td>好的/沒問題</td><td>勇敢的人</td><td>低音</td></tr><tr><td>娘（娘）</td><td>女兒</td><td>媽媽/媽媽</td><td>高的</td></tr><tr><td>汽車 (kisha)</td><td>火車</td><td>車</td><td>中等的</td></tr><tr><td>新聞 (新聞)</td><td>報紙</td><td>新聞（通用）</td><td>低音</td></tr><tr><td>経理 (keiri)</td><td>會計</td><td>經理/總監</td><td>中等的</td></tr></tbody>
+            </table></div>
+<p>想像一下，一個在日本的中國人看到有手紙的標誌，就會想到衛生紙而不是郵箱。這些差異是真實存在的，並且可能會造成有趣（或非常尷尬）的誤解。</p>
+<h3>4. 日本獨有的漢字（Kokuji）</h3>
+<p>日本人不僅從中國引進漢字。他們還發明了新的字符，稱為 kokuji（國字，字面意思是民族字符）。這些漢字在中文中不存在，中國人一生中也從未見過它們。</p>
+<ul><li>峠 (touge) - 山口：山 + 上 + 下 = 上下山</li><li>辻 (tsuji) - 十字路口：純日文字符</li><li>働 (hataraku) - 上班：人 + 動 = 搬家的人 = 上班</li><li>込 (komu) - 輸入擁擠/傾注：非常用於動詞複合詞</li><li>畑 (hatake) - 耕地（不是水稻）：火 + 田 = 燒田施肥</li></ul>
+<h3>5. 文法改變一切</h3>
+<p>即使你能讀懂日文句子中的所有漢字，如果不了解文法，你也無法理解這個句子。日語使用平假名來表示助詞（は、が、を、に）、動詞和形容詞的變形以及漢語中不存在的語法結構。像「食べられなかった」（我不能吃）這樣的句子只包含一個漢字（食），其他所有內容和文法都是平假名。</p>
+<h2>那麼，中國人能讀懂日文嗎？</h2>
+<p>誠實的答案，以百分比表示：</p>
+<ul><li>理解標誌或標題的一般含義：是的，大約 50-70% 的含義</li><li>閱讀報紙文章：大概 30-40%，有很多文法漏洞</li><li>遵循書面對話：不，語法完全不同</li><li>讀懂小說：不學日文絕對不行</li><li>學日語的優點：意義重大，但閱讀材料必須從頭學起</li></ul>
+<p>綜上所述：懂中文對於記憶漢字意義有巨大優勢，但並不是學日文的捷徑。閱讀、文法和許多具體含義都必須從頭開始學習。</p>
+<h2>日本人能讀懂中文嗎？</h2>
+<p>令人驚訝的是，日本人的書面中文表現要好一些，尤其是繁體中文（在台灣和香港使用）。日文漢字比較接近傳統字。但即使在這裡，如果不學習中文，理解也停留在一般概念上。中文文法（SVO順序、聲調、分類詞）完全不同。</p>
+<h2>我先學漢字還是先學漢字？</h2>
+<p>如果您想學習兩種語言，這裡有一些實用的建議：選擇您最感興趣的語言並從那裡開始。您在一種語言中學到的基本字符將為您在另一種語言中帶來優勢，尤其是在含義方面。但不要自欺欺人地認為研究一種與研究另一種是一樣的──它們是兩條具有共同基礎的獨立路徑。</p>
+<p>如果您專注於日語，Kanjidon 會透過正確的日語讀法（on&#039;yomi 和 kun&#039;yomi）、上下文範例以及幫助您區分日語和中文意義的助記符來教您漢字。透過自適應測驗，您可以快速找出自己是否迷惑了一個假朋友——在應用程式中找出答案比在日本的餐廳裡更好。</p>
+<p>無論您選擇哪種語言，第一步都是相同的：學習基本字元。前 100-200 個大部分是兩種語言共享的。從今天開始，您將在兩個方面都獲得優勢。</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ni keneng ye xihuan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/zh-tw/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/zh-tw/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                    <a href="/zh-tw/blog/100-common-kanji/" class="related-card">
+                        <h4>100 Most Common Kanji for Daily Life</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Jintian kaishi xuexi hanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇼</span>
+                        <span class="language-name">繁體中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option active">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

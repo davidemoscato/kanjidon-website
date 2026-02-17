@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Duolingo n&#039;enseigne pas les kanji : voici pourquoi | Kanjidon</title>
+    <meta name="description" content="Duolingo pour le japonais a des limites structurelles sur les kanji. Analyse honnête de ce qui est bon et de ce qui ne l&#039;est pas, avec des alternatives ...">
+    <meta name="keywords" content="kanji duolingo, duolingo japonais, œuvres duolingo japonaises, alternative duolingo japonaise, apprendre les kanji sans duolingo">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/fr/blog/pourquoi-duolingo-kanji/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/why-duolingo-cant-teach-kanji/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/perche-duolingo-non-insegna-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/pourquoi-duolingo-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/por-que-duolingo-no-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/warum-duolingo-kein-kanji/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/por-que-duolingo-nao-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/pochemu-duolingo-ne-uchit-kanji/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/duolingo-kanji-munje/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/duolingo-bu-jiao-kanji/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/duolingo-bu-jiao-kanji-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/limadha-duolingo-la-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/duolingo-kanji-kyon-nahi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/thammai-duolingo-mai-son-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tai-sao-duolingo-khong-day-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kenapa-duolingo-tidak-ajar-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kenapa-duolingo-tak-ajar-kanji/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/neden-duolingo-kanji-ogretmez/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/dlaczego-duolingo-nie-uczy-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/chera-duolingo-kanji-amuzesh-nemidahad/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/bakit-duolingo-hindi-nagtuturo-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/why-duolingo-cant-teach-kanji/">
+
+    <meta property="og:title" content="Duolingo n&#039;enseigne pas les kanji : voici pourquoi">
+    <meta property="og:description" content="Duolingo pour le japonais a des limites structurelles sur les kanji. Analyse honnête de ce qui est bon et de ce qui ne l&#039;est pas, avec des alternatives ...">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/fr/blog/pourquoi-duolingo-kanji/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Duolingo n&#039;enseigne pas les kanji : voici pourquoi">
+    <meta name="twitter:description" content="Duolingo pour le japonais a des limites structurelles sur les kanji. Analyse honnête de ce qui est bon et de ce qui ne l&#039;est pas, avec des alternatives ...">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Duolingo n'enseigne pas les kanji : voici pourquoi",
+        "description": "Duolingo pour le japonais a des limites structurelles sur les kanji. Analyse honnête de ce qui est bon et de ce qui ne l'est pas, avec des alternatives ...",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/fr/blog/pourquoi-duolingo-kanji/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/fr/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Duolingo n'enseigne pas les kanji : voici pourquoi",
+                        "item": "https://kanjidon.com/fr/blog/pourquoi-duolingo-kanji/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/fr/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/fr/blog/">Blog</a>
+                <a href="/fr/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/fr/">Home</a>
+                <span class="separator">›</span>
+                <a href="/fr/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Duolingo n&#039;enseigne pas les kanji : voici pourquoi</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Duolingo n&#039;enseigne pas les kanji : voici pourquoi</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 déc. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Duolingo est l&#039;application linguistique la plus téléchargée au monde. La chouette verte est partout et le système de stries crée une dépendance. Mais il y a un problème que personne ne veut admettre : pour le japonais, et en particulier pour les kanji, Duolingo a des limitations structurelles qu&#039;aucune mise à jour ne peut résoudre. Ce n&#039;est pas la faute de Duolingo – et il n&#039;a pas été conçu pour ça.</p>
+<h2>Ce que Duolingo fait bien (Donnons-le à César...)</h2>
+<p>Avant de critiquer, reconnaissons les mérites. Duolingo fait certaines choses mieux que quiconque :</p>
+<ul><li>Accessibilité : n’importe qui peut se lancer en 30 secondes, gratuitement, sans rien savoir</li><li>Gamification : séquences, cœurs, classements. Cela vous donne envie de revenir tous les jours, et cela vaut son pesant d&#039;or</li><li>Vocabulaire de base : apprenez des mots utiles en contexte, avec un audio natif</li><li>Grammaire d&#039;introduction : les structures de base du japonais sont introduites de manière intuitive</li><li>Hiragana et katakana : le cours les enseigne bien dès les premiers niveaux</li></ul>
+<p>Pour les langues européennes (espagnol, français, allemand), Duolingo fonctionne étonnamment bien. Le problème se pose avec le japonais, une langue qui fonctionne de manière radicalement différente.</p>
+<h2>Le problème fondamental : Duolingo enseigne des phrases, pas des caractères</h2>
+<p>L&#039;architecture de Duolingo est conçue pour les langues alphabétiques : vous apprenez à faire des phrases avec des mots que vous pouvez lire parce que vous connaissez l&#039;alphabet. Mais le japonais a trois systèmes d&#039;écriture (hiragana, katakana, kanji) et les kanji ne sont pas un alphabet : ils sont un système logographique composé de milliers de caractères, chacun ayant de multiples significations et lectures.</p>
+<p>Duolingo vous montre les kanji dans des phrases, mais ne vous les enseigne pas systématiquement. Vous n&#039;apprenez pas les radicaux, vous n&#039;apprenez pas les lectures ON et KUN, il n&#039;y a pas de système de répétition espacée dédié aux caractères individuels. Vous les rencontrez, vous les reconnaissez dans le contexte de cette phrase spécifique, mais vous ne les apprenez pas vraiment.</p>
+<h2>Les chiffres qui ne mentent pas</h2>
+<p>Voici ce qui se passe en pratique après 6 mois de Duolingo japonais (30 minutes par jour, utilisation constante) :</p>
+<ul><li>Kanji reconnus dans le contexte : environ 30-50</li><li>Kanji que vous pouvez lire seul : environ 10-20</li><li>Kanji nécessaire pour JLPT N5 : 103</li><li>Kanji nécessaire pour JLPT N4 : 284</li><li>Lectures ON/KUN apprises : presque aucune consciemment</li></ul>
+<p>Après 6 mois d’efforts quotidiens, vous êtes encore loin du niveau de base de l’examen JLPT. Non pas parce que vous êtes lent, mais parce que l’outil n’est pas conçu à cet effet. Avec une application centrée sur les kanji comme Kanjidon, les mêmes 6 mois à 15 minutes par jour vous emmènent au-delà des 284 kanji du niveau N4, avec des lectures, des significations et des mnémoniques pour chacun.</p>
+<h2>Les 4 limites structurelles de Duolingo pour les Kanji</h2>
+<h3>1. Pas d’enseignement systématique des radicaux</h3>
+<p>Les radicaux sont les éléments constitutifs des kanji. Les connaître transforme 2 000 caractères apparemment aléatoires en combinaisons logiques. Duolingo ne les mentionne même pas. Chaque kanji vous apparaît comme un nouveau dessin dont vous devez vous souvenir avec force.</p>
+<h3>2. Pas de SRS dédié aux Kanji individuels</h3>
+<p>Duolingo dispose d&#039;un système de révision, mais il se situe au niveau de la leçon, pas au niveau des kanji individuels. Si je confonds 書 (écrire) et 読 (lire), l&#039;application ne me permettra pas de revoir ces deux kanji spécifiques tant que je ne les distinguerai pas. Un système SRS sérieux comme celui de Kanjidon suit chaque kanji et le présente à nouveau au moment précis où vous êtes sur le point de l&#039;oublier.</p>
+<h3>3. Lectures ON et KUN : Les Grands Absents</h3>
+<p>Chaque kanji a au moins deux types de lecture : la lecture chinoise (ON-yomi) et la lecture japonaise (KUN-yomi). Savoir quand utiliser ce qui est essentiel pour lire le vrai japonais. Duolingo vous apprend des mots avec une lecture spécifique, mais n&#039;explique pas le système. Résultat : Hors du contexte de ce mot, vous ne savez pas lire le kanji.</p>
+<h3>4. Manque de mnémoniques</h3>
+<p>Les mnémoniques – des histoires visuelles qui relient la forme, la signification et la lecture d’un kanji – sont l’outil le plus efficace pour la mémorisation à long terme. Duolingo n&#039;en utilise aucun pour les kanji. Il vous montre le personnage, sa signification et espère que vous vous en souviendrez. Pour les 20 premiers ça marche. Pour 200, c&#039;est une catastrophe.</p>
+<h2>Je ne dis pas d&#039;abandonner Duolingo</h2>
+<p>Duolingo fait des choses que les autres applications ne font pas : vous enseigne la grammaire de manière intuitive, vous expose à de vraies phrases et vous motive grâce à la gamification. Le problème n&#039;est pas Duolingo lui-même, mais l&#039;utilisation de Duolingo comme SEUL outil pour le japonais.</p>
+<p>Et comment utiliser simplement un marteau pour construire une maison. Le marteau est utile, mais il faut aussi un tournevis, une scie et un niveau.</p>
+<h2>Le combo parfait : comment vraiment étudier</h2>
+<p>La stratégie qui fonctionne le mieux combine différents outils, chacun avec ses propres atouts :</p>
+<ul><li>Pour les kanji : une application spécialisée avec SRS, radicaux et mnémoniques. Kanjidon couvre les 2 136 joyo kanji avec 9 types de quiz et de mnémoniques en 21 langues, dont l&#039;anglais.</li><li>Pour la grammaire : Duolingo (de base) + un livre comme Genki ou Tae Kim (en profondeur)</li><li>Pour le vocabulaire : Duolingo + lecture notée (NHK Easy News, lecteurs notés)</li><li>En écoute : anime sous-titré japonais, podcasts, vidéos YouTube</li><li>Pour la conversation : tuteur sur Italki (quand tu es prêt, pas tout de suite)</li></ul>
+<p>Avec cette approche, 30 minutes par jour sont réparties ainsi : 15 minutes de kanji (Kanjidon) + 15 minutes de grammaire/vocabulaire (Duolingo). Vous apprenez les kanji sérieusement, vous absorbez la grammaire intuitivement et tout se renforce mutuellement.</p>
+<h2>Ce qui fonctionne vraiment pour les Kanji</h2>
+<p>Si les kanji sont votre truc (et si vous étudiez le japonais, ça DOIT l&#039;être), voici ce qu&#039;il faut rechercher dans une application :</p>
+<ul><li>SRS au niveau d&#039;un seul kanji : l&#039;algorithme suit chaque caractère individuellement</li><li>Les radicaux comme base : vous apprenez les composants avant les kanji complexes</li><li>Mnémoniques : histoires visuelles pour chaque kanji, dans votre langue</li><li>Lectures explicites ON/KUN : vous savez toujours quelle lecture vous apprenez</li><li>Organisation JLPT : Du N5 au N1, vous savez toujours où vous en êtes</li><li>Variété de quiz : les flashcards seuls ne suffisent pas, différents exercices sont nécessaires</li></ul>
+<p>Le fait est simple : Duolingo est idéal pour débuter et pour la grammaire de base, mais pour les kanji, vous avez besoin d&#039;un outil spécialement conçu pour cela. Ajoutez Kanjidon à votre pile d&#039;étude et dans quelques semaines seulement, vous verrez la différence. Vous pouvez apprendre gratuitement les 103 premiers kanji N5 – essayez-les et jugez par vous-même.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>A lire aussi</h3>
+                <div class="related-grid">
+                    
+                    <a href="/fr/blog/comment-apprendre-kanji/" class="related-card">
+                        <h4>Comment Apprendre les Kanji : Guide Complet pour Debutants</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/fr/blog/combien-kanji-jlpt/" class="related-card">
+                        <h4>Combien de Kanji pour le JLPT ? Guide de N5 a N1</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/fr/blog/hiragana-katakana-kanji-differences/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji : Lequel Apprendre en Premi...</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Commencez a apprendre les kanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇫🇷</span>
+                        <span class="language-name">Français</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option active">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

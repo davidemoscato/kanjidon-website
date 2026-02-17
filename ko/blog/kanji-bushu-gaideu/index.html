@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>한자부수: 2,000자가 200자가 됩니다 | Kanjidon</title>
+    <meta name="description" content="수천 개의 문자를 잠금 해제하는 214개의 기본 구성 요소인 한자 부수를 알아보세요. 실제 사례와 함께 가장 중요한 30가지 부수를 안내합니다.">
+    <meta name="keywords" content="한자 부수, 일본어 부수, 한자 구성 요소, 부수 안내, 214 부수, 강희 부수">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/guida-radicali-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/guide-radicaux-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/guia-radicales-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/guia-radicais-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-bushou-zhinan/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/dalil-judhor-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-radical-guide-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/panduan-radikal-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/panduan-radikal-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-radikal-rehberi/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rahnama-radical-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gabay-radical-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+
+    <meta property="og:title" content="한자부수: 2,000자가 200자가 됩니다">
+    <meta property="og:description" content="수천 개의 문자를 잠금 해제하는 214개의 기본 구성 요소인 한자 부수를 알아보세요. 실제 사례와 함께 가장 중요한 30가지 부수를 안내합니다.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="한자부수: 2,000자가 200자가 됩니다">
+    <meta name="twitter:description" content="수천 개의 문자를 잠금 해제하는 214개의 기본 구성 요소인 한자 부수를 알아보세요. 실제 사례와 함께 가장 중요한 30가지 부수를 안내합니다.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "한자부수: 2,000자가 200자가 됩니다",
+        "description": "수천 개의 문자를 잠금 해제하는 214개의 기본 구성 요소인 한자 부수를 알아보세요. 실제 사례와 함께 가장 중요한 30가지 부수를 안내합니다.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ko/blog/kanji-bushu-gaideu/"
+        },
+        "datePublished": "2025-12-26",
+        "dateModified": "2025-12-26"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ko/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "한자부수: 2,000자가 200자가 됩니다",
+                        "item": "https://kanjidon.com/ko/blog/kanji-bushu-gaideu/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ko/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ko/blog/">Blog</a>
+                <a href="/ko/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ko/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ko/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">한자부수: 2,000자가 200자가 됩니다</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>한자부수: 2,000자가 200자가 됩니다</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2025년 12월 26일</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">2,136개의 한자를 배울 수 있습니다. 숫자만 읽어도 불안해집니다. 하지만 모든 것을 바꾸는 비밀이 있습니다. 그 2,136개의 문자는 모두 부수라고 불리는 동일한 214개의 기본 조각으로 만들어졌습니다. 부수를 배우고 단어보다 알파벳을 배우는 방법: 일단 조각을 알면 복잡한 한자는 신비한 디자인이 아닌 논리적 조합이 됩니다.</p>
+<h2>급진파란 무엇인가?</h2>
+<p>부수(부슈, PART首)는 한자의 기본 구성 요소입니다. 각 한자는 하나 이상의 부수로 구성됩니다. 그것들을 알파벳 글자처럼 생각하십시오. 그 자체로는 큰 의미가 없지만 결합하면 수천 개의 단어가 됩니다. 고전 시스템에는 214개(강희 부수)가 있지만 매일 연습하면 약 30-50개가 대부분의 한자를 포괄합니다.</p>
+<p>각각의 부수에는 의미가 있으며, 종종 그것을 포함하는 한자의 의미나 범주를 암시합니다. 물기(氵)는 액체와 관련된 한자에 나타난다. 인간의 행위와 관련된 한자에는 인칭 과격(亻)이 등장한다. 이러한 패턴을 인식하는 것이 한자 공부의 진정한 초능력입니다.</p>
+<h2>급진주의자들이 모든 것을 바꾸는 이유</h2>
+<p>부수 없이 각 한자는 외울 수 있는 독특한 디자인입니다. 부수를 사용하면 각 한자는 이미 알고 있는 부분의 조합입니다. 다음은 세 가지 구체적인 예입니다.</p>
+<h3>예 1: 물 라디칼(水/氵)</h3>
+<p>라디칼 수(물)는 환원된 형태로 氵(왼쪽에 세 방울)로 나타납니다. 일단 인식하면 이 모든 한자는 직관적이 됩니다.</p>
+<ul><li>海(바다) = 氵 water + 毎 모든 → 물 어디서나 = 바다</li><li>泳(수영) = 氵 물 + 永 영원 → 영원히 물 속에서 움직이다 = 헤엄치다</li><li>河(강) = 氵 물 + 可 가능 → 흐르는 물 = 강</li><li>湖(호수) = 氵 물 + 胡 고대 → 고대, 고요한 물 = 호수</li><li>波(파) = 氵 물 + 皮 피부 → 물 피부 = 파</li><li>洗(세척) = 氵 물 + 先 먼저 → 물을 먼저 넣는다 = 씻다</li></ul>
+<p>한자 6개, 부수 1개. 의미 없는 그림 여섯 장을 외우는 대신 논리가 보입니다. 그리고 이것은 시작에 불과합니다.</p>
+<h3>사례 2: 나무의 뿌리(木)</h3>
+<p>부수적인 木(나무)는 자연, 나무, 식물과 관련된 많은 한자에 나타납니다.</p>
+<ul><li>森(숲) = 木 + 木 + 木 → 세 그루의 나무 = 숲</li><li>rim(숲) = 木 + 木 → 두 그루의 나무 = 숲</li><li>桜(벚꽃) = 木 + 女 + 女 → 여자의 나무(벚꽃은 아름다움과 연관됨)</li><li>机(책상) = 木 + 几 → 나무 + 받침 = 책상</li><li>板(판자/판자) = 木 + 反 → 편평한 나무 = 판자</li></ul>
+<h3>예 3: 사람의 부수(人/亻)</h3>
+<p>옆자리의 부수 人은 亻가 됩니다. 인간의 행동과 조건과 관련된 많은 한자에 나타납니다.</p>
+<ul><li>休(휴식) = 亻 사람 + 木나무 → 나무 아래서 쉬는 사람</li><li>体(신체) = 亻 사람 + 本 유래 → 사람 유래 = 신체</li><li>住(살다) = 亻 사람 + 主 주인 → 장소를 소유한 사람 = 살다</li><li>작(do/create) = 亻 사람 + 乍 갑자기 → 만드는 사람 = ~을 하다</li><li>何(무엇/무엇) = 亻 사람 + 可 가능 → 무엇을 묻는 사람과 가능 = 무엇?</li></ul>
+<p>Kanjidon은 각 부수에 대해 영어로 된 시각적 니모닉을 사용하여 올바른 순서로 부수를 가르칩니다. 이야기를 직접 만들 필요는 없습니다. 각 한자에 맞게 준비된 이야기를 찾을 수 있습니다.</p>
+<h2>가장 중요한 30가지 급진파</h2>
+<p>시작하는 데 214개 항목이 모두 필요하지는 않습니다. 이 30개의 부수는 N5-N3 레벨에서 접하게 될 한자의 약 80%를 차지합니다.</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>근본적인</th><th>이름</th><th>의미</th><th>일반 한자</th></tr></thead>
+                <tbody><tr><td>人/亻</td><td>히토/닌벤</td><td>사람</td><td>休体住작동</td></tr><tr><td>口</td><td>쿠치</td><td>입</td><td>知味吸呼품</td></tr><tr><td>日</td><td>안녕/니치</td><td>일요일</td><td>밍시早昼暗</td></tr><tr><td>月</td><td>츠키</td><td>달/월</td><td>朝期명명服脳</td></tr><tr><td>水/氵</td><td>미즈/산즈이</td><td>폭포</td><td>해수탕湖洗</td></tr><tr><td>火/灬</td><td>안녕/렌가</td><td>불</td><td>炎焼煮燃点</td></tr><tr><td>木</td><td>기</td><td>나무</td><td>森lin桜机板</td></tr><tr><td>金</td><td>케인</td><td>금속/금</td><td>銀 鉄 針 鏡 鋼</td></tr><tr><td>土</td><td>쓰치</td><td>지구</td><td>地場塩城堂</td></tr><tr><td>山</td><td>야마</td><td>산</td><td>岩峠崎島岸</td></tr><tr><td>手/扌</td><td>테/테헨</td><td>손</td><td>持打押投指</td></tr><tr><td>心/忄</td><td>코코로/릿신벤</td><td>마음/마음</td><td>思感悲怒情</td></tr><tr><td>目</td><td>나</td><td>눈</td><td>見眠眼瞬看</td></tr><tr><td>言/訁</td><td>고토/곤벤</td><td>단어</td><td>언어 読記説</td></tr><tr><td>食/飠</td><td>쇼쿠</td><td>음식</td><td>飲 飯 餓 飼 館</td></tr><tr><td>力</td><td>치카라</td><td>힘</td><td>이동勉努功</td></tr><tr><td>女</td><td>온나</td><td>여성</td><td>好妹姉婚嫁</td></tr><tr><td>子</td><td>코</td><td>어린이</td><td>文字孫季存</td></tr><tr><td>大</td><td>어서 해봐요</td><td>엄청난</td><td>천태奥央奈</td></tr><tr><td>小</td><td>수</td><td>작은</td><td>少尖省尚劣</td></tr><tr><td>田</td><td>고마워</td><td>논</td><td>男 町 画 畑 略</td></tr><tr><td>石</td><td>이시</td><td>결석</td><td>岩砂研確</td></tr><tr><td>糸</td><td>이토</td><td>열</td><td>紙組結織縁</td></tr><tr><td>竹</td><td>가져가다</td><td>대나무</td><td>笑筆箱簡算</td></tr><tr><td>雨</td><td>아메</td><td>비</td><td>雪雲전투雷</td></tr><tr><td>門</td><td>월</td><td>가져온다</td><td>開閉関간聞</td></tr><tr><td>車</td><td>쿠루마</td><td>차량</td><td>転 軽 輸 輪 載</td></tr><tr><td>足</td><td>아시</td><td>발</td><td>路 跳 踊 距 跡</td></tr><tr><td>刀/刂</td><td>카타나/리토</td><td>스페이드</td><td>切分別判刻</td></tr><tr><td>貝</td><td>카이</td><td>껍데기</td><td>買 貸 費 貯 賞</td></tr></tbody>
+            </table></div>
+<h2>복잡한 한자를 기억하기 위해 부수를 사용하는 방법</h2>
+<p>방법은 간단합니다. 한자를 부수로 나눈 다음 이를 연결하는 이야기를 만들거나 찾는 것입니다. 다섯 가지 예를 자세히 살펴보겠습니다.</p>
+<ul><li>休(휴식) = 亻 사람 + 木木 → 피곤한 사람이 나무 밑에 앉아 쉬는 모습을 상상해 보세요. 단순하고 시각적이며 잊을 수 없습니다.</li><li>명(밝다) = 日해 + 月달 → 해와 달이 모두 보이면 빛이 두 배로 된다. 매우 밝습니다.</li><li>好(기쁘다/좋다) = 女여자 + 子자녀 → 아이를 안고 있는 여자. 모자간의 유대감은 가장 아름다운 것입니다. 좋은.</li><li>verb(혀/언어) = 言 단어 + 五 five + 口 입 → 단어로 말하는 입이 5개입니다. 언어.</li><li>体(몸) = ​​亻 사람 + 本 책/기원 → 사람의 근원, 그의 근본. 몸.</li></ul>
+<p>간지돈의 각 한자는 그 급진적인 구성요소와 이를 기억하기 위한 연상적 이야기를 보여줍니다. 아무것도 발명할 필요가 없습니다. 한자를 열고 이야기를 읽으면 나머지는 두뇌가 알아서 합니다. SRS를 사용하면 알고리즘은 사용자가 각 한자를 잊어버리려고 할 때 언제 복습하게 할지 결정합니다.</p>
+<h2>214명의 강시 급진파: 그들은 모두 복무하는가?</h2>
+<p>고전적인 강희주의 급진 체계는 총 214개입니다. 좋은 소식: 한자를 시작하기 전에 모든 내용을 배울 필요는 없습니다. 위 표의 30개는 N5에서 N3까지 만날 수 있는 대부분의 캐릭터를 포함합니다. 고급 한자에서 다른 사람을 만나면 배우십시오. 214개의 부수 중 다수는 드물거나 매우 적은 수의 한자로 나타납니다. 한꺼번에 모두 배우는 것은 시간 낭비입니다.</p>
+<h2>전략: 급진파를 연구하는 방법</h2>
+<ul><li>먼저 위의 표에서 30개의 기본기호를 배워보세요.</li><li>각각의 의미와 형태를 기억하세요(물을 뜻하는 氵처럼 축소된 것도 포함)</li><li>새로운 한자를 공부할 때는 항상 그것을 구성하는 부수를 식별하십시오</li><li>부수를 한자의 의미와 연결하는 이야기를 만들거나 찾아보세요.</li><li>몇 주 동안 따로 부수를 공부하지 마세요. 부수를 도구로 사용하여 바로 한자부터 시작하세요</li><li>고급 한자에서 새로운 부수를 만나면 추가하세요.</li></ul>
+<p>급진파는 전제조건이 아니라 도구입니다. 첫 번째 한자부터 사용하면 비밀 무기가 될 것입니다. Kanjidon의 SRS 알고리즘은 레벨 N5에서 N1까지 모든 문자에 대한 니모닉 기록과 함께 실제 한자의 맥락에서 부수를 보여줍니다. 무료로 시작하여 한자가 더 이상 신비한 그림이 아니라 이미 알고 있는 부분의 논리적 조합일 때 얼마나 쉬운지 알아보세요.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Igeo-do johahalgeoya</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ko/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/ko/blog/kanji-gongbu-sigan/" class="related-card">
+                        <h4>한자를 배우는 데 얼마나 걸리나요? (실수)</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                    <a href="/ko/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Oneul kanji baeugi sijakaseyo</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇰🇷</span>
+                        <span class="language-name">한국어</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option active">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Kanji vs. Hanzi: Liest ein Chinese Japanisch? | Kanjidon</title>
+    <meta name="description" content="Japanisches Kanji und chinesisches Hanzi: gleiche Zeichen, unterschiedliche Sprachen. Differenzen, falsche Freunde und die Wahrheit über gegenseitiges V...">
+    <meta name="keywords" content="Kanji vs. Hanzi, chinesisches Kanji, Hanzi-Kanji-Unterschied, chinesisches japanisches Kanji, japanische vs. chinesische Schriftzeichen, Hanzi vs. Kanji">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/de/blog/kanji-vs-chinesisch/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-vs-chinese/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/kanji-vs-cinese/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/kanji-vs-chinois/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/kanji-vs-chino/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-vs-chinesisch/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/kanji-vs-chines/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/kanji-vs-kitayskiy/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-vs-hanja/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-vs-hanzi/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-vs-hanzi-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kanji-vs-hanzi-ar/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-vs-chinese-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/kanji-vs-hanzi-th/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/kanji-vs-han-tu/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/kanji-vs-hanzi-id/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/kanji-vs-hanzi-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-vs-hanzi-tr/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/kanji-vs-chinskie/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/kanji-vs-hanzi-fa/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/kanji-vs-hanzi-fil/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-vs-chinese/">
+
+    <meta property="og:title" content="Kanji vs. Hanzi: Liest ein Chinese Japanisch?">
+    <meta property="og:description" content="Japanisches Kanji und chinesisches Hanzi: gleiche Zeichen, unterschiedliche Sprachen. Differenzen, falsche Freunde und die Wahrheit über gegenseitiges V...">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/de/blog/kanji-vs-chinesisch/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanji vs. Hanzi: Liest ein Chinese Japanisch?">
+    <meta name="twitter:description" content="Japanisches Kanji und chinesisches Hanzi: gleiche Zeichen, unterschiedliche Sprachen. Differenzen, falsche Freunde und die Wahrheit über gegenseitiges V...">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kanji vs. Hanzi: Liest ein Chinese Japanisch?",
+        "description": "Japanisches Kanji und chinesisches Hanzi: gleiche Zeichen, unterschiedliche Sprachen. Differenzen, falsche Freunde und die Wahrheit über gegenseitiges V...",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/de/blog/kanji-vs-chinesisch/"
+        },
+        "datePublished": "2026-01-06",
+        "dateModified": "2026-01-06"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/de/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Kanji vs. Hanzi: Liest ein Chinese Japanisch?",
+                        "item": "https://kanjidon.com/de/blog/kanji-vs-chinesisch/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/de/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/de/blog/">Blog</a>
+                <a href="/de/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/de/">Home</a>
+                <span class="separator">›</span>
+                <a href="/de/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Kanji vs. Hanzi: Liest ein Chinese Japanisch?</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Kanji vs. Hanzi: Liest ein Chinese Japanisch?</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">6. Jan. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">11 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Kanji und Hanzi. Japanisch und Chinesisch. Gleiche Charaktere, zwei völlig unterschiedliche Sprachen. Aber wie ähnlich sind sie wirklich? Kann ein Chinese eine japanische Zeitung in die Hand nehmen und sie verstehen? Kann ein Japaner ein chinesisches Menü lesen? Die Antwort ist viel komplizierter (und interessanter) als ein einfaches Ja oder Nein.</p>
+<h2>Die Geschichte: Wie Kanji nach Japan kam</h2>
+<p>Chinesische Schriftzeichen (Hanzi) kamen um das 5.-6. Jahrhundert über Korea und direkte Handelskontakte mit China nach Japan. Die Japaner übernahmen sie, um ihre eigene Sprache zu schreiben, allerdings mit einem Problem: Japanisch unterscheidet sich strukturell stark vom Chinesischen. Also taten sie etwas Geniales und Verrücktes zugleich: Sie nahmen chinesische Schriftzeichen und passten sie an, sodass viele von ihnen zwei Lesarten erhielten – die ursprüngliche chinesische Lesart (on&#039;yomi) und eine einheimische japanische Lesart (kun&#039;yomi). Und daher kommt die berühmte Komplexität von Kanji.</p>
+<h2>Die 5 grundlegenden Unterschiede</h2>
+<h3>1. Die Form der Charaktere</h3>
+<p>Im 20. Jahrhundert vereinfachten sowohl Japan als auch China einige Zeichen, jedoch auf unterschiedliche und unabhängige Weise. Ergebnis: Heute gibt es von vielen Charakteren drei Versionen.</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Bedeutung</th><th>Traditionell (TW/HK)</th><th>japanisch</th><th>Vereinfacht (CN)</th></tr></thead>
+                <tbody><tr><td>Dorf</td><td>國</td><td>国</td><td>国</td></tr><tr><td>Studie</td><td>學</td><td>学</td><td>学</td></tr><tr><td>Geist</td><td>Nein</td><td>Nein</td><td>Nein</td></tr><tr><td>Karte</td><td>圖</td><td>図</td><td>图</td></tr><tr><td>Kunst</td><td>藝</td><td>芸</td><td>艺</td></tr><tr><td>Körper</td><td>體</td><td>体</td><td>体</td></tr><tr><td>Wind</td><td>風</td><td>風</td><td>风</td></tr><tr><td>Drachen</td><td>龍</td><td>竜</td><td>龙</td></tr></tbody>
+            </table></div>
+<p>Wie Sie sehen können, stimmen Japanisch und vereinfachtes Chinesisch manchmal überein (国, 学), manchmal nicht (気 vs. 气, 図 vs. 图). Japanisch hat weniger vereinfachte Zeichen als China und liegt daher in einer Zwischenposition zwischen traditionellem und vereinfachtem Chinesisch.</p>
+<h3>2. Die Lesungen: Die größte Lücke</h3>
+<p>Das ist der Unterschied, der alles kompliziert macht. Im Chinesischen hat jedes Schriftzeichen im Allgemeinen EINE Aussprache (Pinyin). Im Japanischen kann das gleiche Zeichen je nach Kontext zwei, drei oder sogar mehr als zehn verschiedene Lesarten haben.</p>
+<p>Extremes Beispiel: Das Kanji 生 (Leben/Geburt) hat auf Japanisch mindestens 10 Lesarten: セイ, ショウ, い(きる), う(まれる), は(える), なま, き, お(う) und andere. Auf Chinesisch? Nur Sheng. Ein Chinese, der Japanisch lernt, lernt die Bedeutungen sehr schnell, aber das Lesen ist ein ganz neuer Albtraum.</p>
+<h3>3. Unterschiedliche Bedeutungen (gefährliche falsche Freunde)</h3>
+<p>Viele Zeichen haben in beiden Sprachen die gleiche Bedeutung. Einige haben jedoch eine völlig andere Bedeutung und können zu peinlichen Situationen führen.</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Wort</th><th>Auf Japanisch</th><th>Auf Chinesisch</th><th>Grad der Peinlichkeit</th></tr></thead>
+                <tbody><tr><td>手紙 (Pfannen)</td><td>Brief (Korrespondenz)</td><td>Klopapier</td><td>Hoch</td></tr><tr><td>勉強 (benkyō)</td><td>Studie</td><td>Zwingen/verpflichten</td><td>Medium</td></tr><tr><td>大丈夫 (daijoubu)</td><td>Okay, kein Problem</td><td>Tapferer Mann</td><td>Bass</td></tr><tr><td>娘 (Museum)</td><td>Tochter</td><td>Mutter/Mutter</td><td>Hoch</td></tr><tr><td>汽車 (Kischa)</td><td>Zug</td><td>Auto</td><td>Medium</td></tr><tr><td>新聞 (Shinbun)</td><td>Zeitung</td><td>Nachrichten (allgemein)</td><td>Bass</td></tr><tr><td>経理 (keiri)</td><td>Buchhaltung</td><td>Manager/Direktor</td><td>Medium</td></tr></tbody>
+            </table></div>
+<p>Stellen Sie sich einen Chinesen in Japan vor, der ein Schild mit der Aufschrift 手紙 sieht und an Toilettenpapier statt an einen Briefkasten denkt. Diese Unterschiede sind real und können zu lustigen (oder sehr peinlichen) Missverständnissen führen.</p>
+<h3>4. Kanji exklusiv in Japan (Kokuji)</h3>
+<p>Die Japaner importierten nicht nur Schriftzeichen aus China. Sie erfanden auch neue, sogenannte Kokuji (国字, wörtlich Nationalzeichen). Diese Kanji gibt es auf Chinesisch nicht und ein Chinese hat sie noch nie in seinem Leben gesehen.</p>
+<ul><li>峠 (touge) – Gebirgspass: 山 + 上 + 下 = einen Berg hinauf und hinunter gehen</li><li>辻 (tsuji) – Kreuzung: rein japanisches Schriftzeichen</li><li>働 (Hataraku) – zur Arbeit: 人 + 動 = Person, die umzieht = zur Arbeit</li><li>込 (komu) – überfüllt eingeben/eingießen: wird häufig in verbalen Verbindungen verwendet</li><li>畑 (Hatake) – bebautes Feld (kein Reis): 火 + 田 = zur Düngung verbranntes Feld</li></ul>
+<h3>5. Grammatik verändert alles</h3>
+<p>Selbst wenn Sie alle Kanji in einem japanischen Satz lesen könnten, würden Sie den Satz nicht verstehen, ohne die Grammatik zu kennen. Im Japanischen wird Hiragana für Partikel (は, が, を, に), Verb- und Adjektivkonjugationen sowie grammatikalische Strukturen verwendet, die es im Chinesischen nicht gibt. Ein Satz wie 食べられなかった (Ich konnte nicht essen) enthält nur ein Kanji (食) und alles andere und die Grammatik in Hiragana.</p>
+<h2>Kann ein Chinese also Japanisch lesen?</h2>
+<p>Die ehrliche Antwort in Prozent:</p>
+<ul><li>Die allgemeine Bedeutung eines Zeichens oder Titels verstehen: Ja, etwa 50–70 % der Bedeutung</li><li>Lesen eines Zeitungsartikels: vielleicht 30–40 %, mit vielen grammatikalischen Lücken</li><li>Verfolgen Sie ein schriftliches Gespräch: Nein, die Grammatik ist völlig anders</li><li>Einen Roman verstehen: Auf keinen Fall, ohne Japanisch zu lernen</li><li>Vorteil für das Erlernen der japanischen Sprache: enorm für die Bedeutungen, aber die Lesarten müssen von Grund auf gelernt werden</li></ul>
+<p>Zusammenfassend lässt sich sagen: Chinesischkenntnisse sind ein großer Vorteil, um sich die Bedeutung von Kanji einzuprägen, aber sie sind keine Abkürzung zum Japanischen. Lesungen, Grammatik und viele spezifische Bedeutungen müssen von Grund auf gelernt werden.</p>
+<h2>Und kann ein Japaner Chinesisch lesen?</h2>
+<p>Überraschenderweise kommt ein Japaner mit geschriebenem Chinesisch etwas besser zurecht, insbesondere mit traditionellem Chinesisch (das in Taiwan und Hongkong verwendet wird). Japanische Kanji ähneln eher traditionellen Zeichen. Aber auch hier, ohne Chinesisch zu lernen, bleibt das Verständnis bei allgemeinen Konzepten stehen. Die chinesische Grammatik (SVO-Reihenfolge, Töne, Klassifikatoren) ist völlig anders.</p>
+<h2>Lerne ich zuerst Kanji oder Hanzi?</h2>
+<p>Wenn Sie beide Sprachen lernen möchten, finden Sie hier einige praktische Ratschläge: Wählen Sie die Sprache aus, die Sie am meisten interessiert, und beginnen Sie von dort aus. Die Grundzeichen, die Sie in einer Sprache lernen, verschaffen Ihnen in der anderen einen Vorteil, insbesondere in Bezug auf die Bedeutung. Aber täuschen Sie sich nicht und glauben Sie, das Studium des einen sei dasselbe wie das Studium des anderen – es handelt sich um zwei getrennte Wege mit einer gemeinsamen Grundlage.</p>
+<p>Wenn Sie sich auf Japanisch konzentrieren, bringt Ihnen Kanjidon Kanji mit den korrekten japanischen Lesarten (on&#039;yomi und kun&#039;yomi), Kontextbeispielen und Mnemoniken bei, die Ihnen helfen, japanische von chinesischen Bedeutungen zu unterscheiden. Mit adaptiven Tests können Sie schnell herausfinden, ob Sie einen falschen Freund verwirren – besser in der App als in einem Restaurant in Japan.</p>
+<p>Für welche Sprache Sie sich auch entscheiden, der erste Schritt ist derselbe: Lernen Sie die Grundzeichen. Die ersten 100–200 werden größtenteils von den beiden Sprachen geteilt. Beginnen Sie noch heute und Sie haben in beide Richtungen einen Vorsprung.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Das konnte dich interessieren</h3>
+                <div class="related-grid">
+                    
+                    <a href="/de/blog/wie-kanji-lernen/" class="related-card">
+                        <h4>Wie Man Kanji Lernt: Vollstandiger Leitfaden fur Anfanger</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/de/blog/hiragana-katakana-kanji-unterschiede/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Was Zuerst Lernen?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                    <a href="/de/blog/100-wichtigste-kanji/" class="related-card">
+                        <h4>Die 100 Wichtigsten Kanji fur den Alltag in Japan</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Lerne heute Kanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇩🇪</span>
+                        <span class="language-name">Deutsch</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option active">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

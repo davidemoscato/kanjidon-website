@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Mất bao lâu để học Kanji? (Số thực) | Kanjidon</title>
+    <meta name="description" content="Mất bao lâu để học chữ Kanji? Phân tích trung thực theo cấp độ JLPT, so sánh phương pháp và tiến trình thực tế. Không có lời hứa nào là không thể.">
+    <meta name="keywords" content="học kanji bao lâu, thời gian học kanji, kanji mất bao lâu, học kanji nhanh, kanji trong bao lâu">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/vi/blog/hoc-kanji-mat-bao-lau/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/how-long-learn-kanji/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/quanto-tempo-imparare-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/combien-temps-apprendre-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/cuanto-tiempo-aprender-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/wie-lange-kanji-lernen/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/quanto-tempo-aprender-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/skolko-vremeni-uchit-kanji/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-gongbu-sigan/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/xuexi-kanji-shijian/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/xuexi-kanji-shijian-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kam-yastghreq-taallum-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-sikhne-mein-kitna-samay/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/rian-kanji-chai-wela-thaorai/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/hoc-kanji-mat-bao-lau/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/berapa-lama-belajar-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/berapa-lama-belajar-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-ogrenmek-ne-kadar-surer/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/ile-czasu-nauka-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/chand-vaght-yadgiri-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gaano-katagal-matuto-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/how-long-learn-kanji/">
+
+    <meta property="og:title" content="Mất bao lâu để học Kanji? (Số thực)">
+    <meta property="og:description" content="Mất bao lâu để học chữ Kanji? Phân tích trung thực theo cấp độ JLPT, so sánh phương pháp và tiến trình thực tế. Không có lời hứa nào là không thể.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/vi/blog/hoc-kanji-mat-bao-lau/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mất bao lâu để học Kanji? (Số thực)">
+    <meta name="twitter:description" content="Mất bao lâu để học chữ Kanji? Phân tích trung thực theo cấp độ JLPT, so sánh phương pháp và tiến trình thực tế. Không có lời hứa nào là không thể.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Mất bao lâu để học Kanji? (Số thực)",
+        "description": "Mất bao lâu để học chữ Kanji? Phân tích trung thực theo cấp độ JLPT, so sánh phương pháp và tiến trình thực tế. Không có lời hứa nào là không thể.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/vi/blog/hoc-kanji-mat-bao-lau/"
+        },
+        "datePublished": "2026-01-04",
+        "dateModified": "2026-01-04"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/vi/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Mất bao lâu để học Kanji? (Số thực)",
+                        "item": "https://kanjidon.com/vi/blog/hoc-kanji-mat-bao-lau/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/vi/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/vi/blog/">Blog</a>
+                <a href="/vi/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/vi/">Home</a>
+                <span class="separator">›</span>
+                <a href="/vi/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Mất bao lâu để học Kanji? (Số thực)</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Mất bao lâu để học Kanji? (Số thực)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">4 thg 1, 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Mất bao lâu để học chữ Kanji? Đó là câu hỏi mà không sớm thì muộn mỗi du học sinh Nhật Bản đều tự hỏi mình. Internet tràn ngập những lời hứa hẹn vô lý (học 2.000 chữ Hán trong 30 ngày!) và những câu trả lời mơ hồ (còn tùy...). Ở đây bạn sẽ tìm thấy những con số thực, dựa trên dữ liệu cứng và kinh nghiệm của hàng nghìn sinh viên.</p>
+<h2>Câu trả lời ngắn gọn</h2>
+<p>Đây là ước tính thực tế, được tính trên 15-30 phút học mỗi ngày với hệ thống lặp lại ngắt quãng hợp lý:</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>trình độ JLPT</th><th>Kanji để học</th><th>tổng số chữ Hán</th><th>Thời gian dự kiến</th></tr></thead>
+                <tbody><tr><td>N5</td><td>103</td><td>103</td><td>1-2 mesi</td></tr><tr><td>N4</td><td>+181 mới</td><td>tổng cộng 284</td><td>3-5 mesi</td></tr><tr><td>N3</td><td>+361 mới</td><td>tổng cộng 645</td><td>8-12 mesi</td></tr><tr><td>N2</td><td>+415 mới</td><td>Tổng cộng 1.060</td><td>18-24 mesi</td></tr><tr><td>N1</td><td>+1.076 mới</td><td>tổng cộng 2.136</td><td>3-4 anni</td></tr><tr><td>Tất cả những niềm vui</td><td>2.136</td><td>2.136</td><td>3-4 anni</td></tr></tbody>
+            </table></div>
+<p>Những thời điểm này đòi hỏi phải học tập liên tục và hàng ngày. Nếu bạn chỉ học vào cuối tuần thì hãy nhân với 2-3. Nếu bạn sử dụng phương pháp không hiệu quả (sao chép chữ kanji bằng tay mà không có SRS), hãy nhân với 3-5. Với Kanjidon SRS, những khoảng thời gian này có xu hướng giảm xuống mức giới hạn thấp hơn vì thuật toán cho phép bạn chỉ ôn lại những chữ kanji mà bạn quên - không lãng phí thời gian cho những chữ bạn đã biết.</p>
+<h2>Các yếu tố thay đổi mọi thứ</h2>
+<p>Không phải ai cũng dành thời gian như nhau và đó không chỉ là vấn đề trí thông minh. Đây là điều thực sự tạo nên sự khác biệt:</p>
+<h3>1. Phương pháp nghiên cứu</h3>
+<p>Đây là yếu tố quan trọng nhất. Sự khác biệt giữa sao chép chữ kanji vào sổ tay và sử dụng phương pháp lặp lại cách quãng bằng kỹ thuật ghi nhớ là rất lớn: chúng ta đang nói về tốc độ nhanh hơn khoảng 2-3 lần nếu áp dụng đúng phương pháp. Khoa học rất rõ ràng: SRS (Hệ thống lặp lại cách nhau) là cách hiệu quả nhất để ghi nhớ lượng lớn thông tin.</p>
+<h3>2. Constance</h3>
+<p>15 phút mỗi ngày đánh bại 2 giờ vào cuối tuần. Luôn luôn. Bộ não củng cố trí nhớ trong khi ngủ nên học ít nhưng thường tạo ra những kết nối mạnh mẽ hơn. Một học sinh học 15 phút mỗi ngày trong 6 tháng sẽ học được nhiều hơn một học sinh học 3 giờ một tuần trong cùng thời gian.</p>
+<h3>3. Tiếng mẹ đẻ</h3>
+<p>Đây là một lợi thế mà bạn không thể kiểm soát nhưng lại tồn tại. Người nói tiếng Trung có một lợi thế rất lớn: họ đã biết nhiều ký tự (ngay cả khi cách đọc khác nhau). Người nói tiếng Hàn nhận biết được nhiều từ Hán-Hàn. Đối với những người nói các ngôn ngữ châu Âu, chữ kanji hoàn toàn mới - phải mất nhiều thời gian hơn, nhưng với phương pháp phù hợp, khoảng cách sẽ thu hẹp lại.</p>
+<h3>4. Mục tiêu</h3>
+<p>Nhận biết chữ Hán (đọc nó trong văn bản) nhanh hơn nhiều so với việc biết cách viết bằng tay. Nếu mục tiêu của bạn là đọc, hãy tập trung vào việc nhận biết. Viết tay là một bài tập hay, nhưng vào năm 2026, hầu hết người Nhật đều sử dụng điện thoại để viết.</p>
+<h3>5. Đắm chìm</h3>
+<p>Những người sống ở Nhật Bản nhìn thấy chữ Hán ở khắp mọi nơi: xe lửa, thực đơn, bảng hiệu, quảng cáo. Sự củng cố thụ động, liên tục này giúp tăng tốc quá trình học tập rất nhiều. Nếu học ở nhà, bạn có thể bù đắp bằng manga, anime phụ đề tiếng Nhật, NHK Easy News.</p>
+<h2>Huyền thoại về &#039;30 ngày học Kanji&#039;</h2>
+<p>Bạn cần biết một điều: bất cứ ai hứa dạy bạn tất cả 2.136 chữ Hán trong 30 ngày đều đang nói dối bạn. Bộ não con người có giới hạn sinh học trong việc hình thành trí nhớ dài hạn. Bạn có thể cho bộ não của mình tiếp xúc với 2.136 chữ Hán trong 30 ngày không? Đúng. Liệu bạn có nhớ chúng sau 3 tháng không ôn lại không? Hoàn toàn không.</p>
+<p>Bạn có thể làm gì trong 30 ngày và học 103 chữ Hán N5 một cách vững chắc và ôn tập liên tục. Và đó là một thành tựu xuất sắc: nó là nền tảng cho mọi thứ khác. Đừng để việc tiếp thị đánh lừa bạn: con đường chữ Hán là một cuộc chạy marathon chứ không phải một cuộc chạy nước rút.</p>
+<h2>So sánh phương pháp: Cái nào nhanh hơn?</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Phương pháp</th><th>Tốc độ</th><th>Duy trì sau 3 tháng</th><th>Lý tưởng cho</th></tr></thead>
+                <tbody><tr><td>Sao chép bằng tay</td><td>Chậm</td><td>Bassa (20-30%)</td><td>Luyện viết</td></tr><tr><td>Flashcards giấy</td><td>Trung bình</td><td>Media (40-50%)</td><td>Học sinh ngoại tuyến</td></tr><tr><td>SRS kỹ thuật số</td><td>Nhanh</td><td>Alta (70-80%)</td><td>Hầu hết các sinh viên</td></tr><tr><td>SRS + Ghi nhớ</td><td>Nhanh nhất</td><td>Molto alta (80-90%)</td><td>Những người muốn tối đa hóa hiệu quả</td></tr><tr><td>Ngâm tinh khiết</td><td>Biến</td><td>Cao cho những từ thông dụng</td><td>Ai sống ở Nhật Bản</td></tr></tbody>
+            </table></div>
+<p>Người chiến thắng rất rõ ràng: SRS kết hợp với khả năng ghi nhớ. Kanjidon sử dụng chính xác sự kết hợp này - thuật toán SM-2 để lặp lại khoảng cách và ghi nhớ trong 21 ngôn ngữ cho mỗi chữ Hán. Với 9 loại câu đố khác nhau, mỗi lần, bộ não của bạn sẽ được thử thách theo những cách khác nhau, tránh được hiệu ứng lái tự động.</p>
+<h2>Cách tối đa hóa tốc độ học tập của bạn</h2>
+<ul><li>Học mỗi ngày, thậm chí chỉ 10 phút. Tính nhất quán đánh bại cường độ.</li><li>Sử dụng hệ thống SRS. Đừng lãng phí thời gian ôn lại chữ kanji bạn đã biết.</li><li>Học các gốc tự do trước chữ Hán phức tạp. Phá vỡ nó dễ dàng hơn so với việc ghi nhớ.</li><li>Học chữ Hán theo ngữ cảnh: học những từ có chứa chúng, không phải học những nghĩa riêng lẻ.</li><li>Đừng vượt quá 10 chữ kanji mới mỗi ngày. 5-7 là con số lý tưởng cho hầu hết mọi người.</li><li>Ôn tập vào buổi sáng ngay khi thức dậy hoặc vào buổi tối trước khi đi ngủ - não củng cố tốt hơn.</li><li>Khi bạn cảm thấy bế tắc, hãy thay đổi loại bài tập: chuyển từ flashcards, quizs sang reading.</li></ul>
+<h2>Timeline thực tế theo từng tháng (N5 và N4)</h2>
+<p>Đây là những gì có thể xảy ra nếu bạn học 20 phút mỗi ngày bằng phương pháp ghi nhớ SRS +:</p>
+<ul><li>Tuần 1-2: 30 chữ Hán N5. Số, ngày trong tuần, khái niệm cơ bản. Bạn vẫn cảm thấy như một người mới bắt đầu.</li><li>Tuần 3-4: 60 chữ Hán N5. Bạn bắt đầu nhận ra chữ kanji trong menu và bảng hiệu. Sự hài lòng nhỏ.</li><li>Tuần 5-8: Hoàn thành 103 chữ Hán N5. Bạn có thể đọc những câu đơn giản. Khoảnh khắc kỳ diệu.</li><li>Tháng 3-4: 180 chữ kanji (nửa N4). Đọc NHK Easy News với ít nỗ lực hơn. Các chữ kanji bắt đầu trông quen thuộc.</li><li>Tháng 5-6: 284 chữ kanji (đầy đủ N4). Bạn có thể giải quyết các đoạn hội thoại manga và văn bản cơ bản đơn giản.</li></ul>
+<p>Con đường sẽ nhanh hơn bạn nghĩ nếu áp dụng đúng phương pháp. Bí quyết không phải là học nhiều hơn mà là học tốt hơn. Kanjidon tự động hóa phần nhàm chán (quyết định xem cái gì và khi nào) và giúp bạn có thời gian tập trung vào điều duy nhất quan trọng: học tập. Hãy bắt đầu miễn phí và nhìn lại dòng thời gian này sau một tháng — bạn sẽ ngạc nhiên về việc mình đã tiến được bao xa.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ban cung co the thich</h3>
+                <div class="related-grid">
+                    
+                    <a href="/vi/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/vi/blog/huong-dan-bo-thu-kanji/" class="related-card">
+                        <h4>Kanji cấp tiến: 2.000 ký tự trở thành 200</h4>
+                        <span class="read-time">12 min</span>
+                    </a>
+                    <a href="/vi/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Bat dau hoc kanji hom nay</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇻🇳</span>
+                        <span class="language-name">Tiếng Việt</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option active">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Kanji cấp tiến: 2.000 ký tự trở thành 200 | Kanjidon</title>
+    <meta name="description" content="Khám phá các gốc kanji: 214 thành phần cơ bản giúp mở khóa hàng nghìn ký tự. Hướng dẫn về 30 gốc tự do quan trọng nhất kèm theo ví dụ thực tế.">
+    <meta name="keywords" content="bộ gốc kanji, bộ gốc tiếng Nhật, thành phần chữ kanji, hướng dẫn bộ căn, 214 bộ gốc, bộ gốc kangxi">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/guida-radicali-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/guide-radicaux-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/guia-radicales-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/guia-radicais-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-bushou-zhinan/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/dalil-judhor-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-radical-guide-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/panduan-radikal-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/panduan-radikal-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-radikal-rehberi/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rahnama-radical-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gabay-radical-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+
+    <meta property="og:title" content="Kanji cấp tiến: 2.000 ký tự trở thành 200">
+    <meta property="og:description" content="Khám phá các gốc kanji: 214 thành phần cơ bản giúp mở khóa hàng nghìn ký tự. Hướng dẫn về 30 gốc tự do quan trọng nhất kèm theo ví dụ thực tế.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanji cấp tiến: 2.000 ký tự trở thành 200">
+    <meta name="twitter:description" content="Khám phá các gốc kanji: 214 thành phần cơ bản giúp mở khóa hàng nghìn ký tự. Hướng dẫn về 30 gốc tự do quan trọng nhất kèm theo ví dụ thực tế.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kanji cấp tiến: 2.000 ký tự trở thành 200",
+        "description": "Khám phá các gốc kanji: 214 thành phần cơ bản giúp mở khóa hàng nghìn ký tự. Hướng dẫn về 30 gốc tự do quan trọng nhất kèm theo ví dụ thực tế.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/"
+        },
+        "datePublished": "2025-12-26",
+        "dateModified": "2025-12-26"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/vi/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Kanji cấp tiến: 2.000 ký tự trở thành 200",
+                        "item": "https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/vi/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/vi/blog/">Blog</a>
+                <a href="/vi/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/vi/">Home</a>
+                <span class="separator">›</span>
+                <a href="/vi/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Kanji cấp tiến: 2.000 ký tự trở thành 200</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Kanji cấp tiến: 2.000 ký tự trở thành 200</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">26 thg 12, 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">2.136 chữ Hán để học. Chỉ đọc con số thôi cũng khiến bạn lo lắng. Nhưng có một bí mật làm thay đổi mọi thứ: 2.136 ký tự đó đều được tạo nên từ 214 mảnh cơ bản giống nhau, được gọi là căn thức. Học căn bản và cách học bảng chữ cái trước từ: Một khi bạn đã biết các phần, chữ kanji phức tạp sẽ trở thành những tổ hợp logic chứ không phải những thiết kế bí ẩn.</p>
+<h2>Những người cấp tiến là gì?</h2>
+<p>Các cấp tiến (bushu, 部首) là thành phần cơ bản của chữ Hán. Mỗi chữ kanji bao gồm một hoặc nhiều gốc. Hãy coi chúng giống như các chữ cái trong bảng chữ cái: bản thân chúng không có nhiều ý nghĩa, nhưng khi kết hợp lại, chúng tạo thành hàng nghìn từ. Hệ thống cổ điển có 214 (bộ gốc Kangxi), nhưng trong thực tế hàng ngày, khoảng 30-50 bao gồm phần lớn chữ Hán mà bạn sẽ gặp.</p>
+<p>Mỗi gốc có một ý nghĩa và thường gợi ý ý nghĩa hoặc phạm trù chữ kanji chứa nó. Gốc nước (氵) xuất hiện trong chữ Hán liên quan đến chất lỏng. Người cấp tiến (亻) xuất hiện trong chữ Hán liên quan đến hành động của con người. Nhận ra những mẫu này chính là siêu năng lực thực sự trong việc học chữ Hán.</p>
+<h2>Tại sao những người cấp tiến lại thay đổi mọi thứ</h2>
+<p>Không có gốc tự do, mỗi chữ kanji là một thiết kế độc đáo để ghi nhớ. Với bộ gốc, mỗi chữ kanji là sự kết hợp của những phần bạn đã biết. Dưới đây là ba ví dụ cụ thể.</p>
+<h3>Ví dụ 1: Thủy cấp tiến (水/氵)</h3>
+<p>Gốc 水 (nước) xuất hiện ở dạng rút gọn là 氵 (ba giọt bên trái). Một khi bạn nhận ra nó, tất cả những chữ kanji này sẽ trở nên trực quan:</p>
+<ul><li>海 (biển) = 氵 nước + 毎 mỗi → nước khắp nơi = biển</li><li>泳 (bơi) = 氵 nước + 永 vĩnh cửu → di chuyển trong nước mãi mãi = bơi</li><li>河 (sông) = 氵 nước + 可 thể → nước chảy = sông</li><li>湖 (hồ) = 氵 nước + 胡 cổ xưa → cổ xưa, nước tĩnh lặng = hồ</li><li>波 (sóng) = 氵 nước + 皮 da → nước da = sóng</li><li>洗 (rửa) = 氵 nước + 先 trước → cho nước vào trước = rửa</li></ul>
+<p>Sáu chữ Hán, một gốc. Thay vì ghi nhớ sáu bức vẽ vô nghĩa, bạn sẽ thấy logic. Và đây chỉ là sự khởi đầu.</p>
+<h3>Ví dụ 2: Gốc cây (木)</h3>
+<p>Gốc 木 (cây) xuất hiện trong nhiều chữ kanji liên quan đến thiên nhiên, gỗ và thực vật:</p>
+<ul><li>森 (rừng) = 木 + 木 + 木 → ba cây = rừng</li><li>林 (rừng) = 木 + 木 → hai cây = rừng</li><li>桜 (cây anh đào) = 木 + 女 + 女 → cây phụ nữ (hoa anh đào gắn liền với sắc đẹp)</li><li>机 (bàn) = 木 + 几 → gỗ + giá đỡ = bàn</li><li>板 (ván/ván) = 木 + 反 → gỗ phẳng = ván</li></ul>
+<h3>Ví dụ 3: Người cấp tiến (人/亻)</h3>
+<p>Chữ 人 (người) căn bản ở vị trí bên trở thành 亻. Nó xuất hiện trong nhiều chữ Hán liên quan đến hành động và điều kiện của con người:</p>
+<ul><li>休 (nghỉ ngơi) = 亻 người + 木 cây → người nằm dưới gốc cây</li><li>体 (cơ thể) = 亻 người + 本 nguồn gốc → nguồn gốc của con người = cơ thể</li><li>住 (sống) = 亻 người + 主 chủ sở hữu → người sở hữu nơi này = sống</li><li>作 (do/tạo) = 亻 người + 乍 đột nhiên → người tạo ra = làm</li><li>何 (cái gì/cái gì) = 亻 người + 可 có thể → người hỏi cái gì và có thể = cái gì?</li></ul>
+<p>Kanjidon dạy cho bạn các gốc tự do theo đúng thứ tự, kèm theo cách ghi nhớ trực quan bằng tiếng Anh cho mỗi từ. Bạn không cần phải tự mình sáng tạo ra những câu chuyện: bạn có thể tìm thấy chúng sẵn sàng cho mỗi chữ kanji.</p>
+<h2>30 cấp tiến quan trọng nhất</h2>
+<p>Bạn không cần tất cả 214 để bắt đầu. 30 gốc này bao gồm khoảng 80% chữ kanji bạn sẽ gặp ở cấp độ N5-N3.</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>cấp tiến</th><th>Tên</th><th>Nghĩa</th><th>Kanji thông dụng</th></tr></thead>
+                <tbody><tr><td>人/亻</td><td>hito/ninben</td><td>Người</td><td>bạn đang ở đâu</td></tr><tr><td>口</td><td>kuchi</td><td>Miệng</td><td>知味吸呼品</td></tr><tr><td>日</td><td>xin chào/nichi</td><td>Chủ nhật</td><td>明時早昼暗</td></tr><tr><td>月</td><td>tsuki</td><td>Trăng/tháng</td><td>朝期明服脳</td></tr><tr><td>水/氵</td><td>mizu/sanzui</td><td>thác nước</td><td>海泳河湖洗</td></tr><tr><td>火/灬</td><td>xin chào/renga</td><td>Ngọn lửa</td><td>炎焼煮燃点</td></tr><tr><td>木</td><td>ki</td><td>Cây</td><td>森林桜机板</td></tr><tr><td>金</td><td>Kane</td><td>Kim loại/vàng</td><td>銀 鉄 針 鏡 鋼</td></tr><tr><td>土</td><td>tsuchi</td><td>Trái đất</td><td>地場塩城堂</td></tr><tr><td>山</td><td>yama</td><td>Núi</td><td>岩峠崎島岸</td></tr><tr><td>手/扌</td><td>te/tehen</td><td>Tay</td><td>持打押投指</td></tr><tr><td>心/忄</td><td>kokoro/risshinben</td><td>Trái tim/tâm trí</td><td>思感悲怒情</td></tr><tr><td>目</td><td>Tôi</td><td>Mắt</td><td>見眠眼瞬看</td></tr><tr><td>言/訁</td><td>koto/gonben</td><td>Từ</td><td>語話読記説</td></tr><tr><td>食/飠</td><td>shoku</td><td>Đồ ăn</td><td>飲 飯 餓 飼 館</td></tr><tr><td>力</td><td>chikara</td><td>Lực lượng</td><td>動助勉努功</td></tr><tr><td>女</td><td>onna</td><td>Đàn bà</td><td>好妹姉婚嫁</td></tr><tr><td>子</td><td>ko</td><td>Đứa trẻ</td><td>学字孫季存</td></tr><tr><td>大</td><td>Thôi nào</td><td>Tuyệt</td><td>天太奥央奈</td></tr><tr><td>小</td><td>bạn</td><td>Bé nhỏ</td><td>少尖省尚劣</td></tr><tr><td>田</td><td>ta</td><td>ruộng lúa</td><td>男 町 画 畑 略</td></tr><tr><td>石</td><td>ishi</td><td>Cục đá</td><td>岩砂研破確</td></tr><tr><td>糸</td><td>nó</td><td>Hàng ngang</td><td>紙組結織縁</td></tr><tr><td>竹</td><td>lấy</td><td>Cây tre</td><td>tình yêu</td></tr><tr><td>雨</td><td>tôi</td><td>Cơn mưa</td><td>雪雲電霧雷</td></tr><tr><td>門</td><td>thứ hai</td><td>Mang theo</td><td>開閉関間聞</td></tr><tr><td>車</td><td>Kuruma</td><td>Phương tiện giao thông</td><td>転 軽 輸 輪 載</td></tr><tr><td>足</td><td>ashi</td><td>Chân</td><td>路 跳 踊 距 跡</td></tr><tr><td>刀/刂</td><td>katana/rittou</td><td>thuổng</td><td>切分別判刻</td></tr><tr><td>貝</td><td>kai</td><td>Vỏ bọc</td><td>買 貸 費 貯 賞</td></tr></tbody>
+            </table></div>
+<h2>Cách sử dụng các cấp tiến để ghi nhớ Kanji phức tạp</h2>
+<p>Phương pháp này rất đơn giản: chia chữ kanji thành các gốc, sau đó tạo (hoặc tìm) một câu chuyện kết nối chúng. Dưới đây là năm ví dụ chi tiết.</p>
+<ul><li>休 (nghỉ ngơi) = 亻 người + 木 cây → Tưởng tượng một người mệt mỏi ngồi dưới gốc cây nghỉ ngơi. Đơn giản, trực quan, không thể quên.</li><li>明 (sáng) = 日 mặt trời + 月 mặt trăng → Khi cả mặt trời và mặt trăng đều nhìn thấy được thì ánh sáng sẽ tăng gấp đôi. Rất sáng.</li><li>好 (dễ chịu/tốt) = 女 phụ nữ + 子 con → Một người phụ nữ và đứa con của mình. Tình mẹ con là điều đẹp đẽ nhất. Tốt.</li><li>語 (lưỡi/ngôn ngữ) = 言 từ + 五 năm + 口 miệng → Năm miệng nói bằng lời. Ngôn ngữ.</li><li>体 (cơ thể) = 亻 người + 本 sách/nguồn gốc → Nguồn gốc của một người, nền tảng của anh ta. Cơ thể.</li></ul>
+<p>Mỗi chữ kanji trong Kanjidon thể hiện các thành phần căn bản và một câu chuyện dễ nhớ để ghi nhớ. Bạn không cần phải phát minh ra bất cứ điều gì: mở chữ kanji, đọc câu chuyện và bộ não của bạn sẽ làm phần còn lại. Với SRS, thuật toán sẽ quyết định thời điểm bắt bạn ôn lại từng chữ Hán, ngay khi bạn sắp quên nó.</p>
+<h2>214 người cấp tiến Khang Hy: Tất cả họ đều phục vụ?</h2>
+<p>Hệ thống cấp tiến Kangxi cổ điển có tổng cộng 214. Tin tốt: Bạn không cần phải học tất cả chúng trước khi bắt đầu học chữ kanji. 30 ký tự trong bảng trên bao gồm phần lớn các ký tự bạn sẽ gặp từ N5 đến N3. Tìm hiểu những người khác khi bạn gặp họ bằng chữ Hán nâng cao hơn. Nhiều trong số 214 gốc rất hiếm hoặc xuất hiện trong rất ít chữ Hán - học tất cả chúng cùng một lúc sẽ lãng phí thời gian.</p>
+<h2>Chiến lược: Làm thế nào để nghiên cứu những người cấp tiến</h2>
+<ul><li>Đầu tiên hãy tìm hiểu 30 gốc cơ bản từ bảng trên</li><li>Đối với mỗi từ, hãy ghi nhớ ý nghĩa và hình thức (kể cả dạng rút gọn, như 氵 cho nước)</li><li>Khi học một chữ Hán mới, hãy luôn xác định các gốc tự tạo nên nó</li><li>Tạo hoặc tìm một câu chuyện kết nối các gốc tự do với ý nghĩa của chữ Hán</li><li>Đừng học các gốc một cách cô lập trong nhiều tuần: hãy bắt đầu với chữ kanji ngay, sử dụng các gốc tự do làm công cụ</li><li>Thêm các gốc mới khi bạn gặp chúng trong chữ Hán nâng cao hơn</li></ul>
+<p>Những người cấp tiến không phải là điều kiện tiên quyết: chúng là một công cụ. Sử dụng chúng từ chữ kanji đầu tiên và chúng sẽ trở thành vũ khí bí mật của bạn. Thuật toán SRS của Kanjidon hiển thị cho bạn các gốc tự do trong bối cảnh chữ kanji thực, với lịch sử ghi nhớ cho mọi ký tự từ cấp N5 đến N1. Bắt đầu miễn phí và khám phá mọi việc dễ dàng hơn biết bao khi chữ kanji không còn là những hình vẽ bí ẩn nữa mà là sự kết hợp hợp lý của các mảnh ghép mà bạn đã biết.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ban cung co the thich</h3>
+                <div class="related-grid">
+                    
+                    <a href="/vi/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/vi/blog/hoc-kanji-mat-bao-lau/" class="related-card">
+                        <h4>Mất bao lâu để học Kanji? (Số thực)</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                    <a href="/vi/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Bat dau hoc kanji hom nay</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇻🇳</span>
+                        <span class="language-name">Tiếng Việt</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option active">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>อนุมูลคันจิ: 2,000 ตัวอักษรกลายเป็น 200 | Kanjidon</title>
+    <meta name="description" content="ค้นพบอนุมูลคันจิ: องค์ประกอบพื้นฐาน 214 องค์ประกอบที่ปลดล็อคอักขระนับพัน คำแนะนำเกี่ยวกับอนุมูลที่สำคัญที่สุด 30 ตัวพร้อมตัวอย่างที่ใช้งานได้จริง">
+    <meta name="keywords" content="อนุมูลคันจิ, อนุมูลญี่ปุ่น, ส่วนประกอบของคันจิ, คู่มืออนุมูล, 214 อนุมูล, อนุมูลคังซี">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/guida-radicali-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/guide-radicaux-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/guia-radicales-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/kanji-radikale-guide/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/guia-radicais-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/radikaly-kanji-gid/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-bushu-gaideu/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/kanji-bushou-zhinan/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/kanji-bushou-zhinan-tw/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/dalil-judhor-kanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-radical-guide-hi/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/huong-dan-bo-thu-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/panduan-radikal-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/panduan-radikal-kanji-ms/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-radikal-rehberi/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/przewodnik-radykaly-kanji/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/rahnama-radical-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/gabay-radical-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/kanji-radicals-guide/">
+
+    <meta property="og:title" content="อนุมูลคันจิ: 2,000 ตัวอักษรกลายเป็น 200">
+    <meta property="og:description" content="ค้นพบอนุมูลคันจิ: องค์ประกอบพื้นฐาน 214 องค์ประกอบที่ปลดล็อคอักขระนับพัน คำแนะนำเกี่ยวกับอนุมูลที่สำคัญที่สุด 30 ตัวพร้อมตัวอย่างที่ใช้งานได้จริง">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/th/blog/khumu-radical-kanji/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="อนุมูลคันจิ: 2,000 ตัวอักษรกลายเป็น 200">
+    <meta name="twitter:description" content="ค้นพบอนุมูลคันจิ: องค์ประกอบพื้นฐาน 214 องค์ประกอบที่ปลดล็อคอักขระนับพัน คำแนะนำเกี่ยวกับอนุมูลที่สำคัญที่สุด 30 ตัวพร้อมตัวอย่างที่ใช้งานได้จริง">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "อนุมูลคันจิ: 2,000 ตัวอักษรกลายเป็น 200",
+        "description": "ค้นพบอนุมูลคันจิ: องค์ประกอบพื้นฐาน 214 องค์ประกอบที่ปลดล็อคอักขระนับพัน คำแนะนำเกี่ยวกับอนุมูลที่สำคัญที่สุด 30 ตัวพร้อมตัวอย่างที่ใช้งานได้จริง",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/th/blog/khumu-radical-kanji/"
+        },
+        "datePublished": "2025-12-26",
+        "dateModified": "2025-12-26"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/th/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "อนุมูลคันจิ: 2,000 ตัวอักษรกลายเป็น 200",
+                        "item": "https://kanjidon.com/th/blog/khumu-radical-kanji/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/th/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/th/blog/">Blog</a>
+                <a href="/th/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/th/">Home</a>
+                <span class="separator">›</span>
+                <a href="/th/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">อนุมูลคันจิ: 2,000 ตัวอักษรกลายเป็น 200</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>อนุมูลคันจิ: 2,000 ตัวอักษรกลายเป็น 200</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">26 ธ.ค. 2568</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">2,136 ตัวอักษรคันจิที่จะเรียนรู้ แค่อ่านตัวเลขก็กังวลแล้ว แต่มีความลับที่เปลี่ยนแปลงทุกสิ่ง: ตัวละคร 2,136 ตัวนั้นถูกสร้างขึ้นจากชิ้นส่วนพื้นฐาน 214 ชิ้นเดียวกันที่เรียกว่าอนุมูล การเรียนรู้รากศัพท์และวิธีการเรียนรู้ตัวอักษรก่อนคำศัพท์: เมื่อคุณรู้ส่วนต่างๆ แล้ว คันจิที่ซับซ้อนจะกลายเป็นการผสมผสานที่สมเหตุสมผล ไม่ใช่การออกแบบที่ลึกลับ</p>
+<h2>อนุมูลคืออะไร?</h2>
+<p>Radicals (bushu, 部首) เป็นองค์ประกอบพื้นฐานของตัวอักษรคันจิ คันจิแต่ละตัวประกอบด้วยอนุมูลตั้งแต่หนึ่งตัวขึ้นไป คิดว่าพวกมันเหมือนกับตัวอักษรในตัวอักษร: ด้วยตัวมันเองพวกมันไม่ได้มีความหมายอะไรมาก แต่เมื่อรวมกันพวกมันก็สร้างคำศัพท์ได้หลายพันคำ ระบบคลาสสิกมี 214 (รากของ Kangxi) แต่ในทางปฏิบัติในชีวิตประจำวันประมาณ 30-50 ครอบคลุมตัวอักษรคันจิส่วนใหญ่ที่คุณจะพบ</p>
+<p>รากศัพท์แต่ละตัวมีความหมาย และมักจะแนะนำความหมายหรือหมวดหมู่ของคันจิที่มีอยู่ อนุมูลน้ำ (氵) ปรากฏในตัวอักษรคันจิที่เกี่ยวข้องกับของเหลว บุคคลหัวรุนแรง (亻) ปรากฏในตัวอักษรคันจิที่เกี่ยวข้องกับการกระทำของมนุษย์ การตระหนักถึงรูปแบบเหล่านี้เป็นพลังพิเศษที่แท้จริงในการเรียนคันจิ</p>
+<h2>เหตุใด Radicals จึงเปลี่ยนแปลงทุกสิ่ง</h2>
+<p>คันจิแต่ละตัวได้รับการออกแบบให้จดจำอย่างมีเอกลักษณ์ ด้วยเครื่องหมายราก ตัวอักษรคันจิแต่ละตัวคือการรวมกันของชิ้นส่วนที่คุณรู้จักอยู่แล้ว นี่เป็นตัวอย่างที่ชัดเจนสามตัวอย่าง</p>
+<h3>ตัวอย่างที่ 1: หัวรุนแรงของน้ำ (水/氵)</h3>
+<p>รากศัพท์ 水 (น้ำ) ปรากฏในรูปแบบย่อเป็น 氵 (สามหยดทางด้านซ้าย) เมื่อคุณจำได้แล้ว คันจิทั้งหมดเหล่านี้จะกลายมาเป็นสัญชาตญาณ:</p>
+<ul><li>海 (ทะเล) = 氵 น้ำ + 毎 ทุก → น้ำทุกที่ = ทะเล</li><li>泳 (ว่ายน้ำ) = 氵 น้ำ + 永 ชั่วนิรันดร์ → เคลื่อนตัวในน้ำตลอดไป = ว่ายน้ำ</li><li>河 (แม่น้ำ) = 氵 น้ำ + 可 เป็นไปได้ → น้ำไหล = แม่น้ำ</li><li>湖 (ทะเลสาบ) = 氵 น้ำ + 胡 โบราณ → น้ำนิ่ง = ทะเลสาบ</li><li>波 (คลื่น) = 氵 น้ำ + 皮 ผิว → ผิวน้ำ = คลื่น</li><li>洗 (ล้าง) = 氵 น้ำ + 先 ก่อน → ใส่น้ำก่อน = ล้าง</li></ul>
+<p>คันจิหกตัว หนึ่งราก แทนที่จะท่องจำภาพวาดที่ไร้ความหมายหกภาพ คุณจะมองเห็นตรรกะ และนี่เป็นเพียงจุดเริ่มต้น</p>
+<h3>ตัวอย่างที่ 2: รากของต้นไม้ (木)</h3>
+<p>รากศัพท์ 木 (ต้นไม้) ปรากฏในตัวอักษรคันจิหลายตัวที่เกี่ยวข้องกับธรรมชาติ ไม้ และพืช:</p>
+<ul><li>森 (ป่า) = 木 + 木 + 木 → ต้นไม้สามต้น = ป่า</li><li>林 (ป่า) = 木 + 木 → ต้นไม้สองต้น = ป่า</li><li>桜 (ต้นซากุระ) = 木 + 女 + 女 → ต้นของผู้หญิง (ดอกซากุระเกี่ยวข้องกับความงาม)</li><li>机 (โต๊ะ) = 木 + 几 → ไม้ + ตัวรองรับ = โต๊ะ</li><li>板 (ไม้กระดาน/กระดาน) = 木 + 反 → ไม้เรียบ = ไม้กระดาน</li></ul>
+<h3>ตัวอย่างที่ 3: หัวรุนแรงของบุคคล (人/亻)</h3>
+<p>人 หัวรุนแรง (บุคคล) ในตำแหน่งด้านข้างกลายเป็น 亻ปรากฏในตัวอักษรคันจิหลายตัวที่เกี่ยวข้องกับการกระทำและเงื่อนไขของมนุษย์:</p>
+<ul><li>休 (พักผ่อน) = 亻 คน + 木 ต้นไม้ → คนพักผ่อนใต้ต้นไม้</li><li>体 (ร่างกาย) = 亻 คน + 本 ต้นกำเนิด → ต้นกำเนิดของบุคคล = ร่างกาย</li><li>住 (อยู่) = 亻 คน + 主 เจ้าของ → คนที่เป็นเจ้าของ = อยู่</li><li>作 (ทำ/สร้าง) = 亻 คน + 乍 จู่ๆ → คนสร้าง = ทำ</li><li>何 (อะไร/อะไร) = 亻 คน + 可 เป็นไปได้ → คนที่ถามอะไร และเป็นไปได้ = อะไร?</li></ul>
+<p>คันจิด้งจะสอนคุณเกี่ยวกับอนุมูลตามลำดับที่ถูกต้อง โดยมีภาพช่วยจำเป็นภาษาอังกฤษสำหรับแต่ละรายการ คุณไม่จำเป็นต้องประดิษฐ์เรื่องราวขึ้นมาเอง เพราะคุณสามารถค้นหาเรื่องราวเหล่านั้นให้พร้อมสำหรับคันจิแต่ละตัวได้</p>
+<h2>30 อนุมูลที่สำคัญที่สุด</h2>
+<p>คุณไม่จำเป็นต้องมีทั้งหมด 214 เพื่อเริ่มต้น อนุมูล 30 ตัวนี้ครอบคลุมประมาณ 80% ของตัวอักษรคันจิที่คุณจะพบในระดับ N5-N3</p>
+<div class="table-wrapper"><table>
+                <thead><tr><th>หัวรุนแรง</th><th>ชื่อ</th><th>ความหมาย</th><th>คันจิทั่วไป</th></tr></thead>
+                <tbody><tr><td>人/亻</td><td>ฮิโตะ/นินเบ็น</td><td>บุคคล</td><td>休体住作何</td></tr><tr><td>口</td><td>คูจิ</td><td>ปาก</td><td>知味吸呼品</td></tr><tr><td>日</td><td>สวัสดี/นิจิ</td><td>วันอาทิตย์</td><td>明時早昼暗</td></tr><tr><td>月</td><td>ซึกิ</td><td>จันทร์/เดือน</td><td>朝期明服脳</td></tr><tr><td>水/氵</td><td>มิซุ/ซันซุย</td><td>น้ำตก</td><td>海泳河湖洗</td></tr><tr><td>火/灬</td><td>สวัสดี/เร็นก้า</td><td>ไฟ</td><td>炎焼煮燃点</td></tr><tr><td>木</td><td>คิ</td><td>ต้นไม้</td><td>森林桜机板</td></tr><tr><td>金</td><td>เคน</td><td>โลหะ/ทอง</td><td>銀鉄針鏡鋼</td></tr><tr><td>土</td><td>ซึจิ</td><td>โลก</td><td>地場塩城堂</td></tr><tr><td>山</td><td>ยามะ</td><td>ภูเขา</td><td>岩峠崎島岸</td></tr><tr><td>手/扌</td><td>เต้/เทเฮน</td><td>มือ</td><td>持打押投指</td></tr><tr><td>心/忄</td><td>โคโคโระ/ริสชินเบ็น</td><td>หัวใจ/จิตใจ</td><td>思感悲怒情</td></tr><tr><td>目</td><td>ฉัน</td><td>ดวงตา</td><td>見眠眼瞬看</td></tr><tr><td>言/訁</td><td>โคโตะ/กอนเบ็น</td><td>คำ</td><td>語話読記説</td></tr><tr><td>食/飠</td><td>โชคุ</td><td>อาหาร</td><td>飲 飯 餓 飼 館</td></tr><tr><td>力</td><td>ชิการะ</td><td>บังคับ</td><td>動助勉努功</td></tr><tr><td>女</td><td>ออนนา</td><td>ผู้หญิง</td><td>好妹姉婚嫁</td></tr><tr><td>子</td><td>เกาะ</td><td>เด็ก</td><td>学字孫季存</td></tr><tr><td>大</td><td>มาเร็ว</td><td>ยอดเยี่ยม</td><td>天太奥央奈</td></tr><tr><td>小</td><td>โช</td><td>เล็ก</td><td>少尖省尚劣</td></tr><tr><td>田</td><td>ตา</td><td>นาข้าว</td><td>男町画畑略</td></tr><tr><td>石</td><td>อิชิ</td><td>หิน</td><td>岩砂研破確</td></tr><tr><td>糸</td><td>อิโต้</td><td>แถว</td><td>紙組結織縁</td></tr><tr><td>竹</td><td>เอา</td><td>ไม้ไผ่</td><td>笑筆箱簡算</td></tr><tr><td>雨</td><td>ฉัน</td><td>ฝน</td><td>雪雲電霧雷</td></tr><tr><td>門</td><td>จันทร์</td><td>นำมา</td><td>開閉関間聞</td></tr><tr><td>車</td><td>คุรุมะ</td><td>ยานพาหนะ</td><td>転軽輸輪載</td></tr><tr><td>足</td><td>อาชิ</td><td>เท้า</td><td>路 跳 踊 距 跡</td></tr><tr><td>刀/刂</td><td>คาตานะ/ริตตู</td><td>จอบ</td><td>切分別判刻</td></tr><tr><td>貝</td><td>ไก่</td><td>เปลือก</td><td>買貸費貯賞</td></tr></tbody>
+            </table></div>
+<h2>วิธีใช้ Radicals เพื่อจำตัวอักษรคันจิที่ซับซ้อน</h2>
+<p>วิธีการนั้นง่ายมาก: แบ่งคันจิออกเป็นราก จากนั้นสร้าง (หรือค้นหา) เรื่องราวที่เชื่อมโยงพวกมัน ต่อไปนี้เป็นตัวอย่างโดยละเอียด 5 ตัวอย่าง</p>
+<ul><li>休 (พักผ่อน) = 亻 คน + 木 ต้นไม้ → ลองนึกภาพคนเหนื่อยๆ นั่งอยู่ใต้ต้นไม้เพื่อพักผ่อน เรียบง่าย มองเห็นได้ ไม่อาจลืมเลือน</li><li>明 (สว่าง) = 日ดวงอาทิตย์ + 月 ดวงจันทร์ → เมื่อมองเห็นดวงอาทิตย์และดวงจันทร์ แสงจะเพิ่มเป็นสองเท่า สดใสมาก.</li><li>好 (น่าพอใจ/ดี) = 女 ผู้หญิง + 子 ลูก → ผู้หญิงกับลูก ความผูกพันแม่ลูกคือสิ่งที่สวยงามที่สุด ดี.</li><li>語 (ลิ้น/ภาษา) = 言 คำ + 五 ห้า + 口 ปาก → ห้าปากที่พูดด้วยคำพูด ภาษา.</li><li>体 (ร่างกาย) = 亻 คน + 本 หนังสือ/ต้นกำเนิด → ต้นกำเนิดของบุคคล พื้นฐานของเขา ร่างกาย.</li></ul>
+<p>คันจิแต่ละตัวในคันจิด้งจะแสดงองค์ประกอบที่ต่างไปจากเดิมอย่างสิ้นเชิงและเรื่องราวช่วยในการจำ คุณไม่จำเป็นต้องประดิษฐ์อะไรเลย แค่เปิดตัวอักษรคันจิ อ่านเรื่องราว แล้วสมองของคุณก็จะจัดการส่วนที่เหลือ ด้วย SRS อัลกอริธึมจะตัดสินใจว่าเมื่อใดที่จะทำให้คุณทบทวนตัวอักษรคันจิแต่ละตัว และเมื่อคุณกำลังจะลืมมัน</p>
+<h2>214 อนุมูลคังซี: พวกเขาทั้งหมดทำหน้าที่หรือไม่?</h2>
+<p>ระบบรากของคังซีแบบคลาสสิกมีทั้งหมด 214 ระบบ ข่าวดี: คุณไม่จำเป็นต้องเรียนรู้ทั้งหมดก่อนที่จะเริ่มเรียนคันจิ 30 ตัวในตารางด้านบนครอบคลุมอักขระส่วนใหญ่ที่คุณจะพบตั้งแต่ N5 ถึง N3 เรียนรู้ผู้อื่นเมื่อคุณเผชิญหน้าพวกเขาด้วยตัวอักษรคันจิขั้นสูง ตัวอักษรคันจิทั้ง 214 ตัวนั้นหายากหรือมีตัวคันจิน้อยมาก การเรียนรู้พวกมันทั้งหมดในคราวเดียวจะเสียเวลา</p>
+<h2>กลยุทธ์: วิธีการศึกษาหัวรุนแรง</h2>
+<ul><li>ขั้นแรกให้เรียนรู้อนุมูลพื้นฐาน 30 ตัวจากตารางด้านบน</li><li>แต่ละตัวให้จำความหมายและรูป (แม้ตัวย่อ เช่น 氵 แปลว่า น้ำ)</li><li>เมื่อศึกษาคันจิใหม่ ให้ระบุรากที่ประกอบขึ้นเสมอ</li><li>สร้างหรือค้นหาเรื่องราวที่เชื่อมโยงอนุมูลกับความหมายของคันจิ</li><li>อย่าศึกษาอนุมูลแยกกันเป็นเวลาหลายสัปดาห์: เริ่มด้วยตัวคันจิทันทีโดยใช้อนุมูลเป็นเครื่องมือ</li><li>เพิ่มรากใหม่เมื่อคุณพบพวกมันด้วยตัวอักษรคันจิขั้นสูง</li></ul>
+<p>Radicals ไม่ใช่สิ่งที่จำเป็นต้องมี แต่เป็นเครื่องมือ ใช้พวกมันตั้งแต่คันจิตัวแรกแล้วพวกมันจะกลายเป็นอาวุธลับของคุณ อัลกอริธึม SRS ของคันจิดอนจะแสดงรากศัพท์ในบริบทของคันจิจริง พร้อมประวัติช่วยในการจำสำหรับตัวละครทุกตัวตั้งแต่ระดับ N5 ถึง N1 เริ่มต้นฟรีและค้นพบว่ามันจะง่ายแค่ไหนเมื่อตัวอักษรคันจิไม่ใช่ภาพวาดลึกลับอีกต่อไป แต่เป็นการผสมผสานตรรกะของชิ้นส่วนที่คุณรู้จักอยู่แล้ว</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Khun aat chob sing ni duay</h3>
+                <div class="related-grid">
+                    
+                    <a href="/th/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/th/blog/rian-kanji-chai-wela-thaorai/" class="related-card">
+                        <h4>ใช้เวลานานแค่ไหนในการเรียนรู้คันจิ? (จำนวนจริง)</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                    <a href="/th/blog/hiragana-katakana-kanji/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji: Which First?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Rerm rian kanji wan ni</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇭</span>
+                        <span class="language-name">ไทย</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option active">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>
