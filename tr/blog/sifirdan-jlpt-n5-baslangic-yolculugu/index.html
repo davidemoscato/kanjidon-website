@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Sıfırdan JLPT N5&#039;e: Kanjidon ile Bir Başlangıç Yolculuğu | Kanjidon</title>
+    <meta name="description" content="Tipik bir başlangıç seviyesinin sıfır Japoncadan JLPT N5&#039;e 6 aylık yolculuğunu takip et. Hafta hafta döküm: kana, ilk kanji, SRS rutinleri ve gerçek ilerleme kilometre taşları.">
+    <meta name="keywords" content="kanji öğrenme başlangıç, jlpt n5 yolculuğu, kanji öğrenme yolu, başlangıç japonca, kanji nasıl başlanır, aralıklı tekrar, kanji uygulaması, japonca öğren">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/da-zero-a-jlpt-n5-viaggio-principiante/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/de-zero-au-jlpt-n5-parcours-debutant/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/de-cero-al-jlpt-n5-viaje-principiante/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/von-null-zum-jlpt-n5-anfaengerreise/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/do-zero-ao-jlpt-n5-jornada-iniciante/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/zero-buteo-jlpt-n5-choboja-yeojeong/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/cong-ling-dao-jlpt-n5-xinshoulucheng/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/zero-se-jlpt-n5-shuruat-ka-safar/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jak-suun-thueng-jlpt-n5-senthang-phuerimton/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tu-zero-den-jlpt-n5-hanh-trinh-nguoi-moi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/dari-nol-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/dari-sifar-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/od-zera-do-jlpt-n5-podroz-poczatkujacego/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/az-sefr-ta-jlpt-n5-safar-mobtadi/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/mula-sa-zero-hanggang-jlpt-n5-paglalakbay-ng-baguhan/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+
+    <meta property="og:title" content="Sıfırdan JLPT N5&#039;e: Kanjidon ile Bir Başlangıç Yolculuğu">
+    <meta property="og:description" content="Tipik bir başlangıç seviyesinin sıfır Japoncadan JLPT N5&#039;e 6 aylık yolculuğunu takip et. Hafta hafta döküm: kana, ilk kanji, SRS rutinleri ve gerçek ilerleme kilometre taşları.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sıfırdan JLPT N5&#039;e: Kanjidon ile Bir Başlangıç Yolculuğu">
+    <meta name="twitter:description" content="Tipik bir başlangıç seviyesinin sıfır Japoncadan JLPT N5&#039;e 6 aylık yolculuğunu takip et. Hafta hafta döküm: kana, ilk kanji, SRS rutinleri ve gerçek ilerleme kilometre taşları.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Sıfırdan JLPT N5'e: Kanjidon ile Bir Başlangıç Yolculuğu",
+        "description": "Tipik bir başlangıç seviyesinin sıfır Japoncadan JLPT N5'e 6 aylık yolculuğunu takip et. Hafta hafta döküm: kana, ilk kanji, SRS rutinleri ve gerçek ilerleme kilometre taşları.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/"
+        },
+        "datePublished": "2026-02-21",
+        "dateModified": "2026-02-21"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/tr/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Sıfırdan JLPT N5'e: Kanjidon ile Bir Başlangıç Yolculuğu",
+                        "item": "https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Sıfır Japoncadan JLPT N5'e ulaşmak ne kadar sürer?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Çoğu öğrenci günde 15-20 dakika düzenli çalışmayla 4-6 ayda JLPT N5 seviyesine ulaşır. Temel faktör tutarlılıktır, maraton çalışma seansları değil. Aralıklı tekrar, kısa seanslarda bile akılda kalma oranını yüksek tutar."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Kanjiden önce hiragana ve katakana öğrenmem gerekiyor mu?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Evet. Hiragana ve katakana Japonca okumanın temelini oluşturur. Çoğu başlangıç seviyesi 1-2 haftada hiragana, 1-2 hafta daha katakana öğrenir. Kana okuyabildiğinde kanji öğrenmek çok daha kolay hale gelir çünkü furigana (okunuş kılavuzları) okuyabilirsin."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "JLPT N5 için kaç kanji gerekiyor?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "JLPT N5 yaklaşık 80-100 kanji gerektirir. Bunlar sayıları, haftanın günlerini, temel fiilleri ve 人 (kişi), 日 (gün), 大 (büyük) gibi günlük kavramları kapsar. Hiragana ve katakana ile birlikte bu kanjiler basit Japonca metinleri okumanı sağlar."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Sadece bir uygulamayla JLPT N5'i geçebilir miyim?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yapılandırılmış içerik ve aralıklı tekrar içeren bir uygulama N5 kanji ve kelime bilgisinin çoğunu karşılayabilir. Ancak JLPT dilbilgisi ve dinleme de test eder, bu yüzden dilbilgisi çalışması ve Japonca ses içeriğiyle desteklemen önerilir."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Başlangıç seviyesinde kanji öğrenmenin en zor kısmı nedir?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Çoğu başlangıç seviyesi 50-80 kanji civarında karakterler birbirine benzemeye başlayınca bir duvara çarpar. 待 ve 持, veya 末 ve 未 gibi kanjiler kolayca karıştırılır. Anımsatıcılar kullanmak, radikalleri öğrenmek ve karışıklığı çözmek için aralıklı tekrara güvenmek bu aşamayı aşmanın en iyi stratejileridir."
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/tr/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/tr/blog/">Blog</a>
+                <a href="/tr/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/tr/">Home</a>
+                <span class="separator">›</span>
+                <a href="/tr/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Sıfırdan JLPT N5&#039;e: Kanjidon ile Bir Başlangıç Yolculuğu</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Sıfırdan JLPT N5&#039;e: Kanjidon ile Bir Başlangıç Yolculuğu</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">21 Şub 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Yüzlerce anime bölümü izledin. Ses efektlerinin gizemli karalamalar olarak kaldığı mangalar okudun. Bir noktada aklından bir düşünce geçiyor: ya gerçekten Japonca öğrensem? Bu makale tipik bir başlangıç yolculuğunun nasıl göründüğünü çiziyor — kesinlikle hiçbir şey bilmemekten yaklaşık altı ayda JLPT N5 seviyesine ulaşmaya kadar. Tatlı söz yok, imkansız vaatler yok, sadece önündeki yolun ne içerdiğine dürüst bir bakış.</p>
+<h2>Başlangıç Çizgisi: Hiçbir Şey Bilmiyorsun (Ve Bu Normal)</h2>
+<p>Tipik bir başlangıç seviyesi aynı yerden başlar: belki &quot;konnichiwa&quot; diyebilir ve &quot;kanji&quot; kelimesini tanır ama hiragana veya katakananın ne olduğu hakkında en ufak bir fikri yoktur. Japoncada üç yazı sistemi var ve bu gerçek tek başına birçok insanı başlamadan önce durduruyor. İşte gerçeklik kontrolü: bugün Japonca okuyan herkes bir zamanlar tam olarak senin olduğun yerdeydi. Yazı sistemleri başlayana kadar imkansız görünüyor, sonra beklediğinden daha hızlı tık yapıyor.</p>
+<p>Bu aşamadaki en yaygın hata her şeyi bir anda öğrenmeye çalışmaktır. Bir ders kitabı açıp 1. Bölümde hiragana, katakana, kanji, dilbilgisi ve kelime bilgisinin hepsini gören başlangıçlar bunalmış hissedip bırakma eğilimindeler. Başarılı olan öğrenciler farklı bir yaklaşım benimser: alfabe ile başlayarak bir seferde tek bir şeye odaklanırlar.</p>
+<h2>Hafta 1-2: Kana Aşaması</h2>
+<h3>Hafta 1: Hiragana — İlk Japonca Alfaben</h3>
+<p>Hiragana her yolculuğun başladığı yerdir. Bu 46 karakter Japoncadaki her sesi temsil eder ve sonra gelen her şeyin temelini oluşturur. Kanjidon kullanan çoğu öğrenci ilk hiragana paketlerini açar ve sesli harflerle başlar: あ (a), い (i), う (u), え (e), お (o). Birkaç seans içinde dikkat çekici bir şey olur. Anime açılışlarında, manga başlıklarında ve Japon yemek ambalajlarında gördüğün karakterleri tanımaya başlarsın. Romaji yerine gerçek hiragana kullanarak すし (sushi) okuduğun o ilk an gerçekten heyecan verici.</p>
+<p>Quiz tabanlı yaklaşım burada iyi işler çünkü kana temelde tanıma ve hatırlama ile ilgilidir. あ görürsün, &quot;a&quot; düşünürsün. Aralıklı tekrar ile flash kart tarzı tekrar, bu karakterleri defalarca yazmaktan çok daha hızlı hafızana yerleştirir. Çoğu başlangıç seviyesi günde 15-20 dakika pratikle 5-7 gün içinde tüm 46 hiraganayı bitirir.</p>
+<h3>Hafta 2: Katakana — Köşeli İkiz</h3>
+<p>Katakana hiragana ile aynı sesleri kapsar ama daha keskin, daha köşeli şekillerle. Yabancı kelimeler için kullanılır ve burada anime hayranları avantaj kazanır: animedeki birçok karakter adı ve saldırı adı katakana ile yazılır. ナルト&#039;un &quot;Naruto&quot; ve ドラゴンボール&#039;un &quot;Dragon Ball&quot; olduğunu fark ettiğinde yazı sistemi yabancı hissettirmeyi bırakıp kırdığın bir şifre gibi hissettirmeye başlar.</p>
+<p>Katakana, hiragana&#039;dan biraz daha zor olma eğilimindedir çünkü bazı karakterler birbirine benzer (シ ve ツ, ソ ve ン klasik karışıklık çiftleridir). Bu normal. SRS bunu kafa karıştırıcı olanları beynin ayırt edene kadar daha sık göstererek halleder. İkinci haftanın sonunda çoğu öğrenci her iki kana sistemini de okuyabilir; bu da teknik olarak kana ile yazılmış herhangi bir Japonca kelimeyi okuyabilecekleri anlamına gelir, anlamını henüz anlamasalar bile.</p>
+<h2>Hafta 3-4: İlk Kanjilerin</h2>
+<p>Asıl yolculuk burada başlıyor. Kana&#039;yı fethetlikten sonra çoğu başlangıç seviyesi kendinden emin ve istekli hisseder. Kanjidon seni en sezgisel N5 kanjileriyle başlatır — anlamlarına benzeyenler veya basit mantık izleyenler. İlk kanjilerin genellikle sayılardır: 一 (bir), 二 (iki), 三 (üç). Bunlar kelimenin tam anlamıyla bir, iki ve üç yatay çizgi. Sadelik kasıtlıdır. Karmaşıklık artmadan önce güven inşa eder.</p>
+<p>Sonra resimsel kanjiler gelir — resimlerden evrilmiş olanlar: 日 (güneş/gün) güneşe benzer, 月 (ay/ay) hilal aya benzer, 山 (dağ) dağ zirvelerine benzer, 川 (nehir) akan suya benzer. Bu görsel bağlantılar ilk kanji grubunu neredeyse sezgisel hissettirir.</p>
+<h3>Radikal &quot;Aha&quot; Anı</h3>
+<p>Kanji numarası 20-30 civarında çoğu öğrenci ilk gerçek atılımına ulaşır. Kanjilerin rastgele çizgi koleksiyonları olmadığını keşfederler. Radikal adı verilen daha küçük bileşenlerden oluştuklarını görürler. 休 (dinlenme) kanjisi klasik örnektir: solda 人 (kişi) ve sağda 木 (ağaç) birleşir. Ağaca yaslanıp dinlenen bir kişi. Bunu bir kez görünce artık görmeden edemezsin. Kanjiler gizemli çizimler olmaktan çıkıp mantıksal bulmacalara dönüşür.</p>
+<p>Anımsatıcıların güçlendiği an da burasıdır. 明 (parlak) kanjisi 日 (güneş) ve 月 (ay) birleştirir. Güneş artı ay eşittir parlak — gökyüzündeki en parlak iki şey bir arada. Kanjidon her kanji için anımsatıcılar sağlar ve her birini hafızanda ezbere tekrardan çok daha iyi yapışan küçük bir hikayeye dönüştürür.</p>
+<h2>Ay 2-3: Duvar (Ve Nasıl Tırmanılır)</h2>
+<p>Dürüstlüğün önemli olduğu yer burası. 50-80 kanji civarında çoğu öğrenci deneyimli öğrencilerin &quot;duvar&quot; dediği şeye çarpar. İlk heyecan söner. Kanjiler birbirine benzemeye başlar. 待 (bekle) ile 持 (tut) aynı sağ tarafı paylaştığı için karıştırırsın. 末 (son) ile 未 (henüz değil) arasında tek fark hangi yatay çizginin daha uzun olduğu olduğu için karıştırırsın. Geçen hafta kesinlikle bildiğinden emin olduğun kanjileri unutmaya başlarsın.</p>
+<p>Bu tamamen normal ve çoğu insanın bıraktığı tam da bu nokta. Devam eden öğrenciler ortak bir özellik paylaşır: duygularına değil sisteme güvenirler. Beynin sana &quot;bunları asla hatırlamayacağım&quot; demesi bir gerçek değil. Bir his. Aralıklı tekrar tam da bu an için tasarlandı. Unutmak üzere olduğun kanjileri tam unutmadan önce gösterir ve her seferinde sinirsel yolu güçlendirir.</p>
+<h3>Bu Aşamada İşe Yarayan Stratejiler</h3>
+<ul><li>Radikallere odaklan: iki kanji benzer göründüğünde farklı olan radikali belirle. Radikaller benzer kanjileri ayırt etmek için kopya kağıdın.</li><li>Günlük yeni kanji sayını azalt: günde 5-7 yeni kanji yapıyorduysan 3-4&#039;e düşür ve tekrara daha fazla zaman ayır. Kalıcılık kalitesi maruz kalma miktarını yener.</li><li>Hikayeler özelliğini kullan: kanjiyi bağlamda (basit cümleler bile) okumak anlamı izole flash kartlardan çok daha iyi pekiştirir. 大きい犬 (büyük köpek) görmek 大 (büyük) yapıştırır çünkü somut bir şeye bağlanır.</li><li>Tekrar günlerini atlama: bir tekrar seansı kaçırmak sorun değil. Arka arkaya üç kaçırmak bunaltıcı bir birikme yaratır. Yoğun bir günde bile beş dakika tekrar SRS döngüsünü korur.</li></ul>
+<h2>Ay 4-5: Rutin ve İvme</h2>
+<p>Duvarı aştıysan bir şey değişir. Dördüncü ay civarında günlük çalışma irade gerektirmeyi bırakıp alışkanlığa dönüşür. Bu aşamadaki çoğu başarılı öğrenci günde 15-20 dakikalık tutarlı bir rutine oturmuştur. Uygulamayı yolculukta, öğle molasında veya yatmadan önce açarlar. Temel içgörü, Japonca öğrenmenin uzun ve ara sıra yapılan seanslardan ziyade kısa ve sık seanslarda en iyi işlediğidir.</p>
+<p>Bu noktada tipik bir öğrenci 60-80 kanji bilir ve bileşik kelimelerin oluştuğunu görmeye başlar. 日 (gün) ve 本 (köken) birleşerek 日本 (Japonya, tam anlamıyla &quot;güneşin kökeni&quot;) oluştuğunu öğrenirsin. Ya da 学 (çalışma) ve 生 (hayat) birleşerek 学生 (öğrenci) oluştuğunu. Bu bileşik kelimeler son derece tatmin edicidir çünkü kanji mantığının daha yüksek bir seviyede nasıl çalıştığını gösterirler.</p>
+<h3>PvP Savaşları: Beklenmedik Motivasyon</h3>
+<p>Bu aynı zamanda birçok öğrencinin Kanjidon&#039;daki PvP savaşlarını keşfettiği aşamadır. Diğer öğrencilere karşı gerçek zamanlı kanji quizlerinde yarışmak saf kendi kendine çalışmanın sağlayamayacağı bir motivasyon katmanı ekler. Başka bir insanın senden daha hızlı cevap verdiğini görmekte daha çok çalışma isteği uyandıran bir şey var. Sıralama sistemi (E seviyesinden S seviyesine) sadece kanji saymaktan öte somut bir ilerleme ölçüsü verir.</p>
+<p>Savaşlar ayrıca zayıf noktalarını acımasızca ortaya çıkarır. Zaman baskısı altında 右 (sağ) ile 左 (sol) karıştırdığın için bir tur kaybettiğinde o kanji çifti hafızana kazınır. Rekabet baskısı rahat tekrardan daha güçlü anılar oluşturur; doğru yapıldığında oyunlaştırma dil öğreniminde bu yüzden işe yarar.</p>
+<h3>Zayıf Noktaların İçin Özel Desteler</h3>
+<p>Dördüncü veya beşinci ay itibariyle her öğrencinin yapışmayan benzersiz bir kanji seti vardır. Belki yön kanjilerini (東西南北) sürekli karıştırıyorsun veya zamanla ilgili kanjilerin okumalarını hatırlayamıyorsun. Özel desteler bu sorunlu kanjileri odaklanmış bir çalışma setine çekmeni sağlar. SRS&#039;nin tekrar göstermesini beklemek yerine zayıf noktalarını doğrudan çalışabilirsin. Bunu hedefli antrenman olarak düşün: ana SRS programı büyük resmi halleder, özel destelerin inatçı istisnaları halleder.</p>
+<h2>Ay 6: Gerçek Japonca Okumak</h2>
+<p>Altı ay sonra, yaklaşık 80-100 kanji ve sağlam kana becerileriyle dikkat çekici bir şey olur: gerçek Japonca okumaya başlarsın. Akıcı değil. Zahmetsiz değil. Ama gerçekten okumak — sadece tek tek karakterleri tanımak değil.</p>
+<p>İlk işaretler beklenmedik yerlerde ortaya çıkar. Japon restoranında bir tabelada 入口 (giriş) ve 出口 (çıkış) görürsün ve anında anlarsın. Bir anime bölümü izler ve 大丈夫 (daijoubu, sorun yok) sadece sesle değil altyazıdaki kanjiyi tanıyarak yakalar. Manga açarsın ve her kanjinin üstündeki furiganayı okuyabildiğini fark edersin ve daha basit kanjiler için furiganaya bile ihtiyacın yok artık.</p>
+<h3>N5 Seviyesi Gerçekte Nasıl Hissettiriyor</h3>
+<p>N5 seviyesinin pratikte ne anlama geldiği konusunda gerçekçi olalım. Basit tabelaları ve etiketleri okuyabilirsin. Temel yazılı talimatları anlayabilirsin. Furigana (kanjilerin üzerindeki okunuş kılavuzları) bulunan mangaları takip edebilirsin. Anime diyaloglarından kelimeleri ve kısa cümleleri yakalayabilirsin. Politika hakkında sohbet etmiyorsun veya roman okumuyorsun. N5 temeldir — bu dili öğrenebileceğinin kanıtı, gerçek tırmanışın başladığı ana kamp.</p>
+<p>Ama önemli olan şu: altı ay önce 日本語&#039;ya baktın ve anlamsız semboller gördün. Şimdi &quot;nihongo&quot; görüyorsun ve &quot;Japonca&quot; anlamına geldiğini biliyorsun. Bu dönüşüm gerçek ve tamamen tutarlı şekilde göstermenin sonucu.</p>
+<h2>İşe Yarayan Günlük Rutin</h2>
+<p>Yüzlerce öğrenciyi N5&#039;ten geçerken izledikten sonra gerçekten kalıcı olan rutin için net bir kalıp ortaya çıkıyor. Karmaşık değil ve tam da bu yüzden işe yarıyor.</p>
+<ul><li>Sabah (5 dakika): Uygulamayı aç ve SRS tekrarlarını yap. Bunlar algoritmanın bugün için planladığı kanjiler. Bu adımı atla — yapabileceğin en önemli şey bu.</li><li>Öğle veya yolculuk (5-10 dakika): Mevcut paketinden yeni kanjiler öğren. Seans başına 3-5 yeni kanji hedefle. Anımsatıcıları oku, radikalleri çalış ve ilk quizleri tamamla.</li><li>Akşam (5 dakika): Hızlı tekrar seansı veya PvP savaşı. Savaşlar geceleri iyi işler çünkü çalışmaktan çok oyun gibi hissettirir.</li><li>Hafta sonu bonusu (15-20 dakika): Hikayeleri keşfetmek, özel desteler üzerinde çalışmak veya görevleri tamamlamak için daha uzun seans. Bu senin pekiştirme ve ekstra ilgi gerektiren kanjilere derinlemesine dalma zamanın.</li></ul>
+<p>Toplam süre: hafta içi 15-20 dakika, hafta sonları biraz daha fazla. Gerçekten ihtiyacın olan bu kadar. Sır tek bir seansta ne kadar çalıştığın değil; art arda kaç gün geldiğin. 10 dakikalık seanslarla 100 günlük bir seri, her defasında birkaç 3 saatlik ezber seansını yener.</p>
+<h2>Kaçınılması Gereken Yaygın Hatalar</h2>
+<p>Her başlangıç hatalar yapar. N5&#039;e ulaşan öğrenciler hataları tamamen önleyenler değil; hataları erken fark edip düzeltenlerdir. İşte en yaygın tuzaklar.</p>
+<ul><li>Kana&#039;yı atlayıp doğrudan kanjiye geçmek: Bu yürümeden koşmaya çalışmak gibi. Sağlam kana becerileri olmadan furigana okuyamazsın, kelime arayamazsın ve kanji okumaları anlam ifade etmez. İlk iki haftanı kana&#039;ya ayır. Büyük karşılığını verir.</li><li>Sadece anlamları öğrenip okumaları görmezden gelmek: Kanjilerin on&#039;yomi (Çince okumalar) ve kun&#039;yomi (Japonca okumalar) vardır. Başlangıçlar genellikle anlamlar öğrenmesi &quot;daha kolay&quot; hissettirdiği için okumaları atlar. Ama okumalar kanjileri kelime ve cümlelerde gerçekten kullanmak için gereklidir.</li><li>Her kanjiyi elle yazmaya çalışmak: El yazısı değerlidir ama ilerlemenizi engellememeli. Önce tanımaya odaklan. Sağlam bir tanınan kanji tabanın olduktan sonra el yazısı pratiği ekleyebilirsin.</li><li>SRS yerine JLPT öncesi ezber yapmak: Ezber tarih sınavı için işe yarar. Kanji için işe yaramaz. Aralıklı tekrar uzun süreli bellek oluşturur; ezber günler içinde kaybolan kısa süreli hatırlama oluşturur.</li><li>Kendini başkalarıyla karşılaştırmak: Reddit&#039;te biri N5 kanjiyi iki ayda öğrenmiş. Bir başkası sekiz ay sürmüş. İkisi de geçerli. Hızın ana diline, müsait zamanına ve öğrenme tarzına bağlı. Önemli olan tek karşılaştırma bugünkü sen ile geçen ayki sensin.</li></ul>
+<h2>Her Aşamada Hangi Özellikleri Kullanmalısın</h2>
+<p>Kanjidon&#039;da çok özellik var ve her şeyi bir anda denemek cazip gelebilir. İşte neye ne zaman odaklanacağına dair aşama aşama kılavuz.</p>
+<ul><li>Hafta 1-2 (Kana): Paketlere ve quizlere odaklan. Hiragana paketlerini aç, sonra katakana. En iyi quiz türleri temel tanıma ve çoktan seçmeli.</li><li>Hafta 3-6 (İlk Kanji): Paketler ve anımsatıcılar en iyi arkadaşların. Her anımsatıcıyı dikkatlice oku. Basit cümle bağlamında kanjiyi görmek için hikayeler özelliğini kullan.</li><li>Ay 2-3 (Duvar): SRS tekrarlarına ağır şekilde dayan. Tekrar kuyruğunu görmezden gelme. Bağlamsal pekiştirme için hikayeler ekle. Kanji yapışmıyorsa radikallerini kontrol et.</li><li>Ay 4-5 (Rutin): Motivasyon için PvP savaşlarını tanıt. Kalıcı zayıf noktaların için özel desteler oluştur. Yapılandırılmış hedefler için görevler üzerinde çalışmaya başla.</li><li>Ay 6 (Pekiştirme): Tüm özellikleri karıştır. Savaşlar hızı, SRS akılda kalıcılığı, hikayeler okuduğunu anlamayı, özel desteler boşlukları test eder. Bu çeşitlilik çalışmanın monoton hissettirmesini önler.</li></ul>
+<h2>N5&#039;in Ötesi: Sırada Ne Var</h2>
+<p>N5&#039;e ulaşmak gerçek bir başarı ama aynı zamanda sadece başlangıç. N5 sana yaygın kullanımdaki 2.136&#039;dan yaklaşık 100 kanji verir. İyi haber şu ki N5&#039;e ulaşırken edindiğin beceriler (radikalleri tanıma, SRS kullanma, günlük alışkanlıklar kurma) doğrudan N4 ve ötesine ölçeklenir. Öğrenme yöntemi değişmez; sadece hacim ve karmaşıklık artar.</p>
+<p>N5&#039;e ulaşan çoğu öğrenci hızlarının aslında arttığını fark eder. Radikalleri daha hızlı tanırsın, yeni ve bilinen kanji arasında daha kolay bağlantı kurarsın ve belirsizliğe toleransın artar. N5&#039;te çarptığın duvar en zor duvardı. N4&#039;ün kendi zorlukları var ama bunlarla daha iyi araçlar ve daha fazla güvenle yüzleşirsin.</p>
+<h2>Bu Yolculuk Hakkında Dürüst Gerçek</h2>
+<p>Japonca öğrenmek zor. Aksini söyleyen bir şey satıyordur. Ama &quot;zor&quot; &quot;imkansız&quot; veya &quot;hoş olmayan&quot; anlamına gelmiyor. Kanjilerin tekrar anlamsız karalamalar gibi göründüğü günler, dün bildiğin karakterleri unuttuğun günler, bunun çabaya değip değmediğini sorguladığın günler olacak. İlk kez tam bir cümle okuduğun günler, altyazısız animede bir şakayı anladığın günler, bir Japonun dillerini okuyabildiğine şaşırdığı günler de olacak.</p>
+<p>Sıfırdan N5&#039;e yolculuk günde 15 dakika göstermenin altı ayı. Oyun gibi hissettirir. Gerçek JLPT eğitimi gibi çalışır. Ve altı ay sonra bugün başladığına sevineceksin.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Bunlari da begenebilirsin</h3>
+                <div class="related-grid">
+                    
+                    <a href="/tr/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/tr/blog/kanji-radikal-rehberi/" class="related-card">
+                        <h4>Kanji Radikalleri: 2.000 Karakter 200 Oldu</h4>
+                        <span class="read-time">12 min</span>
+                    </a>
+                    <a href="/tr/blog/kanji-ogrenmek-ne-kadar-surer/" class="related-card">
+                        <h4>Kanji&#039;yi Öğrenmek Ne Kadar Sürer? (Gerçek Sayılar)</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Bugun kanji ogrenmeye basla</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇷</span>
+                        <span class="language-name">Türkçe</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option active">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

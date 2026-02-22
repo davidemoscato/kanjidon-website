@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>От N4 к N3: как учащиеся среднего уровня преодолевают барьер с Kanjidon | Kanjidon</title>
+    <meta name="description" content="Застрял на среднем уровне японского? Узнай, как типичные учащиеся N4 преодолевают плато кандзи и достигают N3 с интервальным повторением, PvP-битвами и мнемониками.">
+    <meta name="keywords" content="подготовка jlpt n3, средний уровень кандзи, n4 к n3, плато кандзи, средний уровень японского, учить кандзи, приложение кандзи, интервальное повторение">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ru/blog/ot-n4-k-n3-put-srednego-urovnya/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/from-n4-to-n3-intermediate-journey/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/da-n4-a-n3-percorso-intermedio/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/de-n4-a-n3-parcours-intermediaire/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/de-n4-a-n3-recorrido-intermedio/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/von-n4-zu-n3-mittelstufe-durchbruch/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/de-n4-a-n3-jornada-intermediaria/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/ot-n4-k-n3-put-srednego-urovnya/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/n4-eseo-n3-euro-junggeup-yeojeong/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/cong-n4-dao-n3-zhongjizhe-tupo/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/cong-n4-dao-n3-zhongjizhe-tupo/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/min-n4-ila-n3-rihla-mutawassit/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/n4-se-n3-madhyavarti-safar/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jak-n4-thueng-n3-senthang-radabklang/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tu-n4-den-n3-hanh-trinh-trung-cap/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/dari-n4-ke-n3-perjalanan-menengah/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/dari-n4-ke-n3-perjalanan-pertengahan/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/n4-den-n3-e-orta-seviye-yolculugu/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/od-n4-do-n3-podroz-sredniozaawansowanego/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/az-n4-ta-n3-safar-motevassete/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/mula-n4-hanggang-n3-paglalakbay-ng-intermediate/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/from-n4-to-n3-intermediate-journey/">
+
+    <meta property="og:title" content="От N4 к N3: как учащиеся среднего уровня преодолевают барьер с Kanjidon">
+    <meta property="og:description" content="Застрял на среднем уровне японского? Узнай, как типичные учащиеся N4 преодолевают плато кандзи и достигают N3 с интервальным повторением, PvP-битвами и мнемониками.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ru/blog/ot-n4-k-n3-put-srednego-urovnya/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="От N4 к N3: как учащиеся среднего уровня преодолевают барьер с Kanjidon">
+    <meta name="twitter:description" content="Застрял на среднем уровне японского? Узнай, как типичные учащиеся N4 преодолевают плато кандзи и достигают N3 с интервальным повторением, PvP-битвами и мнемониками.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "От N4 к N3: как учащиеся среднего уровня преодолевают барьер с Kanjidon",
+        "description": "Застрял на среднем уровне японского? Узнай, как типичные учащиеся N4 преодолевают плато кандзи и достигают N3 с интервальным повторением, PvP-битвами и мнемониками.",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ru/blog/ot-n4-k-n3-put-srednego-urovnya/"
+        },
+        "datePublished": "2026-02-21",
+        "dateModified": "2026-02-21"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ru/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "От N4 к N3: как учащиеся среднего уровня преодолевают барьер с Kanjidon",
+                        "item": "https://kanjidon.com/ru/blog/ot-n4-k-n3-put-srednego-urovnya/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Сколько времени нужно, чтобы перейти от JLPT N4 к N3?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Большинству учащихся требуется 4-8 месяцев регулярных ежедневных занятий (20-30 минут), чтобы перейти с N4 на N3. Сроки зависят от того, насколько хорошо ты усвоил материал N4 и используешь ли структурированные инструменты с интервальным повторением. При целенаправленной учёбе и SRS 6 месяцев — реалистичная цель."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Сколько новых кандзи нужно выучить для JLPT N3?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "JLPT N3 требует примерно 620 кандзи в сумме. Если ты уже знаешь ~300 кандзи с N5 и N4, тебе нужно выучить около 370 новых. Они включают более абстрактные понятия, составные слова и кандзи с несколькими чтениями."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Почему учащиеся среднего уровня японского упираются в плато?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Плато среднего уровня возникает потому, что кандзи N3 сложнее, имеют больше чтений и всё больше похожи друг на друга. Простое заучивание перестаёт работать. Нужны системные подходы — разложение на радикалы, контекстное обучение и активное припоминание через разнообразные типы квизов, чтобы продолжать двигаться."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Достаточно ли Anki для подготовки к JLPT N3?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Anki — мощный инструмент SRS, но большинство учащихся среднего уровня с ним мучаются, потому что он требует создавать или искать качественные колоды, не предлагает структуры или учебного плана и обеспечивает лишь пассивный просмотр карточек. Специализированное приложение для кандзи добавляет мнемоники, множество типов квизов, контекстные истории и элементы соревнования, которые поддерживают вовлечённость в сложный материал."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Что делает JLPT N3 сложнее N4?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "N3 считается самым большим скачком в системе JLPT. Ты переходишь с ~300 до ~620 кандзи, словарный запас удваивается, а грамматика становится значительно тоньше. Кандзи на этом уровне имеют больше чтений, встречаются в большем числе составных слов, и многие иероглифы обманчиво похожи. N3 — это место, где случайные ученики отделяются от серьёзных."
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ru/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ru/blog/">Blog</a>
+                <a href="/ru/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ru/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ru/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">От N4 к N3: как учащиеся среднего уровня преодолевают барьер с Kanjidon</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>От N4 к N3: как учащиеся среднего уровня преодолевают барьер с Kanjidon</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">21 февр. 2026 г.</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">9 мин</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Ты знаешь хирагану и катакану назубок. Ты покорил 300 или около того кандзи с N5 и N4. Ты можешь читать простые предложения, заказывать еду по-японски и, может быть, даже следить за несложной мангой. Но что-то изменилось. Новые кандзи все стали выглядеть одинаково. Чтения сливаются. Прогресс, который раньше был увлекательным, теперь ощущается как продирание через мокрый бетон. Добро пожаловать на плато среднего уровня — этап, на котором большинство изучающих японский тихо сдаются. Но тебе это не обязательно.</p>
+<h2>Стена среднего уровня: почему переход с N4 на N3 — самый сложный</h2>
+<p>Спроси любого преподавателя японского — скажут одно и то же: переход с N4 на N3 — это самый трудный скачок во всей системе JLPT. Переход с N5 на N4 ощущается естественно — ты достраиваешь базу, добавляя распространённые глаголы и повседневные кандзи. Но N3 — это место, где японский перестаёт быть хобби и начинает требовать настоящей отдачи.</p>
+<p>Цифры говорят сами за себя. N5 и N4 вместе требуют примерно 300 кандзи. Один N3 добавляет ещё 370. Но дело не только в объёме — дело в сложности. Кандзи N3 имеют больше чтений, встречаются в большем числе составных слов, и многие из них раздражающе похожи на уже знакомые. Возьми 待 (ждать) и 持 (держать): одинаковый правый компонент, совершенно разные значения. Это мир, в который ты входишь.</p>
+<p>Типичный учащийся среднего уровня на этом этапе знает достаточно, чтобы быть «опасным», но недостаточно, чтобы чувствовать себя комфортно. Ты узнаёшь 食べる (taberu — есть) не задумываясь, но 届ける (todokeru — доставлять) каждый раз ставит в тупик. Ты понимаешь базовые грамматические конструкции, но N3 вводит условные формы, пассивные конструкции и каузативные глаголы, от которых голова идёт кругом. Медовый месяц новичка официально закончен.</p>
+<h2>Цикл разочарования: что не работает на этом уровне</h2>
+<p>Большинство учащихся среднего уровня уже попробовали несколько подходов, прежде чем нашли то, что действительно работает. Разочарование — не от недостатка усилий, а от использования инструментов, не предназначенных для этого конкретного вызова.</p>
+<h3>Ловушка Anki</h3>
+<p>Anki — фантастический движок SRS, и многие учащиеся клянутся им, и не без оснований. Но на уровне N3 его слабости начинают проявляться. Ты тратишь больше времени на создание и настройку колод, чем на собственно учёбу. Формат карточек — увидеть кандзи, вспомнить значение — проверяет только один тип знаний. Ты можешь узнать 読 отдельно, но замираешь, увидев 読書 (dokusho — чтение) в предложении. Anki проверяет узнавание. N3 требует понимания.</p>
+<h3>Потолок Duolingo</h3>
+<p>Duolingo великолепен для старта и базовой грамматики. Но его подход через предложения не учит кандзи системно. На среднем уровне тебе нужно понимать радикалы, чтения и образование составных слов — ничего из этого Duolingo не предназначен покрывать. Ты упираешься в потолок, где приложение продолжает учить новые предложения, но ты не можешь реально прочитать кандзи в них без фуриганы.</p>
+<h3>Учебниковая рутина</h3>
+<p>Genki провёл тебя через N5 и N4. Tobira или Shin Kanzen Master — стандартные учебники N3. Они основательные и хорошо структурированные, но им не хватает одной вещи, которая делает разницу на этом уровне: адаптивного интервального повторения. Учебник представляет кандзи в фиксированном порядке и ожидает, что ты будешь повторять по своему расписанию. Без SRS, отслеживающего каждый отдельный кандзи, ты в итоге слишком часто повторяешь лёгкие и слишком редко — те, что на самом деле тебя подводят.</p>
+<h2>Поворотный момент: структурированный путь через N3</h2>
+<p>Прорыв у большинства учащихся среднего уровня происходит не потому, что они учатся больше, а потому, что учатся умнее. А именно благодаря трём изменениям подхода: учить кандзи через их компоненты (радикалы), видеть кандзи в осмысленном контексте (истории и составные слова), проверять знания разнообразными методами активного припоминания вместо пассивных карточек.</p>
+<p>Структурированный путь N3 в Kanjidon разбивает 370 новых кандзи на управляемые уроки, организованные по радикалам и тематическим группам. Ты изучаешь строительные блоки сначала, затем видишь, как они комбинируются в нужные тебе кандзи. Вместо стены из 370 символов ты поднимаешься по лестнице.</p>
+<h3>Откровение радикалов</h3>
+<p>На уровне N3 радикалы перестают быть опцией и становятся необходимостью. Возьми радикал 言 (речь/говорить). Как только ты его распознаёшь, целое семейство кандзи встаёт на место: 読 (читать), 話 (разговаривать), 語 (язык), 説 (объяснять), 調 (исследовать), 議 (обсуждать). Это уже не случайные символы — это логические комбинации. Система радикалов делает это явным, показывая тебе компоненты каждого кандзи с мнемониками, которые запоминаются.</p>
+<p>Вот откровение составных кандзи, которое меняет всё для учащихся среднего уровня. Когда ты видишь, что 言 (говорить) входит в состав 読 (читать), и мнемоника связывает их, иероглиф перестаёт быть абстрактным и становится историей. Звучит глупо, но через шесть месяцев ты всё ещё будешь это помнить. В этом сила структурированных мнемоник над зубрёжкой.</p>
+<h2>Месяцы 1-2: построение базы с контекстом</h2>
+<p>Первая фаза — изменить твоё отношение к кандзи. Вместо заучивания изолированных иероглифов ты начинаешь учить их через истории — короткие увлекательные повествования, использующие кандзи N3 в естественном контексте. Когда ты встречаешь 届 (доставить) в истории об отправке посылки другу, он перестаёт быть абстрактным символом и становится словом, которое ты использовал.</p>
+<p>На этом этапе большинство учащихся среднего уровня осваивают 8-12 новых кандзи в неделю, что кажется медленным по сравнению с темпом повторения N5. Но качество обучения совершенно другое. Каждый кандзи идёт с разбором по радикалам, мнемонической историей, чтениями ON и KUN в контексте и примерами составных слов. За два месяца ты добавишь примерно 80-100 новых кандзи, но, что важнее, усвоишь систему для изучения любого встреченного кандзи.</p>
+<ul><li>Учи радикалы первыми, потом составные кандзи — порядок критически важен на этом уровне</li><li>Используй истории, чтобы видеть кандзи в естественном контексте, а не в изоляции карточек</li><li>Сосредоточься на составных словах: 読書 (чтение), 会話 (разговор), 説明 (объяснение) — именно так кандзи встречаются в реальной жизни</li><li>Не пропускай чтения ON. Грамматика и лексика N3 сильно опираются на ON-ёми составные слова</li><li>Повторяй кандзи N4 параллельно с новым материалом — интервальное повторение поддерживает твою базу крепкой</li></ul>
+<h2>Месяцы 3-4: прорыв плато</h2>
+<p>К третьему месяцу происходит кое-что интересное. Ты выучил достаточно кандзи N3, чтобы начать видеть паттерны, но также накопил завал похожих иероглифов, которые постоянно тебя подводят. Это критический момент — точка, где большинство учащихся среднего уровня либо застревают, либо прорываются.</p>
+<p>Прорыв обычно приходит от двух функций, которые превращают пассивное знание в активное припоминание: PvP-битвы и пользовательские колоды.</p>
+<h3>PvP-битвы: давление создаёт беглость</h3>
+<p>Система PvP-битв Kanjidon — не фишка ради фишки, это ускоритель обучения. Когда ты сражаешься с реальным игроком и у тебя секунды, чтобы определить чтение кандзи, нет времени мысленно проходить мнемонику по шагам. Твой мозг вынужден создавать прямые связи между символом и значением. Это именно тот автоматический тип распознавания, который нужен на реальном экзамене JLPT, где давление времени реально.</p>
+<p>Система рангов (от уровня E до уровня S) добавляет соревновательную мотивацию, которую чистая учёба не может обеспечить. Большинство учащихся среднего уровня отмечают, что сражения с другими учениками аналогичного уровня заставляют их возвращаться ежедневно — чего приложения с карточками так и не смогли добиться. Ты не просто повторяешь — ты соревнуешься. А конкуренция, как оказывается, — один из лучших учителей.</p>
+<h3>Пользовательские колоды: прицельная работа с слабыми местами</h3>
+<p>У каждого учащегося среднего уровня есть личные кандзи-немезиды — те, в которых он ошибается раз за разом. Для многих это похожие пары: 待 (ждать) vs 持 (держать), 消 (стирать) vs 清 (чистый). Пользовательские колоды позволяют группировать эти проблемные кандзи и тренировать их целенаправленно. Вместо надежды, что алгоритм SRS когда-нибудь покажет их достаточно раз, ты активно атакуешь самые слабые точки.</p>
+<ul><li>Создай колоду «Путаные пары» для похожих кандзи: 待/持, 消/清, 読/続</li><li>Собери колоду «Путаница чтений» для кандзи, чьи ON и KUN чтения ты постоянно путаешь</li><li>Добавляй кандзи, в которых ошибаешься в PvP-битвах — именно они тебе нужнее всего</li><li>Повторяй пользовательские колоды в коротких, сфокусированных сессиях (5-10 минут) перед основной учёбой</li></ul>
+<h2>Месяцы 5-6: когда всё начинает складываться</h2>
+<p>Где-то к пятому месяцу учащиеся среднего уровня обычно переживают то, что ощущается как внезапный скачок в навыках. На самом деле ничего внезапного — это кумулятивный эффект пяти месяцев структурированного обучения, достигающий критической массы. Ты открываешь мангу и понимаешь, что можешь прочитать целую страницу, ничего не ища. Ты смотришь аниме и улавливаешь 60-70% диалога без субтитров. Кандзи на вывесках станций в японском контенте вдруг обретают смысл.</p>
+<p>К этому моменту большинство учащихся добавили 250-300 из 370 кандзи N3 в активное знание. Но важнее то, что система, которую они построили — радикалы, мнемоники, контекстное обучение, активное припоминание через битвы, — делает оставшиеся кандзи легче для изучения, чем первые. Кривая обучения на самом деле выравнивается, потому что мозг становится лучше в распознавании паттернов.</p>
+<h3>Момент пробного теста</h3>
+<p>Пройти пробный тест N3 в этот момент — одновременно страшно и приятно. Страшно — потому что секция грамматики всё ещё жёсткая. Приятно — потому что секции кандзи и лексики, которые раньше казались невозможными, теперь показывают проходные баллы. 9 разных типов квизов (значение, чтение, аудирование, письмо, перестановка слов и другие) тихо тренировали тебя именно для этого формата. Разнообразие важно: JLPT не проверяет кандзи одним способом, и твой учебный инструмент тоже не должен.</p>
+<h2>Почему средний уровень — самый сложный этап (и почему это хорошая новость)</h2>
+<p>Вот что никто не говорит, когда ты начинаешь учить японский: средний уровень сложен не потому, что материал невозможный, а потому, что твои ожидания не совпадают с реальностью. Новичком каждый новый кандзи был захватывающим. На среднем уровне ты уже достаточно знаешь, чтобы осознать, как много ты ещё не знаешь. Разрыв между твоими способностями и амбициями никогда не казался таким большим.</p>
+<p>Хорошая новость? Это разочарование — яснейший сигнал того, что ты вот-вот прорвёшься. Плато среднего уровня — это не стена, это фильтр. Все, кто сейчас свободно говорит по-японски, проходили через этот этап и чувствовали ровно то же, что чувствуешь ты. Прорвались те, кто нашёл метод, поддерживающий вовлечённость, когда мотивация падала.</p>
+<h2>5 уроков пути от N4 к N3</h2>
+<ul><li>Радикалы не опциональны на среднем уровне. Это главный ключ к тому, чтобы 370 новых кандзи казались управляемыми, а не подавляющими. Если ты пропустил их на N5 и N4, вернись и выучи сейчас.</li><li>Пассивного повторения недостаточно. Карточки проверяют узнавание. PvP-битвы, перестановка предложений и письменные квизы проверяют активное воспроизведение. Тебе нужно и то, и другое, и баланс должен смещаться к активному припоминанию по мере продвижения.</li><li>Контекст всегда побеждает изоляцию. Учить 届 в истории об отправке письма в десять раз эффективнее, чем видеть его на карточке. Истории и контекстное обучение существуют именно для этого.</li><li>Соревнование недооценивается как инструмент обучения. Таблица лидеров и система рангов создают причину учиться, не зависящую только от силы воли. Когда мотивация падает (а она упадёт), соревновательный инстинкт компенсирует.</li><li>Плато — временное явление. Каждый учащийся среднего уровня его проходит. Прорываются те, кто доверяет процессу и продолжает приходить. Шесть месяцев по 20 минут в день каждый раз побеждают шесть недель двухчасовых зубрёжек.</li></ul>
+<h2>Какие функции наиболее важны на среднем уровне</h2>
+<p>Не каждое приложение для кандзи создано для учащихся среднего уровня. Многие рассчитаны на новичков и просто добавляют больше контента на высших уровнях без изменения методологии. На этапе N3 тебе нужны конкретные функции, решающие проблемы, специфичные для среднего уровня.</p>
+<ul><li>Индивидуальное отслеживание SRS для каждого кандзи — не на уровне урока, не на уровне колоды, а интервальное повторение на уровне отдельного иероглифа, адаптирующееся к твоим личным слабым местам</li><li>Множество типов квизов — значение, чтение, аудирование, письмо, перестановка предложений. JLPT проверяет знания с разных сторон, и твой инструмент тоже должен</li><li>Разложение на радикалы — разбор сложных кандзи на изучаемые компоненты с визуальными мнемониками</li><li>Контекстное обучение — истории и примеры предложений, показывающие кандзи в естественном употреблении, а не просто изолированные определения</li><li>Активное припоминание под давлением — квизы на время или PvP-битвы, вынуждающие быстро вспоминать, формируя автоматическое узнавание для экзамена</li><li>Пользовательские колоды — возможность группировать и целенаправленно тренировать конкретные проблемные кандзи вместо равномерного повторения всего</li></ul>
+<p>Kanjidon создан именно по этим принципам. Он охватывает все 2 136 дзёё-кандзи от каны до N1, с 9 типами квизов, структурированными мнемониками на 21 языке, PvP-битвами с подбором соперников в реальном времени и системой SRS, отслеживающей каждый кандзи индивидуально. Ощущается как игра. Работает как настоящая подготовка к JLPT.</p>
+<h2>Твой следующий шаг</h2>
+<p>Если ты это читаешь, ты, вероятно, где-то в этой неуютной промежуточной зоне. Ты знаешь слишком много, чтобы вернуться к материалам для новичков, но недостаточно, чтобы чувствовать себя уверенно с материалом для носителей. Это именно то место, где нужно быть. Плато среднего уровня — это не место, где мечты о японском умирают, — это место, где закаляются серьёзные ученики.</p>
+<p>Путь от N4 к N3 занимает примерно 6 месяцев последовательной, структурированной учёбы. Не 6 месяцев зубрёжки карточек. Не 6 месяцев надежды, что побольше аниме волшебным образом научит тебя чтениям кандзи. Шесть месяцев систематического изучения радикалов, контекстных историй, разнообразных типов квизов и активного припоминания через соревнование. У плато нет шансов.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Vam takzhe mozhet ponravitsya</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ru/blog/kak-sdat-jlpt-strategii/" class="related-card">
+                        <h4>Как сдать JLPT: 10 стратегий, которые реально работают</h4>
+                        <span class="read-time">8 мин</span>
+                    </a>
+                    <a href="/ru/blog/put-k-n1-prodvinutyy-gid/" class="related-card">
+                        <h4>Путь к N1: как продвинутые ученики используют Kanjidon для освоения 2 000+ кандзи</h4>
+                        <span class="read-time">10 мин</span>
+                    </a>
+                    <a href="/ru/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Nachni izuchat kanzi segodnya</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇷🇺</span>
+                        <span class="language-name">Русский</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option active">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>من الصفر إلى JLPT N5: رحلة المبتدئ مع Kanjidon | Kanjidon</title>
+    <meta name="description" content="تابع رحلة مبتدئ نموذجية على مدى 6 أشهر من الصفر في اليابانية إلى JLPT N5. تفصيل أسبوعي: كانا، أول كانجي، روتين SRS، ومعالم تقدم حقيقية.">
+    <meta name="keywords" content="تعلم كانجي للمبتدئين، رحلة jlpt n5، مسار تعلم الكانجي، يابانية للمبتدئين، كيف تبدأ الكانجي، التكرار المتباعد، تطبيق كانجي، تعلم اليابانية">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/da-zero-a-jlpt-n5-viaggio-principiante/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/de-zero-au-jlpt-n5-parcours-debutant/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/de-cero-al-jlpt-n5-viaje-principiante/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/von-null-zum-jlpt-n5-anfaengerreise/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/do-zero-ao-jlpt-n5-jornada-iniciante/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/zero-buteo-jlpt-n5-choboja-yeojeong/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/cong-ling-dao-jlpt-n5-xinshoulucheng/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/zero-se-jlpt-n5-shuruat-ka-safar/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jak-suun-thueng-jlpt-n5-senthang-phuerimton/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tu-zero-den-jlpt-n5-hanh-trinh-nguoi-moi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/dari-nol-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/dari-sifar-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/od-zera-do-jlpt-n5-podroz-poczatkujacego/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/az-sefr-ta-jlpt-n5-safar-mobtadi/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/mula-sa-zero-hanggang-jlpt-n5-paglalakbay-ng-baguhan/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+
+    <meta property="og:title" content="من الصفر إلى JLPT N5: رحلة المبتدئ مع Kanjidon">
+    <meta property="og:description" content="تابع رحلة مبتدئ نموذجية على مدى 6 أشهر من الصفر في اليابانية إلى JLPT N5. تفصيل أسبوعي: كانا، أول كانجي، روتين SRS، ومعالم تقدم حقيقية.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="من الصفر إلى JLPT N5: رحلة المبتدئ مع Kanjidon">
+    <meta name="twitter:description" content="تابع رحلة مبتدئ نموذجية على مدى 6 أشهر من الصفر في اليابانية إلى JLPT N5. تفصيل أسبوعي: كانا، أول كانجي، روتين SRS، ومعالم تقدم حقيقية.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "من الصفر إلى JLPT N5: رحلة المبتدئ مع Kanjidon",
+        "description": "تابع رحلة مبتدئ نموذجية على مدى 6 أشهر من الصفر في اليابانية إلى JLPT N5. تفصيل أسبوعي: كانا، أول كانجي، روتين SRS، ومعالم تقدم حقيقية.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/"
+        },
+        "datePublished": "2026-02-21",
+        "dateModified": "2026-02-21"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ar/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "من الصفر إلى JLPT N5: رحلة المبتدئ مع Kanjidon",
+                        "item": "https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "كم يستغرق الانتقال من الصفر في اليابانية إلى JLPT N5؟",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "معظم المتعلمين يصلون إلى مستوى JLPT N5 خلال 4-6 أشهر مع دراسة يومية منتظمة لمدة 15-20 دقيقة. العامل الأساسي هو الاستمرارية، وليس جلسات الدراسة الطويلة. التكرار المتباعد يحافظ على نسبة حفظ عالية حتى مع الجلسات القصيرة."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "هل أحتاج لتعلم الهيراغانا والكاتاكانا قبل الكانجي؟",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "نعم. الهيراغانا والكاتاكانا هما أساس القراءة اليابانية. معظم المبتدئين يتعلمون الهيراغانا في 1-2 أسبوع والكاتاكانا في 1-2 أسبوع آخر. بمجرد أن تستطيع قراءة الكانا، يصبح تعلم الكانجي أكثر سلاسة لأنك تستطيع قراءة الفوريغانا (أدلة النطق)."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "كم عدد الكانجي الذي أحتاجه لـ JLPT N5؟",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "يتطلب JLPT N5 حوالي 80-100 كانجي. هذه تغطي الأرقام وأيام الأسبوع والأفعال الأساسية ومفاهيم يومية مثل 人 (شخص)، 日 (يوم)، و大 (كبير). مع الهيراغانا والكاتاكانا، تتيح لك هذه الكانجي قراءة نصوص يابانية بسيطة."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "هل يمكنني اجتياز JLPT N5 باستخدام تطبيق فقط؟",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "تطبيق يحتوي على محتوى منظم وتكرار متباعد يمكن أن يغطي معظم ما تحتاجه لكانجي ومفردات N5. لكن JLPT يختبر أيضًا القواعد والاستماع، لذلك يُنصح بإكمال الدراسة بالقواعد ومحتوى صوتي ياباني."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "ما أصعب جزء في تعلم الكانجي كمبتدئ؟",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "معظم المبتدئين يصطدمون بجدار عند حوالي 50-80 كانجي عندما تبدأ الحروف بالتشابه. كانجي مثل 待 و持، أو 末 و未، من السهل الخلط بينها. استخدام الحيل الذاكرية وتعلم الجذور والثقة بالتكرار المتباعد لحل الخلط هي أفضل استراتيجيات لتجاوز هذه المرحلة."
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ar/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ar/blog/">Blog</a>
+                <a href="/ar/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ar/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ar/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">من الصفر إلى JLPT N5: رحلة المبتدئ مع Kanjidon</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>من الصفر إلى JLPT N5: رحلة المبتدئ مع Kanjidon</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">٢١ فبراير ٢٠٢٦</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">لقد شاهدت مئات حلقات الأنمي. قرأت مانغا حيث تظل المؤثرات الصوتية رموزًا غامضة. في لحظة ما، تخطر لك فكرة: ماذا لو تعلمت اليابانية فعلاً؟ هذا المقال يرسم ما تبدو عليه رحلة المبتدئ النموذجية، من عدم معرفة أي شيء على الإطلاق إلى الوصول إلى مستوى JLPT N5 في حوالي ستة أشهر. بدون تجميل، بدون وعود مستحيلة، فقط نظرة صادقة على ما يحتويه الطريق أمامك.</p>
+<h2>نقطة الانطلاق: أنت لا تعرف شيئًا (وهذا طبيعي)</h2>
+<p>المبتدئ النموذجي يبدأ من نفس المكان: ربما يستطيع قول &quot;konnichiwa&quot; ويتعرف على كلمة &quot;كانجي&quot; لكن ليس لديه أدنى فكرة عن ماهية الهيراغانا أو الكاتاكانا. اليابانية لديها ثلاثة أنظمة كتابة، وهذه الحقيقة وحدها توقف الكثير من الناس قبل أن يبدأوا. إليك فحص الواقع: كل شخص يقرأ اليابانية اليوم كان في يوم ما في نفس المكان الذي أنت فيه الآن. أنظمة الكتابة تبدو مستحيلة حتى تبدأ، ثم تتضح أسرع مما تتوقع.</p>
+<p>الخطأ الأكثر شيوعًا في هذه المرحلة هو محاولة تعلم كل شيء دفعة واحدة. المبتدئون الذين يفتحون كتابًا دراسيًا ويرون الهيراغانا والكاتاكانا والكانجي والقواعد والمفردات كلها في الفصل الأول يميلون للشعور بالإرهاق والاستسلام. المتعلمون الذين ينجحون يتبعون نهجًا مختلفًا: يركزون على شيء واحد في كل مرة، بدءًا من الأبجدية.</p>
+<h2>الأسبوعان 1-2: مرحلة الكانا</h2>
+<h3>الأسبوع 1: الهيراغانا — أبجديتك اليابانية الأولى</h3>
+<p>الهيراغانا هي حيث تبدأ كل رحلة. هذه الأحرف الـ 46 تمثل كل صوت في اليابانية، وهي الأساس لكل ما يأتي بعدها. معظم المتعلمين الذين يستخدمون Kanjidon يفتحون أولى حزم الهيراغانا ويبدأون بالحروف المتحركة: あ (a)، い (i)، う (u)، え (e)، お (o). خلال جلسات قليلة، يحدث شيء رائع. تبدأ بالتعرف على حروف رأيتها في مقدمات الأنمي وعناوين المانغا وعبوات الطعام الياباني. تلك اللحظة التي تقرأ فيها すし (sushi) لأول مرة باستخدام هيراغانا فعلية بدلاً من الرومانجي هي لحظة مثيرة حقًا.</p>
+<p>النهج القائم على الاختبارات يعمل جيدًا هنا لأن الكانا تتعلق أساسًا بالتعرف والاسترجاع. ترى あ وتفكر &quot;a&quot;. التكرار بأسلوب البطاقات التعليمية مع فترات متباعدة يثبت هذه الحروف أسرع من كتابتها مرارًا وتكرارًا. معظم المبتدئين ينتهون من جميع الهيراغانا الـ 46 في 5-7 أيام مع 15-20 دقيقة من الممارسة اليومية.</p>
+<h3>الأسبوع 2: الكاتاكانا — التوأم الحاد</h3>
+<p>الكاتاكانا تغطي نفس الأصوات التي تغطيها الهيراغانا لكن بأشكال أكثر حدة وزوايا. تُستخدم للكلمات الأجنبية، وهنا يحصل محبو الأنمي على دفعة: العديد من أسماء الشخصيات وأسماء الهجمات في الأنمي مكتوبة بالكاتاكانا. عندما تدرك أن ナルト تعني &quot;Naruto&quot; وأن ドラゴンボール تعني &quot;Dragon Ball&quot;، يتوقف نظام الكتابة عن الشعور بالغرابة ويبدأ بالشعور وكأنه شفرة تقوم بفكها.</p>
+<p>الكاتاكانا تميل لأن تكون أصعب قليلاً من الهيراغانا لأن بعض الحروف تبدو متشابهة (シ وツ، ソ وン هي أزواج الخلط الكلاسيكية). هذا طبيعي. التكرار المتباعد يتعامل مع هذا بإظهار الحروف المربكة بشكل أكثر تكرارًا حتى يفرزها دماغك. بنهاية الأسبوع الثاني، يستطيع معظم المتعلمين قراءة كلا نظامي الكانا، مما يعني أنهم يستطيعون تقنيًا قراءة أي كلمة يابانية مكتوبة بالكانا، حتى لو لم يفهموا المعنى بعد.</p>
+<h2>الأسبوعان 3-4: كانجي الأولى</h2>
+<p>هنا تبدأ الرحلة الحقيقية. بعد التغلب على الكانا، يشعر معظم المبتدئين بالثقة والحماس. Kanjidon يبدأ بأكثر كانجي N5 بديهية، تلك التي تشبه ما تعنيه أو تتبع منطقًا بسيطًا. أول كانجي لك غالبًا هي الأرقام: 一 (واحد)، 二 (اثنان)، 三 (ثلاثة). هذه حرفيًا خط واحد وخطان وثلاثة خطوط أفقية. البساطة مقصودة. إنها تبني الثقة قبل أن يزداد التعقيد.</p>
+<p>ثم تأتي الكانجي التصويرية، تلك التي تطورت من صور: 日 (شمس/يوم) تشبه شمسًا، 月 (قمر/شهر) تشبه هلالًا، 山 (جبل) تشبه قممًا جبلية، 川 (نهر) تشبه مياهًا متدفقة. هذه الروابط البصرية تجعل أول مجموعة كانجي تبدو بديهية تقريبًا.</p>
+<h3>لحظة &quot;آها&quot; الجذور</h3>
+<p>حول الكانجي رقم 20-30، يصل معظم المتعلمين إلى أول اختراق حقيقي. يكتشفون أن الكانجي ليست مجموعات عشوائية من الخطوط. إنها مبنية من مكونات أصغر تسمى الجذور. الكانجي 休 (راحة) هو المثال الكلاسيكي: يجمع بين 人 (شخص) على اليسار و木 (شجرة) على اليمين. شخص يستند إلى شجرة، يستريح. بمجرد أن ترى هذا، لا يمكنك ألا تراه. تتوقف الكانجي عن كونها رسومات غامضة وتصبح ألغازًا منطقية.</p>
+<p>هذا أيضًا عندما تصبح الحيل الذاكرية قوية. الكانجي 明 (ساطع) يجمع بين 日 (شمس) و月 (قمر). الشمس زائد القمر يساوي الإشراق، أكثر شيئين لمعانًا في السماء معًا. Kanjidon يوفر حيلًا ذاكرية لكل كانجي، محولًا كل واحد إلى قصة صغيرة تلتصق بذاكرتك أفضل بكثير من الحفظ بالتكرار.</p>
+<h2>الشهران 2-3: الجدار (وكيف تتسلقه)</h2>
+<p>هنا حيث الصدق مهم. حول 50-80 كانجي، يصطدم معظم المتعلمين بما يسميه الطلاب المتمرسون &quot;الجدار&quot;. الحماس الأولي يتلاشى. الكانجي تبدأ بالتشابه. تخلط بين 待 (انتظر) و持 (أمسك) لأنهما يشتركان في نفس الجانب الأيمن. تخلط بين 末 (نهاية) و未 (ليس بعد) لأن الفرق الوحيد هو أي خط أفقي أطول. تبدأ بنسيان كانجي كنت متأكدًا أنك تعرفها الأسبوع الماضي.</p>
+<p>هذا طبيعي تمامًا، وهي النقطة بالضبط التي يستسلم فيها معظم الناس. المتعلمون الذين يتجاوزون هذه المرحلة يشتركون في سمة واحدة: يثقون بالنظام بدلاً من مشاعرهم. دماغك يخبرك &quot;لن أتذكر هذه أبدًا&quot; ليس حقيقة. إنه شعور. التكرار المتباعد مصمم خصيصًا لهذه اللحظة. يعرض لك الكانجي التي أنت على وشك نسيانها، قبل أن تنساها مباشرة، مما يقوي المسار العصبي في كل مرة.</p>
+<h3>استراتيجيات تنجح في هذه المرحلة</h3>
+<ul><li>ركز على الجذور: عندما تتشابه كانجي، حدد الجذر المختلف. الجذور هي شفرتك السرية للتمييز بين الكانجي المتشابهة.</li><li>قلل عدد الكانجي الجديدة يوميًا: إذا كنت تتعلم 5-7 كانجي جديدة يوميًا، انخفض إلى 3-4 واقضِ وقتًا أكثر في المراجعة. جودة الحفظ تتفوق على كمية التعرض.</li><li>استخدم ميزة القصص: قراءة الكانجي في سياق (حتى جمل بسيطة) يعزز المعنى أفضل بكثير من البطاقات التعليمية المعزولة. رؤية 大きい犬 (كلب كبير) تجعل 大 (كبير) تلتصق لأنها ترتبط بشيء ملموس.</li><li>لا تتخطى أيام المراجعة: تفويت جلسة مراجعة واحدة مقبول. تفويت ثلاثة على التوالي يخلق تراكمًا يبدو مرهقًا. حتى خمس دقائق من المراجعة في يوم مشغول تحافظ على دورة التكرار المتباعد.</li></ul>
+<h2>الشهران 4-5: الروتين والزخم</h2>
+<p>إذا تجاوزت الجدار، يتغير شيء ما. حول الشهر الرابع، تتوقف الدراسة اليومية عن الحاجة إلى قوة الإرادة وتصبح عادة. معظم المتعلمين الناجحين في هذه المرحلة قد استقروا على روتين يومي ثابت من 15-20 دقيقة. يفتحون التطبيق أثناء التنقل، أو أثناء استراحة الغداء، أو قبل النوم. الفكرة الأساسية هي أن تعلم اليابانية يعمل بشكل أفضل في جلسات قصيرة ومتكررة بدلاً من جلسات طويلة ومتباعدة.</p>
+<p>بحلول الآن، المتعلم النموذجي يعرف 60-80 كانجي ويبدأ برؤية الكلمات المركبة تتشكل. تتعلم أن 日 (يوم) و本 (أصل) يتحدان لتكوين 日本 (اليابان، حرفيًا &quot;أصل الشمس&quot;). أو أن 学 (دراسة) و生 (حياة) يتحدان لتكوين 学生 (طالب). هذه الكلمات المركبة مرضية للغاية لأنها تُظهر لك كيف يعمل منطق الكانجي على مستوى أعلى.</p>
+<h3>معارك PvP: دافع غير متوقع</h3>
+<p>هذه أيضًا المرحلة التي يكتشف فيها كثير من المتعلمين معارك PvP في Kanjidon. التنافس ضد متعلمين آخرين في اختبارات كانجي في الوقت الفعلي يضيف طبقة من التحفيز لا تستطيع الدراسة الذاتية البحتة مطابقتها. هناك شيء ما في رؤية إنسان آخر يجيب أسرع منك يجعلك تريد الدراسة بجدية أكبر. نظام التصنيف (من المرتبة E إلى المرتبة S) يمنحك مقياسًا ملموسًا للتقدم يتجاوز مجرد عد الكانجي.</p>
+<p>المعارك أيضًا تكشف نقاط ضعفك بلا رحمة. عندما تخسر جولة لأنك خلطت بين 右 (يمين) و左 (يسار) تحت ضغط الوقت، هذا الزوج من الكانجي ينطبع في ذاكرتك. الضغط التنافسي يخلق ذكريات أقوى من المراجعة المرتاحة، ولهذا يعمل التلعيب في تعلم اللغات عندما يُنفذ بشكل صحيح.</p>
+<h3>مجموعات مخصصة لنقاط ضعفك</h3>
+<p>بحلول الشهر الرابع أو الخامس، كل متعلم لديه مجموعة فريدة من الكانجي التي لا تلتصق. ربما تستمر في الخلط بين كانجي الاتجاهات (東西南北) أو لا تستطيع تذكر قراءات الكانجي المتعلقة بالوقت. المجموعات المخصصة تتيح لك سحب هذه الكانجي المشكلة إلى مجموعة دراسية مركزة. بدلاً من انتظار خوارزمية التكرار المتباعد لتظهرها مجددًا، يمكنك تدريب نقاط ضعفك مباشرة. فكر فيها كتدريب مستهدف: جدول SRS الرئيسي يتعامل مع الخطوط العريضة، ومجموعاتك المخصصة تتعامل مع الاستثناءات العنيدة.</p>
+<h2>الشهر 6: قراءة يابانية حقيقية</h2>
+<p>بعد ستة أشهر، مع حوالي 80-100 كانجي في جعبتك بالإضافة إلى مهارات كانا قوية، يحدث شيء رائع: تبدأ بقراءة يابانية حقيقية. ليس بطلاقة. ليس بدون جهد. لكن قراءة حقيقية، وليس مجرد التعرف على حروف منفردة.</p>
+<p>العلامات الأولى تظهر في أماكن غير متوقعة. تلاحظ 入口 (مدخل) و出口 (مخرج) على لافتة في مطعم ياباني وتفهمهما فورًا. تشاهد حلقة أنمي وتلتقط 大丈夫 (daijoubu، لا بأس) ليس فقط بالصوت بل بالتعرف على الكانجي في الترجمة. تفتح مانغا وتدرك أنك تستطيع قراءة الفوريغانا فوق كل كانجي، وللكانجي الأبسط، لم تعد تحتاج حتى للفوريغانا.</p>
+<h3>كيف يبدو مستوى N5 فعلاً</h3>
+<p>لنكن واقعيين بشأن ما يعنيه مستوى N5 عمليًا. تستطيع قراءة لافتات وملصقات بسيطة. تستطيع فهم تعليمات مكتوبة أساسية. تستطيع متابعة مانغا بها فوريغانا (أدلة النطق فوق الكانجي). تستطيع التقاط كلمات وعبارات قصيرة من حوار الأنمي. أنت لا تجري محادثات عن السياسة ولا تقرأ روايات. N5 هو الأساس، الدليل على أنك تستطيع تعلم هذه اللغة، المعسكر الأساسي الذي يبدأ منه التسلق الحقيقي.</p>
+<p>لكن هذا ما يهم: قبل ستة أشهر نظرت إلى 日本語 ورأيت رموزًا بلا معنى. الآن ترى &quot;nihongo&quot; وتعرف أنها تعني &quot;اللغة اليابانية&quot;. هذا التحول حقيقي، وهو بالكامل نتيجة الحضور المستمر.</p>
+<h2>الروتين اليومي الذي ينجح</h2>
+<p>بعد مراقبة مئات المتعلمين يتقدمون عبر N5، يظهر نمط واضح للروتين الذي يستمر فعلاً. ليس معقدًا، وهذا بالضبط لماذا ينجح.</p>
+<ul><li>الصباح (5 دقائق): افتح التطبيق وأكمل مراجعات SRS. هذه هي الكانجي التي جدولتها الخوارزمية لليوم. لا تتخطى هذه الخطوة، إنها أهم شيء يمكنك فعله.</li><li>الغداء أو التنقل (5-10 دقائق): تعلم كانجي جديدة من حزمتك الحالية. استهدف 3-5 كانجي جديدة لكل جلسة. اقرأ الحيل الذاكرية، ادرس الجذور، وأكمل الاختبارات الأولية.</li><li>المساء (5 دقائق): جلسة مراجعة سريعة أو معركة PvP. المعارك تعمل جيدًا في الليل لأنها تبدو أشبه بلعبة من الدراسة.</li><li>مكافأة نهاية الأسبوع (15-20 دقيقة): جلسة أطول لاستكشاف القصص، العمل على المجموعات المخصصة، أو مواجهة المهمات. هذا وقتك لتعزيز المعرفة والتعمق في الكانجي التي تحتاج اهتمامًا إضافيًا.</li></ul>
+<p>الوقت الإجمالي: 15-20 دقيقة في أيام الأسبوع، أكثر قليلاً في عطلات نهاية الأسبوع. هذا حقًا كل ما يتطلبه الأمر. السر ليس كم تدرس في جلسة واحدة؛ بل كم يومًا على التوالي تحضر. سلسلة من 100 يوم بجلسات 10 دقائق تتفوق على حفنة من جلسات الحشو لمدة 3 ساعات في كل مرة.</p>
+<h2>أخطاء شائعة يجب تجنبها</h2>
+<p>كل مبتدئ يرتكب أخطاء. المتعلمون الذين يصلون إلى N5 ليسوا من يتجنبون الأخطاء تمامًا؛ بل من يتعرفون عليها ويصححونها مبكرًا. إليك أكثر المزالق شيوعًا.</p>
+<ul><li>تخطي الكانا والذهاب مباشرة إلى الكانجي: هذا مثل محاولة الجري قبل أن تستطيع المشي. بدون مهارات كانا قوية، لا تستطيع قراءة الفوريغانا ولا البحث عن كلمات، وقراءات الكانجي لن تكون منطقية. اقضِ الأسبوعين الأولين على الكانا. ستؤتي ثمارها بشكل هائل.</li><li>تعلم المعاني فقط وتجاهل القراءات: الكانجي لها أون يومي (قراءات صينية) وكون يومي (قراءات يابانية). المبتدئون غالبًا يتخطون القراءات لأن المعاني تبدو &quot;أسهل&quot; للتعلم. لكن القراءات ضرورية لاستخدام الكانجي فعليًا في كلمات وجمل.</li><li>محاولة كتابة كل كانجي يدويًا: الكتابة اليدوية قيمة، لكن لا ينبغي أن تعيق تقدمك. ركز على التعرف أولاً. يمكنك إضافة ممارسة الكتابة لاحقًا بمجرد أن يكون لديك قاعدة صلبة من الكانجي المعروفة.</li><li>الحشو قبل JLPT بدلاً من استخدام SRS: الحشو يعمل لاختبار تاريخ. لا يعمل للكانجي. التكرار المتباعد يبني ذاكرة طويلة المدى؛ الحشو يبني استرجاعًا قصير المدى يتلاشى خلال أيام.</li><li>مقارنة نفسك بالآخرين: شخص على Reddit تعلم كانجي N5 في شهرين. شخص آخر استغرق ثمانية أشهر. كلاهما صحيح. وتيرتك تعتمد على لغتك الأم، ووقتك المتاح، وأسلوب تعلمك. المقارنة الوحيدة المهمة هي أنت اليوم مقابل أنت الشهر الماضي.</li></ul>
+<h2>ما الميزات التي تستخدمها في كل مرحلة</h2>
+<p>Kanjidon لديه الكثير من الميزات، وقد يكون من المغري تجربة كل شيء دفعة واحدة. إليك دليل مرحلة بمرحلة لما يجب التركيز عليه ومتى.</p>
+<ul><li>الأسبوعان 1-2 (كانا): ركز على الحزم والاختبارات. افتح حزم الهيراغانا ثم الكاتاكانا. أنواع الاختبارات الأفضل هنا هي التعرف الأساسي والاختيار من متعدد.</li><li>الأسابيع 3-6 (أول كانجي): الحزم والحيل الذاكرية هي أفضل أصدقائك. اقرأ كل حيلة ذاكرية بعناية. استخدم ميزة القصص لرؤية الكانجي في سياقات جمل بسيطة.</li><li>الشهران 2-3 (الجدار): اعتمد بشدة على مراجعات SRS. لا تتجاهل طابور المراجعة. أضف قصصًا للتعزيز السياقي. إذا لم تلتصق كانجي، تحقق من جذورها.</li><li>الشهران 4-5 (الروتين): أدخل معارك PvP للتحفيز. أنشئ مجموعات مخصصة لنقاط ضعفك المستمرة. ابدأ العمل على المهمات لأهداف منظمة.</li><li>الشهر 6 (التعزيز): امزج جميع الميزات. المعارك تختبر السرعة، SRS يختبر الحفظ، القصص تختبر فهم القراءة، المجموعات المخصصة تسد الفجوات. هذا التنوع يمنع الدراسة من أن تصبح رتيبة.</li></ul>
+<h2>ما بعد N5: ما الذي يأتي بعد ذلك</h2>
+<p>الوصول إلى N5 هو إنجاز حقيقي، لكنه أيضًا مجرد البداية. N5 يعطيك حوالي 100 كانجي من أصل 2,136 شائعة الاستخدام. الخبر الجيد هو أن المهارات التي بنيتها للوصول إلى N5 (التعرف على الجذور، استخدام SRS، بناء عادات يومية) تتطور مباشرة إلى N4 وما بعده. طريقة التعلم لا تتغير؛ فقط الحجم والتعقيد يزدادان.</p>
+<p>معظم المتعلمين الذين يصلون إلى N5 يجدون أن وتيرتهم تتسارع فعلاً. تتعرف على الجذور أسرع، تربط بين الكانجي الجديدة والمعروفة بسهولة أكبر، ويزداد تحملك للغموض. الجدار الذي اصطدمت به في N5 كان الجدار الأصعب. N4 له تحدياته الخاصة، لكنك تواجهها بأدوات أفضل وثقة أكبر.</p>
+<h2>الحقيقة الصادقة عن هذه الرحلة</h2>
+<p>تعلم اليابانية صعب. أي شخص يخبرك بخلاف ذلك يحاول بيعك شيئًا. لكن &quot;صعب&quot; لا يعني &quot;مستحيل&quot; أو حتى &quot;غير ممتع&quot;. يعني أنه ستكون هناك أيام تبدو فيها الكانجي كرموز بلا معنى مجددًا، أيام تنسى فيها حروفًا كنت تعرفها بالأمس، أيام تتساءل فيها هل يستحق الأمر الجهد. ستكون هناك أيضًا أيام تقرأ فيها جملة كاملة لأول مرة، أيام تفهم فيها نكتة في الأنمي بدون ترجمة، أيام يتفاجأ فيها شخص ياباني بأنك تستطيع قراءة لغته.</p>
+<p>الرحلة من الصفر إلى N5 هي ستة أشهر من الحضور لمدة 15 دقيقة يوميًا. تبدو كلعبة. تعمل كتدريب JLPT حقيقي. وبعد ستة أشهر من الآن، ستكون سعيدًا أنك بدأت اليوم.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Qad yujibuka aydaan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ar/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/ar/blog/dalil-judhor-kanji/" class="related-card">
+                        <h4>جذور كانجي: 2000 حرف تصبح 200</h4>
+                        <span class="read-time">12 min</span>
+                    </a>
+                    <a href="/ar/blog/kam-yastghreq-taallum-kanji/" class="related-card">
+                        <h4>كم من الوقت يستغرق تعلم كانجي؟ (الأعداد الحقيقية)</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Ibda taallum al-kanji al-yawm</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇸🇦</span>
+                        <span class="language-name">العربية</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option active">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

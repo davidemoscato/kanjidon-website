@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>从零到JLPT N5：用Kanjidon开启你的日语之旅 | Kanjidon</title>
+    <meta name="description" content="跟随一个典型初学者的6个月旅程，从零日语基础到JLPT N5。每周计划详解：假名、初识汉字、SRS复习节奏与真实进步里程碑。">
+    <meta name="keywords" content="汉字初学者, jlpt n5之路, 汉字学习路径, 日语入门, 怎么开始学汉字, 间隔重复, 汉字app, 学日语">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/da-zero-a-jlpt-n5-viaggio-principiante/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/de-zero-au-jlpt-n5-parcours-debutant/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/de-cero-al-jlpt-n5-viaje-principiante/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/von-null-zum-jlpt-n5-anfaengerreise/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/do-zero-ao-jlpt-n5-jornada-iniciante/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/zero-buteo-jlpt-n5-choboja-yeojeong/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/cong-ling-dao-jlpt-n5-xinshoulucheng/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/zero-se-jlpt-n5-shuruat-ka-safar/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jak-suun-thueng-jlpt-n5-senthang-phuerimton/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tu-zero-den-jlpt-n5-hanh-trinh-nguoi-moi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/dari-nol-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/dari-sifar-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/od-zera-do-jlpt-n5-podroz-poczatkujacego/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/az-sefr-ta-jlpt-n5-safar-mobtadi/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/mula-sa-zero-hanggang-jlpt-n5-paglalakbay-ng-baguhan/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+
+    <meta property="og:title" content="从零到JLPT N5：用Kanjidon开启你的日语之旅">
+    <meta property="og:description" content="跟随一个典型初学者的6个月旅程，从零日语基础到JLPT N5。每周计划详解：假名、初识汉字、SRS复习节奏与真实进步里程碑。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="从零到JLPT N5：用Kanjidon开启你的日语之旅">
+    <meta name="twitter:description" content="跟随一个典型初学者的6个月旅程，从零日语基础到JLPT N5。每周计划详解：假名、初识汉字、SRS复习节奏与真实进步里程碑。">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "从零到JLPT N5：用Kanjidon开启你的日语之旅",
+        "description": "跟随一个典型初学者的6个月旅程，从零日语基础到JLPT N5。每周计划详解：假名、初识汉字、SRS复习节奏与真实进步里程碑。",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/"
+        },
+        "datePublished": "2026-02-21",
+        "dateModified": "2026-02-21"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/zh/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "从零到JLPT N5：用Kanjidon开启你的日语之旅",
+                        "item": "https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "从零基础到JLPT N5需要多久？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "大多数学习者每天坚持15-20分钟，4-6个月可以达到JLPT N5水平。关键在于坚持，而不是一次学很久。间隔重复即使在短时间学习中也能保持高效记忆。"
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "学汉字之前需要先学平假名和片假名吗？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "是的。平假名和片假名是日语阅读的基础。大多数初学者1-2周学会平假名，再用1-2周学会片假名。会读假名后，学汉字就顺畅多了，因为你可以读注音（汉字上方的读音标注）。"
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "JLPT N5需要掌握多少汉字？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "JLPT N5大约需要掌握80-100个汉字，涵盖数字、星期、基本动词和日常概念，比如人（person）、日（day）和大（big）。配合平假名和片假名，这些汉字足以让你读懂简单的日语文章。"
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "只用一个App能通过JLPT N5吗？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "一个有结构化内容和间隔重复的App可以覆盖N5汉字和词汇的大部分内容。不过JLPT还考语法和听力，所以建议额外学习语法和听日语材料。"
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "初学者学汉字最难的是什么？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "大多数初学者在学到50-80个汉字时会撞墙，因为汉字开始变得越来越像。比如待和持、末和未，很容易搞混。用助记法、学偏旁部首，加上信任间隔重复系统，是突破瓶颈的最好方法。"
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh/blog/">Blog</a>
+                <a href="/zh/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/zh/">Home</a>
+                <span class="separator">›</span>
+                <a href="/zh/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">从零到JLPT N5：用Kanjidon开启你的日语之旅</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>从零到JLPT N5：用Kanjidon开启你的日语之旅</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2026年2月21日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">你看了几百集动漫。你读了一堆漫画，但那些音效字始终像天书。某个瞬间，一个念头闪过：要不我真的去学日语？这篇文章为你规划了一个典型初学者的学习路线——从完全零基础到大约六个月后达到JLPT N5水平。不灌鸡汤，不画大饼，只给你一份真实的前方路线图。</p>
+<h2>起跑线：你什么都不会（这完全没问题）</h2>
+<p>一个典型的初学者从同一个地方起步：可能会说&quot;konnichiwa&quot;，认识&quot;kanji&quot;这个词，但完全不知道平假名和片假名是什么。日语有三套书写系统，光这一点就吓退了很多人。但现实是：每一个今天能读日语的人，当初都和你一样从零开始。这些文字看起来不可能学会——直到你真正开始，然后它们上手的速度比你想象的快得多。</p>
+<p>这个阶段最常见的错误是试图同时学所有东西。初学者打开课本，第一章就看到平假名、片假名、汉字、语法和词汇全挤在一起，很容易感到崩溃然后放弃。真正坚持下来的学习者用的是另一种方法：一次只专注一件事，从字母开始。</p>
+<h2>第1-2周：假名阶段</h2>
+<h3>第1周：平假名——你的第一套日语字母</h3>
+<p>平假名是一切的起点。这46个字符代表了日语中的每一个发音，是后面所有学习的基础。大多数学习者在Kanjidon上打开第一个平假名包，从五个元音开始：あ（a）、い（i）、う（u）、え（e）、お（o）。几次练习之后，神奇的事情发生了——你开始认出那些在动漫片头、漫画封面和日本食品包装上见过的字符。第一次用真正的平假名而不是罗马字读出すし（sushi）的时候，那种感觉是真的很兴奋。</p>
+<p>测验式的学习方法在这里特别有效，因为假名本质上就是认和记。你看到あ，你想&quot;a&quot;。带间隔的闪卡式重复比反复抄写更快地把这些字符刻进脑子里。大多数初学者每天15-20分钟，5-7天就能搞定全部46个平假名。</p>
+<h3>第2周：片假名——棱角分明的双胞胎</h3>
+<p>片假名覆盖和平假名一样的发音，但字形更尖锐、更有棱角。它用来写外来词，这也是动漫迷们占便宜的地方：很多角色名和招式名都是片假名写的。当你发现ナルト拼出来是&quot;Naruto&quot;，ドラゴンボール拼出来是&quot;Dragon Ball&quot;的时候，这套文字就不再感觉陌生了，而是像一套你正在破解的密码。</p>
+<p>片假名通常比平假名稍难，因为有些字符长得很像（シ和ツ、ソ和ン是经典的容易搞混的组合）。这很正常。SRS会通过更频繁地展示那些容易混淆的字符来帮你的大脑理清它们。到第二周结束时，大多数学习者能读两套假名了，这意味着你技术上可以读任何用假名写的日语单词——即使你还不明白意思。</p>
+<h2>第3-4周：你的第一批汉字</h2>
+<p>真正的旅程从这里开始。征服假名之后，大多数初学者信心满满、跃跃欲试。Kanjidon从最直观的N5汉字开始——那些看起来就像它的意思、或者遵循简单逻辑的字。你的第一批汉字通常是数字：一（one）、二（two）、三（three）——字面意思就是一横、两横、三横。这种简单是有意为之的，目的是在难度提升之前先建立信心。</p>
+<p>接下来是象形汉字——那些从图画演变而来的字：日（sun/day）看起来像太阳，月（moon/month）看起来像弯月，山（mountain）看起来像山峰，川（river）看起来像流水。这些视觉上的联系让第一批汉字感觉几乎是直觉式的。</p>
+<h3>偏旁部首的&quot;顿悟时刻&quot;</h3>
+<p>在学到第20-30个汉字左右，大多数学习者会迎来第一次真正的突破。他们发现汉字不是随机的笔画堆积，而是由更小的组件——偏旁部首——组合而成的。休（rest）就是经典例子：左边是人（person），右边是木（tree）。一个人靠在树旁休息。一旦你看到这个，就再也无法忽视了。汉字不再是神秘的图画，而变成了逻辑拼图。</p>
+<p>这也是助记法开始发挥威力的时候。明（bright）由日（sun）和月（moon）组成。太阳加月亮等于明亮——天空中最亮的两样东西加在一起。Kanjidon为每个汉字都提供助记法，把每个字变成一个小故事，比死记硬背好用太多了。</p>
+<h2>第2-3个月：那堵墙（以及怎么翻过去）</h2>
+<p>这里需要说实话了。在学到50-80个汉字左右，大多数学习者会撞上老手们说的&quot;那堵墙&quot;。最初的兴奋感消退了。汉字开始长得很像。你把待（wait）和持（hold）搞混了，因为它们右半边一样。你分不清末（end）和未（not yet），因为唯一的区别是哪一横更长。你开始忘记上周明明记得的汉字。</p>
+<p>这完全正常，也恰恰是大多数人放弃的节点。坚持下来的学习者有一个共同特点：他们信任系统而不是自己的感觉。你的大脑告诉你&quot;我永远记不住这些&quot;——这不是事实，只是一种感受。间隔重复恰恰就是为了这个时刻设计的。它在你即将忘记一个汉字之前把它展示给你，每次都在强化那条神经通路。</p>
+<h3>这个阶段真正有效的策略</h3>
+<ul><li>专注偏旁部首：当两个汉字长得像的时候，找出不同的那个部首。部首就是你区分相似汉字的秘密武器。</li><li>减少每天新学的汉字数量：如果之前每天学5-7个新字，降到3-4个，把更多时间花在复习上。记住的质量比接触的数量重要。</li><li>用故事功能：在语境中读汉字（哪怕是简单的句子）比孤立的闪卡更能强化记忆。看到大きい犬（大狗）会让大（big）更容易记住，因为它和具体的东西联系上了。</li><li>不要跳过复习日：漏一天还好，连续漏三天就会积压出一堆让人崩溃的复习量。哪怕忙碌的日子也花五分钟复习，保持SRS循环不断就好。</li></ul>
+<h2>第4-5个月：节奏与动力</h2>
+<p>如果你已经翻过了那堵墙，一些东西会改变。到第四个月左右，每天学习不再需要意志力，而是变成了习惯。大多数成功的学习者在这个阶段已经形成了稳定的每天15-20分钟的节奏。他们在通勤路上、午休时或睡前打开App。关键认知是：日语学习在短而频繁的session中效果最好，而不是长而偶尔的session。</p>
+<p>到这时，一个典型的学习者已经认识60-80个汉字，开始看到复合词的形成。你会发现日（day）和本（origin）组合成日本（Japan，字面意思&quot;太阳的起源&quot;）。或者学（study）和生（life）组合成学生（student）。这些复合词特别有成就感，因为它们展示了汉字逻辑在更高层面是怎么运作的。</p>
+<h3>PvP对战：意想不到的动力来源</h3>
+<p>很多学习者在这个阶段发现了Kanjidon的PvP对战功能。和其他学习者进行实时汉字测验对决，提供了纯自学无法比拟的动力。看到别人比你答得快，那种感觉会让你想要更努力地学习。排名系统（从E级到S级）给你一个超越单纯数汉字之外的具体进步衡量标准。</p>
+<p>对战还会毫不留情地暴露你的弱点。当你因为在时间压力下搞混了右（right）和左（left）而输掉一轮时，这对汉字就会被刻进你的记忆里。竞争压力比轻松复习创造出更强的记忆，这就是为什么做对了的游戏化对语言学习是有效的。</p>
+<h3>自定义卡组：针对你的弱点</h3>
+<p>到第四五个月，每个学习者都会有一组死活记不住的汉字。也许你总是搞混方向类汉字（東西南北），或者记不住时间类汉字的读音。自定义卡组让你把这些问题汉字集中到一个专门的学习组里。不用等SRS再次安排它们，你可以直接针对性地练习弱点。把它想象成精准训练：主SRS计划负责大面，你的自定义卡组负责搞定那些顽固的例外。</p>
+<h2>第6个月：阅读真正的日语</h2>
+<p>六个月后，掌握了大约80-100个汉字加上扎实的假名技能，一件了不起的事情发生了：你开始阅读真正的日语。不是流利地读，也不是毫不费力，但确实是在读——不只是认出单个字符。</p>
+<p>最初的迹象出现在意想不到的地方。你在一家日本餐厅看到入口（entrance）和出口（exit）的标识，瞬间就理解了。你看一集动漫，不仅通过声音，还通过字幕上的汉字认出了大丈夫（daijoubu，没关系）。你打开一本漫画，发现自己能读每个汉字上方的注音，对于简单的字甚至不需要注音了。</p>
+<h3>N5水平实际感觉如何</h3>
+<p>说实话N5水平在实际中意味着什么。你可以读简单的标识和标签。你可以理解基本的书面说明。你可以跟着看有注音的漫画。你可以从动漫对话中听出一些词和短句。你还做不到讨论政治或读小说。N5是基础——证明你能学会这门语言的证据，是真正攀登开始的大本营。</p>
+<p>但重点是：六个月前你看到日本語觉得是无意义的符号。现在你看到&quot;nihongo&quot;并且知道它意思是&quot;日语&quot;。这个转变是真实的，完全是坚持每天出现的结果。</p>
+<h2>真正有效的每日学习计划</h2>
+<p>在观察了大量学习者通过N5的过程后，一个清晰的模式浮现出来。它不复杂，而这恰恰是它有效的原因。</p>
+<ul><li>早上（5分钟）：打开App做SRS复习。这些是算法为今天安排的汉字。不要跳过这一步，这是你能做的最重要的事。</li><li>午休或通勤（5-10分钟）：学习当前包里的新汉字。每次学3-5个新字。阅读助记法，学习部首，做初始测验。</li><li>晚上（5分钟）：快速复习或来一场PvP对战。对战放在晚上特别合适，因为感觉更像玩游戏而不是学习。</li><li>周末加练（15-20分钟）：更长的学习时间，探索故事、自定义卡组或挑战任务。这是你深入巩固那些需要额外关注的汉字的时间。</li></ul>
+<p>总计时间：工作日15-20分钟，周末稍多一点。这真的就够了。秘诀不在于一次学多久，而在于你连续多少天都有出现。连续100天每天10分钟的学习，吊打几次3小时的突击复习。</p>
+<h2>要避免的常见错误</h2>
+<p>每个初学者都会犯错。到达N5的学习者不是完全不犯错的人，而是那些及早发现并改正错误的人。以下是最常见的陷阱。</p>
+<ul><li>跳过假名直接学汉字：这就像还没学走路就想跑。没有扎实的假名基础，你读不了注音，查不了词，汉字读音也搞不明白。花两周时间学假名，这个投入回报巨大。</li><li>只学意思不学读音：汉字有音读（中文读法）和训读（日文读法）。初学者经常跳过读音，因为意思&quot;更容易&quot;学。但读音是你在词语和句子中实际使用汉字时必不可少的。</li><li>试图手写每一个汉字：手写有价值，但不应该阻碍你的进度。先专注认字。等你有了扎实的认字基础后再加入手写练习。</li><li>考前突击而不是使用SRS：突击对历史考试有用，对汉字没用。间隔重复建立的是长期记忆；突击建立的是几天后就消失的短期记忆。</li><li>和别人比较：Reddit上有人两个月就学完了N5汉字，也有人花了八个月。都没问题。你的节奏取决于你的母语、可用时间和学习风格。唯一重要的比较是今天的你和上个月的你。</li></ul>
+<h2>每个阶段该用什么功能</h2>
+<p>Kanjidon功能很多，一开始就想全部尝试是很诱人的。以下是按阶段来的指南，告诉你什么时候该专注什么。</p>
+<ul><li>第1-2周（假名）：专注学习包和测验。先打开平假名包，然后片假名。最好用的测验类型是基本识别和多选题。</li><li>第3-6周（初识汉字）：学习包和助记法是你的好帮手。认真阅读每一个助记法。用故事功能在简单的句子语境中看汉字。</li><li>第2-3个月（撞墙期）：重度依赖SRS复习。不要忽视复习队列。用故事来做语境强化。如果某个汉字就是记不住，去看看它的部首。</li><li>第4-5个月（稳定期）：引入PvP对战来增加动力。为你持续犯错的弱点创建自定义卡组。开始做任务来设定结构化目标。</li><li>第6个月（巩固期）：混合使用所有功能。对战测速度，SRS测记忆，故事测阅读理解，自定义卡组填补空缺。这种多样性让学习不会变得单调。</li></ul>
+<h2>N5之后：接下来是什么</h2>
+<p>达到N5是一个真正的成就，但它也只是开始。N5给你大约100个汉字，而常用汉字有2,136个。好消息是，你在通往N5的路上建立的技能（识别部首、使用SRS、养成每日习惯）可以直接延伸到N4及以后。学习方法不变，只是量和复杂度增加。</p>
+<p>大多数达到N5的学习者发现自己的速度实际上在加快。你认部首更快了，把新汉字和已知汉字联系起来更容易了，对模糊性的容忍度也提高了。你在N5撞的那堵墙是最难的一堵。N4有它自己的挑战，但你面对时有了更好的工具和更多的信心。</p>
+<h2>关于这段旅程的真心话</h2>
+<p>学日语很难。谁告诉你不难，那是在卖东西。但&quot;难&quot;不等于&quot;不可能&quot;或者&quot;不愉快&quot;。它意味着你会有觉得汉字又变回无意义涂鸦的日子，会有忘掉昨天才记住的字的日子，会有怀疑这到底值不值得的日子。但你也会有第一次读完整句子的日子，会有不看字幕就听懂动漫中一个笑话的日子，会有日本人惊讶你居然能读他们文字的日子。</p>
+<p>从零到N5的旅程是六个月里每天出现15分钟。它感觉像游戏，效果像真正的JLPT训练。六个月后的你，会感谢今天开始的自己。</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ni keneng ye xihuan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/zh/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/zh/blog/kanji-bushou-zhinan/" class="related-card">
+                        <h4>汉字部首：2000 个字符变成 200 个</h4>
+                        <span class="read-time">12 min</span>
+                    </a>
+                    <a href="/zh/blog/xuexi-kanji-shijian/" class="related-card">
+                        <h4>学习汉字需要多长时间？ （实数）</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Jintian kaishi xuexi hanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇨🇳</span>
+                        <span class="language-name">中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option active">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

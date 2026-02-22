@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>От нуля до JLPT N5: путь новичка с Kanjidon | Kanjidon</title>
+    <meta name="description" content="Проследи типичный путь новичка за 6 месяцев: от нуля до JLPT N5. Понедельный разбор: кана, первые кандзи, режим SRS и реальные вехи прогресса.">
+    <meta name="keywords" content="учить кандзи новичку, путь jlpt n5, план изучения кандзи, японский для начинающих, с чего начать кандзи, интервальное повторение, приложение кандзи, учить японский">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/da-zero-a-jlpt-n5-viaggio-principiante/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/de-zero-au-jlpt-n5-parcours-debutant/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/de-cero-al-jlpt-n5-viaje-principiante/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/von-null-zum-jlpt-n5-anfaengerreise/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/do-zero-ao-jlpt-n5-jornada-iniciante/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/zero-buteo-jlpt-n5-choboja-yeojeong/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/cong-ling-dao-jlpt-n5-chuxuezhe-licheng/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/cong-ling-dao-jlpt-n5-xinshoulucheng/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/min-al-sifr-ila-jlpt-n5-rihla-mubtadi/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/zero-se-jlpt-n5-shuruat-ka-safar/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jak-suun-thueng-jlpt-n5-senthang-phuerimton/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/tu-zero-den-jlpt-n5-hanh-trinh-nguoi-moi/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/dari-nol-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/dari-sifar-ke-jlpt-n5-perjalanan-pemula/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/sifirdan-jlpt-n5-baslangic-yolculugu/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/od-zera-do-jlpt-n5-podroz-poczatkujacego/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/az-sefr-ta-jlpt-n5-safar-mobtadi/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/mula-sa-zero-hanggang-jlpt-n5-paglalakbay-ng-baguhan/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/from-zero-to-jlpt-n5-beginner-journey/">
+
+    <meta property="og:title" content="От нуля до JLPT N5: путь новичка с Kanjidon">
+    <meta property="og:description" content="Проследи типичный путь новичка за 6 месяцев: от нуля до JLPT N5. Понедельный разбор: кана, первые кандзи, режим SRS и реальные вехи прогресса.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="От нуля до JLPT N5: путь новичка с Kanjidon">
+    <meta name="twitter:description" content="Проследи типичный путь новичка за 6 месяцев: от нуля до JLPT N5. Понедельный разбор: кана, первые кандзи, режим SRS и реальные вехи прогресса.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "От нуля до JLPT N5: путь новичка с Kanjidon",
+        "description": "Проследи типичный путь новичка за 6 месяцев: от нуля до JLPT N5. Понедельный разбор: кана, первые кандзи, режим SRS и реальные вехи прогресса.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/"
+        },
+        "datePublished": "2026-02-21",
+        "dateModified": "2026-02-21"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ru/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "От нуля до JLPT N5: путь новичка с Kanjidon",
+                        "item": "https://kanjidon.com/ru/blog/ot-nulya-do-jlpt-n5-put-novichka/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Сколько времени нужно, чтобы дойти от нуля до JLPT N5?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Большинство учащихся достигают уровня JLPT N5 за 4-6 месяцев при регулярных ежедневных занятиях по 15-20 минут. Ключевой фактор — постоянство, а не марафонские учебные сессии. Интервальное повторение поддерживает высокое запоминание даже при коротких занятиях."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Нужно ли учить хирагану и катакану перед кандзи?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Да. Хирагана и катакана — основа чтения на японском. Большинство новичков осваивают хирагану за 1-2 недели и катакану за ещё 1-2 недели. Как только ты сможешь читать кану, изучение кандзи станет намного легче, потому что ты сможешь читать фуригану (подсказки произношения)."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Сколько кандзи нужно для JLPT N5?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "JLPT N5 требует примерно 80-100 кандзи. Они охватывают числа, дни недели, базовые глаголы и повседневные понятия, такие как 人 (человек), 日 (день) и 大 (большой). Вместе с хираганой и катаканой эти кандзи позволяют читать простые японские тексты."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Можно ли сдать JLPT N5, используя только приложение?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Приложение со структурированным контентом и интервальным повторением может покрыть большую часть того, что нужно для кандзи и лексики N5. Однако JLPT также проверяет грамматику и аудирование, поэтому рекомендуется дополнять изучение грамматикой и японским аудиоконтентом."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Что самое сложное в изучении кандзи для новичка?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Большинство новичков упираются в стену где-то на 50-80 кандзи, когда иероглифы начинают выглядеть похоже. Кандзи вроде 待 и 持, или 末 и 未, легко спутать. Мнемоники, изучение радикалов и доверие к интервальному повторению — лучшие стратегии для преодоления этого барьера."
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ru/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ru/blog/">Blog</a>
+                <a href="/ru/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ru/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ru/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">От нуля до JLPT N5: путь новичка с Kanjidon</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>От нуля до JLPT N5: путь новичка с Kanjidon</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">21 февр. 2026 г.</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 мин</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Ты посмотрел сотни эпизодов аниме. Ты читал мангу, где звуковые эффекты остаются загадочными закорючками. В какой-то момент в голове мелькает мысль: а что, если бы я действительно выучил японский? Эта статья описывает типичный путь новичка — от полного нуля до уровня JLPT N5 примерно за шесть месяцев. Без приукрашивания, без невозможных обещаний — только честный взгляд на то, что тебя ждёт впереди.</p>
+<h2>Стартовая черта: ты ничего не знаешь (и это нормально)</h2>
+<p>Типичный новичок начинает с одного и того же места: может, умеет сказать «konnichiwa» и узнаёт слово «кандзи», но понятия не имеет, что такое хирагана или катакана. У японского три системы письма, и одного этого факта достаточно, чтобы многие сдались, не начав. Вот реальность: каждый, кто сегодня читает по-японски, когда-то был именно там, где сейчас ты. Системы письма кажутся невозможными, пока не начнёшь, а потом всё щёлкает быстрее, чем ожидаешь.</p>
+<p>Самая распространённая ошибка на этом этапе — пытаться учить всё сразу. Новички, открывающие учебник и видящие хирагану, катакану, кандзи, грамматику и лексику — всё в первой главе — обычно чувствуют перегрузку и бросают. Те, кто добивается успеха, идут другим путём: они сосредотачиваются на одной вещи за раз, начиная с алфавита.</p>
+<h2>Недели 1-2: фаза каны</h2>
+<h3>Неделя 1: хирагана — твой первый японский алфавит</h3>
+<p>Хирагана — с неё начинается любой путь. Эти 46 знаков представляют каждый звук японского языка и являются основой всего, что будет дальше. Большинство пользователей Kanjidon открывают первые паки хираганы и начинают с гласных: あ (a), い (i), う (u), え (e), お (o). Через несколько занятий происходит нечто удивительное. Ты начинаешь узнавать символы, которые видел в опенингах аниме, названиях манги и на упаковках японской еды. Тот момент, когда ты впервые читаешь すし (суши) настоящей хираганой, а не ромадзи, по-настоящему волнует.</p>
+<p>Подход через квизы отлично работает здесь, потому что кана — это в первую очередь узнавание и вспоминание. Ты видишь あ — думаешь «а». Повторение карточек с интервалами закрепляет символы быстрее, чем многократное прописывание. Большинство новичков проходят все 46 хираган за 5-7 дней при 15-20 минутах ежедневной практики.</p>
+<h3>Неделя 2: катакана — угловатый близнец</h3>
+<p>Катакана передаёт те же звуки, что и хирагана, но с более острыми, угловатыми формами. Она используется для иностранных слов, и именно здесь фанаты аниме получают преимущество: многие имена персонажей и названия атак написаны катаканой. Когда ты понимаешь, что ナルト — это «Наруто», а ドラゴンボール — это «Dragon Ball», система письма перестаёт казаться чужой и начинает ощущаться как код, который ты разгадываешь.</p>
+<p>Катакана обычно даётся чуть сложнее хираганы, потому что некоторые знаки похожи (シ и ツ, ソ и ン — классические пары путаницы). Это нормально. SRS справляется с этим, показывая тебе путаные знаки чаще, пока мозг не разберётся. К концу второй недели большинство учащихся могут читать обе системы каны, а значит, технически могут прочитать любое японское слово, написанное каной — даже если пока не понимают значения.</p>
+<h2>Недели 3-4: твои первые кандзи</h2>
+<p>Вот где начинается настоящее путешествие. После покорения каны большинство новичков чувствуют уверенность и азарт. Kanjidon начинает с самых интуитивных кандзи N5 — тех, что выглядят как то, что означают, или следуют простой логике. Твои первые кандзи — часто числа: 一 (один), 二 (два), 三 (три). Это буквально один, два и три горизонтальных штриха. Простота сделана нарочно — она укрепляет уверенность перед тем, как сложность возрастёт.</p>
+<p>Затем идут пиктографические кандзи — те, что произошли от картинок: 日 (солнце/день) похож на солнце, 月 (луна/месяц) — на полумесяц, 山 (гора) — на горные вершины, 川 (река) — на текущую воду. Эти визуальные связи делают первую партию кандзи почти интуитивной.</p>
+<h3>Момент «Ага!» с радикалами</h3>
+<p>Где-то на 20-30-м кандзи у большинства учащихся случается первый настоящий прорыв. Они обнаруживают, что кандзи — это не случайные наборы черт. Они построены из меньших компонентов — радикалов. Кандзи 休 (отдых) — классический пример: он объединяет 人 (человек) слева и 木 (дерево) справа. Человек, прислонившийся к дереву, отдыхает. Когда ты это видишь, уже не можешь развидеть. Кандзи перестают быть загадочными рисунками и становятся логическими головоломками.</p>
+<p>Именно тогда мнемоники становятся мощными. Кандзи 明 (яркий) объединяет 日 (солнце) и 月 (луна). Солнце плюс луна равно яркость — два самых ярких объекта на небе вместе. Kanjidon предоставляет мнемоники для каждого кандзи, превращая каждый в маленькую историю, которая запоминается намного лучше, чем механическое зазубривание.</p>
+<h2>Месяцы 2-3: стена (и как через неё перебраться)</h2>
+<p>Здесь важна честность. Где-то на 50-80 кандзи большинство учащихся упираются в то, что опытные студенты называют «стеной». Первоначальное возбуждение стихает. Кандзи начинают выглядеть похоже. Ты путаешь 待 (ждать) с 持 (держать), потому что у них одинаковая правая часть. Ты путаешь 末 (конец) и 未 (ещё нет), потому что единственное отличие — какая горизонтальная черта длиннее. Ты начинаешь забывать кандзи, в которых был уверен на прошлой неделе.</p>
+<p>Это совершенно нормально, и это именно тот момент, когда большинство людей сдаются. Те, кто прорывается, разделяют общую черту: они доверяют системе, а не своим ощущениям. То, что мозг говорит тебе «я никогда не запомню» — это не факт. Это чувство. Интервальное повторение создано специально для этого момента. Оно показывает тебе кандзи, который ты вот-вот забудешь, прямо перед тем, как ты его забудешь, укрепляя нейронную связь каждый раз.</p>
+<h3>Стратегии, которые работают на этом этапе</h3>
+<ul><li>Сосредоточься на радикалах: когда два кандзи выглядят похоже, определи радикал, который отличается. Радикалы — твой чит-код для различения похожих кандзи.</li><li>Уменьши число новых кандзи в день: если ты учил 5-7 новых кандзи в день, снизь до 3-4 и трать больше времени на повторение. Качество запоминания важнее количества.</li><li>Используй функцию историй: чтение кандзи в контексте (даже простых предложений) подкрепляет значение намного лучше, чем изолированные карточки. Увидеть 大きい犬 (большая собака) закрепляет 大 (большой), потому что связывает с чем-то конкретным.</li><li>Не пропускай дни повторения: пропустить одну сессию — ничего страшного. Пропустить три подряд создаёт завал, который кажется неподъёмным. Даже пять минут повторения в загруженный день поддерживают цикл SRS.</li></ul>
+<h2>Месяцы 4-5: рутина и инерция</h2>
+<p>Если ты преодолел стену, что-то меняется. Примерно к четвёртому месяцу ежедневная учёба перестаёт требовать силы воли и начинает становиться привычкой. Большинство успешных учащихся на этом этапе уже нашли стабильный ритм в 15-20 минут ежедневно. Они открывают приложение в дороге, в обеденный перерыв или перед сном. Ключевое понимание: японский лучше учить короткими частыми сессиями, а не длинными редкими.</p>
+<p>К этому моменту типичный учащийся знает 60-80 кандзи и начинает видеть, как образуются составные слова. Ты узнаёшь, что 日 (день) и 本 (начало) образуют 日本 (Япония, буквально «начало солнца»). Или что 学 (учёба) и 生 (жизнь) образуют 学生 (студент). Эти составные слова глубоко удовлетворяют, потому что показывают, как логика кандзи работает на более высоком уровне.</p>
+<h3>PvP-битвы: неожиданная мотивация</h3>
+<p>Это также этап, когда многие учащиеся открывают для себя PvP-битвы в Kanjidon. Соревнование с другими учащимися в квизах на кандзи в реальном времени добавляет слой мотивации, с которым чистая самостоятельная учёба не может сравниться. Есть что-то в том, чтобы видеть, как другой человек отвечает быстрее тебя, что заставляет хотеть учиться усерднее. Система рангов (от ранга E до ранга S) даёт тебе конкретную меру прогресса помимо подсчёта кандзи.</p>
+<p>Битвы также безжалостно обнажают твои слабые места. Когда ты проигрываешь раунд, потому что спутал 右 (правый) и 左 (левый) под давлением времени, эта пара кандзи выжигается в памяти. Соревновательное давление создаёт более прочные воспоминания, чем расслабленное повторение, — именно поэтому геймификация работает в изучении языков, когда сделана правильно.</p>
+<h3>Пользовательские колоды для твоих слабых мест</h3>
+<p>К четвёртому-пятому месяцу у каждого учащегося есть уникальный набор кандзи, которые никак не хотят запоминаться. Может, ты постоянно путаешь кандзи направлений (東西南北) или не можешь запомнить чтения кандзи, связанных со временем. Пользовательские колоды позволяют собрать эти проблемные кандзи в отдельный учебный набор. Вместо того чтобы ждать, пока SRS снова их покажет, ты можешь целенаправленно тренировать свои слабые места. Думай об этом как о точечной тренировке: основное расписание SRS покрывает общую картину, а пользовательские колоды — упрямые исключения.</p>
+<h2>Месяц 6: чтение настоящего японского</h2>
+<p>Через шесть месяцев, с примерно 80-100 кандзи в багаже и уверенными навыками каны, происходит нечто удивительное: ты начинаешь читать настоящий японский. Не бегло. Не без усилий. Но по-настоящему читать — а не просто узнавать отдельные знаки.</p>
+<p>Первые признаки проявляются в неожиданных местах. Ты замечаешь 入口 (вход) и 出口 (выход) на табличке в японском ресторане и мгновенно понимаешь. Ты смотришь эпизод аниме и ловишь 大丈夫 (дайдзёбу, всё в порядке) не только на слух, но и узнавая кандзи в субтитрах. Ты открываешь мангу и понимаешь, что можешь читать фуригану над каждым кандзи, а для простых — уже не нуждаешься в ней.</p>
+<h3>Как на самом деле ощущается уровень N5</h3>
+<p>Давай реалистично посмотрим, что означает уровень N5 на практике. Ты можешь читать простые вывески и этикетки. Ты можешь понимать базовые письменные инструкции. Ты можешь следить за мангой с фуриганой (подсказками произношения над кандзи). Ты можешь вылавливать слова и короткие фразы из диалогов аниме. Ты не обсуждаешь политику и не читаешь романы. N5 — это фундамент, доказательство того, что ты можешь выучить этот язык, базовый лагерь, откуда начинается настоящее восхождение.</p>
+<p>Но вот что важно: шесть месяцев назад ты смотрел на 日本語 и видел бессмысленные символы. Сейчас ты видишь «nihongo» и знаешь, что это означает «японский язык». Эта трансформация реальна, и она целиком результат твоего постоянства.</p>
+<h2>Ежедневная рутина, которая работает</h2>
+<p>Наблюдая за сотнями учащихся, проходящих N5, вырисовывается чёткая картина рутины, которая действительно закрепляется. Она не сложная — и именно поэтому работает.</p>
+<ul><li>Утро (5 минут): Открой приложение и сделай свои повторения SRS. Это кандзи, которые алгоритм запланировал на сегодня. Не пропускай этот шаг — это самое важное, что ты можешь сделать.</li><li>Обед или дорога (5-10 минут): Учи новые кандзи из текущего пака. Старайся осваивать 3-5 новых кандзи за сессию. Читай мнемоники, изучай радикалы и проходи начальные квизы.</li><li>Вечер (5 минут): Быстрая сессия повторения или PvP-битва. Битвы хорошо подходят для вечера, потому что ощущаются больше как игра, а не как учёба.</li><li>Бонус на выходных (15-20 минут): Более длинная сессия для изучения историй, работы с пользовательскими колодами или прохождения миссий. Это время для закрепления и углубления в кандзи, требующие дополнительного внимания.</li></ul>
+<p>Итого: 15-20 минут в будни, чуть больше на выходных. Это действительно всё, что нужно. Секрет не в том, сколько ты учишь за одну сессию — а в том, сколько дней подряд ты приходишь. Серия из 100 дней по 10-минутных сессий каждый раз побеждает несколько трёхчасовых зубрёжек.</p>
+<h2>Распространённые ошибки, которых стоит избегать</h2>
+<p>Каждый новичок совершает ошибки. Те, кто достигает N5, — не те, кто полностью избежал ошибок, а те, кто рано их заметил и исправил. Вот самые распространённые ловушки.</p>
+<ul><li>Пропустить кану и сразу перейти к кандзи: Это как пытаться бежать, не умея ходить. Без уверенных навыков каны ты не можешь читать фуригану, не можешь искать слова, и чтения кандзи не будут иметь смысла. Потрать первые две недели на кану. Это окупается многократно.</li><li>Учить только значения и игнорировать чтения: У кандзи есть он&#039;ёми (китайские чтения) и кун&#039;ёми (японские чтения). Новички часто пропускают чтения, потому что значения кажутся «проще». Но чтения необходимы для реального использования кандзи в словах и предложениях.</li><li>Пытаться писать каждый кандзи от руки: Рукописное письмо полезно, но оно не должно тормозить прогресс. Сначала сосредоточься на узнавании. Добавить практику письма можно позже, когда у тебя будет прочная база распознаваемых кандзи.</li><li>Зубрить перед JLPT вместо использования SRS: Зубрёжка работает для теста по истории. Для кандзи — нет. Интервальное повторение строит долгосрочную память; зубрёжка строит краткосрочное припоминание, которое исчезает за дни.</li><li>Сравнивать себя с другими: Кто-то на Reddit выучил кандзи N5 за два месяца. Кто-то другой потратил восемь. Оба варианта — нормальны. Твой темп зависит от родного языка, доступного времени и стиля обучения. Единственное сравнение, которое имеет значение, — ты сегодня против тебя месяц назад.</li></ul>
+<h2>Какие функции использовать на каждом этапе</h2>
+<p>В Kanjidon много функций, и может быть соблазнительно попробовать всё сразу. Вот поэтапное руководство, на чём сосредоточиться и когда.</p>
+<ul><li>Недели 1-2 (Кана): Фокус на паках и квизах. Открывай паки хираганы, затем катаканы. Лучше всего здесь работают базовое узнавание и множественный выбор.</li><li>Недели 3-6 (Первые кандзи): Паки и мнемоники — твои лучшие друзья. Внимательно читай каждую мнемонику. Используй функцию историй, чтобы видеть кандзи в контексте простых предложений.</li><li>Месяцы 2-3 (Стена): Делай упор на повторения SRS. Не игнорируй очередь повторений. Добавляй истории для контекстного подкрепления. Если кандзи не запоминается — проверь его радикалы.</li><li>Месяцы 4-5 (Рутина): Подключай PvP-битвы для мотивации. Создавай пользовательские колоды для постоянных слабых мест. Начинай работать с миссиями для структурированных целей.</li><li>Месяц 6 (Закрепление): Комбинируй все функции. Битвы тренируют скорость, SRS — запоминание, истории — понимание прочитанного, пользовательские колоды заполняют пробелы. Разнообразие не даёт учёбе стать однообразной.</li></ul>
+<h2>После N5: что дальше</h2>
+<p>Достижение N5 — настоящее достижение, но это ещё и только начало. N5 даёт тебе примерно 100 кандзи из 2 136 используемых. Хорошая новость — навыки, которые ты построил на пути к N5 (распознавание радикалов, использование SRS, формирование ежедневных привычек), напрямую масштабируются на N4 и дальше. Метод обучения не меняется — растёт только объём и сложность.</p>
+<p>Большинство учащихся, достигших N5, обнаруживают, что их темп фактически ускоряется. Ты узнаёшь радикалы быстрее, легче находишь связи между новыми и знакомыми кандзи, и твоя терпимость к неопределённости возрастает. Стена, в которую ты упёрся на N5, была самой трудной. У N4 свои вызовы, но ты встречаешь их с лучшими инструментами и большей уверенностью.</p>
+<h2>Честная правда об этом пути</h2>
+<p>Учить японский — это сложно. Любой, кто говорит обратное, что-то тебе продаёт. Но «сложно» не означает «невозможно» или «неприятно». Это значит, что у тебя будут дни, когда кандзи снова кажутся бессмысленными закорючками, дни, когда забываешь знаки, которые знал вчера, дни, когда задаёшься вопросом, стоит ли это усилий. Но у тебя также будут дни, когда ты впервые прочитаешь целое предложение, дни, когда поймёшь шутку в аниме без субтитров, дни, когда японец удивится, что ты можешь читать на его языке.</p>
+<p>Путь от нуля до N5 — это шесть месяцев, когда ты появляешься на 15 минут в день. Ощущается как игра. Работает как настоящая подготовка к JLPT. И через шесть месяцев ты будешь рад, что начал сегодня.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Vam takzhe mozhet ponravitsya</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ru/blog/how-to-learn-kanji/" class="related-card">
+                        <h4>How to Learn Kanji: Complete Guide</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/ru/blog/radikaly-kanji-gid/" class="related-card">
+                        <h4>Кандзи-радикалы: 2000 символов становятся 200</h4>
+                        <span class="read-time">12 min</span>
+                    </a>
+                    <a href="/ru/blog/skolko-vremeni-uchit-kanji/" class="related-card">
+                        <h4>Сколько времени нужно, чтобы выучить кандзи? (Реальные чи...</h4>
+                        <span class="read-time">10 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Nachni izuchat kanzi segodnya</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇷🇺</span>
+                        <span class="language-name">Русский</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option active">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>
