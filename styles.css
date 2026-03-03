@@ -2002,7 +2002,7 @@ img {
 
 .featured-accent {
     position: relative;
-    background: linear-gradient(135deg, #F47932 0%, #ff6b35 60%, #e85d26 100%);
+    background: var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2012,7 +2012,7 @@ img {
 .featured-kanji {
     font-size: 120px;
     font-weight: var(--font-weight-heavy);
-    color: rgba(255, 255, 255, 0.15);
+    color: rgba(28, 28, 30, 0.12);
     line-height: 1;
     user-select: none;
 }
