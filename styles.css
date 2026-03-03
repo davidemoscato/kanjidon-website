@@ -2012,7 +2012,7 @@ img {
 .featured-kanji {
     font-size: 120px;
     font-weight: var(--font-weight-heavy);
-    color: rgba(28, 28, 30, 0.35);
+    color: var(--secondary);
     line-height: 1;
     user-select: none;
 }
