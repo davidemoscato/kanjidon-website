@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>JLPT N5 против N1: сравнение Kanji, грамматики и часов обучения (2026) | Kanjidon</title>
+    <meta name="description" content="N5: 80 Kanji, 800 слов. N1: 2136 Kanji, 10 000+ слов. Сравнение всех 5 уровней JLPT: часы обучения, процент сдачи и какой уровень выбрать первым.">
+    <meta name="keywords" content="различия JLPT, сравнение JLPT N5 N4 N3 N2 N1, сравнение уровней JLPT, какой уровень JLPT сдавать, сложность JLPT 2026">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ru/blog/raznica-mezhdu-urovnyami-jlpt/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/jlpt-n5-n4-n3-n2-n1-differences/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/differenze-jlpt-n5-n4-n3-n2-n1/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/differences-jlpt-n5-n4-n3-n2-n1/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/diferencias-jlpt-n5-n4-n3-n2-n1/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/unterschiede-jlpt-n5-n4-n3-n2-n1/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/diferencas-jlpt-n5-n4-n3-n2-n1/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/raznica-mezhdu-urovnyami-jlpt/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/jlpt-n5-n1-level-byeol-bigyo/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jlpt-n5-n1-qubie/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jlpt-n5-n1-qubie/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/jlpt-n5-n4-n3-n2-n1-differences/">
+
+    <meta property="og:title" content="JLPT N5 против N1: сравнение Kanji, грамматики и часов обучения (2026)">
+    <meta property="og:description" content="N5: 80 Kanji, 800 слов. N1: 2136 Kanji, 10 000+ слов. Сравнение всех 5 уровней JLPT: часы обучения, процент сдачи и какой уровень выбрать первым.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ru/blog/raznica-mezhdu-urovnyami-jlpt/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JLPT N5 против N1: сравнение Kanji, грамматики и часов обучения (2026)">
+    <meta name="twitter:description" content="N5: 80 Kanji, 800 слов. N1: 2136 Kanji, 10 000+ слов. Сравнение всех 5 уровней JLPT: часы обучения, процент сдачи и какой уровень выбрать первым.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "JLPT N5 против N1: сравнение Kanji, грамматики и часов обучения (2026)",
+        "description": "N5: 80 Kanji, 800 слов. N1: 2136 Kanji, 10 000+ слов. Сравнение всех 5 уровней JLPT: часы обучения, процент сдачи и какой уровень выбрать первым.",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ru/blog/raznica-mezhdu-urovnyami-jlpt/"
+        },
+        "datePublished": "2025-12-16",
+        "dateModified": "2025-12-16"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ru/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "JLPT N5 против N1: сравнение Kanji, грамматики и часов обучения (2026)",
+                        "item": "https://kanjidon.com/ru/blog/raznica-mezhdu-urovnyami-jlpt/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Какой уровень JLPT самый легкий?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "N5 — самый простой уровень. Он требует знания около 80 Kanji, 800 слов и базовой грамматики. Тест проверяет понимание простого японского языка в повседневных ситуациях."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "С какого уровня JLPT стоит начать?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Большинство начинают с N5. Если ты учишь японский более 6 месяцев, можно рассмотреть N4. Перед регистрацией стоит пройти пробный тест, чтобы определить свой реальный уровень."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Можно ли пропускать уровни JLPT?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Да. Нет правила, обязывающего сдавать уровни по порядку. Ты можешь зарегистрироваться на любой уровень. Многие пропускают N5 и начинают сразу с N4 или даже N3, если занимались самостоятельно."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Какой уровень JLPT нужен для работы в Японии?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "N2 — это минимум для большинства профессиональных позиций. N1 предпочтителен для бизнеса, переводов и руководящих должностей. В сфере обслуживания иногда принимают с N3."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Какой уровень JLPT самый сложный?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "N1 — самый трудный уровень. Он требует знания около 2000 Kanji, более 10 000 слов и продвинутой грамматики. Тест проверяет понимание японского языка в широком спектре сложных ситуаций."
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ru/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ru/blog/">Blog</a>
+                <a href="/ru/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ru/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ru/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">JLPT N5 против N1: сравнение Kanji, грамматики и часов обучения (2026)</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>JLPT N5 против N1: сравнение Kanji, грамматики и часов обучения (2026)</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">16 дек. 2025 г.</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 мин</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">N5, N4, N3, N2, N1. Пять уровней, но что они означают на самом деле? Какова практическая разница между сдачей N4 и N2? И главное: какой уровень нужен именно тебе? Вот честное сравнение, которое ты не найдешь на официальном сайте.</p>
+<h2>Краткий обзор</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Уровень</th><th>Kanji</th><th>Лексика</th><th>Что ты сможешь</th></tr></thead>
+                <tbody><tr><td>N5</td><td>~100</td><td>~800</td><td>Простые фразы, представиться, сделать заказ в ресторане</td></tr><tr><td>N4</td><td>~300</td><td>~1500</td><td>Базовые диалоги, чтение детской манги</td></tr><tr><td>N3</td><td>~650</td><td>~3750</td><td>Повседневная жизнь, упрощенные новости, большая часть манги</td></tr><tr><td>N2</td><td>~1000</td><td>~6000</td><td>Работа в Японии, учеба в вузе, чтение газет</td></tr><tr><td>N1</td><td>~2000</td><td>~10000</td><td>Всё: литература, юридические документы, сарказм</td></tr></tbody>
+            </table></div>
+<h2>N5: Подготовленный турист</h2>
+<p>С уровнем N5 ты сможешь выжить в Японии, не выглядя совсем уж потерянным. Ты поймешь простое меню, указатели и сможешь совершать покупки. Но реальные разговоры? Пока рановато.</p>
+<p>Это уровень серии «я начал учить японский». Полезен для самомотивации, но не для подтверждения профессиональной компетенции.</p>
+<h2>N4: Начало общения</h2>
+<p>N4 — это когда ты начинаешь реально общаться, пусть и в ограниченных рамках. Ты сможешь смотреть аниме без субтитров (простые жанры), читать сёнэн-мангу с некоторым трудом и поддерживать простые диалоги с терпеливыми японцами.</p>
+<p>Это минимум, требуемый некоторыми программами культурного обмена. Еще не для работы, но уже показывает серьезность намерений.</p>
+<h2>N3: Поворотный момент</h2>
+<p>N3 — уровень, на котором многие застревают, но именно здесь всё становится по-настоящему интересным. С N3 ты можешь потреблять реальный японский контент: мангу, аниме, YouTube, статьи в интернете.</p>
+<p>Это минимальный уровень для некоторых работ в Японии (сфера обслуживания, туризм). Не для ответственных постов, но для ролей, где японский желателен, но не критичен.</p>
+<h2>N2: Рабочий уровень</h2>
+<p>N2 — уровень, открывающий двери. Работа в японских компаниях? Нужен N2. Университет в Японии? Минимум N2. Виза квалифицированного специалиста? N2 очень поможет.</p>
+<p>С N2 ты сможешь читать газеты (с некоторым трудом), следить за новостями, участвовать в рабочих совещаниях. Ты еще не говоришь свободно, но ты полностью функционален.</p>
+<h2>N1: Почти как носитель</h2>
+<p>N1 — это вершина. Классическая литература, юридические документы, формальный вежливый язык (кеиго), игра слов, сарказм. Если ты сдал N1, твой японский в определенных технических областях может быть даже лучше, чем у некоторых носителей.</p>
+<p>Этот уровень необходим для профессиональных переводчиков, топ-менеджеров в японских компаниях. Не обязателен для жизни в Японии, но открывает самые эксклюзивные двери.</p>
+<h2>Прыжок между уровнями: он не линейный</h2>
+<p>Предупреждение: сложность растет неравномерно. Вот как ее воспринимает большинство студентов:</p>
+<ul><li>N5 → N4: Посильный прыжок. Больше слов, больше Kanji, та же логика.</li><li>N4 → N3: Заметный прыжок. Грамматика становится абстрактной, тексты длиннее.</li><li>N3 → N2: Брутальный прыжок. Количество Kanji удваивается, скорость аудирования растет.</li><li>N2 → N1: Массивный прыжок. Редкая лексика, литературная грамматика, максимальная скорость.</li></ul>
+<h2>Какой уровень нужен тебе?</h2>
+<p>Зависит от твоей цели:</p>
+<ul><li>Для туризма: N5 достаточно</li><li>Для потребления медиа: N3 — практический минимум</li><li>Для работы в Японии: N2 — стандартное требование</li><li>Карьера переводчика: N1 обязателен</li><li>Для жизни без стресса: N3–N2 для бытовых нужд</li></ul>
+<h2>Как Kanjidon помогает на каждом уровне</h2>
+<p>В Kanjidon Kanji организованы по уровням JLPT. Ты можешь сосредоточиться именно на том, что нужно сейчас: N5 для старта, N4 для прогресса, N3 для преодоления среднего плато. Каждый иероглиф повторяется вовремя, так что ты не забудешь старое, пока учишь новое.</p>
+<h2>Итог</h2>
+<p>Цифры (N5, N4, N3...) — это просто ярлыки. Важно то, что ты можешь делать со своими знаниями японского. Выбери свою реальную цель и иди к уровню, который ее разблокирует. И помни: каждый следующий уровень строится на фундаменте предыдущего. Коротких путей нет.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Vam takzhe mozhet ponravitsya</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ru/blog/skolko-kanji-dlya-jlpt/" class="related-card">
+                        <h4>Сколько Kanji нужно для JLPT? Точное количество для N5, N4, N3, N2, N1</h4>
+                        <span class="read-time">6 мин</span>
+                    </a>
+                    <a href="/ru/blog/skolko-vremeni-nuzhno-chtoby-sdat-jlpt/" class="related-card">
+                        <h4>Сколько времени нужно, чтобы сдать JLPT? Правда, которую никто не говорит</h4>
+                        <span class="read-time">7 мин</span>
+                    </a>
+                    <a href="/ru/blog/polnyi-gid-po-jlpt-n5/" class="related-card">
+                        <h4>JLPT N5: Полный гид, как сдать экзамен с первой попытки</h4>
+                        <span class="read-time">8 мин</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Nachni izuchat kanzi segodnya</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇷🇺</span>
+                        <span class="language-name">Русский</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option active">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>
