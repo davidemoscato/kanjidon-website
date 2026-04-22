@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Rendaku : Pourquoi les lectures des kanji changent (人→hit... | Kanjidon</title>
+    <meta name="description" content="C&#039;est quoi le rendaku et pourquoi hito devient bito ? Le guide du phenomene phonetique japonais qui transforme les consonnes sourdes en sonores.">
+    <meta name="keywords" content="rendaku japonais, lectures kanji changent, hito bito, phenomene rendaku, consonnes japonaises">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/fr/blog/rendaku-pourquoi-les-lectures-changent/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/rendaku-why-readings-change/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/rendaku-perche-letture-cambiano/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/rendaku-pourquoi-les-lectures-changent/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/rendaku-por-que-las-lecturas-cambian/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/rendaku-warum-lesungen-sich-aendern/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/rendaku-por-que-as-leituras-mudam/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/rendaku-why-readings-change/">
+
+    <meta property="og:title" content="Rendaku : Pourquoi les lectures des kanji changent (人→hit...">
+    <meta property="og:description" content="C&#039;est quoi le rendaku et pourquoi hito devient bito ? Le guide du phenomene phonetique japonais qui transforme les consonnes sourdes en sonores.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/fr/blog/rendaku-pourquoi-les-lectures-changent/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rendaku : Pourquoi les lectures des kanji changent (人→hit...">
+    <meta name="twitter:description" content="C&#039;est quoi le rendaku et pourquoi hito devient bito ? Le guide du phenomene phonetique japonais qui transforme les consonnes sourdes en sonores.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Rendaku : Pourquoi les lectures des kanji changent (人→hit...",
+        "description": "C'est quoi le rendaku et pourquoi hito devient bito ? Le guide du phenomene phonetique japonais qui transforme les consonnes sourdes en sonores.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/fr/blog/rendaku-pourquoi-les-lectures-changent/"
+        },
+        "datePublished": "2025-12-15",
+        "dateModified": "2025-12-15"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/fr/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Rendaku : Pourquoi les lectures des kanji changent (人→hit...",
+                        "item": "https://kanjidon.com/fr/blog/rendaku-pourquoi-les-lectures-changent/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/fr/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/fr/blog/">Blog</a>
+                <a href="/fr/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/fr/">Home</a>
+                <span class="separator">›</span>
+                <a href="/fr/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Rendaku : Pourquoi les lectures des kanji changent (人→hit...</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Rendaku : Pourquoi les lectures des kanji changent (人→hit...</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">By David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">15 déc. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Tu as appris que 人 se lit &#039;hito&#039;. Puis tu tombes sur 人々 et c&#039;est &#039;hitobito&#039;, pas &#039;hitohito&#039;. Le &#039;h&#039; devient &#039;b&#039;. Pourquoi ? Bienvenue dans le monde du rendaku (連濁), un des phenomenes les plus deroutants (mais aussi les plus elegants) du japonais.</p>
+<h2>C&#039;est quoi le rendaku ?</h2>
+<p>Rendaku (連濁) veut litteralement dire &#039;voicement sequentiel&#039;. Quand deux mots se combinent, la consonne initiale du deuxieme mot peut devenir sonore (dakuon). En pratique :</p>
+<ul><li>K → G : 国 (kuni) → certains composes utilisent le son g</li><li>S → Z : 空 (sora) → 青空 (aozora, pas aosora)</li><li>T → D : 時 (toki) → 時々 (tokidoki, pas tokitoki)</li><li>H → B : 花 (hana) → 花火 (hanabi, pas hanahi)</li><li>H → P (rare) : 発 (hatsu) → 出発 (shuppatsu)</li></ul>
+<h2>Exemples courants de rendaku</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>Mot de base</th><th>Lecture de base</th><th>Compose</th><th>Lecture du compose</th></tr></thead>
+                <tbody><tr><td>人 (personne)</td><td>hito</td><td>人々 (gens)</td><td>hitobito</td></tr><tr><td>空 (ciel)</td><td>sora</td><td>青空 (ciel bleu)</td><td>aozora</td></tr><tr><td>花 (fleur)</td><td>hana</td><td>花火 (feu d&#039;artifice)</td><td>hanabi</td></tr><tr><td>時 (temps)</td><td>toki</td><td>時々 (parfois)</td><td>tokidoki</td></tr><tr><td>紙 (papier)</td><td>kami</td><td>折り紙 (origami)</td><td>origami</td></tr><tr><td>寿司 (sushi)</td><td>sushi</td><td>巻き寿司 (maki sushi)</td><td>makizushi</td></tr></tbody>
+            </table></div>
+<h2>Quand le rendaku s&#039;applique-t-il ?</h2>
+<p>Voila le probleme : y a pas de regle stricte. Le rendaku est plus une tendance qu&#039;une loi. Mais y a des patterns :</p>
+<h3>Tendances generales</h3>
+<ul><li>Mots natifs japonais (和語) : rendaku frequent</li><li>Mots d&#039;origine chinoise (漢語) : rendaku moins courant</li><li>Mots etrangers (外来語) : presque jamais de rendaku</li><li>Composes coordonnes (A et B) : souvent rendaku</li><li>Composes descriptifs : ca depend</li></ul>
+<h2>Quand NE PAS appliquer : La loi de Lyman</h2>
+<p>Y a une regle qui BLOQUE le rendaku, appelee &#039;loi de Lyman&#039; : si le deuxieme mot contient deja une consonne sonore (g, z, d, b), le rendaku ne s&#039;applique pas.</p>
+<ul><li>風 (kaze, vent) a deja &#039;z&#039; → 神風 = kamikaze (pas *kamigaze)</li><li>傷 (kizu, blessure) a deja &#039;z&#039; → ne change pas</li></ul>
+<p>Cette regle marche environ 80% du temps. Les 20% restants ? Des exceptions a memoriser.</p>
+<h2>Autres facteurs affectant le rendaku</h2>
+<ul><li>Composes anciens : plus susceptibles d&#039;avoir le rendaku (ils ont &#039;fusionne&#039; avec le temps)</li><li>Composes nouveaux : moins susceptibles (encore percus comme deux mots separes)</li><li>Noms propres : conservent souvent la forme originale</li><li>Onomatopees : presque toujours rendaku (ドキドキ, ガタガタ)</li><li>Repetition du meme mot : souvent rendaku (人々, 様々, 時々)</li></ul>
+<h2>Mots courants avec rendaku a memoriser</h2>
+<ul><li>青空 (aozora) - ciel bleu</li><li>花火 (hanabi) - feu d&#039;artifice</li><li>手紙 (tegami) - lettre</li><li>時々 (tokidoki) - parfois</li><li>人々 (hitobito) - les gens</li><li>日々 (hibi) - les jours, quotidien</li><li>様々 (samazama) - divers</li><li>巻き寿司 (makizushi) - maki</li><li>居酒屋 (izakaya) - izakaya (bar)</li><li>鼻血 (hanaji) - saignement de nez</li></ul>
+<h2>Comment apprendre le rendaku</h2>
+<p>N&#039;essaie pas de memoriser des regles. Apprends mot par mot. Avec le temps, tu developperas une intuition pour ce qui &#039;sonne bien&#039;. Voila comment :</p>
+<ul><li>Quand tu apprends un nouveau mot compose, note s&#039;il y a rendaku</li><li>Lis et ecoute beaucoup : l&#039;exposition construit l&#039;intuition</li><li>Stresse pas trop : meme les Japonais font parfois des erreurs</li><li>Dans le doute, n&#039;applique pas le rendaku : c&#039;est l&#039;erreur la moins grave</li></ul>
+<h2>Conclusion</h2>
+<p>Le rendaku est un de ces phenomenes qui semblent impossibles a comprendre au debut, mais qui deviennent naturels avec l&#039;exposition. C&#039;est pas quelque chose a &#039;etudier&#039; mais plutot a &#039;absorber&#039;. Chaque fois que tu apprends un nouveau mot avec Kanjidon, note la lecture. Avec des milliers de mots, le pattern emerge tout seul.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>A lire aussi</h3>
+                <div class="related-grid">
+                    
+                    <a href="/fr/blog/comment-apprendre-kanji/" class="related-card">
+                        <h4>Comment Apprendre les Kanji : Guide Complet pour Debutants</h4>
+                        <span class="read-time">8 min</span>
+                    </a>
+                    <a href="/fr/blog/combien-kanji-jlpt/" class="related-card">
+                        <h4>Combien de Kanji pour le JLPT ? Guide de N5 a N1</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/fr/blog/hiragana-katakana-kanji-differences/" class="related-card">
+                        <h4>Hiragana vs Katakana vs Kanji : Lequel Apprendre en Premi...</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Commencez a apprendre les kanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇫🇷</span>
+                        <span class="language-name">Français</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option active">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

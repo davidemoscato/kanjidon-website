@@ -1,0 +1,140 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "cach-hoc-kanji-5-phuong-phap-hieu-qua",
+      "title": "Cách học Kanji: 5 phương pháp thực sự hiệu quả",
+      "meta_description": "Bộ thủ, SRS, mẹo ghi nhớ, học trong ngữ cảnh và luyện viết: 5 phương pháp học Kanji đã được kiểm chứng. Lộ trình từ số 0 đến đọc hiểu tiếng Nhật.",
+      "keywords": "cách học kanji, học tiếng nhật, ghi nhớ kanji, kanji cho người mới bắt đầu",
+      "read_time": "8 phút",
+      "faq": [
+        {
+          "question": "Mất bao lâu để học hết tất cả Kanji?",
+          "answer": "Với việc học đều đặn, mất khoảng 1.5 đến 3 năm để nắm vững 2.136 Kanji thường dùng (Joyo Kanji). Nếu học 10 chữ mỗi ngày, bạn có thể xem qua hết trong 7 tháng, nhưng để nhớ lâu thì cần ôn tập với SRS."
+        },
+        {
+          "question": "Phương pháp học Kanji tốt nhất là gì?",
+          "answer": "Kết hợp Hệ thống lặp lại ngắt quãng (SRS) và các câu chuyện ghi nhớ (mnemonics) là hiệu quả nhất. Hãy học bộ thủ trước, sau đó liên tưởng các chữ Kanji phức tạp thành những hình ảnh dễ nhớ."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Học Kanji là một trong những thử thách lớn nhất với người học tiếng Nhật. Ý nghĩ phải nhớ hơn 2.000 ký tự có thể khiến bạn nản lòng, nhưng với phương pháp đúng đắn, ai cũng có thể chinh phục được."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanji là gì?"
+        },
+        {
+          "type": "text",
+          "content": "Kanji là các chữ cái có nguồn gốc từ Trung Quốc được sử dụng trong hệ thống chữ viết tiếng Nhật. Mỗi chữ đại diện cho một khái niệm và có thể có nhiều cách đọc (On'yomi và Kun'yomi) tùy theo ngữ cảnh."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5 phương pháp hiệu quả"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "1. Phương pháp bộ thủ"
+        },
+        {
+          "type": "text",
+          "content": "Kanji được cấu tạo từ các thành phần nhỏ gọi là bộ thủ. Nếu bạn học thuộc các bộ thủ này (có khoảng 214 bộ), bạn có thể 'giải mã' được các chữ Kanji phức tạp hơn."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "2. Hệ thống lặp lại ngắt quãng (SRS)"
+        },
+        {
+          "type": "text",
+          "content": "SRS nhắc bạn ôn lại kiến thức vào đúng thời điểm bạn sắp quên. Các ứng dụng như Kanjidon sử dụng hệ thống này để tối ưu hóa thời gian học của bạn."
+        }
+      ]
+    },
+    {
+      "id": "kanji-jlpt-n5-n1",
+      "slug": "can-bao-nhieu-kanji-cho-jlpt",
+      "title": "Cần bao nhiêu Kanji cho JLPT? Danh sách từ N5 đến N1",
+      "meta_description": "Số lượng Kanji cần thiết cho kỳ thi JLPT: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Ước tính thời gian học và mẹo chuẩn bị.",
+      "keywords": "số lượng kanji jlpt, n5 cần bao nhiêu kanji, kỳ thi năng lực tiếng nhật jlpt",
+      "read_time": "6 phút",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "JLPT là kỳ thi chính thức đánh giá trình độ tiếng Nhật của bạn. Biết được mỗi cấp độ cần bao nhiêu Kanji sẽ giúp bạn xây dựng chiến lược học tập đúng đắn."
+        },
+        {
+          "type": "table",
+          "headers": ["Cấp độ", "Số lượng Kanji", "Từ vựng"],
+          "rows": [
+            ["N5", "~100", "~800"],
+            ["N4", "~300", "~1500"],
+            ["N3", "~650", "~3750"],
+            ["N2", "~1000", "~6000"],
+            ["N1", "~2000", "~10000"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Cấp độ N5: Bước đi đầu tiên"
+        },
+        {
+          "type": "text",
+          "content": "N5 là cấp độ cơ bản nhất, bao gồm các chữ số, khái niệm thời gian và các sự vật đơn giản. Hoàn thành cấp độ này giúp bạn hiểu được khoảng 30% các văn bản tiếng Nhật cơ bản."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji",
+      "slug": "phan-biet-hiragana-katakana-kanji",
+      "title": "Hiragana vs Katakana vs Kanji: Nên học cái nào trước?",
+      "meta_description": "Hệ thống chữ viết tiếng Nhật: Vai trò của Hiragana, Katakana và Kanji cùng thứ tự học chuẩn xác nhất cho người mới.",
+      "keywords": "phân biệt hiragana katakana, thứ tự học tiếng nhật, bảng chữ cái tiếng nhật",
+      "read_time": "7 phút",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Tiếng Nhật sử dụng đồng thời 3 hệ thống chữ viết. Trong hướng dẫn này, chúng tôi sẽ giải thích vai trò của từng loại và thứ tự bạn nên học chúng."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "3 Hệ thống chữ viết"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Hiragana (ひらがな)"
+        },
+        {
+          "type": "text",
+          "content": "Dùng cho các từ thuần Nhật và ngữ pháp. Gồm 46 ký tự cơ bản với những đường nét mềm mại, uyển chuyển."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Katakana (カタカナ)"
+        },
+        {
+          "type": "text",
+          "content": "Dùng cho các từ mượn nước ngoài và tên riêng. Có cùng âm đọc như Hiragana nhưng đường nét cứng cáp và góc cạnh hơn."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Kanji (漢字)"
+        },
+        {
+          "type": "text",
+          "content": "Các chữ hán tượng hình. Một chữ có thể mang cả một ý nghĩa lớn lao."
+        }
+      ]
+    }
+  ]
+}

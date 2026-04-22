@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Blog | Kanjidon</title>
+    <meta name="description" content="Xuexi riyu hanji de zhinan he wenzhang. Xuexi riyu de jiqiao, fangfa he ziyuan.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh-tw/blog/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog | Kanjidon">
+    <meta property="og:description" content="Xuexi riyu hanji de zhinan he wenzhang. Xuexi riyu de jiqiao, fangfa he ziyuan.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh-tw/blog/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh-TW">
+    <meta property="og:site_name" content="Kanjidon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog | Kanjidon">
+    <meta name="twitter:description" content="Xuexi riyu hanji de zhinan he wenzhang. Xuexi riyu de jiqiao, fangfa he ziyuan.">
+    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+
+    <link rel="icon" type="image/png" href="../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh-tw/" class="logo">
+                <img src="../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh-tw/">Fanhui</a>
+                <a href="/zh-tw/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="blog-hero">
+        <div class="container">
+            <h1 class="section-title">Blog</h1>
+            <p class="blog-hero-subtitle">15 Wenzhang</p>
+            <div class="blog-hero-badges">
+                <span class="hero-badge"><span class="hero-badge-icon">📚</span> JLPT N5-N1</span>
+                <span class="hero-badge"><span class="hero-badge-icon">🧠</span> Jiange Chongfu</span>
+                <span class="hero-badge"><span class="hero-badge-icon">🌍</span> 20 Yuyan</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-list">
+        <div class="container">
+            <!-- Category Filters -->
+            <div class="category-filters" role="tablist" aria-label="Filter articles by category">
+                <button class="filter-btn active" data-category="all" role="tab" aria-selected="true" aria-controls="blog-articles">Quanbu</button>
+                <button class="filter-btn" data-category="jlpt" role="tab" aria-selected="false" aria-controls="blog-articles">JLPT</button>
+                <button class="filter-btn" data-category="method" role="tab" aria-selected="false" aria-controls="blog-articles">Fangfa</button>
+                <button class="filter-btn" data-category="beginner" role="tab" aria-selected="false" aria-controls="blog-articles">Chuxuezhe</button>
+                <button class="filter-btn" data-category="apps" role="tab" aria-selected="false" aria-controls="blog-articles">Yingyong</button>
+                <button class="filter-btn" data-category="community" role="tab" aria-selected="false" aria-controls="blog-articles">Shequ</button>
+            </div>
+
+            <div class="blog-grid" id="blog-articles" role="tabpanel">
+                
+        <a href="/zh-tw/blog/ruhe-xuexi-hanji/" class="blog-card-featured" data-categories="beginner method" data-primary-cat="beginner">
+            <div class="featured-accent">
+                <span class="featured-label">Tuijian</span>
+                <span class="featured-kanji">日</span>
+            </div>
+            <div class="featured-content">
+                <span class="card-category-badge">Chuxuezhe</span>
+                <h2>如何學習漢字：5個真正有效的方法</h2>
+                <p>部首、SRS、聯想記憶、語境學習、書寫練習：5 種經過驗證的漢字學習方法。從零開始到閱讀日語。</p>
+                <span class="read-more">Yuedu <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+            </div>
+        </a>
+                
+        <a href="/zh-tw/blog/jlpt-hanji-shuliang/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>JLPT 需要多少漢字？N5 到 N1 的精確數量</h2>
+                <p>精確的漢字數量：N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136)。加上學習時間預估以及除了漢字外通過考試還需要什麼。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月10日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/hiragana-katakana-kanji-qubie/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Chuxuezhe</span>
+                <h2>平假名 vs 片假名 vs 漢字：應該先學什麼？</h2>
+                <p>平假名、片假名和漢字：每種系統的角色、何時使用以及確切的學習順序。內含易懂的示例。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月8日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/jiange-fuxi-hanji/" class="blog-card" data-categories="method" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Fangfa</span>
+                <h2>漢字的間隔重複：SRS 的真實工作機制</h2>
+                <p>間隔重複系統 (SRS) 如何幫助將漢字鞏固在長期記憶中。科學原理、最佳間隔和最佳應用。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月24日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/100-changyong-hanji/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Chuxuezhe</span>
+                <h2>日本 100 個最熱門漢字：含義與讀音</h2>
+                <p>你在日本最常遇到的 100 個漢字：在招牌、菜單、車站和日常生活中。含義、讀音和單詞示例。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月28日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/ruhe-jizhu-hanji-bi-mian-cuowu/" class="blog-card" data-categories="method" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Fangfa</span>
+                <h2>為什麼你記不住漢字（以及真正有效的方法）</h2>
+                <p>別再像對待字母一樣對待漢字了。了解大腦如何處理漢字，以及為什麼死記硬背注定失敗。內含 3 個實用技巧。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月30日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/shibie-yu-jiyi-hanji/" class="blog-card" data-categories="method" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Fangfa</span>
+                <h2>識別 vs 記憶：漢字學習的真正問題</h2>
+                <p>「我知道我見過它，但我忘了它是什麼。」了解識別與記憶在漢字學習中的區別，以及如何彌補這一差距。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2026年1月2日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/hanji-yuyan-zhongji-boss/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Chuxuezhe</span>
+                <h2>為什麼漢字是語言的終極 BOSS</h2>
+                <p>漢字被公認為學習日語最難的部分。看看為什麼它們如此具有挑戰性，以及為什麼攻克它們是值得的。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2026年1月22日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">9分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/skolko-vremeni-nuzhno-chtoby-sdat-jlpt/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>通過 JLPT 需要多長時間？沒人告訴你的真相</h2>
+                <p>了解通過 JLPT 每個級別（從 N5 到 N1）到底需要多少時間。是真實的預估，而非虛假的承諾。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月18日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/jlpt-n5-wanzheng-zhinan/" class="blog-card" data-categories="jlpt beginner" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>JLPT N5：如何一次性通過考試的完整指南</h2>
+                <p>一次性通過 JLPT N5：學習計劃、語法清單、漢字清單、詞汇目標以及 40% 考生會掉進的陷阱。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月12日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/jlpt-kaoshi-shijian-feiyong/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>2026年 JLPT 考試時間：7月與12月報名截止日期</h2>
+                <p>2026年 JLPT 考試：7月5日和12月6日。各等級報名截止時間、費用以及全球考點信息。每月更新。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月20日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">5 分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/jlpt-n5-n1-qubie/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>JLPT N5 到 N1 全面對比：漢字、語法與學習時長 (2026)</h2>
+                <p>N5：80 個漢字，800 個詞彙。N1：2,136 個漢字，10,000 多個詞彙。JLPT 全 5 級深度對比：學習時長、通過率以及你应该首選哪個等級。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月16日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/ruhe-tongguo-jlpt-celve/" class="blog-card" data-categories="jlpt method" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>如何通過 JLPT：10 個真正有效的備考策略</h2>
+                <p>通過 JLPT 考試的實用、經過測試的策略。涵蓋學習方法、時間管理以及考試當天的应对技巧。適用於所有等級。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月22日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/hanji-xuexi-shequ-discord/" class="blog-card" data-categories="community" data-primary-cat="community">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Shequ</span>
+                <h2>你的漢字學法可能錯了（我們也曾如此）</h2>
+                <p>為什麼獨自學漢字容易失敗，以及學習社區如何改變一切。科學背書的方法、同伴監督以及真實的進步。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2026年1月20日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 分鐘</span>
+                </div>
+            </div>
+        </a>
+        <a href="/zh-tw/blog/riyu-zhuci-zhinan/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Chuxuezhe</span>
+                <h2>日語助詞終極指南：徹底搞懂 に、で、を、は、が</h2>
+                <p>通過實操案例掌握日語助詞 に、で、を、は 和 が。這份詳盡指南讓你從此不再混淆它們。</p>
+                <div class="card-meta">
+                    <span class="publish-date">2025年12月15日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 分鐘</span>
+                </div>
+            </div>
+        </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="download" id="download">
+        <div class="container download-content">
+            <h2 class="section-title">Download Kanjidon</h2>
+            <div class="store-badges">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../blog/">Blog</a>
+                    <a href="../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../privacy.html">Privacy Policy</a>
+                    <a href="../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../about.html">About Us</a>
+                    <a href="../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇼</span>
+                        <span class="language-name">繁體中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option active">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+
+            // Category filter
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card, .blog-card-featured');
+
+            function activateFilter(btn) {
+                const category = btn.dataset.category;
+
+                // Update active state
+                filterBtns.forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-selected', 'false');
+                    b.setAttribute('tabindex', '-1');
+                });
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+                btn.setAttribute('tabindex', '0');
+                btn.focus();
+
+                // Filter cards (both regular and featured)
+                blogCards.forEach(card => {
+                    const cardCategories = card.dataset.categories.split(' ');
+                    if (category === 'all' || cardCategories.includes(category)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            filterBtns.forEach((btn, index) => {
+                // Set initial tabindex (only active tab is focusable)
+                btn.setAttribute('tabindex', btn.classList.contains('active') ? '0' : '-1');
+
+                btn.addEventListener('click', function() {
+                    activateFilter(this);
+                });
+
+                // Keyboard navigation (WCAG 2.1)
+                btn.addEventListener('keydown', function(e) {
+                    let targetIndex = index;
+
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                        e.preventDefault();
+                        targetIndex = (index + 1) % filterBtns.length;
+                    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                        e.preventDefault();
+                        targetIndex = (index - 1 + filterBtns.length) % filterBtns.length;
+                    } else if (e.key === 'Home') {
+                        e.preventDefault();
+                        targetIndex = 0;
+                    } else if (e.key === 'End') {
+                        e.preventDefault();
+                        targetIndex = filterBtns.length - 1;
+                    }
+
+                    if (targetIndex !== index) {
+                        activateFilter(filterBtns[targetIndex]);
+                    }
+                });
+            });
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const downloadSection = document.getElementById('download');
+            const footer = document.querySelector('.footer');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

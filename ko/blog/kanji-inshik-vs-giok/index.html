@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>인식 vs 기억: 한자 학습의 진짜 문제 | Kanjidon</title>
+    <meta name="description" content="분명 안다고 생각했는데 왜 한자를 잊어버릴까? 인식은 기억이 아니에요. 차이점과 올바른 학습법을 알아보세요.">
+    <meta name="keywords" content="한자 기억, 한자 공부법, 한자 잊어버림, 한자 암기, 한자 학습법">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ko/blog/kanji-inshik-vs-giok/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/recognizing-vs-remembering-kanji/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/riconoscere-non-e-ricordare-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/reconnaitre-nest-pas-se-souvenir-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/reconocer-no-es-recordar-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/erkennen-ist-nicht-erinnern-kanji/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/reconhecer-nao-e-lembrar-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/uznavanie-protiv-zapominaniya-kanji/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-inshik-vs-giok/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/renshi-vs-jiyi-hanji-wenti/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/shibie-yu-jiyi-hanji/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/alkanji-alboss-alnihaii-lilughat/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/recognizing-vs-remembering-kanji/">
+
+    <meta property="og:title" content="인식 vs 기억: 한자 학습의 진짜 문제">
+    <meta property="og:description" content="분명 안다고 생각했는데 왜 한자를 잊어버릴까? 인식은 기억이 아니에요. 차이점과 올바른 학습법을 알아보세요.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ko/blog/kanji-inshik-vs-giok/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="인식 vs 기억: 한자 학습의 진짜 문제">
+    <meta name="twitter:description" content="분명 안다고 생각했는데 왜 한자를 잊어버릴까? 인식은 기억이 아니에요. 차이점과 올바른 학습법을 알아보세요.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "인식 vs 기억: 한자 학습의 진짜 문제",
+        "description": "분명 안다고 생각했는데 왜 한자를 잊어버릴까? 인식은 기억이 아니에요. 차이점과 올바른 학습법을 알아보세요.",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/ko/blog/kanji-inshik-vs-giok/"
+        },
+        "datePublished": "2026-01-02",
+        "dateModified": "2026-01-02"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/ko/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "인식 vs 기억: 한자 학습의 진짜 문제",
+                        "item": "https://kanjidon.com/ko/blog/kanji-inshik-vs-giok/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ko/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ko/blog/">Blog</a>
+                <a href="/ko/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/ko/">Home</a>
+                <span class="separator">›</span>
+                <a href="/ko/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">인식 vs 기억: 한자 학습의 진짜 문제</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>인식 vs 기억: 한자 학습의 진짜 문제</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2026년 1월 2일</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">5분</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">흔한 장면이에요. 앱을 열어요. 山이 나와요. 바로 &#039;아, 이거 알아&#039;라고 생각해요. 다음으로 넘겨요. 1주일 뒤. 山이 다시 나오는데 힌트가 하나도 없어요. 침묵. 뇌가 허공을 바라봐요. 스포일러: 당신 잘못이 아니에요. 방법의 문제예요.</p>
+<h2>인식은 기억이 아니에요</h2>
+<p>답이 바로 보이는 상태에서 한자를 보면, 뇌는 형태를 인식하고 긴장을 풀어요. 길에서 누군가를 보고 &#039;이 사람 아는 사람이다&#039;라고 생각하는 것과 같아요. 그런데 이름을 물으면... 아무것도 안 나와요.</p>
+<p>인식은 수동적이에요. 회상은 능동적이에요. 그리고 한자는 칭찬이 아니라 능동성을 원해요.</p>
+<h2>더 분명한 예시</h2>
+<p>日을 봐요. &#039;해, 날. 쉽지&#039;라고 생각해요. 그런데 月曜日에서 마주치면 갑자기 확신이 없어져요.</p>
+<p>日을 배운 게 아니었으니까요. &#039;배웠다는 느낌&#039;을 배운 거예요. 감으로 공부하면 이런 착각이 생겨요. 다 따로따로일 때는 괜찮아 보이다가, 실전에서 무너져요.</p>
+<h2>&#039;알 것 같은데&#039;의 위험</h2>
+<p>&#039;알 것 같은데&#039;는 위험한 말이에요. 너무 일찍 문을 닫아버리거든요. 뇌는 지름길을 좋아해요. 노력을 피할 수 있으면 경고 없이 피해버려요.</p>
+<p>그래서 공부했다고 생각하면서 넘어가는데, 실제로 저장된 건... 없어요. 제로. 빈 폴더.</p>
+<h2>한자 공부는 운동과 같아요</h2>
+<p>튜토리얼 영상을 보면서 운동하면 다 쉬워 보여요. 혼자 해야 할 때는 그렇지 않죠. 한자도 똑같아요.</p>
+<p>힌트 없이 직접 꺼내보는 연습을 안 하면, 기억을 훈련하는 게 아니에요. 그냥 그림을 보고 있는 거예요. 그리고 그림을 보는 건 아무것도 만들지 못해요.</p>
+<h2>좋은 학습법이 하는 것</h2>
+<p>좋은 학습법은 단순하지만 불편한 걸 해요. 한자를 앞에 두고 침묵해요. 힌트도 없고, &#039;이거 아닌가요?&#039;도 없고, 칭찬도 없어요.</p>
+<ul><li>물어봐요: &#039;이거 뭐야?&#039;</li><li>맞으면, 좋아요</li><li>틀리면, 나중에 다시 나와요</li><li>벌주려는 게 아니라, 고치려는 거예요.</li></ul>
+<h2>Kanjidon이 착각을 방지하는 방법</h2>
+<p>Kanjidon은 안다고 생각하는지 묻지 않아요. 증명하라고 해요. 山 혼자. 日 맥락 없이. 그다음에는 진짜 단어 속에서.</p>
+<p>맞으면 물러나요. 틀리면 다시 와요. 단순해요. 약간 불편해요. 아주 효과적이에요.</p>
+<h2>감으로 공부하는 걸 멈추면</h2>
+<p>신기한 일이 일어나요. 실생활에서 한자가 보이기 시작하는데 더 이상 낯설지 않아요. 생각을 많이 안 해도 읽혀요. 그리고 &#039;억지로 외우는 게 아니라 그냥 아는 거&#039;라는 걸 깨달아요.</p>
+<p>더 많은 노력이 필요했던 게 아니에요. 착각을 줄이면 되는 거였어요.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Igeo-do johahalgeoya</h3>
+                <div class="related-grid">
+                    
+                    <a href="/ko/blog/kanji-baeuneun-bangbeop/" class="related-card">
+                        <h4>한자 배우는 법: 진짜 효과 있는 5가지 방법</h4>
+                        <span class="read-time">8분</span>
+                    </a>
+                    <a href="/ko/blog/gangyeok-banbog-kanji-hakseup/" class="related-card">
+                        <h4>한자를 위한 간격 반복: SRS의 원리와 효과</h4>
+                        <span class="read-time">6분</span>
+                    </a>
+                    <a href="/ko/blog/kanji-oeumji-mothaneun-iyu/" class="related-card">
+                        <h4>한자가 안 외워지는 이유 (그리고 진짜 효과 있는 방법)</h4>
+                        <span class="read-time">5분</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Oneul kanji baeugi sijakaseyo</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇰🇷</span>
+                        <span class="language-name">한국어</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option active">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

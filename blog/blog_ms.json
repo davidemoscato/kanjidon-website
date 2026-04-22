@@ -1,0 +1,113 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "cara-belajar-kanji-5-kaedah-berkesan",
+      "title": "Cara Belajar Kanji: 5 Kaedah yang Benar-benar Menjadi",
+      "meta_description": "Radikal, SRS, mnemonik, belajar dalam konteks, dan latihan menulis: 5 kaedah terbukti untuk menguasai Kanji. Perjalanan dari sifar hingga boleh membaca bahasa Jepun.",
+      "keywords": "cara belajar kanji, bahasa jepun, menghafal kanji, kanji untuk pemula",
+      "read_time": "8 minit",
+      "faq": [
+        {
+          "question": "Berapa lama masa yang diperlukan untuk mempelajari semua Kanji?",
+          "answer": "Dengan belajar secara rutin, menguasai 2,136 Kanji standard (Joyo Kanji) biasanya mengambil masa 1.5 hingga 3 tahun. Jika kamu belajar 10 kanji sehari, kamu boleh melihat semuanya dalam 7 bulan, tetapi untuk ingatan jangka panjang perlu ulangan dengan SRS."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Belajar Kanji merupakan salah satu cabaran terbesar bagi pelajar bahasa Jepun. Membayangkan harus menghafal lebih 2,000 karakter mungkin terasa menakutkan, tetapi dengan kaedah yang betul, sesiapa pun boleh melakukannya."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Apa itu Kanji?"
+        },
+        {
+          "type": "text",
+          "content": "Kanji ialah karakter asal China yang digunakan dalam sistem penulisan bahasa Jepun. Setiap karakter mewakili sesuatu konsep atau idea."
+        }
+      ]
+    },
+    {
+      "id": "kanji-jlpt-n5-n1",
+      "slug": "berapa-banyak-kanji-untuk-jlpt-malaysia",
+      "title": "Butuh Berapa Kanji untuk JLPT? Senarai Lengkap N5 hingga N1",
+      "meta_description": "Jumlah Kanji yang diperlukan untuk peperiksaan JLPT: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Anggaran masa belajar dan tips persediaan.",
+      "keywords": "jumlah kanji jlpt, n5 berapa kanji, peperiksaan bahasa jepun jlpt",
+      "read_time": "6 minit",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "JLPT ialah peperiksaan rasmi untuk mengukur tahap bahasa Jepun kamu. Mengetahui berapa banyak Kanji yang diperlukan untuk setiap tahap akan membantu kamu menyusun strategi yang betul."
+        },
+        {
+          "type": "table",
+          "headers": ["Tahap", "Jumlah Kanji", "Kosa Kata"],
+          "rows": [
+            ["N5", "~100", "~800"],
+            ["N4", "~300", "~1500"],
+            ["N3", "~650", "~3750"],
+            ["N2", "~1000", "~6000"],
+            ["N1", "~2000", "~10000"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Tahap N5: Langkah Pertama"
+        },
+        {
+          "type": "text",
+          "content": "N5 ialah tahap paling asas, merangkumi nombor, konsep masa, dan benda-benda ringkas. Menyelesaikan tahap ini membolehkan kamu memahami sekitar 30% teks bahasa Jepun asas."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji",
+      "slug": "perbezaan-hiragana-katakana-kanji",
+      "title": "Hiragana vs Katakana vs Kanji: Belajar yang Mana Dulu?",
+      "meta_description": "Sistem penulisan bahasa Jepun: Peranan Hiragana, Katakana, dan Kanji serta urutan belajar yang betul untuk pemula.",
+      "keywords": "perbezaan hiragana katakana, urutan belajar bahasa jepun, huruf jepun",
+      "read_time": "7 minit",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Bahasa Jepun menggunakan 3 sistem penulisan secara serentak. Dalam panduan ini, kami menjelaskan peranan masing-masing."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "3 Sistem Penulisan"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Hiragana (ひらがな)"
+        },
+        {
+          "type": "text",
+          "content": "Digunakan untuk kata asli Jepun dan tatabahasa. Terdiri daripada 46 karakter asas dengan bentuk yang halus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Katakana (カタカナ)"
+        },
+        {
+          "type": "text",
+          "content": "Digunakan untuk kata pinjaman asing dan nama antarabangsa."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Kanji (漢字)"
+        },
+        {
+          "type": "text",
+          "content": "Karakter konseptual asal China. Satu karakter boleh mewakili satu makna utuh."
+        }
+      ]
+    }
+  ]
+}

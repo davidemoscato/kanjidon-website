@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Unsubscribe - Kanjidon</title>
+    <meta name="description" content="Unsubscribe from Kanjidon marketing emails.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://kanjidon.com/unsubscribe">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#F47932">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .unsubscribe-container {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .unsubscribe-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            margin-bottom: 24px;
+        }
+
+        .unsubscribe-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1C1C1E;
+            margin-bottom: 16px;
+        }
+
+        .unsubscribe-message {
+            font-size: 16px;
+            color: #5C5C5C;
+            line-height: 1.6;
+            max-width: 480px;
+            margin-bottom: 32px;
+        }
+
+        .unsubscribe-status {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .status-loading {
+            background: #FFF5ED;
+            color: #DE6A35;
+        }
+
+        .status-success {
+            background: #E8F5E9;
+            color: #2E7D32;
+        }
+
+        .status-error {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+
+        .status-already {
+            background: #E3F2FD;
+            color: #1565C0;
+        }
+
+        .loader {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #DE6A35;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .back-link {
+            margin-top: 24px;
+            color: #DE6A35;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Hide elements by state */
+        [data-state="loading"] .show-success,
+        [data-state="loading"] .show-error,
+        [data-state="loading"] .show-already,
+        [data-state="loading"] .show-form,
+        [data-state="success"] .show-loading,
+        [data-state="success"] .show-error,
+        [data-state="success"] .show-already,
+        [data-state="success"] .show-form,
+        [data-state="error"] .show-loading,
+        [data-state="error"] .show-success,
+        [data-state="error"] .show-already,
+        [data-state="error"] .show-form,
+        [data-state="already"] .show-loading,
+        [data-state="already"] .show-success,
+        [data-state="already"] .show-error,
+        [data-state="already"] .show-form,
+        [data-state="form"] .show-loading,
+        [data-state="form"] .show-success,
+        [data-state="form"] .show-error,
+        [data-state="form"] .show-already {
+            display: none;
+        }
+
+        .email-form {
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .email-input {
+            width: 100%;
+            padding: 14px 16px;
+            font-size: 16px;
+            border: 2px solid #E5E5E5;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .email-input:focus {
+            border-color: #DE6A35;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            background: #DE6A35;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .submit-btn:hover {
+            background: #C55A2A;
+        }
+
+        .submit-btn:disabled {
+            background: #ADA9A4;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/" class="logo">
+                <img src="assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/">Home</a>
+                <a href="/support.html">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Unsubscribe Content -->
+    <main class="unsubscribe-container" data-state="loading" id="main-content">
+        <img src="assets/images/icona.png" alt="Kanjidon" class="unsubscribe-icon">
+
+        <!-- Loading State -->
+        <h1 class="unsubscribe-title show-loading">Processing...</h1>
+        <p class="unsubscribe-message show-loading">Please wait while we process your unsubscribe request.</p>
+        <span class="unsubscribe-status status-loading show-loading">
+            <span class="loader"></span>Processing
+        </span>
+
+        <!-- Success State -->
+        <h1 class="unsubscribe-title show-success">Unsubscribed</h1>
+        <p class="unsubscribe-message show-success">You have been successfully unsubscribed from Kanjidon marketing emails. You will no longer receive our welcome series or promotional emails.</p>
+        <span class="unsubscribe-status status-success show-success">Unsubscribed</span>
+
+        <!-- Already Unsubscribed State -->
+        <h1 class="unsubscribe-title show-already">Already Unsubscribed</h1>
+        <p class="unsubscribe-message show-already">You were already unsubscribed from Kanjidon marketing emails. No action needed.</p>
+        <span class="unsubscribe-status status-already show-already">Already Unsubscribed</span>
+
+        <!-- Error State -->
+        <h1 class="unsubscribe-title show-error">Something Went Wrong</h1>
+        <p class="unsubscribe-message show-error" id="error-message">We couldn't process your unsubscribe request. The link may be invalid or expired.</p>
+        <span class="unsubscribe-status status-error show-error">Error</span>
+
+        <!-- Email Form State (fallback when token is invalid) -->
+        <h1 class="unsubscribe-title show-form">Unsubscribe</h1>
+        <p class="unsubscribe-message show-form">Enter your email address to unsubscribe from Kanjidon marketing emails.</p>
+        <form class="email-form show-form" id="email-form">
+            <input type="email" class="email-input" id="email-input" placeholder="your@email.com" required>
+            <button type="submit" class="submit-btn" id="submit-btn">Unsubscribe</button>
+        </form>
+
+        <a href="/" class="back-link">Back to Kanjidon</a>
+    </main>
+
+    <!-- Footer -->
+                                                                                    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="blog/">Blog</a>
+                    <a href="faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="about.html">About Us</a>
+                    <a href="support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="language-name">English</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option active">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Supabase Edge Function URL
+        const SUPABASE_URL = 'https://gjralasjbogndfzkcczc.supabase.co';
+        const FUNCTION_URL = `${SUPABASE_URL}/functions/v1/handle-email-unsubscribe`;
+
+        async function processUnsubscribe() {
+            const mainContent = document.getElementById('main-content');
+            const errorMessage = document.getElementById('error-message');
+
+            // Get token from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const token = urlParams.get('token');
+
+            // If no token or placeholder token, show email form
+            if (!token || token === 'test' || token === 'xxx') {
+                mainContent.dataset.state = 'form';
+                return;
+            }
+
+            try {
+                const response = await fetch(FUNCTION_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ token })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    if (data.message === 'already_unsubscribed') {
+                        mainContent.dataset.state = 'already';
+                    } else {
+                        mainContent.dataset.state = 'success';
+                    }
+                } else {
+                    // If token invalid, show email form as fallback
+                    if (data.error === 'invalid_token') {
+                        mainContent.dataset.state = 'form';
+                    } else {
+                        mainContent.dataset.state = 'error';
+                        errorMessage.textContent = 'An error occurred. Please try again or contact support.';
+                    }
+                }
+            } catch (error) {
+                console.error('Unsubscribe error:', error);
+                mainContent.dataset.state = 'error';
+                errorMessage.textContent = 'Network error. Please check your connection and try again.';
+            }
+        }
+
+        // Handle email form submission
+        async function handleEmailSubmit(e) {
+            e.preventDefault();
+            const mainContent = document.getElementById('main-content');
+            const emailInput = document.getElementById('email-input');
+            const submitBtn = document.getElementById('submit-btn');
+            const errorMessage = document.getElementById('error-message');
+
+            const email = emailInput.value.trim();
+            if (!email) return;
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Processing...';
+
+            try {
+                const response = await fetch(FUNCTION_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    if (data.message === 'already_unsubscribed') {
+                        mainContent.dataset.state = 'already';
+                    } else {
+                        mainContent.dataset.state = 'success';
+                    }
+                } else {
+                    mainContent.dataset.state = 'error';
+                    if (data.error === 'invalid_token') {
+                        errorMessage.textContent = 'Email not found. Please check your email address and try again.';
+                    } else {
+                        errorMessage.textContent = 'An error occurred. Please try again or contact support.';
+                    }
+                }
+            } catch (error) {
+                console.error('Unsubscribe error:', error);
+                mainContent.dataset.state = 'error';
+                errorMessage.textContent = 'Network error. Please check your connection and try again.';
+            }
+        }
+
+        // Process on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            processUnsubscribe();
+            document.getElementById('email-form').addEventListener('submit', handleEmailSubmit);
+        });
+    </script>
+</body>
+</html>

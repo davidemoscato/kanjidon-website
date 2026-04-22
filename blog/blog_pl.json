@@ -1,0 +1,187 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "jak-uczyc-sie-kanji-5-metod",
+      "title": "Jak uczyć się Kanji: 5 metod, które naprawdę działają",
+      "meta_description": "Radykały, SRS, mnemotechnika, nauka w kontekście i praktyka pisania: 5 sprawdzonych metod opanowania Kanji. Twoja droga do czytania po japońsku.",
+      "keywords": "jak uczyć się kanji, nauka japońskiego, metody nauki kanji, znaki japońskie, kanji dla początkujących",
+      "read_time": "8 min",
+      "faq": [
+        {
+          "question": "Ile czasu zajmuje nauka wszystkich znaków Kanji?",
+          "answer": "Opanowanie 2136 podstawowych znaków (Joyo Kanji) zajmuje zazwyczaj od 1,5 do 3 lat regularnej nauki. Ucząc się 10 znaków dziennie, przejdziesz przez wszystkie w około 7 miesięcy, ale utrwalenie ich wymaga systemu powtórek."
+        },
+        {
+          "question": "Jaka jest najlepsza metoda nauki Kanji?",
+          "answer": "Połączenie systemu powtórek w odstępach (SRS) z mnemotechniką. Najpierw naucz się radykałów, a potem buduj skojarzenia wizualne dla złożonych znaków."
+        },
+        {
+          "question": "Czy muszę uczyć się pisać Kanji, czy wystarczy umieć je czytać?",
+          "answer": "Na początku skup się na rozpoznawaniu. Pisanie pomaga w zapamiętywaniu, ale w dobie cyfrowej odręczne pisanie nie jest niezbędne. Możesz zacząć ćwiczyć pisanie po opanowaniu około 200 znaków."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Nauka Kanji to jedno z największych wyzwań dla osób uczących się japońskiego. Myśl o opanowaniu ponad 2000 znaków może przerażać, ale dzięki odpowiednim metodom każdy może to osiągnąć."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Czym są Kanji?"
+        },
+        {
+          "type": "text",
+          "content": "Kanji to znaki pochodzenia chińskiego używane w japońskim systemie pisma. Każdy znak reprezentuje pojęcie lub ideę i może mieć wiele czytań (On'yomi i Kun'yomi) w zależności od kontekstu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5 skutecznych metod"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "1. Metoda radykałów"
+        },
+        {
+          "type": "text",
+          "content": "Znaki Kanji składają się z mniejszych elementów zwanych radykałami. Jeśli nauczysz się podstawowych radykałów (jest ich 214), będziesz w stanie 'rozszyfrować' złożone znaki. Na przykład radykał 'wody' (氵) pojawia się w znakach oznaczających morze, pływanie czy rzekę."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "2. System powtórek w odstępach (SRS)"
+        },
+        {
+          "type": "text",
+          "content": "SRS przypomina Ci informacje w momencie, gdy jesteś bliski ich zapomnienia. Aplikacje takie jak Kanjidon optymalizują Twój czas nauki, skupiając się na znakach, które sprawiają Ci trudność."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "3. Mnemotechnika i historie"
+        },
+        {
+          "type": "text",
+          "content": "Twórz własne historie dla znaków. Na przykład znak 'odpoczywać' (休) to połączenie 'człowieka' (人) i 'drzewa' (木). Człowiek odpoczywający pod drzewem to obraz, którego nie zapomnisz."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "4. Nauka w kontekście"
+        },
+        {
+          "type": "text",
+          "content": "Nie ucz się znaków w izolacji. Ucz się całych słów. Widząc znak 'jeść' (食) w słowach 'taberu' (jeść) i 'shokuji' (posiłek), znacznie szybciej go zapamiętasz."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "5. Praktyka pisania"
+        },
+        {
+          "type": "text",
+          "content": "Pisanie ręczne buduje pamięć mięśniową. Przestrzeganie poprawnej kolejności kresek pomaga zachować proporcje i estetykę znaku."
+        }
+      ]
+    },
+    {
+      "id": "kanji-jlpt-n5-n1",
+      "slug": "ile-kanji-na-jlpt",
+      "title": "Ile Kanji na JLPT? Kompletna lista od N5 do N1",
+      "meta_description": "Liczba znaków Kanji wymagana na egzamin JLPT: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Sprawdź czas nauki i porady.",
+      "keywords": "jlpt kanji liczba, n5 ile kanji, n1 ile kanji, egzamin japoński jlpt",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Ile Kanji trzeba znać na poziom N5?",
+          "answer": "Na poziomie N5 wymagana jest znajomość około 80-100 podstawowych znaków, takich jak liczby, dni tygodnia i proste czasowniki."
+        },
+        {
+          "question": "Czy na egzaminie JLPT trzeba pisać znaki ręcznie?",
+          "answer": "Nie, JLPT to egzamin testowy wielokrotnego wyboru. Musisz umieć rozpoznać i przeczytać znaki, ale nie ma części sprawdzającej odręczne pisanie."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "JLPT (Japanese Language Proficiency Test) to oficjalny egzamin potwierdzający znajomość języka japońskiego. Każdy poziom ma określone wymagania co do liczby znaków Kanji."
+        },
+        {
+          "type": "table",
+          "headers": ["Poziom", "Liczba Kanji", "Słownictwo"],
+          "rows": [
+            ["N5", "~100", "~800"],
+            ["N4", "~300", "~1500"],
+            ["N3", "~650", "~3750"],
+            ["N2", "~1000", "~6000"],
+            ["N1", "~2000", "~10000"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5: Pierwszy krok"
+        },
+        {
+          "type": "text",
+          "content": "N5 to poziom podstawowy. Znajomość tych znaków pozwala na zrozumienie około 30% prostych tekstów japońskich. Skupia się na konkretach: liczbach, kierunkach i podstawowych elementach natury."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji",
+      "slug": "hiragana-katakana-kanji-roznice",
+      "title": "Hiragana vs Katakana vs Kanji: Od czego zacząć naukę?",
+      "meta_description": "Japońskie systemy pisma: Hiragana, Katakana i Kanji. Poznaj ich role i dowiedz się, w jakiej kolejności je uczyć. Proste przykłady.",
+      "keywords": "hiragana katakana różnice, alfabet japoński, nauka japońskiego pismo",
+      "read_time": "7 min",
+      "faq": [
+        {
+          "question": "Czego uczyć się najpierw?",
+          "answer": "Zdecydowanie zacznij od Hiragany. To fundament języka. Potem naucz się Katakany, a na końcu zacznij wprowadzać znaki Kanji."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Japoński system pisma składa się z trzech elementów, które współpracują ze sobą w jednym zdaniu. Oto ich krótka charakterystyka."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Trzy systemy"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Hiragana (ひらがな)"
+        },
+        {
+          "type": "text",
+          "content": "Służy do zapisu gramatyki i rodzimych japońskich słów. Ma 46 podstawowych znaków o zaokrąglonych kształtach."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Katakana (カタカナ)"
+        },
+        {
+          "type": "text",
+          "content": "Używana głównie do słów obcego pochodzenia i nazwisk. Kształty są bardziej kanciaste i ostre."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Kanji (漢字)"
+        },
+        {
+          "type": "text",
+          "content": "Ideogramy reprezentujące konkretne pojęcia. Jeden znak zastępuje całe słowo lub jego rdzeń."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Kanjidon Website - robots.txt
+# https://kanjidon.com
+
+User-agent: *
+Allow: /
+
+# Exclude legal pages from indexing (they have noindex meta too)
+Disallow: /privacy.html
+Disallow: /terms.html
+Disallow: /delete.html
+Disallow: /support.html
+
+# Sitemap
+Sitemap: https://kanjidon.com/sitemap.xml

@@ -1,0 +1,2531 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "ruhe-xuexi-hanji",
+      "title": "如何学习汉字：5个真正有效的方法",
+      "meta_description": "部首、SRS、联想记忆、语境学习、书写练习：5种经过验证的汉字学习方法。从零开始到阅读日语。",
+      "keywords": "学习汉字, 汉字学习方法, 记忆汉字, 汉字入门, 日语汉字",
+      "read_time": "8分钟",
+      "faq": [
+        {
+          "question": "学完所有汉字需要多长时间？",
+          "answer": "每天坚持学习的话，掌握全部2,136个常用汉字大约需要1.5到3年。每天学10个的话大约7个月就能过一遍，但要真正记住还需要通过间隔重复持续复习。"
+        },
+        {
+          "question": "学汉字最好的方法是什么？",
+          "answer": "间隔重复配合联想记忆是最有效的方式。先学部首，然后用视觉故事和语境来记忆复杂汉字。避免死记硬背。"
+        },
+        {
+          "question": "应该学写汉字还是只要认识就行？",
+          "answer": "先集中精力认字。手写能强化记忆，但日常使用中并非必须，因为大多数日本人都用数字输入。认识200个以上汉字后再开始练习书写也不迟。"
+        },
+        {
+          "question": "每天学几个汉字比较合适？",
+          "answer": "每天5到10个对大多数学习者来说是可持续的。坚持和复习比数量更重要。每天用SRS扎实地学5个，比囫囵吞枣学30个效果好得多。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "学汉字是日语学习者面临的最大挑战之一。要达到流利阅读水平需要记住2000多个字符，听起来像是不可能的任务。但别担心：用对方法，任何人都能攻克汉字。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "什么是汉字？"
+        },
+        {
+          "type": "text",
+          "content": "汉字（漢字）是源自中国的文字，用于日语书写。每个汉字代表一个概念或想法，根据语境可以有不同的读法（发音）。现代日语使用约2,136个常用汉字，称为常用汉字（じょうようかんじ）。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "为什么汉字很重要？"
+        },
+        {
+          "type": "list",
+          "items": [
+            "阅读日语报纸、书籍和网站",
+            "看懂日本的标识、菜单和路标",
+            "通过JLPT考试（日本语能力测试）",
+            "更准确、更自然地交流"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "学习汉字最有效的5种方法"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "1. 部首学习法"
+        },
+        {
+          "type": "text",
+          "content": "汉字由叫做部首的组件构成。先学214个部首，就能\"解码\"更复杂的汉字。比如，水（水）部首出现在海（大海）、泳（游泳）和河（河流）等汉字中。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "2. 间隔重复系统（SRS）"
+        },
+        {
+          "type": "text",
+          "content": "间隔重复是经过科学验证的长期记忆方法。不需要每天复习所有内容，而是按递增的时间间隔复习：1天、3天、1周、2周，以此类推。这种方法能最大化学习效率。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "3. 联想记忆法"
+        },
+        {
+          "type": "text",
+          "content": "创建心理联想非常有帮助。汉字休（休息）由人（人）和木（树）组成：一个人在树下休息。这样的故事让汉字变得容易记住。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "4. 在语境中学习"
+        },
+        {
+          "type": "text",
+          "content": "不要孤立地学汉字，要学习包含它的词汇。汉字食（吃）在食べる（taberu - 吃）、食事（shokuji - 餐食）这样的词汇中学习会更容易记住。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "5. 书写练习"
+        },
+        {
+          "type": "text",
+          "content": "手写汉字能强化肌肉记忆和视觉记忆。一定要遵循正确的笔顺：基本原则是从上到下、从左到右。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "每天学几个汉字？"
+        },
+        {
+          "type": "text",
+          "content": "对初学者来说，每天5到10个是可持续的节奏。关键是坚持：每天学15分钟比一周学一次2小时效果好得多。6个月就能学完JLPT N5所需的全部汉字。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "常见错误"
+        },
+        {
+          "type": "list",
+          "items": [
+            "试图一次记住所有汉字",
+            "忽略音读和训读",
+            "不复习已经学过的汉字",
+            "脱离语境只背意思"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "总结"
+        },
+        {
+          "type": "text",
+          "content": "学汉字需要时间和毅力，但用对方法完全可以做到。间隔重复、联想记忆和持之以恒的练习相结合，一定能带你走向成功。"
+        }
+      ]
+    },
+    {
+      "id": "kanji-jlpt-n5-n1",
+      "slug": "jlpt-geji-hanji-shuliang",
+      "title": "JLPT各级需要多少汉字？N5到N1完整指南",
+      "meta_description": "JLPT各级汉字数量：N5(80)、N4(240)、N3(620)、N2(1000)、N1(2136)。附学习时间和备考策略。",
+      "keywords": "JLPT汉字, JLPT N5汉字, JLPT汉字列表, JLPT各级汉字, JLPT备考",
+      "read_time": "6分钟",
+      "faq": [
+        {
+          "question": "JLPT N5需要多少汉字？",
+          "answer": "N5大约需要80个汉字。这些是最基础的字符，包括数字、星期、简单动词和日常概念。"
+        },
+        {
+          "question": "JLPT N1需要多少汉字？",
+          "answer": "N1大约需要2000到2136个汉字，几乎涵盖所有常用汉字，包括新闻、文学和商务中使用的专业词汇。"
+        },
+        {
+          "question": "JLPT考试需要手写汉字吗？",
+          "answer": "不需要。JLPT全部是选择题。你只需要能认读汉字，不需要手写。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "JLPT（日本语能力测试）是日语官方水平考试。最常见的问题之一是：每个级别需要学多少汉字？这里给你完整的解答。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT各级概览"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "级别",
+            "需要汉字数",
+            "词汇量",
+            "学习时间"
+          ],
+          "rows": [
+            [
+              "N5",
+              "约100",
+              "约800",
+              "150-250小时"
+            ],
+            [
+              "N4",
+              "约300",
+              "约1,500",
+              "300-600小时"
+            ],
+            [
+              "N3",
+              "约650",
+              "约3,750",
+              "450-900小时"
+            ],
+            [
+              "N2",
+              "约1,000",
+              "约6,000",
+              "600-1,200小时"
+            ],
+            [
+              "N1",
+              "约2,000",
+              "约10,000",
+              "900-1,800小时"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT N5：第一步"
+        },
+        {
+          "type": "text",
+          "content": "N5需要大约100个汉字。这些是最基础的字符：数字（一、二、三）、星期（月、火、水）、基本概念（人、山、川）。掌握这些汉字就能读懂约30%的简单日语文本。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "N5汉字示例"
+        },
+        {
+          "type": "text",
+          "content": "日（天/太阳）、本（书/根本）、人（人）、大（大）、小（小）、中（中）、上（上）、下（下）、年（年）、月（月）"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT N4：初级水平"
+        },
+        {
+          "type": "text",
+          "content": "N4需要约300个汉字（比N5多200个）。这个级别学习日常动作、常用形容词和更具体的词汇。能够理解基本对话和简单文章。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT N3：中级水平"
+        },
+        {
+          "type": "text",
+          "content": "N3需要约650个汉字。这是转折点：达到这个水平就能读漫画、简化版新闻，在日常情境中交流。很多日本公司要求的最低水平就是N3。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT N2：高级水平"
+        },
+        {
+          "type": "text",
+          "content": "掌握约1,000个汉字，就能阅读报纸、看懂电视节目。在日本大部分行业工作或进入日本大学都需要这个水平。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT N1：精通水平"
+        },
+        {
+          "type": "text",
+          "content": "最高级别需要约2,000个汉字。N1水平能阅读文学作品和技术文档，理解复杂讨论。高级专业职位要求达到这个水平。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "推荐学习策略"
+        },
+        {
+          "type": "list",
+          "items": [
+            "从N5开始，打好坚实基础",
+            "不要跳级：每个级别都建立在上一级之上",
+            "使用间隔重复防止遗忘",
+            "在词汇语境中学习汉字",
+            "用模拟题练习"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "需要多长时间？"
+        },
+        {
+          "type": "text",
+          "content": "每天坚持学习30分钟的话：N5需要3到4个月，N4需要6到8个月，N3需要1到1.5年。N2和N1通常需要2到4年的持续学习。"
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji",
+      "slug": "pingjiaming-pianjiaming-hanji-qubie",
+      "title": "平假名 vs 片假名 vs 汉字：应该先学哪个？",
+      "meta_description": "平假名、片假名、汉字：各自的功能、用法和最佳学习顺序。附清晰示例。",
+      "keywords": "平假名片假名区别, 平假名vs片假名, 日语文字, 学平假名, 日语学习顺序",
+      "read_time": "7分钟",
+      "faq": [
+        {
+          "question": "应该先学平假名还是片假名？",
+          "answer": "先学平假名。它是最常用的日语文字，涵盖所有日语固有词和语法。主要用于外来词的片假名应该第二个学。各需要1到2周。"
+        },
+        {
+          "question": "不用汉字能写日语吗？",
+          "answer": "技术上可以，只用平假名和片假名。但这会让文本更难读，因为汉字提供了语义和视觉分隔。没有汉字的成人日语被认为是不完整的。"
+        },
+        {
+          "question": "平假名和片假名各有多少个？",
+          "answer": "基本平假名46个，基本片假名46个，表示相同的发音。加上浊音和半浊音变体，各约71个。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "日语使用三种文字系统：平假名、片假名和汉字。对初学者来说最常见的问题是：从哪里开始？这篇指南帮你理解它们的区别和最佳学习顺序。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "日语的三种文字系统"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "平假名（ひらがな）"
+        },
+        {
+          "type": "text",
+          "content": "平假名是日语的基础文字系统。包含46个字符，每个代表一个音节。形状圆润柔和。用于日语固有词、语法助词，以及不知道汉字写法时的替代。"
+        },
+        {
+          "type": "text",
+          "content": "示例：あ(a)、い(i)、う(u)、え(e)、お(o)、か(ka)、き(ki)、く(ku)..."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "片假名（カタカナ）"
+        },
+        {
+          "type": "text",
+          "content": "片假名也有46个字符，代表与平假名相同的发音，但形状更棱角分明。用于外来词、外国名字、拟声词和强调。"
+        },
+        {
+          "type": "text",
+          "content": "示例：ア(a)、イ(i)、ウ(u)、エ(e)、オ(o)、カ(ka)、キ(ki)、ク(ku)..."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "汉字（漢字）"
+        },
+        {
+          "type": "text",
+          "content": "汉字源自中国。每个汉字代表一个概念，可以有多种读法。现代日语使用约2,136个常用汉字。虽然复杂，但能加快阅读速度。"
+        },
+        {
+          "type": "text",
+          "content": "示例：山（山）、川（河）、日（天）、月（月）、人（人）"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "快速对比"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "文字系统",
+            "字符数",
+            "外形",
+            "主要用途"
+          ],
+          "rows": [
+            [
+              "平假名",
+              "46",
+              "圆润",
+              "固有词、语法"
+            ],
+            [
+              "片假名",
+              "46",
+              "棱角",
+              "外来词、强调"
+            ],
+            [
+              "汉字",
+              "2,136+",
+              "复杂",
+              "名词、动词、形容词"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "正确的顺序：先学哪个？"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "1. 首先：平假名"
+        },
+        {
+          "type": "text",
+          "content": "平假名绝对是起点。掌握平假名就能写出任何日语词汇，阅读初级教材。大多数教科书第一课就使用平假名。所需时间：1到2周。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "2. 其次：片假名"
+        },
+        {
+          "type": "text",
+          "content": "平假名之后学片假名。日本很多日常用语是片假名（コーヒー = 咖啡、パン = 面包、テレビ = 电视）。去日本旅行时就能看懂菜单和标识。所需时间：1到2周。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "3. 最后：汉字"
+        },
+        {
+          "type": "text",
+          "content": "掌握了平假名和片假名之后开始学汉字。从最简单、最常用的（N5级）开始。学汉字是一段长旅程，但非常值得。所需时间：持续数年。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "各文字系统所需时间"
+        },
+        {
+          "type": "list",
+          "items": [
+            "平假名：1-2周（每天学习30分钟）",
+            "片假名：1-2周（每天学习30分钟）",
+            "基础汉字（N5）：2-3个月",
+            "全部常用汉字：2-4年"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "重要提示"
+        },
+        {
+          "type": "text",
+          "content": "不要把罗马字当拐杖。很多初学者过度依赖罗马字，这会拖慢学习进度。尽早切换到平假名，打好坚实基础。"
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-kanji",
+      "slug": "jiange-chongfu-xuexi-hanji",
+      "title": "间隔重复学汉字：SRS的工作原理",
+      "meta_description": "SRS（间隔重复）如何让汉字进入长期记忆。科学原理、最佳复习间隔和推荐应用。",
+      "keywords": "间隔重复, SRS汉字, 汉字学习方法, 记忆汉字, 汉字闪卡",
+      "read_time": "6分钟",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "怎么记住2000个汉字而不崩溃？答案在科学里：间隔重复（Spaced Repetition System，SRS）是经过验证的最有效长期记忆方法。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "什么是间隔重复？"
+        },
+        {
+          "type": "text",
+          "content": "间隔重复是一种学习技巧，按照逐渐增长的时间间隔来复习信息。不是每天复习所有内容，而是在你即将忘记的那一刻进行复习。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "科学原理：遗忘曲线"
+        },
+        {
+          "type": "text",
+          "content": "1885年，心理学家赫尔曼·艾宾浩斯发现了\"遗忘曲线\"：不复习的话，24小时内会忘记70%的信息。但每次复习后，曲线会变平缓，记忆变得更持久。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "实际操作是这样的"
+        },
+        {
+          "type": "list",
+          "items": [
+            "第1天：学习新汉字",
+            "第2天：第一次复习（间隔1天）",
+            "第4天：第二次复习（间隔2天）",
+            "第8天：第三次复习（间隔4天）",
+            "第16天：第四次复习（间隔8天）",
+            "间隔持续增长"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "SRS为什么特别适合汉字"
+        },
+        {
+          "type": "text",
+          "content": "汉字是SRS的完美对象，因为每个汉字都是独立的信息单元：有意义、有读法、有相关词汇。SRS让你把精力集中在最困难的汉字上，优化学习时间。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "间隔重复的优势"
+        },
+        {
+          "type": "list",
+          "items": [
+            "长期记忆（不只是应付考试）",
+            "高效学习：更少时间，更好效果",
+            "个性化：集中攻克薄弱点",
+            "防止倦怠：短而高效的学习",
+            "可衡量的进度追踪"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "SM-2算法"
+        },
+        {
+          "type": "text",
+          "content": "SRS中最广泛使用的算法是彼得·沃兹尼亚克开发的SM-2。它根据你的表现计算最佳间隔：答对了间隔增长，答错了回到较短间隔。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "如何开始使用SRS"
+        },
+        {
+          "type": "list",
+          "items": [
+            "选择一个使用SRS的应用（如Kanjidon）",
+            "每天从少量开始（5-10个）",
+            "每天学习，哪怕只有10-15分钟",
+            "绝不跳过复习：这是核心",
+            "评价答案时要诚实"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "典型效果"
+        },
+        {
+          "type": "text",
+          "content": "正确使用SRS的话，每天只需15到20分钟，2到3个月就能记住JLPT N5所需的100个汉字。关键不是强度，而是坚持。"
+        }
+      ]
+    },
+    {
+      "id": "100-common-kanji",
+      "slug": "riben-zuichangyong-100ge-hanji",
+      "title": "日本最常用的100个汉字：含义与读法",
+      "meta_description": "在日本最常见的100个汉字：标识、菜单、车站、日常生活中。每个附含义、读法和例词。",
+      "keywords": "常用汉字, 基础汉字, 日常汉字, 实用汉字, 汉字列表",
+      "read_time": "10分钟",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "不是所有汉字都同样重要。有些随处可见：标识上、菜单里、车站中。这里是100个最常见的汉字，在日本会立刻派上用场。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "数字与时间"
+        },
+        {
+          "type": "text",
+          "content": "价格、时刻表、日期中随处可见这些汉字。"
+        },
+        {
+          "type": "kanji_list",
+          "items": [
+            {
+              "kanji": "一",
+              "meaning": "一",
+              "reading": "ichi, hitotsu"
+            },
+            {
+              "kanji": "二",
+              "meaning": "二",
+              "reading": "ni, futatsu"
+            },
+            {
+              "kanji": "三",
+              "meaning": "三",
+              "reading": "san, mittsu"
+            },
+            {
+              "kanji": "四",
+              "meaning": "四",
+              "reading": "shi/yon, yottsu"
+            },
+            {
+              "kanji": "五",
+              "meaning": "五",
+              "reading": "go, itsutsu"
+            },
+            {
+              "kanji": "六",
+              "meaning": "六",
+              "reading": "roku, muttsu"
+            },
+            {
+              "kanji": "七",
+              "meaning": "七",
+              "reading": "shichi/nana, nanatsu"
+            },
+            {
+              "kanji": "八",
+              "meaning": "八",
+              "reading": "hachi, yattsu"
+            },
+            {
+              "kanji": "九",
+              "meaning": "九",
+              "reading": "kyū/ku, kokonotsu"
+            },
+            {
+              "kanji": "十",
+              "meaning": "十",
+              "reading": "jū, tō"
+            },
+            {
+              "kanji": "百",
+              "meaning": "百",
+              "reading": "hyaku"
+            },
+            {
+              "kanji": "千",
+              "meaning": "千",
+              "reading": "sen"
+            },
+            {
+              "kanji": "万",
+              "meaning": "万",
+              "reading": "man"
+            },
+            {
+              "kanji": "円",
+              "meaning": "日元",
+              "reading": "en"
+            },
+            {
+              "kanji": "年",
+              "meaning": "年",
+              "reading": "nen, toshi"
+            },
+            {
+              "kanji": "月",
+              "meaning": "月",
+              "reading": "getsu, tsuki"
+            },
+            {
+              "kanji": "日",
+              "meaning": "天/太阳",
+              "reading": "nichi, hi"
+            },
+            {
+              "kanji": "時",
+              "meaning": "时间",
+              "reading": "ji, toki"
+            },
+            {
+              "kanji": "分",
+              "meaning": "分钟/部分",
+              "reading": "fun/pun, wakaru"
+            },
+            {
+              "kanji": "今",
+              "meaning": "现在",
+              "reading": "kon, ima"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "地点与方向"
+        },
+        {
+          "type": "text",
+          "content": "在日本出行必备的汉字。"
+        },
+        {
+          "type": "kanji_list",
+          "items": [
+            {
+              "kanji": "東",
+              "meaning": "东",
+              "reading": "tō, higashi"
+            },
+            {
+              "kanji": "西",
+              "meaning": "西",
+              "reading": "sei, nishi"
+            },
+            {
+              "kanji": "南",
+              "meaning": "南",
+              "reading": "nan, minami"
+            },
+            {
+              "kanji": "北",
+              "meaning": "北",
+              "reading": "hoku, kita"
+            },
+            {
+              "kanji": "上",
+              "meaning": "上",
+              "reading": "jō, ue"
+            },
+            {
+              "kanji": "下",
+              "meaning": "下",
+              "reading": "ka, shita"
+            },
+            {
+              "kanji": "中",
+              "meaning": "中/里面",
+              "reading": "chū, naka"
+            },
+            {
+              "kanji": "外",
+              "meaning": "外",
+              "reading": "gai, soto"
+            },
+            {
+              "kanji": "右",
+              "meaning": "右",
+              "reading": "u, migi"
+            },
+            {
+              "kanji": "左",
+              "meaning": "左",
+              "reading": "sa, hidari"
+            },
+            {
+              "kanji": "前",
+              "meaning": "前",
+              "reading": "zen, mae"
+            },
+            {
+              "kanji": "後",
+              "meaning": "后",
+              "reading": "go, ushiro"
+            },
+            {
+              "kanji": "駅",
+              "meaning": "车站",
+              "reading": "eki"
+            },
+            {
+              "kanji": "口",
+              "meaning": "口/出口",
+              "reading": "kō, kuchi, guchi"
+            },
+            {
+              "kanji": "入",
+              "meaning": "进入",
+              "reading": "nyū, hairu"
+            },
+            {
+              "kanji": "出",
+              "meaning": "出去",
+              "reading": "shutsu, deru"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "人物与关系"
+        },
+        {
+          "type": "kanji_list",
+          "items": [
+            {
+              "kanji": "人",
+              "meaning": "人",
+              "reading": "jin/nin, hito"
+            },
+            {
+              "kanji": "男",
+              "meaning": "男",
+              "reading": "dan, otoko"
+            },
+            {
+              "kanji": "女",
+              "meaning": "女",
+              "reading": "jo, onna"
+            },
+            {
+              "kanji": "子",
+              "meaning": "孩子",
+              "reading": "shi, ko"
+            },
+            {
+              "kanji": "父",
+              "meaning": "父亲",
+              "reading": "fu, chichi"
+            },
+            {
+              "kanji": "母",
+              "meaning": "母亲",
+              "reading": "bo, haha"
+            },
+            {
+              "kanji": "友",
+              "meaning": "朋友",
+              "reading": "yū, tomo"
+            },
+            {
+              "kanji": "先",
+              "meaning": "先/老师",
+              "reading": "sen, saki"
+            },
+            {
+              "kanji": "生",
+              "meaning": "生命/出生",
+              "reading": "sei, ikiru"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "常见动作"
+        },
+        {
+          "type": "kanji_list",
+          "items": [
+            {
+              "kanji": "見",
+              "meaning": "看",
+              "reading": "ken, miru"
+            },
+            {
+              "kanji": "聞",
+              "meaning": "听",
+              "reading": "bun, kiku"
+            },
+            {
+              "kanji": "読",
+              "meaning": "读",
+              "reading": "doku, yomu"
+            },
+            {
+              "kanji": "書",
+              "meaning": "写",
+              "reading": "sho, kaku"
+            },
+            {
+              "kanji": "話",
+              "meaning": "说",
+              "reading": "wa, hanasu"
+            },
+            {
+              "kanji": "食",
+              "meaning": "吃",
+              "reading": "shoku, taberu"
+            },
+            {
+              "kanji": "飲",
+              "meaning": "喝",
+              "reading": "in, nomu"
+            },
+            {
+              "kanji": "行",
+              "meaning": "去",
+              "reading": "kō, iku"
+            },
+            {
+              "kanji": "来",
+              "meaning": "来",
+              "reading": "rai, kuru"
+            },
+            {
+              "kanji": "買",
+              "meaning": "买",
+              "reading": "bai, kau"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "自然"
+        },
+        {
+          "type": "kanji_list",
+          "items": [
+            {
+              "kanji": "山",
+              "meaning": "山",
+              "reading": "san, yama"
+            },
+            {
+              "kanji": "川",
+              "meaning": "河",
+              "reading": "sen, kawa"
+            },
+            {
+              "kanji": "海",
+              "meaning": "海",
+              "reading": "kai, umi"
+            },
+            {
+              "kanji": "空",
+              "meaning": "天空",
+              "reading": "kū, sora"
+            },
+            {
+              "kanji": "火",
+              "meaning": "火",
+              "reading": "ka, hi"
+            },
+            {
+              "kanji": "水",
+              "meaning": "水",
+              "reading": "sui, mizu"
+            },
+            {
+              "kanji": "木",
+              "meaning": "树",
+              "reading": "moku, ki"
+            },
+            {
+              "kanji": "金",
+              "meaning": "金/金属",
+              "reading": "kin, kane"
+            },
+            {
+              "kanji": "土",
+              "meaning": "土",
+              "reading": "do, tsuchi"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "常见形容词"
+        },
+        {
+          "type": "kanji_list",
+          "items": [
+            {
+              "kanji": "大",
+              "meaning": "大",
+              "reading": "dai/tai, ōkii"
+            },
+            {
+              "kanji": "小",
+              "meaning": "小",
+              "reading": "shō, chiisai"
+            },
+            {
+              "kanji": "新",
+              "meaning": "新",
+              "reading": "shin, atarashii"
+            },
+            {
+              "kanji": "古",
+              "meaning": "旧/老",
+              "reading": "ko, furui"
+            },
+            {
+              "kanji": "高",
+              "meaning": "高/贵",
+              "reading": "kō, takai"
+            },
+            {
+              "kanji": "安",
+              "meaning": "便宜/安",
+              "reading": "an, yasui"
+            },
+            {
+              "kanji": "長",
+              "meaning": "长",
+              "reading": "chō, nagai"
+            },
+            {
+              "kanji": "白",
+              "meaning": "白",
+              "reading": "haku, shiroi"
+            },
+            {
+              "kanji": "黒",
+              "meaning": "黑",
+              "reading": "koku, kuroi"
+            },
+            {
+              "kanji": "赤",
+              "meaning": "红",
+              "reading": "seki, akai"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "日常实用"
+        },
+        {
+          "type": "kanji_list",
+          "items": [
+            {
+              "kanji": "電",
+              "meaning": "电",
+              "reading": "den"
+            },
+            {
+              "kanji": "車",
+              "meaning": "车",
+              "reading": "sha, kuruma"
+            },
+            {
+              "kanji": "店",
+              "meaning": "店",
+              "reading": "ten, mise"
+            },
+            {
+              "kanji": "食",
+              "meaning": "食物",
+              "reading": "shoku"
+            },
+            {
+              "kanji": "本",
+              "meaning": "书/本",
+              "reading": "hon, moto"
+            },
+            {
+              "kanji": "語",
+              "meaning": "语言",
+              "reading": "go, kataru"
+            },
+            {
+              "kanji": "学",
+              "meaning": "学习",
+              "reading": "gaku, manabu"
+            },
+            {
+              "kanji": "校",
+              "meaning": "学校",
+              "reading": "kō"
+            },
+            {
+              "kanji": "国",
+              "meaning": "国",
+              "reading": "koku, kuni"
+            },
+            {
+              "kanji": "会",
+              "meaning": "会/见面",
+              "reading": "kai, au"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "如何使用这份清单"
+        },
+        {
+          "type": "text",
+          "content": "不要试图一次记住100个。每天从5个开始，使用间隔重复，在词汇语境中学习每个汉字。3到4周就能打下在日本出行的坚实基础。"
+        }
+      ]
+    },
+    {
+      "id": "why-you-cant-memorize-kanji",
+      "slug": "weishenme-jibuzhu-hanji",
+      "title": "为什么你记不住汉字（以及真正有效的方法）",
+      "meta_description": "死记硬背、闪卡过载、脱离语境：3个毁掉汉字学习的常见错误。真正有效的方法在这里。",
+      "keywords": "记忆汉字, 汉字学习, 汉字方法, 学汉字, 间隔重复汉字",
+      "read_time": "5分钟",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "汉字不是问题。你接触汉字的方式才是问题。每次打开书或应用就面对无尽的列表，大脑当然会叹气。不是因为汉字不可能学，而是没有正常人会那样学。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "传统方法就像没有水的马拉松"
+        },
+        {
+          "type": "text",
+          "content": "最常见的方法是这样：背，抄，重复，下一个。有效吗？对，大约有效20分钟。然后大脑重置，昨天还清清楚楚的汉字像一场奇怪的梦一样蒸发了。"
+        },
+        {
+          "type": "text",
+          "content": "这不是遗忘，是记忆从未真正巩固。换句话说，那个汉字压根就没进去。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "真正的错误：学得太轻松"
+        },
+        {
+          "type": "text",
+          "content": "很多方法试图让一切变\"简单\"。太简单了。没有努力，大脑不会存储。没有犯错，就不会学习。一切感觉顺畅的时候，其实什么都没发生。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "汉字不是用来\"理解\"的，是用来\"训练\"的"
+        },
+        {
+          "type": "text",
+          "content": "换个角度。汉字不是理论，是技能。像开车、认路、认脸一样。不是读无尽的解释来学的，而是在大脑即将放手的那一刻重新面对它。那个时刻就是一切。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "真正有效的方法"
+        },
+        {
+          "type": "list",
+          "items": [
+            "一个让你正面面对即将遗忘的汉字的系统",
+            "没有被动滚动的无尽列表",
+            "诚实的反馈，不是随机的夸奖",
+            "在正确的时刻重复，不是盲目重复"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "真正的区别"
+        },
+        {
+          "type": "text",
+          "content": "用错误方法会想：\"我学了这么多但什么都记不住。\"用正确方法会想：\"奇怪，我居然真的记住了。\""
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanjidon的方法"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon不会随便说\"做得好\"，不会让你无尽滚动，不会假装一切都好。它让你正面面对即将忘记的那个汉字。一次又一次，直到记住为止。不是因为意志力，而是系统替你做了这个工作。"
+        }
+      ]
+    },
+    {
+      "id": "recognizing-vs-remembering-kanji",
+      "slug": "renshi-vs-jiyi-hanji-wenti",
+      "title": "认识 vs 记住：汉字学习的真正问题",
+      "meta_description": "明明觉得自己会了，为什么还会忘？认识不等于记住。了解区别和正确学习方法。",
+      "keywords": "记住汉字, 汉字学习, 忘记汉字, 汉字记忆, 汉字方法",
+      "read_time": "5分钟",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "常见场景：打开应用，看到山。立刻想：\"对对对，我认识。\"下一个。一周后，山又出现了，但没有任何提示。沉默。大脑一片空白。剧透：不是你的错，是方法的问题。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "认识不等于记住"
+        },
+        {
+          "type": "text",
+          "content": "当你看到一个汉字，答案就在旁边时，大脑认出了形状然后放松了。就像在街上看到一个人想\"我认识这个人\"。但如果问名字...什么都想不起来。"
+        },
+        {
+          "type": "text",
+          "content": "认识是被动的。回忆是主动的。汉字需要的是主动性，不是被动的\"我好像会\"。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "更明显的例子"
+        },
+        {
+          "type": "text",
+          "content": "看到日，想：\"太阳，天，简单。\"然后在月曜日里遇到它，突然就不确定了。因为你没有真正学会日，只是学会了\"觉得自己学会了\"的感觉。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "好方法做什么"
+        },
+        {
+          "type": "text",
+          "content": "好方法做一件简单但不舒服的事：把汉字放在你面前，然后沉默。没有提示，没有暗示，没有鼓励。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "问你：\"这个是什么？\"",
+            "答对了，好",
+            "答错了，过一会儿再来",
+            "不是为了惩罚，是为了修正"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanjidon如何避免这种错觉"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon不问你觉得自己会不会。它要你证明。山，单独出现。日，没有语境。然后放进真实词汇中。答对了就后退，答错了就再来。简单，有点不舒服，非常有效。"
+        }
+      ]
+    },
+    {
+      "id": "kanji-final-boss-of-languages",
+      "slug": "hanji-yuyan-zuizhong-boss",
+      "title": "为什么汉字是语言的最终Boss（以及怎么打败它）",
+      "meta_description": "2136个汉字，多种读法，无限组合。传统方法失败的原因以及你真正需要的学习方法。",
+      "keywords": "学汉字, 汉字难度, 学日语, 汉字方法, 日语汉字",
+      "read_time": "6分钟",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "在花花绿绿的应用上反复练习\"苹果是红色的\"。闪卡到处都是。结果？六个月后你只会说konnichiwa和点拉面。问题不在你，在于你把汉字当字母表来学了。剧透：汉字和字母表完全不是一回事。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "汉字不是字母表"
+        },
+        {
+          "type": "text",
+          "content": "英语有26个字母。日语？2,136个官方汉字。而且还没完：每个汉字至少有两种不同的读法，意思随语境变化，组合起来会产生全新的词汇。"
+        },
+        {
+          "type": "text",
+          "content": "具体例子：食单独读\"taberu\"（吃）。在食事中变成\"shoku\"（餐食）。在定食中还是\"shoku\"但意思是套餐。同一个字，三种发音，三种意思。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "传统方法为什么不行"
+        },
+        {
+          "type": "text",
+          "content": "打开汉字书。第一页：列表。第二页：又是列表。第三页：你猜对了。这种方法在1985年没有替代品的时候还行。现在就是纯折磨。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "记忆实际如何工作"
+        },
+        {
+          "type": "text",
+          "content": "神经科学很明确长期记忆需要什么："
+        },
+        {
+          "type": "list",
+          "items": [
+            "视觉模式：木木木 = 森（森林）。三棵树成森林。大脑喜欢这个。",
+            "竞争：挑战别人时，独自学习无法激活的脑区会被激活。",
+            "精确时机：在即将遗忘的那一刻复习，记忆就会被锁定。",
+            "即时反馈：马上知道错了，不是翻了20张卡片之后才知道。"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "打败汉字需要什么"
+        },
+        {
+          "type": "list",
+          "items": [
+            "真正的间隔重复：不是\"每天复习所有\"而是\"这个汉字3天后复习，因为那是最佳时机\"",
+            "主动测试：看不到答案，没有提示。要么自己想起来，要么就是不会",
+            "真实语境：孤立学日没意义。在日曜日、毎日、今日中学才是一切",
+            "可衡量的进度：准确知道自己\"真正会\"多少汉字，而不是\"看过\"多少"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanjidon为什么不一样"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon基于这些原则打造。计算你即将遗忘的时刻的间隔重复。从不同角度攻克每个汉字的多种测试类型。与其他学习者的实时PvP对战，因为竞争加速一切。没有无尽列表，没有随机夸奖。只有一个系统：在你需要复习的时候给你需要复习的汉字。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "结论"
+        },
+        {
+          "type": "text",
+          "content": "汉字不是不可能。只是和你以前学的东西不同。当字母表来学是错误，当技能来训练才是出路。日语不是学会的，是征服的。"
+        }
+      ]
+    },
+    {
+      "id": "how-long-to-pass-jlpt",
+      "slug": "jlpt-tonguo-xuyao-duojiu",
+      "title": "JLPT通过需要多久？没人告诉你的真相",
+      "meta_description": "JLPT各级别通过的真实所需时间。N5到N1的现实时间线。",
+      "keywords": "JLPT时间, JLPT准备时间, JLPT多久, JLPT N5通过, JLPT学习时间",
+      "read_time": "7分钟",
+      "faq": [
+        {
+          "question": "通过JLPT N5需要学习多少小时？",
+          "answer": "大约300到400小时，即每天学习3到6个月。完全零基础需要全部时间，已经会假名的可以更快。"
+        },
+        {
+          "question": "通过JLPT N1需要学习多少小时？",
+          "answer": "大约3000到4800小时，即3到5年以上。N1极具挑战性，需要接近母语的阅读理解、高级语法和大量词汇。"
+        },
+        {
+          "question": "自学能通过JLPT吗？",
+          "answer": "可以。很多通过者都是自学的。关键是坚持的学习计划、优质材料、模拟题和强大的SRS复习系统。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "搜索\"JLPT需要多久\"会得到各种答案。有人说N5要3个月，有人说6个月。真相是：取决于你能实际控制的明确因素。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "诚实的时间表"
+        },
+        {
+          "type": "text",
+          "content": "这些数字基于坚持学习、有效方法、从零开始。每天30分钟使用有效系统："
+        },
+        {
+          "type": "table",
+          "headers": [
+            "级别",
+            "最短时间",
+            "现实时间",
+            "总小时"
+          ],
+          "rows": [
+            [
+              "N5",
+              "2-3个月",
+              "3-4个月",
+              "150-250"
+            ],
+            [
+              "N4",
+              "4-6个月",
+              "6-8个月",
+              "300-600"
+            ],
+            [
+              "N3",
+              "8-12个月",
+              "12-18个月",
+              "450-900"
+            ],
+            [
+              "N2",
+              "18-24个月",
+              "24-36个月",
+              "600-1200"
+            ],
+            [
+              "N1",
+              "3-4年",
+              "4-5年",
+              "900-1800"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "决定一切的3个因素"
+        },
+        {
+          "type": "list",
+          "items": [
+            "坚持 > 强度：每天20分钟胜过周末3小时。永远如此。",
+            "方法：间隔重复把时间减半。无尽列表把时间翻倍。",
+            "即时反馈：知道自己错了能加速一切。在考试时才发现就太晚了。"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5：第一个里程碑"
+        },
+        {
+          "type": "text",
+          "content": "N5需要约100个汉字和800个词汇。听起来很多，但每天30分钟的话3到4个月就够了。真正的障碍不是数量，而是养成习惯。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N2-N1：马拉松"
+        },
+        {
+          "type": "text",
+          "content": "N2和N1是完全不同的运动。1000到2000个汉字，专业词汇，连日本人有时都会弄错的语法。不再是月的单位，而是年。好消息是：N2就能在日本工作、不用词典读漫画了。N1是追求完美的人才需要的。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "结论"
+        },
+        {
+          "type": "text",
+          "content": "\"JLPT需要多久\"没有统一答案。只有你的答案，取决于你多坚持、方法多聪明。控制好这两个因素，时间就缩短。忽略它们，时间就无限延长。"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-n5-complete-guide",
+      "slug": "jlpt-n5-wanzheng-zhinan",
+      "title": "JLPT N5：一次通过的完整指南",
+      "meta_description": "JLPT N5一次通过：学习计划、语法清单、汉字列表、词汇目标，以及40%考生犯的错误。",
+      "keywords": "JLPT N5, JLPT N5指南, JLPT N5准备, 通过JLPT N5, 日语考试N5",
+      "read_time": "8分钟",
+      "faq": [
+        {
+          "question": "JLPT N5难吗？",
+          "answer": "N5是JLPT最简单的级别，但40%的考生仍然不通过。需要扎实掌握假名、约80个汉字、800个词汇和基本语法。"
+        },
+        {
+          "question": "准备JLPT N5需要多久？",
+          "answer": "每天30到60分钟坚持学习，大多数人需要3到6个月。已经会假名的可以更短。"
+        },
+        {
+          "question": "JLPT N5合格分数是多少？",
+          "answer": "总分180分中需达到80分（44%），且每个部分（语言知识、阅读、听力）最少19分。任何一部分不达标就是不通过。"
+        },
+        {
+          "question": "JLPT N5值得考吗？",
+          "answer": "对初学者提供了具体目标，验证基础水平，对保持动力很有帮助。不过就业目的通常需要N3或更高。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "N5是JLPT的第一个级别。纸面上看起来很简单：\"基础级别\"、\"初学者用\"。然后你发现40%的考生通不过。不是因为难，而是因为准备方式不对。这篇指南教你正确的方法。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5实际考什么"
+        },
+        {
+          "type": "text",
+          "content": "N5评估三个方面：语言知识（词汇和语法）、阅读和听力。没有写作或口语测试。只需要理解，不需要输出。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "部分",
+            "包含内容",
+            "占比"
+          ],
+          "rows": [
+            [
+              "词汇",
+              "约800词, 约100汉字",
+              "25%"
+            ],
+            [
+              "语法",
+              "基本句型, 助词, 变形",
+              "25%"
+            ],
+            [
+              "阅读",
+              "短文, 标识, 简单邮件",
+              "25%"
+            ],
+            [
+              "听力",
+              "日常对话, 广播通知",
+              "25%"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5的100个汉字：不是可选项"
+        },
+        {
+          "type": "text",
+          "content": "很多人想：\"才100个，最后一周再学。\"致命错误。N5汉字在考试中到处出现：语法题、阅读文章、听力文字里都有。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "最常见的错误：忽视听力"
+        },
+        {
+          "type": "text",
+          "content": "大多数考生只学词汇和语法，几乎没练听力就去考试了。结果：看得懂的题目，听的部分全军覆没。N5听力不能回放，漏掉关键词就等于丢分。解决方法：每天听日语，哪怕只有10分钟。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "现实的学习计划（3-4个月）"
+        },
+        {
+          "type": "list",
+          "items": [
+            "第1个月：假名、前30个汉字、基础语法",
+            "第2个月：再学40个汉字、日常词汇、更多语法",
+            "第3个月：最后30个汉字、阅读练习、集中听力",
+            "第4个月：模拟考试、复习弱点、巩固"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "结论"
+        },
+        {
+          "type": "text",
+          "content": "N5不难，只是第一步。但用正确的方式开始，就能建立一直带到N1的好习惯。用错误的方式开始，就会积累让你在N4放弃的挫败感。明智地选择你的起步方法。"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-dates-registration-costs",
+      "slug": "jlpt-kaoshi-shijian-feiyong",
+      "title": "2026年 JLPT 考试时间：7月与12月报名截止日期",
+      "meta_description": "2026年 JLPT 考试：7月5日和12月6日。各级别报名截止时间、费用以及全球考点信息。每月更新。",
+      "keywords": "JLPT 时间 2026, JLPT 报名 2026, JLPT 费用, JLPT 考试, 日语能力考时间",
+      "read_time": "5 分钟",
+      "faq": [
+        {
+          "question": "2026 年 JLPT 考试是什么时候？",
+          "answer": "JLPT 每年举办两次：分别在 7 月和 12 月的第一个星期日。2026 年的考试日期是 7 月 5 日和 12 月 6 日。"
+        },
+        {
+          "question": "JLPT 考试费用是多少？",
+          "answer": "费用因国家/地区而异。在中国大陆，N1/N2 约为 550 元人民币，N3-N5 约为 450 元人民币。请以教育部考试中心（NEEA）官网最新公告为准。"
+        },
+        {
+          "question": "我在哪里可以参加 JLPT 考试？",
+          "answer": "全球 90 多个国家/地区设有考点。在中国，各大主要城市（如北京、上海、广州等）的重点大学通常都是考点。详情请访问官网 jlpt.jp 或 neea.edu.cn。"
+        },
+        {
+          "question": "JLPT 报名什么时候开始？",
+          "answer": "通常在考试前 3-4 个月开始报名：7 月考试在 3/4 月报名，12 月考试在 8/9 月报名。名额有限，抢位非常激烈，建议尽早准备。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "想参加 JLPT 考试但对各种日期和流程感到迷茫？报名时间、费用、考点选择……这确实像个迷宫。这里有你所需的一切最新信息，干货满满，绝无废话。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "考试举办时间"
+        },
+        {
+          "type": "text",
+          "content": "JLPT 每年在全球同步举办两次，日期固定："
+        },
+        {
+          "type": "table",
+          "headers": [
+            "场次",
+            "日期",
+            "可选级别"
+          ],
+          "rows": [
+            [
+              "7 月场",
+              "7 月第一个星期日",
+              "全部 (N1-N5)"
+            ],
+            [
+              "12 月场",
+              "12 月第一个星期日",
+              "全部 (N1-N5)"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "注意：极少数海外考点可能只提供 12 月场。请务必查看你所在地区的具体信息。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "考点选择"
+        },
+        {
+          "type": "text",
+          "content": "在中国大陆，考试由教育部考试中心（NEEA）负责。考点分布极其广泛，包括："
+        },
+        {
+          "type": "list",
+          "items": [
+            "北京、上海、广州等一线城市的多所高校",
+            "各大省会城市的重点大学",
+            "港澳台地区也设有独立报名的考点"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "重要提示：热门城市（如上海、北京）的名额往往在几分钟内被抢光。报名当天一定要准时守候。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "考试费用"
+        },
+        {
+          "type": "text",
+          "content": "目前的参考费用（人民币）如下："
+        },
+        {
+          "type": "table",
+          "headers": [
+            "级别",
+            "大致费用"
+          ],
+          "rows": [
+            [
+              "N1 / N2",
+              "550 元"
+            ],
+            [
+              "N3 / N4 / N5",
+              "450 元"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "报名时需在线支付，且通常不予退费。如果你缺考，报名费将无法退还。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "报名流程"
+        },
+        {
+          "type": "text",
+          "content": "报名通过官方网站进行。通常流程如下："
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. 在官方门户网站注册账号并上传照片",
+            "2. 选定考点、日期和级别",
+            "3. 在规定时间内在线支付考试费",
+            "4. 收到确认邮件或短信",
+            "5. 考试前几周登录网站下载并打印准考证"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "报名截止时间（千万别错过）"
+        },
+        {
+          "type": "text",
+          "content": "报名窗口通常只开启几周时间："
+        },
+        {
+          "type": "table",
+          "headers": [
+            "场次",
+            "报名开启时间",
+            "截止时间"
+          ],
+          "rows": [
+            [
+              "7 月场",
+              "3 月 - 4 月",
+              "通常在 4 月初截止"
+            ],
+            [
+              "12 月场",
+              "8 月 - 9 月",
+              "通常在 9 月初截止"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "每年的精确日期都会微调。请在 3 月初（针对 7 月场）或 8 月初（针对 12 月场）密切关注官网通知。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "考试当天需携带的物品"
+        },
+        {
+          "type": "list",
+          "items": [
+            "打印好的准考证",
+            "有效期内的身份证件（需与报名时一致）",
+            "HB 或 2B 铅笔和橡皮",
+            "指针式手表（禁止携带智能手表）",
+            "禁止携带手机、字典或其他参考资料"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "成绩发布时间"
+        },
+        {
+          "type": "text",
+          "content": "考试结束后约 2 个月可以在线查分。纸质证书会在查分后几周内邮寄到考点或你的地址。耐心是必须的。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "最后的建议"
+        },
+        {
+          "type": "text",
+          "content": "行政流程很无聊，真正的关键在于备考。一旦报完名，就把精力集中在你可控的事情上：你的学习质量。通过 Kanjidon，你可以高效备齐所属级别的汉字，从容应对考试，绝无意外。"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-n5-n4-n3-n2-n1-differences",
+      "slug": "jlpt-n5-n1-qubie",
+      "title": "JLPT N5 到 N1 全面对比：汉字、语法与学习时长 (2026)",
+      "meta_description": "N5：80 个汉字，800 个词汇。N1：2,136 个汉字，10,000 多个词汇。JLPT 全 5 级深度对比：学习时长、通过率以及你应该首选哪个级别。",
+      "keywords": "JLPT 区别, JLPT N5 N4 N3 N2 N1 对比, JLPT 级别对比, 考哪个级别的 JLPT, JLPT 难度 2026",
+      "read_time": "7 分钟",
+      "faq": [
+        {
+          "question": "JLPT 最简单的级别是哪个？",
+          "answer": "N5 是最简单的级别。它要求掌握约 80 个汉字、800 个词汇和基础语法。测试的是对日常生活中基础日语的理解能力。"
+        },
+        {
+          "question": "我应该先考哪个级别？",
+          "answer": "大多数初学者从 N5 开始。如果你已经学习了 6 个月以上，可以考虑 N4。报名之前，你可以先做一套模拟题来确定自己的实际水平。"
+        },
+        {
+          "question": "我可以跳过某些级别吗？",
+          "answer": "可以。JLPT 没有规定必须按顺序考。你可以直接报任何级别。如果一直是自学且程度较好，很多人会跳过 N5 直接考 N4 甚至 N3。"
+        },
+        {
+          "question": "在日本找工作需要什么级别的 JLPT？",
+          "answer": "对于大多数专业岗位，N2 是最低门槛。商务职位、翻译或高级职位通常要求 N1。部分服务行业可能接受 N3。"
+        },
+        {
+          "question": "JLPT 最难的级别是哪个？",
+          "answer": "N1 是最难的级别。它要求掌握约 2,000 个汉字、10,000 多个词汇以及高级语法。它测试的是在各种复杂环境下对日语的深度理解。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "N5、N4、N3、N2、N1。这五个等级到底意味着什么？通过 N4 和通过 N2 的实际差距有多大？最重要的是：你到底需要哪个级别？这里有一份在官方网站上找不到的实诚对比。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "快速概览"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "级别",
+            "汉字量",
+            "词汇量",
+            "你能做什么"
+          ],
+          "rows": [
+            [
+              "N5",
+              "~100",
+              "~800",
+              "基础句子，自我介绍，餐厅点餐"
+            ],
+            [
+              "N4",
+              "~300",
+              "~1,500",
+              "简单对话，阅读儿童漫画"
+            ],
+            [
+              "N3",
+              "~650",
+              "~3,750",
+              "应对日常生活，看懂简易新闻，看懂大部分漫画"
+            ],
+            [
+              "N2",
+              "~1,000",
+              "~6,000",
+              "在日本工作，留学，看懂报纸"
+            ],
+            [
+              "N1",
+              "~2,000",
+              "~10,000",
+              "全能。文学、法律文件、听懂讽刺"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5：准备充分的游客"
+        },
+        {
+          "type": "text",
+          "content": "有了 N5，你可以在日本生活得不再像个完全迷路的局外人。你可以看懂简单的菜单，听懂简单的指示，完成购物。但真正的对话呢？还差得远。"
+        },
+        {
+          "type": "text",
+          "content": "这是“我开始学日语了”的水平。它更多是为了证明你的努力，而不是证明你的能力。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N4：沟通的起点"
+        },
+        {
+          "type": "text",
+          "content": "N4 是你真正开始沟通的阶段，尽管范围有限。你可以尝试不看字幕看动漫（简单的那些），费点劲能看完少年漫画，并能与有耐心的日本人进行基础交流。"
+        },
+        {
+          "type": "text",
+          "content": "它是某些文化交流项目的最低要求。虽然还不能用于工作，但它表明你对日语是认真的。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N3：转折点"
+        },
+        {
+          "type": "text",
+          "content": "N3 是很多人遇到瓶颈的地方，但也是一切开始变得有趣的地方。有了 N3，你可以开始消费真实的日语内容：漫画、动漫、YouTube 视频和网络文章。"
+        },
+        {
+          "type": "text",
+          "content": "它是日本部分岗位（酒店、旅游业）的最低要求。虽然不是核心管理层，但在日语是加分项而非核心要求的岗位上已经够用了。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N2：职场水平"
+        },
+        {
+          "type": "text",
+          "content": "N2 是开启大门的级别。想在日本公司工作？你需要 N2。想在日本上大学？N2 是底线。想申请高级人才签证？N2 会有巨大帮助。"
+        },
+        {
+          "type": "text",
+          "content": "有了 N2，你可以读报纸（可能有点费力），听懂新闻广播，参加工作会议。你还谈不上流利，但你已经具备了实操能力。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N1：接近母语"
+        },
+        {
+          "type": "text",
+          "content": "N1 是巅峰。古典文学、法律文件、正式敬语、双关语、讽刺。如果你通过了 N1，在某些专业领域，你的日语水平甚至可能超过不少日本人。"
+        },
+        {
+          "type": "text",
+          "content": "它是专业翻译、同传以及日本公司高管职位的标配。虽然生活在日本不一定非要 N1，但它能为你打开最顶级的社会资源。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "级别间的跳跃：并非线性"
+        },
+        {
+          "type": "text",
+          "content": "警告：难度并不是均匀增加的。以下是大多数学生的真实感受："
+        },
+        {
+          "type": "list",
+          "items": [
+            "N5 → N4：还算轻松。词汇更多，汉字更多，逻辑一致。",
+            "N4 → N3：明显的跨越。语法开始变得抽象，文章变长。",
+            "N3 → N2：残酷的挑战。汉字量翻倍，听力语速大幅提升。",
+            "N2 → N1：巨大的鸿沟。生僻词汇、文学语法、极速听力。"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "你需要考哪个级别？"
+        },
+        {
+          "type": "text",
+          "content": "取决于你的目标："
+        },
+        {
+          "type": "list",
+          "items": [
+            "偶尔旅游：N5 就够了",
+            "消费日本文化：N3 是实际的最低标准",
+            "在日本工作：N2 是标准要求",
+            "翻译/同传职业：N1 是必须的",
+            "在日本无压力生活：N3-N2 即可应对日常"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanjidon 在各个阶段如何助你一臂之力"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon 按 JLPT 级别组织汉字。你可以专注于你当下所需的：N5 启航，N4 进阶，N3 跨越瓶颈。每个汉字都会在最合适的时间进行复习，确保你在学习新字的同时，不会遗忘已掌握的知识。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "总结"
+        },
+        {
+          "type": "text",
+          "content": "数字（N5、N4、N3……）只是标签。重要的是你能用你掌握的日语做什么。选择你的真实目标，然后向那个级别努力。记住：每一个级别都是在前一级的基础上建立的。没有捷径，但有聪明的学法。"
+        }
+      ]
+    },
+    {
+      "id": "how-to-pass-jlpt-strategies",
+      "slug": "ruhe-tongguo-jlpt-celve",
+      "title": "如何通过 JLPT：10 个真正有效的备考策略",
+      "meta_description": "通过 JLPT 考试的实用、经过测试的策略。涵盖学习方法、时间管理以及考试当天的应对技巧。适用于所有等级。",
+      "keywords": "通过 JLPT, JLPT 策略, JLPT 技巧, 日语考试攻略, JLPT 备考",
+      "read_time": "8 分钟",
+      "faq": [
+        {
+          "question": "JLPT 的通过率是多少？",
+          "answer": "通过率因级别而异：N5 约为 45-50%，N4 约为 35-40%，N3 约为 30-35%，N2 约为 35-40%，N1 约为 25-35%。具体比例每年随题目难度而波动。"
+        },
+        {
+          "question": "考前我应该做多少套模拟题？",
+          "answer": "建议在严格计时的情况下完成至少 3-5 套完整的模拟题。这能锻炼你的耐力并帮你找出薄弱环节。官方历年真题是最可靠的资源。"
+        },
+        {
+          "question": "不买教材能考过 JLPT 吗？",
+          "answer": "可以，但系统的资料更有帮助。可以将免费资源（APP、YouTube、网站）与模拟题结合。最重要的是要系统地覆盖目标级别的语法、词汇和汉字。"
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "仅仅努力是不够的，你还得努力对地方。这里有 10 个备考策略，它们是成功通关者与不得不在 12 月再战一次的人之间的分水岭。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "1. 从汉字开始，而非语法"
+        },
+        {
+          "type": "text",
+          "content": "听起来反直觉？也许。但汉字需要时间沉淀。语法你可以在几周内突击，而汉字需要数月的重复接触。早点开始，每天学一点，当你学到语法时，汉字将不再是阅读障碍。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "2. 别死磕单词表，要在语境中学习"
+        },
+        {
+          "type": "text",
+          "content": "孤立地背诵“日”字几乎没用。把它放在“日曜日”、“毎日”、“今日”中记忆才叫学习。JLPT 不会考你默写汉字，而是考你是否在真实句子中理解它。按测试的方式去学习。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "3. 每天练听力，而不是最后一周"
+        },
+        {
+          "type": "text",
+          "content": "听力是大多数考生失分最多的地方。而且它无法突击。耳朵的适应是渐进的。每天听 10-15 分钟日语，坚持数月，效果远胜过最后一周死听 10 小时。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "4. 考前进行全真模拟"
+        },
+        {
+          "type": "text",
+          "content": "至少进行 2-3 次完整的模拟考：严格计时、中途不休息、不查字典。你会发现时间都花在哪了、哪些部分最让你卡壳、以及如何应对精神疲劳。最好在家里发现问题，而不是在考场上。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5. 熟知考试结构"
+        },
+        {
+          "type": "text",
+          "content": "每个 JLPT 等级都有精确的结构。每个部分有多少题、给多少时间、有哪些题型。研究透彻。知道考试流程能减少焦虑，并帮你合理分配做题时间。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "6. 别在难题上死磕"
+        },
+        {
+          "type": "text",
+          "content": "金律：如果 30 秒内想不出答案，选一个最可能的选项然后立刻继续。错一题丢 1 分，但因为死磕第一题导致最后三题没时间做，会丢 3 分。账要算清楚。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "7. 使用间隔重复（这是必选项）"
+        },
+        {
+          "type": "text",
+          "content": "间隔重复（SRS）不是什么小花招，它是人类记忆的底层科学。在你要遗忘汉字的那一刻复习它，能将其锁定在长期记忆中。每天盲目复习效率低，完全不复习则没用。时机就是一切。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "8. 每天学习，即便只有 20 分钟"
+        },
+        {
+          "type": "text",
+          "content": "持久性胜过爆发力。永远如此。每天 20 分钟坚持 6 个月是 60 小时的优质学习；周末狂学 3 小时坚持 6 个月虽然也是 72 小时，但效果大打折扣。大脑更喜欢小剂量、高频率的刺激。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "9. 考试前一天：休息，别学了"
+        },
+        {
+          "type": "text",
+          "content": "最后 24 小时你学不到新东西，但能把自己累坏。考试前一天：轻微温习，睡个好觉，准备好证件。以清醒的状态迎接考试，而不是精疲力竭的状态。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "10. 考后：分析总结，而非彻底遗忘"
+        },
+        {
+          "type": "text",
+          "content": "无论过没过，考试都提供了宝贵的信息。哪些部分做得顺？哪里丢了分？哪些东西还没学透？利用这些信息为下一级（或二战）做准备。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanjidon 如何应用这些策略"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon 正是基于这些原则构建的：自动间隔重复（策略 7）、词汇语境中的汉字（策略 2）、强制回忆的测验（模拟实战）、以及让坚持变得更简单的游戏化设计（策略 8）。"
+        },
+        {
+          "type": "text",
+          "content": "它不是你唯一的工具，但在汉字方面，它是区分“学过”和“学会”的关键。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "总结"
+        },
+        {
+          "type": "text",
+          "content": "JLPT 奖励的不是学得最多的人，而是学得最聪明的人。这 10 个策略不是秘密，而是带有自律精神的常识。遵循它们，考试那天将是你实力的印证，而非一场惊吓。"
+        }
+      ]
+    },
+    {
+      "id": "kanji-learning-community",
+      "slug": "hanji-xuexi-shequ-discord",
+      "title": "你的汉字学法可能错了（我们也曾如此）",
+      "meta_description": "为什么独自学汉字容易失败，以及学习社区如何改变一切。科学背书的方法、同伴监督以及真实的进步。",
+      "keywords": "汉字学习社区, 日语学习小组, 一起学汉字, 汉字学习伙伴, 日语 Discord, 社交学习",
+      "read_time": "6 分钟",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "晚上 11 点，你盯着单词卡，这是这周的第 47 次。“火”就是火。你知道这一点，你已经记了三个月了。但到了明天，你可能又会忘了。有些话没人告诉你：问题不在于你，而在于你在孤军奋战。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "为什么大脑讨厌独自学习"
+        },
+        {
+          "type": "text",
+          "content": "你的大脑拥有一套进化了数百万年的“社交学习回路”。当远古人类学习狩猎、生火或分辨毒果时，他们不是在读教科书，而是聚在一起互相传授，庆祝胜利，并从失败中总结经验。"
+        },
+        {
+          "type": "text",
+          "content": "当你独自学习：多巴胺水平低迷，动力在第 3 天后消失，没有监督。当你和别人一起：多巴胺激增，动力变成“我不能让我的打卡小伙伴失望”，进步变得肉眼可见。这就是为什么语言课比教科书更有效，即便老师有时候挺无聊。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "独自学习的真实软肋"
+        },
+        {
+          "type": "text",
+          "content": "第一天：兴奋。第七天：动力尚存。第三十天：开始偶尔翘课。第六十天：APP 给你发“我们想你了”的通知。这不是自律问题，而是结构问题。"
+        },
+        {
+          "type": "text",
+          "content": "当你独自学习时，没人会发现你什么时候停下了。深夜遇到语法难题没人解答。当你终于啃下 N4 汉字时没人庆祝。当动力滑坡时，没有任何东西能拉你一把。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "当你不孤独时，一切都变了"
+        },
+        {
+          "type": "text",
+          "content": "当和别人一起学习时，奇妙的事情发生了：你看到别人也在被那个你觉得“根本记不住”的汉字折磨，挫败感瞬间减轻了。你看到比你晚开始的人已经过了 N5，斗志被点燃了。你问一个问题，得到三个角度的解释，直到某个解释让你豁然开朗。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "动力从内部延伸到外部",
+            "问题在几分钟内得到解答，而不是搜索数小时",
+            "通过对比，进步变得清晰可见",
+            "倒霉的日子不再孤单",
+            "成功的时刻有人欢呼"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanjidon Discord：里面有什么"
+        },
+        {
+          "type": "text",
+          "content": "我们为 Kanjidon 用户和日语学习者建立了一个 Discord 服务器。它还在成长中，这意味着你有机会决定它未来的模样。以下是我们正在共同建设的内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "每日汉字挑战：机器人每天早上发布一个带挑战的新汉字",
+            "PvP 对战约战：在 APP 中实时对战，寻找对手",
+            "学习冲刺：与其他学习者一起进行 30 分钟的高专注学习",
+            "互助监督伙伴：找到同级别的伙伴，一起建立打卡记录",
+            "成果分享：发布你的胜利、稀有卡片或连胜纪录",
+            "求助频道：提问、助人，学得更快"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "为什么现在加入？趁它还没变大"
+        },
+        {
+          "type": "text",
+          "content": "在一个拥有 10,000 人的巨型社区里，你是隐形的。你的问题会被刷走，每个人都有了自己的小圈子，你只是另一个代号。"
+        },
+        {
+          "type": "text",
+          "content": "但在一个初创社区里，你是创始人。你的声音举足轻重。你可以决定社区文化。每日挑战？你可以提建议。PvP 锦标赛？你可以组织。一年后，当这里有一千人时，你就是那个带路的前辈。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "APP + 社区如何联动"
+        },
+        {
+          "type": "text",
+          "content": "早晨：打开 Kanjidon，开启你的 3 个免费包，在 Discord 分享手气。下午：机器人发布每日挑战，你去 APP 尝试并分享结果。晚上：有人喊“谁来对战？”，你打三局，赢两局输一局。"
+        },
+        {
+          "type": "text",
+          "content": "结果：你今天打开了 5 次 APP。不是因为你“必须学习”，而是因为好玩。这就是你如何在无痛状态下真正学会东西。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "这是为谁准备的"
+        },
+        {
+          "type": "list",
+          "items": [
+            "准备 JLPT 的学生（全级别 N5 到 N1）",
+            "想生啃漫画的动漫迷",
+            "计划日本旅行的朋友",
+            "觉得汉字很酷（或很吓人，两者皆可）的人",
+            "那个想挑战 365 天不间断打卡的人"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "氛围：支持、包容、专注于学习。不评价你的水平，不搞门槛，不强加“每天必须学 X 小时”的压力。只有一群学习汉字并互相帮助的朋友。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "如何加入"
+        },
+        {
+          "type": "text",
+          "content": "第一步：下载 Kanjidon（iOS 或安卓）。第二步：加入 Discord 服务器 https://discord.gg/sDZFJr4R8H。第三步：自我介绍，选择你的 JLPT 等级身份组，开始和大家一起进步。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "总结"
+        },
+        {
+          "type": "text",
+          "content": "汉字学习是场马拉松，而非百米冲刺。和别人一起跑，路途会更轻松。无论你是在第一天还是第一千天，拥有社区的支持会让旅程不再孤单，更具可持续性。"
+        },
+        {
+          "type": "text",
+          "content": "独自学习固然不错，但一起学习更好。我们已经在里面了，机器人也准备好了。就等你来。"
+        }
+      ]
+    },
+    {
+      "id": "japanese-particles-guide",
+      "slug": "riyu-zhuci-zhinan",
+      "title": "日语助词终极指南：彻底搞懂 に、で、を、は、が",
+      "meta_description": "通过实操案例掌握日语助词 に、で、を、は 和 が。这份详尽指南让你从此不再混淆它们。",
+      "keywords": "日语助词, ni de wo, wa vs ga, 日语语法, JLPT 助词, 学习日语助词",
+      "read_time": "10 分钟",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "助词是每个日语学习者的噩梦。用 に 还是 で？是 は 还是 が？什么时候该用 を？如果你花了数小时研究它们的区别却依然头大，你并不孤单。问题在于大多数解释太理论化了。这里有助词的实际用法，以及你可以立即套用的案例。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "什么是助词？"
+        },
+        {
+          "type": "text",
+          "content": "助词（助詞，joshi）是位于词语之后的短小词汇，用来指示该词的语法功能。在汉语中，我们通常靠语序或虚词；而在日语中，助词承担了所有脏活累活。用错一个助词，句子的意思就可能天差地别。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "は (wa) - 主题标记"
+        },
+        {
+          "type": "text",
+          "content": "は 用来标记主题，意思是“我们要谈论的内容”。它不一定是语法主语（那是 が）。它就像是在句首说：“关于 X 嘛……”"
+        },
+        {
+          "type": "list",
+          "items": [
+            "私は学生です (Watashi wa gakusei desu) - 关于我，我是学生",
+            "今日は暑いです (Kyō wa atsui desu) - 关于今天，天气很热",
+            "この本は面白い (Kono hon wa omoshiroi) - 关于这本书，很有趣"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "が (ga) - 主语标记"
+        },
+        {
+          "type": "text",
+          "content": "が 用来标记执行动作或拥有属性的主语。当主语是新信息时、回答“谁？”或“什么？”时，或者配合某些特定动词（如 わかる、ある、いる、好き、欲しい）时使用它。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "谁が来ましたか？田中さんが来ました (谁来了？田中先生来了)",
+            "日本語がわかります (懂日语 - 字面意：日语是可理解的)",
+            "猫が好きです (喜欢猫 - 字面意：猫是惹人喜爱的)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "は vs が：实操准则"
+        },
+        {
+          "type": "text",
+          "content": "简单规则：は 用于旧信息/已知信息， が 用于新信息。“那只猫吃了鱼” → 猫は魚を食べた（我们已经知道那只猫了）。“有一只猫吃了鱼” → 猫が魚を食べた（第一次提到这只猫）。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "を (wo/o) - 直接宾语标记"
+        },
+        {
+          "type": "text",
+          "content": "を 用来标记直接宾语，即动作的直接承受者。如果你在动词后面可以问“什么？”，那么那个词前面就要加 を。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "りんごを食べる (吃苹果) - 吃什么？苹果",
+            "本を読む (读书) - 读什么？书",
+            "日本語を勉強する (学日语) - 学什么？日语"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "注意：を 也可以用来表示穿越某地：公園を歩く (在公园散步)，道を渡る (过马路)。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "に (ni) - 目的地、时间、存在"
+        },
+        {
+          "type": "text",
+          "content": "に 是功能最丰富的助词。它的主要用途有三个：目的地（去哪儿）、具体时间（什么时候）以及存在的地点（某物在哪里）。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "表示目的地"
+        },
+        {
+          "type": "list",
+          "items": [
+            "学校に行く (去学校) - 移动的目的地",
+            "日本に来た (来到了日本)",
+            "家に帰る (回家)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "表示具体时间"
+        },
+        {
+          "type": "list",
+          "items": [
+            "7時に起きる (7点起床)",
+            "月曜日に会いましょう (周一见吧)",
+            "2024年に日本に行った (2024年去了日本)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "表示存在"
+        },
+        {
+          "type": "list",
+          "items": [
+            "東京に住んでいる (住在东京)",
+            "机の上に本がある (桌子上有本书)",
+            "公園に猫がいる (公园里有只猫)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "で (de) - 动作地点、手段、原因"
+        },
+        {
+          "type": "text",
+          "content": "で 用来表示动作发生的地点、你所使用的工具、或者事情发生的原因。它和 に 的区别至关重要：に 是静态的（某物“在”哪）， で 是动态的（某事“在”哪发生）。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "表示动作发生的地点"
+        },
+        {
+          "type": "list",
+          "items": [
+            "図書館で勉強する (在图书馆学习) - 动作在那儿发生",
+            "レストランで食べる (在餐厅吃饭)",
+            "公園で遊ぶ (在公园玩)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "表示手段/工具"
+        },
+        {
+          "type": "list",
+          "items": [
+            "箸で食べる (用筷子吃)",
+            "電車で行く (乘电车去)",
+            "日本語で話す (用日语说)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "表示原因/理由"
+        },
+        {
+          "type": "list",
+          "items": [
+            "病気で休んだ (因病请假)",
+            "雨で試合が中止になった (比赛因雨取消)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "に vs で：深度对比"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "场景",
+            "に",
+            "で"
+          ],
+          "rows": [
+            [
+              "我住的地方",
+              "東京に住む ✓",
+              "×"
+            ],
+            [
+              "我学习的地方",
+              "×",
+              "図書館で勉強する ✓"
+            ],
+            [
+              "某物在那儿",
+              "机の上にある ✓",
+              "×"
+            ],
+            [
+              "在那儿发生了某事",
+              "×",
+              "ここで事故があった ✓"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "记忆秘诀：に = 到达点/存在点（静态）。で = 动作舞台（动态）。如果动作在那儿“发生”，用 で；如果某物“在/去”那儿，用 に。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "其他必备助词"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "へ (e) - 方向"
+        },
+        {
+          "type": "text",
+          "content": "类似于表示方向的 に，但更强调“朝着”某个方向。日本へ行く 强调方向，日本に行く 强调目的地。实际操作中两者常互换。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "と (to) - 和、伴随"
+        },
+        {
+          "type": "list",
+          "items": [
+            "友達と行く (和朋友一起去)",
+            "りんごとバナナ (苹果和香蕉)",
+            "彼と话した (和他说了话)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "から (kara) 和 まで (made) - 从……到……"
+        },
+        {
+          "type": "list",
+          "items": [
+            "9時から5時まで働く (从 9 点工作到 5 点)",
+            "東京から大阪まで (从东京到大阪)",
+            "子供から大人まで (从小孩到大人)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "の (no) - 领属和连接"
+        },
+        {
+          "type": "list",
+          "items": [
+            "私の本 (我的书)",
+            "日本の文化 (日本文化)",
+            "友達の友達 (朋友的朋友)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "常见错误避雷"
+        },
+        {
+          "type": "list",
+          "items": [
+            "❌ 学校で行く → ✓ 学校に行く (目的地 = に)",
+            "❌ 図書館に勉強する → ✓ 図書館で勉強する (动作发生地 = で)",
+            "❌ 日本語を話す人は... → ✓ 日本語が话せる人は... (能力相关 = が)",
+            "❌ 私が田中です → ✓ 私は田中です (介绍主题 = は，除非回答“谁是？”)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "如何练习"
+        },
+        {
+          "type": "text",
+          "content": "助词不是靠背出来的，而是靠用出来的。每次读或听日语时，问问自己：为什么那儿用了这个助词？通过 Kanjidon，你可以在真实词汇和句子的语境中学习汉字，潜移默化地接触助词的实战用法。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "总结"
+        },
+        {
+          "type": "text",
+          "content": "助词看起来复杂，是因为我们在中文里寻找不存在的完全对应项。别再试图直译了，去感受它们的功能：に 指向，で 承载，を 接受，は 呈现，が 锁定。勤加练习，这终将成为你的直觉。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "kanji-nasil-ogrenilir-5-etkili-yontem",
+      "title": "Kanji Nasıl Öğrenilir: Gerçekten İşe Yarayan 5 Yöntem",
+      "meta_description": "Radikaller, SRS, anımsatıcılar, bağlam içinde öğrenme ve yazma pratiği: Kanji öğrenmek için kanıtlanmış 5 yöntem. Sıfırdan Japonca okumaya giden yol.",
+      "keywords": "kanji nasıl öğrenilir, kanji ezberleme, japonca kanji, yeni başlayanlar için kanji",
+      "read_time": "8 dk",
+      "faq": [
+        {
+          "question": "Tüm Kanji'leri öğrenmek ne kadar sürer?",
+          "answer": "Düzenli bir çalışma ile 2.136 temel Kanji'yi (Joyo Kanji) öğrenmek yaklaşık 1.5 ila 3 yıl sürer. Günde 10 Kanji ile 7 ayda hepsini bir kez görebilirsin ancak kalıcı hafıza için SRS ile tekrar şarttır."
+        },
+        {
+          "question": "En iyi Kanji öğrenme yöntemi nedir?",
+          "answer": "Aralıklı Tekrar Sistemi (SRS) ile anımsatıcıların (mnemonics) birleşimi en etkili yoldur. Önce radikalleri öğren, sonra karmaşık Kanji'leri görsel hikayelerle hafızana al."
+        },
+        {
+          "question": "Kanji yazmayı öğrenmeli miyim yoksa sadece okumak yeterli mi?",
+          "answer": "Öncelikle tanımaya odaklan. Yazmak hafızayı güçlendirir ancak dijital çağda el yazısı zorunlu değildir. 200 Kanji tanıdıktan sonra yazmaya başlayabilirsin."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Kanji öğrenmek, Japonca öğrenenler için en büyük zorluklardan biridir. 2000'den fazla karakteri ezberleme fikri korkutucu gelebilir, ama doğru yöntemle herkes başarabilir."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanji Nedir?"
+        },
+        {
+          "type": "text",
+          "content": "Kanji, Japonca yazı sisteminde kullanılan Çince kökenli karakterlerdir. Her karakter bir kavramı temsil eder ve bağlama göre farklı okunuşları (On'yomi ve Kun'yomi) olabilir."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Etkili 5 Yöntem"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "1. Radikal Yöntemi"
+        },
+        {
+          "type": "text",
+          "content": "Kanji'ler radikal adı verilen parçalardan oluşur. Bu parçaları (yaklaşık 214 adet) öğrendiğinde karmaşık Kanji'leri 'çözebilirsin'. Örneğin 'su' radikali (氵) deniz, yüzmek ve nehir gibi kelimelerde bulunur."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "2. Aralıklı Tekrar Sistemi (SRS)"
+        },
+        {
+          "type": "text",
+          "content": "SRS, bilgileri unutmaya en yakın olduğun anda hatırlatır. Kanjidon gibi uygulamalar bu sistemi kullanarak çalışma süreni optimize eder."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "3. Anımsatıcılar (Mnemonics)"
+        },
+        {
+          "type": "text",
+          "content": "Karakterler için hikayeler uydur. Örneğin 'dinlenmek' (休) karakteri, bir ağacın (木) altında duran bir insanı (人) temsil eder."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "4. Bağlam İçinde Öğrenme"
+        },
+        {
+          "type": "text",
+          "content": "Kanji'leri tek başlarına değil, kelimeler içinde öğren. 'Yemek' (食) karakterini 'taberu' (yemek yemek) ve 'shokuji' (öğün) kelimeleriyle birlikte görmek daha kalıcıdır."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "5. Yazma Pratiği"
+        },
+        {
+          "type": "text",
+          "content": "El yazısı kas hafızasını güçlendirir. Doğru strok sırasını (vuruş sırası) takip etmek görsel dengeyi sağlar."
+        }
+      ]
+    },
+    {
+      "id": "kanji-jlpt-n5-n1",
+      "slug": "jlpt-icin-kac-kanji-gerekli",
+      "title": "JLPT İçin Kaç Kanji Gerekli? N5'ten N1'e Tam Liste",
+      "meta_description": "JLPT sınavı için gereken Kanji sayıları: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Çalışma süresi tahminleri ve hazırlık ipuçları.",
+      "keywords": "jlpt kanji sayıları, n5 kaç kanji, n1 kaç kanji, japonca yeterlilik sınavı kanji",
+      "read_time": "6 dk",
+      "faq": [
+        {
+          "question": "JLPT N5 için kaç Kanji bilmek gerekir?",
+          "answer": "N5 seviyesi için yaklaşık 80-100 temel Kanji yeterlidir. Bunlar sayılar, günler ve temel fiilleri kapsar."
+        },
+        {
+          "question": "JLPT sınavında Kanji yazmak zorunlu mu?",
+          "answer": "Hayır, JLPT çoktan seçmeli bir sınavdır. Karakterleri tanımanız ve okumanız yeterlidir, el yazısı istenmez."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "JLPT (Japonca Yeterlilik Sınavı), Japonca seviyenizi ölçen resmi sınavdır. Her seviye için ne kadar Kanji gerektiğini bilmek doğru strateji kurmanıza yardımcı olur."
+        },
+        {
+          "type": "table",
+          "headers": ["Seviye", "Kanji Sayısı", "Kelime Bilgisi"],
+          "rows": [
+            ["N5", "~100", "~800"],
+            ["N4", "~300", "~1500"],
+            ["N3", "~650", "~3750"],
+            ["N2", "~1000", "~6000"],
+            ["N1", "~2000", "~10000"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5 Seviyesi: İlk Adım"
+        },
+        {
+          "type": "text",
+          "content": "N5, en temel seviyedir. Sayılar, zaman kavramları ve basit nesneleri temsil eden karakterleri içerir. Bu seviyeyi tamamladığında Japonca metinlerin yaklaşık %30'unu temel düzeyde anlayabilirsin."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji",
+      "slug": "hiragana-katakana-kanji-farklari",
+      "title": "Hiragana vs Katakana vs Kanji: Hangisini Önce Öğrenmelisin?",
+      "meta_description": "Japonca yazı sistemleri: Hiragana, Katakana ve Kanji'nin rolleri ve öğrenme sırası. Örneklerle basit anlatım.",
+      "keywords": "hiragana katakana farkı, japon alfabesi öğrenme sırası, japonca yazı sistemleri",
+      "read_time": "7 dk",
+      "faq": [
+        {
+          "question": "Önce hangisini öğrenmeliyim?",
+          "answer": "Kesinlikle önce Hiragana. Japonca dilinin temelidir. Ardından Katakana ve sonrasında Kanji'lere geçilmelidir."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Japonca üç farklı yazı sistemini bir arada kullanır. Bu rehberde her birinin rolünü ve hangi sırayla öğrenmen gerektiğini açıklıyoruz."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Üç Sistem"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Hiragana (ひらがな)"
+        },
+        {
+          "type": "text",
+          "content": "Japonca kelimeler ve gramer ekleri için kullanılır. 46 temel karakterden oluşur. Yumuşak ve kavisli hatları vardır."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Katakana (カタカナ)"
+        },
+        {
+          "type": "text",
+          "content": "Dışarıdan gelen yabancı kelimeler ve isimler için kullanılır. Hiragana ile aynı sesleri temsil eder ama hatları daha sert ve köşelidir."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Kanji (漢字)"
+        },
+        {
+          "type": "text",
+          "content": "Çin kökenli kavramsal karakterlerdir. Bir karakter koca bir anlam taşır."
+        }
+      ]
+    }
+  ]
+}

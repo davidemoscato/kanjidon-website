@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Preload -->
+    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <!-- SEO -->
+    <title>소개 | Kanjidon</title>
+    <meta name="description" content="Kanjidon 팀을 만나보세요: 효과적이고 흥미로운 한자 학습 앱을 만든 일본어와 문화 애호가들의 작은 그룹입니다.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/ko/about.html">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/about.html">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/about.html">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/about.html">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/about.html">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/about.html">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/about.html">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/about.html">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/about.html">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/about.html">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/about.html">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/about.html">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/about.html">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/about.html">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/about.html">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/about.html">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/about.html">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/about.html">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/about.html">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/about.html">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/about.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="소개 | Kanjidon">
+    <meta property="og:description" content="Kanjidon 팀을 만나보세요: 효과적이고 흥미로운 한자 학습 앱을 만든 일본어와 문화 애호가들의 작은 그룹입니다.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/ko/about.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="소개 | Kanjidon">
+    <meta name="twitter:description" content="Kanjidon 팀을 만나보세요: 효과적이고 흥미로운 한자 학습 앱을 만든 일본어와 문화 애호가들의 작은 그룹입니다.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#F47932">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- About Page Styles -->
+    <style>
+        .about-page {
+            padding: 80px 0 60px;
+            min-height: 70vh;
+        }
+        .about-content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .about-content h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 48px;
+            text-align: center;
+            color: #1a1a1a;
+        }
+        .about-lead {
+            font-size: 1.35rem;
+            line-height: 1.7;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .about-highlight {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-bottom: 32px;
+        }
+        .about-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .about-quote {
+            font-size: 1.15rem;
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #ff6b35;
+            padding-left: 24px;
+            margin: 32px 0;
+            line-height: 1.8;
+        }
+        .about-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #ddd, transparent);
+            margin: 40px 0;
+        }
+        .about-closing {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .about-final {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-top: 24px;
+            text-align: center;
+        }
+        .about-signature {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #666;
+            text-align: right;
+            margin-top: 48px;
+            font-style: italic;
+        }
+        @media (max-width: 600px) {
+            .about-content h1 {
+                font-size: 2rem;
+            }
+            .about-lead, .about-highlight {
+                font-size: 1.15rem;
+            }
+            .about-content p {
+                font-size: 1rem;
+            }
+        }
+
+        .about-team-photo {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .about-team-photo img {
+            width: 100%;
+            max-width: 520px;
+            border-radius: 16px;
+            border: 1px solid rgba(28, 28, 30, 0.08);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="/ko/" class="logo">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/ko/">홈으로 돌아가기</a>
+                <a href="/ko/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Content -->
+    <main class="about-page">
+        <div class="about-content">
+            <h1>소개</h1>
+                    <p class="about-lead">우리는 아주 작은 팀입니다. 너무 작아서 때때로 보이지 않는 것처럼 느껴질 정도로.</p>
+                    <p class="about-highlight">그리고 그것이 바로 Kanjidon이 존재하는 이유이기도 합니다.</p>
+                    <p>우리는 다른 많은 사람들처럼 시작했습니다: 지름길도 없고, 마법 공식도 없는 독학 일본어 학습자들이었습니다. 머리에 들어오지 않는 한자와 종이 위에서는 작동하지만 첫 번째 방해에 죽어버리는 방법들 사이에서 시간, 일, 년을 보냈습니다. 하지만 결국 그 목표에 도달했습니다: JLPT N1. 땀으로 얻은 것. 자격이 있는 것. 진짜.</p>
+                    <blockquote class="about-quote">그 여정 동안 항상 돌아오는 질문이 있었습니다. 외워지지 않는 한자처럼 성가신: "왜 우리가 원하는 방식으로 일본어를 가르치는 앱이 없을까?"</blockquote>
+                    <p>그래서 우리는 직접 만들기로 결정했습니다.</p>
+                    <p>Kanjidon은 효과적으로, 하지만 또한 흥미롭게 공부하고 싶다는 꿈에서 탄생했습니다. 규율이 놀이를 만나는 곳, 꾸준함이 보상받는 곳, 노력이 사라지지 않지만 지루함을 멈추는 곳. 우리가 공부할 때 갖고 싶었던 앱.</p>
+                    <hr class="about-divider">
+                    <p>공부만이 우리를 움직이는 것은 아닙니다. 우리는 모든 형태의 일본 문화를 깊이 사랑합니다. 여행하고, 장소에서 길을 잃고, 멀리 걷고, 높이 오르는 것.</p>
+                    <p>우리는 팝 문화, 이야기, 감동을 주는 상상의 세계를 사랑합니다. 소설을 쓰고, 프로젝트를 만들고, 실험합니다. 일부는 알고 계시고, 일부는 모르실 겁니다. 일부는 아직 세상에 나오지 않았습니다.</p>
+                    <p>Kanjidon은 이 모든 것이 만나는 지점입니다. 진지한 공부, 진정한 열정, 진정성을 잃지 않으면서 다른 것을 하고자 하는 욕구.</p>
+                    <hr class="about-divider">
+                    <p class="about-closing">우리는 거대한 회사가 아닙니다.</p>
+                    <p class="about-closing">우리는 아이디어를 현실로 만들 만큼 강하게 믿은 사람들입니다.</p>
+                    <p class="about-final">그리고 이것은 시작에 불과합니다.</p>
+            <figure class="about-team-photo">
+                <img src="../assets/images/team-kanjidon.webp" alt="Kanjidon Team" width="1200" height="900" loading="lazy">
+            </figure>
+                    <p class="about-signature">— Kanjidon Team</p>
+        </div>
+    </main>
+
+                                                                        <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../blog/">Blog</a>
+                    <a href="../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../privacy.html">Privacy Policy</a>
+                    <a href="../terms.html">Terms of Service</a>
+                    <a href="../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../about.html">About Us</a>
+                    <a href="../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon - D. Moscato</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇰🇷</span>
+                        <span class="language-name">한국어</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option active">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Language Selector Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

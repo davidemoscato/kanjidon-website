@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>平假名 vs 片假名 vs 漢字：應該先學什麼？ | Kanjidon</title>
+    <meta name="description" content="平假名、片假名和漢字：每種系統的角色、何時使用以及確切的學習順序。內含易懂的示例。">
+    <meta name="keywords" content="平假名片假名區別, 平假名 vs 片假名, 日語書寫, 學習平假名, 日語學習順序">
+    <meta name="author" content="Deborah, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/zh-tw/blog/hiragana-katakana-kanji-qubie/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/hiragana-katakana-kanji-differences/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/hiragana-katakana-kanji-differenze/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/hiragana-katakana-kanji-differences/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/hiragana-katakana-kanji-diferencias/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/hiragana-katakana-kanji-unterschiede/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/hiragana-katakana-kanji-diferencas/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/hiragana-katakana-kanji-razlichiya/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/hiragana-katakana-kanji-chaijeom/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/pingjiaming-pianjiaming-hanji-qubie/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/hiragana-katakana-kanji-qubie/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/hiragana-katakana-kanji-alfarq/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/hiragana-katakana-kanji-antar/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/hiragana-katakana-kanji-tang-kan-yang-rai/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/phan-biet-hiragana-katakana-kanji/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/perbedaan-hiragana-katakana-kanji/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/perbezaan-hiragana-katakana-kanji/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/hiragana-katakana-kanji-farklari/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/hiragana-katakana-kanji-roznice/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/tafavot-hiragana-katakana-kanji/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/pagkakaiba-ng-hiragana-katakana-at-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/hiragana-katakana-kanji-differences/">
+
+    <meta property="og:title" content="平假名 vs 片假名 vs 漢字：應該先學什麼？">
+    <meta property="og:description" content="平假名、片假名和漢字：每種系統的角色、何時使用以及確切的學習順序。內含易懂的示例。">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/zh-tw/blog/hiragana-katakana-kanji-qubie/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="平假名 vs 片假名 vs 漢字：應該先學什麼？">
+    <meta name="twitter:description" content="平假名、片假名和漢字：每種系統的角色、何時使用以及確切的學習順序。內含易懂的示例。">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "平假名 vs 片假名 vs 漢字：應該先學什麼？",
+        "description": "平假名、片假名和漢字：每種系統的角色、何時使用以及確切的學習順序。內含易懂的示例。",
+        "author": {
+                "@type": "Person",
+                "name": "Deborah",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/zh-tw/blog/hiragana-katakana-kanji-qubie/"
+        },
+        "datePublished": "2025-12-08",
+        "dateModified": "2025-12-08"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/zh-tw/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "平假名 vs 片假名 vs 漢字：應該先學什麼？",
+                        "item": "https://kanjidon.com/zh-tw/blog/hiragana-katakana-kanji-qubie/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "應該先學平假名還是片假名？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "先學平假名。它是日語的基礎字母，涵蓋了所有純正的日語單詞和語法。片假名主要用於外來語，其次學習。掌握每種字母大約需要 1-2 週。"
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "不使用漢字能寫日語嗎？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "技術上是可以的，只使用平假名和片假名。然而，這會使閱讀變得非常困難，因為漢字增加了含義並在視覺上分隔了句子。成年人寫的沒有漢字的日語被認為是不完整的。"
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "平假名和片假名有多少個字符？",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "平假名有 46 個基本字符，片假名也是 46 個。每套字母代表相同的聲音集。考慮到變體（濁音和半濁音），每套大約擴展到 71 個字符。"
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/zh-tw/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/zh-tw/blog/">Blog</a>
+                <a href="/zh-tw/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/zh-tw/">Home</a>
+                <span class="separator">›</span>
+                <a href="/zh-tw/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">平假名 vs 片假名 vs 漢字：應該先學什麼？</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>平假名 vs 片假名 vs 漢字：應該先學什麼？</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-deborah.webp" alt="Deborah" class="author-avatar">
+                    <span class="author">By Deborah, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">2025年12月8日</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7分鐘</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">日語中使用三種書寫系統：平假名、片假名和漢字。初學者經常會有疑問：從哪裡開始？這份指南將幫助你了解區別並建議最佳學習順序。</p>
+<h2>三種日語書寫系統</h2>
+<h3>平假名 (ひらがな)</h3>
+<p>平假名是基礎書寫系統。它包含 46 個字符，每個字符代表一個音節。它的形狀柔軟且圓潤。它用於純正的日語單詞、語法助詞和記錄你還不會的漢字詞。</p>
+<p>示例：あ (a), い (i), う (u), え (e), お (o), か (ka), き (ki), く (ku)...</p>
+<h3>片假名 (カタカナ)</h3>
+<p>片假名也有 46 個字符，代表與平假名相同的聲音，但形狀更稜角分明且鋒利。它用於外來語、外國名字、擬聲詞和突出文本。</p>
+<p>示例：ア (a), イ (i), ウ (u), エ (e), オ (o), カ (ka), キ (ki), ク (ku)...</p>
+<h3>漢字 (漢字)</h3>
+<p>漢字是源自中國的字符。每個漢字代表一個概念，並且可以有多種讀法。現代日語中大約使用 2,136 個常用漢字。它們雖然更複雜，但可以讓閱讀更快。</p>
+<p>示例：山 (山), 川 (河), 日 (日), 月 (月), 人 (人)</p>
+<h2>快速對比</h2>
+<div class="table-wrapper"><table>
+                <thead><tr><th>系統</th><th>字符量</th><th>外觀</th><th>主要用途</th></tr></thead>
+                <tbody><tr><td>平假名</td><td>46</td><td>圓潤</td><td>日語單詞, 語法</td></tr><tr><td>片假名</td><td>46</td><td>稜角分明</td><td>外來語, 強調</td></tr><tr><td>漢字</td><td>2136+</td><td>複雜</td><td>名詞, 動詞, 形容詞</td></tr></tbody>
+            </table></div>
+<h2>正確順序：先學什麼？</h2>
+<h3>1. 首先：平假名</h3>
+<p>平假名是絕對的起點。有了它，你就能寫下任何日語單詞並開始閱讀初學者材料。大多數教科書在第一課就使用平假名。所需時間：1-2 週。</p>
+<h3>2. 其次：片假名</h3>
+<p>學完平假名後，學習片假名。在日本，許多日常單詞都是用片假名寫的（コーヒー = 咖啡, パン = 麵包, テレビ = 電視）。來到日本，你將能閱讀菜單和招牌。所需時間：1-2 週。</p>
+<h3>3. 最後：漢字</h3>
+<p>掌握了兩套字母後，開始學習漢字。從最簡單且最常用的開始（N5 等級）。掌握漢字的路途雖然漫長，但卻充滿樂趣。所需時間：持續多年。</p>
+<h2>每套系統需要多長時間？</h2>
+<ul><li>平假名：1-2 週（每天練習 30 分鐘）</li><li>片假名：1-2 週（每天練習 30 分鐘）</li><li>基礎漢字 (N5)：2-3 個月</li><li>所有常用漢字：2-4 年</li></ul>
+<h2>重要建議</h2>
+<p>不要把羅馬字（romaji）當作拐杖。許多初學者過於依賴羅馬字，這會減慢進度。儘快切換到平假名，以建立堅實的基礎。</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Ni keneng ye xihuan</h3>
+                <div class="related-grid">
+                    
+                    <a href="/zh-tw/blog/ruhe-xuexi-hanji/" class="related-card">
+                        <h4>如何學習漢字：5個真正有效的方法</h4>
+                        <span class="read-time">8分鐘</span>
+                    </a>
+                    <a href="/zh-tw/blog/100-changyong-hanji/" class="related-card">
+                        <h4>日本 100 個最熱門漢字：含義與讀音</h4>
+                        <span class="read-time">10分鐘</span>
+                    </a>
+                    <a href="/zh-tw/blog/hanji-yuyan-zhongji-boss/" class="related-card">
+                        <h4>為什麼漢字是語言的終極 BOSS</h4>
+                        <span class="read-time">9分鐘</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Jintian kaishi xuexi hanji</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇹🇼</span>
+                        <span class="language-name">繁體中文</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option active">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

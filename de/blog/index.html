@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Blog | Kanjidon</title>
+    <meta name="description" content="Anleitungen und Artikel zum Erlernen japanischer Kanji. Tipps, Methoden und Ressourcen zum Japanischlernen.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/de/blog/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog | Kanjidon">
+    <meta property="og:description" content="Anleitungen und Artikel zum Erlernen japanischer Kanji. Tipps, Methoden und Ressourcen zum Japanischlernen.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/de/blog/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de">
+    <meta property="og:site_name" content="Kanjidon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog | Kanjidon">
+    <meta name="twitter:description" content="Anleitungen und Artikel zum Erlernen japanischer Kanji. Tipps, Methoden und Ressourcen zum Japanischlernen.">
+    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+
+    <link rel="icon" type="image/png" href="../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="/de/" class="logo">
+                <img src="../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/de/">Zuruck</a>
+                <a href="/de/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="blog-hero">
+        <div class="container">
+            <h1 class="section-title">Blog</h1>
+            <p class="blog-hero-subtitle">40 Artikel</p>
+            <div class="blog-hero-badges">
+                <span class="hero-badge"><span class="hero-badge-icon">📚</span> JLPT N5-N1</span>
+                <span class="hero-badge"><span class="hero-badge-icon">🧠</span> Spaced Repetition</span>
+                <span class="hero-badge"><span class="hero-badge-icon">🌍</span> 20 Sprachen</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-list">
+        <div class="container">
+            <!-- Category Filters -->
+            <div class="category-filters" role="tablist" aria-label="Filter articles by category">
+                <button class="filter-btn active" data-category="all" role="tab" aria-selected="true" aria-controls="blog-articles">Alle</button>
+                <button class="filter-btn" data-category="jlpt" role="tab" aria-selected="false" aria-controls="blog-articles">JLPT</button>
+                <button class="filter-btn" data-category="method" role="tab" aria-selected="false" aria-controls="blog-articles">Methode</button>
+                <button class="filter-btn" data-category="beginner" role="tab" aria-selected="false" aria-controls="blog-articles">Anfanger</button>
+                <button class="filter-btn" data-category="apps" role="tab" aria-selected="false" aria-controls="blog-articles">Apps</button>
+                <button class="filter-btn" data-category="community" role="tab" aria-selected="false" aria-controls="blog-articles">Community</button>
+            </div>
+
+            <div class="blog-grid" id="blog-articles" role="tabpanel">
+                
+        <a href="/de/blog/wie-kanji-lernen/" class="blog-card-featured" data-categories="beginner method" data-primary-cat="beginner">
+            <div class="featured-accent">
+                <span class="featured-label">Empfohlen</span>
+                <span class="featured-kanji">学</span>
+            </div>
+            <div class="featured-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Wie Man Kanji Lernt: Vollstandiger Leitfaden fur Anfanger</h2>
+                <p>Erfahren Sie, wie Sie japanische Kanji effektiv lernen. Bewahrte Methoden und Strategien zum Auswendiglernen.</p>
+                <span class="read-more">Lesen <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+            </div>
+        </a>
+                
+        <a href="/de/blog/wie-viele-kanji-jlpt/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>Wie Viele Kanji fur JLPT? Leitfaden von N5 bis N1</h2>
+                <p>Erfahren Sie, wie viele Kanji Sie fur jedes JLPT-Level lernen mussen.</p>
+                <div class="card-meta">
+                    <span class="publish-date">10. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/hiragana-katakana-kanji-unterschiede/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Hiragana vs Katakana vs Kanji: Was Zuerst Lernen?</h2>
+                <p>Entdecken Sie die Unterschiede zwischen Hiragana, Katakana und Kanji.</p>
+                <div class="card-meta">
+                    <span class="publish-date">8. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/spaced-repetition-kanji/" class="blog-card" data-categories="method" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Methode</span>
+                <h2>Spaced Repetition: Die Wissenschaftliche Methode zum Kanj...</h2>
+                <p>Erfahren Sie, wie Spaced Repetition beim Kanji-Lernen hilft.</p>
+                <div class="card-meta">
+                    <span class="publish-date">24. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/100-wichtigste-kanji/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Die 100 Wichtigsten Kanji fur den Alltag in Japan</h2>
+                <p>Entdecken Sie die 100 haufigsten und nutzlichsten Kanji.</p>
+                <div class="card-meta">
+                    <span class="publish-date">28. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/warum-du-kanji-nicht-merken-kannst/" class="blog-card" data-categories="method" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Methode</span>
+                <h2>Warum du Kanji nicht merkst (Und was wirklich funktioniert)</h2>
+                <p>Erfahre, warum die klassische Kanji-Lernmethode scheitert und was stattdessen hilft. Das Problem sind nicht die Kanji, sondern wie du sie kennengelernt ...</p>
+                <div class="card-meta">
+                    <span class="publish-date">30. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">5 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/erkennen-ist-nicht-erinnern-kanji/" class="blog-card" data-categories="method" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Methode</span>
+                <h2>Erkennen ist nicht Erinnern: Das wahre Problem mit Kanji</h2>
+                <p>Warum vergisst du Kanji, die du zu konnen glaubtest? Erkennen ist nicht Erinnern. Entdecke den Unterschied und wie du wirklich lernst.</p>
+                <div class="card-meta">
+                    <span class="publish-date">2. Jan. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">5 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanji-endboss-der-sprachen/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Warum Kanji der Endboss aller Sprachen sind (Und wie du s...</h2>
+                <p>2136 Kanji, mehrere Lesungen, unendliche Kombinationen. Warum traditionelle Methoden scheitern und was du wirklich brauchst, um japanische Kanji zu lernen.</p>
+                <div class="card-meta">
+                    <span class="publish-date">22. Jan. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/wie-lange-jlpt-bestehen/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>Wie lange dauert es, den JLPT zu bestehen? Die Wahrheit, ...</h2>
+                <p>Erfahre, wie lange du wirklich brauchst, um jeden JLPT-Level zu bestehen - von N5 bis N1. Realistische Zeiten, keine leeren Versprechen.</p>
+                <div class="card-meta">
+                    <span class="publish-date">18. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/jlpt-n5-kompletter-guide/" class="blog-card" data-categories="jlpt beginner" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>JLPT N5: Der komplette Guide, um beim ersten Versuch zu b...</h2>
+                <p>Alles, was du uber den JLPT N5 wissen musst: Was lernen, wie vorbereiten, welche Fehler vermeiden. Der ultimative Guide fur Anfanger.</p>
+                <div class="card-meta">
+                    <span class="publish-date">12. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/jlpt-termine-anmeldung-kosten/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>JLPT 2025-2026: Termine, Anmeldung, Kosten und alles, was...</h2>
+                <p>Praktischer Guide zum JLPT: Wann findet er statt, wie meldest du dich an, was kostet er, wo in Deutschland. Alle aktuellen Infos 2025-2026.</p>
+                <div class="card-meta">
+                    <span class="publish-date">20. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">5 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/unterschiede-jlpt-n5-n4-n3-n2-n1/" class="blog-card" data-categories="jlpt" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>JLPT N5 vs N4 vs N3 vs N2 vs N1: Was sich zwischen den Le...</h2>
+                <p>Detaillierter Vergleich aller JLPT-Level. Erfahre, was sich von N5 bis N1 in Schwierigkeit, Inhalt und praktischem Nutzen andert.</p>
+                <div class="card-meta">
+                    <span class="publish-date">16. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/jlpt-bestehen-strategien/" class="blog-card" data-categories="jlpt method" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>Wie du den JLPT bestehst: 10 Strategien, die wirklich fun...</h2>
+                <p>Praktische und erprobte Strategien, um den JLPT auf jedem Level zu bestehen. Tipps zu Lernen, Zeitmanagement und was am Prufungstag zu tun ist.</p>
+                <div class="card-meta">
+                    <span class="publish-date">22. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanji-community-discord/" class="blog-card" data-categories="community" data-primary-cat="community">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Community</span>
+                <h2>Du Lernst Kanji Falsch (Und Wir Auch)</h2>
+                <p>Entdecke, warum Kanji alleine lernen nicht funktioniert und wie eine Community dein Japanischlernen transformieren kann. Wissenschaftlich fundierte Meth...</p>
+                <div class="card-meta">
+                    <span class="publish-date">20. Jan. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/japanische-partikel-ni-de-wo-wa-ga/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Japanische Partikel: Der ultimative Guide zu に, で, を, は, が</h2>
+                <p>Meistere die japanischen Partikel に, で, を, は und が mit praktischen Beispielen. Der komplette Guide, um sie nie wieder zu verwechseln.</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/japanische-blutgruppen-persoenlichkeit/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Japanische Blutgruppen: Was sie über deine Persönlichkeit...</h2>
+                <p>Erfahre, was Japaner über Blutgruppen und Persönlichkeit denken. Der komplette Guide zu diesem faszinierenden japanischen Kulturphänomen.</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/anime-zum-japanisch-lernen/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>10 beste Anime zum Japanischlernen (nach Level)</h2>
+                <p>Entdecke die besten Anime zum Japanischlernen, nach Level sortiert. Von Anfänger bis Fortgeschritten, mit Tipps worauf du achten solltest.</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">9 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/japanisch-lernen-von-null-komplettguide/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Japanisch lernen von Null: Die komplette Roadmap 2026</h2>
+                <p>Der ultimative Guide zum Japanischlernen von Anfang an. Komplette Roadmap: Hiragana, Katakana, Kanji, Grammatik, Ressourcen. Alles was du brauchst.</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">15 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanji-fuer-japan-reise-survival/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>50 wichtige Kanji für deine Japan-Reise</h2>
+                <p>Die Must-Know Kanji zum Überleben in Japan als Tourist. Bahnhöfe, Restaurants, Toiletten, Geschäfte: alle Zeichen, die du überall sehen wirst.</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/wie-man-leute-auf-japanisch-anspricht/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Wie man Leute auf Japanisch anspricht: Guide zu Pronomen ...</h2>
+                <p>Wie nennt man Leute auf Japanisch? Wann benutzt man さん, 君, ちゃん? Ist あなた unhöflich? Der komplette Guide zu Pronomen und Höflichkeitssuffixen.</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/rendaku-warum-lesungen-sich-aendern/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Rendaku: Warum Kanji-Lesungen sich ändern (人→hito aber 人々...</h2>
+                <p>Was ist Rendaku und warum wird hito zu bito? Der Guide zum japanischen phonetischen Phänomen, das stimmlose Konsonanten in stimmhafte verwandelt.</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">6 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/was-lesen-nach-n5-kanji/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Was nach N5-Kanji lesen: Ressourcen für Anfänger</h2>
+                <p>Du hast N5-Kanji gelernt, und jetzt? Hier ist was du lesen kannst um das Gelernte zu üben: Graded Readers, Manga, Apps und Ressourcen perfekt für dein L...</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanjidon-vs-wanikani/" class="blog-card" data-categories="apps method" data-primary-cat="apps">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Apps</span>
+                <h2>Kanjidon vs WaniKani 2026: Welche Kanji-App ist die Richt...</h2>
+                <p>Kanjidon vs WaniKani: detaillierter Vergleich von Funktionen, Preisen, Lernmethoden und Benutzererfahrung. Finde heraus, welche Kanji-App 2026 zu dir pa...</p>
+                <div class="card-meta">
+                    <span class="publish-date">3. Feb. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanjidon-vs-anki/" class="blog-card" data-categories="apps method" data-primary-cat="apps">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Apps</span>
+                <h2>Kanjidon vs Anki 2026: Welche Ist Besser für Kanji?</h2>
+                <p>Kanjidon vs Anki: detaillierter Vergleich für Kanji-Lernen. Finde heraus, welche SRS-Flashcard-App 2026 zu dir passt - Funktionen, Benutzerfreundlichkei...</p>
+                <div class="card-meta">
+                    <span class="publish-date">3. Feb. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">11 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanjidon-vs-duolingo-japanese/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Kanjidon vs Duolingo Japanisch 2026: Welche App nutzen?</h2>
+                <p>Kanjidon vs Duolingo fur Japanisch: ein ehrlicher Vergleich. Finde heraus, welche App besser fur Kanji, Vokabeln und das Erreichen von Sprachgewandtheit...</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/best-kanji-apps-2026/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Die 7 Besten Kanji-Apps 2026 (Getestet und Bewertet)</h2>
+                <p>Das definitive Ranking der besten Kanji-Apps 2026. Wir haben WaniKani, Anki, Duolingo und mehr getestet. Finde heraus, welche App dir wirklich hilft, Ka...</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">14 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/jlpt-n5-kanji-liste/" class="blog-card" data-categories="jlpt beginner" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>Alle 103 JLPT N5 Kanji (vollständige Liste 2026)</h2>
+                <p>Die vollständige Liste der 103 JLPT N5-Kanji mit Bedeutung, ON- und KUN-Lesungen und Beispielwörtern. Alles, was du zur Vorbereitung auf die Prüfung be...</p>
+                <div class="card-meta">
+                    <span class="publish-date">14. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">18 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanji-radikale-guide/" class="blog-card" data-categories="method beginner" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Methode</span>
+                <h2>Kanji-Radikale: Aus 2.000 Zeichen werden 200</h2>
+                <p>Entdecke Kanji-Radikale: die 214 Grundkomponenten, die Tausende von Zeichen freischalten. Leitfaden zu den 30 wichtigsten Radikalen mit praktischen...</p>
+                <div class="card-meta">
+                    <span class="publish-date">26. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">12 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/wie-lange-kanji-lernen/" class="blog-card" data-categories="method beginner" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Methode</span>
+                <h2>Wie lange dauert es, Kanji zu lernen? (Reelle Zahlen)</h2>
+                <p>Wie lange dauert es, Kanji zu lernen? Ehrliche Aufschlüsselung nach JLPT-Level, Methodenvergleich und realistischer Zeitplan. Keine unmöglichen Versprec...</p>
+                <div class="card-meta">
+                    <span class="publish-date">4. Jan. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanji-vs-chinesisch/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Kanji vs. Hanzi: Liest ein Chinese Japanisch?</h2>
+                <p>Japanisches Kanji und chinesisches Hanzi: gleiche Zeichen, unterschiedliche Sprachen. Differenzen, falsche Freunde und die Wahrheit über gegenseitiges V...</p>
+                <div class="card-meta">
+                    <span class="publish-date">6. Jan. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">11 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kostenlose-kanji-apps/" class="blog-card" data-categories="apps" data-primary-cat="apps">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Apps</span>
+                <h2>7 kostenlose Kanji-Apps, die wirklich funktionieren (gete...</h2>
+                <p>Die 7 besten kostenlosen Apps zum Erlernen von Kanji, getestet und bewertet. Vor- und Nachteile und ehrliches Urteil für jede App. Finde das Richti...</p>
+                <div class="card-meta">
+                    <span class="publish-date">10. Jan. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">13 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kosten-japanisch-lernen-2026/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Kosten für das Erlernen der japanischen Sprache 2026: Jed...</h2>
+                <p>Alle Kosten, um im Jahr 2026 Japanisch zu lernen: Apps, Bücher, JLPT, Nachhilfelehrer. Vergleichstabellen und 3 Budgetpläne von Null bis Voll. Keine Übe...</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">13 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/warum-duolingo-kein-kanji/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Duolingo lehrt kein Kanji: Hier ist der Grund</h2>
+                <p>Duolingo für Japanisch hat strukturelle Grenzen für Kanji. Ehrliche Analyse dessen, was gut ist und was nicht, mit Alternativen, die wirklich funktionie...</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/japanisch-lernplan-null-bis-n3/" class="blog-card" data-categories="beginner" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Von Null auf JLPT N3 in 12 Monaten: Die einzige Roadmap, ...</h2>
+                <p>Monatlicher Plan, um in 12 Monaten vom absoluten Nullpunkt auf JLPT N3 zu gelangen. Ressourcen, Zeiten, Meilensteine ​​und Plan B für diejenigen, die we...</p>
+                <div class="card-meta">
+                    <span class="publish-date">15. Dez. 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">14 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/von-null-zum-jlpt-n5-anfaengerreise/" class="blog-card" data-categories="beginner method" data-primary-cat="beginner">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Anfanger</span>
+                <h2>Von Null zum JLPT N5: Die Reise eines Anfängers mit Kanjidon</h2>
+                <p>Verfolge die typische 6-Monats-Reise eines Anfängers von null Japanisch zum JLPT N5. Woche für Woche: Kana, erste Kanji, SRS-Routinen und echte Fortschritts-Meilensteine.</p>
+                <div class="card-meta">
+                    <span class="publish-date">21. Feb. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/von-n4-zu-n3-mittelstufe-durchbruch/" class="blog-card" data-categories="jlpt method" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>Von N4 zu N3: Wie Mittelstufe-Lernende mit Kanjidon den Durchbruch Schaffen</h2>
+                <p>Auf der Mittelstufe festgefahren? Erfahre, wie N4-Lernende das Kanji-Plateau überwinden und N3 erreichen, mit Spaced Repetition, PvP-Kämpfen und Eselsbrücken.</p>
+                <div class="card-meta">
+                    <span class="publish-date">21. Feb. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">9 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/weg-zum-n1-leitfaden-fortgeschrittene/" class="blog-card" data-categories="jlpt method" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>Der Weg zum N1: Wie Fortgeschrittene Kanjidon Nutzen, um 2.000+ Kanji zu Meistern</h2>
+                <p>Ein praktischer Leitfaden für fortgeschrittene JLPT-Lernende, die sich dem N1 stellen. Strategie, Zeitplan und wie du 2.000+ Kanji mit Spaced Repetition und gezieltem Lernen meisterst.</p>
+                <div class="card-meta">
+                    <span class="publish-date">21. Feb. 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">10 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/shadowing-japanisch-aussprache-technik/" class="blog-card" data-categories="method" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Methode</span>
+                <h2>Shadowing auf Japanisch: Wie du Aussprache und Hörverständnis in 10 Minuten am Tag Verbesserst</h2>
+                <p>Lerne die Shadowing-Technik, um deine japanische Aussprache und dein Hörverständnis zu verbessern. Eine Methode von Profi-Dolmetschern, ideal für jedes JLPT-Niveau.</p>
+                <div class="card-meta">
+                    <span class="publish-date">16. März 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">7 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/kanji-handschrift-uben-strichreihenfolge/" class="blog-card" data-categories="method beginner" data-primary-cat="method">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">Methode</span>
+                <h2>Kanji von Hand Schreiben: Warum die Strichreihenfolge Alles Verändert</h2>
+                <p>Erfahre, warum das Schreiben von Kanji per Hand das Einprägen verbessert. Anleitung zur Strichreihenfolge und wie du überall mit einem Zeichen-Quiz üben kannst.</p>
+                <div class="card-meta">
+                    <span class="publish-date">16. März 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+        </a>
+        <a href="/de/blog/jlpt-probeklausur-ubungstest/" class="blog-card" data-categories="jlpt method" data-primary-cat="jlpt">
+            <div class="card-category-accent"></div>
+            <div class="card-content">
+                <span class="card-category-badge">JLPT</span>
+                <h2>JLPT Probeklausur: Wie du dich mit Realistischen Übungstests Vorbereitest</h2>
+                <p>Bereite dich auf den JLPT mit realistischen Prüfungssimulationen vor. Erfahre, wie Mock Tests dein Ergebnis verbessern und Prüfungsangst reduzieren.</p>
+                <div class="card-meta">
+                    <span class="publish-date">16. März 2026</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+        </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="download" id="download">
+        <div class="container download-content">
+            <h2 class="section-title">Download Kanjidon</h2>
+            <div class="store-badges">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../../assets/images/app-store-badge.svg" alt="Download on App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                    <img src="../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../blog/">Blog</a>
+                    <a href="../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../privacy.html">Privacy Policy</a>
+                    <a href="../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../about.html">About Us</a>
+                    <a href="../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Change language">
+                        <span class="flag-icon">🇩🇪</span>
+                        <span class="language-name">Deutsch</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option active">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../assets/images/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../assets/images/google-play-badge.svg" alt="Get it on Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+
+            // Category filter
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card, .blog-card-featured');
+
+            function activateFilter(btn) {
+                const category = btn.dataset.category;
+
+                // Update active state
+                filterBtns.forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-selected', 'false');
+                    b.setAttribute('tabindex', '-1');
+                });
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+                btn.setAttribute('tabindex', '0');
+                btn.focus();
+
+                // Filter cards (both regular and featured)
+                blogCards.forEach(card => {
+                    const cardCategories = card.dataset.categories.split(' ');
+                    if (category === 'all' || cardCategories.includes(category)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            filterBtns.forEach((btn, index) => {
+                // Set initial tabindex (only active tab is focusable)
+                btn.setAttribute('tabindex', btn.classList.contains('active') ? '0' : '-1');
+
+                btn.addEventListener('click', function() {
+                    activateFilter(this);
+                });
+
+                // Keyboard navigation (WCAG 2.1)
+                btn.addEventListener('keydown', function(e) {
+                    let targetIndex = index;
+
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                        e.preventDefault();
+                        targetIndex = (index + 1) % filterBtns.length;
+                    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                        e.preventDefault();
+                        targetIndex = (index - 1 + filterBtns.length) % filterBtns.length;
+                    } else if (e.key === 'Home') {
+                        e.preventDefault();
+                        targetIndex = 0;
+                    } else if (e.key === 'End') {
+                        e.preventDefault();
+                        targetIndex = filterBtns.length - 1;
+                    }
+
+                    if (targetIndex !== index) {
+                        activateFilter(filterBtns[targetIndex]);
+                    }
+                });
+            });
+        });
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const downloadSection = document.getElementById('download');
+            const footer = document.querySelector('.footer');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>
