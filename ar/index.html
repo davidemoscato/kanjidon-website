@@ -1,765 +1,115 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-    <!-- Font Preload - All weights (eliminates FOUT) -->
-    <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-    <!-- Critical Font CSS (inlined for zero render-blocking) -->
-    <style>
-        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../assets/fonts/nunito-500.woff2') format('woff2')}
-        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../assets/fonts/nunito-700.woff2') format('woff2')}
-        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../assets/fonts/nunito-800.woff2') format('woff2')}
-        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
-    </style>
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-    <!-- SEO Primary -->
-    <title>Kanjidon - تعلم الكانجي الياباني بالبطاقات التعليمية | JLPT N5-N1</title>
-    <meta name="description" content="بطاقات كانجي تعليمية فورية. احفظ الكانجي مع Kanjidon.">
-    <meta name="keywords" content="كانجي, بطاقات كانجي, تعلم كانجي, jlpt n5, jlpt n4, n3, n2, n1, كانجي jlpt, كانجي n5, srs كانجي">
-    <meta name="author" content="Kanjidon Team">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://kanjidon.com/ar/">
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
 
-    <!-- Alternate languages for SEO -->
-    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
-    <link rel="alternate" hreflang="en" href="https://kanjidon.com/">
-    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
-    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
-    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/">
-    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/">
-    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/">
-    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/">
-    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/">
-    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/">
-    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/">
-    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/">
-    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/">
-    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/">
-    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/">
-    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/">
-    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/">
-    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/">
-    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/">
-    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/">
-    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  
+  <title>Kanjidon | أفضل تطبيق لتعلم الكانجي الياباني (استعداد لـ JLPT 2026)</title>
+  <meta name="description" content="أتقن الكانجي الياباني مع Kanjidon. نظام SRS، بطاقات فريدة وأدلة JLPT كاملة من N5 إلى N1.">
+  <meta name="keywords" content="learn kanji, japanese app, jlpt 2026, kanji srs, learn japanese, kanjidon, best kanji learning app">
+  <meta name="author" content="Kanjidon Team">
+  <link rel="canonical" href="https://kanjidon.com/">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Kanjidon - تعلم الكانجي الياباني بالبطاقات التعليمية | JLPT N5-N1">
-    <meta property="og:description" content="بطاقات كانجي تعليمية فورية. احفظ الكانجي مع Kanjidon.">
-    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
-    <meta property="og:url" content="https://kanjidon.com/ar/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ar_SA">
-    <meta property="og:site_name" content="Kanjidon">
+  <!-- Internationalization (Hreflang) -->
+  <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/">
+  <link rel="alternate" hreflang="en" href="https://kanjidon.com/">
+  <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
+  <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
+  <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
+  <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/">
+  <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/">
+  <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/">
+  <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://kanjidon.com/zh/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://kanjidon.com/zh-tw/">
+  <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/">
+  <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/">
+  <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/">
+  <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/">
+  <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/">
+  <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/">
+  <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/">
+  <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/">
+  <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/">
+  <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Kanjidon - تعلم الكانجي الياباني بالبطاقات التعليمية | JLPT N5-N1">
-    <meta name="twitter:description" content="بطاقات كانجي تعليمية فورية. احفظ الكانجي مع Kanjidon.">
-    <meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kanjidon.com/">
+  <meta property="og:title" content="Kanjidon | أفضل تطبيق لتعلم الكانجي الياباني (استعداد لـ JLPT 2026)">
+  <meta property="og:description" content="أتقن الكانجي الياباني مع Kanjidon. نظام SRS، بطاقات فريدة وأدلة JLPT كاملة من N5 إلى N1.">
+  <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+  <meta property="og:locale" content="en_US">
 
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" sizes="32x32">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#F47932">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://kanjidon.com/">
+  <meta property="twitter:title" content="Kanjidon | أفضل تطبيق لتعلم الكانجي الياباني (استعداد لـ JLPT 2026)">
+  <meta property="twitter:description" content="أتقن الكانجي الياباني مع Kanjidon. نظام SRS، بطاقات فريدة وأدلة JLPT كاملة من N5 إلى N1.">
+  <meta property="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="../styles.css">
 
-    <!-- Fonts: Self-hosted for GDPR compliance -->
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Kanjidon">
+  <link rel="apple-touch-icon" href="../icons/Icon-192.png">
 
-    <!-- Schema.org - App -->
-    <script type="application/ld+json">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../favicon.png"/>
+
+  <link rel="manifest" href="../manifest.json">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Kanjidon",
-        "operatingSystem": "iOS, Android",
-        "applicationCategory": "EducationalApplication",
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "تطبيق لتعلم الكانجي الياباني من خلال البطاقات التعليمية والاختبارات التفاعلية ومعارك PvP ونظام SRS. يغطي جميع مستويات JLPT من N5 إلى N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
-        "author": {
-            "@type": "Organization",
-            "name": "Kanjidon Team"
-        },
-        "inLanguage": ["it", "en", "fr", "es", "de", "pt", "ru", "ko", "zh", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil"]
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Kanjidon",
+      "operatingSystem": "iOS, Android, Web",
+      "applicationCategory": "EducationApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "15000"
+      },
+      "description": "Impara i kanji giapponesi attraverso un sistema di carte collezionabili e ripetizione spaziata (SRS). Supporta tutti i livelli JLPT."
     }
-    </script>
-
-    <!-- Schema.org - Organization -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Kanjidon",
-        "url": "https://kanjidon.com",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "info@kanjidon.com",
-            "contactType": "customer support",
-            "availableLanguage": ["Italian", "English"]
-        },
-        "founder": {
-            "@type": "Organization",
-            "name": "Kanjidon Team"
-        },
-        "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "IT"
-        },
-        "vatID": "IT01691020083"
-    }
-    </script>
-
-    <!-- Schema.org - FAQ -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "ما هو Kanjidon؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Kanjidon هو تطبيق مجاني لتعلم الكانجي الياباني من خلال البطاقات التعليمية والاختبارات التفاعلية ومعارك PvP ونظام التكرار المتباعد (SRS) الذي يساعدك على الحفظ بفعالية. يغطي جميع مستويات JLPT من N5 إلى N1 مع أكثر من 5000 كانجي."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل Kanjidon مجاني؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم! يمكنك استخدام Kanjidon مجاناً مع جميع الميزات الأساسية. اشتراك Kanjidon Pass يفتح محتوى إضافي و6 بطاقات لكل حزمة واختبارات غير محدودة ويزيل الإعلانات."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "ما هو JLPT وأي المستويات يغطيها Kanjidon؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "JLPT (اختبار إتقان اللغة اليابانية) هو الامتحان الرسمي للغة اليابانية. يغطي Kanjidon جميع المستويات: كانا (هيراغانا وكاتاكانا)، N5 (مبتدئ)، N4، N3، N2 حتى N1 (متقدم)، مع أكثر من 5000 بطاقة كانجي تعليمية."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "كيف يعمل نظام SRS في Kanjidon؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "يستخدم Kanjidon خوارزمية SM-2، وهو نظام تكرار متباعد مثبت علمياً. يُعرض الكانجي في فترات مثالية للحفظ: إذا أجبت بشكل صحيح، تزداد الفترة؛ وإذا أخطأت، تقصر لتعزيز الذاكرة."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل يمكنني استخدام Kanjidon بدون إنترنت؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، الاختبارات ودراسة البطاقات التعليمية تعمل بدون إنترنت. معارك PvP والمزامنة السحابية تتطلب اتصال بالإنترنت."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "ما هي اللغات المتاحة في Kanjidon؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "يدعم Kanjidon 21 لغة: الإيطالية، الإنجليزية، الفرنسية، الإسبانية، الألمانية، البرتغالية، الروسية، التايلاندية، الإندونيسية، العربية، الصينية، الكورية، الهندية، التركية، الفيتنامية، الفارسية، البولندية، الفلبينية، والماليزية."
-                }
-            }
-        ]
-    }
-    </script>
+  </script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container header-content">
-            <a href="/ar/" class="logo">
-                <span class="logo-text">Kanjidon</span>
-            </a>
-                                    <nav class="nav-links">
-                <a href="#features">الميزات</a>
-                <a href="/ar/blog/">Blog</a>
-                <a href="/ar/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>تحميل مجاني</strong></a>
-            </nav>
-        </div>
-    </header>
+  <!-- SEO Content for Crawlers (Static HTML) -->
+  <div id="seo-content" style="display:none;" aria-hidden="true">
+    <h1>Kanjidon - The Best Japanese Kanji Learning App</h1>
+    <p>Learn Japanese kanji effectively with Kanjidon, the ultimate study tool for JLPT preparation in 2026. Our app covers all levels from JLPT N5, N4, N3, N2 to N1.</p>
+    <h2>Advanced Spaced Repetition System (SRS)</h2>
+    <p>Memorize kanji faster using our scientifically proven SRS algorithm. Perfect for long-term retention and daily study habits.</p>
+    <h2>Collectible Cards and Gamification</h2>
+    <p>Turn your study sessions into a fun experience. Collect unique kanji cards, complete missions, and track your progress as you master the Japanese writing system.</p>
+    <h2>Support for 20+ Languages</h2>
+    <p>Study in your native language. Kanjidon is fully localized in Italian, Russian, Turkish, French, Spanish, German, Portuguese, Korean, Chinese, and many more.</p>
+  </div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1>توقف عن نسيانها.<br><span class="text-primary">ابدأ في جمعها الآن.</span></h1>
-                <p class="hero-subtitle">انسَ ملل الجداول اللانهائية. تعلم أكثر من 5,000 كانجي من خلال إثارة فتح الحزم وقوة علم SRS. انضم إلى أكثر من 15,000 طالب.</p>
-                <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>افتح أول 3 حزم لك</strong></a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">+5000</span>
-                        <span class="stat-label">بطاقة كانجي</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">9</span>
-                        <span class="stat-label">أنواع اختبارات</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">N5-N1</span>
-                        <span class="stat-label">JLPT</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">+300</span>
-                        <span class="stat-label">درس</span>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="hero-phone floating">
-                    <img src="../assets/images/kanjidon-app-homepage.webp" alt="تطبيق Kanjidon - لقطة الشاشة الرئيسية">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Rating Section -->
-    <section class="rating-section">
-        <div class="container">
-            <div class="rating-showcase reveal-on-scroll">
-                <div class="rating-laurel">
-                    <img src="../assets/images/laurel-wreath.png" alt="تقييم App Store" class="rating-laurel-img">
-                    <span class="rating-score">4.8</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- How It Works -->
-    <section class="how-it-works">
-        <div class="container">
-            <h2 class="section-title">من الملل إلى الجمع</h2>
-            <div class="steps-with-phones">
-                <div class="step-row">
-                    <div class="step-phone">
-                        <img src="../assets/images/kanjidon-app-card-packs.webp" alt="افتح حزم بطاقات Kanjidon" loading="lazy">
-                    </div>
-                    <div class="step-content">
-                        <div class="step-number">1</div>
-                        <h3>افتح حزم البطاقات</h3>
-                        <p>افتح الحزم واجمع بطاقات تعليمية بتصاميم فريدة. كل بطاقة لها أنواع ودرجات ندرة مختلفة، من نجمة واحدة إلى 4 نجوم.</p>
-                    </div>
-                </div>
-                <div class="step-row step-row-reverse">
-                    <div class="step-phone">
-                        <img src="../assets/images/kanjidon-app-srs-quiz.webp" alt="اختبار Kanjidon SRS" loading="lazy">
-                    </div>
-                    <div class="step-content">
-                        <div class="step-number">2</div>
-                        <h3>ادرس بالاختبارات</h3>
-                        <p>خوارزمية SRS تعرض الكانجي في الوقت المناسب. 10 دقائق يومياً كافية لتحقيق تقدم حقيقي.</p>
-                    </div>
-                </div>
-                <div class="step-row">
-                    <div class="step-phone">
-                        <img src="../assets/images/kanjidon-app-pvp-battle.webp" alt="معارك Kanjidon PvP" loading="lazy">
-                    </div>
-                    <div class="step-content">
-                        <div class="step-number">3</div>
-                        <h3>تحدَّ وتطور</h3>
-                        <p>معارك PvP، تصنيفات الدوري، المهمات، والسلاسل. كل يوم سبب للعودة والتعلم.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features" id="features">
-        <div class="container">
-            <h2 class="section-title">كانت دراسة الكانجي كابوساً.<br>لقد غيرنا القواعد.</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-                            <path d="M8 21h8M12 17v4"/>
-                        </svg>
-                    </div>
-                    <h3>بطاقات كانجي تعليمية</h3>
-                    <p>أكثر من 5000 بطاقة قابلة للجمع بتصاميم فريدة. كل كانجي يتضمن المعنى، قراءات أون/كون، وجمل أمثلة. افتح، اجمع، تعلم.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                        </svg>
-                    </div>
-                    <h3>اختبارات ذكية مع SRS</h3>
-                    <p>8 أوضاع اختبار مختلفة مع خوارزمية SM-2. كل جلسة تتكيف مع مستواك وSRS يعرض الكانجي في الوقت الأمثل للحفظ الحقيقي.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="6" x2="10" y1="12" y2="12"/>
-                            <line x1="8" x2="8" y1="10" y2="14"/>
-                            <line x1="15" x2="15.01" y1="13" y2="13"/>
-                            <line x1="18" x2="18.01" y1="11" y2="11"/>
-                            <rect width="20" height="12" x="2" y="6" rx="2"/>
-                        </svg>
-                    </div>
-                    <h3>معارك PvP</h3>
-                    <p>تحدَّ لاعبين آخرين في الوقت الفعلي. اصعد في لوحة المتصدرين من الرتبة E إلى الرتبة الأسطورية S. تعزيزات، سلاسل، ومكافآت XP.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                            <polyline points="22 4 12 14.01 9 11.01"/>
-                        </svg>
-                    </div>
-                    <h3>جميع مستويات JLPT</h3>
-                    <p>من الهيراغانا والكاتاكانا إلى أصعب الكانجي. استعد للامتحان ببطاقات منظمة حسب المستوى: N5، N4، N3، N2، N1.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                        </svg>
-                    </div>
-                    <h3>تجربة لعب كاملة</h3>
-                    <p>50 مستوى، عملات تاما، صور رمزية حصرية، مهمات يومية، طوابع قابلة للجمع، وسلاسل مع مكافآت. التعلم لم يكن بهذه المتعة من قبل.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"/>
-                            <line x1="2" y1="12" x2="22" y2="12"/>
-                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                        </svg>
-                    </div>
-                    <h3>يدعم 21 لغة</h3>
-                    <p>الإيطالية، الإنجليزية، الفرنسية، الإسبانية، الألمانية، البرتغالية، الروسية، الكورية، الصينية، العربية، الهندية، التايلاندية، والمزيد.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Collection Showcase -->
-    <section class="collection-showcase">
-        <div class="container">
-            <h2 class="section-title">اجمع بطاقات فريدة</h2>
-
-            <!-- Floating Cards Display -->
-            <div class="cards-display reveal-on-scroll">
-                <div class="floating-card card-1">
-                    <img src="../assets/images/kanji-card-n5-sun.webp" alt="بطاقة كانجي" loading="lazy">
-                </div>
-                <div class="floating-card card-2">
-                    <img src="../assets/images/kanji-card-n5-mountain.webp" alt="بطاقة كانجي" loading="lazy">
-                </div>
-                <div class="floating-card card-3">
-                    <img src="../assets/images/kanji-card-n5-water.webp" alt="بطاقة كانجي" loading="lazy">
-                </div>
-                <div class="floating-card card-4">
-                    <img src="../assets/images/kanji-card-n5-fire.webp" alt="بطاقة كانجي" loading="lazy">
-                </div>
-                <div class="floating-card card-5">
-                    <img src="../assets/images/kanji-card-n5-tree.webp" alt="بطاقة كانجي" loading="lazy">
-                </div>
-            </div>
-
-            <!-- Packs Display -->
-            <div class="packs-display reveal-on-scroll">
-                <p class="packs-label">حزم لكل مستوى JLPT</p>
-                <div class="packs-row">
-                    <div class="pack-item">
-                        <img src="../assets/images/jlpt-n5-card-pack.webp" alt="حزمة N5" loading="lazy">
-                        <span>N5</span>
-                    </div>
-                    <div class="pack-item">
-                        <img src="../assets/images/jlpt-n4-card-pack.webp" alt="حزمة N4" loading="lazy">
-                        <span>N4</span>
-                    </div>
-                    <div class="pack-item">
-                        <img src="../assets/images/jlpt-n3-card-pack.webp" alt="حزمة N3" loading="lazy">
-                        <span>N3</span>
-                    </div>
-                    <div class="pack-item">
-                        <img src="../assets/images/jlpt-n2-card-pack.webp" alt="حزمة N2" loading="lazy">
-                        <span>N2</span>
-                    </div>
-                    <div class="pack-item">
-                        <img src="../assets/images/jlpt-n1-card-pack.webp" alt="حزمة N1" loading="lazy">
-                        <span>N1</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">ماذا يقول مستخدمونا</h2>
-            <div class="testimonials-carousel">
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">اكتشفت التطبيق على تيك توك وحملته فورا. استخدمته لبضعة اسابيع واحبه، انه بالضبط ما كنت ابحث عنه كمبتدئ. الدعم كان رائعا! اتعلم الكانجي بطريقة ممتعة!</p>
-                    <span class="testimonial-author">Michelle</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">احب هذا التطبيق واستخدمه كل يوم. تطبيق البومة اصبح سيئا جدا فاضطررت للتوقف عن استخدامه. Kanjidon اداة رائعة لتعلم التعرف على الكانجي.</p>
-                    <span class="testimonial-author">Mitchellinus</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">احب التطبيق. انه بصري جدا مما يجعل التعلم اسهل بكثير. كل بطاقة تحتوي على صور ونطق وجملة مثال. التمارين ممتازة.</p>
-                    <span class="testimonial-author">Anahi</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">اي شخص حاول دراسة الكانجي يعرف كم يمكن ان يكون مملا ومعقدا. نهج Kanjidon مختلف تماما. يجمع بين اللعب والتعلم، عبقري!</p>
-                    <span class="testimonial-author">Robphile</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">تطبيق رائع! سهل وممتع التعلم هكذا، جمع البطاقات مثل لعبة يحفزك والاختبارات تساعدك كثيرا!</p>
-                    <span class="testimonial-author">Gabriele</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">اجده تطبيقا جميلا يمكنك من خلاله تعلم اليابانية بطريقة ممتعة. احب جمع البطاقات واقدر الالوان والتصاميم.</p>
-                    <span class="testimonial-author">Sabrina</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">تطبيق جميل بفكرة مبتكرة وممتعة لتحفيز التعلم.</p>
-                    <span class="testimonial-author">Edoardo</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">تطبيق مثير للاهتمام. مصمم خصيصا كلعبة بطاقات. واضح ان المطورين يبذلون جهدا. وميزة كبيرة هي التواصل السريع مع الفريق.</p>
-                    <span class="testimonial-author">Kane</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">المنصة تحسنت، جيدة وسهلة وسريعة للتعلم وتقدم ايضا طرقا عديدة لتعلم الهيراغانا والكاتاكانا والكانجي.</p>
-                    <span class="testimonial-author">Jose</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">رائع حقا، اتعلم اليابانية بشكل اسرع.</p>
-                    <span class="testimonial-author">Guervenson</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">تطبيق مفيد جدا لتعلم الكانجي.</p>
-                    <span class="testimonial-author">Hakki</span>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">اخيرا تطبيق منظم جيدا! ممتع ومفيد للحفظ!</p>
-                    <span class="testimonial-author">Mike</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section class="download" id="download">
-        <div class="container download-content">
-            <h2 class="section-title">ابدأ الآن، مجاناً</h2>
-            <p class="download-subtitle">متوفر على iOS وAndroid. لا حاجة لبطاقة ائتمان للبدء.</p>
-            <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
-                    <img src="../assets/images/app-store-badge.svg" alt="حمل Kanjidon من App Store">
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
-                    <img src="../assets/images/google-play-badge.svg" alt="حمل Kanjidon من Google Play">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="faq" id="faq">
-        <div class="container">
-            <h2 class="section-title">الأسئلة الشائعة</h2>
-            <div class="faq-list">
-                <details class="faq-item">
-                    <summary>ما هو Kanjidon؟</summary>
-                    <p>Kanjidon يحول دراسة الكانجي إلى مغامرة ملحمية، حيث كل رمز هو بطاقة للجمع وكل اختبار تحدٍّ للفوز. إنه تطبيق يجمع بين اللعب والتعلم، مع نظام التكرار المتباعد (SRS) الذي يثبت الكانجي في ذاكرتك طويلة المدى. افتح الحزم، واجه الاختبارات الديناميكية، تابع الدروس، وتابع تقدمك بإحصائيات مفصلة.</p>
-                </details>
-                <details class="faq-item">
-                    <summary>هل التطبيق مجاني؟</summary>
-                    <p>نعم! يمكنك استخدام Kanjidon مجاناً مع جميع الميزات الأساسية. المستخدمون المجانيون يمكنهم فتح ما يصل إلى 3 حزم يومياً والوصول لاختبار "قرر" بشكل غير محدود. اشتراك Kanjidon Pass يفتح 6 بطاقات لكل حزمة، اختبارات غير محدودة، جميع دروس القواعد، نطق صوتي، ويزيل الإعلانات.</p>
-                </details>
-                <details class="faq-item">
-                    <summary>ما هو JLPT وأي المستويات يغطيها Kanjidon؟</summary>
-                    <p>JLPT (اختبار إتقان اللغة اليابانية) هو الامتحان الرسمي لتوثيق مهارات اللغة اليابانية. ينقسم إلى 5 مستويات: N5 (مبتدئ) إلى N1 (متقدم). يغطي Kanjidon جميع المستويات مع أكثر من 5000 بطاقة كانجي تعليمية، بما في ذلك بطاقات الكانا لمن يبدأون من الصفر مع الهيراغانا والكاتاكانا.</p>
-                </details>
-                <details class="faq-item">
-                    <summary>كيف يعمل نظام SRS؟</summary>
-                    <p>يستخدم Kanjidon خوارزمية SM-2، نظام تكرار متباعد مثبت علمياً. يعتمد على عقود من أبحاث علم الأعصاب: كل كانجي له درجة تتكيف مع تعلمك. إذا أجبت بشكل صحيح، سيُعرض مرة أخرى بعد فترات أطول تدريجياً. إذا أخطأت، تقصر الفترة لتعزيز الذاكرة.</p>
-                </details>
-                <details class="faq-item">
-                    <summary>ما هي معارك PvP؟</summary>
-                    <p>المعارك هي تحديات في الوقت الفعلي ضد لاعبين آخرين. يمكنك تحدي صديق محلياً، لاعب عشوائي عبر الإنترنت، أو مواجهة الكمبيوتر. كل معركة تحتوي على 15 سؤالاً عن قراءات الأون والكون والمعاني. افوز لتصعد في الرتب (من E إلى S) واكسب XP للوحة متصدري الدوري.</p>
-                </details>
-                <details class="faq-item">
-                    <summary>هل يمكنني استخدام التطبيق بدون إنترنت؟</summary>
-                    <p>نعم، الاختبارات ودراسة البطاقات التعليمية تعمل 100% بدون إنترنت. معارك PvP، المزامنة السحابية، والميزات الاجتماعية تتطلب اتصال بالإنترنت.</p>
-                </details>
-                <details class="faq-item">
-                    <summary>ما هي اللغات المتاحة في Kanjidon؟</summary>
-                    <p>يدعم Kanjidon 21 لغة: الإيطالية، الإنجليزية، الفرنسية، الإسبانية، الألمانية، البرتغالية، الروسية، التايلاندية، الإندونيسية، العربية، الصينية (المبسطة والتقليدية)، الكورية، الهندية، التركية، الفيتنامية، الفارسية، البولندية، الفلبينية، والماليزية.</p>
-                </details>
-                <details class="faq-item">
-                    <summary>كيف تعمل السلسلة؟</summary>
-                    <p>السلسلة تحسب عدد الأيام المتتالية التي تفتح فيها Kanjidon. كلما ارتفعت، زادت مكافأة تاما اليومية (من 7 إلى 50 تاما). المستخدمون المميزون يحصلون على الضعف. حقق معالم مثل 30 أو 60 أو 365 يوماً لفتح الدروع التي تحمي سلسلتك إذا فاتك يوم.</p>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-                                                                                        <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
-                <p>Collect Cards. Remember Kanji.</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-col">
-                    <strong class="footer-heading">Resources</strong>
-                    <a href="../blog/">Blog</a>
-                    <a href="../faq/">FAQ</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Community</strong>
-                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
-                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Legal</strong>
-                    <a href="../privacy.html">Privacy Policy</a>
-                    <a href="../terms.html">Terms of Service</a>
-                    <a href="../delete.html">Delete Account</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Support</strong>
-                    <a href="../about.html">About Us</a>
-                    <a href="../support.html">Help Center</a>
-                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-legal">
-                    <p><strong>Kanjidon - D. Moscato</strong></p>
-                    <p>VAT: IT01691020083</p>
-                </div>
-                <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
-                        <span class="flag-icon">🇸🇦</span>
-                        <span class="language-name">العربية</span>
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"/>
-                        </svg>
-                    </button>
-                    <div class="language-dropdown">
-                        <a href="/it/" class="language-option">
-                            <span class="flag-icon">🇮🇹</span> Italiano
-                        </a>
-                        <a href="/" class="language-option">
-                            <span class="flag-icon">🇬🇧</span> English
-                        </a>
-                        <a href="/fr/" class="language-option">
-                            <span class="flag-icon">🇫🇷</span> Français
-                        </a>
-                        <a href="/es/" class="language-option">
-                            <span class="flag-icon">🇪🇸</span> Español
-                        </a>
-                        <a href="/de/" class="language-option">
-                            <span class="flag-icon">🇩🇪</span> Deutsch
-                        </a>
-                        <a href="/pt/" class="language-option">
-                            <span class="flag-icon">🇵🇹</span> Português
-                        </a>
-                        <a href="/ru/" class="language-option">
-                            <span class="flag-icon">🇷🇺</span> Русский
-                        </a>
-                        <a href="/ko/" class="language-option">
-                            <span class="flag-icon">🇰🇷</span> 한국어
-                        </a>
-                        <a href="/zh/" class="language-option">
-                            <span class="flag-icon">🇨🇳</span> 中文
-                        </a>
-                        <a href="/zh-tw/" class="language-option">
-                            <span class="flag-icon">🇹🇼</span> 繁體中文
-                        </a>
-                        <a href="/ar/" class="language-option active">
-                            <span class="flag-icon">🇸🇦</span> العربية
-                        </a>
-                        <a href="/hi/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> हिन्दी
-                        </a>
-                        <a href="/th/" class="language-option">
-                            <span class="flag-icon">🇹🇭</span> ไทย
-                        </a>
-                        <a href="/vi/" class="language-option">
-                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
-                        </a>
-                        <a href="/id/" class="language-option">
-                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
-                        </a>
-                        <a href="/ms/" class="language-option">
-                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
-                        </a>
-                        <a href="/tr/" class="language-option">
-                            <span class="flag-icon">🇹🇷</span> Türkçe
-                        </a>
-                        <a href="/pl/" class="language-option">
-                            <span class="flag-icon">🇵🇱</span> Polski
-                        </a>
-                        <a href="/fa/" class="language-option">
-                            <span class="flag-icon">🇮🇷</span> فارسی
-                        </a>
-                        <a href="/fil/" class="language-option">
-                            <span class="flag-icon">🇵🇭</span> Filipino
-                        </a>
-                    </div>
-                </div>
-                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>هذا الموقع لا يستخدم ملفات تعريف الارتباط للتتبع. <a href="/privacy">سياسة الخصوصية</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="إغلاق">موافق</button>
-        </div>
-    </div>
-
-    <!-- Scripts -->
-    <script>
-        // Scroll Reveal Animation
-        document.addEventListener('DOMContentLoaded', function() {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('revealed');
-                    }
-                });
-            }, { threshold: 0.3 });
-
-            document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
-        });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
-    </script>
-
-    <!-- Sticky Download Bar -->
-    <div class="sticky-download-bar" id="stickyDownload">
-        <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
-                <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
-                <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
-            </a>
-        </div>
-    </div>
-
-    <script>
-        // Sticky Download Bar
-        (function() {
-            const stickyBar = document.getElementById('stickyDownload');
-            const downloadSection = document.getElementById('download');
-            const footer = document.querySelector('.footer');
-
-            function updateStickyBar() {
-                const scrollY = window.scrollY;
-                const windowHeight = window.innerHeight;
-                const downloadTop = downloadSection ? downloadSection.getBoundingClientRect().top : Infinity;
-                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
-
-                if (scrollY > 300) {
-                    stickyBar.classList.add('visible');
-                } else {
-                    stickyBar.classList.remove('visible');
-                }
-
-                if (downloadTop < windowHeight + 100 || footerTop < windowHeight) {
-                    stickyBar.classList.add('hidden');
-                } else {
-                    stickyBar.classList.remove('hidden');
-                }
-            }
-
-            window.addEventListener('scroll', updateStickyBar, { passive: true });
-            updateStickyBar();
-
-            // Infinite Loop Testimonials Carousel
-            const carousel = document.querySelector('.testimonials-carousel');
-            if (carousel) {
-                const cards = carousel.querySelectorAll('.testimonial-card');
-                cards.forEach(card => {
-                    const clone = card.cloneNode(true);
-                    carousel.appendChild(clone);
-                });
-
-                let isResetting = false;
-                carousel.addEventListener('scroll', function() {
-                    if (isResetting) return;
-                    const scrollLeft = carousel.scrollLeft;
-                    const scrollWidth = carousel.scrollWidth;
-                    const clientWidth = carousel.clientWidth;
-                    const halfScroll = (scrollWidth - clientWidth) / 2;
-
-                    if (scrollLeft >= halfScroll + 50) {
-                        isResetting = true;
-                        carousel.style.scrollBehavior = 'auto';
-                        carousel.scrollLeft = scrollLeft - halfScroll;
-                        carousel.style.scrollBehavior = 'smooth';
-                        setTimeout(() => isResetting = false, 50);
-                    } else if (scrollLeft <= 0) {
-                        isResetting = true;
-                        carousel.style.scrollBehavior = 'auto';
-                        carousel.scrollLeft = halfScroll;
-                        carousel.style.scrollBehavior = 'smooth';
-                        setTimeout(() => isResetting = false, 50);
-                    }
-                }, { passive: true });
-            }
-        })();
-    </script>
+  <script src="../flutter_bootstrap.js" async></script>
 </body>
 </html>
