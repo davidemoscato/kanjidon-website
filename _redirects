@@ -1,9 +1,5 @@
 https://www.kanjidon.com/* https://kanjidon.com/:splat 301
 
-# Legacy /en/ -> / (root EN canonical, /en/ non e' mai esistito come directory)
-# Google ha indicizzato /en/ da vecchie hreflang/sitemap. Consolidiamo a root.
-/en/	/	301
-
 
 # ============================================================================
 # 410 Gone - URL fantasma (deploy bug Gen-Feb 2026)
@@ -1018,40 +1014,3 @@ https://www.kanjidon.com/* https://kanjidon.com/:splat 301
 /zh/blog/unterschiede-jlpt-n5-n4-n3-n2-n1/	/404.html	410
 /zh/blog/wie-viele-kanji-jlpt/	/404.html	410
 /zh/blog/zamayer-alghab-yapani/	/404.html	410
-
-# ============================================================================
-# 410 Gone - Batch 2 (export Search Console 2026-05-08)
-#
-# 29 URL fantasma residui dello stesso bug cartesian-product (Gen-Feb 2026)
-# non coperti dal primo batch (CSV cap 1000). Stesso pattern: slug di lingua
-# X sotto cartella lingua Y. URL bare /blog/* senza prefisso lingua.
-# ============================================================================
-/ar/blog/kanji-boss-cuoi-cung-ngon-ngu/	/404.html	410
-/ar/blog/kanji-learning-community-discord/	/404.html	410
-/ar/blog/repetition-espacee-kanji/	/404.html	410
-/blog/anime-litaalum-yapaniya/	/404.html	410
-/blog/kanji-travel-ke-jepun/	/404.html	410
-/de/blog/rendaku-limadha-qiraat-tataghayyar/	/404.html	410
-/es/blog/anime-litaalum-yapaniya/	/404.html	410
-/es/blog/วิธีเรียกคนญี่ปุ่น/	/404.html	410
-/fa/blog/เรียนญี่ปุ่นจากศูนย์/	/404.html	410
-/fil/blog/คู่มือคำช่วยภาษาญี่ปุ่น/	/404.html	410
-/fil/blog/อนิเมะเรียนภาษาญี่ปุ่น/	/404.html	410
-/fr/blog/วิธีเรียกคนญี่ปุ่น/	/404.html	410
-/fr/blog/เรียนญี่ปุ่นจากศูนย์/	/404.html	410
-/hi/blog/อนิเมะเรียนภาษาญี่ปุ่น/	/404.html	410
-/hi/blog/เรียนญี่ปุ่นจากศูนย์/	/404.html	410
-/id/blog/วิธีเรียกคนญี่ปุ่น/	/404.html	410
-/ko/blog/วิธีเรียกคนญี่ปุ่น/	/404.html	410
-/ko/blog/อนิเมะเรียนภาษาญี่ปุ่น/	/404.html	410
-/ms/blog/วิธีเรียกคนญี่ปุ่น/	/404.html	410
-/ms/blog/เรียนญี่ปุ่นจากศูนย์/	/404.html	410
-/ms/blog/เร็นดากุ-ทำไมการอ่านเปลี่ยน/	/404.html	410
-/pl/blog/เรียนญี่ปุ่นจากศูนย์/	/404.html	410
-/pt/blog/อนิเมะเรียนภาษาญี่ปุ่น/	/404.html	410
-/ru/blog/อนิเมะเรียนภาษาญี่ปุ่น/	/404.html	410
-/vi/blog/คู่มือคำช่วยภาษาญี่ปุ่น/	/404.html	410
-/vi/blog/วิธีเรียกคนญี่ปุ่น/	/404.html	410
-/zh-tw/blog/วิธีเรียกคนญี่ปุ่น/	/404.html	410
-/zh-tw/blog/เรียนญี่ปุ่นจากศูนย์/	/404.html	410
-/zh/blog/kanji-final-boss-ng-wika/	/404.html	410
