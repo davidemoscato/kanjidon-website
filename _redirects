@@ -2,7 +2,7 @@ https://www.kanjidon.com/* https://kanjidon.com/:splat 301
 
 # Legacy /en/ -> / (root EN canonical, /en/ non e' mai esistito come directory)
 # Google ha indicizzato /en/ da vecchie hreflang/sitemap. Consolidiamo a root.
-/en/	/	301
+/en/ / 301
 
 
 # ============================================================================
