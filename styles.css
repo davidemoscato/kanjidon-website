@@ -474,9 +474,15 @@ img {
     margin-top: var(--spacing-m);
     font-size: var(--font-l);
     font-weight: var(--font-weight-bold);
+    color: var(--secondary);
+    text-align: center;
+}
+
+.rating-subtext {
+    margin-top: var(--spacing-xs);
+    font-size: var(--font-s);
     color: var(--subtle);
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-align: center;
 }
 
 /* Scroll Reveal Animation */
@@ -828,20 +834,20 @@ img {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-s);
-    margin-top: var(--spacing-l);
+    margin-top: var(--spacing-xl);
 }
 
 .download-qr img {
-    width: 128px;
-    height: 128px;
+    width: 120px;
+    height: 120px;
     background: white;
     padding: 8px;
     border-radius: var(--radius-s);
 }
 
 .download-qr span {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: var(--font-s);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: var(--font-xs);
 }
 
 /* Platform-aware store badges: on mobile show only the relevant store; QR only on desktop.
@@ -991,7 +997,7 @@ html.is-desktop .download-qr {
 /* Testimonials Carousel */
 .testimonials {
     padding: var(--spacing-xxl) 0;
-    background: var(--surface);
+    background: rgba(0, 0, 0, 0.02);
     overflow: hidden;
 }
 
@@ -2524,7 +2530,7 @@ html.is-desktop .download-qr {
     flex-direction: column;
     align-items: center;
     padding: var(--spacing-m);
-    background-color: var(--card-background);
+    background-color: rgba(0, 0, 0, 0.02);
     border: 1px solid var(--muted);
     border-radius: var(--radius-s);
     text-align: center;
