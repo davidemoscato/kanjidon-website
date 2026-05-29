@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "Kanjidon چیه؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon یه اپ رایگان برای یادگیری کانجی ژاپنیه که از فلش کارت، کوئیزهای تعاملی، نبردهای PvP و سیستم تکرار فاصله‌دار (SRS) استفاده میکنه تا حفظ کردن رو آسون کنه. تمام سطوح JLPT از N5 تا N1 با بیش از ۶۰۰۰ کانجی رو پوشش میده."
+                    "text": "Kanjidon مطالعه کانجی رو به یه ماجراجویی حماسی تبدیل میکنه، جایی که هر نماد یه کارته برای جمع کردن و هر کوئیز یه چالش برای برنده شدن. یه اپه که گیمیفیکیشن و یادگیری رو ترکیب میکنه، با سیستم تکرار فاصله‌دار (SRS) که کانجی‌ها رو توی حافظه بلندمدتت قفل میکنه. پک‌ها رو باز کن، کوئیزهای پویا رو تجربه کن، درس‌ها رو دنبال کن و پیشرفتت رو با آمار دقیق پیگیری کن."
                 }
             },
             {
                 "@type": "Question",
-                "name": "آیا Kanjidon رایگانه؟",
+                "name": "اپ رایگانه؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "آره! میتونی از Kanjidon با تمام امکانات پایه رایگان استفاده کنی. اشتراک Kanjidon Pass محتوای اضافی، ۶ کارت در هر پک، کوئیزهای نامحدود و حذف تبلیغات رو باز میکنه."
+                    "text": "آره! میتونی از Kanjidon با تمام امکانات پایه رایگان استفاده کنی. کاربران رایگان میتونن روزی تا ۳ پک باز کنن و به کوئیز \"تصمیم بگیر\" نامحدود دسترسی دارن. اشتراک Kanjidon Pass ۶ کارت در هر پک، کوئیزهای نامحدود، تمام درس‌های گرامر، تلفظ صوتی و حذف تبلیغات رو باز میکنه."
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "JLPT چیه و Kanjidon کدوم سطوح رو پوشش میده؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (آزمون مهارت زبان ژاپنی) امتحان رسمی زبان ژاپنیه. Kanjidon همه سطوح رو پوشش میده: کانا (هیراگانا و کاتاکانا)، N5 (مبتدی)، N4، N3، N2 تا N1 (پیشرفته)، با بیش از ۶۰۰۰ فلش کارت کانجی."
+                    "text": "JLPT (آزمون مهارت زبان ژاپنی) امتحان رسمی برای تایید مهارت‌های زبان ژاپنیه. به ۵ سطح تقسیم میشه: N5 (مبتدی) تا N1 (پیشرفته). Kanjidon همه سطوح رو با بیش از ۶۰۰۰ فلش کارت کانجی پوشش میده، از جمله کارت‌های کانا برای کسایی که از صفر با هیراگانا و کاتاکانا شروع میکنن."
                 }
             },
             {
                 "@type": "Question",
-                "name": "سیستم SRS در Kanjidon چطور کار میکنه؟",
+                "name": "سیستم SRS چطور کار میکنه؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon از الگوریتم SM-2 استفاده میکنه، یه سیستم تکرار فاصله‌دار که علمی اثبات شده. کانجی‌ها در فواصل بهینه برای حفظ کردن نشون داده میشن: اگه درست جواب بدی، فاصله زیاد میشه؛ اگه اشتباه کنی، کوتاه میشه تا حافظه تقویت بشه."
+                    "text": "Kanjidon از الگوریتم SM-2 استفاده میکنه، یه سیستم تکرار فاصله‌دار که علمی اثبات شده. بر اساس دهه‌ها تحقیقات علوم اعصابه: هر کانجی امتیازی داره که با یادگیری تو تطبیق پیدا میکنه. اگه درست جواب بدی، بعد از فواصل طولانی‌تر دوباره نشون داده میشه. اگه اشتباه کنی، فاصله کوتاه میشه تا حافظه تقویت بشه."
                 }
             },
             {
                 "@type": "Question",
-                "name": "میتونم از Kanjidon آفلاین استفاده کنم؟",
+                "name": "نبردهای PvP چیه؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "آره، کوئیزها و مطالعه فلش کارت آفلاین کار میکنن. نبردهای PvP و همگام‌سازی ابری به اینترنت نیاز دارن."
+                    "text": "نبردها چالش‌های لحظه‌ای با بازیکنان دیگه‌ن. میتونی یه دوست رو محلی چالش کنی، یه بازیکن آنلاین تصادفی یا با CPU بجنگی. هر نبرد ۱۵ سوال در مورد خوانش اون، خوانش کون و معانی داره. برنده شو تا رتبه‌ت رو بالا ببری (از E تا S) و XP برای جدول لیگ کسب کنی."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "میتونم از اپ آفلاین استفاده کنم؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "آره، کوئیزها و مطالعه فلش کارت ۱۰۰٪ آفلاین کار میکنن. نبردهای PvP، همگام‌سازی ابری و ویژگی‌های اجتماعی به اینترنت نیاز دارن."
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "Kanjidon به چه زبان‌هایی در دسترسه؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon از ۲۱ زبان پشتیبانی میکنه: ایتالیایی، انگلیسی، فرانسوی، اسپانیایی، آلمانی، پرتغالی، روسی، تایلندی، اندونزیایی، عربی، چینی، کره‌ای، هندی، ترکی، ویتنامی، فارسی، لهستانی، فیلیپینی و مالایی."
+                    "text": "Kanjidon از ۲۱ زبان پشتیبانی میکنه: ایتالیایی، انگلیسی، فرانسوی، اسپانیایی، آلمانی، پرتغالی، روسی، تایلندی، اندونزیایی، عربی، چینی (ساده و سنتی)، کره‌ای، هندی، ترکی، ویتنامی، فارسی، لهستانی، فیلیپینی و مالایی."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "استریک چطور کار میکنه؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "استریک شمارش میکنه چند روز متوالی Kanjidon رو باز کردی. هرچی بیشتر باشه، هر روز تاما بونوس بیشتری دریافت میکنی (از ۷ تا ۵۰ تاما). کاربران پریمیوم دو برابر میگیرن. به نقاط عطف مثل ۳۰، ۶۰ یا ۳۶۵ روز برس تا شیلدهایی باز کنی که استریکت رو محافظت میکنن اگه یه روز رو از دست بدی."
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>دیگر فراموششان نکنید.<br><span class="text-primary">جمع‌آوری را شروع کنید.</span></h1>
-                <p class="hero-subtitle">بی‌خیال جداول خسته‌کننده شوید. با هیجان باز کردن بسته‌ها و قدرت SRS بیش از ۶,۰۰۰ کانجی یاد بگیرید. به ۱۵,۰۰۰+ دانش‌آموز بپیوندید.</p>
+                <p class="hero-subtitle">بی‌خیال جداول خسته‌کننده شوید. با هیجان باز کردن بسته‌ها و قدرت SRS بیش از ۶,۰۰۰ کانجی یاد بگیرید. به ۱۸,۰۰۰+ دانش‌آموز بپیوندید.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>اولین ۳ بسته خود را باز کنید</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="امتیاز ۴٫۸ از ۵">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>۴٫۸</strong>
+                    </span>
+                    <span class="hero-trust-item">دانلود رایگان · بدون نیاز به کارت</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,42 @@
             <h2 class="section-title">همین الان شروع کن، رایگان</h2>
             <p class="download-subtitle">برای iOS و اندروید در دسترسه. برای شروع نیازی به کارت اعتباری نیست.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="دانلود Kanjidon از App Store">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="دانلود Kanjidon از Google Play">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>برای دریافت اپ روی گوشی، کد را اسکن کنید</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">کانجی را سریع‌تر یاد بگیرید: راهنماهای رایگان</h2>
+            <div class="home-blog-grid">
+                <a href="/fa/blog/chetor-kanji-yad-begirim-5-ravesh/" class="home-blog-link">
+                    <h3>چطور کانجی یاد بگیریم: ۵ روش که واقعاً جواب می‌دهند</h3>
+                    <p>رادیکال‌ها، SRS، یادیارها، یادگیری در متن و تمرین نوشتن: ۵ روش اثبات‌شده برای تسلط بر کانجی. مسیری از صفر تا خواندن متون ژاپنی.</p>
+                    <span class="read-more">خواندن مقاله ←</span>
+                </a>
+                <a href="/fa/blog/chand-ta-kanji-baraye-jlpt/" class="home-blog-link">
+                    <h3>برای JLPT به چند کانجی نیاز داریم؟ لیست کامل از N5 تا N1</h3>
+                    <p>تعداد کانجی‌های مورد نیاز برای آزمون JLPT: سطح N5 (۸۰)، N4 (۲۴۰)، N3 (۶۲۰)، N2 (۱۰۰۰)، N1 (۲۱۳۶). تخمین زمان مطالعه و نکات آمادگی.</p>
+                    <span class="read-more">خواندن مقاله ←</span>
+                </a>
+                <a href="/fa/blog/tafavot-hiragana-katakana-kanji/" class="home-blog-link">
+                    <h3>هیراگانا در مقابل کاتاکانا در مقابل کانجی: اول کدام را یاد بگیریم؟</h3>
+                    <p>سیستم‌های نوشتاری ژاپنی: نقش هیراگانا، کاتاکانا و کانجی و ترتیب صحیح یادگیری برای مبتدی‌ها.</p>
+                    <span class="read-more">خواندن مقاله ←</span>
+                </a>
+            </div>
+            <a href="/fa/blog/" class="home-blog-all">مشاهده همه مقاله‌ها ←</a>
         </div>
     </section>
 
@@ -577,7 +639,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇮🇷</span>
                         <span class="language-name">فارسی</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +751,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

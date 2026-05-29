@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "Ano ang Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ang Kanjidon ay isang libreng app para sa pag-aaral ng Japanese kanji gamit ang flashcards, interactive quizzes, PvP battles, at spaced repetition system (SRS) na tumutulong sa iyo na mag-memorize ng epektibo. Sakop nito ang lahat ng JLPT levels mula N5 hanggang N1 na may higit sa 6000 kanji."
+                    "text": "Ginagawang epic adventure ng Kanjidon ang pag-aaral ng kanji, kung saan bawat simbolo ay isang card na kokolektahin at bawat quiz ay isang challenge na pananagumpayan. Ito ay isang app na pinagsasama ang gamification at learning, na may spaced repetition system (SRS) na naglo-lock ng kanji sa long-term memory mo. Buksan ang mga packs, harapin ang dynamic quizzes, sundan ang mga lessons, at subaybayan ang progress mo gamit ang detailed statistics."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Libre ba ang Kanjidon?",
+                "name": "Libre ba ang app?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Oo! Puwede mong gamitin ang Kanjidon nang libre kasama ang lahat ng basic features. Ang Kanjidon Pass subscription ay nagbu-bukas ng extra content, 6 cards per pack, unlimited quizzes, at tinatanggal ang mga ads."
+                    "text": "Oo! Puwede mong gamitin ang Kanjidon nang libre kasama ang lahat ng basic features. Puwedeng magbukas ang mga free users ng hanggang 3 packs bawat araw at unlimited access sa \"Decide\" quiz. Ang Kanjidon Pass subscription ay nagbu-bukas ng 6 cards per pack, unlimited quizzes, lahat ng grammar lessons, audio pronunciation, at tinatanggal ang ads."
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "Ano ang JLPT at anong levels ang sakop ng Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ang JLPT (Japanese Language Proficiency Test) ay ang opisyal na Japanese language exam. Sakop ng Kanjidon ang lahat ng levels: Kana (hiragana at katakana), N5 (beginner), N4, N3, N2 hanggang N1 (advanced), na may higit sa 6000 kanji flashcards."
+                    "text": "Ang JLPT (Japanese Language Proficiency Test) ay ang opisyal na exam para patunayan ang Japanese language skills. Nahahati ito sa 5 levels: N5 (beginner) hanggang N1 (advanced). Sakop ng Kanjidon ang lahat ng levels na may higit sa 6000 kanji flashcards, kasama ang Kana cards para sa mga nagsisimula mula zero sa hiragana at katakana."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Paano gumagana ang SRS system ng Kanjidon?",
+                "name": "Paano gumagana ang SRS system?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Gumagamit ang Kanjidon ng SM-2 algorithm, isang scientifically validated spaced repetition system. Ang mga kanji ay ipinakikita sa optimal intervals para sa pag-memorize: kung tama ang sagot mo, tumatagal ang interval; kung mali, bumababa para ma-consolidate ang memory."
+                    "text": "Gumagamit ang Kanjidon ng SM-2 algorithm, isang scientifically validated spaced repetition system. Ito ay batay sa decades ng neuroscience research: bawat kanji ay may score na nag-a-adapt sa pag-aaral mo. Kung tama ang sagot mo, ipapakita ulit ito pagkatapos ng mas matagal na intervals. Kung mali, bumababa ang interval para ma-consolidate ang memory."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Puwede ko bang gamitin ang Kanjidon offline?",
+                "name": "Ano ang PvP Battles?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Oo, gumagana ang mga quizzes at flashcard study offline. Ang PvP battles at cloud sync ay nangangailangan ng internet connection."
+                    "text": "Ang Battles ay real-time challenges laban sa ibang players. Puwede mong hamunin ang isang kaibigan locally, isang random online player, o lumaban sa CPU. Bawat battle ay may 15 tanong tungkol sa on readings, kun readings, at meanings. Manalo para umakyat sa Ranks (mula E hanggang S) at kumita ng XP para sa League Leaderboard mo."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Puwede ko bang gamitin ang app offline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oo, gumagana ang quizzes at flashcard study 100% offline. Ang PvP battles, cloud sync, at social features ay nangangailangan ng internet connection."
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "Anong mga wika ang available sa Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Sumusuporta ang Kanjidon sa 21 wika: Italian, English, French, Spanish, German, Portuguese, Russian, Thai, Indonesian, Arabic, Chinese, Korean, Hindi, Turkish, Vietnamese, Persian, Polish, Filipino, at Malay."
+                    "text": "Sumusuporta ang Kanjidon sa 21 wika: Italian, English, French, Spanish, German, Portuguese, Russian, Thai, Indonesian, Arabic, Chinese (Simplified at Traditional), Korean, Hindi, Turkish, Vietnamese, Persian, Polish, Filipino, at Malay."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Paano gumagana ang Streak?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Binibilang ng Streak kung ilang magkakasunod na araw mong binuksan ang Kanjidon. Mas mataas ito, mas maraming bonus Tama ang matatanggap mo bawat araw (mula 7 hanggang 50 Tama). Doble para sa Premium users. Abutin ang milestones tulad ng 30, 60, o 365 days para ma-unlock ang mga Shields na nagpoprotekta sa Streak mo kung may nalaktawan kang araw."
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>Huwag na silang kalimutan.<br><span class="text-primary">Simulan ang pagkolekta.</span></h1>
-                <p class="hero-subtitle">Kalimutan ang pagkainip sa tables. Matuto ng 6,000+ Kanji sa pamamagitan ng saya ng pagbubukas ng packs at kapangyarihan ng SRS. Sumali sa 15,000+ na mag-aaral.</p>
+                <p class="hero-subtitle">Kalimutan ang pagkainip sa tables. Matuto ng 6,000+ Kanji sa pamamagitan ng saya ng pagbubukas ng packs at kapangyarihan ng SRS. Sumali sa 18,000+ na mag-aaral.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>Claim ang iyong unang 3 packs</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="4.8 sa 5 na rating">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4.8</strong>
+                    </span>
+                    <span class="hero-trust-item">Libreng i-download · Walang card</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,42 @@
             <h2 class="section-title">Magsimula Na Ngayon, Libre</h2>
             <p class="download-subtitle">Available sa iOS at Android. Hindi kailangan ng credit card para magsimula.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="I-download ang Kanjidon sa App Store">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="I-download ang Kanjidon sa Google Play">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>I-scan para makuha ang app sa telepono</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">Mas mabilis matuto ng Kanji: libreng gabay</h2>
+            <div class="home-blog-grid">
+                <a href="/fil/blog/paano-matuto-ng-kanji-5-paraan/" class="home-blog-link">
+                    <h3>Paano Matuto ng Kanji: 5 Paraan na Talagang Gumagana</h3>
+                    <p>Radicals, SRS, mnemonics, pag-aaral sa konteksto, at pagsusulat: 5 subok na paraan para makabisado ang Kanji. Ang iyong gabay mula simula hanggang sa pagbabasa ng Japanese.</p>
+                    <span class="read-more">Basahin ang artikulo →</span>
+                </a>
+                <a href="/fil/blog/ilang-kanji-ang-kailangan-para-sa-jlpt/" class="home-blog-link">
+                    <h3>Ilang Kanji ang Kailangan para sa JLPT? Kumpletong Listahan mula N5 hanggang N1</h3>
+                    <p>Bilang ng Kanji na kailangan para sa JLPT exam: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Oras ng pag-aaral at mga tips para sa paghahanda.</p>
+                    <span class="read-more">Basahin ang artikulo →</span>
+                </a>
+                <a href="/fil/blog/pagkakaiba-ng-hiragana-katakana-at-kanji/" class="home-blog-link">
+                    <h3>Hiragana vs Katakana vs Kanji: Ano ang Dapat Unahing Aralin?</h3>
+                    <p>Japanese writing systems: Ang papel ng Hiragana, Katakana, at Kanji at ang tamang pagkakasunod-sunod ng pag-aaral para sa mga beginners.</p>
+                    <span class="read-more">Basahin ang artikulo →</span>
+                </a>
+            </div>
+            <a href="/fil/blog/" class="home-blog-all">Tingnan ang lahat ng artikulo →</a>
         </div>
     </section>
 
@@ -577,7 +639,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇵🇭</span>
                         <span class="language-name">Filipino</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +751,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

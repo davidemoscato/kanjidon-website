@@ -320,6 +320,34 @@ img {
     margin-bottom: var(--spacing-xl);
 }
 
+/* Hero trust row (rating + risk-reversal) */
+.hero-trust {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing-m);
+    margin-top: calc(-1 * var(--spacing-m));
+    margin-bottom: var(--spacing-xl);
+    font-size: var(--font-s);
+    color: var(--subtle);
+}
+
+.hero-trust-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.hero-stars {
+    color: var(--primary);
+    letter-spacing: 1px;
+}
+
+.hero-trust strong {
+    color: var(--secondary);
+    font-weight: var(--font-weight-heavy);
+}
+
 /* Laurel rating in stats row */
 .stat-rating {
     display: flex;
@@ -792,6 +820,95 @@ img {
 
 .store-badge:hover img {
     transform: scale(1.05);
+}
+
+/* Desktop QR handoff (shown only on desktop via platform detection) */
+.download-qr {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-s);
+    margin-top: var(--spacing-l);
+}
+
+.download-qr img {
+    width: 128px;
+    height: 128px;
+    background: white;
+    padding: 8px;
+    border-radius: var(--radius-s);
+}
+
+.download-qr span {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: var(--font-s);
+}
+
+/* Platform-aware store badges: on mobile show only the relevant store; QR only on desktop.
+   Fallback (no JS / class not set): both badges show, QR hidden. */
+html.is-ios .badge-android,
+html.is-android .badge-ios {
+    display: none;
+}
+
+html.is-desktop .download-qr {
+    display: flex;
+}
+
+/* Home Blog / Free Guides */
+.home-blog {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--background);
+}
+
+.home-blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--spacing-l);
+    margin-bottom: var(--spacing-xl);
+}
+
+.home-blog-link {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-s);
+    padding: var(--spacing-l);
+    border: 1.5px solid var(--muted);
+    border-radius: var(--radius-m);
+    color: inherit;
+    transition: border-color var(--duration-fast),
+        transform var(--duration-fast);
+}
+
+.home-blog-link:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    opacity: 1;
+}
+
+.home-blog-link h3 {
+    font-size: var(--font-m);
+    color: var(--secondary);
+    line-height: var(--line-height-tight);
+}
+
+.home-blog-link p {
+    font-size: var(--font-s);
+    color: var(--subtle);
+    flex-grow: 1;
+}
+
+.home-blog-link .read-more {
+    color: var(--primary);
+    font-size: var(--font-s);
+    font-weight: var(--font-weight-bold);
+}
+
+.home-blog-all {
+    display: block;
+    text-align: center;
+    color: var(--primary);
+    font-weight: var(--font-weight-bold);
 }
 
 /* FAQ */
@@ -1320,7 +1437,8 @@ img {
     transition: transform var(--duration-fast);
 }
 
-.language-selector:hover .language-btn svg {
+.language-selector:hover .language-btn svg,
+.language-selector:focus-within .language-btn svg {
     transform: rotate(180deg);
 }
 
@@ -1356,7 +1474,8 @@ img {
     border-radius: 3px;
 }
 
-.language-selector:hover .language-dropdown {
+.language-selector:hover .language-dropdown,
+.language-selector:focus-within .language-dropdown {
     opacity: 1;
     visibility: visible;
 }
@@ -1404,6 +1523,10 @@ img {
     }
 
     .hero-stats {
+        justify-content: center;
+    }
+
+    .hero-trust {
         justify-content: center;
     }
 

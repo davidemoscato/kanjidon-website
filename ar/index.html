@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "ما هو Kanjidon؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon هو تطبيق مجاني لتعلم الكانجي الياباني من خلال البطاقات التعليمية والاختبارات التفاعلية ومعارك PvP ونظام التكرار المتباعد (SRS) الذي يساعدك على الحفظ بفعالية. يغطي جميع مستويات JLPT من N5 إلى N1 مع أكثر من 6000 كانجي."
+                    "text": "Kanjidon يحول دراسة الكانجي إلى مغامرة ملحمية، حيث كل رمز هو بطاقة للجمع وكل اختبار تحدٍّ للفوز. إنه تطبيق يجمع بين اللعب والتعلم، مع نظام التكرار المتباعد (SRS) الذي يثبت الكانجي في ذاكرتك طويلة المدى. افتح الحزم، واجه الاختبارات الديناميكية، تابع الدروس، وتابع تقدمك بإحصائيات مفصلة."
                 }
             },
             {
                 "@type": "Question",
-                "name": "هل Kanjidon مجاني؟",
+                "name": "هل التطبيق مجاني؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "نعم! يمكنك استخدام Kanjidon مجاناً مع جميع الميزات الأساسية. اشتراك Kanjidon Pass يفتح محتوى إضافي و6 بطاقات لكل حزمة واختبارات غير محدودة ويزيل الإعلانات."
+                    "text": "نعم! يمكنك استخدام Kanjidon مجاناً مع جميع الميزات الأساسية. المستخدمون المجانيون يمكنهم فتح ما يصل إلى 3 حزم يومياً والوصول لاختبار \"قرر\" بشكل غير محدود. اشتراك Kanjidon Pass يفتح 6 بطاقات لكل حزمة، اختبارات غير محدودة، جميع دروس القواعد، نطق صوتي، ويزيل الإعلانات."
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "ما هو JLPT وأي المستويات يغطيها Kanjidon؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (اختبار إتقان اللغة اليابانية) هو الامتحان الرسمي للغة اليابانية. يغطي Kanjidon جميع المستويات: كانا (هيراغانا وكاتاكانا)، N5 (مبتدئ)، N4، N3، N2 حتى N1 (متقدم)، مع أكثر من 6000 بطاقة كانجي تعليمية."
+                    "text": "JLPT (اختبار إتقان اللغة اليابانية) هو الامتحان الرسمي لتوثيق مهارات اللغة اليابانية. ينقسم إلى 5 مستويات: N5 (مبتدئ) إلى N1 (متقدم). يغطي Kanjidon جميع المستويات مع أكثر من 6000 بطاقة كانجي تعليمية، بما في ذلك بطاقات الكانا لمن يبدأون من الصفر مع الهيراغانا والكاتاكانا."
                 }
             },
             {
                 "@type": "Question",
-                "name": "كيف يعمل نظام SRS في Kanjidon؟",
+                "name": "كيف يعمل نظام SRS؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "يستخدم Kanjidon خوارزمية SM-2، وهو نظام تكرار متباعد مثبت علمياً. يُعرض الكانجي في فترات مثالية للحفظ: إذا أجبت بشكل صحيح، تزداد الفترة؛ وإذا أخطأت، تقصر لتعزيز الذاكرة."
+                    "text": "يستخدم Kanjidon خوارزمية SM-2، نظام تكرار متباعد مثبت علمياً. يعتمد على عقود من أبحاث علم الأعصاب: كل كانجي له درجة تتكيف مع تعلمك. إذا أجبت بشكل صحيح، سيُعرض مرة أخرى بعد فترات أطول تدريجياً. إذا أخطأت، تقصر الفترة لتعزيز الذاكرة."
                 }
             },
             {
                 "@type": "Question",
-                "name": "هل يمكنني استخدام Kanjidon بدون إنترنت؟",
+                "name": "ما هي معارك PvP؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "نعم، الاختبارات ودراسة البطاقات التعليمية تعمل بدون إنترنت. معارك PvP والمزامنة السحابية تتطلب اتصال بالإنترنت."
+                    "text": "المعارك هي تحديات في الوقت الفعلي ضد لاعبين آخرين. يمكنك تحدي صديق محلياً، لاعب عشوائي عبر الإنترنت، أو مواجهة الكمبيوتر. كل معركة تحتوي على 15 سؤالاً عن قراءات الأون والكون والمعاني. افوز لتصعد في الرتب (من E إلى S) واكسب XP للوحة متصدري الدوري."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "هل يمكنني استخدام التطبيق بدون إنترنت؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "نعم، الاختبارات ودراسة البطاقات التعليمية تعمل 100% بدون إنترنت. معارك PvP، المزامنة السحابية، والميزات الاجتماعية تتطلب اتصال بالإنترنت."
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "ما هي اللغات المتاحة في Kanjidon؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "يدعم Kanjidon 21 لغة: الإيطالية، الإنجليزية، الفرنسية، الإسبانية، الألمانية، البرتغالية، الروسية، التايلاندية، الإندونيسية، العربية، الصينية، الكورية، الهندية، التركية، الفيتنامية، الفارسية، البولندية، الفلبينية، والماليزية."
+                    "text": "يدعم Kanjidon 21 لغة: الإيطالية، الإنجليزية، الفرنسية، الإسبانية، الألمانية، البرتغالية، الروسية، التايلاندية، الإندونيسية، العربية، الصينية (المبسطة والتقليدية)، الكورية، الهندية، التركية، الفيتنامية، الفارسية، البولندية، الفلبينية، والماليزية."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "كيف تعمل السلسلة؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "السلسلة تحسب عدد الأيام المتتالية التي تفتح فيها Kanjidon. كلما ارتفعت، زادت مكافأة تاما اليومية (من 7 إلى 50 تاما). المستخدمون المميزون يحصلون على الضعف. حقق معالم مثل 30 أو 60 أو 365 يوماً لفتح الدروع التي تحمي سلسلتك إذا فاتك يوم."
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>توقف عن نسيانها.<br><span class="text-primary">ابدأ في جمعها الآن.</span></h1>
-                <p class="hero-subtitle">انسَ ملل الجداول اللانهائية. تعلم أكثر من 6,000 كانجي من خلال إثارة فتح الحزم وقوة علم SRS. انضم إلى أكثر من 15,000 طالب.</p>
+                <p class="hero-subtitle">انسَ ملل الجداول اللانهائية. تعلم أكثر من 6,000 كانجي من خلال إثارة فتح الحزم وقوة علم SRS. انضم إلى أكثر من 18,000 طالب.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>افتح أول 3 حزم لك</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="التقييم 4.8 من 5">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4.8</strong>
+                    </span>
+                    <span class="hero-trust-item">تحميل مجاني · بدون بطاقة</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,47 @@
             <h2 class="section-title">ابدأ الآن، مجاناً</h2>
             <p class="download-subtitle">متوفر على iOS وAndroid. لا حاجة لبطاقة ائتمان للبدء.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="حمل Kanjidon من App Store">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="حمل Kanjidon من Google Play">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>امسح الرمز لتحميل التطبيق على هاتفك</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">تعلّم الكانجي بشكل أسرع: أدلة مجانية</h2>
+            <div class="home-blog-grid">
+                <a href="/ar/blog/kayfa-tataallam-alkanji/" class="home-blog-link">
+                    <h3>كيف تتعلم الكانجي: 5 طرق فعّالة حقاً</h3>
+                    <p>الجذور، التكرار المتباعد، الربط الذهني، التعلم في السياق، الكتابة: 5 طرق مثبتة لتعلم الكانجي.</p>
+                    <span class="read-more">اقرأ المقال ←</span>
+                </a>
+                <a href="/ar/blog/kam-kanji-jlpt-kull-mustawa/" class="home-blog-link">
+                    <h3>كم كانجي تحتاج لـ JLPT؟ العدد الدقيق لكل مستوى</h3>
+                    <p>عدد الكانجي لكل مستوى JLPT: N5(80)، N4(240)، N3(620)، N2(1000)، N1(2136). مع وقت الدراسة واستراتيجيات النجاح.</p>
+                    <span class="read-more">اقرأ المقال ←</span>
+                </a>
+                <a href="/ar/blog/hiragana-katakana-kanji-alfarq/" class="home-blog-link">
+                    <h3>هيراغانا vs كاتاكانا vs كانجي: أيهم تتعلم أولاً؟</h3>
+                    <p>هيراغانا، كاتاكانا، كانجي: دور كل منها، متى تستخدمها، والترتيب الصحيح لتعلمها.</p>
+                    <span class="read-more">اقرأ المقال ←</span>
+                </a>
+                <a href="/ar/blog/altikrar-almutabaaid-kanji/" class="home-blog-link">
+                    <h3>التكرار المتباعد للكانجي: كيف يعمل نظام SRS</h3>
+                    <p>كيف يجعل SRS الكانجي يثبت في الذاكرة طويلة المدى. العلم والفترات المثالية والتطبيقات.</p>
+                    <span class="read-more">اقرأ المقال ←</span>
+                </a>
+            </div>
+            <a href="/ar/blog/" class="home-blog-all">تصفّح كل المقالات ←</a>
         </div>
     </section>
 
@@ -577,7 +644,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇸🇦</span>
                         <span class="language-name">العربية</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +756,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

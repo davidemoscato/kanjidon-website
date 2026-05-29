@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "Kanjidon 是什麼？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon 是一款免費的日語漢字學習應用程式，透過學習卡、互動測驗、PvP 對戰和間隔重複系統（SRS）幫助你有效記憶。涵蓋所有 JLPT 等級，從 N5 到 N1，超過 6000 個漢字。"
+                    "text": "Kanjidon 把漢字學習變成一場史詩冒險，每個符號都是可收集的卡片，每次測驗都是要贏的挑戰。這是一款結合遊戲化和學習的應用程式，搭配間隔重複系統（SRS）把漢字鎖進你的長期記憶。開卡包、挑戰動態測驗、跟隨課程，並用詳細的統計追蹤進度。"
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon 是免費的嗎？",
+                "name": "應用程式是免費的嗎？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "是的！你可以免費使用 Kanjidon 的所有基本功能。Kanjidon Pass 訂閱可解鎖額外內容、每包 6 張卡片、無限測驗，並移除廣告。"
+                    "text": "是的！你可以免費使用 Kanjidon 的所有基本功能。免費用戶每天可以開最多 3 包，並無限次使用「決定」測驗。Kanjidon Pass 訂閱可解鎖每包 6 張卡片、無限測驗、所有文法課程、發音音訊，並移除廣告。"
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "什麼是 JLPT？Kanjidon 涵蓋哪些等級？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT（日本語能力試驗）是官方的日語能力認證考試。Kanjidon 涵蓋所有等級：假名（平假名和片假名）、N5（初級）、N4、N3、N2 到 N1（高級），超過 6000 張漢字學習卡。"
+                    "text": "JLPT（日本語能力試驗）是認證日語能力的官方考試。分為 5 個等級：N5（初級）到 N1（高級）。Kanjidon 涵蓋所有等級，超過 6000 張漢字學習卡，還包括假名卡片給從零開始學平假名和片假名的人。"
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon 的 SRS 系統如何運作？",
+                "name": "SRS 系統如何運作？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon 使用 SM-2 演算法，這是經過科學驗證的間隔重複系統。漢字會在最佳記憶間隔出現：如果你答對了，間隔會延長；如果答錯了，間隔會縮短以鞏固記憶。"
+                    "text": "Kanjidon 使用 SM-2 演算法，這是經過科學驗證的間隔重複系統。它基於數十年的神經科學研究：每個漢字都有一個會根據你的學習情況調整的分數。如果你答對了，它會在越來越長的間隔後再出現。如果你答錯了，間隔會縮短以鞏固記憶。"
                 }
             },
             {
                 "@type": "Question",
-                "name": "我可以離線使用 Kanjidon 嗎？",
+                "name": "什麼是 PvP 對戰？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "可以，測驗和學習卡學習可以離線使用。PvP 對戰和雲端同步需要網路連線。"
+                    "text": "對戰是與其他玩家的即時挑戰。你可以在本地挑戰朋友、隨機線上玩家，或對抗電腦。每場對戰有 15 道關於音讀、訓讀和意思的題目。贏得比賽可提升排名（從 E 到 S）並為聯盟排行榜賺取經驗值。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "我可以離線使用應用程式嗎？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "可以，測驗和學習卡學習可以 100% 離線使用。PvP 對戰、雲端同步和社交功能需要網路連線。"
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "Kanjidon 支援哪些語言？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon 支援 21 種語言：義大利語、英語、法語、西班牙語、德語、葡萄牙語、俄語、泰語、印尼語、阿拉伯語、中文、韓語、印地語、土耳其語、越南語、波斯語、波蘭語、菲律賓語和馬來語。"
+                    "text": "Kanjidon 支援 21 種語言：義大利語、英語、法語、西班牙語、德語、葡萄牙語、俄語、泰語、印尼語、阿拉伯語、中文（簡體和繁體）、韓語、印地語、土耳其語、越南語、波斯語、波蘭語、菲律賓語和馬來語。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "連續學習如何運作？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "連續學習會計算你連續幾天開啟 Kanjidon。天數越高，每天獲得的 Tama 獎勵就越多（從 7 到 50 Tama）。付費用戶可獲得雙倍獎勵。達到 30、60 或 365 天等里程碑可解鎖護盾，在你跳過一天時保護你的連續紀錄。"
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>別再死記硬背。<br><span class="text-primary">開始你的收集之旅。</span></h1>
-                <p class="hero-subtitle">告別枯燥的表格。透過開包的驚喜和 SRS 科學記憶法，輕鬆掌握 6,000+ 漢字。加入 15,000+ 學習者的行列。</p>
+                <p class="hero-subtitle">告別枯燥的表格。透過開包的驚喜和 SRS 科學記憶法，輕鬆掌握 6,000+ 漢字。加入 18,000+ 學習者的行列。</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>領取你的前 3 個卡包</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="評分 4.8，滿分 5">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4.8</strong>
+                    </span>
+                    <span class="hero-trust-item">免費下載 · 無需信用卡</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,47 @@
             <h2 class="section-title">立即開始，完全免費</h2>
             <p class="download-subtitle">iOS 和 Android 都可使用。開始不需要信用卡。</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="在 App Store 下載 Kanjidon">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="在 Google Play 下載 Kanjidon">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>掃碼在手機上取得應用程式</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">更快學會漢字：免費指南</h2>
+            <div class="home-blog-grid">
+                <a href="/zh-tw/blog/ruhe-xuexi-hanji/" class="home-blog-link">
+                    <h3>如何學習漢字：5個真正有效的方法</h3>
+                    <p>部首、SRS、聯想記憶、語境學習、書寫練習：5 種經過驗證的漢字學習方法。從零開始到閱讀日語。</p>
+                    <span class="read-more">閱讀文章 →</span>
+                </a>
+                <a href="/zh-tw/blog/jlpt-hanji-shuliang/" class="home-blog-link">
+                    <h3>JLPT 需要多少漢字？N5 到 N1 的精確數量</h3>
+                    <p>精確的漢字數量：N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136)。加上學習時間預估以及除了漢字外通過考試還需要什麼。</p>
+                    <span class="read-more">閱讀文章 →</span>
+                </a>
+                <a href="/zh-tw/blog/hiragana-katakana-kanji-qubie/" class="home-blog-link">
+                    <h3>平假名 vs 片假名 vs 漢字：應該先學什麼？</h3>
+                    <p>平假名、片假名和漢字：每種系統的角色、何時使用以及確切的學習順序。內含易懂的示例。</p>
+                    <span class="read-more">閱讀文章 →</span>
+                </a>
+                <a href="/zh-tw/blog/jiange-fuxi-hanji/" class="home-blog-link">
+                    <h3>漢字的間隔重複：SRS 的真實工作機制</h3>
+                    <p>間隔重複系統 (SRS) 如何幫助將漢字鞏固在長期記憶中。科學原理、最佳間隔和最佳應用。</p>
+                    <span class="read-more">閱讀文章 →</span>
+                </a>
+            </div>
+            <a href="/zh-tw/blog/" class="home-blog-all">查看全部文章 →</a>
         </div>
     </section>
 
@@ -577,7 +644,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇹🇼</span>
                         <span class="language-name">繁體中文</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +756,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

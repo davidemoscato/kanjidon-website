@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "Kanjidon क्या है?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon जापानी कांजी सीखने के लिए एक मुफ्त ऐप है जो फ्लैशकार्ड, इंटरैक्टिव क्विज़, PvP बैटल और स्पेस्ड रिपीटिशन सिस्टम (SRS) का इस्तेमाल करता है। N5 से N1 तक सभी JLPT लेवल कवर करता है, 6000 से ज़्यादा कांजी के साथ।"
+                    "text": "Kanjidon कांजी पढ़ाई को एक एपिक एडवेंचर में बदल देता है, जहां हर सिंबल एक कार्ड है जिसे इकट्ठा करना है और हर क्विज़ जीतने का चैलेंज। यह एक ऐप है जो गेमिफिकेशन और लर्निंग को जोड़ता है, स्पेस्ड रिपीटिशन सिस्टम (SRS) के साथ जो कांजी को तुम्हारी लॉन्ग-टर्म मेमोरी में लॉक कर देता है। पैक खोलो, डायनामिक क्विज़ से जूझो, लेसन फॉलो करो और डीटेल्ड स्टैटिस्टिक्स से अपनी प्रोग्रेस ट्रैक करो।"
                 }
             },
             {
                 "@type": "Question",
-                "name": "क्या Kanjidon मुफ्त है?",
+                "name": "क्या ऐप मुफ्त है?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "हां! तुम Kanjidon को सभी बेसिक फीचर्स के साथ मुफ्त में इस्तेमाल कर सकते हो। Kanjidon Pass सब्सक्रिप्शन से एक्स्ट्रा कंटेंट, हर पैक में 6 कार्ड, अनलिमिटेड क्विज़ और एड्स हट जाते हैं।"
+                    "text": "हां! तुम Kanjidon को सभी बेसिक फीचर्स के साथ मुफ्त इस्तेमाल कर सकते हो। फ्री यूज़र्स रोज़ 3 पैक तक खोल सकते हैं और \"डिसाइड\" क्विज़ अनलिमिटेड बार एक्सेस कर सकते हैं। Kanjidon Pass सब्सक्रिप्शन से हर पैक में 6 कार्ड, अनलिमिटेड क्विज़, सभी ग्रामर लेसन, ऑडियो प्रोनंसिएशन मिलता है और एड्स हट जाते हैं।"
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "JLPT क्या है और Kanjidon किन लेवल को कवर करता है?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (Japanese Language Proficiency Test) जापानी भाषा की ऑफिशियल परीक्षा है। Kanjidon सभी लेवल कवर करता है: काना (हिरागाना और कटाकाना), N5 (बिगिनर), N4, N3, N2 से N1 (एडवांस्ड), 6000 से ज़्यादा कांजी फ्लैशकार्ड के साथ।"
+                    "text": "JLPT (Japanese Language Proficiency Test) जापानी भाषा की स्किल्स को सर्टिफाई करने की ऑफिशियल परीक्षा है। इसमें 5 लेवल हैं: N5 (बिगिनर) से N1 (एडवांस्ड)। Kanjidon सभी लेवल कवर करता है 6000 से ज़्यादा कांजी फ्लैशकार्ड के साथ, साथ ही काना कार्ड उनके लिए जो हिरागाना और कटाकाना से शुरू कर रहे हैं।"
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon का SRS सिस्टम कैसे काम करता है?",
+                "name": "SRS सिस्टम कैसे काम करता है?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon SM-2 अल्गोरिदम का इस्तेमाल करता है, जो वैज्ञानिक रूप से प्रमाणित स्पेस्ड रिपीटिशन सिस्टम है। कांजी सही समय पर दिखाई जाती है: अगर तुम सही जवाब दो तो इंटरवल बढ़ता है; अगर गलत हो तो मेमोरी मजबूत करने के लिए कम होता है।"
+                    "text": "Kanjidon SM-2 अल्गोरिदम का इस्तेमाल करता है, जो वैज्ञानिक रूप से वैलिडेटेड स्पेस्ड रिपीटिशन सिस्टम है। यह दशकों की न्यूरोसाइंस रिसर्च पर बेस्ड है: हर कांजी का एक स्कोर होता है जो तुम्हारी लर्निंग के हिसाब से एडजस्ट होता है। अगर तुम सही जवाब दो तो यह धीरे-धीरे बढ़ते इंटरवल के बाद फिर दिखेगा। अगर गलत करो तो मेमोरी मजबूत करने के लिए इंटरवल कम हो जाता है।"
                 }
             },
             {
                 "@type": "Question",
-                "name": "क्या मैं Kanjidon ऑफलाइन इस्तेमाल कर सकता हूं?",
+                "name": "PvP बैटल क्या हैं?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "हां, क्विज़ और फ्लैशकार्ड स्टडी ऑफलाइन काम करते हैं। PvP बैटल और क्लाउड सिंक के लिए इंटरनेट चाहिए।"
+                    "text": "बैटल दूसरे प्लेयर्स के खिलाफ रियल-टाइम चैलेंज हैं। तुम किसी दोस्त को लोकली चैलेंज कर सकते हो, रैंडम ऑनलाइन प्लेयर को, या CPU से खेल सकते हो। हर बैटल में ऑन रीडिंग, कुन रीडिंग और मीनिंग पर 15 सवाल होते हैं। जीतो और रैंक्स में ऊपर जाओ (E से S) और लीग लीडरबोर्ड के लिए XP कमाओ।"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "क्या मैं ऐप ऑफलाइन इस्तेमाल कर सकता हूं?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "हां, क्विज़ और फ्लैशकार्ड स्टडी 100% ऑफलाइन काम करते हैं। PvP बैटल, क्लाउड सिंक और सोशल फीचर्स के लिए इंटरनेट कनेक्शन चाहिए।"
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "Kanjidon किन भाषाओं में उपलब्ध है?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon 21 भाषाओं में उपलब्ध है: इटालियन, इंग्लिश, फ्रेंच, स्पैनिश, जर्मन, पुर्तगाली, रशियन, थाई, इंडोनेशियन, अरबी, चीनी, कोरियन, हिंदी, तुर्की, वियतनामी, फारसी, पोलिश, फिलिपिनो और मलय।"
+                    "text": "Kanjidon 21 भाषाओं में उपलब्ध है: इटालियन, इंग्लिश, फ्रेंच, स्पैनिश, जर्मन, पुर्तगाली, रशियन, थाई, इंडोनेशियन, अरबी, चीनी (सिंप्लिफाइड और ट्रेडिशनल), कोरियन, हिंदी, तुर्की, वियतनामी, फारसी, पोलिश, फिलिपिनो और मलय।"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "स्ट्रीक कैसे काम करती है?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "स्ट्रीक काउंट करती है कि तुमने कितने लगातार दिन Kanjidon खोला। जितनी ज़्यादा हो, उतना ज़्यादा बोनस तामा रोज़ मिलता है (7 से 50 तामा तक)। प्रीमियम यूज़र्स को डबल मिलता है। 30, 60 या 365 दिन जैसे माइलस्टोन पूरे करो और शील्ड अनलॉक करो जो एक दिन छूटने पर तुम्हारी स्ट्रीक बचाती है।"
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>उन्हें भूलना बंद करें।<br><span class="text-primary">उन्हें इकट्ठा करना शुरू करें।</span></h1>
-                <p class="hero-subtitle">अनंत तालिकाओं की बोरियत को भूल जाइए। 6,000+ कांजी कार्ड्स खोलें और SRS विज्ञान के साथ याद रखें। 15,000+ छात्रों से जुड़ें।</p>
+                <p class="hero-subtitle">अनंत तालिकाओं की बोरियत को भूल जाइए। 6,000+ कांजी कार्ड्स खोलें और SRS विज्ञान के साथ याद रखें। 18,000+ छात्रों से जुड़ें।</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>अपने पहले 3 पैक खोलें</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="5 में से 4.8 रेटिंग">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4.8</strong>
+                    </span>
+                    <span class="hero-trust-item">मुफ़्त डाउनलोड · कार्ड की ज़रूरत नहीं</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,42 @@
             <h2 class="section-title">अभी शुरू करो, मुफ्त</h2>
             <p class="download-subtitle">iOS और Android पर उपलब्ध। शुरू करने के लिए क्रेडिट कार्ड की ज़रूरत नहीं।</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="App Store से Kanjidon डाउनलोड करो">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="Google Play से Kanjidon डाउनलोड करो">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>ऐप फ़ोन पर पाने के लिए स्कैन करें</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">कांजी तेज़ी से सीखें: मुफ़्त गाइड</h2>
+            <div class="home-blog-grid">
+                <a href="/hi/blog/kanji-kaise-sikhen-5-tarike/" class="home-blog-link">
+                    <h3>कांजी कैसे सीखें: 5 तरीके जो वास्तव में काम करते हैं</h3>
+                    <p>रेडिकल्स, SRS, मेमोनिक्स, संदर्भ में सीखना और लिखने का अभ्यास: कांजी सीखने के 5 सिद्ध तरीके। शून्य से जापानी पढ़ने तक का सफर।</p>
+                    <span class="read-more">लेख पढ़ें →</span>
+                </a>
+                <a href="/hi/blog/jlpt-ke-liye-kitne-kanji/" class="home-blog-link">
+                    <h3>JLPT के लिए कितने कांजी चाहिए? N5 से N1 तक की सूची</h3>
+                    <p>JLPT परीक्षा के लिए आवश्यक कांजी संख्या: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136)। तैयारी के सुझाव और अध्ययन का समय।</p>
+                    <span class="read-more">लेख पढ़ें →</span>
+                </a>
+                <a href="/hi/blog/hiragana-katakana-kanji-antar/" class="home-blog-link">
+                    <h3>हिरागाना बनाम काताकाना बनाम कांजी: पहले क्या सीखें?</h3>
+                    <p>जापानी लेखन प्रणालियाँ: हिरागाना, काताकाना और कांजी की भूमिका और सीखने का क्रम। उदाहरणों के साथ सरल विवरण।</p>
+                    <span class="read-more">लेख पढ़ें →</span>
+                </a>
+            </div>
+            <a href="/hi/blog/" class="home-blog-all">सभी लेख देखें →</a>
         </div>
     </section>
 
@@ -577,7 +639,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇮🇳</span>
                         <span class="language-name">हिन्दी</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +751,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

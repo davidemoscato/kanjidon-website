@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "Kanjidon nedir?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon, kartlar, interaktif testler, PvP savislari ve etkili ezberleme icin aralikli tekrar sistemi (SRS) ile Japonca kanji ogrenmen icin ucretsiz bir uygulama. N5'ten N1'e tum JLPT seviyelerini 6000'den fazla kanji ile kapsar."
+                    "text": "Kanjidon, kanji calismasini her sembolun toplanacak bir kart, her testin kazanilacak bir meydan okuma oldugu epik bir maceraya donusturuyor. Oyunlastirma ve ogrenmeyi birlestiren, aralikli tekrar sistemi (SRS) ile kanjileri uzun sureli hafizana kilitleyen bir uygulama. Paketler ac, dinamik testlerle yuzles, dersleri takip et ve ayrintili istatistiklerle ilerlemeni izle."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon ucretsiz mi?",
+                "name": "Uygulama ucretsiz mi?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Evet! Kanjidon'u tum temel ozelliklerle ucretsiz kullanabilirsin. Kanjidon Pass aboneligi ekstra icerik, paket basina 6 kart, sinirsiz test ve reklamsiz deneyim acar."
+                    "text": "Evet! Kanjidon'u tum temel ozelliklerle ucretsiz kullanabilirsin. Ucretsiz kullanicilar gunde 3 paket acabilir ve \"Karar Ver\" testine sinirsiz erisebilir. Kanjidon Pass aboneligi paket basina 6 kart, sinirsiz test, tum dilbilgisi dersleri, sesli telaffuz ve reklamsiz deneyim acar."
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "JLPT nedir ve Kanjidon hangi seviyeleri kapsar?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (Japanese Language Proficiency Test) resmi Japonca sinavi. Kanjidon tum seviyeleri kapsar: Kana (hiragana ve katakana), N5 (baslangic), N4, N3, N2 ve N1 (ileri), 6000'den fazla kanji karti ile."
+                    "text": "JLPT (Japanese Language Proficiency Test) Japonca dil becerilerini belgelemek icin resmi sinav. 5 seviyeye ayrilmis: N5 (baslangic) ile N1 (ileri) arasi. Kanjidon 6000'den fazla kanji karti ile tum seviyeleri kapsar, hiragana ve katakana ile sifirdan baslayanlar icin Kana kartlari dahil."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon'un SRS sistemi nasil calisiyor?",
+                "name": "SRS sistemi nasil calisiyor?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon, bilimsel olarak dogrulanmis aralikli tekrar sistemi SM-2 algoritmasini kullaniyor. Kanjiler ezberleme icin en uygun araliklarda sunuluyor: dogru cevaplarsan aralik uzuyor; hata yaparsan hafizayi pekistirmek icin kisaliyor."
+                    "text": "Kanjidon, bilimsel olarak dogrulanmis aralikli tekrar sistemi SM-2 algoritmasini kullaniyor. Onlarca yillik sinirbilim arastirmasina dayaniyor: her kanjinin ogrenmenize gore uyum saglayan bir puani var. Dogru cevaplarsan, giderek artan araliklar sonra tekrar sunulur. Hata yaparsan, hafizayi pekistirmek icin aralik kisalir."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon'u cevrimdisi kullanabilir miyim?",
+                "name": "PvP Savislari nedir?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Evet, testler ve kart calismasi cevrimdisi calisiyor. PvP savislari ve bulut senkronizasyonu internet baglantisi gerektiriyor."
+                    "text": "Savislar, diger oyunculara karsi gercek zamanli meydan okumalar. Bir arkadasa yerel olarak, rastgele bir cevrimici oyuncuya veya CPU'ya meydan okuyabilirsin. Her savisin on okumalar, kun okumalar ve anlamlar uzerine 15 sorusu var. Ranklarda yukselmek (E'den S'ye) ve Lig Siralamaniz icin XP kazanmak icin kazan."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Uygulamayi cevrimdisi kullanabilir miyim?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Evet, testler ve kart calismasi %100 cevrimdisi calisiyor. PvP savislari, bulut senkronizasyonu ve sosyal ozellikler internet baglantisi gerektiriyor."
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "Kanjidon hangi dillerde mevcut?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon 21 dili destekliyor: Italyanca, Ingilizce, Fransizca, Ispanyolca, Almanca, Portekizce, Rusca, Taylandca, Endonezyaca, Arapca, Cince, Korece, Hintce, Turkce, Vietnamca, Farsca, Lehce, Filipince ve Malayca."
+                    "text": "Kanjidon 21 dili destekliyor: Italyanca, Ingilizce, Fransizca, Ispanyolca, Almanca, Portekizce, Rusca, Taylandca, Endonezyaca, Arapca, Cince (Basitlestirilmis ve Geleneksel), Korece, Hintce, Turkce, Vietnamca, Farsca, Lehce, Filipince ve Malayca."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Seri nasil calisiyor?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Seri, Kanjidon'u kac gun ust uste actiginizi sayar. Ne kadar yuksekse, her gun o kadar cok bonus Tama alirsin (7'den 50 Tama'ya kadar). Premium kullanicilar iki kat alir. Bir gun atlarsan Serini koruyan Kalkanlar acmak icin 30, 60 veya 365 gun gibi kilometre taslarina ulas."
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>Onları unutmayı bırakın.<br><span class="text-primary">Koleksiyon yapmaya başlayın.</span></h1>
-                <p class="hero-subtitle">Sonsuz tabloların sıkıcılığını unutun. Paket açma heyecanı ve SRS biliminin gücüyle 6.000'den fazla Kanji öğrenin. 15.000'den fazla öğrenciye katılın.</p>
+                <p class="hero-subtitle">Sonsuz tabloların sıkıcılığını unutun. Paket açma heyecanı ve SRS biliminin gücüyle 6.000'den fazla Kanji öğrenin. 18.000'den fazla öğrenciye katılın.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>İlk 3 paketinizi açın</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="5 üzerinden 4,8 puan">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4,8</strong>
+                    </span>
+                    <span class="hero-trust-item">Ücretsiz indirme · Kart gerekmez</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,42 @@
             <h2 class="section-title">Simdi Basla, Ucretsiz</h2>
             <p class="download-subtitle">iOS ve Android'de mevcut. Baslamak icin kredi karti gerekmiyor.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="Kanjidon'u App Store'dan Indir">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="Kanjidon'u Google Play'den Indir">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>Uygulamayı telefonunuza almak için tarayın</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">Kanji'yi daha hızlı öğrenin: ücretsiz rehberler</h2>
+            <div class="home-blog-grid">
+                <a href="/tr/blog/kanji-nasil-ogrenilir-5-etkili-yontem/" class="home-blog-link">
+                    <h3>Kanji Nasıl Öğrenilir: Gerçekten İşe Yarayan 5 Yöntem</h3>
+                    <p>Radikaller, SRS, anımsatıcılar, bağlam içinde öğrenme ve yazma pratiği: Kanji öğrenmek için kanıtlanmış 5 yöntem. Sıfırdan Japonca okumaya giden yol.</p>
+                    <span class="read-more">Makaleyi okuyun →</span>
+                </a>
+                <a href="/tr/blog/jlpt-icin-kac-kanji-gerekli/" class="home-blog-link">
+                    <h3>JLPT İçin Kaç Kanji Gerekli? N5'ten N1'e Tam Liste</h3>
+                    <p>JLPT sınavı için gereken Kanji sayıları: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Çalışma süresi tahminleri ve hazırlık ipuçları.</p>
+                    <span class="read-more">Makaleyi okuyun →</span>
+                </a>
+                <a href="/tr/blog/hiragana-katakana-kanji-farklari/" class="home-blog-link">
+                    <h3>Hiragana vs Katakana vs Kanji: Hangisini Önce Öğrenmelisin?</h3>
+                    <p>Japonca yazı sistemleri: Hiragana, Katakana ve Kanji'nin rolleri ve öğrenme sırası. Örneklerle basit anlatım.</p>
+                    <span class="read-more">Makaleyi okuyun →</span>
+                </a>
+            </div>
+            <a href="/tr/blog/" class="home-blog-all">Tüm makaleleri görün →</a>
         </div>
     </section>
 
@@ -577,7 +639,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇹🇷</span>
                         <span class="language-name">Türkçe</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +751,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

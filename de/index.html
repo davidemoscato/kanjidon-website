@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -137,15 +147,15 @@
                 "name": "Was ist Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon ist eine kostenlose App zum Lernen japanischer Kanji mit Flashcards, interaktiven Quizzen, PvP-Kaempfen und einem Spaced-Repetition-System (SRS), das dir hilft, effektiv zu memorieren. Sie deckt alle JLPT-Level von N5 bis N1 mit ueber 6000 Kanji ab."
+                    "text": "Kanjidon verwandelt das Kanji-Lernen in ein episches Abenteuer, bei dem jedes Symbol eine Karte zum Sammeln und jedes Quiz eine Herausforderung ist. Es ist eine App, die Gamifizierung und Lernen verbindet, mit einem Spaced-Repetition-System (SRS), das Kanji in deinem Langzeitgedaechtnis verankert. Oeffne Packungen, stelle dich dynamischen Quizzen, folge Lektionen und verfolge deinen Fortschritt mit detaillierten Statistiken."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Ist Kanjidon kostenlos?",
+                "name": "Ist die App kostenlos?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ja! Du kannst Kanjidon kostenlos mit allen Grundfunktionen nutzen. Das Kanjidon Pass-Abo schaltet zusaetzliche Inhalte frei, 6 Karten pro Packung, unbegrenzte Quizze und entfernt Werbung."
+                    "text": "Ja! Du kannst Kanjidon kostenlos mit allen Grundfunktionen nutzen. Kostenlose Nutzer koennen bis zu 3 Packungen pro Tag oeffnen und unbegrenzt auf das \"Entscheide\"-Quiz zugreifen. Das Kanjidon Pass-Abo schaltet 6 Karten pro Packung, unbegrenzte Quizze, alle Grammatiklektionen, Audio-Aussprache frei und entfernt Werbung."
                 }
             },
             {
@@ -153,23 +163,31 @@
                 "name": "Was ist der JLPT und welche Level deckt Kanjidon ab?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Der JLPT (Japanese Language Proficiency Test) ist die offizielle Japanisch-Pruefung. Kanjidon deckt alle Level ab: Kana (Hiragana und Katakana), N5 (Anfaenger), N4, N3, N2 bis N1 (Fortgeschritten), mit ueber 6000 Kanji-Flashcards."
+                    "text": "Der JLPT (Japanese Language Proficiency Test) ist die offizielle Pruefung zur Zertifizierung von Japanischkenntnissen. Er ist in 5 Level unterteilt: N5 (Anfaenger) bis N1 (Fortgeschritten). Kanjidon deckt alle Level mit ueber 6000 Kanji-Flashcards ab, einschliesslich Kana-Karten fuer alle, die bei Null mit Hiragana und Katakana anfangen."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Wie funktioniert das SRS-System von Kanjidon?",
+                "name": "Wie funktioniert das SRS-System?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon verwendet den SM-2-Algorithmus, ein wissenschaftlich validiertes Spaced-Repetition-System. Kanji werden in optimalen Intervallen zum Einpraegen praesentiert: Wenn du richtig antwortest, vergroessert sich das Intervall; wenn du einen Fehler machst, verkuerzt es sich, um das Gedaechtnis zu festigen."
+                    "text": "Kanjidon verwendet den SM-2-Algorithmus, ein wissenschaftlich validiertes Spaced-Repetition-System. Es basiert auf Jahrzehnten neurowissenschaftlicher Forschung: Jedes Kanji hat einen Punktwert, der sich an dein Lernen anpasst. Wenn du richtig antwortest, wird es nach immer laengeren Intervallen wieder gezeigt. Wenn du einen Fehler machst, verkuerzt sich das Intervall, um das Gedaechtnis zu festigen."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kann ich Kanjidon offline nutzen?",
+                "name": "Was sind PvP-Kaempfe?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ja, Quizze und Flashcard-Lernen funktionieren offline. PvP-Kaempfe und Cloud-Sync benoetigen eine Internetverbindung."
+                    "text": "Kaempfe sind Echtzeit-Herausforderungen gegen andere Spieler. Du kannst einen Freund lokal herausfordern, einen zufaelligen Online-Spieler oder gegen eine CPU antreten. Jeder Kampf hat 15 Fragen zu On-Lesungen, Kun-Lesungen und Bedeutungen. Gewinne, um im Rang aufzusteigen (von E bis S) und XP fuer deine Liga-Rangliste zu verdienen."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kann ich die App offline nutzen?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, Quizze und Flashcard-Lernen funktionieren 100% offline. PvP-Kaempfe, Cloud-Sync und soziale Funktionen erfordern eine Internetverbindung."
                 }
             },
             {
@@ -177,7 +195,15 @@
                 "name": "In welchen Sprachen ist Kanjidon verfuegbar?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon unterstuetzt 21 Sprachen: Italienisch, Englisch, Franzoesisch, Spanisch, Deutsch, Portugiesisch, Russisch, Thai, Indonesisch, Arabisch, Chinesisch, Koreanisch, Hindi, Tuerkisch, Vietnamesisch, Persisch, Polnisch, Filipino und Malaiisch."
+                    "text": "Kanjidon unterstuetzt 21 Sprachen: Italienisch, Englisch, Franzoesisch, Spanisch, Deutsch, Portugiesisch, Russisch, Thai, Indonesisch, Arabisch, Chinesisch (vereinfacht und traditionell), Koreanisch, Hindi, Tuerkisch, Vietnamesisch, Persisch, Polnisch, Filipino und Malaiisch."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Wie funktioniert der Streak?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Der Streak zaehlt, wie viele aufeinanderfolgende Tage du Kanjidon oeffnest. Je hoeher er ist, desto mehr Bonus-Tama erhaeltst du taeglich (von 7 bis zu 50 Tama). Premium-Nutzer erhalten das Doppelte. Erreiche Meilensteine wie 30, 60 oder 365 Tage, um Schilde freizuschalten, die deinen Streak schuetzen, wenn du einen Tag auslasst."
                 }
             }
         ]
@@ -205,9 +231,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>Hör auf, sie zu vergessen.<br><span class="text-primary">Fang an, sie zu sammeln.</span></h1>
-                <p class="hero-subtitle">Vergiss die Langeweile endloser Tabellen. Lerne über 6.000 Kanji durch die Aufregung beim Öffnen von Packs und die Kraft der SRS-Wissenschaft. Werde Teil von 15.000+ Studenten.</p>
+                <p class="hero-subtitle">Vergiss die Langeweile endloser Tabellen. Lerne über 6.000 Kanji durch die Aufregung beim Öffnen von Packs und die Kraft der SRS-Wissenschaft. Werde Teil von 18.000+ Studenten.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>Öffne deine ersten 3 Packs</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="Bewertung 4,8 von 5">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4,8</strong>
+                    </span>
+                    <span class="hero-trust-item">Kostenlos laden · Keine Karte nötig</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -487,13 +520,47 @@
             <h2 class="section-title">Jetzt Starten, Kostenlos</h2>
             <p class="download-subtitle">Verfuegbar auf iOS und Android. Keine Kreditkarte erforderlich.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="Kanjidon im App Store laden">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="Kanjidon bei Google Play laden">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>Scanne, um die App aufs Handy zu holen</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">Lerne Kanji schneller: kostenlose Guides</h2>
+            <div class="home-blog-grid">
+                <a href="/de/blog/wie-kanji-lernen/" class="home-blog-link">
+                    <h3>Wie Man Kanji Lernt: Vollstandiger Leitfaden fur Anfanger</h3>
+                    <p>Erfahren Sie, wie Sie japanische Kanji effektiv lernen. Bewahrte Methoden und Strategien zum Auswendiglernen.</p>
+                    <span class="read-more">Artikel lesen →</span>
+                </a>
+                <a href="/de/blog/wie-viele-kanji-jlpt/" class="home-blog-link">
+                    <h3>Wie Viele Kanji fur JLPT? Leitfaden von N5 bis N1</h3>
+                    <p>Erfahren Sie, wie viele Kanji Sie fur jedes JLPT-Level lernen mussen.</p>
+                    <span class="read-more">Artikel lesen →</span>
+                </a>
+                <a href="/de/blog/hiragana-katakana-kanji-unterschiede/" class="home-blog-link">
+                    <h3>Hiragana vs Katakana vs Kanji: Was Zuerst Lernen?</h3>
+                    <p>Entdecken Sie die Unterschiede zwischen Hiragana, Katakana und Kanji.</p>
+                    <span class="read-more">Artikel lesen →</span>
+                </a>
+                <a href="/de/blog/spaced-repetition-kanji/" class="home-blog-link">
+                    <h3>Spaced Repetition: Die Wissenschaftliche Methode zum Kanj...</h3>
+                    <p>Erfahren Sie, wie Spaced Repetition beim Kanji-Lernen hilft.</p>
+                    <span class="read-more">Artikel lesen →</span>
+                </a>
+            </div>
+            <a href="/de/blog/" class="home-blog-all">Alle Artikel ansehen →</a>
         </div>
     </section>
 
@@ -575,7 +642,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇩🇪</span>
                         <span class="language-name">Deutsch</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -687,10 +754,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

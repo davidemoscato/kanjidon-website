@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -137,15 +147,15 @@
                 "name": "Что такое Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon — это бесплатное приложение для изучения японских кандзи с помощью флеш-карт, интерактивных викторин, PvP-битв и системы интервального повторения (SRS), которая помогает эффективно запоминать. Охватывает все уровни JLPT от N5 до N1 с более чем 6000 кандзи."
+                    "text": "Kanjidon превращает изучение кандзи в эпическое приключение, где каждый символ — карта для коллекции, а каждая викторина — вызов. Это приложение, которое сочетает геймификацию и обучение с системой интервального повторения (SRS), которая закрепляет кандзи в твоей долгосрочной памяти. Открывай пакеты, проходи динамичные викторины, следуй урокам и отслеживай свой прогресс с подробной статистикой."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Приложение Kanjidon бесплатное?",
+                "name": "Приложение бесплатное?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Да! Ты можешь использовать Kanjidon бесплатно со всеми базовыми функциями. Подписка Kanjidon Pass открывает дополнительный контент, 6 карт в пакете, неограниченные викторины и убирает рекламу."
+                    "text": "Да! Ты можешь использовать Kanjidon бесплатно со всеми базовыми функциями. Бесплатные пользователи могут открывать до 3 пакетов в день и получать неограниченный доступ к викторине «Решай». Подписка Kanjidon Pass открывает 6 карт в пакете, неограниченные викторины, все уроки грамматики, аудио-произношение и убирает рекламу."
                 }
             },
             {
@@ -153,23 +163,31 @@
                 "name": "Что такое JLPT и какие уровни охватывает Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (Japanese Language Proficiency Test) — это официальный экзамен по японскому языку. Kanjidon охватывает все уровни: Кана (хирагана и катакана), N5 (начальный), N4, N3, N2 до N1 (продвинутый), с более чем 6000 флеш-карт кандзи."
+                    "text": "JLPT (Japanese Language Proficiency Test) — это официальный экзамен для сертификации знаний японского языка. Он разделён на 5 уровней: N5 (начинающий) до N1 (продвинутый). Kanjidon охватывает все уровни с более чем 6000 флеш-карт кандзи, включая карты Кана для тех, кто начинает с нуля с хираганы и катаканы."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Как работает система SRS в Kanjidon?",
+                "name": "Как работает система SRS?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon использует алгоритм SM-2, научно подтверждённую систему интервального повторения. Кандзи показываются в оптимальные интервалы для запоминания: если ты отвечаешь правильно, интервал увеличивается; если ошибаешься, сокращается для закрепления памяти."
+                    "text": "Kanjidon использует алгоритм SM-2, научно подтверждённую систему интервального повторения. Она основана на десятилетиях нейробиологических исследований: у каждого кандзи есть балл, который адаптируется к твоему обучению. Если ты отвечаешь правильно, он будет показан снова через всё более длинные интервалы. Если ошибаешься, интервал сокращается для закрепления памяти."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Можно ли использовать Kanjidon офлайн?",
+                "name": "Что такое PvP-битвы?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Да, викторины и изучение флеш-карт работают офлайн. PvP-битвы и облачная синхронизация требуют подключения к интернету."
+                    "text": "Битвы — это соревнования в реальном времени против других игроков. Ты можешь вызвать друга локально, случайного игрока онлайн или сразиться с CPU. Каждая битва содержит 15 вопросов о чтениях он, кун и значениях. Побеждай, чтобы подняться в ранге (от E до S) и заработать XP для рейтинга твоей Лиги."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Могу ли я использовать приложение офлайн?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Да, викторины и изучение флеш-карт работают 100% офлайн. PvP-битвы, облачная синхронизация и социальные функции требуют подключения к интернету."
                 }
             },
             {
@@ -177,7 +195,15 @@
                 "name": "На каких языках доступен Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon поддерживает 21 язык: итальянский, английский, французский, испанский, немецкий, португальский, русский, тайский, индонезийский, арабский, китайский, корейский, хинди, турецкий, вьетнамский, персидский, польский, филиппинский и малайский."
+                    "text": "Kanjidon поддерживает 21 язык: итальянский, английский, французский, испанский, немецкий, португальский, русский, тайский, индонезийский, арабский, китайский (упрощённый и традиционный), корейский, хинди, турецкий, вьетнамский, персидский, польский, филиппинский и малайский."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Как работает Серия?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Серия считает, сколько дней подряд ты открываешь Kanjidon. Чем выше она, тем больше бонусных Тама ты получаешь каждый день (от 7 до 50 Тама). Премиум-пользователи получают вдвое больше. Достигай этапов, таких как 30, 60 или 365 дней, чтобы разблокировать Щиты, которые защищают твою Серию, если пропустишь день."
                 }
             }
         ]
@@ -205,9 +231,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>Хватит их забывать.<br><span class="text-primary">Начни их коллекционировать.</span></h1>
-                <p class="hero-subtitle">Забудь о скучных таблицах. Учи более 6000 кандзи через азарт распаковки бустеров и научный подход SRS. Присоединяйся к 15 000+ учеников.</p>
+                <p class="hero-subtitle">Забудь о скучных таблицах. Учи более 6000 кандзи через азарт распаковки бустеров и научный подход SRS. Присоединяйся к 18 000+ учеников.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>Открой свои первые 3 бустера</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="Оценка 4,8 из 5">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4,8</strong>
+                    </span>
+                    <span class="hero-trust-item">Бесплатно · Без карты</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -487,13 +520,47 @@
             <h2 class="section-title">Начни сейчас, бесплатно</h2>
             <p class="download-subtitle">Доступно на iOS и Android. Карта не нужна для начала.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="Скачать Kanjidon в App Store">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="Скачать Kanjidon в Google Play">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>Отсканируй, чтобы установить приложение на телефон</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">Учи кандзи быстрее: бесплатные материалы</h2>
+            <div class="home-blog-grid">
+                <a href="/ru/blog/kak-uchit-kanji/" class="home-blog-link">
+                    <h3>Как учить Kanji: 5 методов, которые реально работают</h3>
+                    <p>Радикалы, SRS, мнемоника, изучение в контексте и практика письма: 5 проверенных методов освоения Kanji. Пройди путь от нуля до чтения на японском.</p>
+                    <span class="read-more">Читать статью →</span>
+                </a>
+                <a href="/ru/blog/skolko-kanji-dlya-jlpt/" class="home-blog-link">
+                    <h3>Сколько Kanji нужно для JLPT? Точное количество для N5, N4, N3, N2, N1</h3>
+                    <p>Точное количество Kanji: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Плюс оценки времени на учебу и что еще нужно, кроме Kanji, чтобы сдать экзамен.</p>
+                    <span class="read-more">Читать статью →</span>
+                </a>
+                <a href="/ru/blog/hiragana-katakana-kanji-razlichiya/" class="home-blog-link">
+                    <h3>Hiragana против Katakana против Kanji: что учить в первую очередь?</h3>
+                    <p>Hiragana, Katakana и Kanji: роль каждой системы, когда их использовать и точный порядок изучения. Понятные примеры внутри.</p>
+                    <span class="read-more">Читать статью →</span>
+                </a>
+                <a href="/ru/blog/intervalnye-povtoreniya-kanji/" class="home-blog-link">
+                    <h3>Интервальные повторения для Kanji: как реально работает SRS</h3>
+                    <p>Как SRS (интервальные повторения) помогает закрепить Kanji в долгосрочной памяти. Наука, оптимальные интервалы и лучшие приложения.</p>
+                    <span class="read-more">Читать статью →</span>
+                </a>
+            </div>
+            <a href="/ru/blog/" class="home-blog-all">Все статьи →</a>
         </div>
     </section>
 
@@ -575,7 +642,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇷🇺</span>
                         <span class="language-name">Русский</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -685,10 +752,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

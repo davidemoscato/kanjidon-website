@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "Apa itu Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon adalah aplikasi percuma untuk belajar kanji Jepun melalui kad imbas, kuiz interaktif, pertempuran PvP, dan sistem pengulangan berjarak (SRS) yang membantu kamu menghafal dengan berkesan. Ia meliputi semua tahap JLPT dari N5 hingga N1 dengan lebih 6000 kanji."
+                    "text": "Kanjidon mengubah kajian kanji menjadi pengembaraan epik, di mana setiap simbol adalah kad untuk dikumpul dan setiap kuiz adalah cabaran untuk dimenangi. Ia adalah aplikasi yang menggabungkan gamifikasi dan pembelajaran, dengan sistem pengulangan berjarak (SRS) yang mengunci kanji ke dalam ingatan jangka panjang kamu. Buka pek, hadapi kuiz dinamik, ikuti pelajaran, dan jejak kemajuan kamu dengan statistik terperinci."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Adakah Kanjidon percuma?",
+                "name": "Adakah aplikasi ini percuma?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ya! Kamu boleh guna Kanjidon secara percuma dengan semua ciri asas. Langganan Kanjidon Pass membuka kandungan tambahan, 6 kad setiap pek, kuiz tanpa had, dan membuang iklan."
+                    "text": "Ya! Kamu boleh guna Kanjidon secara percuma dengan semua ciri asas. Pengguna percuma boleh buka sehingga 3 pek sehari dan akses kuiz \"Tentukan\" tanpa had. Langganan Kanjidon Pass membuka 6 kad setiap pek, kuiz tanpa had, semua pelajaran tatabahasa, sebutan audio, dan membuang iklan."
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "Apa itu JLPT dan tahap mana yang diliputi Kanjidon?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (Japanese Language Proficiency Test) adalah peperiksaan rasmi bahasa Jepun. Kanjidon meliputi semua tahap: Kana (hiragana dan katakana), N5 (permulaan), N4, N3, N2 hingga N1 (lanjutan), dengan lebih 6000 kad imbas kanji."
+                    "text": "JLPT (Japanese Language Proficiency Test) adalah peperiksaan rasmi untuk mengesahkan kemahiran bahasa Jepun. Ia dibahagikan kepada 5 tahap: N5 (permulaan) hingga N1 (lanjutan). Kanjidon meliputi semua tahap dengan lebih 6000 kad imbas kanji, termasuk kad Kana untuk mereka yang bermula dari sifar dengan hiragana dan katakana."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Bagaimana sistem SRS Kanjidon berfungsi?",
+                "name": "Bagaimana sistem SRS berfungsi?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon menggunakan algoritma SM-2, sistem pengulangan berjarak yang disahkan secara saintifik. Kanji dipersembahkan pada selang waktu optimum untuk hafalan: jika kamu jawab betul, selang waktu bertambah; jika kamu tersalah, ia dipendekkan untuk mengukuhkan ingatan."
+                    "text": "Kanjidon menggunakan algoritma SM-2, sistem pengulangan berjarak yang disahkan secara saintifik. Ia berdasarkan dekad penyelidikan neurosains: setiap kanji mempunyai skor yang menyesuaikan dengan pembelajaran kamu. Jika kamu jawab betul, ia akan dipersembahkan semula selepas selang waktu yang semakin lama. Jika kamu tersalah, selang waktu dipendekkan untuk mengukuhkan ingatan."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Bolehkah saya guna Kanjidon secara luar talian?",
+                "name": "Apa itu Pertempuran PvP?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ya, kuiz dan kajian kad imbas berfungsi secara luar talian. Pertempuran PvP dan penyegerakan awan memerlukan sambungan internet."
+                    "text": "Pertempuran adalah cabaran masa nyata melawan pemain lain. Kamu boleh cabar rakan secara tempatan, pemain rawak dalam talian, atau hadapi CPU. Setiap pertempuran mempunyai 15 soalan tentang bacaan on, bacaan kun, dan makna. Menang untuk naik Pangkat (dari E ke S) dan dapat XP untuk Kedudukan Liga kamu."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Bolehkah saya guna aplikasi secara luar talian?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ya, kuiz dan kajian kad imbas berfungsi 100% secara luar talian. Pertempuran PvP, penyegerakan awan, dan ciri sosial memerlukan sambungan internet."
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "Dalam bahasa apa Kanjidon tersedia?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon menyokong 21 bahasa: Itali, Inggeris, Perancis, Sepanyol, Jerman, Portugis, Rusia, Thai, Indonesia, Arab, Cina, Korea, Hindi, Turki, Vietnam, Parsi, Poland, Filipina, dan Melayu."
+                    "text": "Kanjidon menyokong 21 bahasa: Itali, Inggeris, Perancis, Sepanyol, Jerman, Portugis, Rusia, Thai, Indonesia, Arab, Cina (Ringkas dan Tradisional), Korea, Hindi, Turki, Vietnam, Parsi, Poland, Filipina, dan Melayu."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Bagaimana Streak berfungsi?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Streak mengira berapa hari berturut-turut kamu buka Kanjidon. Semakin tinggi, semakin banyak bonus Tama yang kamu terima setiap hari (dari 7 hingga 50 Tama). Pengguna premium dapat berganda. Capai pencapaian seperti 30, 60, atau 365 hari untuk buka Perisai yang melindungi Streak kamu jika kamu terlepas sehari."
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>Berhenti melupakannya.<br><span class="text-primary">Mula mengumpul sekarang.</span></h1>
-                <p class="hero-subtitle">Lupakan kebosanan jadual tanpa henti. Pelajari 6,000+ Kanji melalui keseronokan membuka pek dan kuasa sains SRS. Sertai 15,000+ pelajar.</p>
+                <p class="hero-subtitle">Lupakan kebosanan jadual tanpa henti. Pelajari 6,000+ Kanji melalui keseronokan membuka pek dan kuasa sains SRS. Sertai 18,000+ pelajar.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>Buka 3 pek pertama anda</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="Penilaian 4.8 daripada 5">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4.8</strong>
+                    </span>
+                    <span class="hero-trust-item">Muat turun percuma · Tanpa kad</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,42 @@
             <h2 class="section-title">Mula Sekarang, Percuma</h2>
             <p class="download-subtitle">Tersedia di iOS dan Android. Tiada kad kredit diperlukan untuk bermula.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="Muat Turun Kanjidon di App Store">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="Muat Turun Kanjidon di Google Play">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>Imbas untuk dapatkan apl pada telefon</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">Belajar Kanji lebih pantas: panduan percuma</h2>
+            <div class="home-blog-grid">
+                <a href="/ms/blog/cara-belajar-kanji-5-kaedah-berkesan/" class="home-blog-link">
+                    <h3>Cara Belajar Kanji: 5 Kaedah yang Benar-benar Menjadi</h3>
+                    <p>Radikal, SRS, mnemonik, belajar dalam konteks, dan latihan menulis: 5 kaedah terbukti untuk menguasai Kanji. Perjalanan dari sifar hingga boleh membaca bahasa Jepun.</p>
+                    <span class="read-more">Baca artikel →</span>
+                </a>
+                <a href="/ms/blog/berapa-banyak-kanji-untuk-jlpt-malaysia/" class="home-blog-link">
+                    <h3>Butuh Berapa Kanji untuk JLPT? Senarai Lengkap N5 hingga N1</h3>
+                    <p>Jumlah Kanji yang diperlukan untuk peperiksaan JLPT: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Anggaran masa belajar dan tips persediaan.</p>
+                    <span class="read-more">Baca artikel →</span>
+                </a>
+                <a href="/ms/blog/perbezaan-hiragana-katakana-kanji/" class="home-blog-link">
+                    <h3>Hiragana vs Katakana vs Kanji: Belajar yang Mana Dulu?</h3>
+                    <p>Sistem penulisan bahasa Jepun: Peranan Hiragana, Katakana, dan Kanji serta urutan belajar yang betul untuk pemula.</p>
+                    <span class="read-more">Baca artikel →</span>
+                </a>
+            </div>
+            <a href="/ms/blog/" class="home-blog-all">Lihat semua artikel →</a>
         </div>
     </section>
 
@@ -577,7 +639,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇲🇾</span>
                         <span class="language-name">Bahasa Melayu</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +751,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

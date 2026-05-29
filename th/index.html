@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -139,15 +149,15 @@
                 "name": "Kanjidon คืออะไร?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon คือแอปฟรีสำหรับเรียนคันจิภาษาญี่ปุ่นผ่านแฟลชการ์ด แบบทดสอบโต้ตอบ การต่อสู้ PvP และระบบทบทวนแบบเว้นช่วง (SRS) ที่ช่วยให้คุณจดจำได้อย่างมีประสิทธิภาพ ครอบคลุมทุกระดับ JLPT ตั้งแต่ N5 ถึง N1 พร้อมคันจิกว่า 6000 ตัว"
+                    "text": "Kanjidon เปลี่ยนการเรียนคันจิให้กลายเป็นการผจญภัยสุดมันส์ ที่ทุกสัญลักษณ์คือการ์ดที่ต้องสะสม และทุกแบบทดสอบคือความท้าทายที่ต้องชนะ เป็นแอปที่ผสมผสาน Gamification กับการเรียนรู้ พร้อมระบบทบทวนแบบเว้นช่วง (SRS) ที่ล็อคคันจิไว้ในความจำระยะยาวของคุณ เปิดแพ็ค ทำแบบทดสอบแบบไดนามิก ติดตามบทเรียน และดูสถิติความก้าวหน้าอย่างละเอียด"
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon ฟรีไหม?",
+                "name": "แอปฟรีไหม?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "ใช่! คุณใช้ Kanjidon ได้ฟรีพร้อมฟีเจอร์พื้นฐานทั้งหมด สมาชิก Kanjidon Pass จะปลดล็อกเนื้อหาเพิ่มเติม การ์ด 6 ใบต่อแพ็ค แบบทดสอบไม่จำกัด และไม่มีโฆษณา"
+                    "text": "ใช่! คุณใช้ Kanjidon ได้ฟรีพร้อมฟีเจอร์พื้นฐานทั้งหมด ผู้ใช้ฟรีสามารถเปิดแพ็คได้สูงสุด 3 แพ็คต่อวัน และเข้าถึงแบบทดสอบ \"ตัดสินใจ\" ได้ไม่จำกัด สมาชิก Kanjidon Pass จะปลดล็อก 6 การ์ดต่อแพ็ค แบบทดสอบไม่จำกัด บทเรียนไวยากรณ์ทั้งหมด เสียงการออกเสียง และไม่มีโฆษณา"
                 }
             },
             {
@@ -155,23 +165,31 @@
                 "name": "JLPT คืออะไร และ Kanjidon ครอบคลุมระดับไหนบ้าง?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (Japanese Language Proficiency Test) คือการสอบวัดระดับภาษาญี่ปุ่นอย่างเป็นทางการ Kanjidon ครอบคลุมทุกระดับ: คะนะ (ฮิรางานะและคาตาคานะ), N5 (เริ่มต้น), N4, N3, N2 จนถึง N1 (ขั้นสูง) พร้อมแฟลชการ์ดคันจิกว่า 6000 ใบ"
+                    "text": "JLPT (Japanese Language Proficiency Test) คือการสอบอย่างเป็นทางการเพื่อรับรองทักษะภาษาญี่ปุ่น แบ่งเป็น 5 ระดับ: N5 (เริ่มต้น) ถึง N1 (ขั้นสูง) Kanjidon ครอบคลุมทุกระดับพร้อมแฟลชการ์ดคันจิกว่า 6000 ใบ รวมถึงการ์ดคะนะสำหรับผู้ที่เริ่มจากศูนย์ด้วยฮิรางานะและคาตาคานะ"
                 }
             },
             {
                 "@type": "Question",
-                "name": "ระบบ SRS ของ Kanjidon ทำงานอย่างไร?",
+                "name": "ระบบ SRS ทำงานอย่างไร?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon ใช้อัลกอริทึม SM-2 ซึ่งเป็นระบบทบทวนแบบเว้นช่วงที่ได้รับการยืนยันทางวิทยาศาสตร์ คันจิจะถูกนำเสนอในช่วงเวลาที่เหมาะสมที่สุดสำหรับการจดจำ: ถ้าตอบถูก ช่วงเวลาจะเพิ่มขึ้น ถ้าตอบผิด จะสั้นลงเพื่อเสริมสร้างความจำ"
+                    "text": "Kanjidon ใช้อัลกอริทึม SM-2 ซึ่งเป็นระบบทบทวนแบบเว้นช่วงที่ได้รับการยืนยันทางวิทยาศาสตร์ อิงจากงานวิจัยทางประสาทวิทยาหลายทศวรรษ: คันจิแต่ละตัวมีคะแนนที่ปรับตามการเรียนรู้ของคุณ ถ้าตอบถูก คันจิจะถูกนำเสนออีกครั้งหลังจากช่วงเวลาที่ยาวขึ้นเรื่อยๆ ถ้าตอบผิด ช่วงเวลาจะสั้นลงเพื่อเสริมสร้างความจำ"
                 }
             },
             {
                 "@type": "Question",
-                "name": "ใช้ Kanjidon แบบออฟไลน์ได้ไหม?",
+                "name": "การต่อสู้ PvP คืออะไร?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "ได้ แบบทดสอบและการเรียนด้วยแฟลชการ์ดใช้งานได้แบบออฟไลน์ การต่อสู้ PvP และการซิงค์ข้อมูลบนคลาวด์ต้องการการเชื่อมต่ออินเทอร์เน็ต"
+                    "text": "การต่อสู้คือความท้าทายแบบเรียลไทม์กับผู้เล่นคนอื่น คุณสามารถท้าเพื่อนแบบ Local ผู้เล่นออนไลน์แบบสุ่ม หรือสู้กับ CPU แต่ละการต่อสู้มี 15 คำถามเกี่ยวกับการอ่าน On การอ่าน Kun และความหมาย ชนะเพื่อไต่อันดับ (จาก E ถึง S) และรับ XP สำหรับ League Leaderboard"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "ใช้แอปแบบออฟไลน์ได้ไหม?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ได้ แบบทดสอบและการเรียนด้วยแฟลชการ์ดใช้งานได้ 100% แบบออฟไลน์ การต่อสู้ PvP การซิงค์บนคลาวด์ และฟีเจอร์โซเชียลต้องการการเชื่อมต่ออินเทอร์เน็ต"
                 }
             },
             {
@@ -179,7 +197,15 @@
                 "name": "Kanjidon มีภาษาอะไรบ้าง?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon รองรับ 21 ภาษา: อิตาลี อังกฤษ ฝรั่งเศส สเปน เยอรมัน โปรตุเกส รัสเซีย ไทย อินโดนีเซีย อาหรับ จีน เกาหลี ฮินดี ตุรกี เวียดนาม เปอร์เซีย โปแลนด์ ฟิลิปปินส์ และมาเลย์"
+                    "text": "Kanjidon รองรับ 21 ภาษา: อิตาลี อังกฤษ ฝรั่งเศส สเปน เยอรมัน โปรตุเกส รัสเซีย ไทย อินโดนีเซีย อาหรับ จีน (ตัวย่อและตัวเต็ม) เกาหลี ฮินดี ตุรกี เวียดนาม เปอร์เซีย โปแลนด์ ฟิลิปปินส์ และมาเลย์"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Streak ทำงานอย่างไร?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Streak นับจำนวนวันติดต่อกันที่คุณเปิด Kanjidon ยิ่งสูงก็ยิ่งได้รับโบนัส Tama มากขึ้นในแต่ละวัน (ตั้งแต่ 7 ถึง 50 Tama) สมาชิก Premium ได้รับสองเท่า ทำ Milestone เช่น 30, 60 หรือ 365 วันเพื่อปลดล็อก Shield ที่ปกป้อง Streak ของคุณถ้าพลาดวัน"
                 }
             }
         ]
@@ -207,9 +233,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>เลิกลืมได้แล้ว.<br><span class="text-primary">เริ่มสะสมกันเลย.</span></h1>
-                <p class="hero-subtitle">ลืมความน่าเบื่อของตารางเรียนแบบเดิมๆ เรียนรู้คันจิกว่า 6,000 ตัวผ่านความตื่นเต้นของการเปิดซองการ์ดและพลังของ SRS ร่วมเป็นส่วนหนึ่งกับนักเรียนกว่า 15,000 คน.</p>
+                <p class="hero-subtitle">ลืมความน่าเบื่อของตารางเรียนแบบเดิมๆ เรียนรู้คันจิกว่า 6,000 ตัวผ่านความตื่นเต้นของการเปิดซองการ์ดและพลังของ SRS ร่วมเป็นส่วนหนึ่งกับนักเรียนกว่า 18,000 คน.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>เปิด 3 ซองแรกของคุณ</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="คะแนน 4.8 จาก 5">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4.8</strong>
+                    </span>
+                    <span class="hero-trust-item">ดาวน์โหลดฟรี · ไม่ต้องใช้บัตร</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -489,13 +522,42 @@
             <h2 class="section-title">เริ่มเลย ฟรี</h2>
             <p class="download-subtitle">พร้อมให้บริการบน iOS และ Android ไม่ต้องใช้บัตรเครดิตในการเริ่มต้น</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="ดาวน์โหลด Kanjidon บน App Store">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="ดาวน์โหลด Kanjidon บน Google Play">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>สแกนเพื่อรับแอปบนมือถือ</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">เรียนคันจิให้เร็วขึ้น: คู่มือฟรี</h2>
+            <div class="home-blog-grid">
+                <a href="/th/blog/kanji-ngai-ngai-5-withee/" class="home-blog-link">
+                    <h3>วิธีเรียนคันจิ: 5 วิธีที่ได้ผลจริง</h3>
+                    <p>Radicals, SRS, เทคนิคช่วยจำ, เรียนจากบริบท และฝึกเขียน: 5 วิธีเรียนคันจิที่ผ่านการพิสูจน์แล้ว จากศูนย์สู่การอ่านภาษาญี่ปุ่นได้จริง</p>
+                    <span class="read-more">อ่านบทความ →</span>
+                </a>
+                <a href="/th/blog/kanji-jlpt-n5-n1-ki-tua/" class="home-blog-link">
+                    <h3>ต้องรู้คันจิกี่ตัวสำหรับ JLPT? รายชื่อตั้งแต่ N5 ถึง N1</h3>
+                    <p>จำนวนคันจิที่ต้องใช้ในการสอบ JLPT: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136) พร้อมคำแนะนำการเตรียมตัว</p>
+                    <span class="read-more">อ่านบทความ →</span>
+                </a>
+                <a href="/th/blog/hiragana-katakana-kanji-tang-kan-yang-rai/" class="home-blog-link">
+                    <h3>Hiragana vs Katakana vs Kanji: ควรเรียนอะไรก่อน?</h3>
+                    <p>ระบบการเขียนภาษาญี่ปุ่น: บทบาทของ Hiragana, Katakana และ Kanji และลำดับการเรียนที่ถูกต้อง</p>
+                    <span class="read-more">อ่านบทความ →</span>
+                </a>
+            </div>
+            <a href="/th/blog/" class="home-blog-all">ดูบทความทั้งหมด →</a>
         </div>
     </section>
 
@@ -577,7 +639,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇹🇭</span>
                         <span class="language-name">ไทย</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -689,10 +751,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

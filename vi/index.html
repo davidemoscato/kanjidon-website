@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -137,15 +147,15 @@
                 "name": "Kanjidon là gì?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon là ứng dụng học Kanji tiếng Nhật miễn phí giúp bạn ghi nhớ hiệu quả qua flashcard, quiz tương tác, đấu PvP và hệ thống lặp lại ngắt quãng (SRS). Hỗ trợ tất cả cấp độ JLPT từ N5 đến N1 với hơn 6000 Kanji."
+                    "text": "Kanjidon biến việc học Kanji thành cuộc phiêu lưu sử thi, mỗi ký tự là thẻ sưu tầm, mỗi quiz là thử thách cần chinh phục. Đây là ứng dụng kết hợp game hóa và học tập, với hệ thống lặp lại ngắt quãng (SRS) khắc sâu Kanji vào trí nhớ dài hạn. Mở gói thẻ, thách đấu quiz năng động, theo dõi bài học và theo dõi tiến độ với thống kê chi tiết."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon có miễn phí không?",
+                "name": "Ứng dụng có miễn phí không?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Có! Bạn có thể sử dụng tất cả tính năng cơ bản của Kanjidon miễn phí. Gói Kanjidon Pass mở khóa thêm nội dung, 6 thẻ mỗi gói, quiz không giới hạn và xóa quảng cáo."
+                    "text": "Có! Bạn có thể sử dụng tất cả tính năng cơ bản của Kanjidon miễn phí. Người dùng miễn phí có thể mở tối đa 3 gói mỗi ngày và sử dụng quiz \"Quyết định\" không giới hạn. Gói Kanjidon Pass mở khóa 6 thẻ mỗi gói, quiz không giới hạn, tất cả bài học ngữ pháp, âm thanh phát âm và xóa quảng cáo."
                 }
             },
             {
@@ -153,23 +163,31 @@
                 "name": "JLPT là gì? Kanjidon hỗ trợ những cấp độ nào?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT (Kỳ thi Năng lực Tiếng Nhật) là kỳ thi chứng nhận năng lực tiếng Nhật chính thức. Kanjidon hỗ trợ tất cả cấp độ: Kana (Hiragana và Katakana), N5 (sơ cấp), N4, N3, N2 đến N1 (cao cấp) với hơn 6000 flashcard Kanji."
+                    "text": "JLPT (Kỳ thi Năng lực Tiếng Nhật) là kỳ thi chứng nhận năng lực tiếng Nhật chính thức. Chia thành 5 cấp độ: N5 (sơ cấp) đến N1 (cao cấp). Kanjidon hỗ trợ tất cả cấp độ với hơn 6000 flashcard Kanji, và cả thẻ Kana cho người học Hiragana và Katakana từ đầu."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Hệ thống SRS của Kanjidon hoạt động như thế nào?",
+                "name": "Hệ thống SRS hoạt động như thế nào?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon sử dụng thuật toán SM-2, hệ thống lặp lại ngắt quãng đã được khoa học chứng minh. Kanji xuất hiện ở khoảng thời gian ghi nhớ tối ưu: trả lời đúng thì khoảng cách tăng lên, trả lời sai thì khoảng cách giảm để củng cố trí nhớ."
+                    "text": "Kanjidon sử dụng thuật toán SM-2, hệ thống lặp lại ngắt quãng đã được khoa học chứng minh. Dựa trên hàng thập kỷ nghiên cứu khoa học thần kinh: mỗi Kanji có điểm số điều chỉnh theo tình trạng học của bạn. Trả lời đúng thì nó xuất hiện lại sau khoảng thời gian ngày càng dài. Trả lời sai thì khoảng cách giảm để củng cố trí nhớ."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Tôi có thể dùng Kanjidon offline không?",
+                "name": "Đấu PvP là gì?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Được, quiz và học flashcard có thể dùng offline. Đấu PvP và đồng bộ đám mây cần kết nối internet."
+                    "text": "Đấu là thách đấu thời gian thực với người chơi khác. Bạn có thể thách đấu bạn bè tại chỗ, người chơi online ngẫu nhiên, hoặc máy tính. Mỗi trận có 15 câu hỏi về on'yomi, kun'yomi và nghĩa. Thắng để thăng hạng (từ E đến S) và nhận kinh nghiệm bảng xếp hạng giải đấu."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Tôi có thể dùng ứng dụng offline không?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Được, quiz và học flashcard có thể dùng 100% offline. Đấu PvP, đồng bộ đám mây và tính năng xã hội cần kết nối internet."
                 }
             },
             {
@@ -177,7 +195,15 @@
                 "name": "Kanjidon hỗ trợ những ngôn ngữ nào?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon hỗ trợ 21 ngôn ngữ: tiếng Ý, Anh, Pháp, Tây Ban Nha, Đức, Bồ Đào Nha, Nga, Thái, Indonesia, Ả Rập, Trung Quốc, Hàn Quốc, Hindi, Thổ Nhĩ Kỳ, Việt Nam, Ba Tư, Ba Lan, Philippines và Mã Lai."
+                    "text": "Kanjidon hỗ trợ 21 ngôn ngữ: tiếng Ý, Anh, Pháp, Tây Ban Nha, Đức, Bồ Đào Nha, Nga, Thái, Indonesia, Ả Rập, Trung Quốc (giản thể và phồn thể), Hàn Quốc, Hindi, Thổ Nhĩ Kỳ, Việt Nam, Ba Tư, Ba Lan, Philippines và Mã Lai."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Chuỗi học hoạt động như thế nào?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chuỗi học đếm số ngày liên tiếp bạn mở Kanjidon. Số ngày càng cao, phần thưởng Tama hằng ngày càng nhiều (từ 7 đến 50 Tama). Người dùng trả phí nhận thưởng gấp đôi. Đạt mốc 30, 60 hoặc 365 ngày mở khóa khiên bảo vệ chuỗi khi bạn bỏ lỡ một ngày."
                 }
             }
         ]
@@ -205,9 +231,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>Đừng quên chúng nữa.<br><span class="text-primary">Hãy bắt đầu sưu tập.</span></h1>
-                <p class="hero-subtitle">Quên đi sự nhàm chán của những bảng biểu. Học hơn 6.000 Kanji thông qua sự phấn khích khi mở thẻ và sức mạnh của SRS. Tham gia cùng 15.000+ học viên.</p>
+                <p class="hero-subtitle">Quên đi sự nhàm chán của những bảng biểu. Học hơn 6.000 Kanji thông qua sự phấn khích khi mở thẻ và sức mạnh của SRS. Tham gia cùng 18.000+ học viên.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>Mở 3 gói thẻ đầu tiên của bạn</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="Đánh giá 4,8 trên 5">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4,8</strong>
+                    </span>
+                    <span class="hero-trust-item">Tải miễn phí · Không cần thẻ</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -487,13 +520,42 @@
             <h2 class="section-title">Bắt đầu ngay, hoàn toàn miễn phí</h2>
             <p class="download-subtitle">Có trên iOS và Android. Không cần thẻ tín dụng để bắt đầu.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="Tải Kanjidon trên App Store">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="Tải Kanjidon trên Google Play">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>Quét mã để tải ứng dụng về điện thoại</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">Học Kanji nhanh hơn: hướng dẫn miễn phí</h2>
+            <div class="home-blog-grid">
+                <a href="/vi/blog/cach-hoc-kanji-5-phuong-phap-hieu-qua/" class="home-blog-link">
+                    <h3>Cách học Kanji: 5 phương pháp thực sự hiệu quả</h3>
+                    <p>Bộ thủ, SRS, mẹo ghi nhớ, học trong ngữ cảnh và luyện viết: 5 phương pháp học Kanji đã được kiểm chứng. Lộ trình từ số 0 đến đọc hiểu tiếng Nhật.</p>
+                    <span class="read-more">Đọc bài viết →</span>
+                </a>
+                <a href="/vi/blog/can-bao-nhieu-kanji-cho-jlpt/" class="home-blog-link">
+                    <h3>Cần bao nhiêu Kanji cho JLPT? Danh sách từ N5 đến N1</h3>
+                    <p>Số lượng Kanji cần thiết cho kỳ thi JLPT: N5 (80), N4 (240), N3 (620), N2 (1000), N1 (2136). Ước tính thời gian học và mẹo chuẩn bị.</p>
+                    <span class="read-more">Đọc bài viết →</span>
+                </a>
+                <a href="/vi/blog/phan-biet-hiragana-katakana-kanji/" class="home-blog-link">
+                    <h3>Hiragana vs Katakana vs Kanji: Nên học cái nào trước?</h3>
+                    <p>Hệ thống chữ viết tiếng Nhật: Vai trò của Hiragana, Katakana và Kanji cùng thứ tự học chuẩn xác nhất cho người mới.</p>
+                    <span class="read-more">Đọc bài viết →</span>
+                </a>
+            </div>
+            <a href="/vi/blog/" class="home-blog-all">Xem tất cả bài viết →</a>
         </div>
     </section>
 
@@ -575,7 +637,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇻🇳</span>
                         <span class="language-name">Tiếng Việt</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -685,10 +747,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>

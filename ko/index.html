@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- platform-detect: relevant store badge on mobile, QR on desktop -->
+    <script>
+        (function () {
+            var ua = navigator.userAgent || "";
+            var cls = "is-desktop";
+            if (/android/i.test(ua)) cls = "is-android";
+            else if (/iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) cls = "is-ios";
+            document.documentElement.classList.add(cls);
+        })();
+    </script>
 
     <!-- Font Preload - All weights (eliminates FOUT) -->
     <link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
@@ -137,15 +147,15 @@
                 "name": "Kanjidon이 뭐야?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon은 플래시카드, 인터랙티브 퀴즈, PvP 배틀, 간격 반복 시스템(SRS)으로 효과적으로 한자를 암기하는 무료 일본어 한자 학습 앱이야. N5부터 N1까지 모든 JLPT 레벨과 6000개 이상의 한자를 지원해."
+                    "text": "Kanjidon은 한자 학습을 에픽한 모험으로 바꿔줘. 각 한자는 수집 가능한 카드가 되고, 각 퀴즈는 이겨야 할 도전이 돼. 게이미피케이션과 학습을 결합한 앱으로, 간격 반복 시스템(SRS)으로 한자를 장기 기억에 고정시켜. 카드팩 열기, 다이나믹 퀴즈 도전, 레슨 따라가기, 상세한 통계로 진행 상황 추적."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon은 무료야?",
+                "name": "앱은 무료야?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "응! Kanjidon의 모든 기본 기능을 무료로 사용할 수 있어. Kanjidon Pass 구독으로 추가 콘텐츠, 팩당 6장 카드, 무제한 퀴즈, 광고 제거를 이용할 수 있어."
+                    "text": "응! Kanjidon의 모든 기본 기능을 무료로 사용할 수 있어. 무료 사용자는 하루 최대 3팩을 열고, '결정' 퀴즈를 무제한 사용할 수 있어. Kanjidon Pass 구독으로 팩당 6장 카드, 무제한 퀴즈, 모든 문법 레슨, 발음 오디오, 광고 제거를 이용할 수 있어."
                 }
             },
             {
@@ -153,23 +163,31 @@
                 "name": "JLPT가 뭐야? Kanjidon은 어떤 레벨을 지원해?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "JLPT(일본어능력시험)는 일본어 능력을 인증하는 공식 시험이야. Kanjidon은 가나(히라가나와 가타카나), N5(초급), N4, N3, N2, N1(고급)까지 모든 레벨과 6000장 이상의 한자 플래시카드를 지원해."
+                    "text": "JLPT(일본어능력시험)는 일본어 능력을 인증하는 공식 시험이야. 5개 레벨로 나뉘어: N5(초급)부터 N1(고급)까지. Kanjidon은 모든 레벨을 지원하고, 6000장 이상의 한자 플래시카드와 처음부터 히라가나와 가타카나를 배우는 사람을 위한 가나 카드도 있어."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Kanjidon의 SRS 시스템은 어떻게 작동해?",
+                "name": "SRS 시스템은 어떻게 작동해?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon은 과학적으로 검증된 간격 반복 시스템인 SM-2 알고리즘을 사용해. 한자가 최적의 기억 간격에 나타나: 맞추면 간격이 늘어나고, 틀리면 간격이 줄어들어 기억을 강화해."
+                    "text": "Kanjidon은 과학적으로 검증된 간격 반복 시스템인 SM-2 알고리즘을 사용해. 수십 년의 신경과학 연구를 기반으로 해: 각 한자는 네 학습 상황에 따라 조정되는 점수를 가져. 맞추면 점점 더 긴 간격 후에 다시 나타나. 틀리면 간격이 줄어들어 기억을 강화해."
                 }
             },
             {
                 "@type": "Question",
-                "name": "오프라인에서 Kanjidon을 사용할 수 있어?",
+                "name": "PvP 배틀이 뭐야?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "응, 퀴즈와 플래시카드 학습은 오프라인에서 사용할 수 있어. PvP 배틀과 클라우드 동기화는 인터넷 연결이 필요해."
+                    "text": "배틀은 다른 플레이어와의 실시간 대결이야. 로컬에서 친구, 무작위 온라인 플레이어, 또는 컴퓨터와 대결할 수 있어. 각 배틀은 음독, 훈독, 의미에 관한 15문제로 구성돼. 승리하면 랭킹이 올라가고(E부터 S까지), 리그 리더보드 경험치를 얻어."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "오프라인에서 앱을 사용할 수 있어?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "응, 퀴즈와 플래시카드 학습은 100% 오프라인에서 사용 가능해. PvP 배틀, 클라우드 동기화, 소셜 기능은 인터넷 연결이 필요해."
                 }
             },
             {
@@ -177,7 +195,15 @@
                 "name": "Kanjidon은 어떤 언어를 지원해?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kanjidon은 21개 언어를 지원해: 이탈리아어, 영어, 프랑스어, 스페인어, 독일어, 포르투갈어, 러시아어, 태국어, 인도네시아어, 아랍어, 중국어, 한국어, 힌디어, 터키어, 베트남어, 페르시아어, 폴란드어, 필리핀어, 말레이어."
+                    "text": "Kanjidon은 21개 언어를 지원해: 이탈리아어, 영어, 프랑스어, 스페인어, 독일어, 포르투갈어, 러시아어, 태국어, 인도네시아어, 아랍어, 중국어(간체와 번체), 한국어, 힌디어, 터키어, 베트남어, 페르시아어, 폴란드어, 필리핀어, 말레이어."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "연속 학습은 어떻게 작동해?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "연속 학습은 몇 일 연속으로 Kanjidon을 열었는지 계산해. 일수가 높을수록 매일 더 많은 Tama 보상을 받아(7에서 50 Tama까지). 유료 사용자는 2배 보상을 받아. 30일, 60일, 365일 등 마일스톤에 도달하면 하루 건너뛰어도 연속 기록을 보호하는 방패를 해제할 수 있어."
                 }
             }
         ]
@@ -205,9 +231,16 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>잊어버리는 건 이제 그만.<br><span class="text-primary">수집을 시작하세요.</span></h1>
-                <p class="hero-subtitle">지루한 도표는 잊으세요. 카드 팩을 여는 설렘과 SRS 기술을 통해 6,000개 이상의 한자를 배우세요. 15,000명 이상의 학습자와 함께하세요.</p>
+                <p class="hero-subtitle">지루한 도표는 잊으세요. 카드 팩을 여는 설렘과 SRS 기술을 통해 6,000개 이상의 한자를 배우세요. 18,000명 이상의 학습자와 함께하세요.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg"><strong>첫 3개 팩 열기</strong></a>
+                </div>
+                                <div class="hero-trust">
+                    <span class="hero-trust-item" aria-label="5점 만점에 4.8점">
+                        <span class="hero-stars" aria-hidden="true">★★★★★</span>
+                        <strong>4.8</strong>
+                    </span>
+                    <span class="hero-trust-item">무료 다운로드 · 카드 불필요</span>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -487,13 +520,47 @@
             <h2 class="section-title">지금 시작해, 완전 무료</h2>
             <p class="download-subtitle">iOS와 Android 모두 가능. 신용카드 없이 시작할 수 있어.</p>
             <div class="store-badges">
-                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios">
                     <img src="../assets/images/app-store-badge.svg" alt="App Store에서 Kanjidon 다운로드">
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android">
                     <img src="../assets/images/google-play-badge.svg" alt="Google Play에서 Kanjidon 다운로드">
                 </a>
+                        </div>
+            <div class="download-qr">
+                <img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy">
+                <span>스캔하여 휴대폰에 앱 받기</span>
             </div>
+        </div>
+    </section>
+
+        <!-- From the Blog / Free Guides -->
+    <section class="home-blog">
+        <div class="container">
+            <h2 class="section-title">한자 더 빠르게 배우기: 무료 가이드</h2>
+            <div class="home-blog-grid">
+                <a href="/ko/blog/kanji-baeuneun-bangbeop/" class="home-blog-link">
+                    <h3>한자 배우는 법: 진짜 효과 있는 5가지 방법</h3>
+                    <p>부수, SRS, 연상법, 맥락 학습, 필기 연습: 한자를 외우는 5가지 검증된 방법. 제로부터 일본어 읽기까지.</p>
+                    <span class="read-more">글 읽기 →</span>
+                </a>
+                <a href="/ko/blog/jlpt-level-byeol-kanji-gaesu/" class="home-blog-link">
+                    <h3>JLPT 레벨별 한자 수: N5, N4, N3, N2, N1 완벽 정리</h3>
+                    <p>JLPT 레벨별 필요 한자 수: N5(80자), N4(240자), N3(620자), N2(1,000자), N1(2,136자). 공부 시간과 합격 전략까지.</p>
+                    <span class="read-more">글 읽기 →</span>
+                </a>
+                <a href="/ko/blog/hiragana-katakana-kanji-chaijeom/" class="home-blog-link">
+                    <h3>히라가나 vs 가타카나 vs 한자: 뭘 먼저 배워야 할까?</h3>
+                    <p>히라가나, 가타카나, 한자: 각각의 역할, 사용법, 그리고 정확한 학습 순서. 명확한 예시 포함.</p>
+                    <span class="read-more">글 읽기 →</span>
+                </a>
+                <a href="/ko/blog/gangyeok-banbog-kanji-hakseup/" class="home-blog-link">
+                    <h3>한자를 위한 간격 반복: SRS의 원리와 효과</h3>
+                    <p>SRS(간격 반복)가 한자를 장기 기억으로 만드는 원리. 과학적 배경, 최적의 복습 주기, 추천 앱까지.</p>
+                    <span class="read-more">글 읽기 →</span>
+                </a>
+            </div>
+            <a href="/ko/blog/" class="home-blog-all">모든 글 보기 →</a>
         </div>
     </section>
 
@@ -575,7 +642,7 @@
                     <p>VAT: IT01691020083</p>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language">
+                    <button class="language-btn" aria-haspopup="true" aria-label="Change language">
                         <span class="flag-icon">🇰🇷</span>
                         <span class="language-name">한국어</span>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -685,10 +752,10 @@
     <!-- Sticky Download Bar -->
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
-            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios">
                 <img src="../assets/images/app-store-badge.svg" alt="Download on the App Store">
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android">
                 <img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play">
             </a>
         </div>
