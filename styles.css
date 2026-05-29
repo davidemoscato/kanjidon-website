@@ -1807,6 +1807,74 @@ html.is-desktop .download-qr {
    PRIVACY BANNER (Informational - No Cookie Consent Required)
    ============================================================================ */
 
+/* ============================================================================
+   LANGUAGE SUGGESTION BANNER (soft, browser-language based, no redirect)
+   ============================================================================ */
+
+.lang-suggest {
+    position: fixed;
+    top: calc(64px + var(--spacing-s));
+    left: 50%;
+    transform: translateX(-50%) translateY(-6px);
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-m);
+    max-width: calc(100% - var(--spacing-l));
+    width: max-content;
+    background: var(--background);
+    border: 1.5px solid var(--muted);
+    border-radius: var(--radius-m);
+    padding: var(--spacing-s) var(--spacing-m);
+    opacity: 0;
+    transition: opacity var(--duration-normal) ease,
+        transform var(--duration-normal) ease;
+}
+
+.lang-suggest.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.lang-suggest p {
+    margin: 0;
+    font-size: var(--font-s);
+    color: var(--secondary);
+    line-height: var(--line-height-normal);
+}
+
+.lang-suggest-cta {
+    font-weight: var(--font-weight-bold);
+    color: var(--primary);
+    white-space: nowrap;
+}
+
+.lang-suggest-close {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--subtle);
+    font-size: 18px;
+    line-height: 1;
+    padding: 4px;
+    transition: color var(--duration-fast);
+}
+
+.lang-suggest-close:hover {
+    color: var(--secondary);
+}
+
+@media (max-width: 600px) {
+    .lang-suggest {
+        width: auto;
+    }
+
+    .lang-suggest p {
+        font-size: var(--font-xs);
+    }
+}
+
 .privacy-banner {
     position: fixed;
     bottom: 0;
