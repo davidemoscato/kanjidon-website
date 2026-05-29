@@ -21,6 +21,12 @@
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
 
+# Root CSS/JS (no filename hashing) - revalidate so deploys take effect immediately
+/styles.css
+  Cache-Control: public, max-age=0, must-revalidate
+/lang-banner.js
+  Cache-Control: public, max-age=0, must-revalidate
+
 # Sitemap and robots - moderate cache
 /sitemap.xml
   Cache-Control: public, max-age=3600
