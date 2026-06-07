@@ -2,548 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-    <!-- ==================== HOMEPAGES ==================== -->
-    <url>
-        <loc>https://kanjidon.com/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/it/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fr/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/es/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/de/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/pt/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ru/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ko/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/zh-tw/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ar/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/hi/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/th/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/vi/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/id/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/ms/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/tr/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/pl/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fa/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-    <url>
-        <loc>https://kanjidon.com/fil/</loc>
-        <lastmod>2026-01-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
-        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
-        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
-        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
-        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
-    </url>
-
     <!-- ==================== FAQ PAGES ==================== -->
     <url>
         <loc>https://kanjidon.com/faq/</loc>
@@ -1119,6 +577,558 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Home Pages -->
+    <url>
+        <loc>https://kanjidon.com/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/it/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fr/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/es/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/de/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pt/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ru/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ko/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/zh-tw/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ar/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/hi/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/ms/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/pl/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fa/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/fil/</loc>
+        <lastmod>2026-02-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/"/>
+        <xhtml:link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/"/>
+    </url>
 
     <!-- Blog Pages -->
     <url>
@@ -3297,6 +3307,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3315,6 +3329,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3333,6 +3351,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3351,6 +3373,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3369,6 +3395,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3387,6 +3417,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3405,6 +3439,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3423,6 +3461,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3441,6 +3483,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3459,6 +3505,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>
@@ -3477,6 +3527,98 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/ripetizione-spaziata-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/repetition-espacee-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/repeticion-espaciada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/repeticao-espacada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/intervalnye-povtoreniya-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/gangyeok-banbog-kanji-hakseup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/ripetizione-spaziata-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/repetition-espacee-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/repeticion-espaciada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/repeticao-espacada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/intervalnye-povtoreniya-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/gangyeok-banbog-kanji-hakseup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/ripetizione-spaziata-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/repetition-espacee-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/repeticion-espaciada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/repeticao-espacada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/intervalnye-povtoreniya-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/gangyeok-banbog-kanji-hakseup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+    </url>
+    <url>
+        <loc>https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/ripetizione-spaziata-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/repetition-espacee-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/repeticion-espaciada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/spaced-repetition-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/repeticao-espacada-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/intervalnye-povtoreniya-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/gangyeok-banbog-kanji-hakseup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/"/>
     </url>
     <url>

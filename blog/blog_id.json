@@ -43,13 +43,37 @@
         },
         {
           "type": "table",
-          "headers": ["Level", "Jumlah Kanji", "Kosakata"],
+          "headers": [
+            "Level",
+            "Jumlah Kanji",
+            "Kosakata"
+          ],
           "rows": [
-            ["N5", "~100", "~800"],
-            ["N4", "~300", "~1500"],
-            ["N3", "~650", "~3750"],
-            ["N2", "~1000", "~6000"],
-            ["N1", "~2000", "~10000"]
+            [
+              "N5",
+              "~100",
+              "~800"
+            ],
+            [
+              "N4",
+              "~300",
+              "~1500"
+            ],
+            [
+              "N3",
+              "~650",
+              "~3750"
+            ],
+            [
+              "N2",
+              "~1000",
+              "~6000"
+            ],
+            [
+              "N1",
+              "~2000",
+              "~10000"
+            ]
           ]
         },
         {
@@ -106,6 +130,206 @@
         {
           "type": "text",
           "content": "Karakter konseptual asal Tiongkok. Satu karakter bisa mewakili satu makna utuh."
+        }
+      ]
+    },
+    {
+      "id": "jlpt-jadwal-pendaftaran-biaya",
+      "slug": "jlpt-jadwal-pendaftaran-biaya",
+      "title": "JLPT 2025-2026: Jadwal, Pendaftaran, Biaya, dan Semua yan...",
+      "meta_description": "Panduan praktis JLPT: kapan ujiannya, cara mendaftar, berapa biayanya, di mana ujiannya di Indonesia. Semua info terbaru 2025-2026.",
+      "keywords": "jadwal JLPT, pendaftaran JLPT, biaya JLPT, JLPT Indonesia, ujian JLPT 2025",
+      "read_time": "5 min",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Mau ikut JLPT tapi bingung mulai dari mana dengan administrasinya? Tanggal, deadline, biaya, lokasi... memang labirin. Ini semua yang kamu butuhkan, terupdate dan tanpa basa-basi."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kapan JLPT Diadakan"
+        },
+        {
+          "type": "text",
+          "content": "JLPT diadakan dua kali setahun, di seluruh dunia, pada hari yang sama:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Sesi",
+            "Tanggal",
+            "Level yang Tersedia"
+          ],
+          "rows": [
+            [
+              "Juli",
+              "Minggu pertama Juli",
+              "Semua (N1-N5)"
+            ],
+            [
+              "Desember",
+              "Minggu pertama Desember",
+              "Semua (N1-N5)"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Catatan: beberapa lokasi hanya menawarkan sesi Desember. Selalu cek lokasi spesifikmu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Di Mana Ikut JLPT di Indonesia"
+        },
+        {
+          "type": "text",
+          "content": "Di Indonesia JLPT diselenggarakan oleh The Japan Foundation bekerja sama dengan berbagai universitas. Lokasi utama:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jakarta - The Japan Foundation",
+            "Bandung - Universitas Padjadjaran",
+            "Surabaya - Universitas Airlangga",
+            "Yogyakarta - Universitas Gadjah Mada",
+            "Medan - Universitas Sumatera Utara",
+            "Makassar - Universitas Hasanuddin",
+            "Bali - Universitas Udayana"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Kursi terbatas dan lokasi populer (Jakarta, Surabaya) cepat penuh. Jangan tunggu hari terakhir untuk mendaftar."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Berapa Biayanya"
+        },
+        {
+          "type": "text",
+          "content": "Biaya bervariasi sedikit per lokasi, tapi di Indonesia kisarannya sekitar:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Level",
+            "Perkiraan Biaya"
+          ],
+          "rows": [
+            [
+              "N5",
+              "Rp 150.000 - 200.000"
+            ],
+            [
+              "N4",
+              "Rp 150.000 - 200.000"
+            ],
+            [
+              "N3",
+              "Rp 176.000 - 226.000"
+            ],
+            [
+              "N2",
+              "Rp 176.000 - 226.000"
+            ],
+            [
+              "N1",
+              "Rp 176.000 - 226.000"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Pembayaran biasanya diminta saat pendaftaran dan tidak bisa dikembalikan. Kalau nggak datang, biayanya hangus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Cara Mendaftar"
+        },
+        {
+          "type": "text",
+          "content": "Pendaftaran dilakukan online melalui situs resmi JLPT Indonesia atau langsung lewat lokasi universitas. Prosesnya biasanya:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Daftar di portal (buat akun kalau belum punya)",
+            "2. Pilih lokasi, tanggal, dan level",
+            "3. Upload foto terbaru",
+            "4. Bayar biaya pendaftaran",
+            "5. Terima konfirmasi via email",
+            "6. Download voucher/undangan beberapa minggu sebelum ujian"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Deadline Pendaftaran (Jangan Sampai Kelewat)"
+        },
+        {
+          "type": "text",
+          "content": "Pendaftaran dibuka sekitar 3-4 bulan sebelum ujian dan hanya berlangsung beberapa minggu:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Sesi",
+            "Pembukaan Pendaftaran",
+            "Penutupan"
+          ],
+          "rows": [
+            [
+              "Juli",
+              "Maret-April",
+              "April (sekitar 3-4 minggu)"
+            ],
+            [
+              "Desember",
+              "Agustus-September",
+              "September (sekitar 3-4 minggu)"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Tanggal pasti berubah setiap tahun. Cek situs resmi di awal Maret (untuk Juli) atau awal Agustus (untuk Desember)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Apa yang Dibawa Hari Ujian"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Voucher/undangan yang sudah dicetak",
+            "Identitas yang masih berlaku (sama dengan yang dipakai saat daftar)",
+            "Pensil 2B dan penghapus (untuk lembar jawaban)",
+            "Jam analog (smartwatch tidak boleh)",
+            "Tidak boleh: handphone, kamus, atau materi lain"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kapan Hasil Keluar"
+        },
+        {
+          "type": "text",
+          "content": "Hasil dipublikasikan online sekitar 2 bulan setelah ujian. Sertifikat asli dikirim lewat pos beberapa minggu kemudian. Kesabaran wajib."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Tips Terakhir"
+        },
+        {
+          "type": "text",
+          "content": "Administrasi adalah bagian yang membosankan. Persiapan adalah yang penting. Setelah mendaftar, fokus pada yang bisa kamu kontrol: berapa banyak dan bagaimana cara belajarmu. Dengan Kanjidon kamu bisa mempersiapkan semua kanji untuk levelmu secara efisien, jadi datang ke ujian tanpa kejutan."
         }
       ]
     }

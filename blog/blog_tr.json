@@ -111,13 +111,37 @@
         },
         {
           "type": "table",
-          "headers": ["Seviye", "Kanji Sayısı", "Kelime Bilgisi"],
+          "headers": [
+            "Seviye",
+            "Kanji Sayısı",
+            "Kelime Bilgisi"
+          ],
           "rows": [
-            ["N5", "~100", "~800"],
-            ["N4", "~300", "~1500"],
-            ["N3", "~650", "~3750"],
-            ["N2", "~1000", "~6000"],
-            ["N1", "~2000", "~10000"]
+            [
+              "N5",
+              "~100",
+              "~800"
+            ],
+            [
+              "N4",
+              "~300",
+              "~1500"
+            ],
+            [
+              "N3",
+              "~650",
+              "~3750"
+            ],
+            [
+              "N2",
+              "~1000",
+              "~6000"
+            ],
+            [
+              "N1",
+              "~2000",
+              "~10000"
+            ]
           ]
         },
         {
@@ -180,6 +204,38 @@
         {
           "type": "text",
           "content": "Çin kökenli kavramsal karakterlerdir. Bir karakter koca bir anlam taşır."
+        }
+      ]
+    },
+    {
+      "id": "jlpt-dates-registration-costs",
+      "slug": "jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler",
+      "title": "JLPT 2026 Sınav Tarihleri: Başvuru, Kayıt ve Ücretler",
+      "meta_description": "2026 JLPT sınavına mı gireceksiniz? Sınav tarihleri, kayıt dönemleri ve başvuru ücretleri hakkında bilmeniz gereken her şey burada.",
+      "keywords": "jlpt başvuru 2026, jlpt sınav tarihleri, jlpt ücretleri, japonca sınavı kayıt",
+      "read_time": "7 dk",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Japonca Yeterlilik Sınavı (JLPT), dünya çapında en çok tanınan Japonca sınavıdır. 2026 yılında sınava girmeyi planlıyorsanız, hazırlıklara erkenden başlamak ve kayıt tarihlerini kaçırmamak çok önemlidir."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT 2026 Sınav Takvimi"
+        },
+        {
+          "type": "text",
+          "content": "JLPT sınavı genellikle yılda iki kez yapılır: Temmuz ayının ilk Pazar günü ve Aralık ayının ilk Pazar günü."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kayıt Süreci"
+        },
+        {
+          "type": "text",
+          "content": "Kayıtlar genellikle sınavdan 3-4 ay önce açılır. Temmuz sınavı için Mart-Nisan aylarında, Aralık sınavı içinse Ağustos-Eylül aylarında başvuru yapmanız gerekir."
         }
       ]
     }

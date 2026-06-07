@@ -70,13 +70,37 @@
         },
         {
           "type": "table",
-          "headers": ["Cấp độ", "Số lượng Kanji", "Từ vựng"],
+          "headers": [
+            "Cấp độ",
+            "Số lượng Kanji",
+            "Từ vựng"
+          ],
           "rows": [
-            ["N5", "~100", "~800"],
-            ["N4", "~300", "~1500"],
-            ["N3", "~650", "~3750"],
-            ["N2", "~1000", "~6000"],
-            ["N1", "~2000", "~10000"]
+            [
+              "N5",
+              "~100",
+              "~800"
+            ],
+            [
+              "N4",
+              "~300",
+              "~1500"
+            ],
+            [
+              "N3",
+              "~650",
+              "~3750"
+            ],
+            [
+              "N2",
+              "~1000",
+              "~6000"
+            ],
+            [
+              "N1",
+              "~2000",
+              "~10000"
+            ]
           ]
         },
         {
@@ -133,6 +157,203 @@
         {
           "type": "text",
           "content": "Các chữ hán tượng hình. Một chữ có thể mang cả một ý nghĩa lớn lao."
+        }
+      ]
+    },
+    {
+      "id": "jlpt-lich-thi-dang-ky-phi",
+      "slug": "jlpt-lich-thi-dang-ky-phi",
+      "title": "JLPT 2025-2026: Lịch Thi, Đăng Ký, Phí và Mọi Thứ Bạn Cần...",
+      "meta_description": "Hướng dẫn thực tế về JLPT: khi nào thi, cách đăng ký, phí bao nhiêu, địa điểm thi. Tất cả thông tin cập nhật 2025-2026.",
+      "keywords": "JLPT lịch thi, đăng ký JLPT, phí JLPT, JLPT Việt Nam, kỳ thi JLPT 2025",
+      "read_time": "5 min",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Bạn muốn thi JLPT nhưng không biết bắt đầu từ đâu với thủ tục? Lịch thi, hạn chót, phí, địa điểm... là một mê cung. Đây là tất cả những gì bạn cần biết, cập nhật và đi thẳng vào vấn đề."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT Được Tổ Chức Khi Nào"
+        },
+        {
+          "type": "text",
+          "content": "JLPT được tổ chức hai lần một năm, trên toàn thế giới, cùng một ngày:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Đợt",
+            "Ngày",
+            "Cấp độ"
+          ],
+          "rows": [
+            [
+              "Tháng 7",
+              "Chủ nhật đầu tiên của tháng 7",
+              "Tất cả (N1-N5)"
+            ],
+            [
+              "Tháng 12",
+              "Chủ nhật đầu tiên của tháng 12",
+              "Tất cả (N1-N5)"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Lưu ý: một số địa điểm chỉ tổ chức đợt tháng 12. Luôn kiểm tra địa điểm cụ thể của bạn."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Địa Điểm Thi JLPT tại Việt Nam"
+        },
+        {
+          "type": "text",
+          "content": "Tại Việt Nam, JLPT được tổ chức bởi Quỹ Giao Lưu Quốc Tế Nhật Bản (Japan Foundation) phối hợp với các trường đại học. Các địa điểm chính:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hà Nội - Đại học Ngoại ngữ (ĐHQGHN)",
+            "TP. Hồ Chí Minh - Đại học KHXH&NV",
+            "Đà Nẵng - Đại học Ngoại ngữ (ĐH Đà Nẵng)",
+            "Các thành phố khác có thể được bổ sung"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Số lượng chỗ có hạn và các địa điểm đông đúc nhất (Hà Nội, TP.HCM) đầy rất nhanh. Đừng đợi đến ngày cuối để đăng ký."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Phí Thi Bao Nhiêu"
+        },
+        {
+          "type": "text",
+          "content": "Phí khác nhau một chút theo địa điểm, nhưng tại Việt Nam dao động khoảng:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Cấp độ",
+            "Phí tham khảo"
+          ],
+          "rows": [
+            [
+              "N5",
+              "400.000-500.000 VND"
+            ],
+            [
+              "N4",
+              "400.000-500.000 VND"
+            ],
+            [
+              "N3",
+              "450.000-550.000 VND"
+            ],
+            [
+              "N2",
+              "450.000-550.000 VND"
+            ],
+            [
+              "N1",
+              "450.000-550.000 VND"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Thanh toán thường yêu cầu ngay khi đăng ký và không hoàn lại. Nếu bạn không đến thi, mất phí."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Cách Đăng Ký"
+        },
+        {
+          "type": "text",
+          "content": "Đăng ký online qua trang web JLPT chính thức hoặc trực tiếp qua các địa điểm thi. Quy trình thông thường:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Đăng ký tài khoản trên cổng (tạo mới nếu chưa có)",
+            "2. Chọn địa điểm, ngày và cấp độ",
+            "3. Tải lên ảnh chân dung gần đây",
+            "4. Thanh toán phí đăng ký",
+            "5. Nhận xác nhận qua email",
+            "6. Tải phiếu dự thi vài tuần trước kỳ thi"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Hạn Đăng Ký (Đừng Trễ)"
+        },
+        {
+          "type": "text",
+          "content": "Đăng ký mở khoảng 3-4 tháng trước kỳ thi và chỉ kéo dài vài tuần:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Đợt",
+            "Mở đăng ký",
+            "Đóng"
+          ],
+          "rows": [
+            [
+              "Tháng 7",
+              "Tháng 3-4",
+              "Tháng 4 (khoảng 3-4 tuần)"
+            ],
+            [
+              "Tháng 12",
+              "Tháng 8-9",
+              "Tháng 9 (khoảng 3-4 tuần)"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Ngày cụ thể thay đổi mỗi năm. Kiểm tra trang web chính thức đầu tháng 3 (cho tháng 7) hoặc đầu tháng 8 (cho tháng 12)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Mang Gì Ngày Thi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Phiếu dự thi in ra",
+            "Giấy tờ tùy thân còn hiệu lực (cùng loại dùng khi đăng ký)",
+            "Bút chì HB và tẩy (cho phiếu trả lời)",
+            "Đồng hồ kim (không smartwatch)",
+            "Không điện thoại, từ điển, hay tài liệu khác"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kết Quả Công Bố Khi Nào"
+        },
+        {
+          "type": "text",
+          "content": "Kết quả được công bố online khoảng 2 tháng sau kỳ thi. Chứng chỉ giấy gửi qua bưu điện vài tuần sau đó. Kiên nhẫn là bắt buộc."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Lời Khuyên Cuối"
+        },
+        {
+          "type": "text",
+          "content": "Thủ tục là phần nhàm chán. Chuẩn bị mới là phần quan trọng. Sau khi đăng ký xong, tập trung vào điều bạn có thể kiểm soát: học bao nhiêu và học như thế nào. Với Kanjidon bạn có thể chuẩn bị tất cả kanji của cấp độ một cách hiệu quả, để ngày thi không có bất ngờ."
         }
       ]
     }
