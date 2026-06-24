@@ -13,8 +13,8 @@
           "answer": "רדיקלים, SRS, זיכרון חזותי, הקשר וכתיבה בתוכנית אחת."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "אפשר ללמוד עם Kanjidon?",
+          "answer": "כן. Kanjidon משלב כרטיסיות, quiz קצרים וחזרה מרווחת, כך שלכל review יש מטרה ברורה."
         }
       ],
       "sections": [
@@ -25,7 +25,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Why method matters"
+          "content": "למה השיטה חשובה"
         },
         {
           "type": "text",
@@ -34,22 +34,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "5 practical steps"
+          "content": "5 צעדים מעשיים"
         },
         {
           "type": "list",
           "items": [
-            "Learn radicals before complex kanji",
-            "Use SRS every day",
-            "Create a visual story",
-            "Read the kanji in context",
-            "Write only when it helps memory"
+            "למדו radicals לפני kanji מורכבים",
+            "השתמשו ב-SRS כל יום",
+            "צרו סיפור חזותי",
+            "קראו kanji בתוך הקשר",
+            "כתבו רק כשזה עוזר לזיכרון"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "איך Kanjidon עוזר"
         },
         {
           "type": "text",
@@ -58,11 +58,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "הצעד הבא"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "בחרו מטרה קטנה להיום, סיימו אותה וחזרו מחר. יפנית נעשית קלה יותר כשההרגל מספיק קל כדי לחזור עליו."
         }
       ]
     },
@@ -79,8 +79,8 @@
           "answer": "מספרים משוערים מ-N5 עד N1 ותוכנית לימוד מעשית."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "אפשר ללמוד עם Kanjidon?",
+          "answer": "כן. Kanjidon משלב כרטיסיות, quiz קצרים וחזרה מרווחת, כך שלכל review יש מטרה ברורה."
         }
       ],
       "sections": [
@@ -91,7 +91,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "JLPT levels are milestones"
+          "content": "רמות JLPT הן אבני דרך"
         },
         {
           "type": "text",
@@ -100,22 +100,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How to plan"
+          "content": "איך לבנות תוכנית"
         },
         {
           "type": "list",
           "items": [
-            "N5: about 80 kanji",
-            "N4: about 240 total",
-            "N3: about 620 total",
-            "N2: about 1,000 total",
-            "N1: about 2,136 common kanji"
+            "N5: בערך 80 kanji",
+            "N4: בערך 240 בסך הכול",
+            "N3: בערך 620 בסך הכול",
+            "N2: בערך 1,000 בסך הכול",
+            "N1: בערך 2,136 kanji נפוצים"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "איך Kanjidon עוזר"
         },
         {
           "type": "text",
@@ -124,11 +124,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "הצעד הבא"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "בחרו מטרה קטנה להיום, סיימו אותה וחזרו מחר. יפנית נעשית קלה יותר כשההרגל מספיק קל כדי לחזור עליו."
         }
       ]
     },
@@ -145,8 +145,8 @@
           "answer": "שלוש מערכות הכתיבה היפניות ומה כדאי ללמוד קודם."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "אפשר ללמוד עם Kanjidon?",
+          "answer": "כן. Kanjidon משלב כרטיסיות, quiz קצרים וחזרה מרווחת, כך שלכל review יש מטרה ברורה."
         }
       ],
       "sections": [
@@ -157,7 +157,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Three scripts, one language"
+          "content": "שלוש מערכות כתיבה, שפה אחת"
         },
         {
           "type": "text",
@@ -166,22 +166,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Learning order"
+          "content": "סדר הלמידה"
         },
         {
           "type": "list",
           "items": [
-            "Start with hiragana",
-            "Add katakana for loanwords",
-            "Use kanji with vocabulary",
-            "Do not learn kanji as isolated drawings",
-            "Read short sentences early"
+            "התחילו עם hiragana",
+            "הוסיפו katakana למילים שאולות",
+            "למדו kanji יחד עם אוצר מילים",
+            "אל תשננו kanji כציורים מבודדים",
+            "קראו משפטים קצרים מוקדם"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "איך Kanjidon עוזר"
         },
         {
           "type": "text",
@@ -190,11 +190,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "הצעד הבא"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "בחרו מטרה קטנה להיום, סיימו אותה וחזרו מחר. יפנית נעשית קלה יותר כשההרגל מספיק קל כדי לחזור עליו."
         }
       ]
     },
@@ -211,8 +211,8 @@
           "answer": "למה חזרה מרווחת מחזקת זיכרון לטווח ארוך."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "אפשר ללמוד עם Kanjidon?",
+          "answer": "כן. Kanjidon משלב כרטיסיות, quiz קצרים וחזרה מרווחת, כך שלכל review יש מטרה ברורה."
         }
       ],
       "sections": [
@@ -223,7 +223,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Memory needs timing"
+          "content": "הזיכרון צריך תזמון"
         },
         {
           "type": "text",
@@ -232,22 +232,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "A simple SRS routine"
+          "content": "שגרת SRS פשוטה"
         },
         {
           "type": "list",
           "items": [
-            "Review before forgetting",
-            "Keep sessions short",
-            "Mark weak cards honestly",
-            "Mix meaning and readings",
-            "Trust consistency over cramming"
+            "חזרו לפני ששוכחים",
+            "שמרו על session קצר",
+            "סמנו בכנות כרטיסיות חלשות",
+            "ערבבו משמעות וקריאות",
+            "סמכו על עקביות, לא על דחיסה"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "איך Kanjidon עוזר"
         },
         {
           "type": "text",
@@ -256,11 +256,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "הצעד הבא"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "בחרו מטרה קטנה להיום, סיימו אותה וחזרו מחר. יפנית נעשית קלה יותר כשההרגל מספיק קל כדי לחזור עליו."
         }
       ]
     },
@@ -277,8 +277,8 @@
           "answer": "למה כדאי להתחיל מ-100 הקנג׳י הנפוצים כדי לפתוח קריאה בסיסית ו-JLPT."
         },
         {
-          "question": "Should I learn frequent kanji first?",
-          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+          "question": "כדאי ללמוד קודם kanji נפוצים?",
+          "answer": "כן. תדירות נותנת ניצחונות קריאה מהירים יותר ומקלה לחבר kanji מאוחרים יותר."
         }
       ],
       "sections": [
@@ -298,7 +298,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Examples to notice early"
+          "content": "דוגמאות שכדאי לזהות מוקדם"
         },
         {
           "type": "list",
@@ -316,11 +316,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "איך Kanjidon עוזר"
         },
         {
           "type": "text",
-          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+          "content": "Kanjidon הופך kanji נפוצים לכרטיסיות ומחזיר אותם ב-SRS, כך שהסימנים הראשונים שלומדים חוזרים עד שהם מרגישים טבעיים."
         }
       ]
     }

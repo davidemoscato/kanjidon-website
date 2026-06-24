@@ -13,8 +13,8 @@
           "answer": "Radikallar, SRS, mnemonika, kontekst va yozish mashqi bilan reja."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon bilan o‘qisam bo‘ladimi?",
+          "answer": "Ha. Kanjidon kartalar, qisqa quizlar va spaced repetitionni birlashtiradi, shuning uchun har bir review aniq maqsadga ega."
         }
       ],
       "sections": [
@@ -25,7 +25,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Why method matters"
+          "content": "Nega usul muhim"
         },
         {
           "type": "text",
@@ -34,22 +34,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "5 practical steps"
+          "content": "5 amaliy qadam"
         },
         {
           "type": "list",
           "items": [
-            "Learn radicals before complex kanji",
-            "Use SRS every day",
-            "Create a visual story",
-            "Read the kanji in context",
-            "Write only when it helps memory"
+            "Murakkab kanjidan oldin radikallarni o‘rganing",
+            "Har kuni SRS ishlating",
+            "Ko‘z oldiga keladigan hikoya tuzing",
+            "Kanjini kontekstda o‘qing",
+            "Xotiraga yordam bergandagina yozing"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon qanday yordam beradi"
         },
         {
           "type": "text",
@@ -58,11 +58,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Keyingi qadam"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Bugun bitta kichik maqsad tanlang, uni yakunlang va ertaga qayting. Odat takrorlashga yengil bo‘lsa, yapon tili ham osonlashadi."
         }
       ]
     },
@@ -79,8 +79,8 @@
           "answer": "N5 dan N1 gacha taxminiy kanji sonlari va o‘quv rejasi."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon bilan o‘qisam bo‘ladimi?",
+          "answer": "Ha. Kanjidon kartalar, qisqa quizlar va spaced repetitionni birlashtiradi, shuning uchun har bir review aniq maqsadga ega."
         }
       ],
       "sections": [
@@ -91,7 +91,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "JLPT levels are milestones"
+          "content": "JLPT darajalari yo‘l belgilaridir"
         },
         {
           "type": "text",
@@ -100,22 +100,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How to plan"
+          "content": "Rejani qanday tuzish kerak"
         },
         {
           "type": "list",
           "items": [
-            "N5: about 80 kanji",
-            "N4: about 240 total",
-            "N3: about 620 total",
-            "N2: about 1,000 total",
-            "N1: about 2,136 common kanji"
+            "N5: taxminan 80 kanji",
+            "N4: jami taxminan 240",
+            "N3: jami taxminan 620",
+            "N2: jami taxminan 1 000",
+            "N1: taxminan 2 136 keng tarqalgan kanji"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon qanday yordam beradi"
         },
         {
           "type": "text",
@@ -124,11 +124,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Keyingi qadam"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Bugun bitta kichik maqsad tanlang, uni yakunlang va ertaga qayting. Odat takrorlashga yengil bo‘lsa, yapon tili ham osonlashadi."
         }
       ]
     },
@@ -145,8 +145,8 @@
           "answer": "Yapon yozuvining uch tizimi va avval nimani o‘rganish kerak."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon bilan o‘qisam bo‘ladimi?",
+          "answer": "Ha. Kanjidon kartalar, qisqa quizlar va spaced repetitionni birlashtiradi, shuning uchun har bir review aniq maqsadga ega."
         }
       ],
       "sections": [
@@ -157,7 +157,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Three scripts, one language"
+          "content": "Uch yozuv, bitta til"
         },
         {
           "type": "text",
@@ -166,22 +166,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Learning order"
+          "content": "O‘rganish tartibi"
         },
         {
           "type": "list",
           "items": [
-            "Start with hiragana",
-            "Add katakana for loanwords",
-            "Use kanji with vocabulary",
-            "Do not learn kanji as isolated drawings",
-            "Read short sentences early"
+            "Avval hiraganadan boshlang",
+            "O‘zlashma so‘zlar uchun katakana qo‘shing",
+            "Kanjini so‘zlar bilan birga o‘rganing",
+            "Kanjini alohida rasmdek yodlamang",
+            "Erta bosqichda qisqa gaplarni o‘qing"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon qanday yordam beradi"
         },
         {
           "type": "text",
@@ -190,11 +190,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Keyingi qadam"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Bugun bitta kichik maqsad tanlang, uni yakunlang va ertaga qayting. Odat takrorlashga yengil bo‘lsa, yapon tili ham osonlashadi."
         }
       ]
     },
@@ -211,8 +211,8 @@
           "answer": "Spaced repetition kanjini uzoq muddat eslab qolishga qanday yordam beradi."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon bilan o‘qisam bo‘ladimi?",
+          "answer": "Ha. Kanjidon kartalar, qisqa quizlar va spaced repetitionni birlashtiradi, shuning uchun har bir review aniq maqsadga ega."
         }
       ],
       "sections": [
@@ -223,7 +223,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Memory needs timing"
+          "content": "Xotira to‘g‘ri vaqtni xohlaydi"
         },
         {
           "type": "text",
@@ -232,22 +232,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "A simple SRS routine"
+          "content": "Oddiy SRS tartibi"
         },
         {
           "type": "list",
           "items": [
-            "Review before forgetting",
-            "Keep sessions short",
-            "Mark weak cards honestly",
-            "Mix meaning and readings",
-            "Trust consistency over cramming"
+            "Unutishdan oldin review qiling",
+            "Mashg‘ulotlarni qisqa tuting",
+            "Zaif kartalarni halol belgilang",
+            "Ma’no va o‘qilishni aralashtiring",
+            "Tiqqishtirishdan ko‘ra izchillikka ishoning"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon qanday yordam beradi"
         },
         {
           "type": "text",
@@ -256,11 +256,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Keyingi qadam"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Bugun bitta kichik maqsad tanlang, uni yakunlang va ertaga qayting. Odat takrorlashga yengil bo‘lsa, yapon tili ham osonlashadi."
         }
       ]
     },
@@ -277,8 +277,8 @@
           "answer": "Nega eng ko‘p uchraydigan 100 kanjini avval o‘rganish o‘qishni tezlashtiradi."
         },
         {
-          "question": "Should I learn frequent kanji first?",
-          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+          "question": "Avval ko‘p uchraydigan kanjilarni o‘rganish kerakmi?",
+          "answer": "Ha. Chastota o‘qishda tezroq natija beradi va keyingi kanjilarni bog‘lashni osonlashtiradi."
         }
       ],
       "sections": [
@@ -298,7 +298,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Examples to notice early"
+          "content": "Erta payqash kerak bo‘lgan misollar"
         },
         {
           "type": "list",
@@ -316,11 +316,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon qanday yordam beradi"
         },
         {
           "type": "text",
-          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+          "content": "Kanjidon ko‘p uchraydigan kanjilarni kartalarga aylantiradi va SRS bilan takrorlatadi, shunda ilk belgilar tabiiy tuyulguncha qayta-qayta ko‘rinadi."
         }
       ]
     }

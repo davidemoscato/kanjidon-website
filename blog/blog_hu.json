@@ -13,8 +13,8 @@
           "answer": "Radikálok, SRS, mnemonika, kontextus és írásgyakorlat egy tervben."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Tanulhatok Kanjidonnal?",
+          "answer": "Igen. A Kanjidon kártyákat, rövid quizeket és időzített ismétlést kombinál, így minden review-nak világos célja van."
         }
       ],
       "sections": [
@@ -25,7 +25,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Why method matters"
+          "content": "Miért számít a módszer"
         },
         {
           "type": "text",
@@ -34,22 +34,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "5 practical steps"
+          "content": "5 gyakorlati lépés"
         },
         {
           "type": "list",
           "items": [
-            "Learn radicals before complex kanji",
-            "Use SRS every day",
-            "Create a visual story",
-            "Read the kanji in context",
-            "Write only when it helps memory"
+            "Tanuld meg a gyököket az összetett kanjik előtt",
+            "Használd az SRS-t minden nap",
+            "Alkoss vizuális történetet",
+            "Olvasd a kanjit szövegkörnyezetben",
+            "Csak akkor írj, ha segíti a memóriát"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Hogyan segít a Kanjidon"
         },
         {
           "type": "text",
@@ -58,11 +58,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Következő lépés"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Válassz mára egy kis célt, fejezd be, és térj vissza holnap. A japán könnyebb lesz, ha a szokás elég könnyű ahhoz, hogy ismételni tudd."
         }
       ]
     },
@@ -79,8 +79,8 @@
           "answer": "Irányadó számok N5-től N1-ig és tanulási terv."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Tanulhatok Kanjidonnal?",
+          "answer": "Igen. A Kanjidon kártyákat, rövid quizeket és időzített ismétlést kombinál, így minden review-nak világos célja van."
         }
       ],
       "sections": [
@@ -91,7 +91,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "JLPT levels are milestones"
+          "content": "A JLPT-szintek mérföldkövek"
         },
         {
           "type": "text",
@@ -100,22 +100,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How to plan"
+          "content": "Hogyan tervezz"
         },
         {
           "type": "list",
           "items": [
-            "N5: about 80 kanji",
-            "N4: about 240 total",
-            "N3: about 620 total",
-            "N2: about 1,000 total",
-            "N1: about 2,136 common kanji"
+            "N5: körülbelül 80 kanji",
+            "N4: összesen körülbelül 240",
+            "N3: összesen körülbelül 620",
+            "N2: összesen körülbelül 1 000",
+            "N1: körülbelül 2 136 gyakori kanji"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Hogyan segít a Kanjidon"
         },
         {
           "type": "text",
@@ -124,11 +124,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Következő lépés"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Válassz mára egy kis célt, fejezd be, és térj vissza holnap. A japán könnyebb lesz, ha a szokás elég könnyű ahhoz, hogy ismételni tudd."
         }
       ]
     },
@@ -145,8 +145,8 @@
           "answer": "A három japán írásrendszer szerepe és a tanulási sorrend."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Tanulhatok Kanjidonnal?",
+          "answer": "Igen. A Kanjidon kártyákat, rövid quizeket és időzített ismétlést kombinál, így minden review-nak világos célja van."
         }
       ],
       "sections": [
@@ -157,7 +157,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Three scripts, one language"
+          "content": "Három írásrendszer, egy nyelv"
         },
         {
           "type": "text",
@@ -166,22 +166,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Learning order"
+          "content": "Tanulási sorrend"
         },
         {
           "type": "list",
           "items": [
-            "Start with hiragana",
-            "Add katakana for loanwords",
-            "Use kanji with vocabulary",
-            "Do not learn kanji as isolated drawings",
-            "Read short sentences early"
+            "Kezdd a hiraganával",
+            "Add hozzá a katakanát a jövevényszavakhoz",
+            "Tanuld a kanjit szókincsben",
+            "Ne különálló rajzként tanuld a kanjit",
+            "Olvass korán rövid mondatokat"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Hogyan segít a Kanjidon"
         },
         {
           "type": "text",
@@ -190,11 +190,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Következő lépés"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Válassz mára egy kis célt, fejezd be, és térj vissza holnap. A japán könnyebb lesz, ha a szokás elég könnyű ahhoz, hogy ismételni tudd."
         }
       ]
     },
@@ -211,8 +211,8 @@
           "answer": "Miért segít az időzített ismétlés hosszú távon emlékezni."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Tanulhatok Kanjidonnal?",
+          "answer": "Igen. A Kanjidon kártyákat, rövid quizeket és időzített ismétlést kombinál, így minden review-nak világos célja van."
         }
       ],
       "sections": [
@@ -223,7 +223,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Memory needs timing"
+          "content": "A memóriának időzítés kell"
         },
         {
           "type": "text",
@@ -232,22 +232,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "A simple SRS routine"
+          "content": "Egyszerű SRS-rutin"
         },
         {
           "type": "list",
           "items": [
-            "Review before forgetting",
-            "Keep sessions short",
-            "Mark weak cards honestly",
-            "Mix meaning and readings",
-            "Trust consistency over cramming"
+            "Ismételj, mielőtt elfelejtenéd",
+            "Tartsd röviden a sessionöket",
+            "Jelöld őszintén a gyenge kártyákat",
+            "Keverd a jelentést és az olvasatokat",
+            "A rendszerességben bízz, ne a magolásban"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Hogyan segít a Kanjidon"
         },
         {
           "type": "text",
@@ -256,11 +256,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Következő lépés"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Válassz mára egy kis célt, fejezd be, és térj vissza holnap. A japán könnyebb lesz, ha a szokás elég könnyű ahhoz, hogy ismételni tudd."
         }
       ]
     },
@@ -277,8 +277,8 @@
           "answer": "Miért érdemes a leggyakoribb 100 kanjival kezdeni az olvasást és a JLPT alapozást."
         },
         {
-          "question": "Should I learn frequent kanji first?",
-          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+          "question": "Először a gyakori kanjikat tanuljam?",
+          "answer": "Igen. A gyakoriság gyorsabb olvasási sikerélményt ad, és megkönnyíti a későbbi kanjik összekapcsolását."
         }
       ],
       "sections": [
@@ -298,7 +298,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Examples to notice early"
+          "content": "Korán észrevehető példák"
         },
         {
           "type": "list",
@@ -316,11 +316,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Hogyan segít a Kanjidon"
         },
         {
           "type": "text",
-          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+          "content": "A Kanjidon a gyakori kanjikat kártyákká alakítja, majd SRS-sel ismételteti, így az első jelek addig térnek vissza, amíg természetessé nem válnak."
         }
       ]
     }

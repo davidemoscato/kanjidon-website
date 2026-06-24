@@ -13,8 +13,8 @@
           "answer": "Канджиг системтэй сурах 5 арга: радикал, SRS, mnemonics, контекст, бичих дасгал."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-оор суралцаж болох уу?",
+          "answer": "Тийм. Kanjidon нь карт, богино quiz болон зайтай давталтыг нэгтгэдэг тул давталт бүр тодорхой зорилготой байдаг."
         }
       ],
       "sections": [
@@ -25,7 +25,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Why method matters"
+          "content": "Арга яагаад чухал вэ"
         },
         {
           "type": "text",
@@ -34,22 +34,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "5 practical steps"
+          "content": "Практик 5 алхам"
         },
         {
           "type": "list",
           "items": [
-            "Learn radicals before complex kanji",
-            "Use SRS every day",
-            "Create a visual story",
-            "Read the kanji in context",
-            "Write only when it helps memory"
+            "Нарийн төвөгтэй kanji-гаас өмнө radical-уудыг сур",
+            "Өдөр бүр SRS ашигла",
+            "Дүрслэлтэй богино түүх зохио",
+            "Kanji-г жинхэнэ өгүүлбэр дотор унш",
+            "Санахад тус болох үед л бичиж давт"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon хэрхэн тусалдаг вэ"
         },
         {
           "type": "text",
@@ -58,11 +58,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Дараагийн алхам"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Өнөөдөр нэг жижиг зорилго сонгоод дуусга, маргааш дахин үргэлжлүүл. Дадал давтахад хөнгөн байвал япон хэл улам амар болдог."
         }
       ]
     },
@@ -79,8 +79,8 @@
           "answer": "N5-аас N1 хүртэл ойролцоогоор хэдэн канджи хэрэгтэй, яаж төлөвлөхийг тайлбарлав."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-оор суралцаж болох уу?",
+          "answer": "Тийм. Kanjidon нь карт, богино quiz болон зайтай давталтыг нэгтгэдэг тул давталт бүр тодорхой зорилготой байдаг."
         }
       ],
       "sections": [
@@ -91,7 +91,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "JLPT levels are milestones"
+          "content": "JLPT түвшин бол замын тэмдэг"
         },
         {
           "type": "text",
@@ -100,22 +100,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How to plan"
+          "content": "Хэрхэн төлөвлөх вэ"
         },
         {
           "type": "list",
           "items": [
-            "N5: about 80 kanji",
-            "N4: about 240 total",
-            "N3: about 620 total",
-            "N2: about 1,000 total",
-            "N1: about 2,136 common kanji"
+            "N5: ойролцоогоор 80 kanji",
+            "N4: нийт ойролцоогоор 240",
+            "N3: нийт ойролцоогоор 620",
+            "N2: нийт ойролцоогоор 1,000",
+            "N1: түгээмэл 2,136 орчим kanji"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon хэрхэн тусалдаг вэ"
         },
         {
           "type": "text",
@@ -124,11 +124,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Дараагийн алхам"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Өнөөдөр нэг жижиг зорилго сонгоод дуусга, маргааш дахин үргэлжлүүл. Дадал давтахад хөнгөн байвал япон хэл улам амар болдог."
         }
       ]
     },
@@ -145,8 +145,8 @@
           "answer": "Япон бичгийн гурван системийг ямар дарааллаар сурах вэ."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-оор суралцаж болох уу?",
+          "answer": "Тийм. Kanjidon нь карт, богино quiz болон зайтай давталтыг нэгтгэдэг тул давталт бүр тодорхой зорилготой байдаг."
         }
       ],
       "sections": [
@@ -157,7 +157,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Three scripts, one language"
+          "content": "Гурван бичиг, нэг хэл"
         },
         {
           "type": "text",
@@ -166,22 +166,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Learning order"
+          "content": "Сурах дараалал"
         },
         {
           "type": "list",
           "items": [
-            "Start with hiragana",
-            "Add katakana for loanwords",
-            "Use kanji with vocabulary",
-            "Do not learn kanji as isolated drawings",
-            "Read short sentences early"
+            "Эхлээд hiragana",
+            "Зээлдмэл үгэнд katakana нэм",
+            "Kanji-г үгтэй нь хамт сур",
+            "Kanji-г тусдаа зураг шиг бүү цээжил",
+            "Эртнээс богино өгүүлбэр унш"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon хэрхэн тусалдаг вэ"
         },
         {
           "type": "text",
@@ -190,11 +190,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Дараагийн алхам"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Өнөөдөр нэг жижиг зорилго сонгоод дуусга, маргааш дахин үргэлжлүүл. Дадал давтахад хөнгөн байвал япон хэл улам амар болдог."
         }
       ]
     },
@@ -211,8 +211,8 @@
           "answer": "Интервалтай давталт канджиг урт хугацаанд тогтоодог шалтгаан."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-оор суралцаж болох уу?",
+          "answer": "Тийм. Kanjidon нь карт, богино quiz болон зайтай давталтыг нэгтгэдэг тул давталт бүр тодорхой зорилготой байдаг."
         }
       ],
       "sections": [
@@ -223,7 +223,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Memory needs timing"
+          "content": "Ой тогтоолтод зөв цаг хэрэгтэй"
         },
         {
           "type": "text",
@@ -232,22 +232,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "A simple SRS routine"
+          "content": "Энгийн SRS дадал"
         },
         {
           "type": "list",
           "items": [
-            "Review before forgetting",
-            "Keep sessions short",
-            "Mark weak cards honestly",
-            "Mix meaning and readings",
-            "Trust consistency over cramming"
+            "Мартахын өмнө давт",
+            "Хичээлийг богино байлга",
+            "Сул картуудыг үнэнчээр тэмдэглэ",
+            "Утга ба уншлагыг хольж давт",
+            "Шахахаас илүү тогтмол байдалд итгэ"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon хэрхэн тусалдаг вэ"
         },
         {
           "type": "text",
@@ -256,11 +256,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Дараагийн алхам"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Өнөөдөр нэг жижиг зорилго сонгоод дуусга, маргааш дахин үргэлжлүүл. Дадал давтахад хөнгөн байвал япон хэл улам амар болдог."
         }
       ]
     },
@@ -277,8 +277,8 @@
           "answer": "Өдөр тутмын япон хэлэнд хамгийн их гардаг 100 канджиг эхлээд сурах нь яагаад үр дүнтэй вэ."
         },
         {
-          "question": "Should I learn frequent kanji first?",
-          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+          "question": "Түгээмэл kanji-г эхэлж сурах хэрэгтэй юу?",
+          "answer": "Тийм. Давтамж өндөр kanji нь унших анхны амжилтыг хурдан өгч, дараагийн kanji-г холбож ойлгоход тусалдаг."
         }
       ],
       "sections": [
@@ -298,7 +298,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Examples to notice early"
+          "content": "Эрт анзаарах жишээнүүд"
         },
         {
           "type": "list",
@@ -316,11 +316,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon хэрхэн тусалдаг вэ"
         },
         {
           "type": "text",
-          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+          "content": "Kanjidon түгээмэл kanji-г карт болгож, SRS-ээр давтуулдаг тул эхний тэмдэгтүүд дахин дахин тааралдаж байгалийн мэт санагдана."
         }
       ]
     }

@@ -13,8 +13,8 @@
           "answer": "radicals, SRS, mnemonics, context និងការសរសេរ ក្នុងផែនការតែមួយ។"
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "អាចរៀនជាមួយ Kanjidon បានទេ?",
+          "answer": "បាន។ Kanjidon បញ្ចូល cards, quiz ខ្លីៗ និង spaced repetition ដើម្បីឱ្យ review រាល់លើកមានគោលបំណងច្បាស់។"
         }
       ],
       "sections": [
@@ -25,7 +25,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Why method matters"
+          "content": "ហេតុអ្វីវិធីសាស្ត្រសំខាន់"
         },
         {
           "type": "text",
@@ -34,22 +34,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "5 practical steps"
+          "content": "5 ជំហានអនុវត្តបាន"
         },
         {
           "type": "list",
           "items": [
-            "Learn radicals before complex kanji",
-            "Use SRS every day",
-            "Create a visual story",
-            "Read the kanji in context",
-            "Write only when it helps memory"
+            "រៀន radicals មុន kanji ស្មុគស្មាញ",
+            "ប្រើ SRS រាល់ថ្ងៃ",
+            "បង្កើតរឿងមានរូបភាពក្នុងចិត្ត",
+            "អាន kanji ក្នុងបរិបទ",
+            "សរសេរតែពេលវាជួយចងចាំ"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon ជួយយ៉ាងដូចម្តេច"
         },
         {
           "type": "text",
@@ -58,11 +58,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "ជំហានបន្ទាប់"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "ជ្រើសគោលដៅតូចមួយសម្រាប់ថ្ងៃនេះ បញ្ចប់វា ហើយត្រឡប់មកវិញថ្ងៃស្អែក។ ភាសាជប៉ុននឹងងាយជាងមុន ពេលទម្លាប់ស្រាលគ្រប់គ្រាន់សម្រាប់ធ្វើម្ដងទៀត។"
         }
       ]
     },
@@ -79,8 +79,8 @@
           "answer": "ចំនួនប្រហាក់ប្រហែលពី N5 ដល់ N1 និងផែនការសិក្សា។"
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "អាចរៀនជាមួយ Kanjidon បានទេ?",
+          "answer": "បាន។ Kanjidon បញ្ចូល cards, quiz ខ្លីៗ និង spaced repetition ដើម្បីឱ្យ review រាល់លើកមានគោលបំណងច្បាស់។"
         }
       ],
       "sections": [
@@ -91,7 +91,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "JLPT levels are milestones"
+          "content": "កម្រិត JLPT ជាសញ្ញាតាមផ្លូវ"
         },
         {
           "type": "text",
@@ -100,22 +100,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How to plan"
+          "content": "របៀបរៀបចំផែនការ"
         },
         {
           "type": "list",
           "items": [
-            "N5: about 80 kanji",
-            "N4: about 240 total",
-            "N3: about 620 total",
-            "N2: about 1,000 total",
-            "N1: about 2,136 common kanji"
+            "N5: ប្រហែល 80 kanji",
+            "N4: សរុបប្រហែល 240",
+            "N3: សរុបប្រហែល 620",
+            "N2: សរុបប្រហែល 1,000",
+            "N1: ប្រហែល 2,136 kanji ទូទៅ"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon ជួយយ៉ាងដូចម្តេច"
         },
         {
           "type": "text",
@@ -124,11 +124,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "ជំហានបន្ទាប់"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "ជ្រើសគោលដៅតូចមួយសម្រាប់ថ្ងៃនេះ បញ្ចប់វា ហើយត្រឡប់មកវិញថ្ងៃស្អែក។ ភាសាជប៉ុននឹងងាយជាងមុន ពេលទម្លាប់ស្រាលគ្រប់គ្រាន់សម្រាប់ធ្វើម្ដងទៀត។"
         }
       ]
     },
@@ -145,8 +145,8 @@
           "answer": "ប្រព័ន្ធសរសេរជប៉ុនទាំងបី និងលំដាប់សម្រាប់ចាប់ផ្តើម។"
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "អាចរៀនជាមួយ Kanjidon បានទេ?",
+          "answer": "បាន។ Kanjidon បញ្ចូល cards, quiz ខ្លីៗ និង spaced repetition ដើម្បីឱ្យ review រាល់លើកមានគោលបំណងច្បាស់។"
         }
       ],
       "sections": [
@@ -157,7 +157,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Three scripts, one language"
+          "content": "ប្រព័ន្ធសរសេរ 3 មួយភាសា"
         },
         {
           "type": "text",
@@ -166,22 +166,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Learning order"
+          "content": "លំដាប់រៀន"
         },
         {
           "type": "list",
           "items": [
-            "Start with hiragana",
-            "Add katakana for loanwords",
-            "Use kanji with vocabulary",
-            "Do not learn kanji as isolated drawings",
-            "Read short sentences early"
+            "ចាប់ផ្តើមពី hiragana",
+            "បន្ថែម katakana សម្រាប់ពាក្យខ្ចី",
+            "រៀន kanji ជាមួយវាក្យសព្ទ",
+            "កុំរៀន kanji ដូចរូបភាពដាច់ដោយឡែក",
+            "អានប្រយោគខ្លីៗពីដំបូង"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon ជួយយ៉ាងដូចម្តេច"
         },
         {
           "type": "text",
@@ -190,11 +190,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "ជំហានបន្ទាប់"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "ជ្រើសគោលដៅតូចមួយសម្រាប់ថ្ងៃនេះ បញ្ចប់វា ហើយត្រឡប់មកវិញថ្ងៃស្អែក។ ភាសាជប៉ុននឹងងាយជាងមុន ពេលទម្លាប់ស្រាលគ្រប់គ្រាន់សម្រាប់ធ្វើម្ដងទៀត។"
         }
       ]
     },
@@ -211,8 +211,8 @@
           "answer": "spaced repetition ជួយចងចាំបានយូរដោយរបៀបណា។"
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "អាចរៀនជាមួយ Kanjidon បានទេ?",
+          "answer": "បាន។ Kanjidon បញ្ចូល cards, quiz ខ្លីៗ និង spaced repetition ដើម្បីឱ្យ review រាល់លើកមានគោលបំណងច្បាស់។"
         }
       ],
       "sections": [
@@ -223,7 +223,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Memory needs timing"
+          "content": "ការចងចាំត្រូវការពេលវេលាត្រឹមត្រូវ"
         },
         {
           "type": "text",
@@ -232,22 +232,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "A simple SRS routine"
+          "content": "routine SRS សាមញ្ញ"
         },
         {
           "type": "list",
           "items": [
-            "Review before forgetting",
-            "Keep sessions short",
-            "Mark weak cards honestly",
-            "Mix meaning and readings",
-            "Trust consistency over cramming"
+            "review មុនពេលភ្លេច",
+            "រក្សា session ឱ្យខ្លី",
+            "សម្គាល់ card ខ្សោយដោយស្មោះត្រង់",
+            "លាយអត្ថន័យ និង readings",
+            "ជឿលើភាពទៀងទាត់ មិនមែន cramming"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon ជួយយ៉ាងដូចម្តេច"
         },
         {
           "type": "text",
@@ -256,11 +256,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "ជំហានបន្ទាប់"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "ជ្រើសគោលដៅតូចមួយសម្រាប់ថ្ងៃនេះ បញ្ចប់វា ហើយត្រឡប់មកវិញថ្ងៃស្អែក។ ភាសាជប៉ុននឹងងាយជាងមុន ពេលទម្លាប់ស្រាលគ្រប់គ្រាន់សម្រាប់ធ្វើម្ដងទៀត។"
         }
       ]
     },
@@ -277,8 +277,8 @@
           "answer": "ហេតុអ្វីការរៀន kanji 100 ដែលជួបញឹកញាប់ជួយឲ្យអានបានលឿនឡើង។"
         },
         {
-          "question": "Should I learn frequent kanji first?",
-          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+          "question": "គួររៀន kanji ជួបញឹកញាប់មុនទេ?",
+          "answer": "គួរ។ frequency ផ្តល់ជ័យជម្នះក្នុងការអានបានលឿន ហើយធ្វើឱ្យ kanji បន្ទាប់ងាយភ្ជាប់គ្នា។"
         }
       ],
       "sections": [
@@ -298,7 +298,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Examples to notice early"
+          "content": "ឧទាហរណ៍គួរចាប់អារម្មណ៍ពីដំបូង"
         },
         {
           "type": "list",
@@ -316,11 +316,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon ជួយយ៉ាងដូចម្តេច"
         },
         {
           "type": "text",
-          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+          "content": "Kanjidon បម្លែង kanji ដែលជួបញឹកញាប់ទៅជា cards ហើយ review ដោយ SRS ដូច្នេះសញ្ញាដំបូងៗនឹងលេចឡើងវិញរហូតដល់មានអារម្មណ៍ធម្មជាតិ។"
         }
       ]
     }

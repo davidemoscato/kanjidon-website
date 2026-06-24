@@ -13,8 +13,8 @@
           "answer": "radicals, SRS, நினைவுத்தந்திரம், context, எழுத்துப் பயிற்சி ஆகியவற்றுடன் திட்டம்."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-ல் படிக்க முடியுமா?",
+          "answer": "ஆம். Kanjidon cards, குறுகிய quiz-கள் மற்றும் spaced repetition-ஐ இணைக்கிறது; அதனால் ஒவ்வொரு review-க்கும் தெளிவான நோக்கம் இருக்கும்."
         }
       ],
       "sections": [
@@ -25,7 +25,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Why method matters"
+          "content": "முறை ஏன் முக்கியம்"
         },
         {
           "type": "text",
@@ -34,22 +34,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "5 practical steps"
+          "content": "5 நடைமுறை படிகள்"
         },
         {
           "type": "list",
           "items": [
-            "Learn radicals before complex kanji",
-            "Use SRS every day",
-            "Create a visual story",
-            "Read the kanji in context",
-            "Write only when it helps memory"
+            "சிக்கலான kanji-க்கு முன் radicals கற்றுக்கொள்ளுங்கள்",
+            "SRS-ஐ தினமும் பயன்படுத்துங்கள்",
+            "ஒரு காட்சிக் கதையை உருவாக்குங்கள்",
+            "kanji-ஐ சூழலில் படியுங்கள்",
+            "நினைவுக்கு உதவும்போது மட்டும் எழுதுங்கள்"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon எப்படி உதவுகிறது"
         },
         {
           "type": "text",
@@ -58,11 +58,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "அடுத்த படி"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "இன்றைக்கு ஒரு சிறிய இலக்கைத் தேர்ந்தெடுத்து முடிக்கவும்; நாளை மீண்டும் வாருங்கள். மீண்டும் செய்ய எளிதான பழக்கமாக இருந்தால் ஜப்பானியம் எளிதாகிறது."
         }
       ]
     },
@@ -79,8 +79,8 @@
           "answer": "N5 முதல் N1 வரை காஞ்சி எண்ணிக்கை மற்றும் படிப்பு திட்டம்."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-ல் படிக்க முடியுமா?",
+          "answer": "ஆம். Kanjidon cards, குறுகிய quiz-கள் மற்றும் spaced repetition-ஐ இணைக்கிறது; அதனால் ஒவ்வொரு review-க்கும் தெளிவான நோக்கம் இருக்கும்."
         }
       ],
       "sections": [
@@ -91,7 +91,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "JLPT levels are milestones"
+          "content": "JLPT நிலைகள் வழிகாட்டும் மைல்கற்கள்"
         },
         {
           "type": "text",
@@ -100,22 +100,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How to plan"
+          "content": "எப்படி திட்டமிடுவது"
         },
         {
           "type": "list",
           "items": [
-            "N5: about 80 kanji",
-            "N4: about 240 total",
-            "N3: about 620 total",
-            "N2: about 1,000 total",
-            "N1: about 2,136 common kanji"
+            "N5: சுமார் 80 kanji",
+            "N4: மொத்தம் சுமார் 240",
+            "N3: மொத்தம் சுமார் 620",
+            "N2: மொத்தம் சுமார் 1,000",
+            "N1: பொதுவான சுமார் 2,136 kanji"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon எப்படி உதவுகிறது"
         },
         {
           "type": "text",
@@ -124,11 +124,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "அடுத்த படி"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "இன்றைக்கு ஒரு சிறிய இலக்கைத் தேர்ந்தெடுத்து முடிக்கவும்; நாளை மீண்டும் வாருங்கள். மீண்டும் செய்ய எளிதான பழக்கமாக இருந்தால் ஜப்பானியம் எளிதாகிறது."
         }
       ]
     },
@@ -145,8 +145,8 @@
           "answer": "ஜப்பானிய எழுத்து முறை மூன்றின் பங்கு மற்றும் கற்றல் வரிசை."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-ல் படிக்க முடியுமா?",
+          "answer": "ஆம். Kanjidon cards, குறுகிய quiz-கள் மற்றும் spaced repetition-ஐ இணைக்கிறது; அதனால் ஒவ்வொரு review-க்கும் தெளிவான நோக்கம் இருக்கும்."
         }
       ],
       "sections": [
@@ -157,7 +157,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Three scripts, one language"
+          "content": "மூன்று எழுத்துமுறைகள், ஒரு மொழி"
         },
         {
           "type": "text",
@@ -166,22 +166,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Learning order"
+          "content": "கற்க வேண்டிய வரிசை"
         },
         {
           "type": "list",
           "items": [
-            "Start with hiragana",
-            "Add katakana for loanwords",
-            "Use kanji with vocabulary",
-            "Do not learn kanji as isolated drawings",
-            "Read short sentences early"
+            "முதலில் hiragana தொடங்குங்கள்",
+            "loanwords-க்கு katakana சேர்க்குங்கள்",
+            "kanji-ஐ சொற்களுடன் கற்குங்கள்",
+            "kanji-ஐ தனித்தனி படங்களாக மனப்பாடம் செய்ய வேண்டாம்",
+            "ஆரம்பத்திலேயே குறுகிய வாக்கியங்களைப் படியுங்கள்"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon எப்படி உதவுகிறது"
         },
         {
           "type": "text",
@@ -190,11 +190,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "அடுத்த படி"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "இன்றைக்கு ஒரு சிறிய இலக்கைத் தேர்ந்தெடுத்து முடிக்கவும்; நாளை மீண்டும் வாருங்கள். மீண்டும் செய்ய எளிதான பழக்கமாக இருந்தால் ஜப்பானியம் எளிதாகிறது."
         }
       ]
     },
@@ -211,8 +211,8 @@
           "answer": "spaced repetition நீண்டநாள் நினைவில் ஏன் உதவுகிறது."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Kanjidon-ல் படிக்க முடியுமா?",
+          "answer": "ஆம். Kanjidon cards, குறுகிய quiz-கள் மற்றும் spaced repetition-ஐ இணைக்கிறது; அதனால் ஒவ்வொரு review-க்கும் தெளிவான நோக்கம் இருக்கும்."
         }
       ],
       "sections": [
@@ -223,7 +223,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Memory needs timing"
+          "content": "நினைவுக்கு சரியான நேரம் தேவை"
         },
         {
           "type": "text",
@@ -232,22 +232,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "A simple SRS routine"
+          "content": "எளிய SRS routine"
         },
         {
           "type": "list",
           "items": [
-            "Review before forgetting",
-            "Keep sessions short",
-            "Mark weak cards honestly",
-            "Mix meaning and readings",
-            "Trust consistency over cramming"
+            "மறப்பதற்கு முன் review செய்யுங்கள்",
+            "sessions-ஐ குறுகியதாக வைத்துக்கொள்ளுங்கள்",
+            "பலவீனமான cards-ஐ நேர்மையாக குறியிடுங்கள்",
+            "அர்த்தமும் readings-உம் சேர்த்து பயிற்சி செய்யுங்கள்",
+            "cramming-ஐ விட consistency-ஐ நம்புங்கள்"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon எப்படி உதவுகிறது"
         },
         {
           "type": "text",
@@ -256,11 +256,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "அடுத்த படி"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "இன்றைக்கு ஒரு சிறிய இலக்கைத் தேர்ந்தெடுத்து முடிக்கவும்; நாளை மீண்டும் வாருங்கள். மீண்டும் செய்ய எளிதான பழக்கமாக இருந்தால் ஜப்பானியம் எளிதாகிறது."
         }
       ]
     },
@@ -277,8 +277,8 @@
           "answer": "முதலில் அதிகம் வரும் 100 காஞ்சியை கற்பது வாசிப்பை எவ்வாறு வேகப்படுத்துகிறது."
         },
         {
-          "question": "Should I learn frequent kanji first?",
-          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+          "question": "அதிகம் பயன்படும் kanji-களை முதலில் கற்க வேண்டுமா?",
+          "answer": "ஆம். frequency வாசிப்பில் விரைவான வெற்றியைத் தருகிறது; அடுத்த kanji-களை இணைத்துப் புரிந்துகொள்வதும் எளிதாகிறது."
         }
       ],
       "sections": [
@@ -298,7 +298,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Examples to notice early"
+          "content": "ஆரம்பத்திலேயே கவனிக்க வேண்டிய உதாரணங்கள்"
         },
         {
           "type": "list",
@@ -316,11 +316,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Kanjidon எப்படி உதவுகிறது"
         },
         {
           "type": "text",
-          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+          "content": "Kanjidon அதிகம் வரும் kanji-களை cards-ஆக மாற்றி SRS மூலம் மீண்டும் காட்டுகிறது; அதனால் முதலில் கற்ற குறியீடுகள் இயல்பாக உணரப்படும் வரை திரும்பத் திரும்ப வரும்."
         }
       ]
     }

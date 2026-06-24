@@ -13,8 +13,8 @@
           "answer": "Радикали, SRS, мнемоніка, контекст і письмо для стабільного прогресу."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Чи можна вчитися з Kanjidon?",
+          "answer": "Так. Kanjidon поєднує картки, короткі quiz-и та інтервальне повторення, щоб кожне повторення мало чітку мету."
         }
       ],
       "sections": [
@@ -25,7 +25,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Why method matters"
+          "content": "Чому метод має значення"
         },
         {
           "type": "text",
@@ -34,22 +34,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "5 practical steps"
+          "content": "5 практичних кроків"
         },
         {
           "type": "list",
           "items": [
-            "Learn radicals before complex kanji",
-            "Use SRS every day",
-            "Create a visual story",
-            "Read the kanji in context",
-            "Write only when it helps memory"
+            "Вивчи радикали перед складними kanji",
+            "Користуйся SRS щодня",
+            "Створи візуальну історію",
+            "Читай kanji в контексті",
+            "Пиши лише тоді, коли це допомагає пам’яті"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Як допомагає Kanjidon"
         },
         {
           "type": "text",
@@ -58,11 +58,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Наступний крок"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Обери одну невелику ціль на сьогодні, виконай її й повернися завтра. Японська стає легшою, коли звичку просто повторювати."
         }
       ]
     },
@@ -79,8 +79,8 @@
           "answer": "Орієнтовні числа для N5-N1 і практичний план навчання."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Чи можна вчитися з Kanjidon?",
+          "answer": "Так. Kanjidon поєднує картки, короткі quiz-и та інтервальне повторення, щоб кожне повторення мало чітку мету."
         }
       ],
       "sections": [
@@ -91,7 +91,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "JLPT levels are milestones"
+          "content": "Рівні JLPT — це орієнтири"
         },
         {
           "type": "text",
@@ -100,22 +100,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How to plan"
+          "content": "Як планувати"
         },
         {
           "type": "list",
           "items": [
-            "N5: about 80 kanji",
-            "N4: about 240 total",
-            "N3: about 620 total",
-            "N2: about 1,000 total",
-            "N1: about 2,136 common kanji"
+            "N5: приблизно 80 kanji",
+            "N4: приблизно 240 загалом",
+            "N3: приблизно 620 загалом",
+            "N2: приблизно 1 000 загалом",
+            "N1: приблизно 2 136 поширених kanji"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Як допомагає Kanjidon"
         },
         {
           "type": "text",
@@ -124,11 +124,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Наступний крок"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Обери одну невелику ціль на сьогодні, виконай її й повернися завтра. Японська стає легшою, коли звичку просто повторювати."
         }
       ]
     },
@@ -145,8 +145,8 @@
           "answer": "Три системи японського письма і правильний порядок старту."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Чи можна вчитися з Kanjidon?",
+          "answer": "Так. Kanjidon поєднує картки, короткі quiz-и та інтервальне повторення, щоб кожне повторення мало чітку мету."
         }
       ],
       "sections": [
@@ -157,7 +157,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Three scripts, one language"
+          "content": "Три письма, одна мова"
         },
         {
           "type": "text",
@@ -166,22 +166,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Learning order"
+          "content": "Порядок навчання"
         },
         {
           "type": "list",
           "items": [
-            "Start with hiragana",
-            "Add katakana for loanwords",
-            "Use kanji with vocabulary",
-            "Do not learn kanji as isolated drawings",
-            "Read short sentences early"
+            "Почни з hiragana",
+            "Додай katakana для запозичень",
+            "Вчи kanji разом зі словами",
+            "Не вчи kanji як окремі малюнки",
+            "Рано переходь до коротких речень"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Як допомагає Kanjidon"
         },
         {
           "type": "text",
@@ -190,11 +190,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Наступний крок"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Обери одну невелику ціль на сьогодні, виконай її й повернися завтра. Японська стає легшою, коли звичку просто повторювати."
         }
       ]
     },
@@ -211,8 +211,8 @@
           "answer": "Чому інтервальне повторення допомагає запам’ятовувати надовго."
         },
         {
-          "question": "Can I study with Kanjidon?",
-          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+          "question": "Чи можна вчитися з Kanjidon?",
+          "answer": "Так. Kanjidon поєднує картки, короткі quiz-и та інтервальне повторення, щоб кожне повторення мало чітку мету."
         }
       ],
       "sections": [
@@ -223,7 +223,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Memory needs timing"
+          "content": "Пам’яті потрібен правильний момент"
         },
         {
           "type": "text",
@@ -232,22 +232,22 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "A simple SRS routine"
+          "content": "Проста SRS-рутина"
         },
         {
           "type": "list",
           "items": [
-            "Review before forgetting",
-            "Keep sessions short",
-            "Mark weak cards honestly",
-            "Mix meaning and readings",
-            "Trust consistency over cramming"
+            "Повторюй до того, як забудеш",
+            "Тримай сесії короткими",
+            "Чесно позначай слабкі картки",
+            "Змішуй значення й читання",
+            "Довіряй регулярності, а не зубрінню"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Як допомагає Kanjidon"
         },
         {
           "type": "text",
@@ -256,11 +256,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Next step"
+          "content": "Наступний крок"
         },
         {
           "type": "text",
-          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+          "content": "Обери одну невелику ціль на сьогодні, виконай її й повернися завтра. Японська стає легшою, коли звичку просто повторювати."
         }
       ]
     },
@@ -277,8 +277,8 @@
           "answer": "Чому перші 100 частотних кандзі швидко відкривають читання, знаки й базову лексику."
         },
         {
-          "question": "Should I learn frequent kanji first?",
-          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+          "question": "Чи варто спершу вчити часті kanji?",
+          "answer": "Так. Частотність дає швидші перемоги в читанні й допомагає легше пов’язувати наступні kanji."
         }
       ],
       "sections": [
@@ -298,7 +298,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Examples to notice early"
+          "content": "Приклади, які варто помітити рано"
         },
         {
           "type": "list",
@@ -316,11 +316,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "How Kanjidon helps"
+          "content": "Як допомагає Kanjidon"
         },
         {
           "type": "text",
-          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+          "content": "Kanjidon перетворює часті kanji на картки й повторює їх через SRS, тому перші символи повертаються знову й знову, доки не стають природними."
         }
       ]
     }
