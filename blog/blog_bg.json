@@ -1,0 +1,328 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "kak-da-uchim-kanji",
+      "title": "Как да учим канджи: 5 работещи метода",
+      "meta_description": "Радикали, SRS, мнемоники, контекст и писане за стабилно учене.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, kak da uchim kanji",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Как да учим канджи: 5 работещи метода",
+          "answer": "Радикали, SRS, мнемоники, контекст и писане за стабилно учене."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Започни с малко, но повтаряй редовно. Гледай компонентите на канджи и ги свързвай с реални примери, не само със списъци."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Why method matters"
+        },
+        {
+          "type": "text",
+          "content": "Добър план комбинира разпознаване, значение и навременно повторение. Ако добавиш твърде много знаци наведнъж, паметта се претоварва."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5 practical steps"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Learn radicals before complex kanji",
+            "Use SRS every day",
+            "Create a visual story",
+            "Read the kanji in context",
+            "Write only when it helps memory"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon превръща тази рутина в карти, кратки quiz-ове и ясна обратна връзка, така че да се връщаш всеки ден."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "how-many-kanji-jlpt",
+      "slug": "kolko-kanji-za-jlpt",
+      "title": "Колко канджи трябват за JLPT?",
+      "meta_description": "Ориентировъчни бройки за N5-N1 и практичен план.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, kolko kanji za jlpt",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Колко канджи трябват за JLPT?",
+          "answer": "Ориентировъчни бройки за N5-N1 и практичен план."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Започни с малко, но повтаряй редовно. Гледай компонентите на канджи и ги свързвай с реални примери, не само със списъци."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT levels are milestones"
+        },
+        {
+          "type": "text",
+          "content": "Добър план комбинира разпознаване, значение и навременно повторение. Ако добавиш твърде много знаци наведнъж, паметта се претоварва."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to plan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "N5: about 80 kanji",
+            "N4: about 240 total",
+            "N3: about 620 total",
+            "N2: about 1,000 total",
+            "N1: about 2,136 common kanji"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon превръща тази рутина в карти, кратки quiz-ове и ясна обратна връзка, така че да се връщаш всеки ден."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji-differences",
+      "slug": "hiragana-katakana-kanji-razliki",
+      "title": "Hiragana, Katakana и Kanji: разликите",
+      "meta_description": "Как работят трите японски писмени системи и откъде да започнеш.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, hiragana katakana kanji razliki",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Hiragana, Katakana и Kanji: разликите",
+          "answer": "Как работят трите японски писмени системи и откъде да започнеш."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Започни с малко, но повтаряй редовно. Гледай компонентите на канджи и ги свързвай с реални примери, не само със списъци."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Three scripts, one language"
+        },
+        {
+          "type": "text",
+          "content": "Добър план комбинира разпознаване, значение и навременно повторение. Ако добавиш твърде много знаци наведнъж, паметта се претоварва."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Learning order"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start with hiragana",
+            "Add katakana for loanwords",
+            "Use kanji with vocabulary",
+            "Do not learn kanji as isolated drawings",
+            "Read short sentences early"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon превръща тази рутина в карти, кратки quiz-ове и ясна обратна връзка, така че да се връщаш всеки ден."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-kanji",
+      "slug": "srs-za-kanji",
+      "title": "Как SRS помага при канджи",
+      "meta_description": "Защо разпределеното повторение прави запаметяването по-сигурно.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, srs za kanji",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Как SRS помага при канджи",
+          "answer": "Защо разпределеното повторение прави запаметяването по-сигурно."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Започни с малко, но повтаряй редовно. Гледай компонентите на канджи и ги свързвай с реални примери, не само със списъци."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Memory needs timing"
+        },
+        {
+          "type": "text",
+          "content": "Добър план комбинира разпознаване, значение и навременно повторение. Ако добавиш твърде много знаци наведнъж, паметта се претоварва."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "A simple SRS routine"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Review before forgetting",
+            "Keep sessions short",
+            "Mark weak cards honestly",
+            "Mix meaning and readings",
+            "Trust consistency over cramming"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon превръща тази рутина в карти, кратки quiz-ове и ясна обратна връзка, така че да се връщаш всеки ден."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "100-most-used-kanji",
+      "slug": "100-nai-izpolzvani-kanji",
+      "title": "100-те най-използвани канджи",
+      "meta_description": "Защо най-честите 100 канджи са най-добрият старт за четене и JLPT.",
+      "keywords": "100 kanji, common kanji, JLPT, Kanjidon, 100 nai izpolzvani kanji",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "100-те най-използвани канджи",
+          "answer": "Защо най-честите 100 канджи са най-добрият старт за четене и JLPT."
+        },
+        {
+          "question": "Should I learn frequent kanji first?",
+          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Защо най-честите 100 канджи са най-добрият старт за четене и JLPT."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "100-те най-използвани канджи"
+        },
+        {
+          "type": "text",
+          "content": "Frequency is a practical filter: the characters you see every day are the ones that give the fastest return. Learn them with words and short sentences, not as isolated drawings."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Examples to notice early"
+        },
+        {
+          "type": "list",
+          "items": [
+            "日 (day, sun)",
+            "人 (person)",
+            "年 (year)",
+            "大 (big)",
+            "小 (small)",
+            "中 (inside, middle)",
+            "本 (book, origin)",
+            "学 (study)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+        }
+      ]
+    }
+  ]
+}

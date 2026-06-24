@@ -1,0 +1,328 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "kanji-shiknyachya-5-paddhati",
+      "title": "कांजी शिकण्याच्या 5 प्रभावी पद्धती",
+      "meta_description": "radicals, SRS, mnemonics, context आणि लेखन सरावाची स्पष्ट योजना.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, kanji shiknyachya 5 paddhati",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "कांजी शिकण्याच्या 5 प्रभावी पद्धती",
+          "answer": "radicals, SRS, mnemonics, context आणि लेखन सरावाची स्पष्ट योजना."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "लहान गटापासून सुरुवात करा, पण नियमित पुनरावृत्ती करा. कांजीचे भाग पाहा आणि ते खऱ्या उदाहरणांशी जोडा."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Why method matters"
+        },
+        {
+          "type": "text",
+          "content": "चांगली योजना recognition, meaning आणि योग्य वेळी review यांना एकत्र ठेवते. एकाच वेळी जास्त कांजी घेतल्यास स्मरणशक्ती थकते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5 practical steps"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Learn radicals before complex kanji",
+            "Use SRS every day",
+            "Create a visual story",
+            "Read the kanji in context",
+            "Write only when it helps memory"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon ही routine cards, short quiz आणि स्पष्ट progress मध्ये बदलते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "how-many-kanji-jlpt",
+      "slug": "jlpt-sathi-kiti-kanji",
+      "title": "JLPT साठी किती कांजी लागतात?",
+      "meta_description": "N5 ते N1 पर्यंत अंदाजे कांजी संख्या आणि अभ्यास योजना.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, jlpt sathi kiti kanji",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "JLPT साठी किती कांजी लागतात?",
+          "answer": "N5 ते N1 पर्यंत अंदाजे कांजी संख्या आणि अभ्यास योजना."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "लहान गटापासून सुरुवात करा, पण नियमित पुनरावृत्ती करा. कांजीचे भाग पाहा आणि ते खऱ्या उदाहरणांशी जोडा."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT levels are milestones"
+        },
+        {
+          "type": "text",
+          "content": "चांगली योजना recognition, meaning आणि योग्य वेळी review यांना एकत्र ठेवते. एकाच वेळी जास्त कांजी घेतल्यास स्मरणशक्ती थकते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to plan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "N5: about 80 kanji",
+            "N4: about 240 total",
+            "N3: about 620 total",
+            "N2: about 1,000 total",
+            "N1: about 2,136 common kanji"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon ही routine cards, short quiz आणि स्पष्ट progress मध्ये बदलते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji-differences",
+      "slug": "hiragana-katakana-kanji-farak",
+      "title": "Hiragana, Katakana आणि Kanji: फरक काय?",
+      "meta_description": "जपानी लेखनाच्या तीन पद्धती आणि शिकण्याचा योग्य क्रम.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, hiragana katakana kanji farak",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Hiragana, Katakana आणि Kanji: फरक काय?",
+          "answer": "जपानी लेखनाच्या तीन पद्धती आणि शिकण्याचा योग्य क्रम."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "लहान गटापासून सुरुवात करा, पण नियमित पुनरावृत्ती करा. कांजीचे भाग पाहा आणि ते खऱ्या उदाहरणांशी जोडा."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Three scripts, one language"
+        },
+        {
+          "type": "text",
+          "content": "चांगली योजना recognition, meaning आणि योग्य वेळी review यांना एकत्र ठेवते. एकाच वेळी जास्त कांजी घेतल्यास स्मरणशक्ती थकते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Learning order"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start with hiragana",
+            "Add katakana for loanwords",
+            "Use kanji with vocabulary",
+            "Do not learn kanji as isolated drawings",
+            "Read short sentences early"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon ही routine cards, short quiz आणि स्पष्ट progress मध्ये बदलते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-kanji",
+      "slug": "srs-kanji-kase-kam-karto",
+      "title": "SRS कांजीसाठी कसे काम करते?",
+      "meta_description": "spaced repetition दीर्घकालीन स्मरणशक्तीला का मदत करते.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, srs kanji kase kam karto",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "SRS कांजीसाठी कसे काम करते?",
+          "answer": "spaced repetition दीर्घकालीन स्मरणशक्तीला का मदत करते."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "लहान गटापासून सुरुवात करा, पण नियमित पुनरावृत्ती करा. कांजीचे भाग पाहा आणि ते खऱ्या उदाहरणांशी जोडा."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Memory needs timing"
+        },
+        {
+          "type": "text",
+          "content": "चांगली योजना recognition, meaning आणि योग्य वेळी review यांना एकत्र ठेवते. एकाच वेळी जास्त कांजी घेतल्यास स्मरणशक्ती थकते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "A simple SRS routine"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Review before forgetting",
+            "Keep sessions short",
+            "Mark weak cards honestly",
+            "Mix meaning and readings",
+            "Trust consistency over cramming"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon ही routine cards, short quiz आणि स्पष्ट progress मध्ये बदलते."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "100-most-used-kanji",
+      "slug": "sarvadhik-vaparle-100-kanji",
+      "title": "सर्वाधिक वापरले जाणारे 100 कांजी",
+      "meta_description": "सर्वात common 100 कांजी आधी शिकल्याने वाचन आणि JLPT पाया कसा मजबूत होतो.",
+      "keywords": "100 kanji, common kanji, JLPT, Kanjidon, sarvadhik vaparle 100 kanji",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "सर्वाधिक वापरले जाणारे 100 कांजी",
+          "answer": "सर्वात common 100 कांजी आधी शिकल्याने वाचन आणि JLPT पाया कसा मजबूत होतो."
+        },
+        {
+          "question": "Should I learn frequent kanji first?",
+          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "सर्वात common 100 कांजी आधी शिकल्याने वाचन आणि JLPT पाया कसा मजबूत होतो."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "सर्वाधिक वापरले जाणारे 100 कांजी"
+        },
+        {
+          "type": "text",
+          "content": "Frequency is a practical filter: the characters you see every day are the ones that give the fastest return. Learn them with words and short sentences, not as isolated drawings."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Examples to notice early"
+        },
+        {
+          "type": "list",
+          "items": [
+            "日 (day, sun)",
+            "人 (person)",
+            "年 (year)",
+            "大 (big)",
+            "小 (small)",
+            "中 (inside, middle)",
+            "本 (book, origin)",
+            "学 (study)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+        }
+      ]
+    }
+  ]
+}

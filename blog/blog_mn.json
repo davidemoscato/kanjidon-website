@@ -1,0 +1,328 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "kanji-sulah-5-arga",
+      "title": "Канджи сурах 5 арга",
+      "meta_description": "Канджиг системтэй сурах 5 арга: радикал, SRS, mnemonics, контекст, бичих дасгал.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, kanji sulah 5 arga",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Канджи сурах 5 арга",
+          "answer": "Канджиг системтэй сурах 5 арга: радикал, SRS, mnemonics, контекст, бичих дасгал."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Багаас эхэл, гэхдээ тогтмол давт. Канджийн бүрдэл хэсгийг ажиглаж, бодит жишээтэй холбовол илүү хурдан тогтоно."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Why method matters"
+        },
+        {
+          "type": "text",
+          "content": "Сайн төлөвлөгөө таних чадвар, утга, зөв цагийн давталтыг нэгтгэдэг. Нэг дор хэт олон тэмдэг нэмэх нь ой санамжийг ядраадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5 practical steps"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Learn radicals before complex kanji",
+            "Use SRS every day",
+            "Create a visual story",
+            "Read the kanji in context",
+            "Write only when it helps memory"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon энэ дадлыг карт, богино quiz, шууд ахицын мэдрэмж болгон хувиргадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "how-many-kanji-jlpt",
+      "slug": "jlpt-kanji-too",
+      "title": "JLPT-д хэдэн канджи хэрэгтэй вэ?",
+      "meta_description": "N5-аас N1 хүртэл ойролцоогоор хэдэн канджи хэрэгтэй, яаж төлөвлөхийг тайлбарлав.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, jlpt kanji too",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "JLPT-д хэдэн канджи хэрэгтэй вэ?",
+          "answer": "N5-аас N1 хүртэл ойролцоогоор хэдэн канджи хэрэгтэй, яаж төлөвлөхийг тайлбарлав."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Багаас эхэл, гэхдээ тогтмол давт. Канджийн бүрдэл хэсгийг ажиглаж, бодит жишээтэй холбовол илүү хурдан тогтоно."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT levels are milestones"
+        },
+        {
+          "type": "text",
+          "content": "Сайн төлөвлөгөө таних чадвар, утга, зөв цагийн давталтыг нэгтгэдэг. Нэг дор хэт олон тэмдэг нэмэх нь ой санамжийг ядраадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to plan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "N5: about 80 kanji",
+            "N4: about 240 total",
+            "N3: about 620 total",
+            "N2: about 1,000 total",
+            "N1: about 2,136 common kanji"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon энэ дадлыг карт, богино quiz, шууд ахицын мэдрэмж болгон хувиргадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji-differences",
+      "slug": "hiragana-katakana-kanji-yalgaa",
+      "title": "Hiragana, Katakana, Kanji: ялгаа нь юу вэ?",
+      "meta_description": "Япон бичгийн гурван системийг ямар дарааллаар сурах вэ.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, hiragana katakana kanji yalgaa",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Hiragana, Katakana, Kanji: ялгаа нь юу вэ?",
+          "answer": "Япон бичгийн гурван системийг ямар дарааллаар сурах вэ."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Багаас эхэл, гэхдээ тогтмол давт. Канджийн бүрдэл хэсгийг ажиглаж, бодит жишээтэй холбовол илүү хурдан тогтоно."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Three scripts, one language"
+        },
+        {
+          "type": "text",
+          "content": "Сайн төлөвлөгөө таних чадвар, утга, зөв цагийн давталтыг нэгтгэдэг. Нэг дор хэт олон тэмдэг нэмэх нь ой санамжийг ядраадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Learning order"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start with hiragana",
+            "Add katakana for loanwords",
+            "Use kanji with vocabulary",
+            "Do not learn kanji as isolated drawings",
+            "Read short sentences early"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon энэ дадлыг карт, богино quiz, шууд ахицын мэдрэмж болгон хувиргадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-kanji",
+      "slug": "srs-kanji-ajilladag",
+      "title": "SRS канджи сурахад яаж ажилладаг вэ?",
+      "meta_description": "Интервалтай давталт канджиг урт хугацаанд тогтоодог шалтгаан.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, srs kanji ajilladag",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "SRS канджи сурахад яаж ажилладаг вэ?",
+          "answer": "Интервалтай давталт канджиг урт хугацаанд тогтоодог шалтгаан."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Багаас эхэл, гэхдээ тогтмол давт. Канджийн бүрдэл хэсгийг ажиглаж, бодит жишээтэй холбовол илүү хурдан тогтоно."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Memory needs timing"
+        },
+        {
+          "type": "text",
+          "content": "Сайн төлөвлөгөө таних чадвар, утга, зөв цагийн давталтыг нэгтгэдэг. Нэг дор хэт олон тэмдэг нэмэх нь ой санамжийг ядраадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "A simple SRS routine"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Review before forgetting",
+            "Keep sessions short",
+            "Mark weak cards honestly",
+            "Mix meaning and readings",
+            "Trust consistency over cramming"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon энэ дадлыг карт, богино quiz, шууд ахицын мэдрэмж болгон хувиргадаг."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "100-most-used-kanji",
+      "slug": "japond-hamgiin-tugeemel-100-kanji",
+      "title": "Японд хамгийн түгээмэл 100 канджи",
+      "meta_description": "Өдөр тутмын япон хэлэнд хамгийн их гардаг 100 канджиг эхлээд сурах нь яагаад үр дүнтэй вэ.",
+      "keywords": "100 kanji, common kanji, JLPT, Kanjidon, japond hamgiin tugeemel 100 kanji",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Японд хамгийн түгээмэл 100 канджи",
+          "answer": "Өдөр тутмын япон хэлэнд хамгийн их гардаг 100 канджиг эхлээд сурах нь яагаад үр дүнтэй вэ."
+        },
+        {
+          "question": "Should I learn frequent kanji first?",
+          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Өдөр тутмын япон хэлэнд хамгийн их гардаг 100 канджиг эхлээд сурах нь яагаад үр дүнтэй вэ."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Японд хамгийн түгээмэл 100 канджи"
+        },
+        {
+          "type": "text",
+          "content": "Frequency is a practical filter: the characters you see every day are the ones that give the fastest return. Learn them with words and short sentences, not as isolated drawings."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Examples to notice early"
+        },
+        {
+          "type": "list",
+          "items": [
+            "日 (day, sun)",
+            "人 (person)",
+            "年 (year)",
+            "大 (big)",
+            "小 (small)",
+            "中 (inside, middle)",
+            "本 (book, origin)",
+            "学 (study)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+        }
+      ]
+    }
+  ]
+}

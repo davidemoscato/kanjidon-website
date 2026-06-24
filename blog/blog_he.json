@@ -1,0 +1,328 @@
+{
+  "articles": [
+    {
+      "id": "how-to-learn-kanji",
+      "slug": "ech-lilmod-kanji",
+      "title": "איך ללמוד קנג׳י: 5 שיטות שעובדות",
+      "meta_description": "רדיקלים, SRS, זיכרון חזותי, הקשר וכתיבה בתוכנית אחת.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, ech lilmod kanji",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "איך ללמוד קנג׳י: 5 שיטות שעובדות",
+          "answer": "רדיקלים, SRS, זיכרון חזותי, הקשר וכתיבה בתוכנית אחת."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "מתחילים בקטן, אבל חוזרים בקביעות. כדאי לראות את החלקים של כל קנג׳י ולחבר אותם לדוגמאות אמיתיות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Why method matters"
+        },
+        {
+          "type": "text",
+          "content": "תוכנית טובה משלבת זיהוי, משמעות וחזרה בזמן הנכון. יותר מדי סימנים חדשים בבת אחת מעמיסים על הזיכרון."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5 practical steps"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Learn radicals before complex kanji",
+            "Use SRS every day",
+            "Create a visual story",
+            "Read the kanji in context",
+            "Write only when it helps memory"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon הופך את השגרה הזו לכרטיסים, quiz קצרים והתקדמות שקל לראות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "how-many-kanji-jlpt",
+      "slug": "kama-kanji-le-jlpt",
+      "title": "כמה קנג׳י צריך ל-JLPT?",
+      "meta_description": "מספרים משוערים מ-N5 עד N1 ותוכנית לימוד מעשית.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, kama kanji le jlpt",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "כמה קנג׳י צריך ל-JLPT?",
+          "answer": "מספרים משוערים מ-N5 עד N1 ותוכנית לימוד מעשית."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "מתחילים בקטן, אבל חוזרים בקביעות. כדאי לראות את החלקים של כל קנג׳י ולחבר אותם לדוגמאות אמיתיות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "JLPT levels are milestones"
+        },
+        {
+          "type": "text",
+          "content": "תוכנית טובה משלבת זיהוי, משמעות וחזרה בזמן הנכון. יותר מדי סימנים חדשים בבת אחת מעמיסים על הזיכרון."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to plan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "N5: about 80 kanji",
+            "N4: about 240 total",
+            "N3: about 620 total",
+            "N2: about 1,000 total",
+            "N1: about 2,136 common kanji"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon הופך את השגרה הזו לכרטיסים, quiz קצרים והתקדמות שקל לראות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji-differences",
+      "slug": "hiragana-katakana-kanji-hevdel",
+      "title": "Hiragana, Katakana ו-Kanji: מה ההבדל?",
+      "meta_description": "שלוש מערכות הכתיבה היפניות ומה כדאי ללמוד קודם.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, hiragana katakana kanji hevdel",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Hiragana, Katakana ו-Kanji: מה ההבדל?",
+          "answer": "שלוש מערכות הכתיבה היפניות ומה כדאי ללמוד קודם."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "מתחילים בקטן, אבל חוזרים בקביעות. כדאי לראות את החלקים של כל קנג׳י ולחבר אותם לדוגמאות אמיתיות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Three scripts, one language"
+        },
+        {
+          "type": "text",
+          "content": "תוכנית טובה משלבת זיהוי, משמעות וחזרה בזמן הנכון. יותר מדי סימנים חדשים בבת אחת מעמיסים על הזיכרון."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Learning order"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start with hiragana",
+            "Add katakana for loanwords",
+            "Use kanji with vocabulary",
+            "Do not learn kanji as isolated drawings",
+            "Read short sentences early"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon הופך את השגרה הזו לכרטיסים, quiz קצרים והתקדמות שקל לראות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-kanji",
+      "slug": "srs-kanji-eich-oved",
+      "title": "איך SRS עובד ללימוד קנג׳י",
+      "meta_description": "למה חזרה מרווחת מחזקת זיכרון לטווח ארוך.",
+      "keywords": "kanji, JLPT, japanese, Kanjidon, srs kanji eich oved",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "איך SRS עובד ללימוד קנג׳י",
+          "answer": "למה חזרה מרווחת מחזקת זיכרון לטווח ארוך."
+        },
+        {
+          "question": "Can I study with Kanjidon?",
+          "answer": "Yes. Kanjidon combines cards, quizzes and spaced repetition so every review has a clear purpose."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "מתחילים בקטן, אבל חוזרים בקביעות. כדאי לראות את החלקים של כל קנג׳י ולחבר אותם לדוגמאות אמיתיות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Memory needs timing"
+        },
+        {
+          "type": "text",
+          "content": "תוכנית טובה משלבת זיהוי, משמעות וחזרה בזמן הנכון. יותר מדי סימנים חדשים בבת אחת מעמיסים על הזיכרון."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "A simple SRS routine"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Review before forgetting",
+            "Keep sessions short",
+            "Mark weak cards honestly",
+            "Mix meaning and readings",
+            "Trust consistency over cramming"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon הופך את השגרה הזו לכרטיסים, quiz קצרים והתקדמות שקל לראות."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Next step"
+        },
+        {
+          "type": "text",
+          "content": "Choose one small goal for today, finish it, and come back tomorrow. Japanese becomes easier when the habit is light enough to repeat."
+        }
+      ]
+    },
+    {
+      "id": "100-most-used-kanji",
+      "slug": "100-kanji-hanefotzim",
+      "title": "100 הקנג׳י הנפוצים ביותר",
+      "meta_description": "למה כדאי להתחיל מ-100 הקנג׳י הנפוצים כדי לפתוח קריאה בסיסית ו-JLPT.",
+      "keywords": "100 kanji, common kanji, JLPT, Kanjidon, 100 kanji hanefotzim",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "100 הקנג׳י הנפוצים ביותר",
+          "answer": "למה כדאי להתחיל מ-100 הקנג׳י הנפוצים כדי לפתוח קריאה בסיסית ו-JLPT."
+        },
+        {
+          "question": "Should I learn frequent kanji first?",
+          "answer": "Yes. Frequency gives you faster reading wins and makes later kanji easier to connect."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "למה כדאי להתחיל מ-100 הקנג׳י הנפוצים כדי לפתוח קריאה בסיסית ו-JLPT."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "100 הקנג׳י הנפוצים ביותר"
+        },
+        {
+          "type": "text",
+          "content": "Frequency is a practical filter: the characters you see every day are the ones that give the fastest return. Learn them with words and short sentences, not as isolated drawings."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Examples to notice early"
+        },
+        {
+          "type": "list",
+          "items": [
+            "日 (day, sun)",
+            "人 (person)",
+            "年 (year)",
+            "大 (big)",
+            "小 (small)",
+            "中 (inside, middle)",
+            "本 (book, origin)",
+            "学 (study)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Kanjidon helps"
+        },
+        {
+          "type": "text",
+          "content": "Kanjidon turns frequent kanji into cards and reviews them with SRS, so the first symbols you learn keep appearing until they feel natural."
+        }
+      ]
+    }
+  ]
+}
