@@ -1,15 +1,18 @@
-<!doctype html>
-<html lang="km" dir="ltr">
+<!DOCTYPE html>
+<html lang="km">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
-    <title>Kanjidon - រៀន kanji ជប៉ុនជាមួយកាត SRS និង JLPT</title>
-    <meta name="description" content="រៀន kanji ដោយបើកកាត ប្រើ quiz ឆ្លាតវៃ និង spaced repetition។">
-    <meta name="keywords" content="kanji, JLPT, Japanese, flashcards, SRS, Kanjidon">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://kanjidon.com/km/">
-    <link rel="alternate" hreflang="en" href="https://kanjidon.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>(function(){var ua=navigator.userAgent||"";var cls="is-desktop";if(/android/i.test(ua))cls="is-android";else if(/iphone|ipad|ipod/i.test(ua)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1))cls="is-ios";document.documentElement.classList.add(cls);})();</script><link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../assets/fonts/nunito-500.woff2') format('woff2')}@font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../assets/fonts/nunito-700.woff2') format('woff2')}@font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../assets/fonts/nunito-800.woff2') format('woff2')}@font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}</style>
+<title>Kanjidon - រៀន kanji ជប៉ុនជាមួយកាត SRS និង JLPT</title>
+<meta name="description" content="រៀន kanji ដោយបើកកាត ប្រើ quiz ឆ្លាតវៃ និង spaced repetition។">
+<meta name="keywords" content="kanji, JLPT, Japanese, flashcards, SRS, Kanjidon">
+<meta name="author" content="Kanjidon Team">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://kanjidon.com/km/">    <link rel="alternate" hreflang="en" href="https://kanjidon.com/">
     <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
     <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
     <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
@@ -47,187 +50,322 @@
     <link rel="alternate" hreflang="mr" href="https://kanjidon.com/mr/">
     <link rel="alternate" hreflang="te" href="https://kanjidon.com/te/">
     <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/">
-    <meta property="og:title" content="Kanjidon - រៀន kanji ជប៉ុនជាមួយកាត SRS និង JLPT">
-    <meta property="og:description" content="រៀន kanji ដោយបើកកាត ប្រើ quiz ឆ្លាតវៃ និង spaced repetition។">
-    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
-    <meta property="og:url" content="https://kanjidon.com/km/">
-    <meta property="og:type" content="website">
-    <link rel="icon" href="/favicon.ico" sizes="32x32">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#F47932">
-    <link rel="stylesheet" href="../styles.css?v=20260625-homeblogfix">
+<meta property="og:title" content="Kanjidon - រៀន kanji ជប៉ុនជាមួយកាត SRS និង JLPT">
+<meta property="og:description" content="រៀន kanji ដោយបើកកាត ប្រើ quiz ឆ្លាតវៃ និង spaced repetition។">
+<meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+<meta property="og:url" content="https://kanjidon.com/km/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kanjidon">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kanjidon - រៀន kanji ជប៉ុនជាមួយកាត SRS និង JLPT">
+<meta name="twitter:description" content="រៀន kanji ដោយបើកកាត ប្រើ quiz ឆ្លាតវៃ និង spaced repetition។">
+<meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#F47932">
+<link rel="stylesheet" href="../styles.css?v=20260625-fullhomefix">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Kanjidon", "operatingSystem": "iOS, Android", "applicationCategory": "EducationalApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "description": "រៀន kanji ដោយបើកកាត ប្រើ quiz ឆ្លាតវៃ និង spaced repetition។", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "1", "ratingCount": "500"}, "author": {"@type": "Organization", "name": "Kanjidon Team"}, "inLanguage": ["en", "it", "fr", "es", "de", "pt", "ru", "ko", "zh", "zh-TW", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil", "mn", "ro", "bg", "ne", "my", "bn", "uk", "uz", "si", "ta", "ur", "hu", "he", "km", "kn", "mr", "te"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Kanjidon","url":"https://kanjidon.com","contactPoint":{"@type":"ContactPoint","email":"info@kanjidon.com","contactType":"customer support","availableLanguage":["Italian","English"]},"founder":{"@type":"Organization","name":"Kanjidon Team"},"address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Kanjidon ជាអ្វី?", "acceptedAnswer": {"@type": "Answer", "text": "Kanjidon បម្លែងការរៀន kanji ឲ្យក្លាយជាបទពិសោធន៍រៀនដូចលេងហ្គេម។ Kanji នីមួយៗក្លាយជា card សម្រាប់ប្រមូល ហើយ តេស្ត នីមួយៗជួយពង្រឹងការចងចាំតាម spaced repetition (SRS)។ អ្នកអាចបើក packs ធ្វើ តេស្ត រៀន មេរៀន និងតាមដានវឌ្ឍនភាពដោយ stats លម្អិត។ មិនថាអ្នកទើបចាប់ផ្តើម ឬមានបទពិសោធន៍ភាសាជប៉ុនរួចហើយ Kanjidon ធ្វើឲ្យការរៀនកាន់តែสนุก និងមានរង្វាន់។"}}, {"@type": "Question", "name": "Kanjidon សប្បាយទេ?", "acceptedAnswer": {"@type": "Answer", "text": "សប្បាយ។ Kanjidon បម្លែង kanji ទៅជា collectible cards ដែលមានរូបរាងពិសេសៗ ដូចហ្គេមកាត។ Kanji នីមួយៗមាន rarity ហើយការប្រមូលវាជួយឲ្យអ្នកឡើង level រហូតដល់ 50។ Missions, រង្វាន់ និង global leaderboard បន្ថែមអារម្មណ៍ប្រកួតប្រជែង ខណៈ SRS ធ្វើឲ្យអ្នករៀនពិតៗ ដោយមិនស្ត្រេស។ វាជាការរៀនដែលមានអារម្មណ៍ដូចលេងហ្គេម។"}}, {"@type": "Question", "name": "មាន kanji ប៉ុន្មាន?", "acceptedAnswer": {"@type": "Answer", "text": "នៅក្នុង Kanjidon មាន collectible cards រាប់ពាន់ ហើយ library កំពុងបន្តធំឡើងរាល់ខែ។ វាគ្របដណ្តប់ kanji និងពាក្យដែលអ្នកត្រូវការសម្រាប់ជីវិតប្រចាំថ្ងៃ ការធ្វើដំណើរ ការងារ manga និងការត្រៀម JLPT។"}}, {"@type": "Question", "name": "Kanjidon សម្រាប់តែ kanji មែនទេ?", "acceptedAnswer": {"@type": "Answer", "text": "មិនមែនទេ។ Kanjidon ត្រូវបានរចនាឡើងដើម្បីជួយការរៀនភាសាជប៉ុនរបស់អ្នកទាំងមូល។ ក្រៅពី kanji cards អ្នកក៏នឹងឃើញ hiragana, katakana, vocabulary និង grammar content ផងដែរ។"}}, {"@type": "Question", "name": "ខ្ញុំប្រមូល cards ដោយរបៀបណា?", "acceptedAnswer": {"@type": "Answer", "text": "អ្នកប្រមូល cards ដោយបើក packs។ មាន pack ជាច្រើនប្រភេទ ចាប់ផ្តើមពី N5។ Pack នីមួយៗមាន 4 ឬ 6 cards ដែលនឹងត្រូវបន្ថែមទៅក្នុង Collection របស់អ្នកដោយស្វ័យប្រវត្តិ។"}}, {"@type": "Question", "name": "Kanjidon មានជាភាសាប៉ុន្មាន?", "acceptedAnswer": {"@type": "Answer", "text": "Kanjidon គាំទ្រ 37 ភាសា។ អ្នកអាចប្តូរភាសាបានគ្រប់ពេលពីផ្នែកប្រវត្តិរូប។"}}, {"@type": "Question", "name": "Kanjidon ឥតគិតថ្លៃទេ?", "acceptedAnswer": {"@type": "Answer", "text": "បាទ/ចាស។ Kanjidon ឥតគិតថ្លៃ ហើយអ្នកអាចធ្វើអ្វីបានច្រើនដោយមិនចំណាយប្រាក់៖ បើក packs ធ្វើ តេស្ត ប្រមូល cards challenge មិត្តភក្តិក្នុង ការប្រកួត និងឡើង N5 Leaderboard។ ក៏មាន Kanjidon Pass ផងដែរ ដែលជាការជាវ Premium ជាជម្រើស សម្រាប់បើក extra content ដូចជា ថាមពល មិនកំណត់ មេរៀន ទាំងអស់ និង Leagues ទាំងអស់។"}}, {"@type": "Question", "name": "ត្រូវចេះភាសាជប៉ុនជាមុនទេ?", "acceptedAnswer": {"@type": "Answer", "text": "មិនចាំបាច់ទេ។ Kanjidon សម្រាប់គ្រប់គ្នា។ បើអ្នកចាប់ផ្តើមពីសូន្យ សូមចាប់ផ្តើមពី Kana packs ដើម្បីរៀន hiragana និង katakana ដែលជាអក្សរមូលដ្ឋានពីររបស់ជប៉ុន។ បន្ទាប់ពី Kana សូមបន្តទៅ N5 packs សម្រាប់ kanji ដែលជួបញឹកញាប់បំផុត។ Kanjidon នាំអ្នកមួយជំហានម្តងៗ ពី beginner ទៅ expert។"}}]}</script>
 </head>
 <body>
-<nav class="navbar"><div class="nav-container"><a href="./" class="nav-brand"><img src="../assets/images/icona.png" alt="Kanjidon" class="logo-icon"><span>Kanjidon</span></a><div class="nav-links"><a href="#features">មុខងារ</a><a href="blog/">ប្លុក</a><a href="faq/">FAQ</a><a href="#download" class="btn btn-primary btn-sm"><strong>ទាញយកឥតគិតថ្លៃ</strong></a></div></div></nav>
-<main>
-<section class="hero"><div class="container hero-content"><div class="hero-text"><h1>ចេះ kanji ឲ្យប្រាកដ។<br><span>មិនធុញទ្រាន់។</span></h1><p class="hero-subtitle">កុំចាំបាច់ទន្ទេញបញ្ជីវែងៗ។ Kanjidon បម្លែង kanji ទៅជាកាតប្រមូល quiz ខ្លីៗ និង SRS ដើម្បីចងចាំបានយូរ។</p><div class="hero-cta"><a href="#download" class="btn btn-primary btn-lg">យក packs 3 ដំបូង</a></div><div class="hero-trust"><span class="hero-trust-item">★★★★★ <strong>4.8</strong></span><span class="hero-trust-item">ឥតគិតថ្លៃ · មិនចាំបាច់កាត</span></div><div class="hero-stats"><div><span>6000+</span><span>Kanji Flashcards</span></div><div><span>12</span><span>Quiz Types</span></div><div><span>N5-N1</span><span>JLPT</span></div><div><span>37</span><span>Languages</span></div></div></div><div class="hero-image"><div class="hero-phone floating"><img src="../assets/images/kanjidon-app-homepage.webp" alt="Kanjidon app"></div></div></div></section>
-<section id="features" class="features"><div class="container"><h2 class="section-title">មុខងារ</h2><div class="features-grid"><article class="feature-card"><h3>បើក packs កាត</h3><p>ប្រមូលកាតសម្រាប់គ្រប់កម្រិត JLPT។ កាតនីមួយៗមានអត្ថន័យ ការអាន និងឧទាហរណ៍។</p></article><article class="feature-card"><h3>ហាត់ជាមួយ SRS quiz</h3><p>ប្រព័ន្ធបង្ហាញ kanji ឡើងវិញពេលអ្នកជិតភ្លេច។ ហាត់តិចៗរាល់ថ្ងៃគឺគ្រប់គ្រាន់។</p></article><article class="feature-card"><h3>ប្រកួតនិងរីកចម្រើន</h3><p>PvP, leagues, missions និង streaks ធ្វើឲ្យការសិក្សាមានជីវិត។</p></article></div></div></section>
-<section class="features-alt"><div class="container"><h2 class="section-title">គាំទ្រ 37 ភាសា</h2><div class="features-grid"><article class="feature-card"><h3>Kanji & JLPT</h3><p>6000+ cards, JLPT N5-N1, kana, grammar, vocabulary and examples in one place.</p></article><article class="feature-card"><h3>SRS</h3><p>Reviews are scheduled around memory, so each session has a clear reason.</p></article><article class="feature-card"><h3>Community</h3><p>Leaderboards, battles and missions keep study light, social and consistent.</p></article></div></div></section>
-<section class="download" id="download"><div class="container download-content"><h2 class="section-title">ចាប់ផ្តើមឥឡូវនេះដោយឥតគិតថ្លៃ</h2><p class="download-subtitle">មានលើ iOS និង Android។ មិនចាំបាច់កាត។</p><div class="download-buttons"><a href="https://apps.apple.com/app/kanjidon/id6746029671"><img src="../assets/images/app-store-badge.svg" alt="App Store"></a><a href="https://play.google.com/store/apps/details?id=com.kanjidon.app"><img src="../assets/images/google-play-badge.svg" alt="Google Play"></a></div></div></section>
-<section class="blog-preview"><div class="container"><h2 class="section-title">មគ្គុទេសក៍ឥតគិតថ្លៃសម្រាប់រៀន kanji លឿនជាងមុន</h2><div class="blog-grid"><article class="blog-card"><h3>វិធីរៀន kanji 5 យ៉ាងដែលមានប្រសិទ្ធភាព</h3><p>radicals, SRS, mnemonics, context និងការសរសេរ ក្នុងផែនការតែមួយ។</p><a href="blog/rean-kanji-5-vithi/"><span>Read article →</span></a></article><article class="blog-card"><h3>JLPT ត្រូវការ kanji ប៉ុន្មាន?</h3><p>ចំនួនប្រហាក់ប្រហែលពី N5 ដល់ N1 និងផែនការសិក្សា។</p><a href="blog/jlpt-trouvka-kanji-bonman/"><span>Read article →</span></a></article><article class="blog-card"><h3>Hiragana, Katakana និង Kanji ខុសគ្នាដូចម្តេច?</h3><p>ប្រព័ន្ធសរសេរជប៉ុនទាំងបី និងលំដាប់សម្រាប់ចាប់ផ្តើម។</p><a href="blog/hiragana-katakana-kanji-khos-knea/"><span>Read article →</span></a></article><article class="blog-card"><h3>SRS ជួយ kanji ដូចម្តេច?</h3><p>spaced repetition ជួយចងចាំបានយូរដោយរបៀបណា។</p><a href="blog/srs-kanji-damnerkar/"><span>Read article →</span></a></article></div><a class="blog-all-link" href="blog/">ប្លុក</a></div></section>
-<section class="faq-section"><div class="container"><h2 class="section-title">សំណួរញឹកញាប់</h2><details class="faq-item"><summary>Kanjidon ជាអ្វី?</summary><p>Kanjidon បម្លែងការរៀន kanji ឲ្យក្លាយជាបទពិសោធន៍រៀនដូចលេងហ្គេម។ Kanji នីមួយៗក្លាយជា card សម្រាប់ប្រមូល ហើយ តេស្ត នីមួយៗជួយពង្រឹងការចងចាំតាម spaced repetition (SRS)។ អ្នកអាចបើក packs ធ្វើ តេស្ត រៀន មេរៀន និងតាមដានវឌ្ឍនភាពដោយ stats លម្អិត។ មិនថាអ្នកទើបចាប់ផ្តើម ឬមានបទពិសោធន៍ភាសាជប៉ុនរួចហើយ Kanjidon ធ្វើឲ្យការរៀនកាន់តែสนุก និងមានរង្វាន់។</p></details><details class="faq-item"><summary>Kanjidon សប្បាយទេ?</summary><p>សប្បាយ។ Kanjidon បម្លែង kanji ទៅជា collectible cards ដែលមានរូបរាងពិសេសៗ ដូចហ្គេមកាត។ Kanji នីមួយៗមាន rarity ហើយការប្រមូលវាជួយឲ្យអ្នកឡើង level រហូតដល់ 50។<br><br>Missions, រង្វាន់ និង global leaderboard បន្ថែមអារម្មណ៍ប្រកួតប្រជែង ខណៈ SRS ធ្វើឲ្យអ្នករៀនពិតៗ ដោយមិនស្ត្រេស។ វាជាការរៀនដែលមានអារម្មណ៍ដូចលេងហ្គេម។</p></details><details class="faq-item"><summary>មាន kanji ប៉ុន្មាន?</summary><p>នៅក្នុង Kanjidon មាន collectible cards រាប់ពាន់ ហើយ library កំពុងបន្តធំឡើងរាល់ខែ។ វាគ្របដណ្តប់ kanji និងពាក្យដែលអ្នកត្រូវការសម្រាប់ជីវិតប្រចាំថ្ងៃ ការធ្វើដំណើរ ការងារ manga និងការត្រៀម JLPT។</p></details><details class="faq-item"><summary>Kanjidon សម្រាប់តែ kanji មែនទេ?</summary><p>មិនមែនទេ។ Kanjidon ត្រូវបានរចនាឡើងដើម្បីជួយការរៀនភាសាជប៉ុនរបស់អ្នកទាំងមូល។ ក្រៅពី kanji cards អ្នកក៏នឹងឃើញ hiragana, katakana, vocabulary និង grammar content ផងដែរ។</p></details><details class="faq-item"><summary>ខ្ញុំប្រមូល cards ដោយរបៀបណា?</summary><p>អ្នកប្រមូល cards ដោយបើក packs។ មាន pack ជាច្រើនប្រភេទ ចាប់ផ្តើមពី N5។ Pack នីមួយៗមាន 4 ឬ 6 cards ដែលនឹងត្រូវបន្ថែមទៅក្នុង Collection របស់អ្នកដោយស្វ័យប្រវត្តិ។</p></details><details class="faq-item"><summary>Kanjidon មានជាភាសាប៉ុន្មាន?</summary><p>Kanjidon គាំទ្រ 37 ភាសា។<br><br>អ្នកអាចប្តូរភាសាបានគ្រប់ពេលពីផ្នែកប្រវត្តិរូប។</p></details><details class="faq-item"><summary>Kanjidon ឥតគិតថ្លៃទេ?</summary><p>បាទ/ចាស។ Kanjidon ឥតគិតថ្លៃ ហើយអ្នកអាចធ្វើអ្វីបានច្រើនដោយមិនចំណាយប្រាក់៖ បើក packs ធ្វើ តេស្ត ប្រមូល cards challenge មិត្តភក្តិក្នុង ការប្រកួត និងឡើង N5 Leaderboard។<br><br>ក៏មាន Kanjidon Pass ផងដែរ ដែលជាការជាវ Premium ជាជម្រើស សម្រាប់បើក extra content ដូចជា ថាមពល មិនកំណត់ មេរៀន ទាំងអស់ និង Leagues ទាំងអស់។</p></details><details class="faq-item"><summary>ត្រូវចេះភាសាជប៉ុនជាមុនទេ?</summary><p>មិនចាំបាច់ទេ។ Kanjidon សម្រាប់គ្រប់គ្នា។ បើអ្នកចាប់ផ្តើមពីសូន្យ សូមចាប់ផ្តើមពី Kana packs ដើម្បីរៀន hiragana និង katakana ដែលជាអក្សរមូលដ្ឋានពីររបស់ជប៉ុន។<br><br>បន្ទាប់ពី Kana សូមបន្តទៅ N5 packs សម្រាប់ kanji ដែលជួបញឹកញាប់បំផុត។ Kanjidon នាំអ្នកមួយជំហានម្តងៗ ពី beginner ទៅ expert។</p></details><a class="blog-all-link" href="faq/">FAQ</a></div></section>
-</main>
-<footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
-                <p>Collect Cards. Remember Kanji.</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-col">
-                    <strong class="footer-heading">Resources</strong>
-                    <a href="/km/blog/">Blog</a>
-                    <a href="/km/faq/">FAQ</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Community</strong>
-                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
-                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Legal</strong>
-                    <a href="/privacy.html">Privacy Policy</a>
-                    <a href="/terms.html">Terms of Service</a>
-                    <a href="/delete.html">Delete Account</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Support</strong>
-                    <a href="/about.html">About Us</a>
-                    <a href="/support.html">Help Center</a>
-                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-legal">
-                    <p><strong>Kanjidon Team</strong></p>
-                    <p>VAT: IT01691020083</p>
-                </div>
-                <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language" aria-haspopup="true">
-                        <span class="flag-icon">🇰🇭</span>
-                        <span class="language-name">ខ្មែរ</span>
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"/>
-                        </svg>
-                    </button>
-                    <div class="language-dropdown">
-                        <a href="/" class="language-option">
-                            <span class="flag-icon">🇬🇧</span> English
-                        </a>
-                        <a href="/it/" class="language-option">
-                            <span class="flag-icon">🇮🇹</span> Italiano
-                        </a>
-                        <a href="/fr/" class="language-option">
-                            <span class="flag-icon">🇫🇷</span> Français
-                        </a>
-                        <a href="/es/" class="language-option">
-                            <span class="flag-icon">🇪🇸</span> Español
-                        </a>
-                        <a href="/de/" class="language-option">
-                            <span class="flag-icon">🇩🇪</span> Deutsch
-                        </a>
-                        <a href="/pt/" class="language-option">
-                            <span class="flag-icon">🇵🇹</span> Português
-                        </a>
-                        <a href="/ru/" class="language-option">
-                            <span class="flag-icon">🇷🇺</span> Русский
-                        </a>
-                        <a href="/ko/" class="language-option">
-                            <span class="flag-icon">🇰🇷</span> 한국어
-                        </a>
-                        <a href="/zh/" class="language-option">
-                            <span class="flag-icon">🇨🇳</span> 中文
-                        </a>
-                        <a href="/zh-tw/" class="language-option">
-                            <span class="flag-icon">🇹🇼</span> 繁體中文
-                        </a>
-                        <a href="/ar/" class="language-option">
-                            <span class="flag-icon">🇸🇦</span> العربية
-                        </a>
-                        <a href="/hi/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> हिन्दी
-                        </a>
-                        <a href="/th/" class="language-option">
-                            <span class="flag-icon">🇹🇭</span> ไทย
-                        </a>
-                        <a href="/vi/" class="language-option">
-                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
-                        </a>
-                        <a href="/id/" class="language-option">
-                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
-                        </a>
-                        <a href="/ms/" class="language-option">
-                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
-                        </a>
-                        <a href="/tr/" class="language-option">
-                            <span class="flag-icon">🇹🇷</span> Türkçe
-                        </a>
-                        <a href="/pl/" class="language-option">
-                            <span class="flag-icon">🇵🇱</span> Polski
-                        </a>
-                        <a href="/fa/" class="language-option">
-                            <span class="flag-icon">🇮🇷</span> فارسی
-                        </a>
-                        <a href="/fil/" class="language-option">
-                            <span class="flag-icon">🇵🇭</span> Filipino
-                        </a>
-                        <a href="/mn/" class="language-option">
-                            <span class="flag-icon">🇲🇳</span> Монгол
-                        </a>
-                        <a href="/ro/" class="language-option">
-                            <span class="flag-icon">🇷🇴</span> Română
-                        </a>
-                        <a href="/bg/" class="language-option">
-                            <span class="flag-icon">🇧🇬</span> Български
-                        </a>
-                        <a href="/ne/" class="language-option">
-                            <span class="flag-icon">🇳🇵</span> नेपाली
-                        </a>
-                        <a href="/my/" class="language-option">
-                            <span class="flag-icon">🇲🇲</span> မြန်မာ
-                        </a>
-                        <a href="/bn/" class="language-option">
-                            <span class="flag-icon">🇧🇩</span> বাংলা
-                        </a>
-                        <a href="/uk/" class="language-option">
-                            <span class="flag-icon">🇺🇦</span> Українська
-                        </a>
-                        <a href="/uz/" class="language-option">
-                            <span class="flag-icon">🇺🇿</span> O'zbekcha
-                        </a>
-                        <a href="/si/" class="language-option">
-                            <span class="flag-icon">🇱🇰</span> සිංහල
-                        </a>
-                        <a href="/ta/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> தமிழ்
-                        </a>
-                        <a href="/ur/" class="language-option">
-                            <span class="flag-icon">🇵🇰</span> اردو
-                        </a>
-                        <a href="/hu/" class="language-option">
-                            <span class="flag-icon">🇭🇺</span> Magyar
-                        </a>
-                        <a href="/he/" class="language-option">
-                            <span class="flag-icon">🇮🇱</span> עברית
-                        </a>
-                        <a href="/km/" class="language-option active">
-                            <span class="flag-icon">🇰🇭</span> ខ្មែរ
-                        </a>
-                        <a href="/kn/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> ಕನ್ನಡ
-                        </a>
-                        <a href="/mr/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> मराठी
-                        </a>
-                        <a href="/te/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> తెలుగు
-                        </a>
-                    </div>
-                </div>
-                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+<header class="header"><div class="container header-content">
+<a href="/km/" class="logo"><span class="logo-text">Kanjidon</span></a><nav class="nav-links"><a href="#features">មុខងារ</a><a href="/km/blog/">ប្លុក</a><a href="/km/faq/">FAQ</a><a href="#download" class="btn btn-primary btn-sm"><strong>ទាញយកឥតគិតថ្លៃ</strong></a></nav>
+</div></header><section class="hero"><div class="container hero-content">
+<div class="hero-text">
+<h1>ចេះ kanji ឲ្យប្រាកដ។<br><span class="text-primary">មិនធុញទ្រាន់។</span>
+</h1>
+<p class="hero-subtitle">កុំចាំបាច់ទន្ទេញបញ្ជីវែងៗ។ Kanjidon បម្លែង kanji ទៅជាកាតប្រមូល quiz ខ្លីៗ និង SRS ដើម្បីចងចាំបានយូរ។</p>
+<div class="hero-cta"><a href="#download" class="btn btn-primary btn-lg"><strong>យក packs 3 ដំបូង</strong></a></div>
+<div class="hero-trust">
+<span class="hero-trust-item" aria-label="4.8 rating out of 5"><span class="hero-stars" aria-hidden="true">★★★★★</span><strong>4.8</strong></span><span class="hero-trust-item">ឥតគិតថ្លៃ · មិនចាំបាច់កាត</span>
+</div>
+<div class="hero-stats">
+<div class="stat">
+<span class="stat-number">6000+</span><span class="stat-label">Kanji Flashcards</span>
+</div>
+<div class="stat">
+<span class="stat-number">12</span><span class="stat-label">Quiz Types</span>
+</div>
+<div class="stat">
+<span class="stat-number">N5-N1</span><span class="stat-label">JLPT</span>
+</div>
+<div class="stat">
+<span class="stat-number">300+</span><span class="stat-label">មេរៀន</span>
+</div>
+</div>
+</div>
+<div class="hero-image"><div class="hero-phone floating"><img src="../assets/images/kanjidon-app-homepage.webp" alt="Kanjidon app screenshot"></div></div>
+</div></section><section class="rating-section"><div class="container"><div class="rating-showcase reveal-on-scroll">
+<div class="rating-laurel">
+<img src="../assets/images/laurel-wreath.png" alt="App Store rating" class="rating-laurel-img"><span class="rating-score">4.8</span>
+</div>
+<p class="rating-text">អ្នករៀន 18,000+ ចូលចិត្ត</p>
+<p class="rating-subtext">ពិន្ទុមធ្យមលើ App Store</p>
+</div></div></section><section class="how-it-works"><div class="container">
+<h2 class="section-title">ពីបញ្ជីធុញទ្រាន់ ទៅជាការប្រមូល</h2>
+<div class="steps-with-phones">
+<div class="step-row">
+<div class="step-phone"><img src="../assets/images/kanjidon-app-card-packs.webp" alt="Kanjidon card packs" loading="lazy"></div>
+<div class="step-content">
+<div class="step-number">1</div>
+<h3>បើក packs កាត</h3>
+<p>ប្រមូលកាតសម្រាប់គ្រប់កម្រិត JLPT។ កាតនីមួយៗមានអត្ថន័យ ការអាន និងឧទាហរណ៍។</p>
+</div>
+</div>
+<div class="step-row step-row-reverse">
+<div class="step-phone"><img src="../assets/images/kanjidon-app-srs-quiz.webp" alt="Kanjidon SRS quiz" loading="lazy"></div>
+<div class="step-content">
+<div class="step-number">2</div>
+<h3>ហាត់ជាមួយ SRS quiz</h3>
+<p>ប្រព័ន្ធបង្ហាញ kanji ឡើងវិញពេលអ្នកជិតភ្លេច។ ហាត់តិចៗរាល់ថ្ងៃគឺគ្រប់គ្រាន់។</p>
+</div>
+</div>
+<div class="step-row">
+<div class="step-phone"><img src="../assets/images/kanjidon-app-pvp-battle.webp" alt="Kanjidon PvP battle" loading="lazy"></div>
+<div class="step-content">
+<div class="step-number">3</div>
+<h3>ប្រកួតនិងរីកចម្រើន</h3>
+<p>PvP, leagues, missions និង streaks ធ្វើឲ្យការសិក្សាមានជីវិត។</p>
+</div>
+</div>
+</div>
+</div></section><section class="features" id="features"><div class="container">
+<h2 class="section-title">មុខងារ</h2>
+<div class="features-grid">
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8M12 17v4"></path></svg></div>
+<h3>បើក packs កាត</h3>
+<p>ប្រមូលកាតសម្រាប់គ្រប់កម្រិត JLPT។ កាតនីមួយៗមានអត្ថន័យ ការអាន និងឧទាហរណ៍។</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg></div>
+<h3>ហាត់ជាមួយ SRS quiz</h3>
+<p>ប្រព័ន្ធបង្ហាញ kanji ឡើងវិញពេលអ្នកជិតភ្លេច។ ហាត់តិចៗរាល់ថ្ងៃគឺគ្រប់គ្រាន់។</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="12" x="2" y="6" rx="2"></rect><line x1="6" x2="10" y1="12" y2="12"></line></svg></div>
+<h3>ប្រកួតនិងរីកចម្រើន</h3>
+<p>PvP, leagues, missions និង streaks ធ្វើឲ្យការសិក្សាមានជីវិត។</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+<h3>កម្រិត JLPT ទាំងអស់</h3>
+<p>ពី Kana ដល់ JLPT N5-N1 សូមរៀនតាមផ្លូវច្បាស់ ជាមួយ cards, examples និង reviews។</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></div>
+<h3>Gamification ពេញលេញ</h3>
+<p>Level, Tama, daily missions, streak និង rewards ជួយរក្សាទម្លាប់រៀន។</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line></svg></div>
+<h3>គាំទ្រ 37 ភាសា</h3>
+<p>Cards, examples និង explanations ត្រូវបានបកប្រែ ដូច្នេះ app មានអារម្មណ៍ធម្មជាតិ។</p>
+</div>
+</div>
+</div></section><section class="collection-showcase"><div class="container">
+<h2 class="section-title">ប្រមូលកាតពិសេសៗ</h2>
+<div class="cards-display reveal-on-scroll">
+<div class="floating-card card-1"><img src="../assets/images/kanji-card-n5-sun.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-2"><img src="../assets/images/kanji-card-n5-mountain.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-3"><img src="../assets/images/kanji-card-n5-water.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-4"><img src="../assets/images/kanji-card-n5-fire.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-5"><img src="../assets/images/kanji-card-n5-tree.webp" alt="Kanji card" loading="lazy"></div>
+</div>
+<div class="packs-display reveal-on-scroll">
+<p class="packs-label">Pack សម្រាប់កម្រិត JLPT ទាំងអស់</p>
+<div class="packs-row">
+<div class="pack-item">
+<img src="../assets/images/jlpt-n5-card-pack.webp" alt="N5 pack" loading="lazy"><span>N5</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n4-card-pack.webp" alt="N4 pack" loading="lazy"><span>N4</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n3-card-pack.webp" alt="N3 pack" loading="lazy"><span>N3</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n2-card-pack.webp" alt="N2 pack" loading="lazy"><span>N2</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n1-card-pack.webp" alt="N1 pack" loading="lazy"><span>N1</span>
+</div>
+</div>
+</div>
+</div></section><section class="testimonials"><div class="container">
+<h2 class="section-title">អ្នកប្រើប្រាស់និយាយអ្វីខ្លះ</h2>
+<div class="testimonials-carousel">
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon ធ្វើឱ្យ kanji មិនដូចបញ្ជីទេ ប៉ុន្តែដូច collection ដែលចង់បន្ថែមរាល់ថ្ងៃ។</p>
+<span class="testimonial-author">Michelle</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Visual cards, examples និង quiz ខ្លីៗ ធ្វើឱ្យចងចាំ kanji ងាយជាងមុន។</p>
+<span class="testimonial-author">Mitchellinus</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Packs, missions និង SRS ប្រែក្លាយការរៀនឱ្យជាទម្លាប់ស្រាល និងមានរង្វាន់។</p>
+<span class="testimonial-author">Anahi</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon ធ្វើឱ្យ kanji មិនដូចបញ្ជីទេ ប៉ុន្តែដូច collection ដែលចង់បន្ថែមរាល់ថ្ងៃ។</p>
+<span class="testimonial-author">Robphile</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Visual cards, examples និង quiz ខ្លីៗ ធ្វើឱ្យចងចាំ kanji ងាយជាងមុន។</p>
+<span class="testimonial-author">Gabriele</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Packs, missions និង SRS ប្រែក្លាយការរៀនឱ្យជាទម្លាប់ស្រាល និងមានរង្វាន់។</p>
+<span class="testimonial-author">Sabrina</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon ធ្វើឱ្យ kanji មិនដូចបញ្ជីទេ ប៉ុន្តែដូច collection ដែលចង់បន្ថែមរាល់ថ្ងៃ។</p>
+<span class="testimonial-author">Edoardo</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Visual cards, examples និង quiz ខ្លីៗ ធ្វើឱ្យចងចាំ kanji ងាយជាងមុន។</p>
+<span class="testimonial-author">Kane</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Packs, missions និង SRS ប្រែក្លាយការរៀនឱ្យជាទម្លាប់ស្រាល និងមានរង្វាន់។</p>
+<span class="testimonial-author">Jose</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon ធ្វើឱ្យ kanji មិនដូចបញ្ជីទេ ប៉ុន្តែដូច collection ដែលចង់បន្ថែមរាល់ថ្ងៃ។</p>
+<span class="testimonial-author">Guervenson</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Visual cards, examples និង quiz ខ្លីៗ ធ្វើឱ្យចងចាំ kanji ងាយជាងមុន។</p>
+<span class="testimonial-author">Hakki</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Packs, missions និង SRS ប្រែក្លាយការរៀនឱ្យជាទម្លាប់ស្រាល និងមានរង្វាន់។</p>
+<span class="testimonial-author">Mike</span>
+</div>
+</div>
+</div></section><section class="download" id="download"><div class="container download-content">
+<h2 class="section-title">ចាប់ផ្តើមឥឡូវនេះដោយឥតគិតថ្លៃ</h2>
+<p class="download-subtitle">មានលើ iOS និង Android។ មិនចាំបាច់កាត។</p>
+<div class="store-badges">
+<a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios"><img src="../assets/images/app-store-badge.svg" alt="Download Kanjidon on the App Store"></a><a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android"><img src="../assets/images/google-play-badge.svg" alt="Get Kanjidon on Google Play"></a>
+</div>
+<div class="download-qr">
+<img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy"><span>ស្កេនដើម្បីយក app លើទូរស័ព្ទ</span>
+</div>
+</div></section><section class="home-blog"><div class="container">
+<h2 class="section-title">មគ្គុទេសក៍ឥតគិតថ្លៃសម្រាប់រៀន kanji លឿនជាងមុន</h2>
+<div class="home-blog-grid">
+<a href="/km/blog/rean-kanji-5-vithi/" class="home-blog-link"><h3>វិធីរៀន kanji 5 យ៉ាងដែលមានប្រសិទ្ធភាព</h3>
+<p>radicals, SRS, mnemonics, context និងការសរសេរ ក្នុងផែនការតែមួយ។</p>
+<span class="read-more">អានអត្ថបទ →</span></a>
+<a href="/km/blog/jlpt-trouvka-kanji-bonman/" class="home-blog-link"><h3>JLPT ត្រូវការ kanji ប៉ុន្មាន?</h3>
+<p>ចំនួនប្រហាក់ប្រហែលពី N5 ដល់ N1 និងផែនការសិក្សា។</p>
+<span class="read-more">អានអត្ថបទ →</span></a>
+<a href="/km/blog/hiragana-katakana-kanji-khos-knea/" class="home-blog-link"><h3>Hiragana, Katakana និង Kanji ខុសគ្នាដូចម្តេច?</h3>
+<p>ប្រព័ន្ធសរសេរជប៉ុនទាំងបី និងលំដាប់សម្រាប់ចាប់ផ្តើម។</p>
+<span class="read-more">អានអត្ថបទ →</span></a>
+<a href="/km/blog/srs-kanji-damnerkar/" class="home-blog-link"><h3>SRS ជួយ kanji ដូចម្តេច?</h3>
+<p>spaced repetition ជួយចងចាំបានយូរដោយរបៀបណា។</p>
+<span class="read-more">អានអត្ថបទ →</span></a>
+</div>
+<a href="/km/blog/" class="home-blog-all">មើលអត្ថបទទាំងអស់ →</a>
+</div></section><section class="faq" id="faq"><div class="container">
+<h2 class="section-title">សំណួរញឹកញាប់</h2>
+<div class="faq-list">
+<details class="faq-item"><summary>Kanjidon ជាអ្វី?</summary><p>Kanjidon បម្លែងការរៀន kanji ឲ្យក្លាយជាបទពិសោធន៍រៀនដូចលេងហ្គេម។ Kanji នីមួយៗក្លាយជា card សម្រាប់ប្រមូល ហើយ តេស្ត នីមួយៗជួយពង្រឹងការចងចាំតាម spaced repetition (SRS)។ អ្នកអាចបើក packs ធ្វើ តេស្ត រៀន មេរៀន និងតាមដានវឌ្ឍនភាពដោយ stats លម្អិត។ មិនថាអ្នកទើបចាប់ផ្តើម ឬមានបទពិសោធន៍ភាសាជប៉ុនរួចហើយ Kanjidon ធ្វើឲ្យការរៀនកាន់តែสนุก និងមានរង្វាន់។</p></details>
+<details class="faq-item"><summary>Kanjidon សប្បាយទេ?</summary><p>សប្បាយ។ Kanjidon បម្លែង kanji ទៅជា collectible cards ដែលមានរូបរាងពិសេសៗ ដូចហ្គេមកាត។ Kanji នីមួយៗមាន rarity ហើយការប្រមូលវាជួយឲ្យអ្នកឡើង level រហូតដល់ 50។<br><br>Missions, រង្វាន់ និង global leaderboard បន្ថែមអារម្មណ៍ប្រកួតប្រជែង ខណៈ SRS ធ្វើឲ្យអ្នករៀនពិតៗ ដោយមិនស្ត្រេស។ វាជាការរៀនដែលមានអារម្មណ៍ដូចលេងហ្គេម។</p></details>
+<details class="faq-item"><summary>មាន kanji ប៉ុន្មាន?</summary><p>នៅក្នុង Kanjidon មាន collectible cards រាប់ពាន់ ហើយ library កំពុងបន្តធំឡើងរាល់ខែ។ វាគ្របដណ្តប់ kanji និងពាក្យដែលអ្នកត្រូវការសម្រាប់ជីវិតប្រចាំថ្ងៃ ការធ្វើដំណើរ ការងារ manga និងការត្រៀម JLPT។</p></details>
+<details class="faq-item"><summary>Kanjidon សម្រាប់តែ kanji មែនទេ?</summary><p>មិនមែនទេ។ Kanjidon ត្រូវបានរចនាឡើងដើម្បីជួយការរៀនភាសាជប៉ុនរបស់អ្នកទាំងមូល។ ក្រៅពី kanji cards អ្នកក៏នឹងឃើញ hiragana, katakana, vocabulary និង grammar content ផងដែរ។</p></details>
+<details class="faq-item"><summary>ខ្ញុំប្រមូល cards ដោយរបៀបណា?</summary><p>អ្នកប្រមូល cards ដោយបើក packs។ មាន pack ជាច្រើនប្រភេទ ចាប់ផ្តើមពី N5។ Pack នីមួយៗមាន 4 ឬ 6 cards ដែលនឹងត្រូវបន្ថែមទៅក្នុង Collection របស់អ្នកដោយស្វ័យប្រវត្តិ។</p></details>
+<details class="faq-item"><summary>Kanjidon មានជាភាសាប៉ុន្មាន?</summary><p>Kanjidon គាំទ្រ 37 ភាសា។<br><br>អ្នកអាចប្តូរភាសាបានគ្រប់ពេលពីផ្នែកប្រវត្តិរូប។</p></details>
+<details class="faq-item"><summary>Kanjidon ឥតគិតថ្លៃទេ?</summary><p>បាទ/ចាស។ Kanjidon ឥតគិតថ្លៃ ហើយអ្នកអាចធ្វើអ្វីបានច្រើនដោយមិនចំណាយប្រាក់៖ បើក packs ធ្វើ តេស្ត ប្រមូល cards challenge មិត្តភក្តិក្នុង ការប្រកួត និងឡើង N5 Leaderboard។<br><br>ក៏មាន Kanjidon Pass ផងដែរ ដែលជាការជាវ Premium ជាជម្រើស សម្រាប់បើក extra content ដូចជា ថាមពល មិនកំណត់ មេរៀន ទាំងអស់ និង Leagues ទាំងអស់។</p></details>
+<details class="faq-item"><summary>ត្រូវចេះភាសាជប៉ុនជាមុនទេ?</summary><p>មិនចាំបាច់ទេ។ Kanjidon សម្រាប់គ្រប់គ្នា។ បើអ្នកចាប់ផ្តើមពីសូន្យ សូមចាប់ផ្តើមពី Kana packs ដើម្បីរៀន hiragana និង katakana ដែលជាអក្សរមូលដ្ឋានពីររបស់ជប៉ុន។<br><br>បន្ទាប់ពី Kana សូមបន្តទៅ N5 packs សម្រាប់ kanji ដែលជួបញឹកញាប់បំផុត។ Kanjidon នាំអ្នកមួយជំហានម្តងៗ ពី beginner ទៅ expert។</p></details>
+</div>
+</div></section><footer class="footer"><div class="container footer-content">
+<div class="footer-brand">
+<img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo"><p>Collect Cards. Remember Kanji.</p>
+</div>
+<div class="footer-links">
+<div class="footer-col">
+<strong class="footer-heading">Resources</strong><a href="/km/blog/">Blog</a><a href="/km/faq/">FAQ</a>
+</div>
+<div class="footer-col">
+<strong class="footer-heading">Community</strong><a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a><a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+</div>
+<div class="footer-col">
+<strong class="footer-heading">Legal</strong><a href="/privacy.html">Privacy Policy</a><a href="/terms.html">Terms of Service</a><a href="/delete.html">Delete Account</a>
+</div>
+<div class="footer-col">
+<strong class="footer-heading">Support</strong><a href="/about.html">About Us</a><a href="/support.html">Help Center</a><a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="footer-legal">
+<p><strong>Kanjidon Team</strong></p>
+<p>VAT: IT01691020083</p>
+</div>
+<div class="language-selector">
+<button class="language-btn" aria-label="Change language" aria-haspopup="true"><span class="flag-icon">🇰🇭</span><span class="language-name">ខ្មែរ</span><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="language-dropdown">                        <a href="/" class="language-option"><span class="flag-icon">🇬🇧</span> English</a>
+                        <a href="/it/" class="language-option"><span class="flag-icon">🇮🇹</span> Italiano</a>
+                        <a href="/fr/" class="language-option"><span class="flag-icon">🇫🇷</span> Français</a>
+                        <a href="/es/" class="language-option"><span class="flag-icon">🇪🇸</span> Español</a>
+                        <a href="/de/" class="language-option"><span class="flag-icon">🇩🇪</span> Deutsch</a>
+                        <a href="/pt/" class="language-option"><span class="flag-icon">🇵🇹</span> Português</a>
+                        <a href="/ru/" class="language-option"><span class="flag-icon">🇷🇺</span> Русский</a>
+                        <a href="/ko/" class="language-option"><span class="flag-icon">🇰🇷</span> 한국어</a>
+                        <a href="/zh/" class="language-option"><span class="flag-icon">🇨🇳</span> 中文</a>
+                        <a href="/zh-tw/" class="language-option"><span class="flag-icon">🇹🇼</span> 繁體中文</a>
+                        <a href="/ar/" class="language-option"><span class="flag-icon">🇸🇦</span> العربية</a>
+                        <a href="/hi/" class="language-option"><span class="flag-icon">🇮🇳</span> हिन्दी</a>
+                        <a href="/th/" class="language-option"><span class="flag-icon">🇹🇭</span> ไทย</a>
+                        <a href="/vi/" class="language-option"><span class="flag-icon">🇻🇳</span> Tiếng Việt</a>
+                        <a href="/id/" class="language-option"><span class="flag-icon">🇮🇩</span> Bahasa Indonesia</a>
+                        <a href="/ms/" class="language-option"><span class="flag-icon">🇲🇾</span> Bahasa Melayu</a>
+                        <a href="/tr/" class="language-option"><span class="flag-icon">🇹🇷</span> Türkçe</a>
+                        <a href="/pl/" class="language-option"><span class="flag-icon">🇵🇱</span> Polski</a>
+                        <a href="/fa/" class="language-option"><span class="flag-icon">🇮🇷</span> فارسی</a>
+                        <a href="/fil/" class="language-option"><span class="flag-icon">🇵🇭</span> Filipino</a>
+                        <a href="/mn/" class="language-option"><span class="flag-icon">🇲🇳</span> Монгол</a>
+                        <a href="/ro/" class="language-option"><span class="flag-icon">🇷🇴</span> Română</a>
+                        <a href="/bg/" class="language-option"><span class="flag-icon">🇧🇬</span> Български</a>
+                        <a href="/ne/" class="language-option"><span class="flag-icon">🇳🇵</span> नेपाली</a>
+                        <a href="/my/" class="language-option"><span class="flag-icon">🇲🇲</span> မြန်မာ</a>
+                        <a href="/bn/" class="language-option"><span class="flag-icon">🇧🇩</span> বাংলা</a>
+                        <a href="/uk/" class="language-option"><span class="flag-icon">🇺🇦</span> Українська</a>
+                        <a href="/uz/" class="language-option"><span class="flag-icon">🇺🇿</span> O'zbekcha</a>
+                        <a href="/si/" class="language-option"><span class="flag-icon">🇱🇰</span> සිංහල</a>
+                        <a href="/ta/" class="language-option"><span class="flag-icon">🇮🇳</span> தமிழ்</a>
+                        <a href="/ur/" class="language-option"><span class="flag-icon">🇵🇰</span> اردو</a>
+                        <a href="/hu/" class="language-option"><span class="flag-icon">🇭🇺</span> Magyar</a>
+                        <a href="/he/" class="language-option"><span class="flag-icon">🇮🇱</span> עברית</a>
+                        <a href="/km/" class="language-option active"><span class="flag-icon">🇰🇭</span> ខ្មែរ</a>
+                        <a href="/kn/" class="language-option"><span class="flag-icon">🇮🇳</span> ಕನ್ನಡ</a>
+                        <a href="/mr/" class="language-option"><span class="flag-icon">🇮🇳</span> मराठी</a>
+                        <a href="/te/" class="language-option"><span class="flag-icon">🇮🇳</span> తెలుగు</a>
+</div>
+</div>
+<p class="footer-copy">© 2026 Kanjidon. All rights reserved.</p>
+</div>
+</div></footer><div class="privacy-banner" id="privacyBanner"><div class="privacy-banner-content">
+<p>This website does not use profiling cookies. <a href="/privacy">Privacy Policy</a></p>
+<button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Close">OK</button>
+</div></div>
+<div class="sticky-download-bar" id="stickyDownload"><div class="sticky-download-bar-content">
+<a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios"><img src="../assets/images/app-store-badge.svg" alt="Download on the App Store"></a><a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android"><img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play"></a>
+</div></div>
+<script>document.addEventListener('DOMContentLoaded',function(){const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('revealed');});},{threshold:0.3});document.querySelectorAll('.reveal-on-scroll').forEach(el=>observer.observe(el));if(!localStorage.getItem('privacyBannerDismissed'))document.getElementById('privacyBanner').classList.add('visible');});function closePrivacyBanner(){document.getElementById('privacyBanner').classList.remove('visible');localStorage.setItem('privacyBannerDismissed','true');}</script><script>(function(){const stickyBar=document.getElementById('stickyDownload');const downloadSection=document.getElementById('download');const footer=document.querySelector('.footer');function updateStickyBar(){const scrollY=window.scrollY;const windowHeight=window.innerHeight;const downloadTop=downloadSection?downloadSection.getBoundingClientRect().top:Infinity;const footerTop=footer?footer.getBoundingClientRect().top:Infinity;if(scrollY>300)stickyBar.classList.add('visible');else stickyBar.classList.remove('visible');if(downloadTop<windowHeight+100||footerTop<windowHeight)stickyBar.classList.add('hidden');else stickyBar.classList.remove('hidden');}window.addEventListener('scroll',updateStickyBar,{passive:true});updateStickyBar();const carousel=document.querySelector('.testimonials-carousel');if(carousel){const cards=carousel.querySelectorAll('.testimonial-card');cards.forEach(card=>carousel.appendChild(card.cloneNode(true)));}})();</script><script defer src="/lang-banner.js"></script>
 </body>
 </html>

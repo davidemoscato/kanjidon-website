@@ -1,15 +1,18 @@
-<!doctype html>
-<html lang="ro" dir="ltr">
+<!DOCTYPE html>
+<html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
-    <title>Kanjidon - Învață kanji japoneze cu carduri, SRS și JLPT</title>
-    <meta name="description" content="Învață kanji prin carduri de colecție, quizuri inteligente și repetiție spațiată. De la zero la JLPT N1.">
-    <meta name="keywords" content="kanji, JLPT, Japanese, flashcards, SRS, Kanjidon">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://kanjidon.com/ro/">
-    <link rel="alternate" hreflang="en" href="https://kanjidon.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>(function(){var ua=navigator.userAgent||"";var cls="is-desktop";if(/android/i.test(ua))cls="is-android";else if(/iphone|ipad|ipod/i.test(ua)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1))cls="is-ios";document.documentElement.classList.add(cls);})();</script><link rel="preload" href="../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../assets/fonts/nunito-500.woff2') format('woff2')}@font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../assets/fonts/nunito-700.woff2') format('woff2')}@font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../assets/fonts/nunito-800.woff2') format('woff2')}@font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}</style>
+<title>Kanjidon - Învață kanji japoneze cu carduri, SRS și JLPT</title>
+<meta name="description" content="Învață kanji prin carduri de colecție, quizuri inteligente și repetiție spațiată. De la zero la JLPT N1.">
+<meta name="keywords" content="kanji, JLPT, Japanese, flashcards, SRS, Kanjidon">
+<meta name="author" content="Kanjidon Team">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://kanjidon.com/ro/">    <link rel="alternate" hreflang="en" href="https://kanjidon.com/">
     <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/">
     <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/">
     <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/">
@@ -47,187 +50,322 @@
     <link rel="alternate" hreflang="mr" href="https://kanjidon.com/mr/">
     <link rel="alternate" hreflang="te" href="https://kanjidon.com/te/">
     <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/">
-    <meta property="og:title" content="Kanjidon - Învață kanji japoneze cu carduri, SRS și JLPT">
-    <meta property="og:description" content="Învață kanji prin carduri de colecție, quizuri inteligente și repetiție spațiată. De la zero la JLPT N1.">
-    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
-    <meta property="og:url" content="https://kanjidon.com/ro/">
-    <meta property="og:type" content="website">
-    <link rel="icon" href="/favicon.ico" sizes="32x32">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#F47932">
-    <link rel="stylesheet" href="../styles.css?v=20260625-homeblogfix">
+<meta property="og:title" content="Kanjidon - Învață kanji japoneze cu carduri, SRS și JLPT">
+<meta property="og:description" content="Învață kanji prin carduri de colecție, quizuri inteligente și repetiție spațiată. De la zero la JLPT N1.">
+<meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+<meta property="og:url" content="https://kanjidon.com/ro/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kanjidon">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kanjidon - Învață kanji japoneze cu carduri, SRS și JLPT">
+<meta name="twitter:description" content="Învață kanji prin carduri de colecție, quizuri inteligente și repetiție spațiată. De la zero la JLPT N1.">
+<meta name="twitter:image" content="https://kanjidon.com/assets/images/og-image.png">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#F47932">
+<link rel="stylesheet" href="../styles.css?v=20260625-fullhomefix">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Kanjidon", "operatingSystem": "iOS, Android", "applicationCategory": "EducationalApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "description": "Învață kanji prin carduri de colecție, quizuri inteligente și repetiție spațiată. De la zero la JLPT N1.", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "1", "ratingCount": "500"}, "author": {"@type": "Organization", "name": "Kanjidon Team"}, "inLanguage": ["en", "it", "fr", "es", "de", "pt", "ru", "ko", "zh", "zh-TW", "ar", "hi", "th", "vi", "id", "ms", "tr", "pl", "fa", "fil", "mn", "ro", "bg", "ne", "my", "bn", "uk", "uz", "si", "ta", "ur", "hu", "he", "km", "kn", "mr", "te"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Kanjidon","url":"https://kanjidon.com","contactPoint":{"@type":"ContactPoint","email":"info@kanjidon.com","contactType":"customer support","availableLanguage":["Italian","English"]},"founder":{"@type":"Organization","name":"Kanjidon Team"},"address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Ce este Kanjidon?", "acceptedAnswer": {"@type": "Answer", "text": "Kanjidon transformă studiul kanji într-o experiență de învățare ca un joc. Fiecare kanji devine o carte de colecționat, iar fiecare quiz te ajută să-ți întărești memoria prin repetare spațiată (SRS). Deschide pachete, fă quizuri, parcurge lecții și urmărește-ți progresul cu statistici detaliate. Fie că începi de la zero, fie că ai deja experiență cu japoneza, Kanjidon face studiul mai captivant și mai motivant."}}, {"@type": "Question", "name": "Kanjidon este distractiv?", "acceptedAnswer": {"@type": "Answer", "text": "Kanjidon transformă kanji în cărți de colecție cu designuri unice, ca într-un joc de cărți. Fiecare kanji are o raritate, iar pe măsură ce le colecționezi urci în nivel, până la 50! Misiunile, recompensele și clasamentul global adaugă partea competitivă, iar SRS te ajută să înveți pe bune, fără stres. E studiu care se simte ca un joc!"}}, {"@type": "Question", "name": "Câți kanji sunt?", "acceptedAnswer": {"@type": "Answer", "text": "În Kanjidon există mii de cărți de colecționat, iar biblioteca continuă să crească în fiecare lună. Acoperă kanji și vocabular utile pentru viața de zi cu zi, călătorii, muncă, manga și pregătirea pentru JLPT."}}, {"@type": "Question", "name": "Kanjidon este doar pentru kanji?", "acceptedAnswer": {"@type": "Answer", "text": "Deloc. Kanjidon este gândit să te ajute în studiul japonezei în ansamblu. Pe lângă cărțile cu kanji, găsești și hiragana, katakana, vocabular și conținut de gramatică."}}, {"@type": "Question", "name": "Cum colecționez cărți?", "acceptedAnswer": {"@type": "Answer", "text": "Colecționezi cărți deschizând pachete. Există mai multe tipuri de pachete, începând cu N5. Fiecare pachet conține 4 sau 6 cărți, care sunt adăugate automat în Colecția ta."}}, {"@type": "Question", "name": "În câte limbi este disponibil Kanjidon?", "acceptedAnswer": {"@type": "Answer", "text": "Kanjidon este disponibil în 37 de limbi. Poți schimba limba oricând din secțiunea Profil."}}, {"@type": "Question", "name": "Kanjidon este gratuit?", "acceptedAnswer": {"@type": "Answer", "text": "Da! Kanjidon este gratuit și poți face o mulțime de lucruri fără să plătești: să deschizi pachete, să faci Quizuri, să colecționezi cărți, să provoci prieteni în Battle și să urci în Clasamentul N5. Există și Kanjidon Pass, abonamentul Premium opțional care deblochează conținut extra, cum ar fi Energie nelimitată, toate Lecțiile și toate Ligile."}}, {"@type": "Question", "name": "Trebuie să știu deja japoneză?", "acceptedAnswer": {"@type": "Answer", "text": "Nu, Kanjidon este pentru toată lumea! Dacă pornești chiar de la zero, începe cu pachetele Kana ca să înveți hiragana și katakana, cele două alfabete de bază ale japonezei. După Kana, treci la pachetele N5 pentru cei mai frecvenți kanji. Kanjidon te ghidează pas cu pas, de la începător la avansat."}}]}</script>
 </head>
 <body>
-<nav class="navbar"><div class="nav-container"><a href="./" class="nav-brand"><img src="../assets/images/icona.png" alt="Kanjidon" class="logo-icon"><span>Kanjidon</span></a><div class="nav-links"><a href="#features">Funcții</a><a href="blog/">Blog</a><a href="faq/">FAQ</a><a href="#download" class="btn btn-primary btn-sm"><strong>Descarcă gratis</strong></a></div></div></nav>
-<main>
-<section class="hero"><div class="container hero-content"><div class="hero-text"><h1>Stăpânește kanji.<br><span>Fără plictiseală.</span></h1><p class="hero-subtitle">Lasă listele interminabile. Kanjidon transformă kanji în carduri de colecție, quizuri scurte și repetiție spațiată care chiar rămâne în memorie.</p><div class="hero-cta"><a href="#download" class="btn btn-primary btn-lg">Ia primele 3 pachete</a></div><div class="hero-trust"><span class="hero-trust-item">★★★★★ <strong>4.8</strong></span><span class="hero-trust-item">Gratis · Fără card bancar</span></div><div class="hero-stats"><div><span>6000+</span><span>Kanji Flashcards</span></div><div><span>12</span><span>Quiz Types</span></div><div><span>N5-N1</span><span>JLPT</span></div><div><span>37</span><span>Languages</span></div></div></div><div class="hero-image"><div class="hero-phone floating"><img src="../assets/images/kanjidon-app-homepage.webp" alt="Kanjidon app"></div></div></div></section>
-<section id="features" class="features"><div class="container"><h2 class="section-title">Funcții</h2><div class="features-grid"><article class="feature-card"><h3>Deschide pachete de carduri</h3><p>Colecționează carduri pentru fiecare nivel JLPT. Fiecare kanji are sens, citiri și propoziții utile.</p></article><article class="feature-card"><h3>Exersează cu quizuri SRS</h3><p>Algoritmul îți arată kanji exact când ești pe cale să le uiți. Puțin în fiecare zi, progres real.</p></article><article class="feature-card"><h3>Joacă și concurează</h3><p>Bătălii PvP, ligi, misiuni și streakuri fac studiul mai viu și mai motivant.</p></article></div></div></section>
-<section class="features-alt"><div class="container"><h2 class="section-title">Disponibil în 37 de limbi</h2><div class="features-grid"><article class="feature-card"><h3>Kanji & JLPT</h3><p>6000+ cards, JLPT N5-N1, kana, grammar, vocabulary and examples in one place.</p></article><article class="feature-card"><h3>SRS</h3><p>Reviews are scheduled around memory, so each session has a clear reason.</p></article><article class="feature-card"><h3>Community</h3><p>Leaderboards, battles and missions keep study light, social and consistent.</p></article></div></div></section>
-<section class="download" id="download"><div class="container download-content"><h2 class="section-title">Începe acum, gratis</h2><p class="download-subtitle">Disponibil pe iOS și Android. Nu ai nevoie de card ca să începi.</p><div class="download-buttons"><a href="https://apps.apple.com/app/kanjidon/id6746029671"><img src="../assets/images/app-store-badge.svg" alt="App Store"></a><a href="https://play.google.com/store/apps/details?id=com.kanjidon.app"><img src="../assets/images/google-play-badge.svg" alt="Google Play"></a></div></div></section>
-<section class="blog-preview"><div class="container"><h2 class="section-title">Ghiduri gratuite ca să înveți kanji mai repede</h2><div class="blog-grid"><article class="blog-card"><h3>Cum să înveți kanji: 5 metode care funcționează</h3><p>Radicali, SRS, mnemonice, context și scriere: o metodă clară pentru kanji.</p><a href="blog/cum-sa-inveti-kanji/"><span>Read article →</span></a></article><article class="blog-card"><h3>Câte kanji trebuie pentru JLPT?</h3><p>Numărul orientativ de kanji pentru N5-N1 și cum să-ți faci planul.</p><a href="blog/cate-kanji-pentru-jlpt/"><span>Read article →</span></a></article><article class="blog-card"><h3>Hiragana, Katakana și Kanji: diferențele</h3><p>Ce rol are fiecare sistem de scriere și ce să înveți mai întâi.</p><a href="blog/hiragana-katakana-kanji-diferente/"><span>Read article →</span></a></article><article class="blog-card"><h3>Cum funcționează SRS pentru kanji</h3><p>De ce repetiția spațiată ajută memoria pe termen lung.</p><a href="blog/srs-pentru-kanji/"><span>Read article →</span></a></article></div><a class="blog-all-link" href="blog/">Blog</a></div></section>
-<section class="faq-section"><div class="container"><h2 class="section-title">Întrebări frecvente</h2><details class="faq-item"><summary>Ce este Kanjidon?</summary><p>Kanjidon transformă studiul kanji într-o experiență de învățare ca un joc. Fiecare kanji devine o carte de colecționat, iar fiecare quiz te ajută să-ți întărești memoria prin repetare spațiată (SRS). Deschide pachete, fă quizuri, parcurge lecții și urmărește-ți progresul cu statistici detaliate. Fie că începi de la zero, fie că ai deja experiență cu japoneza, Kanjidon face studiul mai captivant și mai motivant.</p></details><details class="faq-item"><summary>Kanjidon este distractiv?</summary><p>Kanjidon transformă kanji în cărți de colecție cu designuri unice, ca într-un joc de cărți. Fiecare kanji are o raritate, iar pe măsură ce le colecționezi urci în nivel, până la 50!<br><br>Misiunile, recompensele și clasamentul global adaugă partea competitivă, iar SRS te ajută să înveți pe bune, fără stres. E studiu care se simte ca un joc!</p></details><details class="faq-item"><summary>Câți kanji sunt?</summary><p>În Kanjidon există mii de cărți de colecționat, iar biblioteca continuă să crească în fiecare lună. Acoperă kanji și vocabular utile pentru viața de zi cu zi, călătorii, muncă, manga și pregătirea pentru JLPT.</p></details><details class="faq-item"><summary>Kanjidon este doar pentru kanji?</summary><p>Deloc. Kanjidon este gândit să te ajute în studiul japonezei în ansamblu. Pe lângă cărțile cu kanji, găsești și hiragana, katakana, vocabular și conținut de gramatică.</p></details><details class="faq-item"><summary>Cum colecționez cărți?</summary><p>Colecționezi cărți deschizând pachete. Există mai multe tipuri de pachete, începând cu N5. Fiecare pachet conține 4 sau 6 cărți, care sunt adăugate automat în Colecția ta.</p></details><details class="faq-item"><summary>În câte limbi este disponibil Kanjidon?</summary><p>Kanjidon este disponibil în 37 de limbi.<br><br>Poți schimba limba oricând din secțiunea Profil.</p></details><details class="faq-item"><summary>Kanjidon este gratuit?</summary><p>Da! Kanjidon este gratuit și poți face o mulțime de lucruri fără să plătești: să deschizi pachete, să faci Quizuri, să colecționezi cărți, să provoci prieteni în Battle și să urci în Clasamentul N5.<br><br>Există și Kanjidon Pass, abonamentul Premium opțional care deblochează conținut extra, cum ar fi Energie nelimitată, toate Lecțiile și toate Ligile.</p></details><details class="faq-item"><summary>Trebuie să știu deja japoneză?</summary><p>Nu, Kanjidon este pentru toată lumea! Dacă pornești chiar de la zero, începe cu pachetele Kana ca să înveți hiragana și katakana, cele două alfabete de bază ale japonezei.<br><br>După Kana, treci la pachetele N5 pentru cei mai frecvenți kanji. Kanjidon te ghidează pas cu pas, de la începător la avansat.</p></details><a class="blog-all-link" href="faq/">FAQ</a></div></section>
-</main>
-<footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
-                <p>Collect Cards. Remember Kanji.</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-col">
-                    <strong class="footer-heading">Resources</strong>
-                    <a href="/ro/blog/">Blog</a>
-                    <a href="/ro/faq/">FAQ</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Community</strong>
-                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
-                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Legal</strong>
-                    <a href="/privacy.html">Privacy Policy</a>
-                    <a href="/terms.html">Terms of Service</a>
-                    <a href="/delete.html">Delete Account</a>
-                </div>
-                <div class="footer-col">
-                    <strong class="footer-heading">Support</strong>
-                    <a href="/about.html">About Us</a>
-                    <a href="/support.html">Help Center</a>
-                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-legal">
-                    <p><strong>Kanjidon Team</strong></p>
-                    <p>VAT: IT01691020083</p>
-                </div>
-                <div class="language-selector">
-                    <button class="language-btn" aria-label="Change language" aria-haspopup="true">
-                        <span class="flag-icon">🇷🇴</span>
-                        <span class="language-name">Română</span>
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"/>
-                        </svg>
-                    </button>
-                    <div class="language-dropdown">
-                        <a href="/" class="language-option">
-                            <span class="flag-icon">🇬🇧</span> English
-                        </a>
-                        <a href="/it/" class="language-option">
-                            <span class="flag-icon">🇮🇹</span> Italiano
-                        </a>
-                        <a href="/fr/" class="language-option">
-                            <span class="flag-icon">🇫🇷</span> Français
-                        </a>
-                        <a href="/es/" class="language-option">
-                            <span class="flag-icon">🇪🇸</span> Español
-                        </a>
-                        <a href="/de/" class="language-option">
-                            <span class="flag-icon">🇩🇪</span> Deutsch
-                        </a>
-                        <a href="/pt/" class="language-option">
-                            <span class="flag-icon">🇵🇹</span> Português
-                        </a>
-                        <a href="/ru/" class="language-option">
-                            <span class="flag-icon">🇷🇺</span> Русский
-                        </a>
-                        <a href="/ko/" class="language-option">
-                            <span class="flag-icon">🇰🇷</span> 한국어
-                        </a>
-                        <a href="/zh/" class="language-option">
-                            <span class="flag-icon">🇨🇳</span> 中文
-                        </a>
-                        <a href="/zh-tw/" class="language-option">
-                            <span class="flag-icon">🇹🇼</span> 繁體中文
-                        </a>
-                        <a href="/ar/" class="language-option">
-                            <span class="flag-icon">🇸🇦</span> العربية
-                        </a>
-                        <a href="/hi/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> हिन्दी
-                        </a>
-                        <a href="/th/" class="language-option">
-                            <span class="flag-icon">🇹🇭</span> ไทย
-                        </a>
-                        <a href="/vi/" class="language-option">
-                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
-                        </a>
-                        <a href="/id/" class="language-option">
-                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
-                        </a>
-                        <a href="/ms/" class="language-option">
-                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
-                        </a>
-                        <a href="/tr/" class="language-option">
-                            <span class="flag-icon">🇹🇷</span> Türkçe
-                        </a>
-                        <a href="/pl/" class="language-option">
-                            <span class="flag-icon">🇵🇱</span> Polski
-                        </a>
-                        <a href="/fa/" class="language-option">
-                            <span class="flag-icon">🇮🇷</span> فارسی
-                        </a>
-                        <a href="/fil/" class="language-option">
-                            <span class="flag-icon">🇵🇭</span> Filipino
-                        </a>
-                        <a href="/mn/" class="language-option">
-                            <span class="flag-icon">🇲🇳</span> Монгол
-                        </a>
-                        <a href="/ro/" class="language-option active">
-                            <span class="flag-icon">🇷🇴</span> Română
-                        </a>
-                        <a href="/bg/" class="language-option">
-                            <span class="flag-icon">🇧🇬</span> Български
-                        </a>
-                        <a href="/ne/" class="language-option">
-                            <span class="flag-icon">🇳🇵</span> नेपाली
-                        </a>
-                        <a href="/my/" class="language-option">
-                            <span class="flag-icon">🇲🇲</span> မြန်မာ
-                        </a>
-                        <a href="/bn/" class="language-option">
-                            <span class="flag-icon">🇧🇩</span> বাংলা
-                        </a>
-                        <a href="/uk/" class="language-option">
-                            <span class="flag-icon">🇺🇦</span> Українська
-                        </a>
-                        <a href="/uz/" class="language-option">
-                            <span class="flag-icon">🇺🇿</span> O'zbekcha
-                        </a>
-                        <a href="/si/" class="language-option">
-                            <span class="flag-icon">🇱🇰</span> සිංහල
-                        </a>
-                        <a href="/ta/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> தமிழ்
-                        </a>
-                        <a href="/ur/" class="language-option">
-                            <span class="flag-icon">🇵🇰</span> اردو
-                        </a>
-                        <a href="/hu/" class="language-option">
-                            <span class="flag-icon">🇭🇺</span> Magyar
-                        </a>
-                        <a href="/he/" class="language-option">
-                            <span class="flag-icon">🇮🇱</span> עברית
-                        </a>
-                        <a href="/km/" class="language-option">
-                            <span class="flag-icon">🇰🇭</span> ខ្មែរ
-                        </a>
-                        <a href="/kn/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> ಕನ್ನಡ
-                        </a>
-                        <a href="/mr/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> मराठी
-                        </a>
-                        <a href="/te/" class="language-option">
-                            <span class="flag-icon">🇮🇳</span> తెలుగు
-                        </a>
-                    </div>
-                </div>
-                <p class="footer-copy">&copy; 2026 Kanjidon. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+<header class="header"><div class="container header-content">
+<a href="/ro/" class="logo"><span class="logo-text">Kanjidon</span></a><nav class="nav-links"><a href="#features">Funcții</a><a href="/ro/blog/">Blog</a><a href="/ro/faq/">FAQ</a><a href="#download" class="btn btn-primary btn-sm"><strong>Descarcă gratis</strong></a></nav>
+</div></header><section class="hero"><div class="container hero-content">
+<div class="hero-text">
+<h1>Stăpânește kanji.<br><span class="text-primary">Fără plictiseală.</span>
+</h1>
+<p class="hero-subtitle">Lasă listele interminabile. Kanjidon transformă kanji în carduri de colecție, quizuri scurte și repetiție spațiată care chiar rămâne în memorie.</p>
+<div class="hero-cta"><a href="#download" class="btn btn-primary btn-lg"><strong>Ia primele 3 pachete</strong></a></div>
+<div class="hero-trust">
+<span class="hero-trust-item" aria-label="4.8 rating out of 5"><span class="hero-stars" aria-hidden="true">★★★★★</span><strong>4.8</strong></span><span class="hero-trust-item">Gratis · Fără card bancar</span>
+</div>
+<div class="hero-stats">
+<div class="stat">
+<span class="stat-number">6000+</span><span class="stat-label">Kanji Flashcards</span>
+</div>
+<div class="stat">
+<span class="stat-number">12</span><span class="stat-label">Quiz Types</span>
+</div>
+<div class="stat">
+<span class="stat-number">N5-N1</span><span class="stat-label">JLPT</span>
+</div>
+<div class="stat">
+<span class="stat-number">300+</span><span class="stat-label">Lecții</span>
+</div>
+</div>
+</div>
+<div class="hero-image"><div class="hero-phone floating"><img src="../assets/images/kanjidon-app-homepage.webp" alt="Kanjidon app screenshot"></div></div>
+</div></section><section class="rating-section"><div class="container"><div class="rating-showcase reveal-on-scroll">
+<div class="rating-laurel">
+<img src="../assets/images/laurel-wreath.png" alt="App Store rating" class="rating-laurel-img"><span class="rating-score">4.8</span>
+</div>
+<p class="rating-text">Iubit de peste 18.000 de cursanți</p>
+<p class="rating-subtext">Rating mediu în App Store</p>
+</div></div></section><section class="how-it-works"><div class="container">
+<h2 class="section-title">De la liste plictisitoare la colecție</h2>
+<div class="steps-with-phones">
+<div class="step-row">
+<div class="step-phone"><img src="../assets/images/kanjidon-app-card-packs.webp" alt="Kanjidon card packs" loading="lazy"></div>
+<div class="step-content">
+<div class="step-number">1</div>
+<h3>Deschide pachete de carduri</h3>
+<p>Colecționează carduri pentru fiecare nivel JLPT. Fiecare kanji are sens, citiri și propoziții utile.</p>
+</div>
+</div>
+<div class="step-row step-row-reverse">
+<div class="step-phone"><img src="../assets/images/kanjidon-app-srs-quiz.webp" alt="Kanjidon SRS quiz" loading="lazy"></div>
+<div class="step-content">
+<div class="step-number">2</div>
+<h3>Exersează cu quizuri SRS</h3>
+<p>Algoritmul îți arată kanji exact când ești pe cale să le uiți. Puțin în fiecare zi, progres real.</p>
+</div>
+</div>
+<div class="step-row">
+<div class="step-phone"><img src="../assets/images/kanjidon-app-pvp-battle.webp" alt="Kanjidon PvP battle" loading="lazy"></div>
+<div class="step-content">
+<div class="step-number">3</div>
+<h3>Joacă și concurează</h3>
+<p>Bătălii PvP, ligi, misiuni și streakuri fac studiul mai viu și mai motivant.</p>
+</div>
+</div>
+</div>
+</div></section><section class="features" id="features"><div class="container">
+<h2 class="section-title">Funcții</h2>
+<div class="features-grid">
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8M12 17v4"></path></svg></div>
+<h3>Deschide pachete de carduri</h3>
+<p>Colecționează carduri pentru fiecare nivel JLPT. Fiecare kanji are sens, citiri și propoziții utile.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg></div>
+<h3>Exersează cu quizuri SRS</h3>
+<p>Algoritmul îți arată kanji exact când ești pe cale să le uiți. Puțin în fiecare zi, progres real.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="12" x="2" y="6" rx="2"></rect><line x1="6" x2="10" y1="12" y2="12"></line></svg></div>
+<h3>Joacă și concurează</h3>
+<p>Bătălii PvP, ligi, misiuni și streakuri fac studiul mai viu și mai motivant.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+<h3>Toate nivelurile JLPT</h3>
+<p>De la hiragana și katakana până la N5-N1, înveți pe o rută clară.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></div>
+<h3>Gamificare completă</h3>
+<p>Niveluri, Tama, misiuni zilnice, streakuri și recompense fac studiul ușor de păstrat.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon"><svg width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line></svg></div>
+<h3>Suport pentru 37 de limbi</h3>
+<p>Cardurile, exemplele și explicațiile sunt localizate ca să studiezi natural.</p>
+</div>
+</div>
+</div></section><section class="collection-showcase"><div class="container">
+<h2 class="section-title">Colecționează carduri unice</h2>
+<div class="cards-display reveal-on-scroll">
+<div class="floating-card card-1"><img src="../assets/images/kanji-card-n5-sun.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-2"><img src="../assets/images/kanji-card-n5-mountain.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-3"><img src="../assets/images/kanji-card-n5-water.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-4"><img src="../assets/images/kanji-card-n5-fire.webp" alt="Kanji card" loading="lazy"></div>
+<div class="floating-card card-5"><img src="../assets/images/kanji-card-n5-tree.webp" alt="Kanji card" loading="lazy"></div>
+</div>
+<div class="packs-display reveal-on-scroll">
+<p class="packs-label">Pachete pentru fiecare nivel JLPT</p>
+<div class="packs-row">
+<div class="pack-item">
+<img src="../assets/images/jlpt-n5-card-pack.webp" alt="N5 pack" loading="lazy"><span>N5</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n4-card-pack.webp" alt="N4 pack" loading="lazy"><span>N4</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n3-card-pack.webp" alt="N3 pack" loading="lazy"><span>N3</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n2-card-pack.webp" alt="N2 pack" loading="lazy"><span>N2</span>
+</div>
+<div class="pack-item">
+<img src="../assets/images/jlpt-n1-card-pack.webp" alt="N1 pack" loading="lazy"><span>N1</span>
+</div>
+</div>
+</div>
+</div></section><section class="testimonials"><div class="container">
+<h2 class="section-title">Ce spun utilizatorii</h2>
+<div class="testimonials-carousel">
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon face kanji să pară mai puțin o listă și mai mult o colecție pe care vreau s-o cresc zilnic.</p>
+<span class="testimonial-author">Michelle</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Cardurile vizuale, exemplele și quizurile scurte fac memorarea kanji mult mai ușoară.</p>
+<span class="testimonial-author">Mitchellinus</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Pachetele, misiunile și SRS transformă studiul într-un obicei lejer și motivant.</p>
+<span class="testimonial-author">Anahi</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon face kanji să pară mai puțin o listă și mai mult o colecție pe care vreau s-o cresc zilnic.</p>
+<span class="testimonial-author">Robphile</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Cardurile vizuale, exemplele și quizurile scurte fac memorarea kanji mult mai ușoară.</p>
+<span class="testimonial-author">Gabriele</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Pachetele, misiunile și SRS transformă studiul într-un obicei lejer și motivant.</p>
+<span class="testimonial-author">Sabrina</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon face kanji să pară mai puțin o listă și mai mult o colecție pe care vreau s-o cresc zilnic.</p>
+<span class="testimonial-author">Edoardo</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Cardurile vizuale, exemplele și quizurile scurte fac memorarea kanji mult mai ușoară.</p>
+<span class="testimonial-author">Kane</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Pachetele, misiunile și SRS transformă studiul într-un obicei lejer și motivant.</p>
+<span class="testimonial-author">Jose</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Kanjidon face kanji să pară mai puțin o listă și mai mult o colecție pe care vreau s-o cresc zilnic.</p>
+<span class="testimonial-author">Guervenson</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Cardurile vizuale, exemplele și quizurile scurte fac memorarea kanji mult mai ușoară.</p>
+<span class="testimonial-author">Hakki</span>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-text">Pachetele, misiunile și SRS transformă studiul într-un obicei lejer și motivant.</p>
+<span class="testimonial-author">Mike</span>
+</div>
+</div>
+</div></section><section class="download" id="download"><div class="container download-content">
+<h2 class="section-title">Începe acum, gratis</h2>
+<p class="download-subtitle">Disponibil pe iOS și Android. Nu ai nevoie de card ca să începi.</p>
+<div class="store-badges">
+<a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge badge-ios"><img src="../assets/images/app-store-badge.svg" alt="Download Kanjidon on the App Store"></a><a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge badge-android"><img src="../assets/images/google-play-badge.svg" alt="Get Kanjidon on Google Play"></a>
+</div>
+<div class="download-qr">
+<img src="../assets/images/download-qr.svg" alt="QR" width="128" height="128" loading="lazy"><span>Scanează ca să iei aplicația pe telefon</span>
+</div>
+</div></section><section class="home-blog"><div class="container">
+<h2 class="section-title">Ghiduri gratuite ca să înveți kanji mai repede</h2>
+<div class="home-blog-grid">
+<a href="/ro/blog/cum-sa-inveti-kanji/" class="home-blog-link"><h3>Cum să înveți kanji: 5 metode care funcționează</h3>
+<p>Radicali, SRS, mnemonice, context și scriere: o metodă clară pentru kanji.</p>
+<span class="read-more">Citește articolul →</span></a>
+<a href="/ro/blog/cate-kanji-pentru-jlpt/" class="home-blog-link"><h3>Câte kanji trebuie pentru JLPT?</h3>
+<p>Numărul orientativ de kanji pentru N5-N1 și cum să-ți faci planul.</p>
+<span class="read-more">Citește articolul →</span></a>
+<a href="/ro/blog/hiragana-katakana-kanji-diferente/" class="home-blog-link"><h3>Hiragana, Katakana și Kanji: diferențele</h3>
+<p>Ce rol are fiecare sistem de scriere și ce să înveți mai întâi.</p>
+<span class="read-more">Citește articolul →</span></a>
+<a href="/ro/blog/srs-pentru-kanji/" class="home-blog-link"><h3>Cum funcționează SRS pentru kanji</h3>
+<p>De ce repetiția spațiată ajută memoria pe termen lung.</p>
+<span class="read-more">Citește articolul →</span></a>
+</div>
+<a href="/ro/blog/" class="home-blog-all">Vezi toate articolele →</a>
+</div></section><section class="faq" id="faq"><div class="container">
+<h2 class="section-title">Întrebări frecvente</h2>
+<div class="faq-list">
+<details class="faq-item"><summary>Ce este Kanjidon?</summary><p>Kanjidon transformă studiul kanji într-o experiență de învățare ca un joc. Fiecare kanji devine o carte de colecționat, iar fiecare quiz te ajută să-ți întărești memoria prin repetare spațiată (SRS). Deschide pachete, fă quizuri, parcurge lecții și urmărește-ți progresul cu statistici detaliate. Fie că începi de la zero, fie că ai deja experiență cu japoneza, Kanjidon face studiul mai captivant și mai motivant.</p></details>
+<details class="faq-item"><summary>Kanjidon este distractiv?</summary><p>Kanjidon transformă kanji în cărți de colecție cu designuri unice, ca într-un joc de cărți. Fiecare kanji are o raritate, iar pe măsură ce le colecționezi urci în nivel, până la 50!<br><br>Misiunile, recompensele și clasamentul global adaugă partea competitivă, iar SRS te ajută să înveți pe bune, fără stres. E studiu care se simte ca un joc!</p></details>
+<details class="faq-item"><summary>Câți kanji sunt?</summary><p>În Kanjidon există mii de cărți de colecționat, iar biblioteca continuă să crească în fiecare lună. Acoperă kanji și vocabular utile pentru viața de zi cu zi, călătorii, muncă, manga și pregătirea pentru JLPT.</p></details>
+<details class="faq-item"><summary>Kanjidon este doar pentru kanji?</summary><p>Deloc. Kanjidon este gândit să te ajute în studiul japonezei în ansamblu. Pe lângă cărțile cu kanji, găsești și hiragana, katakana, vocabular și conținut de gramatică.</p></details>
+<details class="faq-item"><summary>Cum colecționez cărți?</summary><p>Colecționezi cărți deschizând pachete. Există mai multe tipuri de pachete, începând cu N5. Fiecare pachet conține 4 sau 6 cărți, care sunt adăugate automat în Colecția ta.</p></details>
+<details class="faq-item"><summary>În câte limbi este disponibil Kanjidon?</summary><p>Kanjidon este disponibil în 37 de limbi.<br><br>Poți schimba limba oricând din secțiunea Profil.</p></details>
+<details class="faq-item"><summary>Kanjidon este gratuit?</summary><p>Da! Kanjidon este gratuit și poți face o mulțime de lucruri fără să plătești: să deschizi pachete, să faci Quizuri, să colecționezi cărți, să provoci prieteni în Battle și să urci în Clasamentul N5.<br><br>Există și Kanjidon Pass, abonamentul Premium opțional care deblochează conținut extra, cum ar fi Energie nelimitată, toate Lecțiile și toate Ligile.</p></details>
+<details class="faq-item"><summary>Trebuie să știu deja japoneză?</summary><p>Nu, Kanjidon este pentru toată lumea! Dacă pornești chiar de la zero, începe cu pachetele Kana ca să înveți hiragana și katakana, cele două alfabete de bază ale japonezei.<br><br>După Kana, treci la pachetele N5 pentru cei mai frecvenți kanji. Kanjidon te ghidează pas cu pas, de la începător la avansat.</p></details>
+</div>
+</div></section><footer class="footer"><div class="container footer-content">
+<div class="footer-brand">
+<img src="../assets/images/icona.png" alt="Kanjidon" class="footer-logo"><p>Collect Cards. Remember Kanji.</p>
+</div>
+<div class="footer-links">
+<div class="footer-col">
+<strong class="footer-heading">Resources</strong><a href="/ro/blog/">Blog</a><a href="/ro/faq/">FAQ</a>
+</div>
+<div class="footer-col">
+<strong class="footer-heading">Community</strong><a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a><a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+</div>
+<div class="footer-col">
+<strong class="footer-heading">Legal</strong><a href="/privacy.html">Privacy Policy</a><a href="/terms.html">Terms of Service</a><a href="/delete.html">Delete Account</a>
+</div>
+<div class="footer-col">
+<strong class="footer-heading">Support</strong><a href="/about.html">About Us</a><a href="/support.html">Help Center</a><a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="footer-legal">
+<p><strong>Kanjidon Team</strong></p>
+<p>VAT: IT01691020083</p>
+</div>
+<div class="language-selector">
+<button class="language-btn" aria-label="Change language" aria-haspopup="true"><span class="flag-icon">🇷🇴</span><span class="language-name">Română</span><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="language-dropdown">                        <a href="/" class="language-option"><span class="flag-icon">🇬🇧</span> English</a>
+                        <a href="/it/" class="language-option"><span class="flag-icon">🇮🇹</span> Italiano</a>
+                        <a href="/fr/" class="language-option"><span class="flag-icon">🇫🇷</span> Français</a>
+                        <a href="/es/" class="language-option"><span class="flag-icon">🇪🇸</span> Español</a>
+                        <a href="/de/" class="language-option"><span class="flag-icon">🇩🇪</span> Deutsch</a>
+                        <a href="/pt/" class="language-option"><span class="flag-icon">🇵🇹</span> Português</a>
+                        <a href="/ru/" class="language-option"><span class="flag-icon">🇷🇺</span> Русский</a>
+                        <a href="/ko/" class="language-option"><span class="flag-icon">🇰🇷</span> 한국어</a>
+                        <a href="/zh/" class="language-option"><span class="flag-icon">🇨🇳</span> 中文</a>
+                        <a href="/zh-tw/" class="language-option"><span class="flag-icon">🇹🇼</span> 繁體中文</a>
+                        <a href="/ar/" class="language-option"><span class="flag-icon">🇸🇦</span> العربية</a>
+                        <a href="/hi/" class="language-option"><span class="flag-icon">🇮🇳</span> हिन्दी</a>
+                        <a href="/th/" class="language-option"><span class="flag-icon">🇹🇭</span> ไทย</a>
+                        <a href="/vi/" class="language-option"><span class="flag-icon">🇻🇳</span> Tiếng Việt</a>
+                        <a href="/id/" class="language-option"><span class="flag-icon">🇮🇩</span> Bahasa Indonesia</a>
+                        <a href="/ms/" class="language-option"><span class="flag-icon">🇲🇾</span> Bahasa Melayu</a>
+                        <a href="/tr/" class="language-option"><span class="flag-icon">🇹🇷</span> Türkçe</a>
+                        <a href="/pl/" class="language-option"><span class="flag-icon">🇵🇱</span> Polski</a>
+                        <a href="/fa/" class="language-option"><span class="flag-icon">🇮🇷</span> فارسی</a>
+                        <a href="/fil/" class="language-option"><span class="flag-icon">🇵🇭</span> Filipino</a>
+                        <a href="/mn/" class="language-option"><span class="flag-icon">🇲🇳</span> Монгол</a>
+                        <a href="/ro/" class="language-option active"><span class="flag-icon">🇷🇴</span> Română</a>
+                        <a href="/bg/" class="language-option"><span class="flag-icon">🇧🇬</span> Български</a>
+                        <a href="/ne/" class="language-option"><span class="flag-icon">🇳🇵</span> नेपाली</a>
+                        <a href="/my/" class="language-option"><span class="flag-icon">🇲🇲</span> မြန်မာ</a>
+                        <a href="/bn/" class="language-option"><span class="flag-icon">🇧🇩</span> বাংলা</a>
+                        <a href="/uk/" class="language-option"><span class="flag-icon">🇺🇦</span> Українська</a>
+                        <a href="/uz/" class="language-option"><span class="flag-icon">🇺🇿</span> O'zbekcha</a>
+                        <a href="/si/" class="language-option"><span class="flag-icon">🇱🇰</span> සිංහල</a>
+                        <a href="/ta/" class="language-option"><span class="flag-icon">🇮🇳</span> தமிழ்</a>
+                        <a href="/ur/" class="language-option"><span class="flag-icon">🇵🇰</span> اردو</a>
+                        <a href="/hu/" class="language-option"><span class="flag-icon">🇭🇺</span> Magyar</a>
+                        <a href="/he/" class="language-option"><span class="flag-icon">🇮🇱</span> עברית</a>
+                        <a href="/km/" class="language-option"><span class="flag-icon">🇰🇭</span> ខ្មែរ</a>
+                        <a href="/kn/" class="language-option"><span class="flag-icon">🇮🇳</span> ಕನ್ನಡ</a>
+                        <a href="/mr/" class="language-option"><span class="flag-icon">🇮🇳</span> मराठी</a>
+                        <a href="/te/" class="language-option"><span class="flag-icon">🇮🇳</span> తెలుగు</a>
+</div>
+</div>
+<p class="footer-copy">© 2026 Kanjidon. All rights reserved.</p>
+</div>
+</div></footer><div class="privacy-banner" id="privacyBanner"><div class="privacy-banner-content">
+<p>This website does not use profiling cookies. <a href="/privacy">Privacy Policy</a></p>
+<button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Close">OK</button>
+</div></div>
+<div class="sticky-download-bar" id="stickyDownload"><div class="sticky-download-bar-content">
+<a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge badge-ios"><img src="../assets/images/app-store-badge.svg" alt="Download on the App Store"></a><a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge badge-android"><img src="../assets/images/google-play-badge.svg" alt="Get it on Google Play"></a>
+</div></div>
+<script>document.addEventListener('DOMContentLoaded',function(){const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('revealed');});},{threshold:0.3});document.querySelectorAll('.reveal-on-scroll').forEach(el=>observer.observe(el));if(!localStorage.getItem('privacyBannerDismissed'))document.getElementById('privacyBanner').classList.add('visible');});function closePrivacyBanner(){document.getElementById('privacyBanner').classList.remove('visible');localStorage.setItem('privacyBannerDismissed','true');}</script><script>(function(){const stickyBar=document.getElementById('stickyDownload');const downloadSection=document.getElementById('download');const footer=document.querySelector('.footer');function updateStickyBar(){const scrollY=window.scrollY;const windowHeight=window.innerHeight;const downloadTop=downloadSection?downloadSection.getBoundingClientRect().top:Infinity;const footerTop=footer?footer.getBoundingClientRect().top:Infinity;if(scrollY>300)stickyBar.classList.add('visible');else stickyBar.classList.remove('visible');if(downloadTop<windowHeight+100||footerTop<windowHeight)stickyBar.classList.add('hidden');else stickyBar.classList.remove('hidden');}window.addEventListener('scroll',updateStickyBar,{passive:true});updateStickyBar();const carousel=document.querySelector('.testimonials-carousel');if(carousel){const cards=carousel.querySelectorAll('.testimonial-card');cards.forEach(card=>carousel.appendChild(card.cloneNode(true)));}})();</script><script defer src="/lang-banner.js"></script>
 </body>
 </html>
