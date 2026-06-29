@@ -1,0 +1,357 @@
+{
+  "articles": [
+    {
+      "id": "kanjien-oppiminen",
+      "slug": "kanjien-oppiminen",
+      "title": "Kanjien oppiminen: 5 menetelmää, jotka oikeasti toimivat",
+      "meta_description": "Radikaalit, SRS, muistisäännöt, konteksti ja kirjoittaminen: 5 toimivaa tapaa oppia kanjeja nollasta japanin lukemiseen.",
+      "keywords": "kanjien oppiminen, opi kanji, japanin kanjit, kanji aloittelijoille, kanjien muistaminen",
+      "read_time": "8 min",
+      "faq": [
+        {
+          "question": "Kuinka kauan kaikkien kanjien oppiminen kestää?",
+          "answer": "Kaikkien 2 136 jōyō-kanjin oppiminen vie yleensä 1,5-3 vuotta säännöllisellä opiskelulla. Lista voi mennä nopeammin läpi, mutta muistaminen vaatii kertausta."
+        },
+        {
+          "question": "Mikä on paras tapa oppia kanjeja?",
+          "answer": "Paras yhdistelmä on kertausvälijärjestelmä, radikaalit, muistisäännöt ja sanat kontekstissa. Pelkkä ulkoa pänttääminen unohtuu helposti."
+        },
+        {
+          "question": "Pitääkö kanjit osata kirjoittaa käsin?",
+          "answer": "Aloita tunnistamisesta ja lukemisesta. Käsin kirjoittaminen vahvistaa muistia, mutta se kannattaa lisätä vähitellen, kun perusta on jo olemassa."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Kanjit voivat aluksi tuntua valtavalta seinältä: tuhansia merkkejä, useita lukutapoja ja muotoja, jotka näyttävät lähes samoilta. Oikealla menetelmällä ne kuitenkin muuttuvat järjestelmäksi."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Mitä kanjit ovat?"
+        },
+        {
+          "type": "text",
+          "content": "Kanji (漢字) ovat kiinalaisperäisiä merkkejä, joita käytetään japanin kirjoituksessa. Jokainen kanji kantaa merkitystä ja voi saada eri lukutapoja sanasta riippuen. Nykyjapanissa käytetään noin 2 136 yleistä jōyō-kanjia."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Miksi kanjit ovat tärkeitä?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Luet japanilaisia kirjoja, verkkosivuja, kylttejä ja ruokalistoja nopeammin",
+            "Tunnistat sanojen merkityksiä ilman hidasta tavaamista",
+            "Rakennat perustan JLPT-tasoille N5-N1",
+            "Ymmärrät japania luonnollisemmin"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "5 tehokasta menetelmää"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "1. Opettele radikaalit"
+        },
+        {
+          "type": "text",
+          "content": "Radikaalit ovat kanjien rakennuspalikoita. Kun tunnistat osia kuten 水 (vesi), 木 (puu) ja 人 (ihminen), monimutkaiset merkit eivät enää näytä satunnaisilta viivoilta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "2. Käytä kertausvälejä"
+        },
+        {
+          "type": "text",
+          "content": "SRS tuo kanjin takaisin juuri ennen kuin unohtaisit sen: päivän, kolmen päivän, viikon ja myöhemmin pidempien välien jälkeen. Näin opiskelet sitä, mikä todella tarvitsee huomiota."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "3. Tee muistisääntöjä"
+        },
+        {
+          "type": "text",
+          "content": "Lyhyt mielikuva jää paremmin mieleen kuin pelkkä käännös. 休 yhdistää ihmisen ja puun: ihminen lepää puun alla. Tällaiset kuvat tekevät kanjeista muistettavia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "4. Opi sanat kontekstissa"
+        },
+        {
+          "type": "text",
+          "content": "食 tarkoittaa syömistä, mutta se muuttuu hyödylliseksi sanoissa kuten 食べる (taberu, syödä) ja 食事 (shokuji, ateria). Konteksti opettaa merkityksen ja lukutavan yhdessä."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "5. Kirjoita tietoisesti"
+        },
+        {
+          "type": "text",
+          "content": "Sinun ei tarvitse opetella kalligrafiaa. Muutaman kerran rauhallinen kirjoittaminen auttaa näkemään muodon, mittasuhteet ja vetojärjestyksen. Se tekee muistijäljestä vahvemman."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kuinka monta kanjia päivässä?"
+        },
+        {
+          "type": "text",
+          "content": "Useimmille aloittelijoille 5-10 uutta kanjia päivässä on kestävä tahti. Pieni päivittäinen rutiini toimii paremmin kuin yksi pitkä opiskeluhetki viikossa."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Yhteenveto"
+        },
+        {
+          "type": "text",
+          "content": "Kanjien oppiminen on pitkä matka, mutta ei arvoitus. Yhdistä radikaalit, SRS, muistisäännöt, konteksti ja kevyt kirjoitusharjoittelu. Silloin merkkien määrä ei tunnu enää mahdottomalta."
+        }
+      ]
+    },
+    {
+      "id": "kanji-jlpt",
+      "slug": "kuinka-monta-kanjia-jlpt",
+      "title": "Kuinka monta kanjia JLPT-kokeeseen tarvitaan? N5, N4, N3, N2 ja N1",
+      "meta_description": "Kanji-määrät JLPT-tasoille N5-N1, opiskelutunnit, sanaston koko ja käytännöllinen strategia kokeeseen valmistautumiseen.",
+      "keywords": "JLPT kanji, kuinka monta kanjia JLPT N5, JLPT kanjilista, kanji N5 N4 N3 N2 N1",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Kuinka monta kanjia tarvitsen JLPT N5 -tasolle?",
+          "answer": "N5 vaatii noin 80-100 peruskanjia: numerot, päivät, ihmiset, paikat ja hyvin tavalliset arjen sanat."
+        },
+        {
+          "question": "Kuinka monta kanjia tarvitsen JLPT N1 -tasolle?",
+          "answer": "N1 vaatii noin 2 000-2 136 kanjia, eli lähes kaikki yleiset jōyō-kanjit sekä paljon edistynyttä sanastoa."
+        },
+        {
+          "question": "Pitääkö JLPT-kokeessa kirjoittaa kanjeja?",
+          "answer": "Ei. JLPT on monivalintakoe. Sinun pitää tunnistaa ja ymmärtää kanjit, mutta et kirjoita niitä käsin kokeessa."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "JLPT on tunnetuin japanin taitoa mittaava koe. Yksi yleisimmistä kysymyksistä on: montako kanjia pitää osata kullakin tasolla? Nämä luvut auttavat suunnittelemaan opiskelun realistisesti."
+        },
+        {
+          "type": "table",
+          "headers": ["Taso", "Kanji", "Sanasto", "Tunnit"],
+          "rows": [
+            ["N5", "~100", "~800", "150-250"],
+            ["N4", "~300", "~1 500", "300-600"],
+            ["N3", "~650", "~3 750", "450-900"],
+            ["N2", "~1 000", "~6 000", "600-1 200"],
+            ["N1", "~2 000", "~10 000", "900-1 800"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5 ja N4: perusta"
+        },
+        {
+          "type": "text",
+          "content": "N5 alkaa näkyvimmistä merkeistä: 一, 二, 三, 日, 月, 人, 山 ja 川. N4 lisää arjen verbejä, adjektiiveja ja tavallista sanastoa. Tässä vaiheessa japanin lukeminen alkaa tuntua oikealta."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N3: käännekohta"
+        },
+        {
+          "type": "text",
+          "content": "N3-tasolla alat ymmärtää helpotettuja uutisia, mangaa ja pidempiä arkitekstejä. Kanji-määrä riittää siihen, että tuntemattomia sanoja voi usein päätellä asiayhteydestä."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N2 ja N1: edistynyt lukeminen"
+        },
+        {
+          "type": "text",
+          "content": "N2 riittää moniin työ-, yliopisto- ja uutisteksteihin. N1 taas vaatii laajaa lukutaitoa, vivahteita, abstraktia sanastoa ja teknisempiä tekstejä."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Opiskelustrategia"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Älä ohita tasoja: jokainen rakentuu edellisen päälle",
+            "Opiskele kanjit aina sanojen mukana",
+            "Käytä SRS:ää unohtamisen torjumiseen",
+            "Tee harjoituskokeita, kun perusta on tarpeeksi vahva"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "30 minuutilla päivässä N5 on monelle mahdollinen 3-4 kuukaudessa. N4 ja N3 vievät enemmän aikaa, ja N2/N1 ovat usein vuosien projekti. Se on normaalia: rakennat oikeaa lukutaitoa."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji",
+      "slug": "hiragana-katakana-kanji-erot",
+      "title": "Hiragana vs katakana vs kanji: mitä kannattaa oppia ensin?",
+      "meta_description": "Hiraganan, katakanan ja kanjin erot, mihin kutakin kirjoitusjärjestelmää käytetään ja paras opiskelujärjestys aloittelijalle.",
+      "keywords": "hiragana katakana ero, hiragana vs katakana, japanin kirjoitus, opi hiragana, opi katakana",
+      "read_time": "7 min",
+      "faq": [
+        {
+          "question": "Kannattaako ensin oppia hiragana vai katakana?",
+          "answer": "Opi ensin hiragana. Sitä käytetään japanilaisiin sanoihin ja kielioppiin. Katakana tulee heti sen jälkeen lainasanoja, nimiä ja korostusta varten."
+        },
+        {
+          "question": "Voiko japania kirjoittaa ilman kanjeja?",
+          "answer": "Teknisesti voi, mutta tekstiä on silloin vaikeampi lukea. Kanji antavat merkityksen ja jakavat lauseen visuaalisesti selkeämpiin osiin."
+        },
+        {
+          "question": "Kuinka monta hiraganaa ja katakanaa on?",
+          "answer": "Perusmerkkejä on 46 hiraganaa ja 46 katakanaa. Dakuten- ja muut muunnelmat kasvattavat määrän noin 71 muotoon per järjestelmä."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Japani käyttää kolmea kirjoitusjärjestelmää yhtä aikaa: hiraganaa, katakanaa ja kanjeja. Se näyttää aluksi sekavalta, mutta jokaisella järjestelmällä on oma tehtävänsä."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Hiragana"
+        },
+        {
+          "type": "text",
+          "content": "Hiragana (ひらがな) on japanin perusäännejärjestelmä. Sitä käytetään kielioppiin, taivutuksiin, japanilaisiin sanoihin ja sanoihin, joissa kanjia ei tarvita."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Katakana"
+        },
+        {
+          "type": "text",
+          "content": "Katakana (カタカナ) merkitsee samoja ääniä kuin hiragana, mutta muodot ovat kulmikkaampia. Sitä käytetään lainasanoihin kuten コーヒー (kahvi), nimiin, teknisiin termeihin ja korostukseen."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanji"
+        },
+        {
+          "type": "text",
+          "content": "Kanji (漢字) kantavat merkitystä. 山 tarkoittaa vuorta, 川 jokea ja 人 ihmistä. Ne tekevät tekstistä tiiviimpää ja nopeammin luettavaa, mutta niiden oppiminen vie aikaa."
+        },
+        {
+          "type": "table",
+          "headers": ["Järjestelmä", "Määrä", "Käyttö"],
+          "rows": [
+            ["Hiragana", "46 perusmerkkiä", "Kielioppi ja japanilaiset sanat"],
+            ["Katakana", "46 perusmerkkiä", "Lainasanat, nimet ja korostus"],
+            ["Kanji", "2 136+ yleistä", "Merkitys, substantiivit, verbit"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Paras järjestys"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Hiragana: pääset heti lukemaan alkeismateriaalia",
+            "2. Katakana: ymmärrät ruokalistoja, nimiä ja lainasanoja",
+            "3. Kanji: aloita helpoista N5-merkeistä ja etene vähitellen"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Käytä rōmajia mahdollisimman vähän. Kun osaat hiraganan, siirry lukemaan japania japanilaisella kirjoituksella. Aluksi se hidastaa, mutta pitkällä aikavälillä se nopeuttaa oppimista."
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-kanji",
+      "slug": "kertausvalit-kanji-srs",
+      "title": "Kertausvälit kanjeille: miten SRS oikeasti toimii",
+      "meta_description": "Näin spaced repetition auttaa muistamaan kanjit pitkäkestoisesti. Unohtamiskäyrä, sopivat kertausvälit ja käytännön vinkit.",
+      "keywords": "spaced repetition, SRS kanji, kanjien muistaminen, kanji flashcards, japanin opiskelumenetelmä",
+      "read_time": "6 min",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Miten voi muistaa tuhansia kanjeja ilman, että kaikki pitää aloittaa alusta joka viikko? Vastaus on kertausvälit: ei mahdollisimman paljon kertausta, vaan oikeaan aikaan."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Mitä spaced repetition tarkoittaa?"
+        },
+        {
+          "type": "text",
+          "content": "Spaced repetition on tekniikka, jossa kertaukset sijoitetaan yhä pidemmille väleille. Näet kanjin uudelleen juuri ennen kuin se unohtuisi. Näin harjoittelet heikkoja kohtia tehokkaasti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Unohtamiskäyrä"
+        },
+        {
+          "type": "text",
+          "content": "Ilman kertausta uusi tieto unohtuu nopeasti. Jokainen onnistunut kertaus vahvistaa muistijälkeä ja pidentää seuraavaa väliä. SRS automatisoi tämän prosessin."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Päivä 1: opi uusi kanji",
+            "Päivä 2: ensimmäinen kertaus",
+            "Päivä 4: toinen kertaus",
+            "Viikko 2: pidempi väli",
+            "Myöhemmin: takaisin vain tarvittaessa"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Miksi SRS sopii kanjeille?"
+        },
+        {
+          "type": "text",
+          "content": "Kanjissa on muoto, merkitys ja lukutavat. Voit muistaa yhden osan mutta unohtaa toisen. Hyvä järjestelmä testaa taitoja erikseen ja tuo heikot osat useammin takaisin."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Käytännön vinkit"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tee lyhyitä sessioita joka päivä",
+            "Älä lisää liikaa uusia kanjeja kerralla",
+            "Opi jokaisen merkin kanssa oikeita sanoja",
+            "Älä säästä kaikkia kertauksia viikonloppuun"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "SRS ei ole taikuutta, mutta se poistaa arvailun. Sinun ei tarvitse miettiä, mitä kerrata: järjestelmä tuo oikeat kanjit takaisin oikealla hetkellä."
+        }
+      ]
+    }
+  ]
+}

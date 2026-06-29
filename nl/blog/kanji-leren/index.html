@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Font Preload - All weights (eliminates FOUT) -->
+    <link rel="preload" href="../../../assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../../assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical Font CSS (inlined for zero render-blocking) -->
+    <style>
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:500;font-display:optional;src:url('../../../assets/fonts/nunito-500.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:optional;src:url('../../../assets/fonts/nunito-700.woff2') format('woff2')}
+        @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('../../../assets/fonts/nunito-800.woff2') format('woff2')}
+        @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
+    </style>
+
+    <title>Kanji leren: 5 methodes die echt werken | Kanjidon</title>
+    <meta name="description" content="Radicalen, SRS, geheugensteuntjes, context en schrijven: 5 bewezen methodes om kanji te leren, van nul tot Japans lezen.">
+    <meta name="keywords" content="kanji leren, Japanse kanji leren, kanji studeren, kanji voor beginners, kanji onthouden">
+    <meta name="author" content="David, Kanjidon Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kanjidon.com/nl/blog/kanji-leren/">
+
+    <link rel="alternate" hreflang="en" href="https://kanjidon.com/blog/how-to-learn-kanji/">
+    <link rel="alternate" hreflang="it" href="https://kanjidon.com/it/blog/come-imparare-kanji/">
+    <link rel="alternate" hreflang="fr" href="https://kanjidon.com/fr/blog/comment-apprendre-kanji/">
+    <link rel="alternate" hreflang="es" href="https://kanjidon.com/es/blog/como-aprender-kanji/">
+    <link rel="alternate" hreflang="de" href="https://kanjidon.com/de/blog/wie-kanji-lernen/">
+    <link rel="alternate" hreflang="pt" href="https://kanjidon.com/pt/blog/como-aprender-kanji/">
+    <link rel="alternate" hreflang="ru" href="https://kanjidon.com/ru/blog/kak-uchit-kanji/">
+    <link rel="alternate" hreflang="ko" href="https://kanjidon.com/ko/blog/kanji-baeuneun-bangbeop/">
+    <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/ruhe-xuexi-hanji/">
+    <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/ruhe-xuexi-hanji/">
+    <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/kayfa-tataallam-alkanji/">
+    <link rel="alternate" hreflang="hi" href="https://kanjidon.com/hi/blog/kanji-kaise-sikhen-5-tarike/">
+    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/kanji-ngai-ngai-5-withee/">
+    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/cach-hoc-kanji-5-phuong-phap-hieu-qua/">
+    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/cara-belajar-kanji-5-metode-ampuh/">
+    <link rel="alternate" hreflang="ms" href="https://kanjidon.com/ms/blog/cara-belajar-kanji-5-kaedah-berkesan/">
+    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/kanji-nasil-ogrenilir-5-etkili-yontem/">
+    <link rel="alternate" hreflang="pl" href="https://kanjidon.com/pl/blog/jak-uczyc-sie-kanji-5-metod/">
+    <link rel="alternate" hreflang="fa" href="https://kanjidon.com/fa/blog/chetor-kanji-yad-begirim-5-ravesh/">
+    <link rel="alternate" hreflang="fil" href="https://kanjidon.com/fil/blog/paano-matuto-ng-kanji-5-paraan/">
+    <link rel="alternate" hreflang="mn" href="https://kanjidon.com/mn/blog/kanji-sulah-5-arga/">
+    <link rel="alternate" hreflang="ro" href="https://kanjidon.com/ro/blog/cum-sa-inveti-kanji/">
+    <link rel="alternate" hreflang="bg" href="https://kanjidon.com/bg/blog/kak-da-uchim-kanji/">
+    <link rel="alternate" hreflang="ne" href="https://kanjidon.com/ne/blog/kanji-sikne-5-tarika/">
+    <link rel="alternate" hreflang="my" href="https://kanjidon.com/my/blog/kanji-laylaran-niny-5-nilan/">
+    <link rel="alternate" hreflang="bn" href="https://kanjidon.com/bn/blog/kanji-shekar-5-poddhoti/">
+    <link rel="alternate" hreflang="uk" href="https://kanjidon.com/uk/blog/yak-vyvchaty-kanji/">
+    <link rel="alternate" hreflang="uz" href="https://kanjidon.com/uz/blog/kanji-organish-5-usul/">
+    <link rel="alternate" hreflang="si" href="https://kanjidon.com/si/blog/kanji-igenaganna-krama-5/">
+    <link rel="alternate" hreflang="ta" href="https://kanjidon.com/ta/blog/kanji-karka-5-muraigal/">
+    <link rel="alternate" hreflang="ur" href="https://kanjidon.com/ur/blog/kanji-seekhne-ke-5-tareeqe/">
+    <link rel="alternate" hreflang="hu" href="https://kanjidon.com/hu/blog/kanji-tanulas-5-modszer/">
+    <link rel="alternate" hreflang="he" href="https://kanjidon.com/he/blog/ech-lilmod-kanji/">
+    <link rel="alternate" hreflang="km" href="https://kanjidon.com/km/blog/rean-kanji-5-vithi/">
+    <link rel="alternate" hreflang="kn" href="https://kanjidon.com/kn/blog/kanji-kaliyalu-5-vidhanagalu/">
+    <link rel="alternate" hreflang="mr" href="https://kanjidon.com/mr/blog/kanji-shiknyachya-5-paddhati/">
+    <link rel="alternate" hreflang="te" href="https://kanjidon.com/te/blog/kanji-nerchukune-5-paddhatulu/">
+    <link rel="alternate" hreflang="nl" href="https://kanjidon.com/nl/blog/kanji-leren/">
+    <link rel="alternate" hreflang="fi" href="https://kanjidon.com/fi/blog/kanjien-oppiminen/">
+    <link rel="alternate" hreflang="cs" href="https://kanjidon.com/cs/blog/jak-se-ucit-kanji/">
+    <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/how-to-learn-kanji/">
+
+    <meta property="og:title" content="Kanji leren: 5 methodes die echt werken">
+    <meta property="og:description" content="Radicalen, SRS, geheugensteuntjes, context en schrijven: 5 bewezen methodes om kanji te leren, van nul tot Japans lezen.">
+    <meta property="og:image" content="https://kanjidon.com/assets/images/og-image.png">
+    <meta property="og:url" content="https://kanjidon.com/nl/blog/kanji-leren/">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kanji leren: 5 methodes die echt werken">
+    <meta name="twitter:description" content="Radicalen, SRS, geheugensteuntjes, context en schrijven: 5 bewezen methodes om kanji te leren, van nul tot Japans lezen.">
+
+    <link rel="icon" type="image/png" href="../../../assets/images/icona.png">
+    <link rel="apple-touch-icon" href="../../../assets/images/icona.png">
+    <link rel="stylesheet" href="../../../styles.css">
+
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kanji leren: 5 methodes die echt werken",
+        "description": "Radicalen, SRS, geheugensteuntjes, context en schrijven: 5 bewezen methodes om kanji te leren, van nul tot Japans lezen.",
+        "author": {
+                "@type": "Person",
+                "name": "David",
+                "jobTitle": "Kanjidon Team"
+        },
+        "publisher": {
+                "@type": "Organization",
+                "name": "Kanjidon",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://kanjidon.com/assets/images/icona.png"
+                }
+        },
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kanjidon.com/nl/blog/kanji-leren/"
+        },
+        "datePublished": "2025-12-05",
+        "dateModified": "2025-12-05"
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kanjidon.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kanjidon.com/nl/blog/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Kanji leren: 5 methodes die echt werken",
+                        "item": "https://kanjidon.com/nl/blog/kanji-leren/"
+                }
+        ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Hoelang duurt het om alle kanji te leren?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Alle 2.136 jōyō-kanji leren duurt meestal 1,5 tot 3 jaar met dagelijkse studie. Je kunt sneller door de lijst heen, maar onthouden vraagt vaste herhaling met SRS."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Wat is de beste methode om kanji te leren?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "De beste basis is spaced repetition gecombineerd met radicalen, visuele verhalen en woorden in context. Alleen stampen werkt op lange termijn veel minder goed."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Moet ik kanji ook leren schrijven?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Begin met herkennen en lezen. Schrijven helpt je geheugen, maar is minder dringend dan betekenis en lezingen herkennen. Voeg schrijven toe zodra je een kleine basis hebt."
+                        }
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="/nl/" class="logo">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="logo-icon">
+                <span class="logo-text">Kanjidon</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/nl/blog/">Blog</a>
+                <a href="/nl/#download" class="btn btn-primary btn-sm"><strong>Download</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-article">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <a href="/nl/">Home</a>
+                <span class="separator">›</span>
+                <a href="/nl/blog/">Blog</a>
+                <span class="separator">›</span>
+                <span class="current">Kanji leren: 5 methodes die echt werken</span>
+            </nav>
+
+            <div class="article-header">
+                <h1>Kanji leren: 5 methodes die echt werken</h1>
+                <div class="article-meta">
+                    <img src="../../../assets/images/authors/author-david.webp" alt="David" class="author-avatar">
+                    <span class="author">Door David, Kanjidon Team</span>
+                    <span class="meta-separator">·</span>
+                    <span class="publish-date">5 dec 2025</span>
+                    <span class="meta-separator">·</span>
+                    <span class="read-time">8 min</span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <p class="article-intro">Kanji voelen in het begin enorm: duizenden tekens, meerdere lezingen en vormen die soms bijna hetzelfde lijken. Toch is het geen kwestie van talent. Met een slimme volgorde en herhaling kun je kanji stap voor stap beheersen.</p>
+<h2>Wat zijn kanji?</h2>
+<p>Kanji (漢字) zijn Chinese karakters die in het Japans worden gebruikt. Elk teken draagt betekenis en kan verschillende uitspraken hebben afhankelijk van het woord. Modern Japans gebruikt ongeveer 2.136 veelvoorkomende jōyō-kanji.</p>
+<h2>Waarom zijn kanji belangrijk?</h2>
+<ul><li>Je leest Japanse boeken, websites, menu&#039;s en borden sneller</li><li>Je herkent woordbetekenis zonder alles letter voor letter te spellen</li><li>Je bouwt een sterke basis voor JLPT N5 tot N1</li><li>Je begrijpt Japans natuurlijker en preciezer</li></ul>
+<h2>De 5 effectiefste methodes</h2>
+<h3>1. Leer radicalen</h3>
+<p>Radicalen zijn bouwstenen van kanji. Als je componenten zoals 水 (water), 木 (boom) en 人 (persoon) herkent, worden complexe tekens minder abstract. Je ziet dan patronen in plaats van losse lijnen.</p>
+<h3>2. Gebruik spaced repetition</h3>
+<p>Met SRS herhaal je een kanji precies wanneer je hem bijna zou vergeten: na 1 dag, 3 dagen, een week, twee weken en daarna steeds langer. Zo besteed je je tijd aan de tekens die het nodig hebben.</p>
+<h3>3. Maak geheugensteuntjes</h3>
+<p>Een kort beeld blijft beter hangen dan een droge vertaling. 休 combineert persoon en boom: iemand rust onder een boom. Zulke kleine verhalen maken kanji veel makkelijker te onthouden.</p>
+<h3>4. Leer woorden, niet alleen losse tekens</h3>
+<p>食 betekent eten, maar wordt pas echt nuttig in woorden zoals 食べる (taberu, eten) en 食事 (shokuji, maaltijd). Context leert je betekenis, lezing en gebruik tegelijk.</p>
+<h3>5. Schrijf met aandacht</h3>
+<p>Je hoeft geen kalligraaf te worden. Een paar keer bewust schrijven helpt je om vorm, volgorde en verhouding te zien. Schrijf langzaam, controleer de streken en herhaal daarna met SRS.</p>
+<h2>Hoeveel kanji per dag?</h2>
+<p>Voor de meeste beginners is 5 tot 10 nieuwe kanji per dag duurzaam. Consistentie wint van sprinten: 15 minuten per dag werkt beter dan één lange sessie per week.</p>
+<h2>Conclusie</h2>
+<p>Kanji leren is een lang project, maar geen mysterie. Combineer radicalen, SRS, geheugensteuntjes, context en lichte schrijftraining. Dan verandert een muur van tekens in een systeem dat je steeds beter kunt lezen.</p>
+            </div>
+
+            <section class="related-articles">
+                <h3>Misschien vind je dit ook leuk</h3>
+                <div class="related-grid">
+                    
+                    <a href="/nl/blog/hiragana-katakana-kanji-verschillen/" class="related-card">
+                        <h4>Hiragana vs katakana vs kanji: wat leer je eerst?</h4>
+                        <span class="read-time">7 min</span>
+                    </a>
+                    <a href="/nl/blog/spaced-repetition-kanji/" class="related-card">
+                        <h4>Spaced repetition voor kanji: hoe SRS echt werkt</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                    <a href="/nl/blog/hoeveel-kanji-jlpt/" class="related-card">
+                        <h4>Hoeveel kanji voor de JLPT? Aantallen voor N5, N4, N3, N2 en N1</h4>
+                        <span class="read-time">6 min</span>
+                    </a>
+                </div>
+            </section>
+            <div class="article-cta">
+                <h3>Begin vandaag met kanji leren</h3>
+                <div class="store-badges">
+                    <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/app-store-badge.svg" alt="Download in de App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
+                        <img src="../../../assets/images/google-play-badge.svg" alt="Download via Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="../../../assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <p>Collect Cards. Remember Kanji.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <strong class="footer-heading">Resources</strong>
+                    <a href="../../../blog/">Blog</a>
+                    <a href="../../../faq/">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Community</strong>
+                    <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
+                    <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Legal</strong>
+                    <a href="../../../privacy.html">Privacy Policy</a>
+                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <a href="../../../delete.html">Delete Account</a>
+                </div>
+                <div class="footer-col">
+                    <strong class="footer-heading">Support</strong>
+                    <a href="../../../about.html">About Us</a>
+                    <a href="../../../support.html">Help Center</a>
+                    <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p><strong>Kanjidon Team</strong></p>
+                    <p>VAT: IT01691020083</p>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" aria-label="Taal wijzigen">
+                        <span class="flag-icon">🇳🇱</span>
+                        <span class="language-name">Nederlands</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/" class="language-option">
+                            <span class="flag-icon">🇬🇧</span> English
+                        </a>
+                        <a href="/it/" class="language-option">
+                            <span class="flag-icon">🇮🇹</span> Italiano
+                        </a>
+                        <a href="/fr/" class="language-option">
+                            <span class="flag-icon">🇫🇷</span> Français
+                        </a>
+                        <a href="/es/" class="language-option">
+                            <span class="flag-icon">🇪🇸</span> Español
+                        </a>
+                        <a href="/de/" class="language-option">
+                            <span class="flag-icon">🇩🇪</span> Deutsch
+                        </a>
+                        <a href="/pt/" class="language-option">
+                            <span class="flag-icon">🇵🇹</span> Português
+                        </a>
+                        <a href="/ru/" class="language-option">
+                            <span class="flag-icon">🇷🇺</span> Русский
+                        </a>
+                        <a href="/ko/" class="language-option">
+                            <span class="flag-icon">🇰🇷</span> 한국어
+                        </a>
+                        <a href="/zh/" class="language-option">
+                            <span class="flag-icon">🇨🇳</span> 中文
+                        </a>
+                        <a href="/zh-tw/" class="language-option">
+                            <span class="flag-icon">🇹🇼</span> 繁體中文
+                        </a>
+                        <a href="/ar/" class="language-option">
+                            <span class="flag-icon">🇸🇦</span> العربية
+                        </a>
+                        <a href="/hi/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> हिन्दी
+                        </a>
+                        <a href="/th/" class="language-option">
+                            <span class="flag-icon">🇹🇭</span> ไทย
+                        </a>
+                        <a href="/vi/" class="language-option">
+                            <span class="flag-icon">🇻🇳</span> Tiếng Việt
+                        </a>
+                        <a href="/id/" class="language-option">
+                            <span class="flag-icon">🇮🇩</span> Bahasa Indonesia
+                        </a>
+                        <a href="/ms/" class="language-option">
+                            <span class="flag-icon">🇲🇾</span> Bahasa Melayu
+                        </a>
+                        <a href="/tr/" class="language-option">
+                            <span class="flag-icon">🇹🇷</span> Türkçe
+                        </a>
+                        <a href="/pl/" class="language-option">
+                            <span class="flag-icon">🇵🇱</span> Polski
+                        </a>
+                        <a href="/fa/" class="language-option">
+                            <span class="flag-icon">🇮🇷</span> فارسی
+                        </a>
+                        <a href="/fil/" class="language-option">
+                            <span class="flag-icon">🇵🇭</span> Filipino
+                        </a>
+                        <a href="/mn/" class="language-option">
+                            <span class="flag-icon">🇲🇳</span> Монгол
+                        </a>
+                        <a href="/ro/" class="language-option">
+                            <span class="flag-icon">🇷🇴</span> Română
+                        </a>
+                        <a href="/bg/" class="language-option">
+                            <span class="flag-icon">🇧🇬</span> Български
+                        </a>
+                        <a href="/ne/" class="language-option">
+                            <span class="flag-icon">🇳🇵</span> नेपाली
+                        </a>
+                        <a href="/my/" class="language-option">
+                            <span class="flag-icon">🇲🇲</span> မြန်မာ
+                        </a>
+                        <a href="/bn/" class="language-option">
+                            <span class="flag-icon">🇧🇩</span> বাংলা
+                        </a>
+                        <a href="/uk/" class="language-option">
+                            <span class="flag-icon">🇺🇦</span> Українська
+                        </a>
+                        <a href="/uz/" class="language-option">
+                            <span class="flag-icon">🇺🇿</span> O'zbekcha
+                        </a>
+                        <a href="/si/" class="language-option">
+                            <span class="flag-icon">🇱🇰</span> සිංහල
+                        </a>
+                        <a href="/ta/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> தமிழ்
+                        </a>
+                        <a href="/ur/" class="language-option">
+                            <span class="flag-icon">🇵🇰</span> اردو
+                        </a>
+                        <a href="/hu/" class="language-option">
+                            <span class="flag-icon">🇭🇺</span> Magyar
+                        </a>
+                        <a href="/he/" class="language-option">
+                            <span class="flag-icon">🇮🇱</span> עברית
+                        </a>
+                        <a href="/km/" class="language-option">
+                            <span class="flag-icon">🇰🇭</span> ខ្មែរ
+                        </a>
+                        <a href="/kn/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> ಕನ್ನಡ
+                        </a>
+                        <a href="/mr/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> मराठी
+                        </a>
+                        <a href="/te/" class="language-option">
+                            <span class="flag-icon">🇮🇳</span> తెలుగు
+                        </a>
+                        <a href="/nl/" class="language-option active">
+                            <span class="flag-icon">🇳🇱</span> Nederlands
+                        </a>
+                        <a href="/fi/" class="language-option">
+                            <span class="flag-icon">🇫🇮</span> Suomi
+                        </a>
+                        <a href="/cs/" class="language-option">
+                            <span class="flag-icon">🇨🇿</span> Čeština
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copy">&copy; 2026 Kanjidon. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-download-bar" id="stickyDownload">
+        <div class="sticky-download-bar-content">
+            <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/app-store-badge.svg" alt="Download in de App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
+                <img src="../../../assets/images/google-play-badge.svg" alt="Download via Google Play">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Language selector toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageBtn = document.querySelector('.language-btn');
+            const languageDropdown = document.querySelector('.language-dropdown');
+
+            if (languageBtn && languageDropdown) {
+                languageBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    languageDropdown.classList.toggle('show');
+                });
+
+                document.addEventListener('click', function() {
+                    languageDropdown.classList.remove('show');
+                });
+            }
+        });
+
+        // Reading progress bar
+        (function() {
+            const progressBar = document.getElementById('readingProgress');
+            const article = document.querySelector('.article-content');
+
+            if (progressBar && article) {
+                function updateProgress() {
+                    const articleRect = article.getBoundingClientRect();
+                    const articleTop = window.scrollY + articleRect.top;
+                    const articleHeight = article.offsetHeight;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+
+                    const start = articleTop - windowHeight * 0.2;
+                    const end = articleTop + articleHeight - windowHeight * 0.5;
+                    const progress = Math.max(0, Math.min(100, ((scrollY - start) / (end - start)) * 100));
+
+                    progressBar.style.width = progress + '%';
+                }
+
+                window.addEventListener('scroll', updateProgress, { passive: true });
+                updateProgress();
+            }
+        })();
+
+        // Sticky download bar
+        (function() {
+            const stickyBar = document.getElementById('stickyDownload');
+            const footer = document.querySelector('.footer');
+            const cta = document.querySelector('.article-cta');
+
+            function updateStickyBar() {
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const ctaTop = cta ? cta.getBoundingClientRect().top : Infinity;
+                const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+
+                if (scrollY > 300) {
+                    stickyBar.classList.add('visible');
+                } else {
+                    stickyBar.classList.remove('visible');
+                }
+
+                if (ctaTop < windowHeight + 100 || footerTop < windowHeight) {
+                    stickyBar.classList.add('hidden');
+                } else {
+                    stickyBar.classList.remove('hidden');
+                }
+            }
+
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
+            updateStickyBar();
+        })();
+    </script>
+</body>
+</html>

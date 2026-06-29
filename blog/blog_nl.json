@@ -1,0 +1,362 @@
+{
+  "articles": [
+    {
+      "id": "kanji-leren",
+      "slug": "kanji-leren",
+      "title": "Kanji leren: 5 methodes die echt werken",
+      "meta_description": "Radicalen, SRS, geheugensteuntjes, context en schrijven: 5 bewezen methodes om kanji te leren, van nul tot Japans lezen.",
+      "keywords": "kanji leren, Japanse kanji leren, kanji studeren, kanji voor beginners, kanji onthouden",
+      "read_time": "8 min",
+      "faq": [
+        {
+          "question": "Hoelang duurt het om alle kanji te leren?",
+          "answer": "Alle 2.136 jōyō-kanji leren duurt meestal 1,5 tot 3 jaar met dagelijkse studie. Je kunt sneller door de lijst heen, maar onthouden vraagt vaste herhaling met SRS."
+        },
+        {
+          "question": "Wat is de beste methode om kanji te leren?",
+          "answer": "De beste basis is spaced repetition gecombineerd met radicalen, visuele verhalen en woorden in context. Alleen stampen werkt op lange termijn veel minder goed."
+        },
+        {
+          "question": "Moet ik kanji ook leren schrijven?",
+          "answer": "Begin met herkennen en lezen. Schrijven helpt je geheugen, maar is minder dringend dan betekenis en lezingen herkennen. Voeg schrijven toe zodra je een kleine basis hebt."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Kanji voelen in het begin enorm: duizenden tekens, meerdere lezingen en vormen die soms bijna hetzelfde lijken. Toch is het geen kwestie van talent. Met een slimme volgorde en herhaling kun je kanji stap voor stap beheersen."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Wat zijn kanji?"
+        },
+        {
+          "type": "text",
+          "content": "Kanji (漢字) zijn Chinese karakters die in het Japans worden gebruikt. Elk teken draagt betekenis en kan verschillende uitspraken hebben afhankelijk van het woord. Modern Japans gebruikt ongeveer 2.136 veelvoorkomende jōyō-kanji."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Waarom zijn kanji belangrijk?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je leest Japanse boeken, websites, menu's en borden sneller",
+            "Je herkent woordbetekenis zonder alles letter voor letter te spellen",
+            "Je bouwt een sterke basis voor JLPT N5 tot N1",
+            "Je begrijpt Japans natuurlijker en preciezer"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "De 5 effectiefste methodes"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "1. Leer radicalen"
+        },
+        {
+          "type": "text",
+          "content": "Radicalen zijn bouwstenen van kanji. Als je componenten zoals 水 (water), 木 (boom) en 人 (persoon) herkent, worden complexe tekens minder abstract. Je ziet dan patronen in plaats van losse lijnen."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "2. Gebruik spaced repetition"
+        },
+        {
+          "type": "text",
+          "content": "Met SRS herhaal je een kanji precies wanneer je hem bijna zou vergeten: na 1 dag, 3 dagen, een week, twee weken en daarna steeds langer. Zo besteed je je tijd aan de tekens die het nodig hebben."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "3. Maak geheugensteuntjes"
+        },
+        {
+          "type": "text",
+          "content": "Een kort beeld blijft beter hangen dan een droge vertaling. 休 combineert persoon en boom: iemand rust onder een boom. Zulke kleine verhalen maken kanji veel makkelijker te onthouden."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "4. Leer woorden, niet alleen losse tekens"
+        },
+        {
+          "type": "text",
+          "content": "食 betekent eten, maar wordt pas echt nuttig in woorden zoals 食べる (taberu, eten) en 食事 (shokuji, maaltijd). Context leert je betekenis, lezing en gebruik tegelijk."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "5. Schrijf met aandacht"
+        },
+        {
+          "type": "text",
+          "content": "Je hoeft geen kalligraaf te worden. Een paar keer bewust schrijven helpt je om vorm, volgorde en verhouding te zien. Schrijf langzaam, controleer de streken en herhaal daarna met SRS."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Hoeveel kanji per dag?"
+        },
+        {
+          "type": "text",
+          "content": "Voor de meeste beginners is 5 tot 10 nieuwe kanji per dag duurzaam. Consistentie wint van sprinten: 15 minuten per dag werkt beter dan één lange sessie per week."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Conclusie"
+        },
+        {
+          "type": "text",
+          "content": "Kanji leren is een lang project, maar geen mysterie. Combineer radicalen, SRS, geheugensteuntjes, context en lichte schrijftraining. Dan verandert een muur van tekens in een systeem dat je steeds beter kunt lezen."
+        }
+      ]
+    },
+    {
+      "id": "kanji-jlpt",
+      "slug": "hoeveel-kanji-jlpt",
+      "title": "Hoeveel kanji voor de JLPT? Aantallen voor N5, N4, N3, N2 en N1",
+      "meta_description": "Exacte kanji-aantallen per JLPT-niveau: N5, N4, N3, N2 en N1. Inclusief studie-uren, strategie en wat je naast kanji nodig hebt.",
+      "keywords": "kanji JLPT, hoeveel kanji JLPT N5, JLPT kanji lijst, kanji N5 N4 N3 N2 N1",
+      "read_time": "6 min",
+      "faq": [
+        {
+          "question": "Hoeveel kanji heb ik nodig voor JLPT N5?",
+          "answer": "Voor N5 heb je ongeveer 80 tot 100 basis-kanji nodig: cijfers, dagen, mensen, plaatsen en eenvoudige dagelijkse woorden."
+        },
+        {
+          "question": "Hoeveel kanji heb ik nodig voor JLPT N1?",
+          "answer": "Voor N1 heb je ongeveer 2.000 tot 2.136 kanji nodig, bijna alle dagelijkse jōyō-kanji plus veel geavanceerde woordenschat."
+        },
+        {
+          "question": "Moet ik kanji kunnen schrijven op de JLPT?",
+          "answer": "Nee. De JLPT is multiple choice. Je moet kanji herkennen, lezen en begrijpen, maar je schrijft ze niet met de hand tijdens het examen."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "De JLPT is het bekendste examen voor Japans. Een van de eerste vragen is altijd: hoeveel kanji moet ik kennen per niveau? De aantallen hieronder zijn praktische richtlijnen voor je planning."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Niveau",
+            "Kanji",
+            "Woordenschat",
+            "Studie-uren"
+          ],
+          "rows": [
+            ["N5", "~100", "~800", "150-250"],
+            ["N4", "~300", "~1.500", "300-600"],
+            ["N3", "~650", "~3.750", "450-900"],
+            ["N2", "~1.000", "~6.000", "600-1.200"],
+            ["N1", "~2.000", "~10.000", "900-1.800"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N5 en N4: je fundament"
+        },
+        {
+          "type": "text",
+          "content": "N5 start met de meest zichtbare kanji: 一, 二, 三, 日, 月, 人, 山 en 川. N4 breidt dat uit met alledaagse handelingen, bijvoeglijke naamwoorden en basiswoordenschat. Dit is de fase waarin lezen eindelijk vorm krijgt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N3: het kantelpunt"
+        },
+        {
+          "type": "text",
+          "content": "Rond N3 begin je vereenvoudigde nieuwsartikelen, manga en langere dagelijkse teksten te begrijpen. Je kent genoeg kanji om patronen te zien en onbekende woorden vaker uit context te raden."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "N2 en N1: gevorderd lezen"
+        },
+        {
+          "type": "text",
+          "content": "N2 vraagt genoeg kanji voor kranten, werk en universiteitsteksten. N1 gaat richting volledige beheersing: literatuur, zakelijke taal, nuance en gespecialiseerde woordenschat."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Studieadvies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sla geen niveau over: elk niveau bouwt op het vorige",
+            "Leer kanji altijd samen met woorden",
+            "Gebruik SRS om vergeten te voorkomen",
+            "Doe oefenexamens zodra je basis stevig genoeg is"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Met 30 minuten per dag kun je N5 vaak in 3 tot 4 maanden halen. N4 en N3 kosten meer tijd, en N2/N1 vragen meestal jaren. Dat is normaal: je bouwt echte leesvaardigheid op."
+        }
+      ]
+    },
+    {
+      "id": "hiragana-katakana-kanji",
+      "slug": "hiragana-katakana-kanji-verschillen",
+      "title": "Hiragana vs katakana vs kanji: wat leer je eerst?",
+      "meta_description": "Het verschil tussen hiragana, katakana en kanji, waar elk schrift voor dient en in welke volgorde je ze het beste leert.",
+      "keywords": "hiragana katakana verschil, hiragana vs katakana, Japans schrift, hiragana leren, katakana leren",
+      "read_time": "7 min",
+      "faq": [
+        {
+          "question": "Moet ik eerst hiragana of katakana leren?",
+          "answer": "Leer eerst hiragana. Het wordt gebruikt voor Japanse woorden en grammatica. Katakana komt daarna en wordt vooral gebruikt voor leenwoorden, namen en nadruk."
+        },
+        {
+          "question": "Kan Japans zonder kanji worden geschreven?",
+          "answer": "Technisch wel, maar teksten worden dan moeilijker te lezen. Kanji geven betekenis en visuele structuur aan zinnen."
+        },
+        {
+          "question": "Hoeveel hiragana en katakana zijn er?",
+          "answer": "Er zijn 46 basis-hiragana en 46 basis-katakana. Met varianten zoals dakuten groeit elk systeem tot ongeveer 71 vormen."
+        }
+      ],
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Japans gebruikt drie schriften tegelijk: hiragana, katakana en kanji. Dat lijkt verwarrend, maar elk schrift heeft een duidelijke taak. Als je de rollen begrijpt, weet je precies waar je moet beginnen."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Hiragana"
+        },
+        {
+          "type": "text",
+          "content": "Hiragana (ひらがな) is het basisschrift voor Japanse klanken. Het wordt gebruikt voor grammatica, uitgangen, inheemse woorden en woorden waarvan de kanji niet nodig of niet bekend is."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Katakana"
+        },
+        {
+          "type": "text",
+          "content": "Katakana (カタカナ) heeft dezelfde klanken als hiragana, maar hoekigere vormen. Je ziet het vooral bij buitenlandse woorden zoals コーヒー (koffie), namen, technische termen en nadruk."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Kanji"
+        },
+        {
+          "type": "text",
+          "content": "Kanji (漢字) dragen betekenis. 山 betekent berg, 川 rivier en 人 persoon. Ze maken Japans compacter en makkelijker te scannen, maar vragen langdurige studie."
+        },
+        {
+          "type": "table",
+          "headers": ["Schrift", "Aantal", "Gebruik"],
+          "rows": [
+            ["Hiragana", "46 basisvormen", "Grammatica en Japanse woorden"],
+            ["Katakana", "46 basisvormen", "Leenwoorden, namen en nadruk"],
+            ["Kanji", "2.136+ veelvoorkomend", "Betekenis, zelfstandige naamwoorden, werkwoorden"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "De beste volgorde"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Hiragana: je leest meteen beginnersteksten",
+            "2. Katakana: je herkent menu's, namen en leenwoorden",
+            "3. Kanji: begin met eenvoudige N5-tekens en bouw langzaam op"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Gebruik romaji zo kort mogelijk. Zodra je hiragana kent, lees je Japans beter direct in Japans schrift. Dat voelt eerst langzamer, maar versnelt je vooruitgang enorm."
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-kanji",
+      "slug": "spaced-repetition-kanji",
+      "title": "Spaced repetition voor kanji: hoe SRS echt werkt",
+      "meta_description": "Ontdek hoe spaced repetition kanji in je langetermijngeheugen vastzet. De vergeetcurve, ideale herhalingen en praktische SRS-tips.",
+      "keywords": "spaced repetition, SRS kanji, kanji onthouden, kanji flashcards, Japanse studie methode",
+      "read_time": "6 min",
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Hoe onthoud je duizenden kanji zonder elke dag alles opnieuw te leren? Het antwoord is spaced repetition: herhalen op het juiste moment, niet zo vaak mogelijk."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Wat is spaced repetition?"
+        },
+        {
+          "type": "text",
+          "content": "Spaced repetition is een leertechniek waarbij herhalingen steeds verder uit elkaar liggen. Je ziet een kanji opnieuw vlak voordat je hem zou vergeten. Daardoor train je precies wat zwak is."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "De vergeetcurve"
+        },
+        {
+          "type": "text",
+          "content": "Zonder herhaling vergeten we nieuwe informatie snel. Elke goede herhaling maakt het geheugen sterker en verlengt de tijd tot de volgende herhaling. SRS maakt dit proces automatisch."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dag 1: leer een nieuwe kanji",
+            "Dag 2: eerste herhaling",
+            "Dag 4: tweede herhaling",
+            "Week 2: langere pauze",
+            "Daarna: alleen terug wanneer nodig"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Waarom SRS zo goed werkt voor kanji"
+        },
+        {
+          "type": "text",
+          "content": "Kanji hebben vorm, betekenis en lezingen. Je kunt één onderdeel kennen en een ander vergeten. Een goede app test daarom verschillende vaardigheden apart en laat zwakke onderdelen vaker terugkomen."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Praktische tips"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Doe elke dag korte sessies",
+            "Voeg niet te veel nieuwe kanji tegelijk toe",
+            "Leer woorden bij elk teken",
+            "Sla herhalingen niet op tot het weekend"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "SRS is geen magie, maar het haalt veel ruis uit je studie. Je hoeft niet te raden wat je moet herhalen: het systeem brengt de juiste kanji op het juiste moment terug."
+        }
+      ]
+    }
+  ]
+}
