@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5WQPL42A94.com.davidemoscato.kanjidon",
+        "paths": ["/open", "/open?*", "/open/*"]
+      }
+    ]
+  }
+}
