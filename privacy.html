@@ -46,7 +46,7 @@
         <div class="container">
             <article class="legal-content">
                 <h1>Privacy Policy</h1>
-                <p class="legal-meta">Last updated: July 10, 2026 | Version 3.0</p>
+                <p class="legal-meta">Last updated: July 16, 2026 | Version 3.1</p>
 
                 <section>
                     <h2>Plain-language summary</h2>
@@ -104,7 +104,11 @@
                     </ul>
                     <p>Analytics data is <strong>pseudonymous, not necessarily anonymous</strong>. Kanjidon enables Firebase Analytics in release builds. We use it to understand feature use, stability, and purchase flows.</p>
 
-                    <h3>3.6 Country detection and network data</h3>
+                    <h3>3.6 Microphone and speech recognition</h3>
+                    <p>When you start a Shadowing exercise, Kanjidon uses the microphone and the speech-recognition service provided by your device platform to convert a short voice sample into text. Depending on the device, downloaded language models, and platform settings, recognition may happen on the device or the voice sample may be sent to the platform provider for recognition.</p>
+                    <p>Microphone use is optional and starts only after you tap the recording control and grant permission. Kanjidon does not upload or store the recording or recognized text in its own backend; the transient result is used in memory to score the current exercise. The platform provider may process the voice sample under its own terms and device privacy settings.</p>
+
+                    <h3>3.7 Country detection and network data</h3>
                     <p>On first sign-in, the server may process the connection IP address and send it to country.is to derive a two-letter country code. Kanjidon stores the country code, not the IP address used for that lookup. Infrastructure providers may independently process IP addresses in normal security and access logs.</p>
                 </section>
 
@@ -153,8 +157,8 @@
                     <ul>
                         <li><strong>Other signed-in Kanjidon users:</strong> the Live, profile, leaderboard, showcase, friendship, and battle information described above.</li>
                         <li><strong>Supabase:</strong> authentication, database, storage, realtime, and Edge Functions. The primary Kanjidon database is hosted in the EU West (Paris) region.</li>
-                        <li><strong>Google and Firebase:</strong> Google sign-in, Analytics, Cloud Messaging, Remote Config, and related platform services.</li>
-                        <li><strong>Apple:</strong> Sign in with Apple, App Store distribution, purchases, and subscription processing.</li>
+                        <li><strong>Google and Firebase:</strong> Google sign-in, Analytics, Cloud Messaging, Remote Config, Android speech recognition where provided by the device, and related platform services.</li>
+                        <li><strong>Apple:</strong> Sign in with Apple, App Store distribution, purchases, subscription processing, and Apple speech recognition where provided by the device.</li>
                         <li><strong>Google Play:</strong> distribution, purchases, subscriptions, and receipt validation.</li>
                         <li><strong>Brevo:</strong> transactional, operational, support, report, and consented marketing email delivery.</li>
                         <li><strong>country.is:</strong> transient country lookup from the connection IP address.</li>
@@ -177,6 +181,7 @@
                         <li><strong>Reports and support:</strong> while open and afterwards for the period reasonably necessary for safety, repeat-abuse analysis, accountability, and legal claims.</li>
                         <li><strong>Purchases:</strong> for the period required for subscription management, fraud prevention, accounting, tax, and legal obligations.</li>
                         <li><strong>FCM tokens:</strong> until replaced, invalidated, no longer needed, or the account is deleted.</li>
+                        <li><strong>Shadowing voice samples and transcripts:</strong> not retained in Kanjidon's backend; they are used for the current recognition request and exercise. Platform-provider handling is governed by the provider and device settings.</li>
                         <li><strong>Analytics and technical logs:</strong> according to the configured provider retention and for no longer than reasonably necessary for measurement, reliability, and security.</li>
                         <li><strong>Marketing:</strong> until consent is withdrawn, plus minimal suppression information needed to respect the opt-out.</li>
                     </ul>
