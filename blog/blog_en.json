@@ -5632,10 +5632,10 @@
     {
       "id": "best-kanji-apps-2026",
       "slug": "best-kanji-apps-2026",
-      "title": "7 Best Kanji Learning Apps in 2026 (Tested & Ranked)",
-      "meta_description": "We tested WaniKani, Anki, Duolingo, and 4 more kanji apps. Honest pros, cons, and pricing for each. Find the best app for your learning style.",
-      "keywords": "best kanji app 2026, best app to learn kanji, top kanji apps, kanji learning apps ranked, best japanese kanji app, kanji study app, learn kanji app review",
-      "read_time": "14 min",
+      "title": "7 Best Kanji Apps in 2026: Free, SRS & JLPT Picks",
+      "meta_description": "Compare 7 kanji apps for SRS, JLPT, writing, mnemonics, platforms, and price, including WaniKani, Anki, Kanji Study, Duolingo, and Kanjidon.",
+      "keywords": "best kanji app 2026, best app to learn kanji, free kanji app, kanji SRS app, JLPT kanji app, WaniKani vs Anki, Japanese kanji study app",
+      "read_time": "12 min",
       "faq": [
         {
           "question": "What is the best app to learn kanji in 2026?",
@@ -5643,39 +5643,39 @@
         },
         {
           "question": "Is WaniKani worth it?",
-          "answer": "WaniKani is effective for systematic kanji learning using mnemonics and SRS. At $9/month, it's a solid choice if you prefer a structured, guided approach. It covers about 2,000 kanji and 6,000 vocabulary words."
+          "answer": "WaniKani is a strong choice if you want a fixed radical, kanji, and vocabulary path with mnemonics and SRS. As checked in July 2026, its official plans are $9 monthly, $89 annually, or $299 lifetime."
         },
         {
           "question": "Can I learn kanji with Duolingo?",
-          "answer": "Duolingo teaches some kanji as part of its Japanese course, but it's not focused on kanji learning. For serious kanji study, a dedicated app like Kanjidon, WaniKani, or Anki is much more effective."
+          "answer": "Yes. Duolingo introduces kanji in words and provides a kanji practice tab with recognition and writing exercises. It is a broad Japanese course, so learners who want a JLPT-organized kanji curriculum or character-level SRS may still prefer a dedicated tool."
         },
         {
           "question": "Is Anki good for learning kanji?",
-          "answer": "Anki is excellent for kanji if you're willing to invest time in setup. It's free, highly customizable, and uses proven SRS. The main downside is the steep learning curve and time needed for deck management."
+          "answer": "Anki is excellent for kanji if you want full control over cards and review scheduling. The desktop app and AnkiDroid are free; the official iOS app is paid. Its main trade-off is the time needed to choose, verify, and maintain a good deck."
         }
       ],
       "sections": [
         {
           "type": "intro",
-          "content": "With dozens of kanji apps available, choosing the right one can be overwhelming. We spent months testing the most popular options, tracking our progress, and comparing features. Here's our definitive ranking of the best kanji learning apps in 2026, based on real results, not marketing hype."
+          "content": "The best kanji app depends on what you need: a guided path, flexible flashcards, handwriting practice, JLPT structure, or motivation to return every day. This comparison matches seven popular options to those jobs instead of pretending one score fits every learner. Disclosure: Kanjidon is our app, so its entry is clearly presented from the product team's point of view, not as an independent award."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How We Ranked These Apps"
+          "content": "How We Compared These Apps"
         },
         {
           "type": "text",
-          "content": "Our ranking criteria focused on what actually matters for kanji mastery:"
+          "content": "We reviewed current product information on July 17, 2026 and compared the same practical criteria for every option:"
         },
         {
           "type": "list",
           "items": [
-            "Learning effectiveness: Does the app use proven methods like SRS?",
-            "Kanji coverage: How many kanji can you learn? Is JLPT organized?",
-            "User experience: Is it enjoyable to use daily?",
-            "Value for money: What do you get for free vs paid?",
-            "Mobile experience: Can you learn effectively on the go?"
+            "Learning method: SRS, active recall, mnemonics, writing, or contextual practice",
+            "Curriculum: kanji coverage, JLPT organization, and freedom to skip known material",
+            "Daily experience: setup time, feedback, motivation, and ease of review",
+            "Access: supported platforms, offline use, and language availability",
+            "Value: what is available free and how the paid model works"
           ]
         },
         {
@@ -5685,73 +5685,65 @@
         },
         {
           "type": "table",
-          "headers": [
-            "Rank",
-            "App",
-            "Best For",
-            "Price",
-            "Our Score"
-          ],
-          "rows": [
-            [
-              "#1",
-              "Kanjidon",
-              "Overall best experience",
-              "Free / Premium",
-              "9.5/10"
-            ],
-            [
-              "#2",
-              "WaniKani",
-              "Structured mnemonic learners",
-              "$9/mo or $299 lifetime",
-              "8.5/10"
-            ],
-            [
-              "#3",
-              "Anki",
-              "DIY power users",
-              "Free (iOS $24.99)",
-              "8.0/10"
-            ],
-            [
-              "#4",
-              "Kanji Study",
-              "Reference and lookup",
-              "$12.99 one-time",
-              "7.5/10"
-            ],
-            [
-              "#5",
-              "Duolingo",
-              "Absolute beginners",
-              "Free / $12.99/mo",
-              "7.0/10"
-            ],
-            [
-              "#6",
-              "Remembering the Kanji",
-              "RTK method followers",
-              "$30 book + app",
-              "6.5/10"
-            ],
-            [
-              "#7",
-              "Kanji Tree",
-              "Casual learners",
-              "Free / $4.99/mo",
-              "6.0/10"
-            ]
-          ]
+      "headers": [
+        "App",
+        "Best For",
+        "Platforms",
+        "Pricing Model"
+      ],
+      "rows": [
+        [
+          "Kanjidon",
+          "Gamified JLPT path and varied quizzes",
+          "iOS and Android",
+          "Free kana and N5 / Premium"
+        ],
+        [
+          "WaniKani",
+          "Fixed radical and mnemonic curriculum",
+          "Web",
+          "$9 monthly / $89 annual / $299 lifetime"
+        ],
+        [
+          "Anki",
+          "Custom decks and maximum control",
+          "Desktop, web, iOS, Android",
+          "Free except official iOS app"
+        ],
+        [
+          "Kanji Study",
+          "Android reference, writing, and custom study",
+          "Android",
+          "Free starter content / in-app upgrades"
+        ],
+        [
+          "Duolingo",
+          "Beginners studying Japanese as a whole",
+          "Web, iOS, Android",
+          "Free / subscriptions"
+        ],
+        [
+          "Remembering the Kanji",
+          "Meaning-first mnemonic study",
+          "Book plus companion tools",
+          "Book / companion pricing varies"
+        ],
+        [
+          "Kanji Tree",
+          "Casual learners",
+          "Android",
+          "Free / in-app purchase"
+        ]
+      ]
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "#1: Kanjidon, Best Overall (9.5/10)"
+          "content": "Kanjidon: Best for a Gamified JLPT Path"
         },
         {
           "type": "text",
-          "content": "Kanjidon takes the top spot for combining proven learning science with an experience you'll actually want to use every day. It's the rare app that makes kanji study feel like a game without sacrificing effectiveness."
+          "content": "Kanjidon combines character-level spaced repetition, collectible cards, JLPT organization, and competitive features. Because we build Kanjidon, consider this the product team's explanation of who it is designed for, not an independent verdict."
         },
         {
           "type": "heading",
@@ -5761,13 +5753,14 @@
         {
           "type": "list",
           "items": [
-            "Nine different quiz types prevent autopilot learning",
-            "SM-2 spaced repetition algorithm optimizes review timing",
+            "16 quiz types test recognition, readings, writing, listening, and context",
+            "Character-level spaced repetition schedules targeted reviews",
             "Beautiful collectible card design makes each kanji memorable",
             "Real-time PvP battles add motivation and competition",
             "JLPT levels (N5-N1) perfectly organized from day one",
-            "21 interface languages, not just English",
-            "Generous free tier with unlimited core features",
+            "Multilingual interface and mnemonic support",
+            "Free access to kana and JLPT N5 content",
+            "No advertising",
             "Native iOS and Android apps with offline mode"
           ]
         },
@@ -5785,12 +5778,12 @@
         },
         {
           "type": "text",
-          "content": "Bottom line: Kanjidon is the best choice for most learners. It balances effectiveness with enjoyment better than any other app we tested. The free tier is generous enough to learn all JLPT N5-N4 kanji without paying."
+          "content": "Bottom line: Kanjidon is a strong fit if you want a mobile-first JLPT path with more variety and game-like motivation than traditional flashcards. You can evaluate the complete kana and N5 learning loop for free before deciding whether Premium is useful."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "#2: WaniKani, Best for Structured Learners (8.5/10)"
+          "content": "WaniKani: Best for a Fixed Mnemonic Curriculum"
         },
         {
           "type": "text",
@@ -5818,7 +5811,7 @@
         {
           "type": "list",
           "items": [
-            "Expensive: $9/month or $299 lifetime",
+            "Paid plans cost $9 monthly, $89 annually, or $299 lifetime as of July 2026",
             "No official mobile app (web-based only)",
             "Rigid pace, can't skip what you already know",
             "English-only interface",
@@ -5832,11 +5825,11 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "#3: Anki, Best for DIY Power Users (8.0/10)"
+          "content": "Anki: Best for DIY Power Users"
         },
         {
           "type": "text",
-          "content": "Anki is the Swiss Army knife of flashcard apps. It can do almost anything, but you'll spend hours configuring it before learning a single kanji."
+          "content": "Anki is a flexible flashcard system rather than a ready-made kanji curriculum. It can support an excellent study plan, but the learner is responsible for choosing or building the content."
         },
         {
           "type": "heading",
@@ -5850,7 +5843,7 @@
             "Infinitely customizable",
             "Works for any subject, not just kanji",
             "Massive library of community-created decks",
-            "Proven SM-2 algorithm"
+            "Mature spaced-repetition scheduling"
           ]
         },
         {
@@ -5861,25 +5854,25 @@
         {
           "type": "list",
           "items": [
-            "Steep learning curve, hours of setup required",
-            "iOS app costs $24.99",
+            "More setup and deck maintenance than a dedicated kanji app",
+            "The official iOS app is paid",
             "Deck quality varies wildly",
             "No gamification or motivation features",
-            "Looks like software from 2005"
+            "Motivation and curriculum depend on the deck you choose"
           ]
         },
         {
           "type": "text",
-          "content": "Bottom line: Anki is powerful but requires significant time investment to set up. Best for learners who enjoy tinkering and want maximum control. Not recommended for beginners or those who value their time."
+          "content": "Bottom line: Anki is powerful for learners who want maximum control and are willing to verify deck quality. Beginners can still use it successfully, but a well-designed deck matters more than the app alone."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "#4: Kanji Study, Best Reference App (7.5/10)"
+          "content": "Kanji Study: Best Android Reference and Writing Tool"
         },
         {
           "type": "text",
-          "content": "Kanji Study excels as a reference and lookup tool. It's less of a learning system and more of a comprehensive kanji dictionary with study features."
+          "content": "Kanji Study combines a deep kanji and word reference with flashcards, configurable quizzes, writing challenges, custom sets, and an optional Guided Study SRS module. It is one of the most complete Android-focused options in this comparison."
         },
         {
           "type": "heading",
@@ -5892,7 +5885,7 @@
             "Excellent kanji lookup and search",
             "Detailed information for each character",
             "Good stroke order animations",
-            "One-time purchase (no subscription)"
+            "Free beginner content with optional one-time upgrades and add-ons"
           ]
         },
         {
@@ -5903,24 +5896,24 @@
         {
           "type": "list",
           "items": [
-            "SRS implementation is basic",
-            "No gamification",
+            "Full guided SRS is a separate add-on",
+            "Less game-like than Kanjidon or Duolingo",
             "Android only (no iOS version)",
-            "Better as supplement than primary learning tool"
+            "The depth of options can feel dense to a new learner"
           ]
         },
         {
           "type": "text",
-          "content": "Bottom line: Great as a reference tool to complement your main kanji app. Not sufficient as a standalone learning solution."
+          "content": "Bottom line: A particularly strong choice for Android learners who care about handwriting, lookup depth, and customization. Whether it is a supplement or your main tool depends on whether you add Guided Study."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "#5: Duolingo, Best for Absolute Beginners (7.0/10)"
+          "content": "Duolingo: Best for a Broad Japanese Introduction"
         },
         {
           "type": "text",
-          "content": "Duolingo is the world's most popular language app, but it wasn't designed specifically for kanji. It's a gentle introduction to Japanese that eventually hits a wall."
+          "content": "Duolingo teaches Japanese as a whole and now includes a dedicated kanji tab with recognition, tracing, writing, and component exercises. Its strength is making a broad beginner routine easy to start, not providing a kanji-only JLPT curriculum."
         },
         {
           "type": "heading",
@@ -5930,7 +5923,8 @@
         {
           "type": "list",
           "items": [
-            "Perfect for learning hiragana and katakana",
+            "Dedicated practice for hiragana, katakana, and kanji",
+            "Kanji are introduced through words in the main course",
             "Gentle introduction to Japanese overall",
             "Highly polished, addictive experience",
             "Generous free tier"
@@ -5944,21 +5938,20 @@
         {
           "type": "list",
           "items": [
-            "Only covers ~1,200 kanji (incomplete)",
-            "No systematic kanji teaching method",
-            "Weak SRS compared to dedicated apps",
+            "Kanji study follows the broader course rather than a kanji-first path",
+            "Less control over character-level review than dedicated SRS tools",
             "No JLPT level organization",
-            "Premium is expensive at $12.99/month"
+            "Subscription pricing varies by plan and market"
           ]
         },
         {
           "type": "text",
-          "content": "Bottom line: Good for your first month learning Japanese, but you'll need to switch to a dedicated kanji app to make real progress in reading."
+          "content": "Bottom line: Good for building a broad Japanese habit. If your priority is systematic JLPT kanji coverage, detailed readings, or granular SRS, use it alongside a dedicated kanji tool rather than assuming one app must do everything."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "#6: Remembering the Kanji (RTK), Best for Method Purists (6.5/10)"
+          "content": "Remembering the Kanji: Best for a Meaning-First Method"
         },
         {
           "type": "text",
@@ -5999,7 +5992,7 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "#7: Kanji Tree, Best for Casual Learners (6.0/10)"
+          "content": "Kanji Tree: Best for Simple Casual Practice"
         },
         {
           "type": "text",
@@ -6039,19 +6032,49 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "Our Recommendation"
+          "content": "How to Choose"
         },
         {
           "type": "text",
-          "content": "After testing all these apps extensively, we recommend starting with Kanjidon for most learners. It combines the proven science of spaced repetition with an experience that keeps you coming back. The free tier is generous enough to make significant progress before deciding if Premium is worth it."
+          "content": "Choose for your bottleneck. Pick Kanjidon if you want a gamified, mobile JLPT path; WaniKani if you want a rigid mnemonic curriculum; Anki if you want total control; Kanji Study if Android handwriting and reference depth matter most; or Duolingo if you want one gentle routine for Japanese overall."
         },
         {
           "type": "text",
-          "content": "If Kanjidon isn't for you: choose WaniKani if you prefer web-based, structured learning and don't mind the price. Choose Anki if you're a power user who enjoys building your own system. Use Duolingo only as a stepping stone before moving to a dedicated kanji app."
+          "content": "Try the free portion of two finalists for one week using the same daily target. Keep the one that makes reviews clear and repeatable. Feature lists matter, but a study system only works if you can sustain it."
         },
         {
           "type": "text",
-          "content": "Whatever you choose, the most important thing is consistency. The best app is the one you'll actually use every day. Start today, your first kanji is waiting."
+          "content": "Whatever you choose, consistency matters more than a universal ranking. The best app is the one whose method matches your goal and whose review queue you will actually complete."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Official Sources and Update Notes"
+        },
+        {
+          "type": "text",
+          "content": "Features and pricing were checked on July 17, 2026. Prices and availability can vary by platform, country, and promotion, so verify them before purchasing."
+        },
+        {
+          "type": "source_list",
+          "items": [
+            {
+              "label": "WaniKani official subscription plans",
+              "url": "https://knowledge.wanikani.com/account-and-membership/payment-and-billing/subscription-plans/"
+            },
+            {
+              "label": "Anki official apps and platform information",
+              "url": "https://apps.ankiweb.net/"
+            },
+            {
+              "label": "Kanji Study official Google Play listing",
+              "url": "https://play.google.com/store/apps/details?id=com.mindtwisted.kanjistudy&hl=en-US"
+            },
+            {
+              "label": "Duolingo's official guide to Japanese character practice",
+              "url": "https://blog.duolingo.com/learning-to-read-japanese-characters/"
+            }
+          ]
         }
       ]
     },
@@ -8607,19 +8630,19 @@
     {
       "id": "why-duolingo-cant-teach-kanji",
       "slug": "why-duolingo-cant-teach-kanji",
-      "title": "Duolingo Doesn't Teach Kanji: Here's Why",
-      "meta_description": "Duolingo for Japanese has structural limits on kanji. Honest analysis of what's good and what's not, with alternatives that really work.",
-      "keywords": "duolingo kanji, Japanese duolingo, Japanese duolingo works, Japanese duolingo alternative, learn kanji without duolingo",
+      "title": "Can Duolingo Teach You Kanji? Strengths and Limits",
+      "meta_description": "Duolingo does teach kanji, but its Japanese course has limits. See where it helps and when to add JLPT structure, mnemonics, or character-level SRS.",
+      "keywords": "duolingo kanji, does duolingo teach kanji, learn kanji with duolingo, duolingo Japanese review, duolingo kanji tab, Japanese duolingo alternative",
       "read_time": "10 min",
       "sections": [
         {
           "type": "intro",
-          "content": "Duolingo is the most downloaded language app in the world. The green owl is everywhere and the streak system is addictive. But there is a problem that no one wants to admit: for Japanese, and in particular for kanji, Duolingo has structural limitations that no update can solve. That's not Duolingo's fault, and it wasn't designed for that."
+          "content": "Yes, Duolingo teaches kanji. Its Japanese course introduces characters through words and includes a dedicated kanji tab with recognition, tracing, writing, and component practice. The more useful question is whether that approach is enough for your goal. For casual Japanese it may be; for systematic JLPT coverage or character-level review, you may want a second tool."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "What Duolingo Does Well (Let's Give it to Caesar...)"
+          "content": "What Duolingo Does Well"
         },
         {
           "type": "text",
@@ -8637,111 +8660,111 @@
         },
         {
           "type": "text",
-          "content": "For European languages ​​(Spanish, French, German), Duolingo works surprisingly well. The problem arises with Japanese, a language that works in a radically different way."
+          "content": "Japanese asks learners to build vocabulary, grammar, and three writing systems at the same time. Duolingo's broad course design makes that first step approachable and introduces kanji gradually instead of presenting hundreds of isolated characters at once."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "The Fundamental Problem: Duolingo Teaches Phrases, Not Characters"
+          "content": "Where Duolingo's Approach Differs"
         },
         {
           "type": "text",
-          "content": "Duolingo's architecture is designed for alphabetic languages: you learn to make sentences with words you can read because you know the alphabet. But Japanese has three writing systems (hiragana, katakana, kanji), and kanji are not an alphabet, they are a logographic system with thousands of characters, each with multiple meanings and readings."
+          "content": "Duolingo teaches kanji mainly as part of words and sentences. That is useful for context: a character's reading and meaning become connected to vocabulary you have already met. It is different from a kanji-first curriculum organized around radicals, isolated readings, or JLPT lists."
         },
         {
           "type": "text",
-          "content": "Duolingo shows you kanji within sentences, but doesn't teach you them systematically. You don't learn radicals, you don't learn ON and KUN readings, there is no spaced repetition system dedicated to individual characters. You encounter them, you recognize them in the context of that specific sentence, but you don't really learn them."
+          "content": "The kanji tab adds focused recognition, writing, and component exercises, so it would be inaccurate to say Duolingo does not teach characters. The trade-off is control: the course decides when kanji appear, while dedicated tools usually let you choose a JLPT level, inspect readings and mnemonics in depth, and review each character on its own schedule."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "The Numbers That Don't Lie"
+          "content": "What You Can and Cannot Expect"
         },
         {
           "type": "text",
-          "content": "Here's what happens in practice after 6 months of Japanese Duolingo (30 minutes a day, constant use):"
+          "content": "Progress after six months varies too much to promise a universal number. Your starting level, lesson pace, use of the kanji tab, and outside reading all matter. A more honest comparison is by outcome:"
         },
         {
           "type": "list",
           "items": [
-            "Kanji recognized in context: approximately 30-50",
-            "Kanji you can read in isolation: about 10-20",
-            "Kanji needed for JLPT N5: 103",
-            "Kanji needed for JLPT N4: 284",
-            "ON/KUN readings learned: almost none consciously"
+            "Duolingo is useful for meeting kanji inside beginner vocabulary and sentences",
+            "The character tab reinforces shapes, readings in known words, writing, and visual components",
+            "The course is not organized as a complete JLPT kanji checklist",
+            "Learners have less control over isolated character reviews than in a dedicated SRS",
+            "Knowing a kanji in one word does not automatically teach every common reading or usage"
           ]
         },
         {
           "type": "text",
-          "content": "After 6 months of daily effort, you are still far from the basic level of the JLPT exam. Not because you are slow, but because the tool is not designed for this purpose. With a kanji-focused app like Kanjidon, the same 6 months at 15 minutes a day takes you beyond the 284 kanji of the N4 level, with readings, meanings and mnemonics for each."
+          "content": "If your target is general beginner Japanese, Duolingo can be a useful core habit. If your target is a specific JLPT level or durable recall of each character, add a tool that exposes coverage and review status explicitly. No responsible app can guarantee an N4 result from a fixed number of minutes alone."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "Duolingo's 4 Structural Limits for Kanji"
+          "content": "Four Limits to Understand"
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "1. No Systematic Teaching of Radicals"
+          "content": "1. Components Are Support, Not a Full Radical Curriculum"
         },
         {
           "type": "text",
-          "content": "Radicals are the building blocks of kanji. Knowing them turns 2,000 seemingly random characters into logical combinations. Duolingo doesn't even mention them. Each kanji appears to you as a new drawing that you have to forcefully remember."
+          "content": "Duolingo now includes component exercises that help learners notice how similar characters are built. That is useful visual practice, but it is not the same as a complete radical-led curriculum with reusable names and mnemonics for every component. Learners who rely heavily on decomposition may want a specialist resource."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "2. No SRS Dedicated to Individual Kanji"
+          "content": "2. Less Control Over Character-Level Review"
         },
         {
           "type": "text",
-          "content": "Duolingo has a review system, but it is at the lesson level, not at the individual kanji level. If I confuse 書 (write) and 読 (read), the app won't let me review those two specific kanji until I distinguish them. A serious SRS system like Kanjidon's tracks every single kanji and presents it again at the exact moment you're about to forget it."
+          "content": "Duolingo schedules practice across the course and provides dedicated character exercises, but it does not expose the same granular queue controls as a kanji-specific SRS. If you repeatedly confuse 書 and 読, a specialist tool can make those exact items visible and reviewable without waiting for the broader lesson path."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "3. Readings ON and KUN: The Great Absents"
+          "content": "3. Readings Are Learned Through Words"
         },
         {
           "type": "text",
-          "content": "Each kanji has at least two types of reading: the Chinese reading (ON-yomi) and the Japanese one (KUN-yomi). Knowing when to use which is critical to reading real Japanese. Duolingo teaches you words with a specific reading, but doesn't explain the system. Result: Out of the context of that word, you don't know how to read the kanji."
+          "content": "Duolingo deliberately connects a kanji to the words you have encountered. This avoids memorizing readings with no vocabulary context, but it also means one familiar word may not prepare you for another reading of the same character. A reference-rich kanji app makes those alternate readings and examples easier to inspect together."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "4. Lack of Mnemonics"
+          "content": "4. Mnemonics Are Not the Main Method"
         },
         {
           "type": "text",
-          "content": "Mnemonics, visual stories that connect the form, meaning, and reading of a kanji, are the most effective tool for long-term memorization. Duolingo doesn't use any for kanji. It shows you the character, the meaning, and hopes you remember it. For the first 20 it works. For 200, it's a disaster."
+          "content": "Some learners remember characters better with explicit visual stories that connect components, meaning, and sound. Duolingo emphasizes repeated contextual exercises instead. Neither technique is universally best, but if a character repeatedly fails to stick, a mnemonic-focused tool can provide a different memory cue."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "I'm not saying give up on Duolingo"
+          "content": "You Do Not Need to Give Up Duolingo"
         },
         {
           "type": "text",
-          "content": "Duolingo does things other apps don't: teaches you grammar intuitively, exposes you to real sentences, and keeps you motivated with gamification. The problem is not Duolingo itself, but using Duolingo as the ONLY tool for Japanese."
+          "content": "Duolingo introduces grammar, vocabulary, listening, sentences, and writing systems in one polished routine. The limitation is not that the app is useless for kanji; it is expecting one broad course to provide the depth of every specialist resource."
         },
         {
           "type": "text",
-          "content": "And how to use just a hammer to build a house. The hammer is useful, but you also need a screwdriver, saw and level."
+          "content": "Think of it as one tool in a study kit. A broad course, a focused review system, and real reading practice solve different problems."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "The Perfect Combo: How to Really Study"
+          "content": "A Practical Two-Tool Routine"
         },
         {
           "type": "text",
-          "content": "The strategy that works best combines different tools, each with its own strength:"
+          "content": "One practical approach is to combine tools by job instead of duplicating the same kind of exercise:"
         },
         {
           "type": "list",
           "items": [
-            "For kanji: a specialized app with SRS, radicals and mnemonics. Kanjidon covers all 2,136 joyo kanji with 12 types of quizzes and mnemonics in 21 languages ​​ including English.",
+            "For kanji: a specialist app with character-level SRS, JLPT structure, and mnemonics. Kanjidon covers the 2,136 joyo kanji with 16 quiz types; kana and N5 content are free.",
             "For grammar: Duolingo (basic) + a book like Genki or Tae Kim (in-depth)",
             "For vocabulary: Duolingo + graded reading (NHK Easy News, graded readers)",
             "For listening: anime with Japanese subtitles, podcasts, YouTube videos",
@@ -8750,7 +8773,7 @@
         },
         {
           "type": "text",
-          "content": "With this approach, 30 minutes a day are divided like this: 15 minutes of kanji (Kanjidon) + 15 minutes of grammar/vocabulary (Duolingo). You learn the kanji seriously, you absorb the grammar intuitively, and everything reinforces each other."
+          "content": "A simple 30-minute example is 15 minutes of focused kanji review and 15 minutes of broader grammar or vocabulary practice. Adjust the split to your goal and review load; the point is to give each session a clear purpose, not to promise a result from a timer."
         },
         {
           "type": "heading",
@@ -8759,7 +8782,7 @@
         },
         {
           "type": "text",
-          "content": "If kanji is your thing (and if you study Japanese, it MUST be), here's what to look for in an app:"
+          "content": "If reading is a priority, look for these qualities in a dedicated kanji tool:"
         },
         {
           "type": "list",
@@ -8774,7 +8797,25 @@
         },
         {
           "type": "text",
-          "content": "The simple fact is: Duolingo is great for getting started and for basic grammar, but for kanji you need a tool designed specifically for that. Add Kanjidon to your study stack and in just a few weeks you'll see the difference. You can learn the first 103 N5 kanji for free, try it and judge for yourself."
+          "content": "The honest conclusion is that Duolingo can teach and reinforce kanji, especially for beginners, but it serves a broader goal than a specialist JLPT or SRS tool. If you want more control, try Kanjidon's free kana and N5 path alongside your current routine and compare the review experience for yourself."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Official Source"
+        },
+        {
+          "type": "text",
+          "content": "This article was materially reviewed on July 17, 2026 to reflect Duolingo's current kanji tab and component exercises."
+        },
+        {
+          "type": "source_list",
+          "items": [
+            {
+              "label": "Duolingo's official guide: How to learn to read Japanese",
+              "url": "https://blog.duolingo.com/learning-to-read-japanese-characters/"
+            }
+          ]
         }
       ]
     },
