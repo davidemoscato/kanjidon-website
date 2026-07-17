@@ -118,13 +118,6 @@
             "priceCurrency": "EUR"
         },
         "description": "App om Japanse kanji te leren met flashcards, interactieve quizzen, PvP-gevechten en SRS. Dekt alle JLPT-niveaus van N5 tot N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                             "name": "Is Kanjidon gratis?",
                             "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Ja. Je kunt gratis packs openen, quizzen doen en kanji verzamelen. Kanjidon Pass ontgrendelt extra functies zoals meer kaarten per pack, onbeperkte quizzen, alle lessen, audio-uitspraak en geen advertenties."
+                                    "text": "Ja. Kanjidon is gratis te downloaden, bevat geen advertenties en geeft je 10 welkomstpacks. Daarna gebruiken gratis packs en extra quizzen Energy, die na verloop van tijd wordt aangevuld. Kanjidon Pass ontgrendelt onbeperkte Energy, 6 kaarten per pack, alle lessen en audio-uitspraak."
                             }
                     },
                     {
@@ -223,6 +216,19 @@
             ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -235,7 +241,7 @@
                 <a href="#features">Functies</a>
                 <a href="/nl/blog/">Blog</a>
                 <a href="/nl/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Claim je eerste 3 packs</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Claim je eerste 3 packs</strong></a>
             </nav>
         </div>
     </header>
@@ -247,7 +253,7 @@
                 <h1>Stop met vergeten.<br><span class="text-primary">Begin met verzamelen.</span></h1>
                 <p class="hero-subtitle">Leer meer dan 6.000 kanji met kaartpacks, slimme quizzen en spaced repetition. Kanjidon maakt Japans studeren speels, duidelijk en vol te houden.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Claim je eerste 3 packs</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Claim je eerste 10 packs</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Beoordeling 4,8 van 5">
@@ -262,7 +268,7 @@
                         <span class="stat-label">Kanji-flashcards</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Quiztypen</span>
                     </div>
                     <div class="stat">
@@ -591,7 +597,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Is Kanjidon gratis?</summary>
-                    <p>Ja. Je kunt gratis packs openen, quizzen doen en kanji verzamelen. Kanjidon Pass ontgrendelt extra functies zoals onbeperkte energy en alle lessen.</p>
+                    <p>Ja. Kanjidon is gratis te downloaden, bevat geen advertenties en geeft je 10 welkomstpacks. Daarna gebruiken gratis packs en extra quizzen Energy, die na verloop van tijd wordt aangevuld. Kanjidon Pass ontgrendelt onbeperkte Energy, 6 kaarten per pack, alle lessen en audio-uitspraak.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Welke JLPT-niveaus zitten erin?</summary>
@@ -825,14 +831,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Deze site gebruikt geen trackingcookies. <a href="/privacy.html">Privacybeleid</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Sluiten">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -846,17 +844,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

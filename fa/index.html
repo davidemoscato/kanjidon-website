@@ -118,13 +118,6 @@
             "priceCurrency": "USD"
         },
         "description": "اپلیکیشن یادگیری کانجی ژاپنی با فلش کارت، کوئیزهای تعاملی، نبردهای PvP و سیستم SRS. تمام سطوح JLPT از N5 تا N1 رو پوشش میده.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                 "name": "اپ رایگانه؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "آره! میتونی از Kanjidon با تمام امکانات پایه رایگان استفاده کنی. کاربران رایگان میتونن روزی تا ۳ پک باز کنن و به کوئیز \"تصمیم بگیر\" نامحدود دسترسی دارن. اشتراک Kanjidon Pass ۶ کارت در هر پک، کوئیزهای نامحدود، تمام درس‌های گرامر، تلفظ صوتی و حذف تبلیغات رو باز میکنه."
+                    "text": "بله. دانلود Kanjidon رایگان است، تبلیغ ندارد و شامل ۱۰ پک خوش‌آمدگویی می‌شود. بعد از ۱۰ پک اول، باز کردن پک‌های رایگان و کوئیزهای اضافه به انرژی نیاز دارد که با گذشت زمان شارژ می‌شود. Kanjidon Pass انرژی نامحدود، ۶ کارت در هر پک، همه درس‌ها و تلفظ صوتی را باز می‌کند."
                 }
             },
             {
@@ -231,6 +224,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -243,7 +249,7 @@
                 <a href="#features">ویژگی‌ها</a>
                 <a href="/fa/blog/">Blog</a>
                 <a href="/fa/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>دانلود رایگان</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>دانلود رایگان</strong></a>
             </nav>
         </div>
     </header>
@@ -255,7 +261,7 @@
                 <h1>دیگر فراموششان نکنید.<br><span class="text-primary">جمع‌آوری را شروع کنید.</span></h1>
                 <p class="hero-subtitle">بی‌خیال جداول خسته‌کننده شوید. با هیجان باز کردن بسته‌ها و قدرت SRS بیش از ۶,۰۰۰ کانجی یاد بگیرید. به ۱۸,۰۰۰+ دانش‌آموز بپیوندید.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>اولین ۳ بسته خود را باز کنید</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>اولین ۱۰ بسته خود را باز کنید</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="امتیاز ۴٫۸ از ۵">
@@ -270,7 +276,7 @@
                         <span class="stat-label">فلش کارت کانجی</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">۱۲</span>
+                        <span class="stat-number">۱۶</span>
                         <span class="stat-label">نوع کوئیز</span>
                     </div>
                     <div class="stat">
@@ -594,7 +600,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>اپ رایگانه؟</summary>
-                    <p>آره! میتونی از Kanjidon با تمام امکانات پایه رایگان استفاده کنی. کاربران رایگان میتونن روزی تا ۳ پک باز کنن و به کوئیز "تصمیم بگیر" نامحدود دسترسی دارن. اشتراک Kanjidon Pass ۶ کارت در هر پک، کوئیزهای نامحدود، تمام درس‌های گرامر، تلفظ صوتی و حذف تبلیغات رو باز میکنه.</p>
+                    <p>بله. دانلود Kanjidon رایگان است، تبلیغ ندارد و شامل ۱۰ پک خوش‌آمدگویی می‌شود. بعد از ۱۰ پک اول، باز کردن پک‌های رایگان و کوئیزهای اضافه به انرژی نیاز دارد که با گذشت زمان شارژ می‌شود. Kanjidon Pass انرژی نامحدود، ۶ کارت در هر پک، همه درس‌ها و تلفظ صوتی را باز می‌کند.</p>
                 </details>
                 <details class="faq-item">
                     <summary>JLPT چیه و Kanjidon کدوم سطوح رو پوشش میده؟</summary>
@@ -836,14 +842,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>این سایت از کوکی‌های پروفایلینگ استفاده نمیکنه. <a href="/privacy.html">Privacy Policy</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="بستن">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -857,17 +855,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

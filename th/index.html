@@ -118,13 +118,6 @@
             "priceCurrency": "USD"
         },
         "description": "แอปเรียนคันจิภาษาญี่ปุ่นด้วยแฟลชการ์ด แบบทดสอบโต้ตอบ การต่อสู้ PvP และระบบ SRS ครอบคลุมทุกระดับ JLPT ตั้งแต่ N5 ถึง N1",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                 "name": "แอปฟรีไหม?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "ใช่! คุณใช้ Kanjidon ได้ฟรีพร้อมฟีเจอร์พื้นฐานทั้งหมด ผู้ใช้ฟรีสามารถเปิดแพ็คได้สูงสุด 3 แพ็คต่อวัน และเข้าถึงแบบทดสอบ \"ตัดสินใจ\" ได้ไม่จำกัด สมาชิก Kanjidon Pass จะปลดล็อก 6 การ์ดต่อแพ็ค แบบทดสอบไม่จำกัด บทเรียนไวยากรณ์ทั้งหมด เสียงการออกเสียง และไม่มีโฆษณา"
+                    "text": "ใช่ Kanjidon ดาวน์โหลดฟรี ไม่มีโฆษณา และมีแพ็คต้อนรับ 10 แพ็ค หลังจาก 10 แพ็คแรก แพ็คฟรีและแบบทดสอบเพิ่มเติมจะใช้ Energy ซึ่งฟื้นกลับมาตามเวลา Kanjidon Pass ปลดล็อก Energy ไม่จำกัด การ์ด 6 ใบต่อแพ็ค ทุกบทเรียน และเสียงการออกเสียง"
                 }
             },
             {
@@ -231,6 +224,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -243,7 +249,7 @@
                 <a href="#features">คุณสมบัติ</a>
                 <a href="/th/blog/">Blog</a>
                 <a href="/th/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>ดาวน์โหลดฟรี</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>ดาวน์โหลดฟรี</strong></a>
             </nav>
         </div>
     </header>
@@ -255,7 +261,7 @@
                 <h1>เลิกลืมได้แล้ว.<br><span class="text-primary">เริ่มสะสมกันเลย.</span></h1>
                 <p class="hero-subtitle">ลืมความน่าเบื่อของตารางเรียนแบบเดิมๆ เรียนรู้คันจิกว่า 6,000 ตัวผ่านความตื่นเต้นของการเปิดซองการ์ดและพลังของ SRS ร่วมเป็นส่วนหนึ่งกับนักเรียนกว่า 18,000 คน.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>เปิด 3 ซองแรกของคุณ</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>เปิด 10 ซองแรกของคุณ</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="คะแนน 4.8 จาก 5">
@@ -270,7 +276,7 @@
                         <span class="stat-label">แฟลชการ์ดคันจิ</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">ประเภทแบบทดสอบ</span>
                     </div>
                     <div class="stat">
@@ -366,7 +372,7 @@
                         </svg>
                     </div>
                     <h3>แบบทดสอบอัจฉริยะพร้อม SRS</h3>
-                    <p>8 โหมดแบบทดสอบพร้อมอัลกอริทึม SM-2 แต่ละเซสชันปรับตามระดับของคุณ และ SRS จะนำเสนอคันจิในเวลาที่เหมาะสมที่สุดสำหรับการจดจำจริง</p>
+                    <p>16 โหมดแบบทดสอบพร้อมอัลกอริทึม SM-2 แต่ละเซสชันปรับตามระดับของคุณ และ SRS จะนำเสนอคันจิในเวลาที่เหมาะสมที่สุดสำหรับการจดจำจริง</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -594,7 +600,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>แอปฟรีไหม?</summary>
-                    <p>ใช่! คุณใช้ Kanjidon ได้ฟรีพร้อมฟีเจอร์พื้นฐานทั้งหมด ผู้ใช้ฟรีสามารถเปิดแพ็คได้สูงสุด 3 แพ็คต่อวัน และเข้าถึงแบบทดสอบ "ตัดสินใจ" ได้ไม่จำกัด สมาชิก Kanjidon Pass จะปลดล็อก 6 การ์ดต่อแพ็ค แบบทดสอบไม่จำกัด บทเรียนไวยากรณ์ทั้งหมด เสียงการออกเสียง และไม่มีโฆษณา</p>
+                    <p>ใช่ Kanjidon ดาวน์โหลดฟรี ไม่มีโฆษณา และมีแพ็คต้อนรับ 10 แพ็ค หลังจาก 10 แพ็คแรก แพ็คฟรีและแบบทดสอบเพิ่มเติมจะใช้ Energy ซึ่งฟื้นกลับมาตามเวลา Kanjidon Pass ปลดล็อก Energy ไม่จำกัด การ์ด 6 ใบต่อแพ็ค ทุกบทเรียน และเสียงการออกเสียง</p>
                 </details>
                 <details class="faq-item">
                     <summary>JLPT คืออะไร และ Kanjidon ครอบคลุมระดับไหนบ้าง?</summary>
@@ -836,14 +842,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>เว็บไซต์นี้ไม่ใช้คุกกี้สำหรับการโปรไฟล์ <a href="/privacy.html">Privacy Policy</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="ปิด">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -857,17 +855,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

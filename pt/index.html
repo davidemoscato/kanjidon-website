@@ -116,13 +116,6 @@
             "priceCurrency": "EUR"
         },
         "description": "App para aprender kanji japones com flashcards, quizzes interativos, batalhas PvP e sistema SRS. Cobre todos os niveis JLPT de N5 a N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -175,7 +168,7 @@
                 "name": "O app e gratuito?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Sim! Podes usar o Kanjidon gratuitamente com todas as funcoes basicas. Os utilizadores gratuitos podem abrir ate 3 pacotes por dia e aceder ao quiz \"Decide\" de forma ilimitada. A assinatura Kanjidon Pass desbloqueia 6 cartas por pacote, quizzes ilimitados, todas as licoes de gramatica, pronuncia audio e remove a publicidade."
+                    "text": "Sim. O Kanjidon é gratuito para baixar, não tem publicidade e inclui 10 pacotes de boas-vindas. Depois dos primeiros 10, os pacotes gratuitos e os quizzes extra usam Energy, que recarrega com o tempo. O Kanjidon Pass desbloqueia Energy ilimitada, 6 cartas por pacote, todas as lições e pronúncia em áudio."
                 }
             },
             {
@@ -229,6 +222,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -241,7 +247,7 @@
                 <a href="#features">Recursos</a>
                 <a href="/pt/blog/">Blog</a>
                 <a href="/pt/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Baixar Grátis</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Baixar Grátis</strong></a>
             </nav>
         </div>
     </header>
@@ -253,7 +259,7 @@
                 <h1>Para di esquecê-los.<br><span class="text-primary">Começa a colecioná-los.</span></h1>
                 <p class="hero-subtitle">Esquece o tédio das tabelas infinitas. Aprende mais de 6.000 Kanji através da emoção de abrir pacotes e da potência da scienza SRS. Junta-te a mais de 18.000 alunos.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Abre os teus primeiros 3 pacotes</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Abre os teus primeiros 10 pacotes</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Avaliação 4,8 em 5">
@@ -268,7 +274,7 @@
                         <span class="stat-label">Flashcards Kanji</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Tipos de Quiz</span>
                     </div>
                     <div class="stat">
@@ -364,7 +370,7 @@
                         </svg>
                     </div>
                     <h3>Quizzes Inteligentes com SRS</h3>
-                    <p>9 modos de quiz diferentes com o algoritmo SM-2. Cada sessao adapta-se ao teu nivel e o SRS apresenta os kanji no momento otimo para uma memorizacao real.</p>
+                    <p>16 modos de quiz diferentes com o algoritmo SM-2. Cada sessao adapta-se ao teu nivel e o SRS apresenta os kanji no momento otimo para uma memorizacao real.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -597,7 +603,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>O app e gratuito?</summary>
-                    <p>Sim! Podes usar o Kanjidon gratuitamente com todas as funcoes basicas. Os utilizadores gratuitos podem abrir ate 3 pacotes por dia e aceder ao quiz "Decide" de forma ilimitada. A assinatura Kanjidon Pass desbloqueia 6 cartas por pacote, quizzes ilimitados, todas as licoes de gramatica, pronuncia audio e remove a publicidade.</p>
+                    <p>Sim. O Kanjidon é gratuito para baixar, não tem publicidade e inclui 10 pacotes de boas-vindas. Depois dos primeiros 10, os pacotes gratuitos e os quizzes extra usam Energy, que recarrega com o tempo. O Kanjidon Pass desbloqueia Energy ilimitada, 6 cartas por pacote, todas as lições e pronúncia em áudio.</p>
                 </details>
                 <details class="faq-item">
                     <summary>O que e o JLPT e que niveis o Kanjidon cobre?</summary>
@@ -839,14 +845,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Este site nao utiliza cookies de rastreamento. <a href="/privacy.html">Privacy Policy</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Fechar">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -860,17 +858,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

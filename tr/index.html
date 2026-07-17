@@ -118,13 +118,6 @@
             "priceCurrency": "TRY"
         },
         "description": "Japonca kanji ogrenme uygulamasi: kartlar, interaktif testler, PvP savislari ve SRS sistemi. N5'ten N1'e tum JLPT seviyelerini kapsar.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                 "name": "Uygulama ucretsiz mi?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Evet! Kanjidon'u tum temel ozelliklerle ucretsiz kullanabilirsin. Ucretsiz kullanicilar gunde 3 paket acabilir ve \"Karar Ver\" testine sinirsiz erisebilir. Kanjidon Pass aboneligi paket basina 6 kart, sinirsiz test, tum dilbilgisi dersleri, sesli telaffuz ve reklamsiz deneyim acar."
+                    "text": "Evet. Kanjidon ücretsiz indirilebilir, reklam içermez ve 10 karşılama paketi sunar. İlk 10 paketten sonra ücretsiz paketler ve ek testler zamanla yenilenen Energy kullanır. Kanjidon Pass sınırsız Energy, paket başına 6 kart, tüm dersler ve sesli telaffuzu açar."
                 }
             },
             {
@@ -231,6 +224,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -243,7 +249,7 @@
                 <a href="#features">Özellikler</a>
                 <a href="/tr/blog/">Blog</a>
                 <a href="/tr/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Ücretsiz İndir</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Ücretsiz İndir</strong></a>
             </nav>
         </div>
     </header>
@@ -255,7 +261,7 @@
                 <h1>Onları unutmayı bırakın.<br><span class="text-primary">Koleksiyon yapmaya başlayın.</span></h1>
                 <p class="hero-subtitle">Sonsuz tabloların sıkıcılığını unutun. Paket açma heyecanı ve SRS biliminin gücüyle 6.000'den fazla Kanji öğrenin. 18.000'den fazla öğrenciye katılın.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>İlk 3 paketinizi açın</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>İlk 10 paketinizi açın</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="5 üzerinden 4,8 puan">
@@ -270,7 +276,7 @@
                         <span class="stat-label">Kanji Karti</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Test Turu</span>
                     </div>
                     <div class="stat">
@@ -594,7 +600,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Uygulama ucretsiz mi?</summary>
-                    <p>Evet! Kanjidon'u tum temel ozelliklerle ucretsiz kullanabilirsin. Ucretsiz kullanicilar gunde 3 paket acabilir ve "Karar Ver" testine sinirsiz erisebilir. Kanjidon Pass aboneligi paket basina 6 kart, sinirsiz test, tum dilbilgisi dersleri, sesli telaffuz ve reklamsiz deneyim acar.</p>
+                    <p>Evet. Kanjidon ücretsiz indirilebilir, reklam içermez ve 10 karşılama paketi sunar. İlk 10 paketten sonra ücretsiz paketler ve ek testler zamanla yenilenen Energy kullanır. Kanjidon Pass sınırsız Energy, paket başına 6 kart, tüm dersler ve sesli telaffuzu açar.</p>
                 </details>
                 <details class="faq-item">
                     <summary>JLPT nedir ve Kanjidon hangi seviyeleri kapsar?</summary>
@@ -836,14 +842,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Bu site profilleme cerezleri kullanmiyor. <a href="/privacy.html">Privacy Policy</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Kapat">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -857,17 +855,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

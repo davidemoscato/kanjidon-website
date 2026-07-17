@@ -116,13 +116,6 @@
             "priceCurrency": "CNY"
         },
         "description": "通过学习卡、互动测验、PvP 对战和 SRS 系统学习日本汉字的应用程序。涵盖所有 JLPT 等级，从 N5 到 N1。",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -175,7 +168,7 @@
                 "name": "应用程序是免费的吗？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "是的！你可以免费使用 Kanjidon 的所有基本功能。免费用户每天可以开最多 3 包，并无限次使用「决定」测验。Kanjidon Pass 订阅可解锁每包 6 张卡片、无限测验、所有语法课程、发音音频，并移除广告。"
+                    "text": "是的。Kanjidon 可免费下载、没有广告，并包含 10 个新手卡包。前 10 个之后，免费卡包和额外测验会消耗随时间恢复的 Energy。Kanjidon Pass 可解锁无限 Energy、每包 6 张卡、全部课程和语音发音。"
                 }
             },
             {
@@ -229,6 +222,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -241,7 +247,7 @@
                 <a href="#features">功能</a>
                 <a href="/zh/blog/">Blog</a>
                 <a href="/zh/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>免费下载</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>免费下载</strong></a>
             </nav>
         </div>
     </header>
@@ -253,7 +259,7 @@
                 <h1>别再死记硬背。<br><span class="text-primary">开始你的收集之旅。</span></h1>
                 <p class="hero-subtitle">告别枯燥的表格。通过开包的惊喜和 SRS 科学记忆法，轻松掌握 6,000+ 汉字。加入 18,000+ 学习者的行列。</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>领取你的前 3 个卡包</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>领取你的前 10 个卡包</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="评分 4.8，满分 5">
@@ -268,7 +274,7 @@
                         <span class="stat-label">汉字学习卡</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">种测验模式</span>
                     </div>
                     <div class="stat">
@@ -364,7 +370,7 @@
                         </svg>
                     </div>
                     <h3>SRS 智能测验</h3>
-                    <p>8 种不同的测验模式搭配 SM-2 算法。每次练习都会根据你的程度调整，SRS 会在最佳时机呈现汉字，让你真正记住。</p>
+                    <p>16 种不同的测验模式搭配 SM-2 算法。每次练习都会根据你的程度调整，SRS 会在最佳时机呈现汉字，让你真正记住。</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -597,7 +603,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>应用程序是免费的吗？</summary>
-                    <p>是的！你可以免费使用 Kanjidon 的所有基本功能。免费用户每天可以开最多 3 包，并无限次使用「决定」测验。Kanjidon Pass 订阅可解锁每包 6 张卡片、无限测验、所有语法课程、发音音频，并移除广告。</p>
+                    <p>是的。Kanjidon 可免费下载、没有广告，并包含 10 个新手卡包。前 10 个之后，免费卡包和额外测验会消耗随时间恢复的 Energy。Kanjidon Pass 可解锁无限 Energy、每包 6 张卡、全部课程和语音发音。</p>
                 </details>
                 <details class="faq-item">
                     <summary>什么是 JLPT？Kanjidon 涵盖哪些等级？</summary>
@@ -839,14 +845,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>本网站不使用追踪 Cookie。<a href="/privacy.html">隐私政策</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="关闭">好</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -859,16 +857,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

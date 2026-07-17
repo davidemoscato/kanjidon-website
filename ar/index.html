@@ -118,13 +118,6 @@
             "priceCurrency": "USD"
         },
         "description": "تطبيق لتعلم الكانجي الياباني من خلال البطاقات التعليمية والاختبارات التفاعلية ومعارك PvP ونظام SRS. يغطي جميع مستويات JLPT من N5 إلى N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                 "name": "هل التطبيق مجاني؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "نعم! يمكنك استخدام Kanjidon مجاناً مع جميع الميزات الأساسية. المستخدمون المجانيون يمكنهم فتح ما يصل إلى 3 حزم يومياً والوصول لاختبار \"قرر\" بشكل غير محدود. اشتراك Kanjidon Pass يفتح 6 بطاقات لكل حزمة، اختبارات غير محدودة، جميع دروس القواعد، نطق صوتي، ويزيل الإعلانات."
+                    "text": "نعم. يمكنك تنزيل Kanjidon مجاناً، وهو بلا إعلانات ويتضمن 10 حزم ترحيبية. بعد أول 10 حزم، تستخدم الحزم المجانية والاختبارات الإضافية الطاقة التي تُعاد تعبئتها مع الوقت. يفتح Kanjidon Pass طاقة غير محدودة و6 بطاقات في كل حزمة وجميع الدروس والنطق الصوتي."
                 }
             },
             {
@@ -231,6 +224,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -243,7 +249,7 @@
                 <a href="#features">الميزات</a>
                 <a href="/ar/blog/">Blog</a>
                 <a href="/ar/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>تحميل مجاني</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>تحميل مجاني</strong></a>
             </nav>
         </div>
     </header>
@@ -255,7 +261,7 @@
                 <h1>توقف عن نسيانها.<br><span class="text-primary">ابدأ في جمعها الآن.</span></h1>
                 <p class="hero-subtitle">انسَ ملل الجداول اللانهائية. تعلم أكثر من 6,000 كانجي من خلال إثارة فتح الحزم وقوة علم SRS. انضم إلى أكثر من 18,000 طالب.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>افتح أول 3 حزم لك</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>افتح أول 10 حزم لك</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="التقييم 4.8 من 5">
@@ -270,7 +276,7 @@
                         <span class="stat-label">بطاقة كانجي</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">أنواع اختبارات</span>
                     </div>
                     <div class="stat">
@@ -366,7 +372,7 @@
                         </svg>
                     </div>
                     <h3>اختبارات ذكية مع SRS</h3>
-                    <p>8 أوضاع اختبار مختلفة مع خوارزمية SM-2. كل جلسة تتكيف مع مستواك وSRS يعرض الكانجي في الوقت الأمثل للحفظ الحقيقي.</p>
+                    <p>16 أوضاع اختبار مختلفة مع خوارزمية SM-2. كل جلسة تتكيف مع مستواك وSRS يعرض الكانجي في الوقت الأمثل للحفظ الحقيقي.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -599,7 +605,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>هل التطبيق مجاني؟</summary>
-                    <p>نعم! يمكنك استخدام Kanjidon مجاناً مع جميع الميزات الأساسية. المستخدمون المجانيون يمكنهم فتح ما يصل إلى 3 حزم يومياً والوصول لاختبار "قرر" بشكل غير محدود. اشتراك Kanjidon Pass يفتح 6 بطاقات لكل حزمة، اختبارات غير محدودة، جميع دروس القواعد، نطق صوتي، ويزيل الإعلانات.</p>
+                    <p>نعم. يمكنك تنزيل Kanjidon مجاناً، وهو بلا إعلانات ويتضمن 10 حزم ترحيبية. بعد أول 10 حزم، تستخدم الحزم المجانية والاختبارات الإضافية الطاقة التي تُعاد تعبئتها مع الوقت. يفتح Kanjidon Pass طاقة غير محدودة و6 بطاقات في كل حزمة وجميع الدروس والنطق الصوتي.</p>
                 </details>
                 <details class="faq-item">
                     <summary>ما هو JLPT وأي المستويات يغطيها Kanjidon؟</summary>
@@ -841,14 +847,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>هذا الموقع لا يستخدم ملفات تعريف الارتباط للتتبع. <a href="/privacy.html">سياسة الخصوصية</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="إغلاق">موافق</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -862,17 +860,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

@@ -118,13 +118,6 @@
             "priceCurrency": "MYR"
         },
         "description": "Aplikasi untuk belajar kanji Jepun dengan kad imbas, kuiz interaktif, pertempuran PvP, dan sistem SRS. Meliputi semua tahap JLPT dari N5 hingga N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                 "name": "Adakah aplikasi ini percuma?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ya! Kamu boleh guna Kanjidon secara percuma dengan semua ciri asas. Pengguna percuma boleh buka sehingga 3 pek sehari dan akses kuiz \"Tentukan\" tanpa had. Langganan Kanjidon Pass membuka 6 kad setiap pek, kuiz tanpa had, semua pelajaran tatabahasa, sebutan audio, dan membuang iklan."
+                    "text": "Ya. Kanjidon boleh dimuat turun secara percuma, tanpa iklan, dan termasuk 10 pek alu-aluan. Selepas 10 pek pertama, pek percuma dan kuiz tambahan menggunakan Energy yang dicas semula dari semasa ke semasa. Kanjidon Pass membuka Energy tanpa had, 6 kad setiap pek, semua pelajaran dan sebutan audio."
                 }
             },
             {
@@ -231,6 +224,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -243,7 +249,7 @@
                 <a href="#features">Ciri-ciri</a>
                 <a href="/ms/blog/">Blog</a>
                 <a href="/ms/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Muat Turun Percuma</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Muat Turun Percuma</strong></a>
             </nav>
         </div>
     </header>
@@ -255,7 +261,7 @@
                 <h1>Berhenti melupakannya.<br><span class="text-primary">Mula mengumpul sekarang.</span></h1>
                 <p class="hero-subtitle">Lupakan kebosanan jadual tanpa henti. Pelajari 6,000+ Kanji melalui keseronokan membuka pek dan kuasa sains SRS. Sertai 18,000+ pelajar.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Buka 3 pek pertama anda</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Buka 10 pek pertama anda</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Penilaian 4.8 daripada 5">
@@ -270,7 +276,7 @@
                         <span class="stat-label">Kad Imbas Kanji</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Jenis Kuiz</span>
                     </div>
                     <div class="stat">
@@ -366,7 +372,7 @@
                         </svg>
                     </div>
                     <h3>Kuiz Pintar dengan SRS</h3>
-                    <p>8 mod kuiz berbeza dengan algoritma SM-2. Setiap sesi menyesuaikan dengan tahap kamu dan SRS mempersembahkan kanji pada masa optimum untuk hafalan sebenar.</p>
+                    <p>16 mod kuiz berbeza dengan algoritma SM-2. Setiap sesi menyesuaikan dengan tahap kamu dan SRS mempersembahkan kanji pada masa optimum untuk hafalan sebenar.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -594,7 +600,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Adakah aplikasi ini percuma?</summary>
-                    <p>Ya! Kamu boleh guna Kanjidon secara percuma dengan semua ciri asas. Pengguna percuma boleh buka sehingga 3 pek sehari dan akses kuiz "Tentukan" tanpa had. Langganan Kanjidon Pass membuka 6 kad setiap pek, kuiz tanpa had, semua pelajaran tatabahasa, sebutan audio, dan membuang iklan.</p>
+                    <p>Ya. Kanjidon boleh dimuat turun secara percuma, tanpa iklan, dan termasuk 10 pek alu-aluan. Selepas 10 pek pertama, pek percuma dan kuiz tambahan menggunakan Energy yang dicas semula dari semasa ke semasa. Kanjidon Pass membuka Energy tanpa had, 6 kad setiap pek, semua pelajaran dan sebutan audio.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Apa itu JLPT dan tahap mana yang diliputi Kanjidon?</summary>
@@ -836,14 +842,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Laman ini tidak menggunakan kuki pemprofilan. <a href="/privacy.html">Privacy Policy</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Tutup">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -857,17 +855,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

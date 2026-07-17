@@ -116,13 +116,6 @@
             "priceCurrency": "VND"
         },
         "description": "Ứng dụng học Kanji tiếng Nhật qua flashcard, quiz tương tác, đấu PvP và hệ thống SRS. Hỗ trợ tất cả cấp độ JLPT từ N5 đến N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -175,7 +168,7 @@
                 "name": "Ứng dụng có miễn phí không?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Có! Bạn có thể sử dụng tất cả tính năng cơ bản của Kanjidon miễn phí. Người dùng miễn phí có thể mở tối đa 3 gói mỗi ngày và sử dụng quiz \"Quyết định\" không giới hạn. Gói Kanjidon Pass mở khóa 6 thẻ mỗi gói, quiz không giới hạn, tất cả bài học ngữ pháp, âm thanh phát âm và xóa quảng cáo."
+                    "text": "Có. Kanjidon được tải miễn phí, không có quảng cáo và gồm 10 gói chào mừng. Sau 10 gói đầu tiên, các gói miễn phí và quiz bổ sung dùng Energy, được hồi lại theo thời gian. Kanjidon Pass mở khóa Energy không giới hạn, 6 thẻ mỗi gói, toàn bộ bài học và âm thanh phát âm."
                 }
             },
             {
@@ -229,6 +222,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -241,7 +247,7 @@
                 <a href="#features">Tính năng</a>
                 <a href="/vi/blog/">Blog</a>
                 <a href="/vi/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Tải miễn phí</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Tải miễn phí</strong></a>
             </nav>
         </div>
     </header>
@@ -253,7 +259,7 @@
                 <h1>Đừng quên chúng nữa.<br><span class="text-primary">Hãy bắt đầu sưu tập.</span></h1>
                 <p class="hero-subtitle">Quên đi sự nhàm chán của những bảng biểu. Học hơn 6.000 Kanji thông qua sự phấn khích khi mở thẻ và sức mạnh của SRS. Tham gia cùng 18.000+ học viên.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Mở 3 gói thẻ đầu tiên của bạn</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Mở 10 gói thẻ đầu tiên của bạn</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Đánh giá 4,8 trên 5">
@@ -268,7 +274,7 @@
                         <span class="stat-label">Flashcard Kanji</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Chế độ quiz</span>
                     </div>
                     <div class="stat">
@@ -364,7 +370,7 @@
                         </svg>
                     </div>
                     <h3>Quiz thông minh SRS</h3>
-                    <p>9 chế độ quiz với thuật toán SM-2. Mỗi lần luyện tập điều chỉnh theo trình độ của bạn, SRS hiển thị Kanji vào thời điểm tối ưu để bạn thực sự ghi nhớ.</p>
+                    <p>16 chế độ quiz với thuật toán SM-2. Mỗi lần luyện tập điều chỉnh theo trình độ của bạn, SRS hiển thị Kanji vào thời điểm tối ưu để bạn thực sự ghi nhớ.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -592,7 +598,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Ứng dụng có miễn phí không?</summary>
-                    <p>Có! Bạn có thể sử dụng tất cả tính năng cơ bản của Kanjidon miễn phí. Người dùng miễn phí có thể mở tối đa 3 gói mỗi ngày và sử dụng quiz "Quyết định" không giới hạn. Gói Kanjidon Pass mở khóa 6 thẻ mỗi gói, quiz không giới hạn, tất cả bài học ngữ pháp, âm thanh phát âm và xóa quảng cáo.</p>
+                    <p>Có. Kanjidon được tải miễn phí, không có quảng cáo và gồm 10 gói chào mừng. Sau 10 gói đầu tiên, các gói miễn phí và quiz bổ sung dùng Energy, được hồi lại theo thời gian. Kanjidon Pass mở khóa Energy không giới hạn, 6 thẻ mỗi gói, toàn bộ bài học và âm thanh phát âm.</p>
                 </details>
                 <details class="faq-item">
                     <summary>JLPT là gì? Kanjidon hỗ trợ những cấp độ nào?</summary>
@@ -834,14 +840,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Trang web này không sử dụng cookie theo dõi. <a href="/privacy.html">Chính sách bảo mật</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Đóng">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -854,16 +852,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

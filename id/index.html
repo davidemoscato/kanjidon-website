@@ -118,13 +118,6 @@
             "priceCurrency": "USD"
         },
         "description": "Aplikasi untuk belajar kanji Jepang dengan kartu flash, kuis interaktif, pertarungan PvP, dan sistem SRS. Mencakup semua level JLPT dari N5 hingga N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                 "name": "Apakah aplikasinya gratis?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ya! Kamu bisa menggunakan Kanjidon gratis dengan semua fitur dasar. Pengguna gratis bisa membuka hingga 3 paket per hari dan mengakses kuis \"Putuskan\" tanpa batas. Langganan Kanjidon Pass membuka 6 kartu per paket, kuis tanpa batas, semua pelajaran tata bahasa, pengucapan audio, dan menghapus iklan."
+                    "text": "Ya. Kanjidon gratis diunduh, tanpa iklan, dan mencakup 10 paket selamat datang. Setelah 10 paket pertama, paket gratis dan kuis tambahan memakai Energy yang terisi kembali seiring waktu. Kanjidon Pass membuka Energy tanpa batas, 6 kartu per paket, semua pelajaran, dan pelafalan audio."
                 }
             },
             {
@@ -231,6 +224,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -243,7 +249,7 @@
                 <a href="#features">Fitur</a>
                 <a href="/id/blog/">Blog</a>
                 <a href="/id/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Unduh Gratis</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Unduh Gratis</strong></a>
             </nav>
         </div>
     </header>
@@ -255,7 +261,7 @@
                 <h1>Berhenti melupakannya.<br><span class="text-primary">Mulai koleksi sekarang.</span></h1>
                 <p class="hero-subtitle">Lupakan kebosanan tabel tak berujung. Pelajari 6.000+ Kanji melalui keseruan membuka pack dan kekuatan sains SRS. Bergabunglah dengan 18.000+ siswa.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Buka 3 pack pertama kamu</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Buka 10 pack pertama kamu</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Rating 4,8 dari 5">
@@ -270,7 +276,7 @@
                         <span class="stat-label">Kartu Flash Kanji</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Tipe Kuis</span>
                     </div>
                     <div class="stat">
@@ -366,7 +372,7 @@
                         </svg>
                     </div>
                     <h3>Kuis Cerdas dengan SRS</h3>
-                    <p>8 mode kuis berbeda dengan algoritma SM-2. Setiap sesi menyesuaikan dengan levelmu dan SRS menampilkan kanji di waktu optimal untuk pengingatan nyata.</p>
+                    <p>16 mode kuis berbeda dengan algoritma SM-2. Setiap sesi menyesuaikan dengan levelmu dan SRS menampilkan kanji di waktu optimal untuk pengingatan nyata.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -594,7 +600,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Apakah aplikasinya gratis?</summary>
-                    <p>Ya! Kamu bisa menggunakan Kanjidon gratis dengan semua fitur dasar. Pengguna gratis bisa membuka hingga 3 paket per hari dan mengakses kuis "Putuskan" tanpa batas. Langganan Kanjidon Pass membuka 6 kartu per paket, kuis tanpa batas, semua pelajaran tata bahasa, pengucapan audio, dan menghapus iklan.</p>
+                    <p>Ya. Kanjidon gratis diunduh, tanpa iklan, dan mencakup 10 paket selamat datang. Setelah 10 paket pertama, paket gratis dan kuis tambahan memakai Energy yang terisi kembali seiring waktu. Kanjidon Pass membuka Energy tanpa batas, 6 kartu per paket, semua pelajaran, dan pelafalan audio.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Apa itu JLPT dan level apa saja yang dicakup Kanjidon?</summary>
@@ -836,14 +842,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Situs ini tidak menggunakan cookie profiling. <a href="/privacy.html">Privacy Policy</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Tutup">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -857,17 +855,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

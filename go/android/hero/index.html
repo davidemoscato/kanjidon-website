@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#1C1C1E">
+    <title>Opening Kanjidon…</title>
+    <style>
+        :root { color-scheme: dark; }
+        * { box-sizing: border-box; }
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            background: #1C1C1E;
+            color: #FAF9F6;
+            font: 500 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            text-align: center;
+        }
+        a { color: #D96B3B; }
+    </style>
+</head>
+<body>
+    <main>
+        <p>Opening Kanjidon…</p>
+        <p><a id="fallback" href="/">Continue to the store</a></p>
+    </main>
+    <script>
+        (function () {
+            var match = location.pathname.match(/^\/go\/(ios|android)\/(header|hero|download|sticky)\/?$/);
+            if (!match) {
+                location.replace('/');
+                return;
+            }
+
+            var platform = match[1];
+            var placement = match[2];
+            var destination;
+
+            if (platform === 'ios') {
+                destination = 'https://apps.apple.com/app/id6747951805';
+            } else {
+                var campaign = 'utm_source=kanjidon.com&utm_medium=website&utm_campaign=website_install&utm_content=' + placement;
+                destination = 'https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon&referrer=' + encodeURIComponent(campaign);
+            }
+
+            document.getElementById('fallback').href = destination;
+            location.replace(destination);
+        })();
+    </script>
+</body>
+</html>

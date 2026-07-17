@@ -116,13 +116,6 @@
             "priceCurrency": "KRW"
         },
         "description": "플래시카드, 인터랙티브 퀴즈, PvP 배틀, SRS 시스템으로 일본어 한자를 배우는 앱. N5부터 N1까지 모든 JLPT 레벨 지원.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -175,7 +168,7 @@
                 "name": "앱은 무료야?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "응! Kanjidon의 모든 기본 기능을 무료로 사용할 수 있어. 무료 사용자는 하루 최대 3팩을 열고, '결정' 퀴즈를 무제한 사용할 수 있어. Kanjidon Pass 구독으로 팩당 6장 카드, 무제한 퀴즈, 모든 문법 레슨, 발음 오디오, 광고 제거를 이용할 수 있어."
+                    "text": "응. Kanjidon은 무료로 다운로드할 수 있고 광고가 없으며 웰컴 팩 10개가 포함돼. 처음 10개 이후에는 무료 팩과 추가 퀴즈에 시간이 지나면 충전되는 Energy가 사용돼. Kanjidon Pass는 무제한 Energy, 팩당 카드 6장, 모든 레슨과 음성 발음을 열어 줘."
                 }
             },
             {
@@ -229,6 +222,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -241,7 +247,7 @@
                 <a href="#features">기능</a>
                 <a href="/ko/blog/">Blog</a>
                 <a href="/ko/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>무료 다운로드</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>무료 다운로드</strong></a>
             </nav>
         </div>
     </header>
@@ -253,7 +259,7 @@
                 <h1>잊어버리는 건 이제 그만.<br><span class="text-primary">수집을 시작하세요.</span></h1>
                 <p class="hero-subtitle">지루한 도표는 잊으세요. 카드 팩을 여는 설렘과 SRS 기술을 통해 6,000개 이상의 한자를 배우세요. 18,000명 이상의 학습자와 함께하세요.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>첫 3개 팩 열기</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>첫 10개 팩 열기</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="5점 만점에 4.8점">
@@ -268,7 +274,7 @@
                         <span class="stat-label">한자 플래시카드</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">퀴즈 모드</span>
                     </div>
                     <div class="stat">
@@ -597,7 +603,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>앱은 무료야?</summary>
-                    <p>응! Kanjidon의 모든 기본 기능을 무료로 사용할 수 있어. 무료 사용자는 하루 최대 3팩을 열고, '결정' 퀴즈를 무제한 사용할 수 있어. Kanjidon Pass 구독으로 팩당 6장 카드, 무제한 퀴즈, 모든 문법 레슨, 발음 오디오, 광고 제거를 이용할 수 있어.</p>
+                    <p>응. Kanjidon은 무료로 다운로드할 수 있고 광고가 없으며 웰컴 팩 10개가 포함돼. 처음 10개 이후에는 무료 팩과 추가 퀴즈에 시간이 지나면 충전되는 Energy가 사용돼. Kanjidon Pass는 무제한 Energy, 팩당 카드 6장, 모든 레슨과 음성 발음을 열어 줘.</p>
                 </details>
                 <details class="faq-item">
                     <summary>JLPT가 뭐야? Kanjidon은 어떤 레벨을 지원해?</summary>
@@ -839,14 +845,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>이 사이트는 추적 쿠키를 사용하지 않아. <a href="/privacy.html">개인정보처리방침</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="닫기">확인</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -859,16 +857,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

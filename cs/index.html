@@ -118,13 +118,6 @@
             "priceCurrency": "EUR"
         },
         "description": "Aplikace pro učení japonských kanji s flashcardy, interaktivními kvízy, PvP bitvami a SRS opakováním. Pokrývá všechny úrovně JLPT od N5 po N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                             "name": "Je Kanjidon zdarma?",
                             "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Ano. Zdarma můžeš otevírat balíčky, dělat kvízy a sbírat kanji. Kanjidon Pass odemyká další funkce, jako více karet v balíčku, neomezené kvízy, všechny lekce, audio výslovnost a odstranění reklam."
+                                    "text": "Ano. Kanjidon je zdarma ke stažení, neobsahuje reklamy a zahrnuje 10 uvítacích balíčků. Poté bezplatné balíčky a další kvízy používají Energy, která se časem dobíjí. Kanjidon Pass odemyká neomezenou Energy, 6 karet v balíčku, všechny lekce a audio výslovnost."
                             }
                     },
                     {
@@ -223,6 +216,19 @@
             ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -235,7 +241,7 @@
                 <a href="#features">Funkce</a>
                 <a href="/cs/blog/">Blog</a>
                 <a href="/cs/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Získej první 3 balíčky</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Získej první 3 balíčky</strong></a>
             </nav>
         </div>
     </header>
@@ -247,7 +253,7 @@
                 <h1>Přestaň je zapomínat.<br><span class="text-primary">Začni je sbírat.</span></h1>
                 <p class="hero-subtitle">Nauč se více než 6 000 kanji přes balíčky karet, chytré kvízy a rozložené opakování. Kanjidon dělá japonštinu hravější a přehlednější.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Získej první 3 balíčky</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Získej první 10 balíčky</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Hodnocení 4,8 z 5">
@@ -262,7 +268,7 @@
                         <span class="stat-label">Kartiček kanji</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Typů kvízů</span>
                     </div>
                     <div class="stat">
@@ -591,7 +597,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Je Kanjidon zdarma?</summary>
-                    <p>Ano. Zdarma můžeš otevírat balíčky, dělat kvízy a sbírat kanji. Kanjidon Pass odemyká další funkce.</p>
+                    <p>Ano. Kanjidon je zdarma ke stažení, neobsahuje reklamy a zahrnuje 10 uvítacích balíčků. Poté bezplatné balíčky a další kvízy používají Energy, která se časem dobíjí. Kanjidon Pass odemyká neomezenou Energy, 6 karet v balíčku, všechny lekce a audio výslovnost.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Jaké JLPT úrovně Kanjidon pokrývá?</summary>
@@ -825,14 +831,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Tento web nepoužívá sledovací cookies. <a href="/privacy.html">Zásady soukromí</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Zavřít">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -846,17 +844,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

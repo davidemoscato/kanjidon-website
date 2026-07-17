@@ -118,13 +118,6 @@
             "priceCurrency": "EUR"
         },
         "description": "Sovellus japanin kanjien oppimiseen flashcardeilla, interaktiivisilla visoilla, PvP-taisteluilla ja SRS-kertauksella. Kattaa kaikki JLPT-tasot N5:stä N1:een.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -177,7 +170,7 @@
                             "name": "Onko Kanjidon ilmainen?",
                             "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Kyllä. Voit avata pakkoja, tehdä visoja ja kerätä kanjeja ilmaiseksi. Kanjidon Pass avaa lisäominaisuuksia, kuten enemmän kortteja pakkaa kohti, rajattomat visat, kaikki oppitunnit, ääntämisen ja mainoksettomuuden."
+                                    "text": "Kyllä. Kanjidon on ilmainen ladata, siinä ei ole mainoksia ja saat 10 tervetuliaispakkaa. Sen jälkeen ilmaiset pakat ja lisävisat käyttävät ajan myötä latautuvaa Energyä. Kanjidon Pass avaa rajattoman Energyn, 6 korttia pakkaa kohti, kaikki oppitunnit ja ääntämisen."
                             }
                     },
                     {
@@ -223,6 +216,19 @@
             ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -235,7 +241,7 @@
                 <a href="#features">Ominaisuudet</a>
                 <a href="/fi/blog/">Blog</a>
                 <a href="/fi/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Avaa ensimmäiset 3 pakkaa</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Avaa ensimmäiset 3 pakkaa</strong></a>
             </nav>
         </div>
     </header>
@@ -247,7 +253,7 @@
                 <h1>Lopeta unohtaminen.<br><span class="text-primary">Aloita kerääminen.</span></h1>
                 <p class="hero-subtitle">Opiskele yli 6 000 kanjia korttipakkojen, älykkäiden visojen ja kertausvälien avulla. Kanjidon tekee japanin opiskelusta selkeää, motivoivaa ja hauskaa.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Avaa ensimmäiset 3 pakkaa</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Avaa ensimmäiset 10 pakkaa</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Arvio 4,8/5">
@@ -262,7 +268,7 @@
                         <span class="stat-label">Kanji-flashcardit</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Visatyypit</span>
                     </div>
                     <div class="stat">
@@ -591,7 +597,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Onko Kanjidon ilmainen?</summary>
-                    <p>Kyllä. Voit avata pakkoja, tehdä visoja ja kerätä kanjeja ilmaiseksi. Kanjidon Pass avaa lisäominaisuuksia.</p>
+                    <p>Kyllä. Kanjidon on ilmainen ladata, siinä ei ole mainoksia ja saat 10 tervetuliaispakkaa. Sen jälkeen ilmaiset pakat ja lisävisat käyttävät ajan myötä latautuvaa Energyä. Kanjidon Pass avaa rajattoman Energyn, 6 korttia pakkaa kohti, kaikki oppitunnit ja ääntämisen.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Mitä JLPT-tasoja Kanjidon tukee?</summary>
@@ -825,14 +831,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner (informational only - no cookies used) -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Tämä sivusto ei käytä seurantakeksejä. <a href="/privacy.html">Tietosuojakäytäntö</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Sulje">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         // Scroll Reveal Animation
@@ -846,17 +844,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            // Privacy Banner
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->

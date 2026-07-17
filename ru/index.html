@@ -116,13 +116,6 @@
             "priceCurrency": "USD"
         },
         "description": "Приложение для изучения японских иероглифов кандзи с флеш-картами, интерактивными викторинами, PvP-битвами и системой SRS. Охватывает все уровни JLPT от N5 до N1.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "500"
-        },
         "author": {
             "@type": "Organization",
             "name": "Kanjidon Team"
@@ -175,7 +168,7 @@
                 "name": "Приложение бесплатное?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Да! Ты можешь использовать Kanjidon бесплатно со всеми базовыми функциями. Бесплатные пользователи могут открывать до 3 пакетов в день и получать неограниченный доступ к викторине «Решай». Подписка Kanjidon Pass открывает 6 карт в пакете, неограниченные викторины, все уроки грамматики, аудио-произношение и убирает рекламу."
+                    "text": "Да. Kanjidon можно скачать бесплатно, в нём нет рекламы и доступны 10 приветственных наборов. После первых 10 бесплатные наборы и дополнительные викторины расходуют Energy, которая восстанавливается со временем. Kanjidon Pass открывает безлимитную Energy, 6 карт в наборе, все уроки и аудиопроизношение."
                 }
             },
             {
@@ -229,6 +222,19 @@
         ]
     }
     </script>
+    <!-- Schema.org - WebSite / site name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kanjidon.com/#website",
+        "url": "https://kanjidon.com/",
+        "name": "Kanjidon",
+        "alternateName": ["Kanjidon Kanji App", "Kanjidon Japanese"]
+    }
+    </script>
+
+    <script src="/conversion.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -241,7 +247,7 @@
                 <a href="#features">Функции</a>
                 <a href="/ru/blog/">Blog</a>
                 <a href="/ru/faq/">FAQ</a>
-                <a href="#download" class="btn btn-primary btn-sm"><strong>Скачать</strong></a>
+                <a href="#download" class="btn btn-primary btn-sm" data-smart-download data-placement="header"><strong>Скачать</strong></a>
             </nav>
         </div>
     </header>
@@ -253,7 +259,7 @@
                 <h1>Хватит их забывать.<br><span class="text-primary">Начни их коллекционировать.</span></h1>
                 <p class="hero-subtitle">Забудь о скучных таблицах. Учи более 6000 кандзи через азарт распаковки бустеров и научный подход SRS. Присоединяйся к 18 000+ учеников.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="btn btn-primary btn-lg"><strong>Открой свои первые 3 бустера</strong></a>
+                    <a href="#download" class="btn btn-primary btn-lg" data-smart-download data-placement="hero"><strong>Открой свои первые 10 бустера</strong></a>
                 </div>
                                 <div class="hero-trust">
                     <span class="hero-trust-item" aria-label="Оценка 4,8 из 5">
@@ -268,7 +274,7 @@
                         <span class="stat-label">Флеш-карт кандзи</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">12</span>
+                        <span class="stat-number">16</span>
                         <span class="stat-label">Типов викторин</span>
                     </div>
                     <div class="stat">
@@ -364,7 +370,7 @@
                         </svg>
                     </div>
                     <h3>Умные викторины с SRS</h3>
-                    <p>8 различных режимов викторин с алгоритмом SM-2. Каждая сессия адаптируется к твоему уровню, а SRS показывает кандзи в оптимальное время для настоящего запоминания.</p>
+                    <p>16 различных режимов викторин с алгоритмом SM-2. Каждая сессия адаптируется к твоему уровню, а SRS показывает кандзи в оптимальное время для настоящего запоминания.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -597,7 +603,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Приложение бесплатное?</summary>
-                    <p>Да! Ты можешь использовать Kanjidon бесплатно со всеми базовыми функциями. Бесплатные пользователи могут открывать до 3 пакетов в день и получать неограниченный доступ к викторине «Решай». Подписка Kanjidon Pass открывает 6 карт в пакете, неограниченные викторины, все уроки грамматики, аудио-произношение и убирает рекламу.</p>
+                    <p>Да. Kanjidon можно скачать бесплатно, в нём нет рекламы и доступны 10 приветственных наборов. После первых 10 бесплатные наборы и дополнительные викторины расходуют Energy, которая восстанавливается со временем. Kanjidon Pass открывает безлимитную Energy, 6 карт в наборе, все уроки и аудиопроизношение.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Что такое JLPT и какие уровни охватывает Kanjidon?</summary>
@@ -839,14 +845,6 @@
         </div>
     </footer>
 
-    <!-- Privacy Banner -->
-    <div class="privacy-banner" id="privacyBanner">
-        <div class="privacy-banner-content">
-            <p>Этот сайт не использует отслеживающие cookie. <a href="/privacy.html">Privacy Policy</a></p>
-            <button class="privacy-banner-close" onclick="closePrivacyBanner()" aria-label="Закрыть">OK</button>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -859,16 +857,7 @@
             }, { threshold: 0.3 });
 
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
-
-            if (!localStorage.getItem('privacyBannerDismissed')) {
-                document.getElementById('privacyBanner').classList.add('visible');
-            }
         });
-
-        function closePrivacyBanner() {
-            document.getElementById('privacyBanner').classList.remove('visible');
-            localStorage.setItem('privacyBannerDismissed', 'true');
-        }
     </script>
 
     <!-- Sticky Download Bar -->
