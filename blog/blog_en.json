@@ -3,32 +3,32 @@
     {
       "id": "how-to-learn-kanji",
       "slug": "how-to-learn-kanji",
-      "title": "How to Learn Kanji: 5 Methods That Actually Work",
-      "meta_description": "Radicals, SRS, mnemonics, contextual learning, writing practice: 5 proven methods to learn kanji. From zero to reading Japanese.",
-      "keywords": "how to learn kanji, learn kanji, study kanji, kanji for beginners, memorize kanji",
-      "read_time": "8 min",
+      "title": "How to Learn Kanji: A Practical Step-by-Step Guide",
+      "meta_description": "Learn kanji with a step-by-step system: useful words, components, active recall, spaced review, readings, and a realistic 30-day beginner plan.",
+      "keywords": "how to learn kanji, learn kanji, study kanji, kanji for beginners, memorize kanji, kanji study plan, spaced repetition kanji",
+      "read_time": "11 min",
       "faq": [
         {
           "question": "How long does it take to learn all kanji?",
-          "answer": "Learning all 2,136 jōyō kanji takes 1.5 to 3 years with consistent daily study. At 10 kanji per day you could finish in about 7 months, but retention requires ongoing review with spaced repetition."
+          "answer": "There is no universal timeline. The 2,136 jōyō kanji are an official reference list, not a finish line for fluency. Your pace depends on vocabulary, reading practice, retention, and how many reviews you can sustain without guessing."
         },
         {
           "question": "What is the best method to learn kanji?",
-          "answer": "Spaced repetition combined with mnemonics is the most effective approach. Learn radicals first, then build up to complex kanji using visual stories and context. Avoid rote memorization."
+          "answer": "A reliable system combines useful vocabulary, active recall, spaced review, and frequent reading. Components and mnemonics can make difficult characters easier to distinguish, but you do not need to memorize all 214 Kangxi radicals before learning words."
         },
         {
           "question": "Should I learn to write kanji or just recognize them?",
-          "answer": "Focus on recognition first. Handwriting reinforces memory but isn't essential for daily use since most Japanese people use digital input. Add writing practice once you're comfortable recognizing 200+ kanji."
+          "answer": "Match practice to your goal. Recognition and reading deserve priority if you want to read; handwriting is valuable when school, work, calligraphy, or stronger visual discrimination matters. You can practice a small amount of writing from day one without making it the only study method."
         },
         {
           "question": "How many kanji should I learn per day?",
-          "answer": "5-10 new kanji per day is sustainable for most learners. Consistency and review matter more than quantity. Learning 5 kanji daily with proper SRS review is better than cramming 30 without retention."
+          "answer": "Start with 3-5 new kanji a day and watch the review queue for two weeks. Add more only when you can recall old items accurately and still read example words. The right number is the pace you can retain, not the largest daily streak."
         }
       ],
       "sections": [
         {
           "type": "intro",
-          "content": "Learning kanji is one of the biggest challenges for Japanese learners. With over 2,000 characters to memorize to reach fluency, it can seem like an impossible task. But don't worry: with the right method, anyone can master kanji."
+          "content": "Kanji becomes overwhelming when it is treated as a list of 2,136 isolated symbols. A workable system is smaller: learn a useful word, notice how its kanji is built, retrieve it without looking, review it after a delay, and meet it again while reading. This guide turns that loop into a realistic beginner plan without promising fluency by a fixed date."
         },
         {
           "type": "heading",
@@ -37,7 +37,7 @@
         },
         {
           "type": "text",
-          "content": "Kanji (漢字) are characters of Chinese origin used in Japanese writing. Each kanji represents a concept or idea, and can have different readings (pronunciations) depending on context. Modern Japanese uses about 2,136 common kanji, called jōyō kanji."
+          "content": "Kanji (漢字) are Han characters adapted to write Japanese. A character contributes meaning and may have different on'yomi and kun'yomi readings depending on the word. Japan's official jōyō kanji table contains 2,136 characters for general use, but learners encounter them through vocabulary, names, compounds, and sentences rather than as one uniform checklist."
         },
         {
           "type": "heading",
@@ -56,61 +56,120 @@
         {
           "type": "heading",
           "level": 2,
-          "content": "The 5 Most Effective Methods to Learn Kanji"
+          "content": "A Five-Part Kanji Learning System"
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "1. The Radical Method"
+          "content": "1. Learn Useful Words, Not Every Reading at Once"
         },
         {
           "type": "text",
-          "content": "Kanji are composed of components called radicals. Learning the 214 radicals first allows you to \"decode\" more complex kanji. For example, the radical 水 (water) appears in kanji like 海 (sea), 泳 (swim) and 河 (river)."
+          "content": "Start with vocabulary you can use. For 食, learn 食べる (taberu, to eat) and 食事 (shokuji, meal) instead of memorizing a disconnected list of every possible reading. Words supply pronunciation and context; the character supplies a reusable visual and semantic anchor."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "2. Spaced Repetition System (SRS)"
+          "content": "2. Use Components as Memory and Search Cues"
         },
         {
           "type": "text",
-          "content": "The spaced repetition system is scientifically proven for long-term memorization. Instead of reviewing everything daily, you review kanji at increasing intervals: 1 day, 3 days, 1 week, 2 weeks, and so on. This method optimizes study time."
+          "content": "Radicals are dictionary classification units; visual components are the parts you actually notice inside a character. The two overlap but are not identical. Learn recurring components as they become useful. For example, the water component 氵 helps connect 海 (sea), 河 (river), and 泳 (swim). You do not need to memorize all 214 Kangxi radicals before starting kanji."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "3. Mnemonics and Stories"
+          "content": "3. Retrieve First, Then Space the Next Review"
         },
         {
           "type": "text",
-          "content": "Creating mental associations helps enormously. The kanji 休 (rest) combines 人 (person) and 木 (tree): a person resting under a tree. These stories make kanji memorable."
+          "content": "A review should make you recall an answer before revealing it. Try to produce the meaning, a reading in a known word, or the kanji itself; then check and correct. Research on retrieval practice and spaced retrieval supports separating successful reviews over time instead of repeatedly rereading the same card. Let accuracy determine the interval rather than following one fixed calendar for every character."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "4. Learn in Context"
+          "content": "4. Add Mnemonics Where Memory Fails"
         },
         {
           "type": "text",
-          "content": "Don't study kanji in isolation. Learn the words that contain them. The kanji 食 (eat) becomes easier to remember when you study it in words like 食べる (taberu - to eat) and 食事 (shokuji - meal)."
+          "content": "A short image or story can connect form, meaning, and sound. The classic 休 combines a person-like component 亻 with tree 木, which can cue a person resting by a tree. Mnemonics are scaffolding, not the final skill: keep the ones that prevent confusion and let them fade once recognition becomes automatic."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "5. Practice Writing"
+          "content": "5. Mix Recognition, Recall, Reading, and Writing"
         },
         {
           "type": "text",
-          "content": "Writing kanji by hand reinforces muscle and visual memory. Always follow the correct stroke order: generally from top to bottom and left to right."
+          "content": "Reading a kanji, recalling a word, choosing between similar characters, hearing a reading, and writing from memory are different tasks. Mix the tasks that match your goal. Handwriting can expose missing visual detail, while sentence reading proves that you can use the character outside a flashcard."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "How Many Kanji to Study Per Day?"
+          "content": "A Realistic 30-Day Beginner Plan"
         },
         {
           "type": "text",
-          "content": "For beginners, 5-10 new kanji per day is a sustainable pace. The key is consistency: better to study 15 minutes every day than 2 hours once a week. In 6 months, you can learn all the kanji needed for JLPT N5."
+          "content": "Use this as a starting experiment, not a promise. Study for 20-30 minutes most days, introduce roughly 3-5 kanji through useful words, and reduce new material whenever reviews become rushed or inaccurate."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Week",
+            "Focus",
+            "Daily practice",
+            "Checkpoint"
+          ],
+          "rows": [
+            [
+              "1",
+              "Build the loop",
+              "Learn 3 useful words, notice their kanji components, then retrieve them once later",
+              "You can explain what each word means without looking"
+            ],
+            [
+              "2",
+              "Add spaced review",
+              "Review due items first; add 3-5 new kanji only when time remains",
+              "Old cards stay accurate instead of piling up"
+            ],
+            [
+              "3",
+              "Read in context",
+              "Read short graded sentences and save one real example for difficult kanji",
+              "You recognize studied words outside the app"
+            ],
+            [
+              "4",
+              "Diagnose weak points",
+              "Mix reading, listening, similar-character choices, and optional handwriting",
+              "You know whether form, meaning, reading, or vocabulary causes each error"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "What a Good Kanji Note Contains"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The kanji and one plain-language meaning cue",
+            "One or two useful words with their actual readings",
+            "A short sentence or phrase that shows the word in context",
+            "A component or mnemonic only when it prevents a recurring mistake",
+            "A note about a similar-looking kanji if you confuse the pair"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How Many New Kanji Should You Study?"
+        },
+        {
+          "type": "text",
+          "content": "Start with 3-5 a day for two weeks. Increase only if you can finish reviews, recall old items without guessing, and still read example words. Five carefully learned kanji can be more useful than twenty isolated meanings. A missed day is not failure: resume with due reviews before adding anything new."
         },
         {
           "type": "heading",
@@ -120,10 +179,12 @@
         {
           "type": "list",
           "items": [
-            "Trying to memorize everything at once",
-            "Ignoring on'yomi and kun'yomi readings",
-            "Not reviewing already studied kanji",
-            "Studying only meanings without context"
+            "Memorizing every possible reading before learning a usable word",
+            "Adding new cards while overdue reviews keep growing",
+            "Recognizing the answer after it appears but never retrieving it first",
+            "Studying isolated English meanings without vocabulary or sentences",
+            "Using one exercise type and assuming it proves every skill",
+            "Keeping a daily target that is too high to sustain"
           ]
         },
         {
@@ -133,7 +194,25 @@
         },
         {
           "type": "text",
-          "content": "Learning kanji takes time and dedication, but with the right method it's absolutely possible. The combination of spaced repetition, mnemonics and consistent practice will lead you to success."
+          "content": "A durable kanji routine is a feedback loop: useful words, active retrieval, spaced review, real reading, and adjustment when errors reveal a weak point. Start small enough to continue tomorrow. Progress is not the number of cards you added; it is what you can still recognize and use weeks later."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Sources and Further Reading"
+        },
+        {
+          "type": "source_list",
+          "items": [
+            {
+              "label": "Agency for Cultural Affairs: official jōyō kanji table",
+              "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html"
+            },
+            {
+              "label": "PubMed: spaced retrieval and memory research",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21574747/"
+            }
+          ]
         }
       ]
     },
@@ -7641,28 +7720,46 @@
     {
       "id": "kanji-vs-chinese",
       "slug": "kanji-vs-chinese",
-      "title": "Kanji vs Hanzi: Can Chinese Speakers Read Japanese?",
-      "meta_description": "Japanese Kanji and Chinese Hanzi share origins but diverged over centuries. Key differences, false friends, simplified vs traditional, and mutual intelligibility.",
+      "title": "Kanji vs Hanzi: Differences, Readings and False Friends",
+      "meta_description": "Compare Japanese kanji and Chinese hanzi: character forms, readings, false friends, grammar, and what readers can realistically understand.",
       "keywords": "kanji vs hanzi, chinese kanji, hanzi kanji difference, chinese japanese kanji, japanese vs chinese characters, hanzi vs kanji",
-      "read_time": "11 min",
+      "read_time": "13 min",
+      "faq": [
+        {
+          "question": "Are kanji the same as Chinese characters?",
+          "answer": "Kanji belong to the Han-character writing tradition, but Japanese and Chinese use them inside different languages. Many forms and core meanings overlap, while readings, vocabulary, simplifications, and usage can differ."
+        },
+        {
+          "question": "Can Chinese speakers read Japanese without studying it?",
+          "answer": "They may recognize individual characters and infer the topic of a short label or headline, but they cannot reliably read Japanese from hanzi knowledge alone. Japanese grammar, kana, readings, and language-specific vocabulary still have to be learned."
+        },
+        {
+          "question": "Are Japanese kanji closer to traditional or simplified Chinese?",
+          "answer": "There is no single rule. Japanese shinjitai are a separate simplification standard: some forms match simplified Chinese, some match traditional Chinese, and some differ from both. Compare characters individually."
+        },
+        {
+          "question": "Do kanji and hanzi always have the same meaning?",
+          "answer": "No. Many characters retain related meanings, but words built from the same characters can diverge. False friends such as 手紙, 勉強, and 汽車 make context and language-specific vocabulary essential."
+        }
+      ],
       "sections": [
         {
           "type": "intro",
-          "content": "Kanji and hanzi. Japanese and Chinese. Same characters, two completely different languages. But how similar are they really? Can a Chinese person pick up a Japanese newspaper and understand it? Can a Japanese person read a Chinese menu? The answer is much more complicated (and interesting) than a simple yes or no."
+          "content": "Japanese kanji and Chinese hanzi share a writing-system ancestry, but they do not make Japanese and Chinese mutually readable. A reader may recognize a character, guess a topic, or notice a related word while still missing the pronunciation, grammar, and intended meaning. This guide separates the genuine overlap from the shortcuts that cause mistakes."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "The Story: How Kanji Came to Japan"
+          "content": "Shared Origins, Different Languages"
         },
         {
           "type": "text",
-          "content": "Chinese characters (hanzi) arrived in Japan around the 5th-6th century through Korea and direct trade contacts with China. The Japanese adopted them to write their own language, but with a problem: Japanese is structurally very different from Chinese. So they did something ingenious and crazy at the same time: they took Chinese characters and adapted them, giving many of them two types of reading, the original Chinese reading (on'yomi) and a native Japanese reading (kun'yomi). And that's where the famous complexity of kanji comes from."
+          "content": "Writing in Chinese characters reached Japan in antiquity and was adapted to represent Japanese. Kanji acquired Sino-Japanese readings called on'yomi and native Japanese readings called kun'yomi, while kana developed for grammatical endings and other sounds. Modern Mandarin, Cantonese, Japanese, and other languages can therefore use related Han characters without sharing pronunciation or sentence structure."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "The 5 Fundamental Differences"
+          "content": "Five Differences That Matter"
         },
         {
           "type": "heading",
@@ -7671,7 +7768,7 @@
         },
         {
           "type": "text",
-          "content": "In the 20th century, both Japan and China simplified some characters, but in different and independent ways. Result: Today there are three versions of many characters."
+          "content": "Japan's postwar shinjitai and mainland China's simplified characters are separate standards. Some modern forms coincide, some remain traditional in Japanese, and some differ in all three columns. Taiwan and Hong Kong generally use traditional forms, with regional conventions of their own."
         },
         {
           "type": "table",
@@ -7683,7 +7780,7 @@
           ],
           "rows": [
             [
-              "Village",
+              "Country",
               "國",
               "国",
               "国"
@@ -7734,7 +7831,7 @@
         },
         {
           "type": "text",
-          "content": "As you can see, sometimes Japanese and simplified Chinese coincide (国, 学), other times they don't (気 vs 气, 図 vs 图). Japanese has simplified fewer characters than China, therefore it is in an intermediate position between traditional and simplified Chinese."
+          "content": "The useful lesson is not that Japanese sits neatly between two Chinese systems. It is that each character must be checked: 国 and 学 coincide in Japanese and simplified Chinese, 風 remains traditional in Japanese, and 竜 is a distinctly Japanese standard form beside 龍 and 龙."
         },
         {
           "type": "heading",
@@ -7743,95 +7840,77 @@
         },
         {
           "type": "text",
-          "content": "This is the difference that makes everything complicated. In Chinese, each character generally has ONE pronunciation (pinyin). In Japanese, the same character can have 2, 3 or even 10+ different readings depending on the context."
+          "content": "A shared written form does not imply a shared sound. Japanese kanji commonly have multiple on'yomi and kun'yomi, and the reading is learned through words. Chinese characters are not limited to one pronunciation either: some are polyphonic, and pronunciations differ across varieties such as Mandarin and Cantonese."
         },
         {
           "type": "text",
-          "content": "Extreme example: the kanji 生 (life/birth) has at least 10 readings in Japanese: セイ, ショウ, い(きる), う(まれる), は(える), なま, き, お(う), and others. In Chinese? Sheng only. A Chinese who studies Japanese learns the meanings very quickly, but the readings are a whole new nightmare."
+          "content": "For example, Japanese 生 appears in words such as 生活 (seikatsu, life), 生まれる (umareru, to be born), and 生 (nama, raw). Mandarin 生 is often read shēng, but it also participates in language-specific compounds and usages. The safest unit to learn is the whole word, not a character-plus-one-sound rule."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "3. Different Meanings (Dangerous False Friends)"
+          "content": "3. Related Characters Can Form False Friends"
         },
         {
           "type": "text",
-          "content": "Many characters have the same meaning in both languages. But some have completely different meanings, and can create embarrassing situations."
+          "content": "Even when the characters are recognizable, a compound may have developed a different everyday meaning. The Chinese column below uses common modern Mandarin wording, including simplified forms where relevant."
         },
         {
           "type": "table",
           "headers": [
-            "Word",
-            "In Japanese",
-            "In Chinese",
-            "Level of embarrassment"
+            "Expression",
+            "Japanese",
+            "Modern Mandarin"
           ],
           "rows": [
             [
-              "手紙 (pans)",
-              "Letter (correspondence)",
-              "Toilet paper",
-              "High"
+              "手紙 / 手纸",
+              "Letter, correspondence",
+              "Toilet paper"
             ],
             [
-              "勉強 (benkyō)",
+              "勉強 / 勉强",
               "Study",
-              "Force/oblige",
-              "Medium"
+              "Reluctantly; to force or compel"
             ],
             [
-              "大丈夫 (daijoubu)",
-              "Okay/no problem",
-              "Brave man",
-              "Bass"
+              "大丈夫",
+              "Okay; all right; safe",
+              "A great or principled man"
             ],
             [
-              "娘 (musume)",
-              "Daughter",
-              "Mother/mother",
-              "High"
+              "汽車 / 汽车",
+              "Train, especially a steam train",
+              "Car; automobile"
             ],
             [
-              "汽車 (kisha)",
-              "Train",
-              "Car",
-              "Medium"
-            ],
-            [
-              "新聞 (shinbun)",
+              "新聞 / 新闻",
               "Newspaper",
-              "News (generic)",
-              "Bass"
-            ],
-            [
-              "経理 (keiri)",
-              "Accounting",
-              "Manager/director",
-              "Medium"
+              "News"
             ]
           ]
         },
         {
           "type": "text",
-          "content": "Imagine a Chinese person in Japan who sees a sign with 手紙 and thinks of toilet paper instead of mailbox. These differences are real and can make for funny (or very embarrassing) misunderstandings."
+          "content": "These are vocabulary differences, not proof that one language uses the characters incorrectly. Treat familiar-looking compounds as hypotheses and confirm them in a Japanese or Chinese dictionary before relying on the apparent meaning."
         },
         {
           "type": "heading",
           "level": 3,
-          "content": "4. Kanji Exclusive to Japan (Kokuji)"
+          "content": "4. Japan-Created Characters (Kokuji)"
         },
         {
           "type": "text",
-          "content": "The Japanese didn't just import characters from China. They also invented new ones, called kokuji (国字, literally national characters). These kanji do not exist in Chinese and a Chinese person has never seen them in his life."
+          "content": "Japan also created characters known as kokuji. They can be unfamiliar to Chinese readers, although a few were later borrowed or documented outside Japan, so 'never exists in Chinese' is too absolute. Their Japanese readings and uses still need to be learned as Japanese vocabulary."
         },
         {
           "type": "list",
           "items": [
-            "峠 (touge) - mountain pass: 山 + 上 + 下 = going up and down a mountain",
-            "辻 (tsuji) - crossroads: purely Japanese character",
-            "働 (hataraku) - to work: 人 + 動 = person who moves = to work",
-            "込 (komu) - enter crowded/pour in: very used in verbal compounds",
-            "畑 (hatake) - cultivated field (not rice): 火 + 田 = field burned to fertilize"
+            "峠 (tōge) — mountain pass",
+            "辻 (tsuji) — crossroads",
+            "畑 (hatake) — cultivated field",
+            "榊 (sakaki) — the sacred sakaki tree",
+            "働 (hataraku) — to work; a Japanese-created character later used beyond Japan"
           ]
         },
         {
@@ -7841,56 +7920,109 @@
         },
         {
           "type": "text",
-          "content": "Even if you could read all the kanji in a Japanese sentence, you wouldn't understand the sentence without knowing the grammar. Japanese uses hiragana for particles (は, が, を, に), verb and adjectival conjugations, and grammatical structures that do not exist in Chinese. A sentence like 食べられなかった (I couldn't eat) contains only one kanji (食) and everything else and grammar in hiragana."
+          "content": "Recognizing every kanji still does not decode the sentence. Japanese uses kana for particles such as は, が, を, and に, as well as verb and adjective endings. In 食べられなかった (could not eat), 食 supplies the lexical core while the following kana carry important morphology. Word order and grammatical marking also differ from Chinese."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "So, Can a Chinese Man Read Japanese?"
+          "content": "Can a Chinese Reader Understand Japanese?"
         },
         {
           "type": "text",
-          "content": "The honest answer, in percentages:"
+          "content": "Sometimes a Chinese-literate reader can infer the topic of a sign, menu label, or headline from shared characters. That is not the same as reading the Japanese sentence. Kana, inflection, Japanese word meanings, and readings make exact comprehension unreliable without Japanese study."
         },
         {
-          "type": "list",
-          "items": [
-            "Understanding the general meaning of a sign or title: yes, about 50-70% of the meaning",
-            "Reading a newspaper article: maybe 30-40%, with many grammatical holes",
-            "Follow a written conversation: no, the grammar is completely different",
-            "Understanding a novel: absolutely not without studying Japanese",
-            "Advantage for studying Japanese: huge for meanings, but the readings must be learned from scratch"
+          "type": "table",
+          "headers": [
+            "Material",
+            "What may transfer",
+            "What still blocks reliable reading"
+          ],
+          "rows": [
+            [
+              "Short sign or label",
+              "A familiar character may reveal the topic",
+              "Japanese-specific words and intended nuance"
+            ],
+            [
+              "Headline",
+              "Several content words may be recognizable",
+              "Compounds, names, omitted context, and pronunciation"
+            ],
+            [
+              "News article",
+              "Some nouns and broad themes",
+              "Grammar, kana, inflection, and language-specific vocabulary"
+            ],
+            [
+              "Conversation or novel",
+              "Occasional isolated characters",
+              "Full sentence structure, voice, style, and idiom"
+            ]
           ]
         },
         {
           "type": "text",
-          "content": "In summary: knowing Chinese is a huge advantage for memorizing the meanings of kanji, but it is not a shortcut to Japanese. Readings, grammar and many specific meanings must be learned from scratch."
+          "content": "Existing hanzi knowledge can reduce the visual novelty of some kanji and provide useful semantic clues. The size of that advantage varies by the reader's language, literacy, and exposure. Japanese readings, grammar, and vocabulary remain separate learning tasks."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "And Can a Japanese Read Chinese?"
+          "content": "Can a Japanese Reader Understand Chinese?"
         },
         {
           "type": "text",
-          "content": "Surprisingly, a Japanese person does a little better with written Chinese, especially with traditional Chinese (used in Taiwan and Hong Kong). Japanese kanji are closer to traditional characters. But even here, without studying Chinese, understanding stops at general concepts. Chinese grammar (SVO order, tones, classifiers) is completely different."
+          "content": "The same limitation works in the other direction. A Japanese reader may identify familiar characters or guess a subject, but Chinese syntax, vocabulary, pronunciation, and character standards prevent dependable reading. It is also unsafe to claim that one direction is universally easier: the result depends on the text, script variety, and reader."
         },
         {
           "type": "heading",
           "level": 2,
-          "content": "Do I learn Kanji or Hanzi First?"
+          "content": "Which Should You Learn First?"
         },
         {
           "type": "text",
-          "content": "If you want to study both languages, here's some practical advice: choose the one that interests you most and start from there. The basic characters you learn in one language will give you an advantage in the other, especially for meanings. But don't fool yourself into thinking that studying one is the same as studying the other, they are two separate paths with a common basis."
+          "content": "Choose the language you actually want to use. If Japanese is the goal, learn kanji through Japanese words, readings, kana, and sentences. If Mandarin is the goal, learn hanzi with Mandarin pronunciation, words, and grammar. Shared forms can become helpful cross-language anchors later, but merging the two systems too early encourages false readings and false friends."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "A Practical Comparison Checklist"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Check whether the form is traditional Chinese, simplified Chinese, Japanese shinjitai, or shared",
+            "Learn pronunciation from a word in the target language, not from the character alone",
+            "Confirm familiar-looking compounds in a language-specific dictionary",
+            "Read the surrounding kana or Chinese grammar before inferring the sentence",
+            "Record false friends and visually similar variants as explicit contrasts"
+          ]
         },
         {
           "type": "text",
-          "content": "If Japanese is your focus, Kanjidon teaches you kanji with the correct Japanese readings (on'yomi and kun'yomi), examples in context, and mnemonics that help you distinguish Japanese from Chinese meanings. With adaptive quizzes, you can quickly find out if you're confusing a false friend, better to find out in the app than at a restaurant in Japan."
+          "content": "If Japanese is your focus, Kanjidon can help you practise kanji with Japanese readings, vocabulary, and different quiz formats. Use it as one part of a broader routine that also includes grammar and real Japanese reading."
         },
         {
-          "type": "text",
-          "content": "Whichever language you choose, the first step is the same: learn the basic characters. The first 100-200 are largely shared between the two languages. Get started today and you'll have a leg up both ways."
+          "type": "heading",
+          "level": 2,
+          "content": "Sources and Further Reading"
+        },
+        {
+          "type": "source_list",
+          "items": [
+            {
+              "label": "Unicode Standard Annex #38: Unicode Han Database (Unihan)",
+              "url": "https://www.unicode.org/standard/reports/tr38/"
+            },
+            {
+              "label": "Unicode FAQ: Chinese and Japanese Han characters",
+              "url": "https://www.unicode.org/faq/han_cjk.html"
+            },
+            {
+              "label": "Agency for Cultural Affairs: official jōyō kanji table",
+              "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html"
+            }
+          ]
         }
       ]
     },
