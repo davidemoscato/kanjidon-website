@@ -61,7 +61,7 @@
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#F47932">
+    <meta name="theme-color" content="#C65326">
 
     <!-- Styles -->
     <link rel="stylesheet" href="../styles.css">
@@ -82,31 +82,31 @@
             font-weight: 800;
             margin-bottom: 48px;
             text-align: center;
-            color: #1a1a1a;
+            color: var(--secondary);
         }
-        .about-lead {
+        .about-content .about-lead {
             font-size: 1.35rem;
             line-height: 1.7;
-            color: #1a1a1a;
+            color: var(--secondary);
             margin-bottom: 8px;
         }
-        .about-highlight {
+        .about-content .about-highlight {
             font-size: 1.35rem;
             font-weight: 700;
-            color: #ff6b35;
+            color: var(--primary-text);
             margin-bottom: 32px;
         }
         .about-content p {
             font-size: 1.1rem;
             line-height: 1.8;
-            color: #333;
+            color: var(--subtle);
             margin-bottom: 20px;
         }
-        .about-quote {
+        .about-content .about-quote {
             font-size: 1.15rem;
             font-style: italic;
-            color: #555;
-            border-left: 4px solid #ff6b35;
+            color: var(--subtle);
+            border-left: 4px solid var(--primary);
             padding-left: 24px;
             margin: 32px 0;
             line-height: 1.8;
@@ -114,26 +114,26 @@
         .about-divider {
             border: none;
             height: 1px;
-            background: linear-gradient(to right, transparent, #ddd, transparent);
+            background: linear-gradient(to right, transparent, var(--line), transparent);
             margin: 40px 0;
         }
-        .about-closing {
+        .about-content .about-closing {
             font-size: 1.2rem;
             font-weight: 600;
-            color: #1a1a1a;
+            color: var(--secondary);
             margin-bottom: 8px;
         }
-        .about-final {
+        .about-content .about-final {
             font-size: 1.4rem;
             font-weight: 700;
-            color: #ff6b35;
+            color: var(--primary-text);
             margin-top: 24px;
             text-align: center;
         }
-        .about-signature {
+        .about-content .about-signature {
             font-size: 1.1rem;
             font-weight: 600;
-            color: #666;
+            color: var(--subtle);
             text-align: right;
             margin-top: 48px;
             font-style: italic;
@@ -158,7 +158,7 @@
             width: 100%;
             max-width: 520px;
             border-radius: 16px;
-            border: 1px solid rgba(28, 28, 30, 0.08);
+            border: 1px solid var(--line-subtle);
         }
     </style>
 </head>
