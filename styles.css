@@ -57,7 +57,7 @@
     --surface-strong: #111113;   /* High-contrast bands */
     --secondary: #FAF9F6;       /* App bone foreground */
     --primary: #C65326;         /* Kaki brand / filled controls */
-    --primary-text: #D96B3B;    /* Accessible accent text on dark */
+    --primary-text: #DB6D3D;    /* AA accent text on dark surfaces */
     --on-primary: #FFFFFF;
     --line: rgba(255, 255, 255, 0.14);
     --line-subtle: rgba(255, 255, 255, 0.08);
@@ -372,7 +372,7 @@ img {
     margin-bottom: var(--spacing-xl);
 }
 
-/* Hero trust row (rating + risk-reversal) */
+/* Hero trust row (verified store proof + risk reversal) */
 .hero-trust {
     display: flex;
     flex-wrap: wrap;
@@ -485,7 +485,7 @@ img {
 }
 
 /* ============================================================================
-   RATING SECTION - Big Laurel with Scroll Animation
+   VERIFIED DOWNLOAD PROOF
    ============================================================================ */
 
 .rating-section {
@@ -501,25 +501,33 @@ img {
     text-align: center;
 }
 
-.rating-laurel {
-    position: relative;
+.download-proof {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 160px;
-}
-
-.rating-laurel-img {
-    width: 200px;
-    height: auto;
+    min-width: 210px;
+    min-height: 132px;
+    padding: var(--spacing-l) var(--spacing-xl);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: var(--surface);
 }
 
 .rating-score {
-    position: absolute;
     font-size: 56px;
+    line-height: 1;
     font-weight: var(--font-weight-heavy);
     color: var(--secondary);
+}
+
+.download-proof-store {
+    margin-top: var(--spacing-s);
+    color: var(--primary-text);
+    font-size: var(--font-s);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
 }
 
 .rating-text {
@@ -1790,14 +1798,11 @@ html.is-desktop .download-qr {
         font-size: var(--font-xl);
     }
 
-    /* Rating Section Mobile */
-    .rating-laurel {
-        width: 150px;
-        height: 120px;
-    }
-
-    .rating-laurel-img {
-        width: 150px;
+    /* Verified proof mobile */
+    .download-proof {
+        min-width: 180px;
+        min-height: 112px;
+        padding: var(--spacing-m) var(--spacing-l);
     }
 
     .rating-score {
@@ -1987,7 +1992,17 @@ html.is-desktop .download-qr {
 
 @media (max-width: 600px) {
     .lang-suggest {
-        width: auto;
+        position: relative;
+        top: auto;
+        left: auto;
+        width: calc(100% - (2 * var(--spacing-m)));
+        max-width: none;
+        margin: calc(64px + var(--spacing-s)) auto 0;
+        transform: translateY(-6px);
+    }
+
+    .lang-suggest.visible {
+        transform: translateY(0);
     }
 
     .lang-suggest p {

@@ -219,18 +219,18 @@
     {
       "id": "kanji-jlpt-n5-n1",
       "slug": "how-many-kanji-jlpt",
-      "title": "How Many Kanji for JLPT? Exact Count for N5, N4, N3, N2, N1",
-      "meta_description": "Exact kanji counts: N5 (80), N4 (240), N3 (620), N2 (1,000), N1 (2,136). Plus study time estimates and what else you need beyond kanji to pass.",
+      "title": "How Many Kanji for JLPT? Estimated Counts from N5 to N1",
+      "meta_description": "Estimated JLPT kanji study targets: N5 (~100), N4 (~300), N3 (~650), N2 (~1,000), N1 (~2,000), plus study time and preparation advice.",
       "keywords": "kanji JLPT, how many kanji JLPT N5, kanji list JLPT, kanji N5 N4 N3 N2 N1, JLPT preparation",
       "read_time": "6 min",
       "faq": [
         {
           "question": "How many kanji do I need for JLPT N5?",
-          "answer": "JLPT N5 requires approximately 80 kanji. These are the most basic characters covering numbers, days of the week, simple verbs, and everyday concepts."
+          "answer": "A common N5 study target is roughly 80–100 kanji. The JLPT does not publish an official kanji list, so treat any fixed number as a preparation estimate."
         },
         {
           "question": "How many kanji do I need for JLPT N1?",
-          "answer": "JLPT N1 requires approximately 2,000-2,136 kanji, covering nearly all the jōyō (daily use) kanji. This includes specialized vocabulary used in news, literature, and business."
+          "answer": "A common N1 study target is roughly 2,000 kanji, close to the full set of jōyō kanji. This is a practical estimate, not an official JLPT checklist."
         },
         {
           "question": "Do I need to write kanji for the JLPT?",
@@ -5764,56 +5764,56 @@
         },
         {
           "type": "table",
-      "headers": [
-        "App",
-        "Best For",
-        "Platforms",
-        "Pricing Model"
-      ],
-      "rows": [
-        [
-          "Kanjidon",
-          "Gamified JLPT path and varied quizzes",
-          "iOS and Android",
-          "Free kana and N5 / Premium"
-        ],
-        [
-          "WaniKani",
-          "Fixed radical and mnemonic curriculum",
-          "Web",
-          "$9 monthly / $89 annual / $299 lifetime"
-        ],
-        [
-          "Anki",
-          "Custom decks and maximum control",
-          "Desktop, web, iOS, Android",
-          "Free except official iOS app"
-        ],
-        [
-          "Kanji Study",
-          "Android reference, writing, and custom study",
-          "Android",
-          "Free starter content / in-app upgrades"
-        ],
-        [
-          "Duolingo",
-          "Beginners studying Japanese as a whole",
-          "Web, iOS, Android",
-          "Free / subscriptions"
-        ],
-        [
-          "Remembering the Kanji",
-          "Meaning-first mnemonic study",
-          "Book plus companion tools",
-          "Book / companion pricing varies"
-        ],
-        [
-          "Kanji Tree",
-          "Casual learners",
-          "Android",
-          "Free / in-app purchase"
-        ]
-      ]
+          "headers": [
+            "App",
+            "Best For",
+            "Platforms",
+            "Pricing Model"
+          ],
+          "rows": [
+            [
+              "Kanjidon",
+              "Gamified JLPT path and varied quizzes",
+              "iOS and Android",
+              "Free kana and N5 / Premium"
+            ],
+            [
+              "WaniKani",
+              "Fixed radical and mnemonic curriculum",
+              "Web",
+              "$9 monthly / $89 annual / $299 lifetime"
+            ],
+            [
+              "Anki",
+              "Custom decks and maximum control",
+              "Desktop, web, iOS, Android",
+              "Free except official iOS app"
+            ],
+            [
+              "Kanji Study",
+              "Android reference, writing, and custom study",
+              "Android",
+              "Free starter content / in-app upgrades"
+            ],
+            [
+              "Duolingo",
+              "Beginners studying Japanese as a whole",
+              "Web, iOS, Android",
+              "Free / subscriptions"
+            ],
+            [
+              "Remembering the Kanji",
+              "Meaning-first mnemonic study",
+              "Book plus companion tools",
+              "Book / companion pricing varies"
+            ],
+            [
+              "Kanji Tree",
+              "Casual learners",
+              "Android",
+              "Free / in-app purchase"
+            ]
+          ]
         },
         {
           "type": "heading",
@@ -6160,14 +6160,23 @@
     {
       "id": "jlpt-n5-kanji-list",
       "slug": "jlpt-n5-kanji-list",
-      "title": "All 103 JLPT N5 Kanji (Complete List 2026)",
-      "meta_description": "The complete list of 103 JLPT N5 kanji with meaning, ON and KUN readings, and example words. Everything you need to prepare for the exam.",
-      "keywords": "JLPT N5 kanji list, N5 kanji, all N5 kanji, JLPT N5 kanji complete list, 100 N5 kanji, japanese kanji list",
+      "title": "JLPT N5 Kanji Study List: 109 Common Characters (2026)",
+      "meta_description": "Study 109 kanji commonly associated with JLPT N5, with meanings, ON and KUN readings, and example words. Includes the official JLPT list disclaimer.",
+      "keywords": "JLPT N5 kanji list, N5 kanji, all N5 kanji, JLPT N5 kanji study list, 100 N5 kanji, japanese kanji list",
       "read_time": "18 min",
       "sections": [
         {
           "type": "intro",
-          "content": "JLPT N5 requires knowledge of approximately 103 kanji. They seem small compared to the 2,136 joyo kanji in total, but they are the foundation on which you will build everything else. In this guide you will find the complete list, organized by category, with meaning, readings and example words for each."
+          "content": "The JLPT does not publish an official N5 kanji list. This practical study list contains 109 characters commonly associated with beginner-level Japanese and N5 preparation. Use it as a study guide, not as a guarantee of what will appear on the exam."
+        },
+        {
+          "type": "source_list",
+          "items": [
+            {
+              "label": "Official JLPT FAQ: why fixed kanji and vocabulary lists are not published",
+              "url": "https://www.jlpt.jp/e/faq/"
+            }
+          ]
         },
         {
           "type": "heading",
@@ -6176,7 +6185,7 @@
         },
         {
           "type": "text",
-          "content": "Don't try to memorize everything in one session. The best way to study this list is to take 5-10 kanji a day and review them with spaced repetition (SRS). Study the meaning, main readings, and at least one example word for each kanji. Kanjidon includes all 103 N5 kanji with mnemonics in Italian and an SRS system that lets you automatically review the ones you're forgetting, without wasting time on the ones you already know."
+          "content": "Do not try to memorize everything in one session. Study 5–10 kanji a day, review them with spaced repetition (SRS), and learn at least one word for each character. Kanjidon combines beginner kanji, mnemonics in your language, and adaptive reviews so you spend more time on what you are close to forgetting."
         },
         {
           "type": "heading",
@@ -6202,105 +6211,105 @@
               "A",
               "イチ",
               "ひと(つ)",
-              "一つ (ひとつ) - uno"
+              "一つ (ひとつ)"
             ],
             [
               "二",
               "Two",
               "ニ",
               "ふた(つ)",
-              "二人 (ふたり) - due persone"
+              "二人 (ふたり)"
             ],
             [
               "三",
               "Three",
               "サン",
               "みっ(つ)",
-              "三月 (さんがつ) - marzo"
+              "三月 (さんがつ)"
             ],
             [
               "四",
               "Four",
               "シ",
               "よん/よっ(つ)",
-              "四月 (しがつ) - aprile"
+              "四月 (しがつ)"
             ],
             [
               "五",
               "Five",
               "ゴ",
               "いつ(つ)",
-              "五日 (いつか) - cinque giorni"
+              "五日 (いつか)"
             ],
             [
               "六",
               "Six",
               "ロク",
               "むっ(つ)",
-              "六月 (ろくがつ) - giugno"
+              "六月 (ろくがつ)"
             ],
             [
               "七",
               "Seven",
               "シチ",
               "なな(つ)",
-              "七時 (しちじ) - ore sette"
+              "七時 (しちじ)"
             ],
             [
               "八",
               "Eight",
               "ハチ",
               "やっ(つ)",
-              "八百 (はっぴゃく) - ottocento"
+              "八百 (はっぴゃく)"
             ],
             [
               "九",
               "Nine",
               "ク/キュウ",
               "ここの(つ)",
-              "九月 (くがつ) - settembre"
+              "九月 (くがつ)"
             ],
             [
               "十",
               "Ten",
               "ジュウ",
               "とお",
-              "十分 (じゅっぷん) - dieci minuti"
+              "十分 (じゅっぷん)"
             ],
             [
               "百",
               "Hundred",
               "ヒャク",
               "-",
-              "三百 (さんびゃく) - trecento"
+              "三百 (さんびゃく)"
             ],
             [
               "千",
               "Thousand",
               "セン",
               "ち",
-              "千円 (せんえん) - mille yen"
+              "千円 (せんえん)"
             ],
             [
               "万",
               "Ten thousand",
               "マン",
               "-",
-              "一万 (いちまん) - diecimila"
+              "一万 (いちまん)"
             ],
             [
               "円",
               "Yen/circle",
               "エン",
               "まる",
-              "百円 (ひゃくえん) - cento yen"
+              "百円 (ひゃくえん)"
             ],
             [
               "半",
               "Half",
               "ハン",
               "なか(ば)",
-              "半分 (はんぶん) - meta"
+              "半分 (はんぶん)"
             ]
           ]
         },
@@ -6328,140 +6337,140 @@
               "Day/sun",
               "ニチ/ジツ",
               "ひ/か",
-              "日曜日 (にちようび) - domenica"
+              "日曜日 (にちようび)"
             ],
             [
               "月",
               "Month/moon",
               "ゲツ/ガツ",
               "つき",
-              "月曜日 (げつようび) - lunedi"
+              "月曜日 (げつようび)"
             ],
             [
               "火",
               "Fire",
               "カ",
               "ひ",
-              "火曜日 (かようび) - martedi"
+              "火曜日 (かようび)"
             ],
             [
               "水",
-              "Waterfall",
+              "Water",
               "スイ",
               "みず",
-              "水曜日 (すいようび) - mercoledi"
+              "水曜日 (すいようび)"
             ],
             [
               "木",
               "Tree",
               "モク/ボク",
               "き",
-              "木曜日 (もくようび) - giovedi"
+              "木曜日 (もくようび)"
             ],
             [
               "金",
               "Gold/money",
               "キン/コン",
               "かね",
-              "金曜日 (きんようび) - venerdi"
+              "金曜日 (きんようび)"
             ],
             [
               "土",
               "Earth",
               "ド/ト",
               "つち",
-              "土曜日 (どようび) - sabato"
+              "土曜日 (どようび)"
             ],
             [
               "年",
               "Year",
               "ネン",
               "とし",
-              "今年 (ことし) - quest'anno"
+              "今年 (ことし)"
             ],
             [
               "時",
               "Hour/time",
               "ジ",
               "とき",
-              "時間 (じかん) - tempo"
+              "時間 (じかん)"
             ],
             [
               "間",
               "Interval/between",
               "カン/ケン",
               "あいだ/ま",
-              "時間 (じかん) - tempo"
+              "時間 (じかん)"
             ],
             [
               "分",
               "Minute/part",
               "ブン/フン",
               "わ(かる)",
-              "十分 (じゅっぷん) - 10 minuti"
+              "十分 (じゅっぷん)"
             ],
             [
               "今",
               "Now",
               "コン/キン",
               "いま",
-              "今日 (きょう) - oggi"
+              "今日 (きょう)"
             ],
             [
               "毎",
-              "Everything is fine",
+              "Every",
               "マイ",
               "-",
-              "毎日 (まいにち) - ogni giorno"
+              "毎日 (まいにち)"
             ],
             [
               "朝",
               "Morning",
               "チョウ",
               "あさ",
-              "今朝 (けさ) - stamattina"
+              "今朝 (けさ)"
             ],
             [
               "昼",
               "Noon",
               "チュウ",
               "ひる",
-              "昼ご飯 (ひるごはん) - pranzo"
+              "昼ご飯 (ひるごはん)"
             ],
             [
               "夜",
               "Night",
               "ヤ",
               "よる/よ",
-              "今夜 (こんや) - stanotte"
+              "今夜 (こんや)"
             ],
             [
               "午",
               "Noon",
               "ゴ",
               "-",
-              "午前 (ごぜん) - mattina (AM)"
+              "午前 (ごぜん)"
             ],
             [
               "前",
               "Before/in front",
               "ゼン",
               "まえ",
-              "午前 (ごぜん) - mattina"
+              "午前 (ごぜん)"
             ],
             [
               "後",
               "After/behind",
               "ゴ/コウ",
               "あと/うし(ろ)",
-              "午後 (ごご) - pomeriggio"
+              "午後 (ごご)"
             ],
             [
               "週",
               "Week",
               "シュウ",
               "-",
-              "毎週 (まいしゅう) - ogni settimana"
+              "毎週 (まいしゅう)"
             ]
           ]
         },
@@ -6485,70 +6494,70 @@
               "Person",
               "ジン/ニン",
               "ひと",
-              "日本人 (にほんじん) - giapponese"
+              "日本人 (にほんじん)"
             ],
             [
               "女",
               "Woman",
               "ジョ",
               "おんな",
-              "女の子 (おんなのこ) - ragazza"
+              "女の子 (おんなのこ)"
             ],
             [
               "男",
               "Man",
               "ダン",
               "おとこ",
-              "男の人 (おとこのひと) - uomo"
+              "男の人 (おとこのひと)"
             ],
             [
               "子",
               "Child",
               "シ/ス",
               "こ",
-              "子供 (こども) - bambino"
+              "子供 (こども)"
             ],
             [
               "友",
               "Friend",
               "ユウ",
               "とも",
-              "友達 (ともだち) - amico"
+              "友達 (ともだち)"
             ],
             [
               "父",
               "Father",
               "フ",
               "ちち",
-              "お父さん (おとうさん) - papa"
+              "お父さん (おとうさん)"
             ],
             [
               "母",
               "Mother",
               "ボ",
               "はは",
-              "お母さん (おかあさん) - mamma"
+              "お母さん (おかあさん)"
             ],
             [
               "先",
               "Before/previous",
               "セン",
               "さき",
-              "先生 (せんせい) - insegnante"
+              "先生 (せんせい)"
             ],
             [
               "生",
               "Life/birth",
               "セイ/ショウ",
               "い(きる)/う(まれる)",
-              "学生 (がくせい) - studente"
+              "学生 (がくせい)"
             ],
             [
               "学",
               "Study",
               "ガク",
               "まな(ぶ)",
-              "大学 (だいがく) - universita"
+              "大学 (だいがく)"
             ]
           ]
         },
@@ -6572,49 +6581,49 @@
               "Mountain",
               "サン",
               "やま",
-              "富士山 (ふじさん) - Monte Fuji"
+              "富士山 (ふじさん)"
             ],
             [
               "川",
               "River",
               "セン",
               "かわ",
-              "川 (かわ) - fiume"
+              "川 (かわ)"
             ],
             [
               "天",
               "Sky",
               "テン",
               "あめ/あま",
-              "天気 (てんき) - tempo atmosferico"
+              "天気 (てんき)"
             ],
             [
               "気",
               "Spirit/air",
               "キ/ケ",
               "-",
-              "元気 (げんき) - stare bene"
+              "元気 (げんき)"
             ],
             [
               "雨",
               "Rain",
               "ウ",
               "あめ",
-              "大雨 (おおあめ) - pioggia forte"
+              "大雨 (おおあめ)"
             ],
             [
               "花",
               "Flower",
               "カ",
               "はな",
-              "花見 (はなみ) - ammirare i fiori"
+              "花見 (はなみ)"
             ],
             [
               "空",
               "Sky/empty",
               "クウ",
               "そら/あ(く)",
-              "空港 (くうこう) - aeroporto"
+              "空港 (くうこう)"
             ]
           ]
         },
@@ -6638,77 +6647,77 @@
               "Above",
               "ジョウ",
               "うえ/あ(がる)",
-              "上手 (じょうず) - bravo"
+              "上手 (じょうず)"
             ],
             [
               "下",
               "Under",
               "カ/ゲ",
               "した/さ(がる)",
-              "地下鉄 (ちかてつ) - metropolitana"
+              "地下鉄 (ちかてつ)"
             ],
             [
               "中",
               "Center/inside",
               "チュウ",
               "なか",
-              "中国 (ちゅうごく) - Cina"
+              "中国 (ちゅうごく)"
             ],
             [
               "右",
               "Right",
               "ウ/ユウ",
               "みぎ",
-              "右 (みぎ) - destra"
+              "右 (みぎ)"
             ],
             [
               "左",
               "Left",
               "サ",
               "ひだり",
-              "左 (ひだり) - sinistra"
+              "左 (ひだり)"
             ],
             [
               "北",
               "North",
               "ホク",
               "きた",
-              "北海道 (ほっかいどう) - Hokkaido"
+              "北海道 (ほっかいどう)"
             ],
             [
               "南",
               "South",
               "ナン",
               "みなみ",
-              "南 (みなみ) - sud"
+              "南 (みなみ)"
             ],
             [
               "東",
               "East",
               "トウ",
               "ひがし",
-              "東京 (とうきょう) - Tokyo"
+              "東京 (とうきょう)"
             ],
             [
               "西",
               "West",
               "セイ/サイ",
               "にし",
-              "西口 (にしぐち) - uscita ovest"
+              "西口 (にしぐち)"
             ],
             [
               "外",
               "Out",
               "ガイ/ゲ",
               "そと/ほか",
-              "外国 (がいこく) - estero"
+              "外国 (がいこく)"
             ],
             [
               "国",
-              "Village",
+              "Country",
               "コク",
               "くに",
-              "外国人 (がいこくじん) - straniero"
+              "外国人 (がいこくじん)"
             ]
           ]
         },
@@ -6736,112 +6745,112 @@
               "Eat",
               "ショク",
               "た(べる)",
-              "食べる (たべる) - mangiare"
+              "食べる (たべる)"
             ],
             [
               "飲",
               "Drink",
               "イン",
               "の(む)",
-              "飲む (のむ) - bere"
+              "飲む (のむ)"
             ],
             [
               "見",
               "See",
               "ケン",
               "み(る)",
-              "見る (みる) - guardare"
+              "見る (みる)"
             ],
             [
               "聞",
-              "Feel/ask",
+              "Hear/ask",
               "ブン/モン",
               "き(く)",
-              "聞く (きく) - ascoltare"
+              "聞く (きく)"
             ],
             [
               "読",
-              "Light",
+              "Read",
               "ドク",
               "よ(む)",
-              "読む (よむ) - leggere"
+              "読む (よむ)"
             ],
             [
               "書",
               "Write",
               "ショ",
               "か(く)",
-              "書く (かく) - scrivere"
+              "書く (かく)"
             ],
             [
               "話",
               "Talking/story",
               "ワ",
               "はな(す)/はなし",
-              "電話 (でんわ) - telefono"
+              "電話 (でんわ)"
             ],
             [
               "言",
               "Say",
               "ゲン/ゴン",
               "い(う)/こと",
-              "言葉 (ことば) - parola"
+              "言葉 (ことば)"
             ],
             [
               "行",
               "Go",
               "コウ/ギョウ",
               "い(く)/おこな(う)",
-              "銀行 (ぎんこう) - banca"
+              "銀行 (ぎんこう)"
             ],
             [
               "来",
               "Come",
               "ライ",
               "く(る)/き(たる)",
-              "来年 (らいねん) - anno prossimo"
+              "来年 (らいねん)"
             ],
             [
               "出",
               "Go out",
               "シュツ",
               "で(る)/だ(す)",
-              "出口 (でぐち) - uscita"
+              "出口 (でぐち)"
             ],
             [
               "入",
               "Enter",
               "ニュウ",
               "はい(る)/い(れる)",
-              "入口 (いりぐち) - ingresso"
+              "入口 (いりぐち)"
             ],
             [
               "立",
               "Stand",
               "リツ",
               "た(つ)",
-              "立つ (たつ) - alzarsi"
+              "立つ (たつ)"
             ],
             [
               "休",
               "Rest",
               "キュウ",
               "やす(む)",
-              "休み (やすみ) - riposo/vacanza"
+              "休み (やすみ)"
             ],
             [
               "会",
               "Encounter",
               "カイ",
               "あ(う)",
-              "会社 (かいしゃ) - azienda"
+              "会社 (かいしゃ)"
             ],
             [
               "買",
               "Buy",
               "バイ",
               "か(う)",
-              "買い物 (かいもの) - shopping"
+              "買い物 (かいもの)"
             ]
           ]
         },
@@ -6865,70 +6874,70 @@
               "Great",
               "ダイ/タイ",
               "おお(きい)",
-              "大きい (おおきい) - grande"
+              "大きい (おおきい)"
             ],
             [
               "小",
               "Small",
               "ショウ",
               "ちい(さい)/こ",
-              "小さい (ちいさい) - piccolo"
+              "小さい (ちいさい)"
             ],
             [
               "高",
               "High/expensive",
               "コウ",
               "たか(い)",
-              "高い (たかい) - alto/costoso"
+              "高い (たかい)"
             ],
             [
               "安",
               "Cheap/safe",
               "アン",
               "やす(い)",
-              "安い (やすい) - economico"
+              "安い (やすい)"
             ],
             [
               "新",
               "New",
               "シン",
               "あたら(しい)",
-              "新聞 (しんぶん) - giornale"
+              "新聞 (しんぶん)"
             ],
             [
               "古",
               "Old",
               "コ",
               "ふる(い)",
-              "古い (ふるい) - vecchio"
+              "古い (ふるい)"
             ],
             [
               "長",
               "Long",
               "チョウ",
               "なが(い)",
-              "長い (ながい) - lungo"
+              "長い (ながい)"
             ],
             [
               "多",
               "Much/many",
               "タ",
               "おお(い)",
-              "多い (おおい) - tanti"
+              "多い (おおい)"
             ],
             [
               "少",
               "Not much",
               "ショウ",
               "すく(ない)/すこ(し)",
-              "少し (すこし) - un poco"
+              "少し (すこし)"
             ],
             [
               "白",
               "White",
               "ハク/ビャク",
               "しろ(い)",
-              "白い (しろい) - bianco"
+              "白い (しろい)"
             ]
           ]
         },
@@ -6956,140 +6965,140 @@
               "Language/word",
               "ゴ",
               "かた(る)",
-              "日本語 (にほんご) - giapponese"
+              "日本語 (にほんご)"
             ],
             [
               "英",
               "English/splendid",
               "エイ",
               "-",
-              "英語 (えいご) - inglese"
+              "英語 (えいご)"
             ],
             [
               "車",
               "Car/vehicle",
               "シャ",
               "くるま",
-              "電車 (でんしゃ) - treno"
+              "電車 (でんしゃ)"
             ],
             [
               "電",
               "Electricity",
               "デン",
               "-",
-              "電話 (でんわ) - telefono"
+              "電話 (でんわ)"
             ],
             [
               "店",
               "Shop",
               "テン",
               "みせ",
-              "店 (みせ) - negozio"
+              "店 (みせ)"
             ],
             [
               "社",
               "Society",
               "シャ",
               "やしろ",
-              "会社 (かいしゃ) - azienda"
+              "会社 (かいしゃ)"
             ],
             [
               "校",
               "School",
               "コウ",
               "-",
-              "学校 (がっこう) - scuola"
+              "学校 (がっこう)"
             ],
             [
               "名",
               "Name",
               "メイ/ミョウ",
               "な",
-              "名前 (なまえ) - nome"
+              "名前 (なまえ)"
             ],
             [
               "何",
               "What/which",
               "カ",
               "なに/なん",
-              "何 (なに) - cosa?"
+              "何 (なに)"
             ],
             [
               "本",
               "Book/origin",
               "ホン",
               "もと",
-              "日本 (にほん) - Giappone"
+              "日本 (にほん)"
             ],
             [
               "手",
               "Hand",
               "シュ",
               "て",
-              "上手 (じょうず) - bravo"
+              "上手 (じょうず)"
             ],
             [
               "足",
               "Foot/leg",
               "ソク",
               "あし/た(りる)",
-              "足 (あし) - piede"
+              "足 (あし)"
             ],
             [
               "目",
               "Eye",
               "モク",
               "め",
-              "目 (め) - occhio"
+              "目 (め)"
             ],
             [
               "口",
               "Mouth",
               "コウ/ク",
               "くち",
-              "入口 (いりぐち) - ingresso"
+              "入口 (いりぐち)"
             ],
             [
               "耳",
               "Ear",
               "ジ",
               "みみ",
-              "耳 (みみ) - orecchio"
+              "耳 (みみ)"
             ],
             [
               "力",
               "Force",
               "リョク/リキ",
               "ちから",
-              "力 (ちから) - forza"
+              "力 (ちから)"
             ],
             [
               "道",
               "Road/street",
               "ドウ",
               "みち",
-              "道 (みち) - strada"
+              "道 (みち)"
             ],
             [
               "駅",
               "Station",
               "エキ",
               "-",
-              "駅 (えき) - stazione"
+              "駅 (えき)"
             ],
             [
               "魚",
               "Fish",
               "ギョ",
               "さかな",
-              "魚 (さかな) - pesce"
+              "魚 (さかな)"
             ],
             [
               "肉",
               "Meat",
               "ニク",
               "-",
-              "肉 (にく) - carne"
+              "肉 (にく)"
             ]
           ]
         },
@@ -7124,11 +7133,11 @@
         },
         {
           "type": "text",
-          "content": "With 15-30 minutes a day of consistent study and a good SRS system, you can master all 103 N5 kanji in 6-8 weeks. Not weeks of suffering: weeks where every day you add 5-7 new kanji and review the old ones. After 2 months, you'll be ready to tackle the N4 and its 181 additional kanji."
+          "content": "With 15–30 minutes of consistent study a day, you can work through this 109-character set in roughly 6–10 weeks. That is a planning estimate, not a deadline: retention matters more than speed, and the JLPT tests vocabulary and reading in context rather than a fixed checklist."
         },
         {
           "type": "text",
-          "content": "The first step is always the most important. Choose the first 5 kanji from the list of numbers, study them today, and tomorrow add 5 more. In two months you will look back and not believe how far you have come. If you want a structured path with mnemonics in Italian, adaptive quizzes and an algorithm that works for you, Kanjidon is free and covers all levels from N5 to N1."
+          "content": "Start with five number kanji today, review them tomorrow, and then add five more. If you want a structured path with localized mnemonics, adaptive quizzes, and SRS, Kanjidon is free to start and covers beginner through advanced Japanese."
         }
       ]
     },

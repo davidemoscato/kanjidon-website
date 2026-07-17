@@ -5891,14 +5891,23 @@
     {
       "id": "lista-kanji-jlpt-n5",
       "slug": "lista-kanji-jlpt-n5",
-      "title": "Tutti i 103 Kanji JLPT N5 (Lista Completa 2026)",
-      "meta_description": "La lista completa dei 103 kanji JLPT N5 con significato, letture ON e KUN, e parole esempio. Tutto quello che ti serve per preparare l'esame.",
-      "keywords": "lista kanji JLPT N5, kanji N5, tutti i kanji N5, JLPT N5 kanji lista completa, 100 kanji N5, lista kanji giapponese",
+      "title": "Kanji JLPT N5: lista di studio con 109 caratteri comuni (2026)",
+      "meta_description": "Studia 109 kanji comunemente associati al JLPT N5, con significato, letture ON e KUN e parole di esempio. Con nota ufficiale sulle liste JLPT.",
+      "keywords": "lista kanji JLPT N5, kanji N5, tutti i kanji N5, JLPT N5 kanji study list, 100 kanji N5, lista kanji giapponese",
       "read_time": "18 min",
       "sections": [
         {
           "type": "intro",
-          "content": "Il JLPT N5 richiede la conoscenza di circa 103 kanji. Sembrano pochi rispetto ai 2.136 joyo kanji totali, ma sono le fondamenta su cui costruirai tutto il resto. In questa guida trovi la lista completa, organizzata per categoria, con significato, letture e parole esempio per ognuno."
+          "content": "Il JLPT non pubblica una lista ufficiale di kanji N5. Questa raccolta pratica comprende 109 caratteri comunemente associati al giapponese di livello base e alla preparazione N5: usala come guida di studio, non come garanzia di ciò che uscirà all’esame."
+        },
+        {
+          "type": "source_list",
+          "items": [
+            {
+              "label": "FAQ ufficiale JLPT: perché non vengono pubblicate liste fisse di kanji e vocaboli",
+              "url": "https://www.jlpt.jp/e/faq/"
+            }
+          ]
         },
         {
           "type": "heading",
@@ -5907,7 +5916,7 @@
         },
         {
           "type": "text",
-          "content": "Non cercare di memorizzare tutto in una sessione. Il modo migliore per studiare questa lista e prendere 5-10 kanji al giorno e rivederli con la ripetizione spaziata (SRS). Studia il significato, le letture principali e almeno una parola esempio per ogni kanji. Kanjidon include tutti i 103 kanji N5 con mnemonici in italiano e un sistema SRS che ti fa rivedere automaticamente quelli che stai dimenticando, senza perdere tempo su quelli che gia sai."
+          "content": "Non cercare di memorizzare tutto in una sessione. Studia 5–10 kanji al giorno, ripassali con la ripetizione spaziata (SRS) e impara almeno una parola per ogni carattere. Kanjidon combina kanji per principianti, mnemonici nella tua lingua e ripassi adattivi, così dedichi più tempo a ciò che stai per dimenticare."
         },
         {
           "type": "heading",
@@ -6855,11 +6864,11 @@
         },
         {
           "type": "text",
-          "content": "Con 15-30 minuti al giorno di studio costante e un buon sistema SRS, puoi padroneggiare tutti i 103 kanji N5 in 6-8 settimane. Non settimane di sofferenza: settimane in cui ogni giorno aggiungi 5-7 kanji nuovi e rivedi quelli vecchi. Dopo 2 mesi, sarai pronto per affrontare l'N4 e i suoi 181 kanji aggiuntivi."
+          "content": "Con 15–30 minuti di studio costante al giorno puoi lavorare su questi 109 caratteri in circa 6–10 settimane. È una stima per organizzarti, non una scadenza: ricordare bene conta più della velocità e il JLPT verifica vocaboli e lettura nel contesto, non una lista fissa."
         },
         {
           "type": "text",
-          "content": "Il primo passo e sempre il piu importante. Scegli i primi 5 kanji dalla lista dei numeri, studiali oggi, e domani aggiungine altri 5. Tra due mesi guarderai indietro e non crederai a quanta strada hai fatto. Se vuoi un percorso strutturato con mnemonici in italiano, quiz adattivi e un algoritmo che lavora per te, Kanjidon e gratuito e copre tutti i livelli dal N5 al N1."
+          "content": "Inizia oggi con cinque kanji dei numeri, ripassali domani e poi aggiungine altri cinque. Se vuoi un percorso strutturato con mnemonici localizzati, quiz adattivi e SRS, Kanjidon è gratuito per iniziare e copre il giapponese dal livello base a quello avanzato."
         }
       ]
     },
