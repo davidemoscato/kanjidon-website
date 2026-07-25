@@ -25,13 +25,13 @@
         @font-face{font-family:'Nunito';font-style:normal;font-weight:800;font-display:optional;src:url('assets/fonts/nunito-800.woff2') format('woff2')}
         @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
     </style>
-    <link rel="stylesheet" href="styles.css?v=20260717-proof">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="container header-content">
             <a href="/" class="logo">
-                <img src="assets/images/icona.png" alt="Kanjidon" class="logo-icon" width="1024" height="1024">
+                <img src="assets/images/icona.png" alt="Kanjidon" class="logo-icon">
                 <span class="logo-text">Kanjidon</span>
             </a>
             <nav class="nav-links" aria-label="Legal navigation">
@@ -46,12 +46,13 @@
         <div class="container">
             <article class="legal-content">
                 <h1>Privacy Policy</h1>
-                <p class="legal-meta">Last updated: July 16, 2026 | Version 3.1</p>
+                <p class="legal-meta">Last updated: July 25, 2026 | Version 3.2</p>
 
                 <section>
                     <h2>Plain-language summary</h2>
                     <p>Kanjidon stores the information needed to provide your account, learning progress, purchases, community features, support, and app security. Some activity is shown in the Live community feed to other signed-in Kanjidon users. We do not publish your email address, payment details, IP address, private note text, or coin balance in Live.</p>
-                    <p>We do not sell personal data. You can delete your account in the app, manage the available privacy and notification settings, block users, and contact us to exercise your data-protection rights or object to Live processing.</p>
+                    <p>We do not sell personal data. On the public marketing pages, the Reddit advertising pixel is disabled by default and loads only after you consent. You can reject it or change your choice at any time through the “Privacy choices” control in the website footer.</p>
+                    <p>You can delete your account in the app, manage the available privacy and notification settings, block users, and contact us to exercise your data-protection rights or object to Live processing.</p>
                 </section>
 
                 <section>
@@ -104,6 +105,10 @@
                     </ul>
                     <p>Analytics data is <strong>pseudonymous, not necessarily anonymous</strong>. Kanjidon enables Firebase Analytics in release builds. We use it to understand feature use, stability, and purchase flows.</p>
 
+                    <h3>3.5.1 Website advertising measurement</h3>
+                    <p>If you consent on an indexable public marketing page, the website loads the Reddit Pixel and sends a <code>PageVisit</code> event to Reddit. Depending on Reddit's technology and your browser settings, this may include the visited URL, referrer, IP-derived information, browser or device information, advertising identifiers, and Reddit cookies or similar technologies. We do not send your Kanjidon account email, profile, learning data, purchase data, or form contents through this pixel.</p>
+                    <p>The pixel is not loaded before consent, after rejection, or when the browser exposes an enabled Global Privacy Control signal. The website stores your consent choice and its timestamp in local browser storage so it can respect that choice on later visits.</p>
+
                     <h3>3.6 Microphone and speech recognition</h3>
                     <p>When you start a Shadowing exercise, Kanjidon uses the microphone and the speech-recognition service provided by your device platform to convert a short voice sample into text. Depending on the device, downloaded language models, and platform settings, recognition may happen on the device or the voice sample may be sent to the platform provider for recognition.</p>
                     <p>Microphone use is optional and starts only after you tap the recording control and grant permission. Kanjidon does not upload or store the recording or recognized text in its own backend; the transient result is used in memory to score the current exercise. The platform provider may process the voice sample under its own terms and device privacy settings.</p>
@@ -145,7 +150,7 @@
                     <ul>
                         <li><strong>Contract (Article 6(1)(b) GDPR):</strong> account access, cloud synchronization, learning features, purchases, optional community functions you use, battles, and support requested by you.</li>
                         <li><strong>Legitimate interests (Article 6(1)(f) GDPR):</strong> service security, abuse and fraud prevention, fair competition, product improvement, diagnostics, pseudonymous analytics, community operation, Live, aggregated statistics, and essential service communications.</li>
-                        <li><strong>Consent (Article 6(1)(a) GDPR):</strong> marketing communications and other optional processing where we specifically request consent. Device permission and your notification choices also control push delivery.</li>
+                        <li><strong>Consent (Article 6(1)(a) GDPR):</strong> marketing communications, Reddit advertising measurement and audience creation on the website, and other optional processing where we specifically request consent. Device permission and your notification choices also control push delivery.</li>
                         <li><strong>Legal obligations (Article 6(1)(c) GDPR):</strong> accounting, tax, lawful authority requests, and obligations that apply to platform safety or illegal content.</li>
                         <li><strong>Legal claims (Article 6(1)(f) GDPR):</strong> establishing, exercising, or defending legal rights.</li>
                     </ul>
@@ -162,6 +167,7 @@
                         <li><strong>Google Play:</strong> distribution, purchases, subscriptions, and receipt validation.</li>
                         <li><strong>Brevo:</strong> transactional, operational, support, report, and consented marketing email delivery.</li>
                         <li><strong>country.is:</strong> transient country lookup from the connection IP address.</li>
+                        <li><strong>Reddit:</strong> advertising measurement and audience creation on public marketing pages, only after website consent. Reddit may process pixel data under its <a href="https://www.reddit.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, <a href="https://www.reddit.com/policies/cookies" target="_blank" rel="noopener noreferrer">Cookie Notice</a>, and business-tool terms.</li>
                         <li><strong>Authorities and professional advisers:</strong> only where legally required or necessary to protect legal rights.</li>
                     </ul>
                     <p>We do not sell personal data or provide it to data brokers. Providers process data under their own terms and, where applicable, data-processing agreements.</p>
@@ -183,6 +189,7 @@
                         <li><strong>FCM tokens:</strong> until replaced, invalidated, no longer needed, or the account is deleted.</li>
                         <li><strong>Shadowing voice samples and transcripts:</strong> not retained in Kanjidon's backend; they are used for the current recognition request and exercise. Platform-provider handling is governed by the provider and device settings.</li>
                         <li><strong>Analytics and technical logs:</strong> according to the configured provider retention and for no longer than reasonably necessary for measurement, reliability, and security.</li>
+                        <li><strong>Website advertising measurement:</strong> your website consent choice remains in local browser storage until you change it, clear browser storage, or we replace it after a material consent change. Reddit retains pixel data according to its configured advertising settings and applicable policies.</li>
                         <li><strong>Marketing:</strong> until consent is withdrawn, plus minimal suppression information needed to respect the opt-out.</li>
                     </ul>
                     <p>Deletion from active systems may not immediately remove data from encrypted backups. Backup copies are isolated and expire according to the provider's backup lifecycle.</p>
@@ -195,6 +202,7 @@
                         <li>Use the in-app profile and settings controls for available profile, online-status, battle-request, notification, block, and account-deletion choices.</li>
                         <li>Email <a href="mailto:info@kanjidon.com?subject=%5BPRIVACY%5D">info@kanjidon.com</a> from your registered address for other requests, including a Live objection.</li>
                         <li>Use the unsubscribe link in a marketing email to stop marketing messages.</li>
+                        <li>Use “Privacy choices” in the website footer to reject or withdraw consent for the Reddit Pixel. Withdrawing consent stops future pixel loading; the page reloads if needed to end the active pixel session.</li>
                     </ul>
                     <p>We may need to verify your identity. We normally respond within one month, subject to the extensions and exceptions allowed by law. Rights are not absolute; if we cannot fulfil a request, we will explain why where the law requires it.</p>
                 </section>
@@ -212,8 +220,9 @@
                 </section>
 
                 <section>
-                    <h2>12. Website storage and external links</h2>
-                    <p>The public website may use local browser storage for essential choices such as dismissing the privacy notice. It does not intentionally use profiling cookies on the static marketing pages. Links to third-party services are governed by those services' privacy notices.</p>
+                    <h2>12. Website storage, advertising technologies, and external links</h2>
+                    <p>The public website uses local browser storage to remember essential interface and privacy choices. On indexable marketing pages, it may use Reddit advertising cookies or similar technologies only after you accept the advertising choice. Rejecting is as easy as accepting, and the site remains fully usable without the pixel.</p>
+                    <p>Links to third-party services are governed by those services' privacy notices. The first-party <code>/go/</code> store hand-off paths measure aggregate click-outs in web-server logs and do not require the Reddit Pixel.</p>
                 </section>
 
                 <section>
@@ -243,7 +252,7 @@
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-brand">
-                <img src="assets/images/icona.png" alt="Kanjidon" class="footer-logo" width="1024" height="1024">
+                <img src="assets/images/icona.png" alt="Kanjidon" class="footer-logo">
                 <p>Collect Cards. Remember Kanji.</p>
             </div>
             <div class="footer-links">

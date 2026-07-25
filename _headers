@@ -28,6 +28,8 @@
   Cache-Control: public, max-age=0, must-revalidate
 /conversion.js
   Cache-Control: public, max-age=0, must-revalidate
+/privacy-consent.js
+  Cache-Control: public, max-age=0, must-revalidate
 
 # Conversion hand-off pages must never be cached or indexed
 /go/*
