@@ -59,7 +59,7 @@
   var bar = document.createElement("div");
   bar.className = "lang-suggest";
   bar.setAttribute("role", "region");
-  if (t.rtl) bar.setAttribute("dir", "rtl");
+  bar.setAttribute("dir", t.rtl ? "rtl" : "ltr");
 
   var p = document.createElement("p");
   p.appendChild(document.createTextNode(t.msg + " "));
@@ -85,6 +85,11 @@
   });
   a.addEventListener("click", done);
 
-  document.body.appendChild(bar);
+  var header = document.querySelector(".header");
+  if (header && header.parentNode) {
+    header.insertAdjacentElement("afterend", bar);
+  } else {
+    document.body.appendChild(bar);
+  }
   requestAnimationFrame(function () { bar.classList.add("visible"); });
 })();
