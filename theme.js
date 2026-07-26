@@ -334,6 +334,10 @@
         return '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"></rect><path d="M8 21h8M12 17v4"></path></svg>';
     }
 
+    function chevronIcon() {
+        return '<svg class="theme-chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>';
+    }
+
     function updateControls() {
         var picker = document.querySelector("[data-theme-picker]");
         if (!picker) {
@@ -346,7 +350,8 @@
         toggle.innerHTML = icon(preference)
             + '<span class="theme-toggle-label">'
             + escapeHtml(selectedLabel)
-            + '</span>';
+            + '</span>'
+            + chevronIcon();
         toggle.setAttribute("aria-label", labels.theme + ": " + selectedLabel);
         toggle.title = labels.theme + ": " + selectedLabel;
 
@@ -404,10 +409,16 @@
         if (footerBottom) {
             var languageSelector = footerBottom.querySelector(".language-selector");
             var footerCopy = footerBottom.querySelector(".footer-copy");
+            var preferences = document.createElement("div");
+            preferences.className = "footer-preferences";
             footerBottom.insertBefore(
-                picker,
+                preferences,
                 languageSelector || footerCopy || null
             );
+            preferences.appendChild(picker);
+            if (languageSelector) {
+                preferences.appendChild(languageSelector);
+            }
         } else {
             var primaryAction = nav.querySelector(".btn");
             nav.insertBefore(picker, primaryAction || nav.firstChild);
