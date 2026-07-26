@@ -1,0 +1,177 @@
+/* ============================================================================
+   KANJIDON WEBSITE - Adaptive Theme
+   Generated into website/adaptive-theme.css by generate-website-theme.js.
+   ============================================================================ */
+
+:root {
+    --interactive-hover: rgba(255, 255, 255, 0.06);
+    --neutral-soft: rgba(255, 255, 255, 0.06);
+    --ambient-dot: rgba(255, 255, 255, 0.04);
+    --primary-soft: rgba(198, 83, 38, 0.2);
+}
+
+/* Fallback when JavaScript is unavailable. */
+@media (prefers-color-scheme: light) {
+    :root:not([data-theme]) {
+        color-scheme: light;
+        --background: #FAF9F6;
+        --surface: #F2F1EE;
+        --surface-raised: #FFFFFF;
+        --surface-strong: #111113;
+        --secondary: #1C1C1E;
+        --primary: #C65326;
+        --primary-text: #9F4520;
+        --on-primary: #FFFFFF;
+        --line: rgba(28, 28, 30, 0.14);
+        --line-subtle: rgba(28, 28, 30, 0.08);
+        --interactive-hover: rgba(28, 28, 30, 0.06);
+        --neutral-soft: rgba(28, 28, 30, 0.06);
+        --ambient-dot: rgba(28, 28, 30, 0.04);
+        --primary-soft: rgba(198, 83, 38, 0.12);
+        --muted: #6B6864;
+        --subtle: #5C5C5C;
+        --success: #167647;
+        --error: #B4233A;
+        --premium: #75419E;
+        --league-n5: #48743B;
+        --league-n4: #246B94;
+        --league-n3: #8A5E20;
+        --league-n2: #75419E;
+        --league-n1: #A83E37;
+    }
+}
+
+/* Explicit user choice, set synchronously before the first paint. */
+:root[data-theme="light"] {
+    color-scheme: light;
+    --background: #FAF9F6;
+    --surface: #F2F1EE;
+    --surface-raised: #FFFFFF;
+    --surface-strong: #111113;
+    --secondary: #1C1C1E;
+    --primary: #C65326;
+    --primary-text: #9F4520;
+    --on-primary: #FFFFFF;
+    --line: rgba(28, 28, 30, 0.14);
+    --line-subtle: rgba(28, 28, 30, 0.08);
+    --interactive-hover: rgba(28, 28, 30, 0.06);
+    --neutral-soft: rgba(28, 28, 30, 0.06);
+    --ambient-dot: rgba(28, 28, 30, 0.04);
+    --primary-soft: rgba(198, 83, 38, 0.12);
+    --muted: #6B6864;
+    --subtle: #5C5C5C;
+    --success: #167647;
+    --error: #B4233A;
+    --premium: #75419E;
+    --league-n5: #48743B;
+    --league-n4: #246B94;
+    --league-n3: #8A5E20;
+    --league-n2: #75419E;
+    --league-n1: #A83E37;
+}
+
+/* Theme picker */
+.theme-picker {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.theme-toggle {
+    width: var(--button-height-s);
+    height: var(--button-height-s);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: var(--secondary);
+    background: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-s);
+    cursor: pointer;
+    transition:
+        background-color var(--duration-fast),
+        border-color var(--duration-fast);
+}
+
+.theme-toggle:hover,
+.theme-toggle[aria-expanded="true"] {
+    background: var(--interactive-hover);
+    border-color: var(--primary-text);
+}
+
+.theme-toggle svg,
+.theme-option svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    flex: 0 0 auto;
+}
+
+.theme-menu {
+    position: absolute;
+    top: calc(100% + var(--spacing-s));
+    inset-inline-end: 0;
+    z-index: 110;
+    min-width: 150px;
+    padding: var(--spacing-xs);
+    background: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-s);
+}
+
+.theme-menu[hidden] {
+    display: none;
+}
+
+.theme-option {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-s);
+    padding: var(--spacing-s) var(--spacing-m);
+    color: var(--secondary);
+    background: transparent;
+    border: 0;
+    border-radius: calc(var(--radius-s) - 2px);
+    font: inherit;
+    font-size: var(--font-s);
+    text-align: start;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.theme-option:hover {
+    background: var(--interactive-hover);
+}
+
+.theme-option.active {
+    color: var(--primary-text);
+    background: var(--primary-soft);
+    font-weight: var(--font-weight-bold);
+}
+
+.language-option:hover {
+    background-color: var(--interactive-hover);
+}
+
+.language-option.active {
+    background-color: var(--primary-soft);
+}
+
+.hero-showcase::before {
+    background-image: radial-gradient(var(--ambient-dot) 1px, transparent 1px);
+}
+
+.card-category-badge {
+    background: var(--neutral-soft);
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        gap: var(--spacing-s);
+    }
+}

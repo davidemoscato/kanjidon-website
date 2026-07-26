@@ -7,9 +7,7 @@
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#C65326">
-
-    <!-- Font Preload -->
+<!-- Font Preload -->
     <link rel="preload" href="/assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
@@ -26,9 +24,14 @@
     <meta name="description" content="The page you're looking for doesn't exist. Return to Kanjidon homepage or browse our blog.">
     <meta name="robots" content="noindex, nofollow">
 
+    <!-- Kanjidon adaptive theme -->
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#1C1C1E" data-kanjidon-theme>
+    <script src="/theme.js?v=20260726-adaptive"></script>
+    <!-- /Kanjidon adaptive theme -->
     <link rel="stylesheet" href="/styles.css?v=20260717-proof">
-
-    <style>
+    <link rel="stylesheet" href="/adaptive-theme.css?v=20260726-adaptive">
+<style>
         .error-page {
             min-height: 100vh;
             display: flex;
