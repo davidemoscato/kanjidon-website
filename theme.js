@@ -343,7 +343,10 @@
         var labels = currentLabels();
         var toggle = picker.querySelector("[data-theme-toggle]");
         var selectedLabel = labels[preference];
-        toggle.innerHTML = icon(preference);
+        toggle.innerHTML = icon(preference)
+            + '<span class="theme-toggle-label">'
+            + escapeHtml(selectedLabel)
+            + '</span>';
         toggle.setAttribute("aria-label", labels.theme + ": " + selectedLabel);
         toggle.title = labels.theme + ": " + selectedLabel;
 
@@ -374,14 +377,18 @@
     }
 
     function installPicker() {
+        var footerBottom = document.querySelector(".footer-bottom");
         var nav = document.querySelector(".nav-links");
-        if (!nav || nav.querySelector("[data-theme-picker]")) {
+        var target = footerBottom || nav;
+        if (!target || document.querySelector("[data-theme-picker]")) {
             return;
         }
 
         var labels = currentLabels();
         var picker = document.createElement("div");
-        picker.className = "theme-picker";
+        picker.className = footerBottom
+            ? "theme-picker theme-picker--footer"
+            : "theme-picker";
         picker.dataset.themePicker = "";
         picker.innerHTML =
             '<button type="button" class="theme-toggle" data-theme-toggle aria-haspopup="menu" aria-expanded="false"></button>'
@@ -394,8 +401,17 @@
             + icon("dark") + '<span>' + escapeHtml(labels.dark) + '</span></button>'
             + '</div>';
 
-        var primaryAction = nav.querySelector(".btn");
-        nav.insertBefore(picker, primaryAction || nav.firstChild);
+        if (footerBottom) {
+            var languageSelector = footerBottom.querySelector(".language-selector");
+            var footerCopy = footerBottom.querySelector(".footer-copy");
+            footerBottom.insertBefore(
+                picker,
+                languageSelector || footerCopy || null
+            );
+        } else {
+            var primaryAction = nav.querySelector(".btn");
+            nav.insertBefore(picker, primaryAction || nav.firstChild);
+        }
 
         var toggle = picker.querySelector("[data-theme-toggle]");
         var menu = picker.querySelector("[data-theme-menu]");

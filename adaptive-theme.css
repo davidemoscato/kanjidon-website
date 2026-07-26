@@ -39,6 +39,10 @@
         --league-n2: #75419E;
         --league-n1: #A83E37;
     }
+
+    :root:not([data-theme]) .hero h1 .text-primary {
+        color: var(--primary);
+    }
 }
 
 /* Explicit user choice, set synchronously before the first paint. */
@@ -70,6 +74,10 @@
     --league-n1: #A83E37;
 }
 
+:root[data-theme="light"] .hero h1 .text-primary {
+    color: var(--primary);
+}
+
 /* Theme picker */
 .theme-picker {
     position: relative;
@@ -91,6 +99,25 @@
     transition:
         background-color var(--duration-fast),
         border-color var(--duration-fast);
+}
+
+.theme-toggle-label {
+    display: none;
+}
+
+.theme-picker--footer .theme-toggle {
+    width: auto;
+    padding-inline: var(--spacing-m);
+    gap: var(--spacing-s);
+}
+
+.theme-picker--footer .theme-toggle-label {
+    display: inline;
+}
+
+.theme-picker--footer .theme-menu {
+    top: auto;
+    bottom: calc(100% + var(--spacing-s));
 }
 
 .theme-toggle:hover,
@@ -173,5 +200,14 @@
 @media (max-width: 600px) {
     .nav-links {
         gap: var(--spacing-s);
+    }
+
+    .theme-picker--footer .theme-menu {
+        inset-inline-end: 50%;
+        transform: translateX(50%);
+    }
+
+    [dir="rtl"] .theme-picker--footer .theme-menu {
+        transform: translateX(-50%);
     }
 }
