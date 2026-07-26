@@ -415,7 +415,7 @@
                 };
                 p.callQueue = [];
                 var script = d.createElement('script');
-                script.src = 'https://www.redditstatic.com/ads/pixel.js';
+                script.src = 'https://www.redditstatic.com/ads/pixel.js?pixel_id=' + encodeURIComponent(PIXEL_ID);
                 script.async = true;
                 var firstScript = d.getElementsByTagName('script')[0];
                 firstScript.parentNode.insertBefore(script, firstScript);
