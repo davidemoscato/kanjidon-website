@@ -9,7 +9,7 @@
     var copy = {
         en: {
             title: 'Advertising privacy',
-            message: 'With your permission, we use the Reddit Pixel to measure ad results and build advertising audiences. Reddit tracking stays off until you accept.',
+            message: 'With your permission, we use advertising tools to measure campaign performance and create audience segments. They stay off until you accept.',
             reject: 'Reject',
             accept: 'Accept',
             policy: 'Privacy Policy',
@@ -18,7 +18,7 @@
         },
         it: {
             title: 'Privacy pubblicitaria',
-            message: 'Con il tuo consenso usiamo il Reddit Pixel per misurare i risultati delle campagne e creare pubblici pubblicitari. Il tracciamento Reddit resta disattivato finché non accetti.',
+            message: 'Con il tuo consenso usiamo strumenti pubblicitari per misurare i risultati delle campagne e creare segmenti di pubblico. Restano disattivati finché non accetti.',
             reject: 'Rifiuta',
             accept: 'Accetta',
             policy: 'Privacy Policy',
@@ -27,7 +27,7 @@
         },
         fr: {
             title: 'Confidentialité publicitaire',
-            message: 'Avec ton accord, nous utilisons le pixel Reddit pour mesurer les résultats publicitaires et créer des audiences. Le suivi Reddit reste désactivé tant que tu n’acceptes pas.',
+            message: 'Avec ton accord, nous utilisons des outils publicitaires pour mesurer les résultats des campagnes et créer des segments d’audience. Ils restent désactivés tant que tu n’acceptes pas.',
             reject: 'Refuser',
             accept: 'Accepter',
             policy: 'Politique de confidentialité',
@@ -36,7 +36,7 @@
         },
         es: {
             title: 'Privacidad publicitaria',
-            message: 'Con tu permiso, usamos el píxel de Reddit para medir los resultados de los anuncios y crear audiencias publicitarias. El seguimiento de Reddit permanece desactivado hasta que aceptes.',
+            message: 'Con tu permiso, usamos herramientas publicitarias para medir los resultados de las campañas y crear segmentos de audiencia. Permanecen desactivadas hasta que aceptes.',
             reject: 'Rechazar',
             accept: 'Aceptar',
             policy: 'Política de privacidad',
@@ -45,7 +45,7 @@
         },
         de: {
             title: 'Datenschutz bei Werbung',
-            message: 'Mit deiner Einwilligung verwenden wir das Reddit Pixel, um Werbeergebnisse zu messen und Zielgruppen zu erstellen. Das Reddit-Tracking bleibt deaktiviert, bis du zustimmst.',
+            message: 'Mit deiner Einwilligung verwenden wir Werbetools, um Kampagnenergebnisse zu messen und Zielgruppen zu erstellen. Sie bleiben deaktiviert, bis du zustimmst.',
             reject: 'Ablehnen',
             accept: 'Akzeptieren',
             policy: 'Datenschutzerklärung',
@@ -54,7 +54,7 @@
         },
         pt: {
             title: 'Privacidade de publicidade',
-            message: 'Com a tua autorização, usamos o Pixel do Reddit para medir resultados de anúncios e criar públicos publicitários. O rastreio do Reddit fica desativado até aceitares.',
+            message: 'Com a tua autorização, usamos ferramentas de publicidade para medir os resultados das campanhas e criar segmentos de público. Ficam desativadas até aceitares.',
             reject: 'Recusar',
             accept: 'Aceitar',
             policy: 'Política de Privacidade',
@@ -63,7 +63,7 @@
         },
         ru: {
             title: 'Конфиденциальность рекламы',
-            message: 'С вашего согласия мы используем пиксель Reddit для измерения результатов рекламы и создания рекламных аудиторий. Отслеживание Reddit отключено, пока вы не согласитесь.',
+            message: 'С вашего согласия мы используем рекламные инструменты для измерения результатов кампаний и создания сегментов аудитории. Они отключены, пока вы не согласитесь.',
             reject: 'Отклонить',
             accept: 'Принять',
             policy: 'Политика конфиденциальности',
@@ -72,7 +72,7 @@
         },
         ko: {
             title: '광고 개인정보 보호',
-            message: '동의하면 광고 성과를 측정하고 광고 대상을 만들기 위해 Reddit Pixel을 사용합니다. 동의하기 전까지 Reddit 추적은 비활성화됩니다.',
+            message: '동의하면 캠페인 성과를 측정하고 잠재고객 세그먼트를 만들기 위해 광고 도구를 사용합니다. 동의하기 전까지 비활성화됩니다.',
             reject: '거부',
             accept: '동의',
             policy: '개인정보 처리방침',
@@ -81,7 +81,7 @@
         },
         zh: {
             title: '广告隐私',
-            message: '经你同意后，我们会使用 Reddit Pixel 衡量广告效果并创建广告受众。在你接受之前，Reddit 跟踪会保持关闭。',
+            message: '经你同意后，我们会使用广告工具衡量广告活动效果并创建受众群体。在你接受之前，这些工具会保持关闭。',
             reject: '拒绝',
             accept: '接受',
             policy: '隐私政策',
@@ -90,7 +90,7 @@
         },
         'zh-tw': {
             title: '廣告隱私',
-            message: '經你同意後，我們會使用 Reddit Pixel 衡量廣告成效並建立廣告受眾。在你接受之前，Reddit 追蹤會保持關閉。',
+            message: '經你同意後，我們會使用廣告工具衡量廣告活動成效並建立受眾群體。在你接受之前，這些工具會保持關閉。',
             reject: '拒絕',
             accept: '接受',
             policy: '隱私權政策',
@@ -99,7 +99,7 @@
         },
         ar: {
             title: 'خصوصية الإعلانات',
-            message: 'بموافقتك، نستخدم Reddit Pixel لقياس نتائج الإعلانات وإنشاء جماهير إعلانية. يظل تتبع Reddit متوقفًا حتى توافق.',
+            message: 'بموافقتك، نستخدم أدوات إعلانية لقياس نتائج الحملات وإنشاء شرائح جمهور. تظل هذه الأدوات متوقفة حتى توافق.',
             reject: 'رفض',
             accept: 'موافقة',
             policy: 'سياسة الخصوصية',
@@ -108,7 +108,7 @@
         },
         hi: {
             title: 'विज्ञापन गोपनीयता',
-            message: 'आपकी अनुमति से हम विज्ञापन के परिणाम मापने और विज्ञापन ऑडियंस बनाने के लिए Reddit Pixel का उपयोग करते हैं। आपकी सहमति तक Reddit ट्रैकिंग बंद रहती है।',
+            message: 'आपकी अनुमति से हम अभियान के परिणाम मापने और ऑडियंस समूह बनाने के लिए विज्ञापन टूल का उपयोग करते हैं। आपकी सहमति तक ये बंद रहते हैं।',
             reject: 'अस्वीकार करें',
             accept: 'स्वीकार करें',
             policy: 'गोपनीयता नीति',
@@ -117,7 +117,7 @@
         },
         th: {
             title: 'ความเป็นส่วนตัวด้านโฆษณา',
-            message: 'เมื่อคุณยินยอม เราจะใช้ Reddit Pixel เพื่อวัดผลโฆษณาและสร้างกลุ่มเป้าหมาย โดยการติดตามของ Reddit จะปิดอยู่จนกว่าคุณจะยอมรับ',
+            message: 'เมื่อคุณยินยอม เราจะใช้เครื่องมือโฆษณาเพื่อวัดผลแคมเปญและสร้างกลุ่มเป้าหมาย เครื่องมือเหล่านี้จะปิดอยู่จนกว่าคุณจะยอมรับ',
             reject: 'ปฏิเสธ',
             accept: 'ยอมรับ',
             policy: 'นโยบายความเป็นส่วนตัว',
@@ -126,7 +126,7 @@
         },
         vi: {
             title: 'Quyền riêng tư quảng cáo',
-            message: 'Khi bạn đồng ý, chúng tôi dùng Reddit Pixel để đo hiệu quả quảng cáo và tạo đối tượng quảng cáo. Theo dõi của Reddit sẽ tắt cho đến khi bạn chấp nhận.',
+            message: 'Khi bạn đồng ý, chúng tôi dùng công cụ quảng cáo để đo hiệu quả chiến dịch và tạo nhóm đối tượng. Các công cụ này sẽ tắt cho đến khi bạn chấp nhận.',
             reject: 'Từ chối',
             accept: 'Chấp nhận',
             policy: 'Chính sách quyền riêng tư',
@@ -135,7 +135,7 @@
         },
         id: {
             title: 'Privasi iklan',
-            message: 'Dengan izinmu, kami menggunakan Reddit Pixel untuk mengukur hasil iklan dan membuat audiens iklan. Pelacakan Reddit tetap nonaktif sampai kamu menyetujuinya.',
+            message: 'Dengan izinmu, kami menggunakan alat periklanan untuk mengukur hasil kampanye dan membuat segmen audiens. Alat ini tetap nonaktif sampai kamu menyetujuinya.',
             reject: 'Tolak',
             accept: 'Setuju',
             policy: 'Kebijakan Privasi',
@@ -144,7 +144,7 @@
         },
         ms: {
             title: 'Privasi pengiklanan',
-            message: 'Dengan kebenaran anda, kami menggunakan Reddit Pixel untuk mengukur hasil iklan dan membina khalayak pengiklanan. Penjejakan Reddit kekal dimatikan sehingga anda bersetuju.',
+            message: 'Dengan kebenaran anda, kami menggunakan alat pengiklanan untuk mengukur hasil kempen dan membina segmen khalayak. Alat ini kekal dimatikan sehingga anda bersetuju.',
             reject: 'Tolak',
             accept: 'Terima',
             policy: 'Dasar Privasi',
@@ -153,7 +153,7 @@
         },
         tr: {
             title: 'Reklam gizliliği',
-            message: 'İzninle reklam sonuçlarını ölçmek ve reklam kitleleri oluşturmak için Reddit Pixel kullanırız. Sen kabul edene kadar Reddit takibi kapalı kalır.',
+            message: 'İzninle kampanya sonuçlarını ölçmek ve kitle segmentleri oluşturmak için reklam araçları kullanırız. Sen kabul edene kadar kapalı kalırlar.',
             reject: 'Reddet',
             accept: 'Kabul et',
             policy: 'Gizlilik Politikası',
@@ -162,7 +162,7 @@
         },
         pl: {
             title: 'Prywatność reklam',
-            message: 'Za Twoją zgodą używamy piksela Reddit do mierzenia wyników reklam i tworzenia grup odbiorców. Śledzenie Reddit pozostaje wyłączone, dopóki nie wyrazisz zgody.',
+            message: 'Za Twoją zgodą używamy narzędzi reklamowych do mierzenia wyników kampanii i tworzenia segmentów odbiorców. Pozostają wyłączone, dopóki nie wyrazisz zgody.',
             reject: 'Odrzuć',
             accept: 'Akceptuj',
             policy: 'Polityka prywatności',
@@ -171,7 +171,7 @@
         },
         fa: {
             title: 'حریم خصوصی تبلیغات',
-            message: 'با اجازه شما، از Reddit Pixel برای سنجش نتایج تبلیغات و ساخت مخاطبان تبلیغاتی استفاده می‌کنیم. ردیابی Reddit تا زمان پذیرش شما خاموش می‌ماند.',
+            message: 'با اجازه شما، از ابزارهای تبلیغاتی برای سنجش نتایج کمپین‌ها و ساخت بخش‌های مخاطبان استفاده می‌کنیم. این ابزارها تا زمان پذیرش شما خاموش می‌مانند.',
             reject: 'رد کردن',
             accept: 'پذیرفتن',
             policy: 'سیاست حریم خصوصی',
@@ -180,7 +180,7 @@
         },
         fil: {
             title: 'Privacy sa advertising',
-            message: 'Kapag pumayag ka, ginagamit namin ang Reddit Pixel para sukatin ang resulta ng ads at gumawa ng advertising audiences. Naka-off ang Reddit tracking hanggang tanggapin mo ito.',
+            message: 'Kapag pumayag ka, gumagamit kami ng mga advertising tool para sukatin ang resulta ng campaign at gumawa ng mga audience segment. Naka-off ang mga ito hanggang tanggapin mo.',
             reject: 'Tanggihan',
             accept: 'Tanggapin',
             policy: 'Patakaran sa Privacy',
@@ -189,7 +189,7 @@
         },
         mn: {
             title: 'Зар сурталчилгааны нууцлал',
-            message: 'Таны зөвшөөрлөөр бид зар сурталчилгааны үр дүнг хэмжиж, сурталчилгааны аудитори үүсгэхийн тулд Reddit Pixel ашиглана. Таныг зөвшөөрөх хүртэл Reddit-ийн хяналт идэвхгүй байна.',
+            message: 'Таны зөвшөөрлөөр бид кампанит ажлын үр дүнг хэмжиж, үзэгчдийн сегмент үүсгэхийн тулд сурталчилгааны хэрэгсэл ашиглана. Таныг зөвшөөрөх хүртэл эдгээр нь идэвхгүй байна.',
             reject: 'Татгалзах',
             accept: 'Зөвшөөрөх',
             policy: 'Нууцлалын бодлого',
@@ -198,7 +198,7 @@
         },
         ro: {
             title: 'Confidențialitatea publicității',
-            message: 'Cu acordul tău, folosim Reddit Pixel pentru a măsura rezultatele reclamelor și a crea audiențe publicitare. Urmărirea Reddit rămâne dezactivată până când accepți.',
+            message: 'Cu acordul tău, folosim instrumente publicitare pentru a măsura rezultatele campaniilor și a crea segmente de audiență. Rămân dezactivate până când accepți.',
             reject: 'Refuză',
             accept: 'Acceptă',
             policy: 'Politica de confidențialitate',
@@ -207,7 +207,7 @@
         },
         bg: {
             title: 'Поверителност при рекламиране',
-            message: 'С ваше съгласие използваме Reddit Pixel, за да измерваме резултатите от рекламите и да създаваме рекламни аудитории. Проследяването от Reddit остава изключено, докато не приемете.',
+            message: 'С ваше съгласие използваме рекламни инструменти, за да измерваме резултатите от кампаниите и да създаваме сегменти от аудитории. Те остават изключени, докато не приемете.',
             reject: 'Отказ',
             accept: 'Приемам',
             policy: 'Политика за поверителност',
@@ -216,7 +216,7 @@
         },
         ne: {
             title: 'विज्ञापन गोपनीयता',
-            message: 'तपाईंको अनुमतिमा हामी विज्ञापनको नतिजा मापन गर्न र विज्ञापन दर्शक समूह बनाउन Reddit Pixel प्रयोग गर्छौं। तपाईंले स्वीकार नगरेसम्म Reddit ट्र्याकिङ बन्द रहन्छ।',
+            message: 'तपाईंको अनुमतिमा हामी अभियानको नतिजा मापन गर्न र दर्शक समूह बनाउन विज्ञापन उपकरण प्रयोग गर्छौं। तपाईंले स्वीकार नगरेसम्म यी बन्द रहन्छन्।',
             reject: 'अस्वीकार',
             accept: 'स्वीकार',
             policy: 'गोपनीयता नीति',
@@ -225,7 +225,7 @@
         },
         my: {
             title: 'ကြော်ငြာဆိုင်ရာ ကိုယ်ရေးလုံခြုံမှု',
-            message: 'သင်၏ခွင့်ပြုချက်ဖြင့် ကြော်ငြာရလဒ်များကို တိုင်းတာရန်နှင့် ကြော်ငြာပရိသတ်အုပ်စုများ ဖန်တီးရန် Reddit Pixel ကို အသုံးပြုပါသည်။ သင်လက်မခံမချင်း Reddit ခြေရာခံခြင်းကို ပိတ်ထားပါသည်။',
+            message: 'သင်၏ခွင့်ပြုချက်ဖြင့် ကမ်ပိန်းရလဒ်များကို တိုင်းတာရန်နှင့် ပရိသတ်အုပ်စုများ ဖန်တီးရန် ကြော်ငြာကိရိယာများကို အသုံးပြုပါသည်။ သင်လက်မခံမချင်း ၎င်းတို့ကို ပိတ်ထားပါသည်။',
             reject: 'ငြင်းပယ်မည်',
             accept: 'လက်ခံမည်',
             policy: 'ကိုယ်ရေးလုံခြုံမှု မူဝါဒ',
@@ -234,7 +234,7 @@
         },
         bn: {
             title: 'বিজ্ঞাপনের গোপনীয়তা',
-            message: 'আপনার অনুমতিতে আমরা বিজ্ঞাপনের ফলাফল পরিমাপ এবং বিজ্ঞাপনের দর্শকগোষ্ঠী তৈরির জন্য Reddit Pixel ব্যবহার করি। আপনি গ্রহণ না করা পর্যন্ত Reddit ট্র্যাকিং বন্ধ থাকে।',
+            message: 'আপনার অনুমতিতে আমরা প্রচারের ফলাফল পরিমাপ এবং দর্শকগোষ্ঠী তৈরির জন্য বিজ্ঞাপন সরঞ্জাম ব্যবহার করি। আপনি গ্রহণ না করা পর্যন্ত এগুলো বন্ধ থাকে।',
             reject: 'প্রত্যাখ্যান',
             accept: 'গ্রহণ',
             policy: 'গোপনীয়তা নীতি',
@@ -243,7 +243,7 @@
         },
         uk: {
             title: 'Конфіденційність реклами',
-            message: 'За вашою згодою ми використовуємо Reddit Pixel для вимірювання результатів реклами та створення рекламних аудиторій. Відстеження Reddit залишається вимкненим, доки ви не погодитеся.',
+            message: 'За вашою згодою ми використовуємо рекламні інструменти для вимірювання результатів кампаній і створення сегментів аудиторії. Вони залишаються вимкненими, доки ви не погодитеся.',
             reject: 'Відхилити',
             accept: 'Прийняти',
             policy: 'Політика конфіденційності',
@@ -252,7 +252,7 @@
         },
         uz: {
             title: 'Reklama maxfiyligi',
-            message: 'Ruxsatingiz bilan reklama natijalarini o‘lchash va reklama auditoriyalarini yaratish uchun Reddit Pixel ishlatamiz. Siz rozilik bermaguningizcha Reddit kuzatuvi o‘chiq qoladi.',
+            message: 'Ruxsatingiz bilan kampaniya natijalarini o‘lchash va auditoriya segmentlarini yaratish uchun reklama vositalaridan foydalanamiz. Siz rozilik bermaguningizcha ular o‘chiq qoladi.',
             reject: 'Rad etish',
             accept: 'Qabul qilish',
             policy: 'Maxfiylik siyosati',
@@ -261,7 +261,7 @@
         },
         si: {
             title: 'වෙළඳ දැන්වීම් රහස්‍යතාව',
-            message: 'ඔබගේ අවසරය ඇතිව වෙළඳ දැන්වීම් ප්‍රතිඵල මැනීමට සහ ප්‍රචාරණ ප්‍රේක්ෂක කණ්ඩායම් සෑදීමට අපි Reddit Pixel භාවිත කරමු. ඔබ පිළිගන්නා තෙක් Reddit ලුහුබැඳීම අක්‍රියව පවතී.',
+            message: 'ඔබගේ අවසරය ඇතිව ප්‍රචාරණ ප්‍රතිඵල මැනීමට සහ ප්‍රේක්ෂක කණ්ඩායම් සෑදීමට අපි වෙළඳ දැන්වීම් මෙවලම් භාවිත කරමු. ඔබ පිළිගන්නා තෙක් ඒවා අක්‍රියව පවතී.',
             reject: 'ප්‍රතික්ෂේප කරන්න',
             accept: 'පිළිගන්න',
             policy: 'රහස්‍යතා ප්‍රතිපත්තිය',
@@ -270,7 +270,7 @@
         },
         ta: {
             title: 'விளம்பரத் தனியுரிமை',
-            message: 'உங்கள் அனுமதியுடன், விளம்பர முடிவுகளை அளவிடவும் விளம்பரப் பார்வையாளர் குழுக்களை உருவாக்கவும் Reddit Pixel-ஐப் பயன்படுத்துகிறோம். நீங்கள் ஏற்கும் வரை Reddit கண்காணிப்பு முடக்கப்பட்டிருக்கும்.',
+            message: 'உங்கள் அனுமதியுடன், பிரச்சார முடிவுகளை அளவிடவும் பார்வையாளர் பிரிவுகளை உருவாக்கவும் விளம்பரக் கருவிகளைப் பயன்படுத்துகிறோம். நீங்கள் ஏற்கும் வரை அவை முடக்கப்பட்டிருக்கும்.',
             reject: 'நிராகரி',
             accept: 'ஏற்கவும்',
             policy: 'தனியுரிமைக் கொள்கை',
@@ -279,7 +279,7 @@
         },
         ur: {
             title: 'اشتہاری رازداری',
-            message: 'آپ کی اجازت سے ہم اشتہارات کے نتائج ناپنے اور اشتہاری سامعین بنانے کے لیے Reddit Pixel استعمال کرتے ہیں۔ آپ کے قبول کرنے تک Reddit ٹریکنگ بند رہتی ہے۔',
+            message: 'آپ کی اجازت سے ہم مہم کے نتائج ناپنے اور سامعین کے حصے بنانے کے لیے اشتہاری ٹولز استعمال کرتے ہیں۔ آپ کے قبول کرنے تک یہ بند رہتے ہیں۔',
             reject: 'مسترد کریں',
             accept: 'قبول کریں',
             policy: 'رازداری کی پالیسی',
@@ -288,7 +288,7 @@
         },
         hu: {
             title: 'Hirdetési adatvédelem',
-            message: 'Az engedélyeddel a Reddit Pixelt használjuk a hirdetési eredmények mérésére és hirdetési közönségek létrehozására. A Reddit-követés kikapcsolva marad, amíg el nem fogadod.',
+            message: 'Az engedélyeddel hirdetési eszközöket használunk a kampányeredmények mérésére és közönségszegmensek létrehozására. Kikapcsolva maradnak, amíg el nem fogadod.',
             reject: 'Elutasítás',
             accept: 'Elfogadás',
             policy: 'Adatvédelmi irányelvek',
@@ -297,7 +297,7 @@
         },
         he: {
             title: 'פרטיות בפרסום',
-            message: 'בהסכמתך נשתמש ב-Reddit Pixel כדי למדוד תוצאות פרסום וליצור קהלי פרסום. המעקב של Reddit נשאר כבוי עד לאישור.',
+            message: 'בהסכמתך נשתמש בכלי פרסום כדי למדוד את תוצאות הקמפיינים וליצור פלחי קהל. הכלים יישארו כבויים עד לאישור.',
             reject: 'דחייה',
             accept: 'אישור',
             policy: 'מדיניות פרטיות',
@@ -306,7 +306,7 @@
         },
         km: {
             title: 'ឯកជនភាពការផ្សាយពាណិជ្ជកម្ម',
-            message: 'ដោយមានការអនុញ្ញាតពីអ្នក យើងប្រើ Reddit Pixel ដើម្បីវាស់លទ្ធផលការផ្សាយពាណិជ្ជកម្ម និងបង្កើតក្រុមអ្នកទស្សនាសម្រាប់ការផ្សាយពាណិជ្ជកម្ម។ ការតាមដានរបស់ Reddit នឹងបិទរហូតដល់អ្នកយល់ព្រម។',
+            message: 'ដោយមានការអនុញ្ញាតពីអ្នក យើងប្រើឧបករណ៍ផ្សាយពាណិជ្ជកម្មដើម្បីវាស់លទ្ធផលយុទ្ធនាការ និងបង្កើតក្រុមអ្នកទស្សនា។ ឧបករណ៍ទាំងនេះនឹងបិទរហូតដល់អ្នកយល់ព្រម។',
             reject: 'បដិសេធ',
             accept: 'យល់ព្រម',
             policy: 'គោលការណ៍ឯកជនភាព',
@@ -315,7 +315,7 @@
         },
         kn: {
             title: 'ಜಾಹೀರಾತು ಗೌಪ್ಯತೆ',
-            message: 'ನಿಮ್ಮ ಅನುಮತಿಯೊಂದಿಗೆ ಜಾಹೀರಾತು ಫಲಿತಾಂಶಗಳನ್ನು ಅಳೆಯಲು ಮತ್ತು ಜಾಹೀರಾತು ಪ್ರೇಕ್ಷಕರನ್ನು ರಚಿಸಲು Reddit Pixel ಬಳಸುತ್ತೇವೆ. ನೀವು ಒಪ್ಪುವವರೆಗೆ Reddit ಟ್ರ್ಯಾಕಿಂಗ್ ಆಫ್ ಆಗಿರುತ್ತದೆ.',
+            message: 'ನಿಮ್ಮ ಅನುಮತಿಯೊಂದಿಗೆ ಅಭಿಯಾನದ ಫಲಿತಾಂಶಗಳನ್ನು ಅಳೆಯಲು ಮತ್ತು ಪ್ರೇಕ್ಷಕರ ವಿಭಾಗಗಳನ್ನು ರಚಿಸಲು ಜಾಹೀರಾತು ಸಾಧನಗಳನ್ನು ಬಳಸುತ್ತೇವೆ. ನೀವು ಒಪ್ಪುವವರೆಗೆ ಅವು ಆಫ್ ಆಗಿರುತ್ತವೆ.',
             reject: 'ನಿರಾಕರಿಸಿ',
             accept: 'ಒಪ್ಪಿಕೊಳ್ಳಿ',
             policy: 'ಗೌಪ್ಯತಾ ನೀತಿ',
@@ -324,7 +324,7 @@
         },
         mr: {
             title: 'जाहिरात गोपनीयता',
-            message: 'तुमच्या परवानगीने आम्ही जाहिरातींचे परिणाम मोजण्यासाठी आणि जाहिरात प्रेक्षक तयार करण्यासाठी Reddit Pixel वापरतो. तुम्ही स्वीकारेपर्यंत Reddit ट्रॅकिंग बंद राहते.',
+            message: 'तुमच्या परवानगीने आम्ही मोहिमेचे परिणाम मोजण्यासाठी आणि प्रेक्षक गट तयार करण्यासाठी जाहिरात साधने वापरतो. तुम्ही स्वीकारेपर्यंत ती बंद राहतात.',
             reject: 'नकार द्या',
             accept: 'स्वीकारा',
             policy: 'गोपनीयता धोरण',
@@ -333,7 +333,7 @@
         },
         te: {
             title: 'ప్రకటనల గోప్యత',
-            message: 'మీ అనుమతితో ప్రకటనల ఫలితాలను కొలవడానికి మరియు ప్రకటన ప్రేక్షకులను రూపొందించడానికి Reddit Pixel‌ను ఉపయోగిస్తాము. మీరు అంగీకరించే వరకు Reddit ట్రాకింగ్ ఆఫ్‌లో ఉంటుంది.',
+            message: 'మీ అనుమతితో ప్రచార ఫలితాలను కొలవడానికి మరియు ప్రేక్షకుల విభాగాలను రూపొందించడానికి ప్రకటన సాధనాలను ఉపయోగిస్తాము. మీరు అంగీకరించే వరకు అవి ఆఫ్‌లో ఉంటాయి.',
             reject: 'తిరస్కరించండి',
             accept: 'అంగీకరించండి',
             policy: 'గోప్యతా విధానం',
@@ -342,7 +342,7 @@
         },
         nl: {
             title: 'Advertentieprivacy',
-            message: 'Met jouw toestemming gebruiken we de Reddit Pixel om advertentieresultaten te meten en advertentiedoelgroepen te maken. Reddit-tracking blijft uit totdat je akkoord gaat.',
+            message: 'Met jouw toestemming gebruiken we advertentietools om campagneresultaten te meten en doelgroepsegmenten te maken. Ze blijven uit totdat je akkoord gaat.',
             reject: 'Weigeren',
             accept: 'Accepteren',
             policy: 'Privacybeleid',
@@ -351,7 +351,7 @@
         },
         fi: {
             title: 'Mainonnan tietosuoja',
-            message: 'Luvallasi käytämme Reddit Pixeliä mainostulosten mittaamiseen ja mainosyleisöjen luomiseen. Reddit-seuranta pysyy pois käytöstä, kunnes hyväksyt sen.',
+            message: 'Luvallasi käytämme mainostyökaluja kampanjatulosten mittaamiseen ja yleisösegmenttien luomiseen. Ne pysyvät pois käytöstä, kunnes hyväksyt.',
             reject: 'Hylkää',
             accept: 'Hyväksy',
             policy: 'Tietosuojakäytäntö',
@@ -360,7 +360,7 @@
         },
         cs: {
             title: 'Soukromí v reklamě',
-            message: 'S vaším souhlasem používáme Reddit Pixel k měření výsledků reklam a vytváření reklamních publik. Sledování Reddit zůstává vypnuté, dokud ho nepřijmete.',
+            message: 'S vaším souhlasem používáme reklamní nástroje k měření výsledků kampaní a vytváření segmentů publika. Zůstávají vypnuté, dokud je nepřijmete.',
             reject: 'Odmítnout',
             accept: 'Přijmout',
             policy: 'Zásady ochrany soukromí',
@@ -454,9 +454,9 @@
             '#privacy-consent-banner p{margin:0 0 14px;font-size:.95rem;line-height:1.5;color:#d7d7dc}' +
             '#privacy-consent-banner a{color:#f08a5d;text-decoration:underline;text-underline-offset:2px}' +
             '.privacy-consent-actions{display:flex;gap:10px;flex-wrap:wrap}' +
-            '.privacy-consent-button{min-width:120px;padding:10px 18px;border:2px solid #c65326;border-radius:999px;font:700 .95rem Nunito,system-ui,sans-serif;cursor:pointer}' +
-            '.privacy-consent-reject{background:transparent;color:#faf9f6}' +
-            '.privacy-consent-accept{background:#c65326;color:#fff}' +
+            '.privacy-consent-button{min-width:120px;padding:10px 18px;border:1px solid #545458;border-radius:999px;font:700 .95rem Nunito,system-ui,sans-serif;cursor:pointer}' +
+            '.privacy-consent-reject{background:#2c2c2e;color:#c7c7cc}' +
+            '.privacy-consent-accept{border-color:#c65326;background:#c65326;color:#fff}' +
             '.privacy-consent-button:focus-visible,.privacy-consent-close:focus-visible,.privacy-choices-button:focus-visible{outline:3px solid #f08a5d;outline-offset:3px}' +
             '.privacy-consent-close{position:absolute;top:12px;right:12px;width:34px;height:34px;border:0;background:transparent;color:#faf9f6;font-size:24px;line-height:1;cursor:pointer}' +
             '.privacy-choices-button{border:0;padding:0;background:transparent;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:2px;cursor:pointer}' +
@@ -487,7 +487,6 @@
         banner.querySelector('.privacy-consent-close').addEventListener('click', function () { decide('rejected'); });
         banner.querySelector('.privacy-consent-reject').addEventListener('click', function () { decide('rejected'); });
         banner.querySelector('.privacy-consent-accept').addEventListener('click', function () { decide('accepted'); });
-        banner.querySelector('.privacy-consent-reject').focus();
     }
 
     function addChoicesControl() {
