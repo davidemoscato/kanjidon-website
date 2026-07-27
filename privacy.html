@@ -55,7 +55,7 @@
                 <section>
                     <h2>Plain-language summary</h2>
                     <p>Kanjidon stores the information needed to provide your account, learning progress, purchases, community features, support, and app security. Some activity is shown in the Live community feed to other signed-in Kanjidon users. We do not publish your email address, payment details, IP address, private note text, or coin balance in Live.</p>
-                    <p>We do not sell personal data. On the public marketing pages, the Reddit advertising pixel is disabled by default and loads only after you consent. You can reject it or change your choice at any time through the “Privacy choices” control in the website footer.</p>
+                    <p>We do not sell personal data. On the public marketing pages, the Reddit advertising pixel is disabled by default and loads only after you consent. You can reject it or revisit your choice at any time from this Privacy Policy.</p>
                     <p>You can delete your account in the app, manage the available privacy and notification settings, block users, and contact us to exercise your data-protection rights or object to Live processing.</p>
                 </section>
 
@@ -206,8 +206,9 @@
                         <li>Use the in-app profile and settings controls for available profile, online-status, battle-request, notification, block, and account-deletion choices.</li>
                         <li>Email <a href="mailto:info@kanjidon.com?subject=%5BPRIVACY%5D">info@kanjidon.com</a> from your registered address for other requests, including a Live objection.</li>
                         <li>Use the unsubscribe link in a marketing email to stop marketing messages.</li>
-                        <li>Use “Privacy choices” in the website footer to reject or withdraw consent for the Reddit Pixel. Withdrawing consent stops future pixel loading; the page reloads if needed to end the active pixel session.</li>
+                        <li>Use the control below to review, reject, or withdraw consent for the Reddit Pixel. Withdrawing consent stops future pixel loading.</li>
                     </ul>
+                    <p><button type="button" id="review-advertising-choice" class="btn btn-primary btn-sm">Review advertising privacy choice</button></p>
                     <p>We may need to verify your identity. We normally respond within one month, subject to the extensions and exceptions allowed by law. Rights are not absolute; if we cannot fulfil a request, we will explain why where the law requires it.</p>
                 </section>
 
@@ -281,5 +282,17 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById('review-advertising-choice').addEventListener('click', function () {
+            try {
+                localStorage.removeItem('kanjidon_privacy_consent');
+            } catch (_) {}
+            ['_rdt_cid', 'rdt_cid'].forEach(function (name) {
+                document.cookie = name + '=; Max-Age=0; Path=/; SameSite=Lax';
+                document.cookie = name + '=; Max-Age=0; Path=/; Domain=.kanjidon.com; SameSite=Lax';
+            });
+            window.location.assign('/');
+        });
+    </script>
 </body>
 </html>

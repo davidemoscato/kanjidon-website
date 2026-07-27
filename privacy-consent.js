@@ -457,9 +457,8 @@
             '.privacy-consent-button{min-width:108px;padding:8px 15px;border:1px solid #545458;border-radius:999px;font:700 .9rem Nunito,system-ui,sans-serif;cursor:pointer}' +
             '.privacy-consent-reject{background:#2c2c2e;color:#c7c7cc}' +
             '.privacy-consent-accept{border-color:#c65326;background:#c65326;color:#fff}' +
-            '.privacy-consent-button:focus-visible,.privacy-consent-close:focus-visible,.privacy-choices-button:focus-visible{outline:3px solid #f08a5d;outline-offset:3px}' +
+            '.privacy-consent-button:focus-visible,.privacy-consent-close:focus-visible{outline:3px solid #f08a5d;outline-offset:3px}' +
             '.privacy-consent-close{position:absolute;top:9px;right:9px;width:32px;height:32px;border:0;background:transparent;color:#faf9f6;font-size:22px;line-height:1;cursor:pointer}' +
-            '.privacy-choices-button{border:0;padding:0;background:transparent;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:2px;cursor:pointer}' +
             '@media(max-width:520px){#privacy-consent-banner{left:8px;right:8px;bottom:8px;padding:14px}.privacy-consent-actions{display:grid;grid-template-columns:1fr 1fr}.privacy-consent-button{min-width:0;width:100%;padding:9px 8px}}';
         document.head.appendChild(style);
     }
@@ -489,22 +488,8 @@
         banner.querySelector('.privacy-consent-accept').addEventListener('click', function () { decide('accepted'); });
     }
 
-    function addChoicesControl() {
-        var text = copy[language()];
-        var privacyLink = document.querySelector('footer a[href$="privacy.html"]');
-        if (!privacyLink || document.querySelector('.privacy-choices-button')) return;
-
-        var button = document.createElement('button');
-        button.type = 'button';
-        button.className = 'privacy-choices-button';
-        button.textContent = text.choices;
-        button.addEventListener('click', showBanner);
-        privacyLink.insertAdjacentElement('afterend', button);
-    }
-
     function start() {
         injectStyles();
-        addChoicesControl();
 
         if (navigator.globalPrivacyControl === true) {
             writeConsent('rejected');
