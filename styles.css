@@ -3245,3 +3245,130 @@ body * {
     width: min(330px, 82%);
   }
 }
+
+/* Narrow-screen composition pass: reserve distinct space for copy and artwork. */
+@media (max-width: 900px) {
+  .hero-stamp-dodon {
+    display: none;
+  }
+
+  .tile-live h3 {
+    max-width: 12ch;
+    font-size: clamp(32px, 9.5vw, 42px);
+    line-height: 1.08;
+  }
+
+  .tile-tama .tile-label {
+    color: var(--paper);
+    opacity: 0.84;
+  }
+
+  .stories-art {
+    margin-bottom: 96px;
+  }
+
+  .stories-art > .story-dodon {
+    right: auto;
+    bottom: -38%;
+    left: 36%;
+    width: 28%;
+  }
+
+  .collector-dream {
+    min-height: 980px;
+    align-items: start;
+    padding-top: 96px;
+    padding-bottom: 340px;
+  }
+
+  .collector-copy {
+    width: 100%;
+  }
+
+  .collector-cards img:nth-child(1) {
+    top: auto;
+    bottom: 4%;
+    left: -11%;
+    width: 38vw;
+  }
+
+  .collector-cards img:nth-child(2) {
+    top: auto;
+    right: -11%;
+    bottom: 4%;
+    width: 38vw;
+  }
+
+  .collector-cards img:nth-child(3) {
+    bottom: -8%;
+    left: -4%;
+    width: 46vw;
+  }
+
+  .collector-cards img:nth-child(4) {
+    right: -4%;
+    bottom: -9%;
+    width: 46vw;
+  }
+
+  .collector-cards img:nth-child(5) {
+    bottom: -15%;
+    left: 50%;
+    width: 54vw;
+    transform: translateX(-50%) rotate(2deg);
+  }
+
+  .review-slide {
+    min-width: calc(100vw - 40px);
+    padding: 24px 20px;
+  }
+
+  .review-slide p {
+    margin-bottom: var(--space-m);
+    font-size: clamp(16px, 4.6vw, 20px);
+    line-height: 1.35;
+  }
+
+  .review-slide cite {
+    font-size: 12px;
+  }
+
+  .final-cta {
+    min-height: 900px;
+    padding-bottom: 300px;
+  }
+
+  .final-dodon {
+    right: 50%;
+    bottom: 20px;
+    width: min(230px, 58vw);
+    opacity: 1;
+    transform: translateX(50%) rotate(2deg);
+  }
+
+  .final-trust {
+    max-width: 32ch;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer-brand {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-brand > div {
+    justify-items: center;
+  }
+
+  .footer-brand span {
+    display: block;
+    text-align: center;
+  }
+}
+
+.future-list p:last-child {
+  color: var(--paper);
+}
