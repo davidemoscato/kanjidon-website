@@ -2748,9 +2748,13 @@ footer {
 }
 
 .language-suggestion {
-  position: relative;
-  z-index: 85;
+  position: fixed;
+  z-index: 95;
+  top: var(--language-suggestion-top, 72px);
+  right: 0;
+  left: 0;
   display: flex;
+  width: 100%;
   min-height: 56px;
   align-items: center;
   justify-content: center;
@@ -2761,6 +2765,10 @@ footer {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
+}
+
+html.has-language-suggestion main {
+  padding-top: var(--language-suggestion-height, 56px);
 }
 
 .language-suggestion a {

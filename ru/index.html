@@ -764,11 +764,36 @@
       close.type = 'button';
       close.setAttribute('aria-label', target.close);
       close.textContent = '×';
+      const root = document.documentElement;
+      const header = document.querySelector('.site-header');
+      let resizeObserver;
+      const updatePosition = () => {
+        const headerHeight = header?.getBoundingClientRect().height || 0;
+        const bannerHeight = banner.getBoundingClientRect().height;
+        root.style.setProperty('--language-suggestion-top', headerHeight + 'px');
+        root.style.setProperty('--language-suggestion-height', bannerHeight + 'px');
+      };
+      const removePosition = () => {
+        resizeObserver?.disconnect();
+        window.removeEventListener('resize', updatePosition);
+        root.classList.remove('has-language-suggestion');
+        root.style.removeProperty('--language-suggestion-top');
+        root.style.removeProperty('--language-suggestion-height');
+      };
       const remember = () => { try { window.localStorage.setItem(storageKey, 'true'); } catch {} };
       link.addEventListener('click', remember);
-      close.addEventListener('click', () => { remember(); banner.remove(); });
+      close.addEventListener('click', () => { remember(); removePosition(); banner.remove(); });
       banner.append(message, link, close);
       document.querySelector('.site-header')?.insertAdjacentElement('afterend', banner);
+      root.classList.add('has-language-suggestion');
+      requestAnimationFrame(updatePosition);
+      if ('ResizeObserver' in window) {
+        resizeObserver = new ResizeObserver(updatePosition);
+        resizeObserver.observe(banner);
+        if (header) resizeObserver.observe(header);
+      } else {
+        window.addEventListener('resize', updatePosition, { passive: true });
+      }
     })();
   </script>
 </body>
