@@ -3253,8 +3253,8 @@ body * {
     position: absolute;
     z-index: 4;
     top: 1%;
-    right: 2%;
-    left: auto;
+    right: auto;
+    left: 2%;
     display: block;
     width: clamp(118px, 32vw, 170px);
     margin: 0;
@@ -3384,7 +3384,7 @@ body * {
 
 @media (max-width: 480px) {
   .collector-dream {
-    min-height: 650px;
-    padding-bottom: 100px;
+    min-height: 700px;
+    padding-bottom: 120px;
   }
 }
