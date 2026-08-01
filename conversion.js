@@ -1,6 +1,7 @@
 (function () {
     'use strict';
 
+    var GOOGLE_STORE_CONVERSION = 'AW-17488655629/FsszCMPn7_AbEI3qnpNB';
     var userAgent = navigator.userAgent || '';
     var isIPadOS = navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
     var isIOS = /iPad|iPhone|iPod/i.test(userAgent) || isIPadOS;
@@ -16,12 +17,23 @@
     }
 
     function destinationFor(targetPlatform, placement) {
-        if (targetPlatform === 'ios') return "https://apps.apple.com/app/id6747951805";
+        if (targetPlatform === 'ios') return 'https://apps.apple.com/app/id6747951805';
         var campaign = 'utm_source=kanjidon.com&utm_medium=website&utm_campaign=website_install&utm_content=' + placement;
-        return "https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" + '&referrer=' + encodeURIComponent(campaign);
+        return 'https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon' + '&referrer=' + encodeURIComponent(campaign);
+    }
+
+    function recordGoogleStoreConversion() {
+        if (window.kanjidonAdvertisingConsentGranted !== true || typeof window.gtag !== 'function') return;
+        window.gtag('event', 'conversion', {
+            send_to: GOOGLE_STORE_CONVERSION,
+            value: 1.0,
+            currency: 'EUR',
+            event_timeout: 1000
+        });
     }
 
     function recordClick(targetPlatform, placement) {
+        recordGoogleStoreConversion();
         if (!window.fetch) return;
         window.fetch('/go/' + targetPlatform + '/' + placement + '/', {
             method: 'GET',

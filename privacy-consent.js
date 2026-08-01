@@ -8,6 +8,7 @@
     var pixelLoaded = false;
     var googleTagLoaded = false;
 
+    window.kanjidonAdvertisingConsentGranted = false;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
     window.gtag('consent', 'default', {
@@ -468,6 +469,7 @@
     }
 
     function loadAdvertisingTools() {
+        window.kanjidonAdvertisingConsentGranted = true;
         loadGoogleTag();
         loadPixel();
     }
@@ -485,6 +487,7 @@
         if (choice === 'accepted') {
             loadAdvertisingTools();
         } else {
+            window.kanjidonAdvertisingConsentGranted = false;
             updateGoogleConsent(false);
             expireAdvertisingCookies();
             if (wasLoaded) window.location.reload();
