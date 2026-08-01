@@ -10,7 +10,7 @@
     function placementFor(link) {
         if (link.dataset.placement) return link.dataset.placement;
         if (link.closest('.sticky-download-bar')) return 'sticky';
-        if (link.closest('.download')) return 'download';
+        if (link.closest('.download, .final-cta')) return 'download';
         if (link.closest('.hero')) return 'hero';
         return 'header';
     }
