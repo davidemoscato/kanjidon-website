@@ -358,8 +358,9 @@ h2 em {
 }
 
 .hero-stamp-dodon {
-  top: 9%;
-  left: 47%;
+  z-index: 4;
+  top: 4%;
+  left: -12%;
   width: clamp(130px, 15vw, 240px);
   opacity: 0.88;
   animation: dodon-drift 5.6s ease-in-out infinite;
@@ -3249,7 +3250,15 @@ body * {
 /* Narrow-screen composition pass: reserve distinct space for copy and artwork. */
 @media (max-width: 900px) {
   .hero-stamp-dodon {
-    display: none;
+    position: absolute;
+    z-index: 4;
+    top: 1%;
+    right: 2%;
+    left: auto;
+    display: block;
+    width: clamp(118px, 32vw, 170px);
+    margin: 0;
+    opacity: 0.96;
   }
 
   .tile-live h3 {
@@ -3269,9 +3278,9 @@ body * {
 
   .stories-art > .story-dodon {
     right: auto;
-    bottom: -38%;
-    left: 36%;
-    width: 28%;
+    bottom: -46%;
+    left: 25%;
+    width: 50%;
   }
 
   .collector-dream {
@@ -3371,4 +3380,11 @@ body * {
 
 .future-list p:last-child {
   color: var(--paper);
+}
+
+@media (max-width: 480px) {
+  .collector-dream {
+    min-height: 650px;
+    padding-bottom: 100px;
+  }
 }
