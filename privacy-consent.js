@@ -2,9 +2,21 @@
     'use strict';
 
     var PIXEL_ID = 'a2_ift9317orjdh';
+    var GOOGLE_TAG_ID = 'AW-17488655629';
     var CONSENT_KEY = 'kanjidon_privacy_consent';
-    var CONSENT_VERSION = 1;
+    var CONSENT_VERSION = 2;
     var pixelLoaded = false;
+    var googleTagLoaded = false;
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied'
+    });
+    window.gtag('set', 'ads_data_redaction', true);
 
     var copy = {
         en: {
@@ -397,11 +409,40 @@
         }
     }
 
-    function expireRedditCookies() {
-        ['_rdt_cid', 'rdt_cid'].forEach(function (name) {
+    function expireAdvertisingCookies() {
+        var names = ['_rdt_cid', 'rdt_cid'];
+        document.cookie.split(';').forEach(function (part) {
+            var name = part.split('=')[0].trim();
+            if (/^_gcl_|^_gac_/i.test(name)) names.push(name);
+        });
+        names.filter(function (name, index) { return names.indexOf(name) === index; }).forEach(function (name) {
             document.cookie = name + '=; Max-Age=0; Path=/; SameSite=Lax';
             document.cookie = name + '=; Max-Age=0; Path=/; Domain=.kanjidon.com; SameSite=Lax';
         });
+    }
+
+    function updateGoogleConsent(granted) {
+        var state = granted ? 'granted' : 'denied';
+        window.gtag('consent', 'update', {
+            ad_storage: state,
+            ad_user_data: state,
+            ad_personalization: state,
+            analytics_storage: state
+        });
+    }
+
+    function loadGoogleTag() {
+        if (googleTagLoaded) return;
+        googleTagLoaded = true;
+
+        updateGoogleConsent(true);
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GOOGLE_TAG_ID);
+        document.head.appendChild(script);
+
+        window.gtag('js', new Date());
+        window.gtag('config', GOOGLE_TAG_ID);
     }
 
     function loadPixel() {
@@ -426,20 +467,26 @@
         window.rdt('track', 'PageVisit');
     }
 
+    function loadAdvertisingTools() {
+        loadGoogleTag();
+        loadPixel();
+    }
+
     function removeBanner() {
         var banner = document.getElementById('privacy-consent-banner');
         if (banner) banner.remove();
     }
 
     function decide(choice) {
-        var wasLoaded = pixelLoaded;
+        var wasLoaded = pixelLoaded || googleTagLoaded;
         writeConsent(choice);
         removeBanner();
 
         if (choice === 'accepted') {
-            loadPixel();
+            loadAdvertisingTools();
         } else {
-            expireRedditCookies();
+            updateGoogleConsent(false);
+            expireAdvertisingCookies();
             if (wasLoaded) window.location.reload();
         }
     }
@@ -493,12 +540,13 @@
 
         if (navigator.globalPrivacyControl === true) {
             writeConsent('rejected');
-            expireRedditCookies();
+            updateGoogleConsent(false);
+            expireAdvertisingCookies();
             return;
         }
 
         var consent = readConsent();
-        if (consent === 'accepted') loadPixel();
+        if (consent === 'accepted') loadAdvertisingTools();
         else if (consent !== 'rejected') showBanner();
     }
 
