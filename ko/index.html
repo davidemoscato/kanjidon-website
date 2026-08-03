@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="../styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"ko"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/ko/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"한자를 수집형 카드로 바꿔 봐. 퀴즈, 스토리, 배틀, 간격 반복으로 JLPT N5부터 N1까지. 공부법은 진지하게. 앱은 조금 덜 진지하게.","inLanguage":"ko","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>문제는 네가 아니야.<br><em>방법이 문제야.</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>쓰라고 해.</p>
+        <p>보라고 해.</p>
         <p>반복하라고 해.</p>
-        <p>다시 베껴 쓰라고 해.</p>
+        <p>다시 보라고 해.</p>
         <p>외우라고 해.</p>
-        <p>또 반복하라고 해.</p>
         <p class="blame-turn">그리고 드디어 외웠다고 생각하는 순간…</p>
         <p class="delete-line">기억이 누르는 건 <span>삭제</span>.</p>
         <p>네가 못해서가 아니야.<br>원래 뇌가 그렇게 움직이니까.</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">어떤 카드는 바로 찾아와.</p>
       <p class="card-aside aside-two">어떤 카드는 애를 태우지.</p>
-      <p class="card-aside aside-three">컬렉션은 지나가도 이 한자들은 남아.</p>
+      <p class="card-aside aside-three">흔한 플래시카드가 아니야.</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>6,000+ 카드.</strong> 첫 한자부터 N1까지.</p>
           <p><strong>16가지 퀴즈.</strong> 쓰기, 받아쓰기, 섀도잉, 그리고 훨씬 더 많이.</p>
-          <p><strong>스토리, SRS, 미션, 배틀, 통계.</strong> 완전한 시스템.</p>
+          <p><strong>스토리, SRS, 미션, 배틀, 통계...</strong> 완전한 시스템.</p>
         </div>
         <p class="jlpt-final">방법은 준비됐어. 길은 네가 정해.<br><strong>마음대로 써먹어.</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

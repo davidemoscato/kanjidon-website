@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="../styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"ro"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/ro/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"Transformă kanji în cărți de colecție. Quizuri, povești, lupte și repetiție spațiată de la JLPT N5 la N1. Metoda e serioasă. Aplicația, ceva mai puțin.","inLanguage":"ro","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>Nu tu ești problema.<br><em>Metoda e problema.</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>Îți spun să scrii.</p>
+        <p>Îți spun să te uiți.</p>
         <p>Să repeți.</p>
-        <p>Să copiezi din nou.</p>
+        <p>Să te uiți din nou.</p>
         <p>Să memorezi.</p>
-        <p>Să repeți iar.</p>
         <p class="blame-turn">Și exact când crezi că, în sfârșit, l-ai învățat…</p>
         <p class="delete-line">memoria ta apasă <span>Șterge</span>.</p>
         <p>Nu pentru că nu ești în stare.<br>Așa funcționează creierul.</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">Unele apar imediat.</p>
       <p class="card-aside aside-two">Pentru altele trebuie să muncești.</p>
-      <p class="card-aside aside-three">Colecțiile vin și pleacă. Astea rămân.</p>
+      <p class="card-aside aside-three">Nu sunt simple flashcarduri.</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>6.000+ cărți.</strong> De la primul tău kanji până la N1.</p>
           <p><strong>16 tipuri de quiz.</strong> Scriere, dictare, shadowing și multe altele.</p>
-          <p><strong>Povești, SRS, misiuni, lupte, statistici.</strong> Sistemul complet.</p>
+          <p><strong>Povești, SRS, misiuni, lupte, statistici...</strong> Sistemul complet.</p>
         </div>
         <p class="jlpt-final">Metoda e gata. Drumul e al tău.<br><strong>Fă ce vrei cu el.</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="../styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"mn"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/mn/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"Ханзыг цуглуулгын карт болго. JLPT N5-аас N1 хүртэл сорил, түүх, тулаан, зайтай давтлага. Арга нь нухацтай. Апп нь арай хөнгөн.","inLanguage":"mn","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>Асуудал чамд биш.<br><em>Аргад нь бий.</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>Бич гэдэг.</p>
+        <p>Хар гэдэг.</p>
         <p>Давт.</p>
-        <p>Дахин хуул.</p>
+        <p>Дахин хар.</p>
         <p>Цээжил.</p>
-        <p>Бас дахин давт.</p>
         <p class="blame-turn">Эцэст нь сурчихлаа гэж бодох мөчид…</p>
         <p class="delete-line">ой санамж чинь <span>Устгах</span>-ыг дарна.</p>
         <p>Чи муу болохоороо биш.<br>Тархи угаасаа ингэж ажилладаг.</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">Зарим нь шууд ирнэ.</p>
       <p class="card-aside aside-two">Заримыг нь авахын тулд зүтгэнэ.</p>
-      <p class="card-aside aside-three">Цуглуулгууд ирж буцна. Харин эдгээр нь үлдэнэ.</p>
+      <p class="card-aside aside-three">Жирийн флаш карт биш.</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>6,000+ карт.</strong> Анхны ханзнаас N1 хүртэл.</p>
           <p><strong>16 төрлийн сорил.</strong> Бичих, диктант, дагаж давтах болон өөр олон зүйл.</p>
-          <p><strong>Түүх, SRS, даалгавар, тулаан, статистик.</strong> Бүрэн систем.</p>
+          <p><strong>Түүх, SRS, даалгавар, тулаан, статистик...</strong> Бүрэн систем.</p>
         </div>
         <p class="jlpt-final">Арга бэлэн. Зам чинийх.<br><strong>Хүссэнээрээ ашигла.</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

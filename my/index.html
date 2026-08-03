@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="../styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"my"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/my/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"kanji ကို စုဆောင်းနိုင်တဲ့ ကတ်အဖြစ် ပြောင်းပါ။ JLPT N5 မှ N1 အထိ ကွစ်ဇ်၊ ဇာတ်လမ်း၊ တိုက်ပွဲနဲ့ အချိန်ခြားပြန်လေ့လာမှု။ နည်းလမ်းက တကယ်လေးနက်တယ်။ အက်ပ်ကတော့ သိပ်မလေးနက်ဘူး။","inLanguage":"my","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>ပြဿနာက မင်းမဟုတ်ဘူး။<br><em>နည်းလမ်းပဲ။</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>ရေးလို့ ပြောတယ်။</p>
+        <p>ကြည့်လို့ ပြောတယ်။</p>
         <p>ထပ်လုပ်။</p>
-        <p>ထပ်ကူးရေး။</p>
+        <p>ထပ်ကြည့်။</p>
         <p>အလွတ်ကျက်။</p>
-        <p>နောက်တစ်ခါ ထပ်လုပ်။</p>
         <p class="blame-turn">နောက်ဆုံး မှတ်မိပြီလို့ ထင်တဲ့အချိန်မှာ…</p>
         <p class="delete-line">မင်းရဲ့မှတ်ဉာဏ်က နှိပ်လိုက်တာက <span>ဖျက်မည်</span>။</p>
         <p>မင်း မတော်လို့ မဟုတ်ဘူး။<br>ဦးနှောက်က ဒီလိုပဲ အလုပ်လုပ်လို့။</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">တချို့က ချက်ချင်းရတယ်။</p>
       <p class="card-aside aside-two">တချို့အတွက်တော့ အားထုတ်ရတယ်။</p>
-      <p class="card-aside aside-three">စုဆောင်းမှုတွေ လာပြီး ပြန်သွားတယ်။ ဒါတွေက ကျန်တယ်။</p>
+      <p class="card-aside aside-three">သာမန် flashcard တွေ မဟုတ်ဘူး။</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>6,000+ ကတ်။</strong> ပထမဆုံး kanji ကနေ N1 အထိ။</p>
           <p><strong>ကွစ်ဇ် 16 မျိုး။</strong> ရေးခြင်း၊ နားထောင်ရေး၊ shadowing နဲ့ အများကြီး။</p>
-          <p><strong>ဇာတ်လမ်း၊ SRS၊ မစ်ရှင်၊ တိုက်ပွဲ၊ စာရင်းအင်း။</strong> ပြည့်စုံတဲ့ စနစ်။</p>
+          <p><strong>ဇာတ်လမ်း၊ SRS၊ မစ်ရှင်၊ တိုက်ပွဲ၊ စာရင်းအင်း...</strong> ပြည့်စုံတဲ့ စနစ်။</p>
         </div>
         <p class="jlpt-final">နည်းလမ်း အသင့်ပဲ။ လမ်းက မင်းပိုင်တယ်။<br><strong>ကြိုက်သလို အသုံးချ။</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

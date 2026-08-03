@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="../styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"kn"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/kn/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"kanji ಯನ್ನು ಸಂಗ್ರಹಿಸಬಹುದಾದ ಕಾರ್ಡ್‌ಗಳಾಗಿ ಬದಲಿಸು. JLPT N5 ರಿಂದ N1 ವರೆಗೆ ಕ್ವಿಜ್, ಕಥೆ, battle ಮತ್ತು spaced repetition. ವಿಧಾನ serious. App ಮಾತ್ರ ಅಲ್ಲ.","inLanguage":"kn","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>ತಪ್ಪು ನಿನ್ನದಲ್ಲ.<br><em>ವಿಧಾನದ್ದು.</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>ಬರೆ ಎನ್ನುತ್ತಾರೆ.</p>
+        <p>ನೋಡು ಎನ್ನುತ್ತಾರೆ.</p>
         <p>ಪುನರಾವರ್ತಿಸು.</p>
-        <p>ಮತ್ತೆ ನಕಲಿಸು.</p>
+        <p>ಮತ್ತೆ ನೋಡು.</p>
         <p>ಬಾಯಿಪಾಠ ಮಾಡು.</p>
-        <p>ಇನ್ನೊಮ್ಮೆ ಪುನರಾವರ್ತಿಸು.</p>
         <p class="blame-turn">ಕೊನೆಗೂ ಕಲಿತೆ ಎಂದುಕೊಂಡಾಗ…</p>
         <p class="delete-line">ನೆನಪು ಒತ್ತುವುದು <span>Delete</span>.</p>
         <p>ನಿನಗೆ ಬರಲ್ಲ ಅಂತಲ್ಲ.<br>ಮೆದುಳು ಕೆಲಸ ಮಾಡುವುದೇ ಹಾಗೆ.</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">ಕೆಲವು ತಕ್ಷಣ ಸಿಗುತ್ತವೆ.</p>
       <p class="card-aside aside-two">ಇನ್ನು ಕೆಲವು ಬೆವರು ಹರಿಸುತ್ತವೆ.</p>
-      <p class="card-aside aside-three">ಕಲೆಕ್ಷನ್‌ಗಳು ಬಂದು ಹೋಗುತ್ತವೆ. ಈ kanji ಮಾತ್ರ ಉಳಿಯುತ್ತವೆ.</p>
+      <p class="card-aside aside-three">ಇವು ಸಾಮಾನ್ಯ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳಲ್ಲ.</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>6,000+ ಕಾರ್ಡ್‌ಗಳು.</strong> ಮೊದಲ kanji ಯಿಂದ N1 ವರೆಗೆ.</p>
           <p><strong>16 ಕ್ವಿಜ್ ವಿಧಗಳು.</strong> ಬರವಣಿಗೆ, dictation, shadowing ಮತ್ತು ಇನ್ನಷ್ಟು.</p>
-          <p><strong>ಕಥೆಗಳು, SRS, ಮಿಷನ್‌ಗಳು, battle-ಗಳು, ಅಂಕಿಅಂಶಗಳು.</strong> ಸಂಪೂರ್ಣ system.</p>
+          <p><strong>ಕಥೆಗಳು, SRS, ಮಿಷನ್‌ಗಳು, battle-ಗಳು, ಅಂಕಿಅಂಶಗಳು...</strong> ಸಂಪೂರ್ಣ system.</p>
         </div>
         <p class="jlpt-final">ವಿಧಾನ ಸಿದ್ಧ. ದಾರಿ ನಿನ್ನದು.<br><strong>ನಿನಗೆ ಬೇಕಾದಂತೆ ಬಳಸು.</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="../styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"si"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/si/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"kanji එකතු කළ හැකි කාඩ් බවට පත් කරන්න. JLPT N5 සිට N1 දක්වා ප්‍රශ්නාවලි, කතා, සටන් සහ කාල පරතර පුනරාවර්තනය. ක්‍රමය බැරෑරුම්. app එක එච්චරම නැහැ.","inLanguage":"si","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>ප්‍රශ්නය ඔයා නෙවෙයි.<br><em>ක්‍රමයයි.</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>ලියන්න කියනවා.</p>
+        <p>බලන්න කියනවා.</p>
         <p>නැවත කරන්න.</p>
-        <p>ආයෙත් පිටපත් කරන්න.</p>
+        <p>ආයෙත් බලන්න.</p>
         <p>කටපාඩම් කරන්න.</p>
-        <p>තවත් වතාවක් කරන්න.</p>
         <p class="blame-turn">අන්තිමට ඉගෙනගත්තා කියලා හිතන වෙලාවෙම…</p>
         <p class="delete-line">ඔයාගේ මතකය ඔබන්නේ <span>මකන්න</span>.</p>
         <p>ඔයාට බැරි නිසා නෙවෙයි.<br>මොළය වැඩ කරන්නේ එහෙමයි.</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">සමහර ඒවා එකපාරටම එනවා.</p>
       <p class="card-aside aside-two">සමහර ඒවාට මහන්සි වෙන්න වෙනවා.</p>
-      <p class="card-aside aside-three">එකතු වෙනස් වෙනවා. මේවා ඉතුරු වෙනවා.</p>
+      <p class="card-aside aside-three">සාමාන්‍ය flashcard නෙවෙයි.</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>6,000+ කාඩ්.</strong> පළමු kanji එකෙන් N1 දක්වා.</p>
           <p><strong>ප්‍රශ්නාවලි වර්ග 16ක්.</strong> ලිවීම, අසා ලිවීම, shadowing සහ තවත් ගොඩක්.</p>
-          <p><strong>කතා, SRS, මෙහෙයුම්, සටන්, සංඛ්‍යාලේඛන.</strong> සම්පූර්ණ පද්ධතිය.</p>
+          <p><strong>කතා, SRS, මෙහෙයුම්, සටන්, සංඛ්‍යාලේඛන...</strong> සම්පූර්ණ පද්ධතිය.</p>
         </div>
         <p class="jlpt-final">ක්‍රමය සූදානම්. පාර ඔයාගේ.<br><strong>කැමති විදිහට පාවිච්චි කරන්න.</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

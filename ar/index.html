@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="../styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"ar"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/ar/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"حوّل الكانجي إلى بطاقات تجمعها. اختبارات وقصص ومعارك وتكرار متباعد من JLPT N5 إلى N1. الطريقة جادة. التطبيق أقل جدية بقليل.","inLanguage":"ar","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>المشكلة ليست فيك.<br><em>بل في الطريقة.</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>يقولون لك: اكتب.</p>
+        <p>يقولون لك: انظر.</p>
         <p>كرّر.</p>
-        <p>انسخ من جديد.</p>
+        <p>انظر من جديد.</p>
         <p>احفظ.</p>
-        <p>ثم كرّر مرة أخرى.</p>
         <p class="blame-turn">وحين تظن أخيرًا أنك تعلمته…</p>
         <p class="delete-line">تضغط ذاكرتك على <span>حذف</span>.</p>
         <p>ليس لأنك سيئ في هذا.<br>بل لأن الدماغ يعمل هكذا.</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">بعضها يأتي فورًا.</p>
       <p class="card-aside aside-two">وبعضها يجعلك تنتظر.</p>
-      <p class="card-aside aside-three">المجموعات تزول. هذه الكانجي تبقى.</p>
+      <p class="card-aside aside-three">ليست بطاقاتك التعليمية المعتادة.</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>+6,000 بطاقة.</strong> من أول كانجي حتى N1.</p>
           <p><strong>16 نوعًا من الاختبارات.</strong> كتابة وإملاء وشادوينغ وأكثر بكثير.</p>
-          <p><strong>قصص وSRS ومهام ومعارك وإحصاءات.</strong> منظومة متكاملة.</p>
+          <p><strong>قصص وSRS ومهام ومعارك وإحصاءات...</strong> منظومة متكاملة.</p>
         </div>
         <p class="jlpt-final">الطريقة جاهزة. والطريق لك.<br><strong>افعل بها ما تريد.</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

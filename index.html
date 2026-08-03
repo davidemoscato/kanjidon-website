@@ -65,7 +65,7 @@
   <link rel="icon" href="https://kanjidon.com/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="https://kanjidon.com/apple-touch-icon.png">
   <link rel="manifest" href="https://kanjidon.com/site.webmanifest">
-  <link rel="stylesheet" href="styles.css?v=20260801-mobile-artwork-v2">
+  <link rel="stylesheet" href="styles.css?v=20260804-review-swipe">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"en"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"Turn Japanese kanji into collectible cards. Quizzes, stories, battles, and spaced repetition from JLPT N5 to N1. Serious method. Less serious app.","inLanguage":"en","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260801-google-consent-v2" defer></script>
   <script src="/conversion.js?v=20260801-google-store-conversion" defer></script>
@@ -142,11 +142,10 @@
         <h2>It's not you.<br><em>It's the method.</em></h2>
       </div>
       <div class="blame-copy reveal">
-        <p>They tell you to write.</p>
+        <p>They tell you to look.</p>
         <p>Repeat.</p>
-        <p>Copy it again.</p>
+        <p>Look again.</p>
         <p>Memorize.</p>
-        <p>Repeat again.</p>
         <p class="blame-turn">And just when you think you've finally learned it…</p>
         <p class="delete-line">your memory hits <span>Delete</span>.</p>
         <p>Not because you're bad at this.<br>Because that's how the brain works.</p>
@@ -186,7 +185,7 @@
       </div>
       <p class="card-aside aside-one">Some show up right away.</p>
       <p class="card-aside aside-two">Others make you work for them.</p>
-      <p class="card-aside aside-three">Collections come and go. These stay.</p>
+      <p class="card-aside aside-three">Not your usual flashcards.</p>
     </section>
 
     <section class="three-acts">
@@ -362,7 +361,7 @@
         <div class="future-list">
           <p><strong>6,000+ cards.</strong> From your first kanji to N1.</p>
           <p><strong>16 quiz types.</strong> Handwriting, dictation, shadowing, and plenty more.</p>
-          <p><strong>Stories, SRS, missions, battles, stats.</strong> The complete system.</p>
+          <p><strong>Stories, SRS, missions, battles, stats...</strong> The complete system.</p>
         </div>
         <p class="jlpt-final">The method is ready. The path is yours.<br><strong>Do whatever you want with it.</strong></p>
       </div>
@@ -646,6 +645,10 @@
         const position = carousel.querySelector('[data-review-position]');
         const template = position.dataset.positionTemplate;
         let activeIndex = 0;
+        let swipePointerId = null;
+        let swipeStartX = 0;
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
 
         const updatePosition = (index) => {
           activeIndex = (index + slides.length) % slides.length;
@@ -672,6 +675,40 @@
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
           goTo(activeIndex + (event.key === 'ArrowRight' ? 1 : -1), true);
+        });
+
+        const resetSwipe = () => {
+          if (swipePointerId !== null && viewport.hasPointerCapture?.(swipePointerId)) {
+            viewport.releasePointerCapture(swipePointerId);
+          }
+          swipePointerId = null;
+        };
+
+        viewport.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' || !event.isPrimary) return;
+          swipePointerId = event.pointerId;
+          swipeStartX = event.clientX;
+          swipeStartY = event.clientY;
+          swipeStartTime = event.timeStamp;
+          viewport.setPointerCapture?.(event.pointerId);
+        });
+
+        viewport.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== swipePointerId) return;
+          const deltaX = event.clientX - swipeStartX;
+          const deltaY = event.clientY - swipeStartY;
+          const duration = Math.max(event.timeStamp - swipeStartTime, 1);
+          const horizontalDistance = Math.abs(deltaX);
+          const horizontalIntent = horizontalDistance > Math.abs(deltaY) * 1.2;
+          const distanceThreshold = Math.min(64, Math.max(36, viewport.clientWidth * 0.08));
+          const velocity = horizontalDistance / duration;
+          resetSwipe();
+          if (!horizontalIntent || (horizontalDistance < distanceThreshold && velocity < 0.45)) return;
+          goTo(activeIndex + (deltaX < 0 ? 1 : -1));
+        });
+
+        viewport.addEventListener('pointercancel', (event) => {
+          if (event.pointerId === swipePointerId) resetSwipe();
         });
 
         let scrollTimer;

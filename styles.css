@@ -2344,6 +2344,9 @@ footer {
   scroll-padding-inline: max(7vw, calc((100% - 760px) / 2));
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
+  overscroll-behavior-inline: contain;
+  touch-action: pan-y pinch-zoom;
+  -webkit-overflow-scrolling: touch;
 }
 
 .review-carousel-viewport::-webkit-scrollbar {
