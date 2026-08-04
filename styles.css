@@ -1,25 +1,25 @@
 @font-face {
   font-family: "Nunito";
-  src: url("assets/fonts/Nunito-Regular.ttf") format("truetype");
-  font-weight: 400;
+  src: url("assets/fonts/nunito-500.woff2") format("woff2");
+  font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("assets/fonts/Nunito-Bold.ttf") format("truetype");
+  src: url("assets/fonts/nunito-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("assets/fonts/Nunito-ExtraBold.ttf") format("truetype");
+  src: url("assets/fonts/nunito-800.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
-  font-display: swap;
+  font-display: optional;
 }
 
 :root {
@@ -86,6 +86,17 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.ecosystem,
+.stories-section,
+.stamps-section,
+.collector-dream,
+.jlpt-future,
+.testimonials,
+.final-cta {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
 }
 
 a {
@@ -3389,5 +3400,29 @@ body * {
   .collector-dream {
     min-height: 700px;
     padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-copy {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-actions {
+    order: 1;
+    margin-top: var(--space-l);
+  }
+
+  .hero-story {
+    order: 2;
+  }
+
+  .hero-proof {
+    order: 2;
+  }
+
+  .hero-product {
+    order: 3;
   }
 }
