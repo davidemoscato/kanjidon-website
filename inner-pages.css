@@ -688,6 +688,10 @@ body.challenger-inner {
   padding: clamp(28px, 4vw, 42px);
 }
 
+.challenger-inner .legal-identity-card {
+  text-align: center;
+}
+
 @media (max-width: 520px) {
   .challenger-inner .legal-contact {
     padding: 22px;
