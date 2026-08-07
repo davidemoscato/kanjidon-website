@@ -650,6 +650,11 @@ body.challenger-inner {
   color: var(--challenger-muted);
 }
 
+.challenger-inner .legal-content address {
+  color: var(--challenger-muted);
+  font-style: normal;
+}
+
 .challenger-inner .legal-content a {
   color: var(--challenger-orange);
   font-weight: 700;
@@ -677,6 +682,16 @@ body.challenger-inner {
   background: var(--challenger-surface);
   color: var(--challenger-text);
   box-shadow: none;
+}
+
+.challenger-inner .legal-contact {
+  padding: clamp(28px, 4vw, 42px);
+}
+
+@media (max-width: 520px) {
+  .challenger-inner .legal-contact {
+    padding: 22px;
+  }
 }
 
 .challenger-inner .warning-box {
