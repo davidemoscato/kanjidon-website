@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
-  "name": "kanjidon-site",
+  "name": "kanjidon-410",
   "main": "./cloudflare/worker.js",
   "compatibility_date": "2026-08-16",
   "workers_dev": true,
