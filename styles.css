@@ -316,16 +316,6 @@ h2 em {
   transition: transform 120ms linear;
 }
 
-.hero-product::before {
-  position: absolute;
-  width: 88%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(219, 109, 61, 0.42) 0%, rgba(219, 109, 61, 0.2) 38%, transparent 72%);
-  content: "";
-  pointer-events: none;
-}
-
 .hero-phone {
   z-index: 2;
   width: min(360px, 61%);
@@ -373,7 +363,7 @@ h2 em {
   top: 4%;
   left: -12%;
   width: clamp(130px, 15vw, 240px);
-  opacity: 0.88;
+  opacity: 1;
   animation: dodon-drift 5.6s ease-in-out infinite;
 }
 
@@ -905,42 +895,6 @@ h2 em {
   z-index: 2;
   min-height: 520px;
   pointer-events: none;
-}
-
-.device-stage::before {
-  position: absolute;
-  z-index: 0;
-  top: 50%;
-  left: 50%;
-  width: 92%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(219, 109, 61, 0.34) 0%, rgba(219, 109, 61, 0.14) 42%, transparent 72%);
-  content: "";
-  opacity: 0.72;
-  transform: translate(-50%, -50%);
-}
-
-.device-stage-live::before {
-  top: 48%;
-  left: 54%;
-  width: 112%;
-  opacity: 1;
-}
-
-.device-stage-missions::before {
-  top: 42%;
-  left: 38%;
-}
-
-.device-stage-league::before {
-  top: 40%;
-  left: 62%;
-}
-
-.device-stage-streak::before {
-  top: 42%;
-  left: 38%;
 }
 
 .feature-phone {
@@ -2212,30 +2166,21 @@ footer {
 
 }
 
-/* Founder review pass: stronger product light, safer spacing, cleaner staging. */
+/* Founder review pass: safer spacing and cleaner staging. */
 .hero::before {
-  background:
-    radial-gradient(circle at 78% 34%, rgba(219, 109, 61, 0.34), transparent 34%),
-    radial-gradient(circle at 12% 82%, rgba(144, 85, 192, 0.14), transparent 28%),
-    var(--ink);
+  background: var(--ink);
 }
 
 .pack-origin {
-  background:
-    radial-gradient(circle at 24% 50%, rgba(219, 109, 61, 0.3), transparent 32%),
-    var(--ink-soft);
+  background: var(--ink-soft);
 }
 
 .tile-live {
-  background:
-    radial-gradient(circle at 78% 42%, rgba(219, 109, 61, 0.36), transparent 38%),
-    var(--ink);
+  background: var(--ink);
 }
 
 .final-cta {
-  background:
-    radial-gradient(circle at 78% 78%, rgba(219, 109, 61, 0.32), transparent 34%),
-    var(--ink);
+  background: var(--ink);
 }
 
 .section-index,
@@ -3272,7 +3217,7 @@ body * {
     display: block;
     width: clamp(118px, 32vw, 170px);
     margin: 0;
-    opacity: 0.96;
+    opacity: 1;
   }
 
   .tile-live h3 {
