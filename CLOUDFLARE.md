@@ -19,12 +19,34 @@ Before a release, test the generated `workers.dev` URL for:
 - a known retired path (`410` plus `noindex`);
 - the `www` to apex redirect on the production hostname.
 
-## Deploy and cut over
+## Deploy
 
-Deploy `kanjidon-site` without a production route first. Attach
-`kanjidon.com/*` only after the preview checks pass. Keep the previous
-`kanjidon-410` deployment available during the observation window so the route
-can be moved back without changing DNS.
+The production Worker is `kanjidon-410`; it already owns the `kanjidon.com`
+custom domain. A Git push does not deploy Cloudflare. Upload and verify a
+version before promoting it:
+
+```sh
+pnpm cf:build
+pnpm exec wrangler versions upload \
+  --preview-alias candidate \
+  --message "Deploy <commit>: <summary>"
+
+pnpm exec wrangler versions deploy \
+  "<VERSION_ID>@100" \
+  --name kanjidon-410 \
+  --message "Production <commit>" \
+  --yes
+```
+
+After promotion, repeat the checks on `https://kanjidon.com` and verify the
+`www` redirect. Roll back Worker and assets together with:
+
+```sh
+pnpm exec wrangler rollback <PREVIOUS_VERSION_ID> \
+  --name kanjidon-410 \
+  --message "Rollback <commit>" \
+  --yes
+```
 
 Email DNS records are unrelated to the Worker route and must not be edited as
 part of a website release.
