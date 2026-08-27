@@ -52,7 +52,7 @@
         <div class="container">
             <article class="legal-content">
                 <h1>Privacy Policy</h1>
-                <p class="legal-meta">Last updated: August 1, 2026 | Version 3.3</p>
+                <p class="legal-meta">Last updated: August 27, 2026 | Version 3.5</p>
 
                 <section>
                     <h2>Plain-language summary</h2>
@@ -106,10 +106,10 @@
                     <h3>3.5 Device, notifications, diagnostics, and analytics</h3>
                     <ul>
                         <li>App version, platform, device and operating-system information, security logs, failures, and performance information.</li>
-                        <li>Firebase installation or app-instance identifiers, a pseudonymous account identifier after sign-in, screens and app interactions, gameplay events, and purchase events used for analytics.</li>
+                        <li>A PostHog pseudonymous device identifier, a pseudonymous account identifier after sign-in, screens and app interactions, gameplay events, and purchase events used for analytics.</li>
                         <li>Firebase Cloud Messaging token, language, notification preferences, and delivery status.</li>
                     </ul>
-                    <p>Analytics data is <strong>pseudonymous, not necessarily anonymous</strong>. Kanjidon enables Firebase Analytics in release builds. We use it to understand feature use, stability, and purchase flows.</p>
+                    <p>Analytics data is <strong>pseudonymous, not anonymous</strong>. PostHog product analytics is optional and disabled until you make an explicit choice in the app. If you consent, Kanjidon sends curated, low-cardinality events to PostHog's EU infrastructure in Germany using a pseudonymous device identifier and, after sign-in, your pseudonymous account identifier. IP anonymization is enabled. Session replay, surveys, automatic push-token registration, automatic push-open capture, message contents, notes, email addresses, and push tokens are not sent to PostHog. The same consent gates app events and server-side subscription and notification-category events. You can withdraw consent at any time in Settings → Privacy; future collection then stops and the local analytics identity is reset.</p>
 
                     <h3>3.5.1 Website advertising measurement</h3>
                     <p>If you consent on an indexable public marketing page, the website loads the Reddit Pixel and Google tag. Reddit receives a <code>PageVisit</code> event; rules configured in Reddit Events Manager may also send <code>ViewContent</code> events for selected download, feature, or navigation controls. The Google tag supports Google Ads campaign measurement; when you click a Kanjidon App Store or Google Play link, that outbound store click may be recorded as a Google Ads conversion. Advertising tools may process page visits, referral and campaign parameters, browser or device information, IP-derived information, advertising identifiers, and advertising cookies or similar technologies. These events do not confirm that you installed the app. We do not send your Kanjidon account email, profile, learning data, purchase data, or form contents through these advertising tools.</p>
@@ -155,8 +155,8 @@
                     <h2>5. Why we process data</h2>
                     <ul>
                         <li><strong>Contract (Article 6(1)(b) GDPR):</strong> account access, cloud synchronization, learning features, purchases, optional community functions you use, battles, and support requested by you.</li>
-                        <li><strong>Legitimate interests (Article 6(1)(f) GDPR):</strong> service security, abuse and fraud prevention, fair competition, product improvement, diagnostics, pseudonymous analytics, community operation, Live, aggregated statistics, and essential service communications.</li>
-                        <li><strong>Consent (Article 6(1)(a) GDPR):</strong> marketing communications, Reddit and Google advertising measurement and audience creation on the website, and other optional processing where we specifically request consent. Device permission and your notification choices also control push delivery.</li>
+                        <li><strong>Legitimate interests (Article 6(1)(f) GDPR):</strong> service security, abuse and fraud prevention, fair competition, essential diagnostics, community operation, Live, aggregated statistics, and essential service communications.</li>
+                        <li><strong>Consent (Article 6(1)(a) GDPR):</strong> optional PostHog product analytics, marketing communications, Reddit and Google advertising measurement and audience creation on the website, and other optional processing where we specifically request consent. Device permission and your notification choices also control push delivery.</li>
                         <li><strong>Legal obligations (Article 6(1)(c) GDPR):</strong> accounting, tax, lawful authority requests, and obligations that apply to platform safety or illegal content.</li>
                         <li><strong>Legal claims (Article 6(1)(f) GDPR):</strong> establishing, exercising, or defending legal rights.</li>
                     </ul>
@@ -167,8 +167,9 @@
                     <h2>6. Who receives data</h2>
                     <ul>
                         <li><strong>Other signed-in Kanjidon users:</strong> the Live, profile, leaderboard, showcase, friendship, and battle information described above.</li>
-                        <li><strong>Supabase:</strong> authentication, database, storage, realtime, and Edge Functions. The primary Kanjidon database is hosted in the EU West (Paris) region.</li>
-                        <li><strong>Google and Firebase:</strong> Google sign-in, Analytics, Cloud Messaging, Remote Config, Android speech recognition where provided by the device, and Google Ads measurement on public marketing pages only after website consent. Google processes advertising data under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and applicable advertising terms.</li>
+                        <li><strong>Supabase:</strong> authentication, database, storage, realtime, Edge Functions, runtime configuration, and in-app announcements. The primary Kanjidon database is hosted in the EU West (Paris) region.</li>
+                        <li><strong>PostHog:</strong> consented pseudonymous product analytics processed in its EU infrastructure in Germany, with IP anonymization enabled and session replay disabled. Limited account and support administration may involve processing outside the EEA under PostHog's applicable transfer safeguards.</li>
+                        <li><strong>Google and Firebase:</strong> Google sign-in, Cloud Messaging, legacy Remote Config compatibility during the rollout, Android speech recognition where provided by the device, and Google Ads measurement on public marketing pages only after website consent. Google processes advertising data under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and applicable advertising terms.</li>
                         <li><strong>Apple:</strong> Sign in with Apple, App Store distribution, purchases, subscription processing, and Apple speech recognition where provided by the device.</li>
                         <li><strong>Google Play:</strong> distribution, purchases, subscriptions, and receipt validation.</li>
                         <li><strong>Brevo:</strong> transactional, operational, support, report, and consented marketing email delivery.</li>
@@ -194,7 +195,8 @@
                         <li><strong>Purchases:</strong> for the period required for subscription management, fraud prevention, accounting, tax, and legal obligations.</li>
                         <li><strong>FCM tokens:</strong> until replaced, invalidated, no longer needed, or the account is deleted.</li>
                         <li><strong>Shadowing voice samples and transcripts:</strong> not retained in Kanjidon's backend; they are used for the current recognition request and exercise. Platform-provider handling is governed by the provider and device settings.</li>
-                        <li><strong>Analytics and technical logs:</strong> according to the configured provider retention and for no longer than reasonably necessary for measurement, reliability, and security.</li>
+                        <li><strong>Product analytics:</strong> retained in PostHog for 12 months under the current project configuration.</li>
+                        <li><strong>Technical and security logs:</strong> according to the configured provider retention and for no longer than reasonably necessary for reliability and security.</li>
                         <li><strong>Website advertising measurement:</strong> your website consent choice remains in local browser storage until you change it, clear browser storage, or we replace it after a material consent change. Reddit and Google retain advertising measurement data according to their configured settings and applicable policies.</li>
                         <li><strong>Marketing:</strong> until consent is withdrawn, plus minimal suppression information needed to respect the opt-out.</li>
                     </ul>
@@ -205,7 +207,7 @@
                     <h2>9. Your rights and choices</h2>
                     <p>Depending on the circumstances, you may request access, rectification, erasure, restriction, or portability of your personal data; object to processing based on legitimate interests; and withdraw consent without affecting earlier lawful processing.</p>
                     <ul>
-                        <li>Use the in-app profile and settings controls for available profile, online-status, battle-request, notification, block, and account-deletion choices.</li>
+                        <li>Use the in-app profile and settings controls for available profile, online-status, battle-request, notification, analytics-consent, block, and account-deletion choices.</li>
                         <li>Email <a href="mailto:info@kanjidon.com?subject=%5BPRIVACY%5D">info@kanjidon.com</a> from your registered address for other requests, including a Live objection.</li>
                         <li>Use the unsubscribe link in a marketing email to stop marketing messages.</li>
                         <li>Use the control below to review, reject, or withdraw consent for the Reddit Pixel and Google tag. Withdrawing consent stops future advertising-tool loading and clears accessible advertising cookies where possible.</li>
