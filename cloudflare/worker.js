@@ -1736,6 +1736,7 @@ const FANTASMA_URLS = new Set([
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    const isCanonicalHost = url.hostname === "kanjidon.com" || url.hostname === "www.kanjidon.com";
 
     // In produzione www deve convergere sull'apex preservando path e query.
     if (url.hostname === "www.kanjidon.com") {
@@ -1773,6 +1774,8 @@ export default {
     response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
     response.headers.set("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
     response.headers.set("Content-Security-Policy", "frame-ancestors 'self'");
+
+    if (!isCanonicalHost) response.headers.set("X-Robots-Tag", "noindex, nofollow");
 
     if (pathname.startsWith("/go/")) {
       response.headers.set("Cache-Control", "no-store");

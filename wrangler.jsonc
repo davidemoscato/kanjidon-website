@@ -3,7 +3,7 @@
   "name": "kanjidon-410",
   "main": "./cloudflare/worker.js",
   "compatibility_date": "2026-08-16",
-  "workers_dev": true,
+  "workers_dev": false,
   "preview_urls": true,
   "assets": {
     "directory": "./.cloudflare-assets",

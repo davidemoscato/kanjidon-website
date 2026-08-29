@@ -30,7 +30,7 @@
   --paper: #faf9f6;
   --paper-muted: rgba(255, 255, 255, 0.7);
   --orange: #db6d3d;
-  --orange-dark: #c65326;
+  --orange-dark: #bc4b22;
   --acid: #faf9f6;
   --blue: #9055c0;
   --line: rgba(255, 255, 255, 0.18);
@@ -2720,7 +2720,7 @@ footer {
   justify-content: center;
   gap: var(--space-m);
   padding: var(--space-s) max(var(--space-m), env(safe-area-inset-left));
-  background: var(--orange);
+  background: var(--orange-dark);
   color: var(--paper);
   font-size: 15px;
   font-weight: 700;

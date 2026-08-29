@@ -37,6 +37,10 @@
   Cache-Control: public, max-age=0, must-revalidate
 /inner-theme.js
   Cache-Control: public, max-age=0, must-revalidate
+/memory-check.css
+  Cache-Control: public, max-age=0, must-revalidate
+/memory-check.js
+  Cache-Control: public, max-age=0, must-revalidate
 /lang-banner.js
   Cache-Control: public, max-age=0, must-revalidate
 /conversion.js

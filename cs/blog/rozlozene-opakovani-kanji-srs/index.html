@@ -19,10 +19,9 @@
         @font-face{font-family:'Nunito Fallback';src:local('BlinkMacSystemFont'),local('Segoe UI'),local('Arial');size-adjust:100.9%;ascent-override:99%;descent-override:22%;line-gap-override:0%}
     </style>
 
-    <title>Rozložené opakování pro kanji: jak SRS opravdu funguje | Kanjidon</title>
-    <meta name="description" content="Jak spaced repetition ukládá kanji do dlouhodobé paměti. Křivka zapomínání, vhodné intervaly a praktické tipy pro SRS.">
-    <meta name="keywords" content="spaced repetition, SRS kanji, pamatovat si kanji, kanji kartičky, metoda studia japonštiny">
-    <meta name="author" content="David, Kanjidon Team">
+    <title>Rozložené opakování kanji: adaptivní SRS | Kanjidon</title>
+    <meta name="description" content="Zjisti, jak SRS přizpůsobuje intervaly odpovědím, co neumí předpovědět a jak ho doplnit vybavováním, slovy a četbou.">
+    <meta name="author" content="Kanjidon Team">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://kanjidon.com/cs/blog/rozlozene-opakovani-kanji-srs/">
 
@@ -37,10 +36,6 @@
     <link rel="alternate" hreflang="zh" href="https://kanjidon.com/zh/blog/jiange-chongfu-xuexi-hanji/">
     <link rel="alternate" hreflang="zh-TW" href="https://kanjidon.com/zh-tw/blog/jiange-fuxi-hanji/">
     <link rel="alternate" hreflang="ar" href="https://kanjidon.com/ar/blog/altikrar-almutabaaid-kanji/">
-    <link rel="alternate" hreflang="th" href="https://kanjidon.com/th/blog/jlpt-wan-longthbian-khaichai/">
-    <link rel="alternate" hreflang="vi" href="https://kanjidon.com/vi/blog/jlpt-lich-thi-dang-ky-phi/">
-    <link rel="alternate" hreflang="id" href="https://kanjidon.com/id/blog/jlpt-jadwal-pendaftaran-biaya/">
-    <link rel="alternate" hreflang="tr" href="https://kanjidon.com/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/">
     <link rel="alternate" hreflang="mn" href="https://kanjidon.com/mn/blog/srs-kanji-ajilladag/">
     <link rel="alternate" hreflang="ro" href="https://kanjidon.com/ro/blog/srs-pentru-kanji/">
     <link rel="alternate" hreflang="bg" href="https://kanjidon.com/bg/blog/srs-za-kanji/">
@@ -63,26 +58,22 @@
     <link rel="alternate" hreflang="cs" href="https://kanjidon.com/cs/blog/rozlozene-opakovani-kanji-srs/">
     <link rel="alternate" hreflang="x-default" href="https://kanjidon.com/blog/spaced-repetition-kanji/">
 
-    <meta property="og:title" content="Rozložené opakování pro kanji: jak SRS opravdu funguje">
-    <meta property="og:description" content="Jak spaced repetition ukládá kanji do dlouhodobé paměti. Křivka zapomínání, vhodné intervaly a praktické tipy pro SRS.">
+    <meta property="og:title" content="Rozložené opakování kanji: adaptivní SRS">
+    <meta property="og:description" content="Zjisti, jak SRS přizpůsobuje intervaly odpovědím, co neumí předpovědět a jak ho doplnit vybavováním, slovy a četbou.">
     <meta property="og:image" content="https://kanjidon.com/assets/images/og-image-wide.c3aa8cbc.png">
     <meta property="og:url" content="https://kanjidon.com/cs/blog/rozlozene-opakovani-kanji-srs/">
     <meta property="og:type" content="article">
+    <meta property="og:locale" content="cs_CZ">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rozložené opakování pro kanji: jak SRS opravdu funguje">
-    <meta name="twitter:description" content="Jak spaced repetition ukládá kanji do dlouhodobé paměti. Křivka zapomínání, vhodné intervaly a praktické tipy pro SRS.">
+    <meta name="twitter:title" content="Rozložené opakování kanji: adaptivní SRS">
+    <meta name="twitter:description" content="Zjisti, jak SRS přizpůsobuje intervaly odpovědím, co neumí předpovědět a jak ho doplnit vybavováním, slovy a četbou.">
 
     <link rel="icon" type="image/png" href="https://kanjidon.com/assets/images/icona.png">
     <link rel="apple-touch-icon" href="https://kanjidon.com/assets/images/icona.png">
-    <!-- Kanjidon adaptive theme -->
-    <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#1C1C1E" data-kanjidon-theme>
-    <script src="../../../inner-theme.js"></script>
-    <!-- /Kanjidon adaptive theme -->
     <link rel="stylesheet" href="../../../inner-base.css">
-    <link rel="stylesheet" href="../../../inner-adaptive.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Rozložené opakování pro kanji: jak SRS opravdu funguje","description":"Jak spaced repetition ukládá kanji do dlouhodobé paměti. Křivka zapomínání, vhodné intervaly a praktické tipy pro SRS.","author":{"@type":"Person","name":"David","jobTitle":"Kanjidon Team","affiliation":{"@id":"https://kanjidon.com/#organization","name":"Kanjidon"}},"publisher":{"@type":"Organization","name":"Kanjidon","logo":{"@type":"ImageObject","url":"https://kanjidon.com/assets/images/icona.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://kanjidon.com/cs/blog/rozlozene-opakovani-kanji-srs/"},"datePublished":"2025-12-24","dateModified":"2025-12-24","image":{"@type":"ImageObject","url":"https://kanjidon.com/assets/images/og-image-wide.c3aa8cbc.png","width":1200,"height":630}}</script>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Rozložené opakování kanji: adaptivní SRS","description":"Zjisti, jak SRS přizpůsobuje intervaly odpovědím, co neumí předpovědět a jak ho doplnit vybavováním, slovy a četbou.","author":{"@type":"Organization","name":"Kanjidon Team","url":"https://kanjidon.com/about.html"},"publisher":{"@type":"Organization","name":"Kanjidon","logo":{"@type":"ImageObject","url":"https://kanjidon.com/assets/images/icona.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://kanjidon.com/cs/blog/rozlozene-opakovani-kanji-srs/"},"datePublished":"2026-01-29","dateModified":"2026-08-29","image":{"@type":"ImageObject","url":"https://kanjidon.com/assets/images/og-image-wide.c3aa8cbc.png","width":1200,"height":630}}</script>
     <script type="application/ld+json">
 {
         "@context": "https://schema.org",
@@ -91,8 +82,8 @@
                 {
                         "@type": "ListItem",
                         "position": 1,
-                        "name": "Home",
-                        "item": "https://kanjidon.com/"
+                        "name": "Domů",
+                        "item": "https://kanjidon.com/cs/"
                 },
                 {
                         "@type": "ListItem",
@@ -103,7 +94,7 @@
                 {
                         "@type": "ListItem",
                         "position": 3,
-                        "name": "Rozložené opakování pro kanji: jak SRS opravdu funguje",
+                        "name": "Rozložené opakování kanji: adaptivní SRS",
                         "item": "https://kanjidon.com/cs/blog/rozlozene-opakovani-kanji-srs/"
                 }
         ]
@@ -116,8 +107,8 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Rozložené opakování pro kanji: jak SRS opravdu funguje | Kanjidon">
-    <meta name="twitter:image:alt" content="Rozložené opakování pro kanji: jak SRS opravdu funguje | Kanjidon">
+    <meta property="og:image:alt" content="Rozložené opakování kanji: adaptivní SRS | Kanjidon">
+    <meta name="twitter:image:alt" content="Rozložené opakování kanji: adaptivní SRS | Kanjidon">
 </head>
 <body class="challenger-inner" data-page-kind="article">
     <!-- Reading Progress Bar -->
@@ -129,9 +120,10 @@
                 <img src="https://kanjidon.com/assets/images/icona.png" alt="Kanjidon" class="logo-icon" width="1024" height="1024">
                 <span class="logo-text">Kanjidon</span>
             </a>
-            <nav class="nav-links">
+            <nav class="nav-links" aria-label="Hlavní navigace">
                 <a href="../index.html">Blog</a>
-                <a href="../../index.html#download" class="btn btn-primary btn-sm"><strong>Stáhnout</strong></a>
+                <a href="https://kanjidon.com/cs/kanji-memory-check/">Bezplatný test paměti kandži</a>
+                <a href="../../index.html#download" class="btn btn-primary btn-sm"><strong>Stáhnout zdarma</strong></a>
             </nav>
         </div>
     </header>
@@ -139,66 +131,59 @@
     <article class="blog-article">
         <div class="container">
             <!-- Breadcrumbs -->
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
-                <a href="../../index.html">Home</a>
+            <nav class="breadcrumbs" aria-label="Drobečková navigace">
+                <a href="../../index.html">Domů</a>
                 <span class="separator">›</span>
                 <a href="../index.html">Blog</a>
                 <span class="separator">›</span>
-                <span class="current">Rozložené opakování pro kanji: jak SRS opravdu funguje</span>
+                <span class="current">Rozložené opakování kanji: adaptivní SRS</span>
             </nav>
 
             <div class="article-header">
-                <h1>Rozložené opakování pro kanji: jak SRS opravdu funguje</h1>
+                <h1>Rozložené opakování kanji: adaptivní SRS</h1>
                 <div class="article-meta">
-                    <img src="https://kanjidon.com/assets/images/authors/author-david.webp" alt="David" class="author-avatar" width="1024" height="1024">
-                    <span class="author">Autor David, Kanjidon Team</span>
+                    <img src="https://kanjidon.com/assets/images/icona.png" alt="" class="author-avatar" width="1024" height="1024">
+                    <span class="author">Kanjidon Team</span>
                     <span class="meta-separator">·</span>
-                    <time class="publish-date" datetime="2025-12-24">24. 12. 2025</time>
-                    <span class="meta-separator">·</span>
-                    <span class="read-time">6 min</span>
+                    <time class="publish-date" datetime="2026-01-29">29. 1. 2026</time>
                 </div>
             </div>
 
             <div class="article-content">
-                <p class="article-intro">Jak si zapamatovat tisíce kanji, aniž bys každý týden začínal/a znovu? Odpověď je rozložené opakování: neopakovat co nejvíc, ale ve správný čas.</p>
+                <p class="article-intro">Rozložené opakování rozděluje procvičování v čase a přizpůsobuje ho tvým odpovědím. SRS pomáhá řídit pracovní zátěž, ale nepředpovídá přesný okamžik, kdy právě ty kanji zapomeneš.</p>
 <h2>Co je spaced repetition?</h2>
-<p>Spaced repetition je technika, kde se opakování postupně vzdalují. Kanji se objeví znovu těsně před tím, než bys ho zapomněl/a. Díky tomu trénuješ přesně slabá místa.</p>
+<p>Systém spaced repetition obvykle otestuje úspěšně vybavenou položku po delším intervalu a chybnou či nejistou odpověď dříve. Rozvrh je odhad z historie studia, ne měření osobních hodin zapomínání.</p>
 <h2>Křivka zapomínání</h2>
-<p>Bez opakování nové informace mizí rychle. Každé dobré opakování paměť posílí a prodlouží dobu do dalšího opakování. SRS tento proces automatizuje.</p>
-<ul><li>Den 1: nauč se nové kanji</li><li>Den 2: první opakování</li><li>Den 4: druhé opakování</li><li>Týden 2: delší interval</li><li>Později: návrat jen podle potřeby</li></ul>
+<p>Výzkum spacingu ukazuje, že rozložení procvičování v čase je důležité. Vhodný interval však závisí také na požadované době uchování a typu úkolu. Aktivní vybavení odpovědi se přitom liší od pouhého opětovného přečtení.</p>
+<ul><li>Odpověz na konkrétní otázku o tvaru, významu nebo čtení slova</li><li>Poctivě zhodnoť, zda byla odpověď správná a plynulá</li><li>Chybnou nebo nejistou odpověď vrať dříve</li><li>Po opakovaném úspěšném vybavení interval prodluž</li><li>Když roste fronta opakování, omez nové kartičky</li></ul>
 <h2>Proč je SRS ideální pro kanji</h2>
 <p>Kanji má tvar, význam a čtení. Jednu část můžeš znát a druhou zapomenout. Dobrý systém testuje dovednosti zvlášť a slabé části vrací častěji.</p>
 <h2>Praktické tipy</h2>
 <ul><li>Dělej krátké lekce každý den</li><li>Nepřidávej moc nových kanji najednou</li><li>U každého znaku se uč skutečná slova</li><li>Nenechávej všechna opakování na víkend</li></ul>
-<p>SRS není magie, ale odstraňuje hádání. Nemusíš řešit, co zopakovat: systém přivede správná kanji zpět ve správnou chvíli.</p>
+<p>SRS organizuje, co lze znovu otestovat, ale samo nevybere nejlepší slova ani příkladové věty. Proto mimo kartičky ověřuj, zda kanji ve skutečném slově a textu poznáš a rozumíš mu.</p>
+<h2>Co SRS odhaduje a co ne</h2>
+<p>Algoritmus počítá další interval z odpovědí, uplynulého času a někdy vlastního hodnocení. Obtížnost se může lišit podle dovednosti: rozpoznat tvar není totéž jako přečíst slovo nebo znak napsat zpaměti. Jednotlivé cíle proto testuj odděleně.</p>
+<h2>Primární výzkumné zdroje</h2>
+<ul class="article-sources"><li><a href="https://doi.org/10.1126/science.1152408" target="_blank" rel="noopener noreferrer">Karpicke a Roediger: experiment s vybavováním a opětovným studiem</a></li><li><a href="https://doi.org/10.1111/j.1467-9280.2008.02209.x" target="_blank" rel="noopener noreferrer">Cepeda a kolektiv: experiment s intervalem a dobou uchování</a></li></ul>
             </div>
 
             <section class="related-articles">
-                <h3>Mohlo by tě zajímat</h3>
+                <h3>Pokračovat ve čtení</h3>
                 <div class="related-grid">
                     
                     <a href="../jak-se-ucit-kanji/index.html" class="related-card">
-                        <h4>Jak se učit kanji: 5 metod, které opravdu fungují</h4>
-                        <span class="read-time">8 min</span>
-                    </a>
-                    <a href="../kolik-kanji-na-jlpt/index.html" class="related-card">
-                        <h4>Kolik kanji potřebuješ na JLPT? Počty pro N5, N4, N3, N2 a N1</h4>
-                        <span class="read-time">6 min</span>
-                    </a>
-                    <a href="../hiragana-katakana-kanji-rozdily/index.html" class="related-card">
-                        <h4>Hiragana vs katakana vs kanji: co se učit jako první?</h4>
-                        <span class="read-time">7 min</span>
+                        <h4>Jak se učit kanji: 5 udržitelných metod</h4>
                     </a>
                 </div>
             </section>
             <div class="article-cta">
-                <h3>Začni se učit kanji ještě dnes</h3>
+                <h3>Stáhnout Kanjidon</h3>
                 <div class="store-badges">
                     <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="store-badge">
-                        <img src="https://kanjidon.com/assets/images/app-store-badge.svg" alt="Stáhnout z App Storu" width="135" height="40">
+                        <img src="https://kanjidon.com/assets/images/app-store-badge.svg" alt="Stáhnout Kanjidon z App Storu" width="135" height="40">
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="store-badge">
-                        <img src="https://kanjidon.com/assets/images/google-play-badge.svg" alt="Získat na Google Play" width="135" height="40">
+                        <img src="https://kanjidon.com/assets/images/google-play-badge.svg" alt="Stáhnout Kanjidon z Google Play" width="135" height="40">
                     </a>
                 </div>
             </div>
@@ -209,37 +194,37 @@
         <div class="container footer-content">
             <div class="footer-brand">
                 <img src="https://kanjidon.com/assets/images/icona.png" alt="Kanjidon" class="footer-logo" width="1024" height="1024">
-                <p>Collect Cards. Remember Kanji.</p>
+                <p>Otevři. Sbírej. Pamatuj.</p>
             </div>
-            <div class="footer-links">
+            <div class="footer-links" aria-label="Odkazy v zápatí">
                 <div class="footer-col">
-                    <strong class="footer-heading">Resources</strong>
-                    <a href="../../../blog/index.html">Blog</a>
-                    <a href="../../../faq/index.html">FAQ</a>
+                    <strong class="footer-heading">Zdroje</strong>
+                    <a href="../index.html">Blog</a>
+                    <a href="../../faq/index.html">Časté dotazy</a>
                 </div>
                 <div class="footer-col">
-                    <strong class="footer-heading">Community</strong>
+                    <strong class="footer-heading">Komunita</strong>
                     <a href="https://discord.gg/sDZFJr4R8H" target="_blank" rel="noopener">Discord</a>
                     <a href="https://www.reddit.com/r/kanjidon/" target="_blank" rel="noopener">Reddit</a>
                 </div>
                 <div class="footer-col">
-                    <strong class="footer-heading">Legal</strong>
-                    <a href="../../../privacy.html">Privacy Policy</a>
-                    <a href="../../../terms.html">Terms of Service (EULA)</a>
+                    <strong class="footer-heading">Právní informace</strong>
+                    <a href="../../../privacy.html">Zásady ochrany osobních údajů</a>
+                    <a href="../../../terms.html">Podmínky služby</a>
                     <a href="../../legal.html" data-legal-notice>Právní informace</a>
-                    <a href="../../../delete.html">Delete Account</a>
+                    <a href="../../../delete.html">Smazat účet</a>
                 </div>
                 <div class="footer-col">
-                    <strong class="footer-heading">Support</strong>
-                    <a href="../../../about.html">About Us</a>
-                    <a href="../../../support.html">Help Center</a>
+                    <strong class="footer-heading">Podpora</strong>
+                    <a href="../../../about.html">O nás</a>
+                    <a href="../../../support.html">Centrum nápovědy</a>
                     <a href="mailto:info@kanjidon.com">info@kanjidon.com</a>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="footer-legal">
                     <p><strong>Kanjidon Team</strong></p>
-                    <p>VAT: IT01691020083</p>
+                    <p>DIČ IT01691020083</p>
                 </div>
                 <div class="language-selector">
                     <button class="language-btn" aria-label="Změnit jazyk">
@@ -412,7 +397,7 @@
                         </a>
                     </div>
                 </div>
-                <p class="footer-copy">&copy; 2026 Kanjidon. Všechna práva vyhrazena.</p>
+                <p class="footer-copy">© 2026 Kanjidon Team</p>
             </div>
         </div>
     </footer>
@@ -420,10 +405,10 @@
     <div class="sticky-download-bar" id="stickyDownload">
         <div class="sticky-download-bar-content">
             <a href="https://apps.apple.com/app/id6747951805" target="_blank" rel="noopener" class="sticky-badge">
-                <img src="https://kanjidon.com/assets/images/app-store-badge.svg" alt="Stáhnout z App Storu" width="135" height="40">
+                <img src="https://kanjidon.com/assets/images/app-store-badge.svg" alt="Stáhnout Kanjidon z App Storu" width="135" height="40">
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon" target="_blank" rel="noopener" class="sticky-badge">
-                <img src="https://kanjidon.com/assets/images/google-play-badge.svg" alt="Získat na Google Play" width="135" height="40">
+                <img src="https://kanjidon.com/assets/images/google-play-badge.svg" alt="Stáhnout Kanjidon z Google Play" width="135" height="40">
             </a>
         </div>
     </div>
