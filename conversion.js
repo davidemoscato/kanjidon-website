@@ -54,7 +54,7 @@
 
     document.querySelectorAll('[data-smart-download]').forEach(function (link) {
         if (platform) configureStoreLink(link, platform);
-        else link.href = '#download';
+        else link.href = link.dataset.desktopDownload || '#download';
     });
 
     // Editorial articles also link to third-party apps. Route and measure only Kanjidon.

@@ -41,6 +41,21 @@
   gap: 10px;
 }
 
+/* Match the homepage header CTA, without inheriting the legacy .btn styles. */
+.memory-check-header .memory-check-download {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--challenger-orange-fill);
+  color: var(--challenger-orange-ink);
+  font: 700 14px/1.4 "Nunito", system-ui, sans-serif;
+  text-decoration: none;
+}
+
 .memory-check-language {
   position: relative;
 }
