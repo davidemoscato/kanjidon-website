@@ -2301,8 +2301,16 @@ footer {
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   overscroll-behavior-inline: contain;
-  touch-action: pan-y pinch-zoom;
+  cursor: grab;
+  touch-action: pan-x pan-y pinch-zoom;
   -webkit-overflow-scrolling: touch;
+}
+
+.review-carousel-viewport.is-dragging {
+  cursor: grabbing;
+  scroll-behavior: auto;
+  scroll-snap-type: none;
+  user-select: none;
 }
 
 .review-carousel-viewport::-webkit-scrollbar {
