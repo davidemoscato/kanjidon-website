@@ -266,6 +266,10 @@ body.challenger-inner {
   flex-direction: column;
 }
 
+.challenger-inner .blog-card[hidden] {
+  display: none;
+}
+
 .challenger-inner .blog-card-featured {
   min-height: 420px;
   border-color: color-mix(in srgb, var(--challenger-orange-fill) 65%, var(--challenger-line));
