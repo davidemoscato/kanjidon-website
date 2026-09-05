@@ -57,11 +57,23 @@
         else link.href = '#download';
     });
 
+    // Editorial articles also link to third-party apps. Route and measure only Kanjidon.
+    function isKanjidonStoreLink(link, targetPlatform) {
+        try {
+            var url = new URL(link.href, window.location.href);
+            if (targetPlatform === 'ios') {
+                return url.hostname === 'apps.apple.com' && /\/id6747951805(?:\/|$)/.test(url.pathname);
+            }
+            return url.hostname === 'play.google.com' && url.pathname === '/store/apps/details'
+                && url.searchParams.get('id') === 'com.davidemoscato.kanjidon';
+        } catch (_) { return false; }
+    }
+
     document.querySelectorAll('a[href*="apps.apple.com"]').forEach(function (link) {
-        configureStoreLink(link, 'ios');
+        if (isKanjidonStoreLink(link, 'ios')) configureStoreLink(link, 'ios');
     });
 
     document.querySelectorAll('a[href*="play.google.com/store/apps/details"]').forEach(function (link) {
-        configureStoreLink(link, 'android');
+        if (isKanjidonStoreLink(link, 'android')) configureStoreLink(link, 'android');
     });
 })();
