@@ -2959,7 +2959,7 @@ html.is-desktop .download-qr {
 }
 
 .article-quote cite::before {
-    content: '— ';
+    content: ' ';
 }
 
 /* Responsive */
