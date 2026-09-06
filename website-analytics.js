@@ -31,7 +31,7 @@
     var started = false;
     var maxDepth = 0;
     function cleanPath(value) {
-        try { var url = new URL(value, location.href); return url.origin === location.origin ? url.pathname : ''; }
+        try { var url = new URL(value, location.href); return url.origin === location.origin ? url.pathname.replace(/\/index\.html$/, '/') : ''; }
         catch (_) { return ''; }
     }
     function source() {
@@ -102,7 +102,7 @@
         try { url = new URL(link.href, location.href); } catch (_) { return; }
         if (url.hostname === 'apps.apple.com' && /\/id6747951805(?:\/|$)/.test(url.pathname)) emit('store_click', 'ios');
         else if (url.hostname === 'play.google.com' && url.searchParams.get('id') === 'com.davidemoscato.kanjidon') emit('store_click', 'android');
-        else if (url.origin === location.origin && url.pathname !== location.pathname) emit('navigation_click', url.pathname);
+        else if (url.origin === location.origin && cleanPath(url.href) !== path) emit('navigation_click', cleanPath(url.href));
         else if (url.origin === location.origin && url.hash) emit('section_click');
         else if (url.protocol === 'https:' || url.protocol === 'http:') emit('outbound_click');
     });
