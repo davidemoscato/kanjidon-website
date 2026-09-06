@@ -1,0 +1,3477 @@
+{
+  "/": {
+    "article": "",
+    "locale": "en",
+    "kind": "page"
+  },
+  "/about.html": {
+    "article": "",
+    "locale": "en",
+    "kind": "page"
+  },
+  "/ar/": {
+    "article": "",
+    "locale": "ar",
+    "kind": "page"
+  },
+  "/ar/about.html": {
+    "article": "",
+    "locale": "ar",
+    "kind": "page"
+  },
+  "/ar/blog/": {
+    "article": "",
+    "locale": "ar",
+    "kind": "blog"
+  },
+  "/ar/blog/alkanji-alboss-alnihaii-lilughat/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/altaarruf-vs-altathakkur-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/altikrar-almutabaaid-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/hiragana-katakana-kanji-alfarq/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/jlpt-muqaranat-kull-almustawayat/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/jlpt-n5-dalil-kamil/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/kam-kanji-jlpt-kull-mustawa/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/kam-yastaghriq-ijtiyaz-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/kanjidon-radio-dawri-tahaddiyat-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/kayfa-tataallam-alkanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/limatha-la-tahfaz-alkanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/tatbiqat-asasiya-safar-al-yaban/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/blog/yabani-alanime-alammiyya-wa-lughat-alshakhsiyat/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ar",
+    "kind": "article"
+  },
+  "/ar/faq/": {
+    "article": "",
+    "locale": "ar",
+    "kind": "page"
+  },
+  "/bg/": {
+    "article": "",
+    "locale": "bg",
+    "kind": "page"
+  },
+  "/bg/blog/": {
+    "article": "",
+    "locale": "bg",
+    "kind": "blog"
+  },
+  "/bg/blog/100-nai-izpolzvani-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/blog/hiragana-katakana-kanji-razliki/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/blog/kak-da-uchim-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/blog/kanjidon-radio-liga-bitki-kandzhi/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/blog/kolko-kanji-za-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/blog/prilozheniya-za-patuvane-do-yaponiya/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/blog/srs-za-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/blog/yaponski-ot-anime-sleng-ezik-na-geroite/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "bg",
+    "kind": "article"
+  },
+  "/bg/faq/": {
+    "article": "",
+    "locale": "bg",
+    "kind": "page"
+  },
+  "/blog/": {
+    "article": "",
+    "locale": "en",
+    "kind": "blog"
+  },
+  "/blog/100-most-used-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/anime-japanese-slang-role-language/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/anime-to-learn-japanese/": {
+    "article": "anime-to-learn-japanese",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/best-kanji-apps-2026/": {
+    "article": "best-kanji-apps-2026",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/cost-learning-japanese-2026/": {
+    "article": "cost-learning-japanese-2026",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/essential-apps-japan-travel-2026/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/evilove-japanese-novel-for-learners/": {
+    "article": "evilove-japanese-novel-for-learners",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/free-kanji-apps/": {
+    "article": "free-kanji-apps",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/from-n4-to-n3-intermediate-journey/": {
+    "article": "from-n4-to-n3-intermediate-journey",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/from-zero-to-jlpt-n5-beginner-journey/": {
+    "article": "from-zero-to-jlpt-n5-beginner-journey",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/hiragana-katakana-kanji-differences/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/how-long-learn-kanji/": {
+    "article": "how-long-learn-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/how-long-to-pass-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/how-many-kanji-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/how-to-address-people-japanese/": {
+    "article": "how-to-address-people-japanese",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/how-to-learn-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/how-to-pass-jlpt-strategies/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/japanese-blood-types-personality/": {
+    "article": "japanese-blood-types-personality",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/japanese-particles-ni-de-wo-wa-ga/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/japanese-roadmap-zero-to-n3/": {
+    "article": "japanese-roadmap-zero-to-n3",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/japanese-shadowing-technique-pronunciation/": {
+    "article": "japanese-shadowing-technique-pronunciation",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/jlpt-dates-registration-costs/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/jlpt-mock-exam-practice-test/": {
+    "article": "jlpt-mock-exam-practice-test",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/jlpt-n5-complete-guide/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/jlpt-n5-kanji-list/": {
+    "article": "jlpt-n5-kanji-list",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/jlpt-n5-n4-n3-n2-n1-differences/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanji-final-boss-of-languages/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanji-for-traveling-japan-survival/": {
+    "article": "kanji-for-traveling-japan-survival",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanji-handwriting-practice-stroke-order/": {
+    "article": "kanji-handwriting-practice-stroke-order",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanji-learning-community-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanji-radicals-guide/": {
+    "article": "kanji-radicals-guide",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanji-vs-chinese/": {
+    "article": "kanji-vs-chinese",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanjidon-radio-league-kanji-battles/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanjidon-vs-anki/": {
+    "article": "kanjidon-vs-anki",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanjidon-vs-duolingo-japanese/": {
+    "article": "kanjidon-vs-duolingo-japanese",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/kanjidon-vs-wanikani/": {
+    "article": "kanjidon-vs-wanikani",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/learn-japanese-from-scratch-complete-guide/": {
+    "article": "learn-japanese-from-scratch-complete-guide",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/recognizing-vs-remembering-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/rendaku-why-readings-change/": {
+    "article": "rendaku-why-readings-change",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/road-to-n1-advanced-learner-guide/": {
+    "article": "road-to-n1-advanced-learner-guide",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/spaced-repetition-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/what-to-read-after-n5-kanji/": {
+    "article": "what-to-read-after-n5-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/why-duolingo-cant-teach-kanji/": {
+    "article": "why-duolingo-cant-teach-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/blog/why-you-cant-memorize-kanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/bn/": {
+    "article": "",
+    "locale": "bn",
+    "kind": "page"
+  },
+  "/bn/blog/": {
+    "article": "",
+    "locale": "bn",
+    "kind": "blog"
+  },
+  "/bn/blog/anime-japani-slang-charitrer-bhasha/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/blog/hiragana-katakana-kanji-parthokko/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/blog/japan-bhromoner-joruri-app/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/blog/jlpt-er-jonno-koto-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/blog/kanji-shekar-5-poddhoti/": {
+    "article": "how-to-learn-kanji",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/blog/kanjidon-radio-lig-kanji-lorai/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/blog/shobcheye-beshi-byabohrito-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/blog/srs-kanji-kibhabe-kaj-kore/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "bn",
+    "kind": "article"
+  },
+  "/bn/faq/": {
+    "article": "",
+    "locale": "bn",
+    "kind": "page"
+  },
+  "/cs/": {
+    "article": "",
+    "locale": "cs",
+    "kind": "page"
+  },
+  "/cs/blog/": {
+    "article": "",
+    "locale": "cs",
+    "kind": "blog"
+  },
+  "/cs/blog/hiragana-katakana-kanji-rozdily/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "cs",
+    "kind": "article"
+  },
+  "/cs/blog/jak-se-ucit-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "cs",
+    "kind": "article"
+  },
+  "/cs/blog/japonstina-z-anime-slang-rec-postav/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "cs",
+    "kind": "article"
+  },
+  "/cs/blog/kanjidon-radio-liga-souboje-kandzi/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "cs",
+    "kind": "article"
+  },
+  "/cs/blog/kolik-kanji-na-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "cs",
+    "kind": "article"
+  },
+  "/cs/blog/nepostradatelne-aplikace-cesta-japonsko/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "cs",
+    "kind": "article"
+  },
+  "/cs/blog/rozlozene-opakovani-kanji-srs/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "cs",
+    "kind": "article"
+  },
+  "/cs/faq/": {
+    "article": "",
+    "locale": "cs",
+    "kind": "page"
+  },
+  "/de/": {
+    "article": "",
+    "locale": "de",
+    "kind": "page"
+  },
+  "/de/about.html": {
+    "article": "",
+    "locale": "de",
+    "kind": "page"
+  },
+  "/de/blog/": {
+    "article": "",
+    "locale": "de",
+    "kind": "blog"
+  },
+  "/de/blog/100-wichtigste-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/anime-japanisch-slang-rollensprache/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/anime-zum-japanisch-lernen/": {
+    "article": "anime-to-learn-japanese",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/best-kanji-apps-2026/": {
+    "article": "best-kanji-apps-2026",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/erkennen-ist-nicht-erinnern-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/evilove-japanischer-roman/": {
+    "article": "evilove-japanese-novel-for-learners",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/hiragana-katakana-kanji-unterschiede/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/japanisch-lernen-von-null-komplettguide/": {
+    "article": "learn-japanese-from-scratch-complete-guide",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/japanisch-lernplan-null-bis-n3/": {
+    "article": "japanese-roadmap-zero-to-n3",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/japanische-blutgruppen-persoenlichkeit/": {
+    "article": "japanese-blood-types-personality",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/japanische-partikel-ni-de-wo-wa-ga/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/jlpt-bestehen-strategien/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/jlpt-n5-kanji-liste/": {
+    "article": "jlpt-n5-kanji-list",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/jlpt-n5-kompletter-guide/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/jlpt-probeklausur-ubungstest/": {
+    "article": "jlpt-mock-exam-practice-test",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/jlpt-termine-anmeldung-kosten/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanji-community-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanji-endboss-der-sprachen/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanji-fuer-japan-reise-survival/": {
+    "article": "kanji-for-traveling-japan-survival",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanji-handschrift-uben-strichreihenfolge/": {
+    "article": "kanji-handwriting-practice-stroke-order",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanji-radikale-guide/": {
+    "article": "kanji-radicals-guide",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanji-vs-chinesisch/": {
+    "article": "kanji-vs-chinese",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanjidon-radio-liga-kanji-duelle/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanjidon-vs-anki/": {
+    "article": "kanjidon-vs-anki",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanjidon-vs-duolingo-japanese/": {
+    "article": "kanjidon-vs-duolingo-japanese",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kanjidon-vs-wanikani/": {
+    "article": "kanjidon-vs-wanikani",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kosten-japanisch-lernen-2026/": {
+    "article": "cost-learning-japanese-2026",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/kostenlose-kanji-apps/": {
+    "article": "free-kanji-apps",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/rendaku-warum-lesungen-sich-aendern/": {
+    "article": "rendaku-why-readings-change",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/shadowing-japanisch-aussprache-technik/": {
+    "article": "japanese-shadowing-technique-pronunciation",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/spaced-repetition-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/unterschiede-jlpt-n5-n4-n3-n2-n1/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/von-n4-zu-n3-mittelstufe-durchbruch/": {
+    "article": "from-n4-to-n3-intermediate-journey",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/von-null-zum-jlpt-n5-anfaengerreise/": {
+    "article": "from-zero-to-jlpt-n5-beginner-journey",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/warum-du-kanji-nicht-merken-kannst/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/warum-duolingo-kein-kanji/": {
+    "article": "why-duolingo-cant-teach-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/was-lesen-nach-n5-kanji/": {
+    "article": "what-to-read-after-n5-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/weg-zum-n1-leitfaden-fortgeschrittene/": {
+    "article": "road-to-n1-advanced-learner-guide",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/wichtige-apps-japanreise/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/wie-kanji-lernen/": {
+    "article": "how-to-learn-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/wie-lange-jlpt-bestehen/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/wie-lange-kanji-lernen/": {
+    "article": "how-long-learn-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/wie-man-leute-auf-japanisch-anspricht/": {
+    "article": "how-to-address-people-japanese",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/blog/wie-viele-kanji-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/de/faq/": {
+    "article": "",
+    "locale": "de",
+    "kind": "page"
+  },
+  "/es/": {
+    "article": "",
+    "locale": "es",
+    "kind": "page"
+  },
+  "/es/about.html": {
+    "article": "",
+    "locale": "es",
+    "kind": "page"
+  },
+  "/es/blog/": {
+    "article": "",
+    "locale": "es",
+    "kind": "blog"
+  },
+  "/es/blog/100-kanji-mas-usados/": {
+    "article": "100-most-used-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/anime-para-aprender-japones/": {
+    "article": "anime-to-learn-japanese",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/app-kanji-gratis-es/": {
+    "article": "free-kanji-apps",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/apps-imprescindibles-viaje-japon/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/aprender-japones-desde-cero-guia-completa/": {
+    "article": "learn-japanese-from-scratch-complete-guide",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/best-kanji-apps-2026/": {
+    "article": "best-kanji-apps-2026",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/camino-al-n1-guia-avanzados/": {
+    "article": "road-to-n1-advanced-learner-guide",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/como-aprender-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/como-aprobar-jlpt-estrategias/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/como-llamar-a-la-gente-en-japones/": {
+    "article": "how-to-address-people-japanese",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/comunidad-kanji-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/costo-aprender-japones-2026/": {
+    "article": "cost-learning-japanese-2026",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/cuanto-tiempo-aprender-kanji/": {
+    "article": "how-long-learn-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/cuanto-tiempo-aprobar-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/cuantos-kanji-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/de-cero-al-jlpt-n5-viaje-principiante/": {
+    "article": "from-zero-to-jlpt-n5-beginner-journey",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/de-n4-a-n3-recorrido-intermedio/": {
+    "article": "from-n4-to-n3-intermediate-journey",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/diferencias-jlpt-n5-n4-n3-n2-n1/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/escribir-kanji-mano-orden-trazos/": {
+    "article": "kanji-handwriting-practice-stroke-order",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/grupos-sanguineos-japoneses-personalidad/": {
+    "article": "japanese-blood-types-personality",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/guia-radicales-kanji/": {
+    "article": "kanji-radicals-guide",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/hiragana-katakana-kanji-diferencias/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/hoja-ruta-japones-cero-n3/": {
+    "article": "japanese-roadmap-zero-to-n3",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/japones-anime-jerga-habla-personajes/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/jlpt-fechas-inscripcion-costos/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/jlpt-n5-guia-completa/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/kanji-jefe-final-de-los-idiomas/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/kanji-para-viajar-a-japon/": {
+    "article": "kanji-for-traveling-japan-survival",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/kanji-vs-chino/": {
+    "article": "kanji-vs-chinese",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/kanjidon-radio-liga-duelos-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/kanjidon-vs-anki/": {
+    "article": "kanjidon-vs-anki",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/kanjidon-vs-duolingo-japanese/": {
+    "article": "kanjidon-vs-duolingo-japanese",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/kanjidon-vs-wanikani/": {
+    "article": "kanjidon-vs-wanikani",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/lista-kanji-jlpt-n5/": {
+    "article": "jlpt-n5-kanji-list",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/novela-japones-evilove/": {
+    "article": "evilove-japanese-novel-for-learners",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/particulas-japonesas-ni-de-wo-wa-ga/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/por-que-duolingo-no-kanji/": {
+    "article": "why-duolingo-cant-teach-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/por-que-no-puedes-memorizar-kanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/que-leer-despues-de-kanji-n5/": {
+    "article": "what-to-read-after-n5-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/reconocer-no-es-recordar-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/rendaku-por-que-las-lecturas-cambian/": {
+    "article": "rendaku-why-readings-change",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/repeticion-espaciada-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/shadowing-japones-tecnica-pronunciacion/": {
+    "article": "japanese-shadowing-technique-pronunciation",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/simulacion-examen-jlpt-test-practica/": {
+    "article": "jlpt-mock-exam-practice-test",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/faq/": {
+    "article": "",
+    "locale": "es",
+    "kind": "page"
+  },
+  "/fa/": {
+    "article": "",
+    "locale": "fa",
+    "kind": "page"
+  },
+  "/fa/about.html": {
+    "article": "",
+    "locale": "fa",
+    "kind": "page"
+  },
+  "/fa/blog/": {
+    "article": "",
+    "locale": "fa",
+    "kind": "blog"
+  },
+  "/fa/blog/chand-ta-kanji-baraye-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "fa",
+    "kind": "article"
+  },
+  "/fa/blog/chetor-kanji-yad-begirim-5-ravesh/": {
+    "article": "how-to-learn-kanji",
+    "locale": "fa",
+    "kind": "article"
+  },
+  "/fa/blog/kanjidon-radio-lig-nabard-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "fa",
+    "kind": "article"
+  },
+  "/fa/blog/tafavot-hiragana-katakana-kanji/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "fa",
+    "kind": "article"
+  },
+  "/fa/blog/zaban-japoni-anime-ezafe-zaban-shakhsiyat/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "fa",
+    "kind": "article"
+  },
+  "/fa/faq/": {
+    "article": "",
+    "locale": "fa",
+    "kind": "page"
+  },
+  "/faq/": {
+    "article": "",
+    "locale": "en",
+    "kind": "page"
+  },
+  "/fi/": {
+    "article": "",
+    "locale": "fi",
+    "kind": "page"
+  },
+  "/fi/blog/": {
+    "article": "",
+    "locale": "fi",
+    "kind": "blog"
+  },
+  "/fi/blog/animejapani-slangi-hahmopuhe/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "fi",
+    "kind": "article"
+  },
+  "/fi/blog/hiragana-katakana-kanji-erot/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "fi",
+    "kind": "article"
+  },
+  "/fi/blog/kanjidon-radio-liiga-kanji-ottelut/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "fi",
+    "kind": "article"
+  },
+  "/fi/blog/kanjien-oppiminen/": {
+    "article": "how-to-learn-kanji",
+    "locale": "fi",
+    "kind": "article"
+  },
+  "/fi/blog/kertausvalit-kanji-srs/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "fi",
+    "kind": "article"
+  },
+  "/fi/blog/kuinka-monta-kanjia-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "fi",
+    "kind": "article"
+  },
+  "/fi/blog/tarkeat-sovellukset-japanin-matkalle/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "fi",
+    "kind": "article"
+  },
+  "/fi/faq/": {
+    "article": "",
+    "locale": "fi",
+    "kind": "page"
+  },
+  "/fil/": {
+    "article": "",
+    "locale": "fil",
+    "kind": "page"
+  },
+  "/fil/about.html": {
+    "article": "",
+    "locale": "fil",
+    "kind": "page"
+  },
+  "/fil/blog/": {
+    "article": "",
+    "locale": "fil",
+    "kind": "blog"
+  },
+  "/fil/blog/ilang-kanji-ang-kailangan-para-sa-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "fil",
+    "kind": "article"
+  },
+  "/fil/blog/japanese-sa-anime-slang-wika-ng-karakter/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "fil",
+    "kind": "article"
+  },
+  "/fil/blog/kanjidon-radio-liga-labanan-ng-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "fil",
+    "kind": "article"
+  },
+  "/fil/blog/mahahalagang-app-biyahe-japan/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "fil",
+    "kind": "article"
+  },
+  "/fil/blog/paano-matuto-ng-kanji-5-paraan/": {
+    "article": "how-to-learn-kanji",
+    "locale": "fil",
+    "kind": "article"
+  },
+  "/fil/blog/pagkakaiba-ng-hiragana-katakana-at-kanji/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "fil",
+    "kind": "article"
+  },
+  "/fil/faq/": {
+    "article": "",
+    "locale": "fil",
+    "kind": "page"
+  },
+  "/fr/": {
+    "article": "",
+    "locale": "fr",
+    "kind": "page"
+  },
+  "/fr/about.html": {
+    "article": "",
+    "locale": "fr",
+    "kind": "page"
+  },
+  "/fr/blog/": {
+    "article": "",
+    "locale": "fr",
+    "kind": "blog"
+  },
+  "/fr/blog/100-kanji-plus-utilises/": {
+    "article": "100-most-used-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/anime-pour-apprendre-japonais/": {
+    "article": "anime-to-learn-japanese",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/app-kanji-gratuites/": {
+    "article": "free-kanji-apps",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/applis-essentielles-voyage-japon/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/apprendre-japonais-de-zero-guide-complet/": {
+    "article": "learn-japanese-from-scratch-complete-guide",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/best-kanji-apps-2026/": {
+    "article": "best-kanji-apps-2026",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/combien-kanji-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/combien-temps-apprendre-kanji/": {
+    "article": "how-long-learn-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/combien-temps-reussir-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/comment-appeler-les-gens-en-japonais/": {
+    "article": "how-to-address-people-japanese",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/comment-apprendre-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/comment-reussir-jlpt-strategies/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/communaute-kanji-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/cout-apprendre-japonais-2026/": {
+    "article": "cost-learning-japanese-2026",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/de-n4-a-n3-parcours-intermediaire/": {
+    "article": "from-n4-to-n3-intermediate-journey",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/de-zero-au-jlpt-n5-parcours-debutant/": {
+    "article": "from-zero-to-jlpt-n5-beginner-journey",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/differences-jlpt-n5-n4-n3-n2-n1/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/ecrire-kanji-main-ordre-traits/": {
+    "article": "kanji-handwriting-practice-stroke-order",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/groupes-sanguins-japonais-personnalite/": {
+    "article": "japanese-blood-types-personality",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/guide-radicaux-kanji/": {
+    "article": "kanji-radicals-guide",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/hiragana-katakana-kanji-differences/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/japonais-anime-argot-langage-personnages/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/jlpt-dates-inscription-tarifs/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/jlpt-n5-guide-complet/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/kanji-boss-final-des-langues/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/kanji-pour-voyager-au-japon/": {
+    "article": "kanji-for-traveling-japan-survival",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/kanji-vs-chinois/": {
+    "article": "kanji-vs-chinese",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/kanjidon-radio-ligue-defis-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/kanjidon-vs-anki/": {
+    "article": "kanjidon-vs-anki",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/kanjidon-vs-duolingo-japanese/": {
+    "article": "kanjidon-vs-duolingo-japanese",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/kanjidon-vs-wanikani/": {
+    "article": "kanjidon-vs-wanikani",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/liste-kanji-jlpt-n5/": {
+    "article": "jlpt-n5-kanji-list",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/particules-japonaises-ni-de-wo-wa-ga/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/pourquoi-duolingo-kanji/": {
+    "article": "why-duolingo-cant-teach-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/pourquoi-vous-narrivez-pas-memoriser-kanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/quoi-lire-apres-kanji-n5/": {
+    "article": "what-to-read-after-n5-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/reconnaitre-nest-pas-se-souvenir-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/rendaku-pourquoi-les-lectures-changent/": {
+    "article": "rendaku-why-readings-change",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/repetition-espacee-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/roadmap-japonais-zero-n3/": {
+    "article": "japanese-roadmap-zero-to-n3",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/roman-japonais-evilove/": {
+    "article": "evilove-japanese-novel-for-learners",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/route-vers-n1-guide-avance/": {
+    "article": "road-to-n1-advanced-learner-guide",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/shadowing-japonais-technique-prononciation/": {
+    "article": "japanese-shadowing-technique-pronunciation",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/simulation-examen-jlpt-test-pratique/": {
+    "article": "jlpt-mock-exam-practice-test",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/faq/": {
+    "article": "",
+    "locale": "fr",
+    "kind": "page"
+  },
+  "/he/": {
+    "article": "",
+    "locale": "he",
+    "kind": "page"
+  },
+  "/he/blog/": {
+    "article": "",
+    "locale": "he",
+    "kind": "blog"
+  },
+  "/he/blog/100-kanji-hanefotzim/": {
+    "article": "100-most-used-kanji",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/blog/aplikatsiyot-hiyuniyot-tiyul-yapan/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/blog/ech-lilmod-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/blog/hiragana-katakana-kanji-hevdel/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/blog/kama-kanji-le-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/blog/kanjidon-radio-liga-kravot-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/blog/srs-kanji-eich-oved/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/blog/yapanit-anime-slang-sfat-dmut/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "he",
+    "kind": "article"
+  },
+  "/he/faq/": {
+    "article": "",
+    "locale": "he",
+    "kind": "page"
+  },
+  "/hi/": {
+    "article": "",
+    "locale": "hi",
+    "kind": "page"
+  },
+  "/hi/about.html": {
+    "article": "",
+    "locale": "hi",
+    "kind": "page"
+  },
+  "/hi/blog/": {
+    "article": "",
+    "locale": "hi",
+    "kind": "blog"
+  },
+  "/hi/blog/anime-japanese-slang-character-bhasha/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "hi",
+    "kind": "article"
+  },
+  "/hi/blog/hiragana-katakana-kanji-antar/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "hi",
+    "kind": "article"
+  },
+  "/hi/blog/jlpt-ke-liye-kitne-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "hi",
+    "kind": "article"
+  },
+  "/hi/blog/kanji-kaise-sikhen-5-tarike/": {
+    "article": "how-to-learn-kanji",
+    "locale": "hi",
+    "kind": "article"
+  },
+  "/hi/blog/kanjidon-radio-league-kanji-mukabale/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "hi",
+    "kind": "article"
+  },
+  "/hi/faq/": {
+    "article": "",
+    "locale": "hi",
+    "kind": "page"
+  },
+  "/hu/": {
+    "article": "",
+    "locale": "hu",
+    "kind": "page"
+  },
+  "/hu/blog/": {
+    "article": "",
+    "locale": "hu",
+    "kind": "blog"
+  },
+  "/hu/blog/100-leggyakoribb-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/blog/anime-japan-szleng-karakternyelv/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/blog/hany-kanji-kell-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/blog/hiragana-katakana-kanji-kulonbseg/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/blog/kanji-tanulas-5-modszer/": {
+    "article": "how-to-learn-kanji",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/blog/kanjidon-radio-liga-kandzsi-parbajok/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/blog/nelkulozhetetlen-appok-japan-utazashoz/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/blog/srs-kanji-hogyan-mukodik/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "hu",
+    "kind": "article"
+  },
+  "/hu/faq/": {
+    "article": "",
+    "locale": "hu",
+    "kind": "page"
+  },
+  "/id/": {
+    "article": "",
+    "locale": "id",
+    "kind": "page"
+  },
+  "/id/about.html": {
+    "article": "",
+    "locale": "id",
+    "kind": "page"
+  },
+  "/id/blog/": {
+    "article": "",
+    "locale": "id",
+    "kind": "blog"
+  },
+  "/id/blog/aplikasi-penting-liburan-jepang/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "id",
+    "kind": "article"
+  },
+  "/id/blog/bahasa-jepang-anime-slang-bahasa-karakter/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "id",
+    "kind": "article"
+  },
+  "/id/blog/berapa-banyak-kanji-untuk-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "id",
+    "kind": "article"
+  },
+  "/id/blog/cara-belajar-kanji-5-metode-ampuh/": {
+    "article": "how-to-learn-kanji",
+    "locale": "id",
+    "kind": "article"
+  },
+  "/id/blog/jlpt-jadwal-pendaftaran-biaya/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "id",
+    "kind": "article"
+  },
+  "/id/blog/kanjidon-radio-liga-duel-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "id",
+    "kind": "article"
+  },
+  "/id/blog/perbedaan-hiragana-katakana-kanji/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "id",
+    "kind": "article"
+  },
+  "/id/faq/": {
+    "article": "",
+    "locale": "id",
+    "kind": "page"
+  },
+  "/it/": {
+    "article": "",
+    "locale": "it",
+    "kind": "page"
+  },
+  "/it/about.html": {
+    "article": "",
+    "locale": "it",
+    "kind": "page"
+  },
+  "/it/blog/": {
+    "article": "",
+    "locale": "it",
+    "kind": "blog"
+  },
+  "/it/blog/100-kanji-piu-usati/": {
+    "article": "100-most-used-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/anime-per-imparare-giapponese/": {
+    "article": "anime-to-learn-japanese",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/app-essenziali-viaggio-giappone/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/app-kanji-gratis/": {
+    "article": "free-kanji-apps",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/best-kanji-apps-2026/": {
+    "article": "best-kanji-apps-2026",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/come-imparare-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/come-rivolgersi-altri-giapponese/": {
+    "article": "how-to-address-people-japanese",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/come-superare-jlpt-strategie/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/community-kanji-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/cosa-leggere-dopo-kanji-n5/": {
+    "article": "what-to-read-after-n5-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/costo-imparare-giapponese-2026/": {
+    "article": "cost-learning-japanese-2026",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/da-n4-a-n3-percorso-intermedio/": {
+    "article": "from-n4-to-n3-intermediate-journey",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/da-zero-a-jlpt-n5-viaggio-principiante/": {
+    "article": "from-zero-to-jlpt-n5-beginner-journey",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/differenze-jlpt-n5-n4-n3-n2-n1/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/giapponese-anime-slang-linguaggio-personaggi/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/gruppi-sanguigni-giappone-personalita/": {
+    "article": "japanese-blood-types-personality",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/guida-radicali-kanji/": {
+    "article": "kanji-radicals-guide",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/hiragana-katakana-kanji-differenze/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/imparare-giapponese-da-zero-guida-completa/": {
+    "article": "learn-japanese-from-scratch-complete-guide",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/jlpt-date-iscrizione-costi/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/jlpt-n5-guida-completa/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/kanji-boss-finale-lingue/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/kanji-viaggiare-giappone-sopravvivenza/": {
+    "article": "kanji-for-traveling-japan-survival",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/kanji-vs-cinese/": {
+    "article": "kanji-vs-chinese",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/kanjidon-radio-lega-sfide-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/kanjidon-vs-anki/": {
+    "article": "kanjidon-vs-anki",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/kanjidon-vs-duolingo-japanese/": {
+    "article": "kanjidon-vs-duolingo-japanese",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/kanjidon-vs-wanikani/": {
+    "article": "kanjidon-vs-wanikani",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/lista-kanji-jlpt-n5/": {
+    "article": "jlpt-n5-kanji-list",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/particelle-giapponesi-ni-de-wo-wa/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/perche-duolingo-non-insegna-kanji/": {
+    "article": "why-duolingo-cant-teach-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/perche-non-riesci-memorizzare-kanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/quanti-kanji-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/quanto-tempo-imparare-kanji/": {
+    "article": "how-long-learn-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/quanto-tempo-passare-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/rendaku-perche-letture-cambiano/": {
+    "article": "rendaku-why-readings-change",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/riconoscere-non-e-ricordare-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/ripetizione-spaziata-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/roadmap-giapponese-da-zero-a-n3/": {
+    "article": "japanese-roadmap-zero-to-n3",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/romanzo-in-giapponese-evilove/": {
+    "article": "evilove-japanese-novel-for-learners",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/scrivere-kanji-a-mano-ordine-tratti/": {
+    "article": "kanji-handwriting-practice-stroke-order",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/shadowing-giapponese-metodo-pronuncia/": {
+    "article": "japanese-shadowing-technique-pronunciation",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/simulazione-esame-jlpt-mock-test/": {
+    "article": "jlpt-mock-exam-practice-test",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/strada-verso-n1-guida-avanzati/": {
+    "article": "road-to-n1-advanced-learner-guide",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/faq/": {
+    "article": "",
+    "locale": "it",
+    "kind": "page"
+  },
+  "/km/": {
+    "article": "",
+    "locale": "km",
+    "kind": "page"
+  },
+  "/km/blog/": {
+    "article": "",
+    "locale": "km",
+    "kind": "blog"
+  },
+  "/km/blog/hiragana-katakana-kanji-khos-knea/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/blog/jlpt-trouvka-kanji-bonman/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/blog/kammavithi-chambach-domnaer-japon/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/blog/kanji-nhuek-nhab-100/": {
+    "article": "100-most-used-kanji",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/blog/kanjidon-radio-prakout-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/blog/phasa-japon-anime-slang-phasa-tuonator/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/blog/rean-kanji-5-vithi/": {
+    "article": "how-to-learn-kanji",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/blog/srs-kanji-damnerkar/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "km",
+    "kind": "article"
+  },
+  "/km/faq/": {
+    "article": "",
+    "locale": "km",
+    "kind": "page"
+  },
+  "/kn/": {
+    "article": "",
+    "locale": "kn",
+    "kind": "page"
+  },
+  "/kn/blog/": {
+    "article": "",
+    "locale": "kn",
+    "kind": "blog"
+  },
+  "/kn/blog/anime-japanese-slang-character-bhashe/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "kn",
+    "kind": "article"
+  },
+  "/kn/blog/heccu-balasuva-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "kn",
+    "kind": "article"
+  },
+  "/kn/blog/hiragana-katakana-kanji-vyatyaasa/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "kn",
+    "kind": "article"
+  },
+  "/kn/blog/jlpt-ge-eshtu-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "kn",
+    "kind": "article"
+  },
+  "/kn/blog/kanji-kaliyalu-5-vidhanagalu/": {
+    "article": "how-to-learn-kanji",
+    "locale": "kn",
+    "kind": "article"
+  },
+  "/kn/blog/kanjidon-radio-lig-kanji-paipoti/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "kn",
+    "kind": "article"
+  },
+  "/kn/blog/srs-kanji-hege-kelasa/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "kn",
+    "kind": "article"
+  },
+  "/kn/faq/": {
+    "article": "",
+    "locale": "kn",
+    "kind": "page"
+  },
+  "/ko/": {
+    "article": "",
+    "locale": "ko",
+    "kind": "page"
+  },
+  "/ko/about.html": {
+    "article": "",
+    "locale": "ko",
+    "kind": "page"
+  },
+  "/ko/blog/": {
+    "article": "",
+    "locale": "ko",
+    "kind": "blog"
+  },
+  "/ko/blog/anime-ilboneo-seullaeng-kaerikteo-maltoo/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/gangyeok-banbog-kanji-hakseup/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/hiragana-katakana-kanji-chaijeom/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/ilbon-eseo-gajang-mani-sseuineun-kanji-100/": {
+    "article": "100-most-used-kanji",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/ilbon-yeohaeng-pilsu-aep/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/ilboneo-josa-wanbyeok-gaideu/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/jlpt-2026-siheom-iljeong-deungnok/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/jlpt-hapgyeok-eolmana-geollilkka/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/jlpt-hapgyeok-jeonryak-10gaji/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/jlpt-level-byeol-kanji-gaesu/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/jlpt-n5-n1-level-byeol-bigyo/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/jlpt-n5-wanbyeok-gaideu/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/kanji-baeuneun-bangbeop/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/kanji-eoneo-ui-choejongjeon-boss/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/kanji-hakseup-keomyuniti/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/kanji-inshik-vs-giok/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/kanji-oeumji-mothaneun-iyu/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/blog/kanjidon-radio-hanja-rigeu-daegyeol/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ko",
+    "kind": "article"
+  },
+  "/ko/faq/": {
+    "article": "",
+    "locale": "ko",
+    "kind": "page"
+  },
+  "/mn/": {
+    "article": "",
+    "locale": "mn",
+    "kind": "page"
+  },
+  "/mn/blog/": {
+    "article": "",
+    "locale": "mn",
+    "kind": "blog"
+  },
+  "/mn/blog/anime-yapon-hel-sleng-duriin-yaria/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/blog/hiragana-katakana-kanji-yalgaa/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/blog/japond-hamgiin-tugeemel-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/blog/jlpt-kanji-too/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/blog/kanji-sulah-5-arga/": {
+    "article": "how-to-learn-kanji",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/blog/kanjidon-radio-hanz-ligiin-tulaan/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/blog/srs-kanji-ajilladag/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/blog/yapon-ayalald-heregtei-appuud/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "mn",
+    "kind": "article"
+  },
+  "/mn/faq/": {
+    "article": "",
+    "locale": "mn",
+    "kind": "page"
+  },
+  "/mr/": {
+    "article": "",
+    "locale": "mr",
+    "kind": "page"
+  },
+  "/mr/blog/": {
+    "article": "",
+    "locale": "mr",
+    "kind": "blog"
+  },
+  "/mr/blog/anime-japanese-slang-patra-bhasha/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "mr",
+    "kind": "article"
+  },
+  "/mr/blog/hiragana-katakana-kanji-farak/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "mr",
+    "kind": "article"
+  },
+  "/mr/blog/jlpt-sathi-kiti-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "mr",
+    "kind": "article"
+  },
+  "/mr/blog/kanji-shiknyachya-5-paddhati/": {
+    "article": "how-to-learn-kanji",
+    "locale": "mr",
+    "kind": "article"
+  },
+  "/mr/blog/kanjidon-radio-league-kanji-mukabale/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "mr",
+    "kind": "article"
+  },
+  "/mr/blog/sarvadhik-vaparle-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "mr",
+    "kind": "article"
+  },
+  "/mr/blog/srs-kanji-kase-kam-karto/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "mr",
+    "kind": "article"
+  },
+  "/mr/faq/": {
+    "article": "",
+    "locale": "mr",
+    "kind": "page"
+  },
+  "/ms/": {
+    "article": "",
+    "locale": "ms",
+    "kind": "page"
+  },
+  "/ms/about.html": {
+    "article": "",
+    "locale": "ms",
+    "kind": "page"
+  },
+  "/ms/blog/": {
+    "article": "",
+    "locale": "ms",
+    "kind": "blog"
+  },
+  "/ms/blog/aplikasi-penting-melancong-jepun/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "ms",
+    "kind": "article"
+  },
+  "/ms/blog/bahasa-jepun-anime-slang-bahasa-watak/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ms",
+    "kind": "article"
+  },
+  "/ms/blog/berapa-banyak-kanji-untuk-jlpt-malaysia/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ms",
+    "kind": "article"
+  },
+  "/ms/blog/cara-belajar-kanji-5-kaedah-berkesan/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ms",
+    "kind": "article"
+  },
+  "/ms/blog/kanjidon-radio-liga-lawan-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ms",
+    "kind": "article"
+  },
+  "/ms/blog/perbezaan-hiragana-katakana-kanji/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ms",
+    "kind": "article"
+  },
+  "/ms/faq/": {
+    "article": "",
+    "locale": "ms",
+    "kind": "page"
+  },
+  "/my/": {
+    "article": "",
+    "locale": "my",
+    "kind": "page"
+  },
+  "/my/blog/": {
+    "article": "",
+    "locale": "my",
+    "kind": "blog"
+  },
+  "/my/blog/anime-japan-sagar-zaatkaung-sagarpyaw/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/blog/asone-myar-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/blog/hiragana-katakana-kanji-kwa-khyaet/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/blog/japan-khayee-athonewin-apps/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/blog/jlpt-atwet-kanji-bae-lout-lo/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/blog/kanji-laylaran-niny-5-nilan/": {
+    "article": "how-to-learn-kanji",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/blog/kanjidon-radio-kanji-leik-pyaingpwe/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/blog/srs-kanji-ahpyit/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "my",
+    "kind": "article"
+  },
+  "/my/faq/": {
+    "article": "",
+    "locale": "my",
+    "kind": "page"
+  },
+  "/ne/": {
+    "article": "",
+    "locale": "ne",
+    "kind": "page"
+  },
+  "/ne/blog/": {
+    "article": "",
+    "locale": "ne",
+    "kind": "blog"
+  },
+  "/ne/blog/anime-japanese-slang-patra-bhasha/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/blog/hiragana-katakana-kanji-farak/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/blog/japan-yatra-aawashyak-ep/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/blog/jlpt-ka-lagi-kati-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/blog/kanji-sikne-5-tarika/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/blog/kanjidon-radio-lig-kanji-mukabala/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/blog/sabai-bhanda-prayog-hune-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/blog/srs-kanji-kasari-kam-garcha/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "ne",
+    "kind": "article"
+  },
+  "/ne/faq/": {
+    "article": "",
+    "locale": "ne",
+    "kind": "page"
+  },
+  "/nl/": {
+    "article": "",
+    "locale": "nl",
+    "kind": "page"
+  },
+  "/nl/blog/": {
+    "article": "",
+    "locale": "nl",
+    "kind": "blog"
+  },
+  "/nl/blog/anime-japans-slang-personagetaal/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/blog/evilove-japanse-roman/": {
+    "article": "evilove-japanese-novel-for-learners",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/blog/hiragana-katakana-kanji-verschillen/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/blog/hoeveel-kanji-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/blog/kanji-leren/": {
+    "article": "how-to-learn-kanji",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/blog/kanjidon-radio-league-kanji-duels/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/blog/onmisbare-apps-reis-japan/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/blog/spaced-repetition-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "nl",
+    "kind": "article"
+  },
+  "/nl/faq/": {
+    "article": "",
+    "locale": "nl",
+    "kind": "page"
+  },
+  "/pl/": {
+    "article": "",
+    "locale": "pl",
+    "kind": "page"
+  },
+  "/pl/about.html": {
+    "article": "",
+    "locale": "pl",
+    "kind": "page"
+  },
+  "/pl/blog/": {
+    "article": "",
+    "locale": "pl",
+    "kind": "blog"
+  },
+  "/pl/blog/aplikacje-na-podroz-do-japonii/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "pl",
+    "kind": "article"
+  },
+  "/pl/blog/hiragana-katakana-kanji-roznice/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "pl",
+    "kind": "article"
+  },
+  "/pl/blog/ile-kanji-na-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "pl",
+    "kind": "article"
+  },
+  "/pl/blog/jak-uczyc-sie-kanji-5-metod/": {
+    "article": "how-to-learn-kanji",
+    "locale": "pl",
+    "kind": "article"
+  },
+  "/pl/blog/japonski-z-anime-slang-jezyk-postaci/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "pl",
+    "kind": "article"
+  },
+  "/pl/blog/kanjidon-radio-liga-pojedynki-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "pl",
+    "kind": "article"
+  },
+  "/pl/faq/": {
+    "article": "",
+    "locale": "pl",
+    "kind": "page"
+  },
+  "/pt/": {
+    "article": "",
+    "locale": "pt",
+    "kind": "page"
+  },
+  "/pt/about.html": {
+    "article": "",
+    "locale": "pt",
+    "kind": "page"
+  },
+  "/pt/blog/": {
+    "article": "",
+    "locale": "pt",
+    "kind": "blog"
+  },
+  "/pt/blog/100-kanji-mais-usados/": {
+    "article": "100-most-used-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/anime-pra-aprender-japones/": {
+    "article": "anime-to-learn-japanese",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/app-kanji-gratis-pt/": {
+    "article": "free-kanji-apps",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/apps-essenciais-viagem-japao/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/aprender-japones-do-zero-guia-completo/": {
+    "article": "learn-japanese-from-scratch-complete-guide",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/caminho-para-n1-guia-avancado/": {
+    "article": "road-to-n1-advanced-learner-guide",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/como-aprender-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/como-chamar-as-pessoas-em-japones/": {
+    "article": "how-to-address-people-japanese",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/como-passar-jlpt-estrategias/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/comunidade-kanji-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/custo-aprender-japones-2026/": {
+    "article": "cost-learning-japanese-2026",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/de-n4-a-n3-jornada-intermediaria/": {
+    "article": "from-n4-to-n3-intermediate-journey",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/diferencas-jlpt-n5-n4-n3-n2-n1/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/do-zero-ao-jlpt-n5-jornada-iniciante/": {
+    "article": "from-zero-to-jlpt-n5-beginner-journey",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/escrever-kanji-mao-ordem-tracos/": {
+    "article": "kanji-handwriting-practice-stroke-order",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/guia-radicais-kanji/": {
+    "article": "kanji-radicals-guide",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/hiragana-katakana-kanji-diferencas/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/japones-anime-giria-fala-personagens/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/jlpt-datas-inscricao-custos/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/jlpt-n5-guia-completo/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/kanji-chefe-final-dos-idiomas/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/kanji-pra-viajar-pro-japao/": {
+    "article": "kanji-for-traveling-japan-survival",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/kanji-vs-chines/": {
+    "article": "kanji-vs-chinese",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/kanjidon-radio-liga-batalhas-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/kanjidon-vs-anki/": {
+    "article": "kanjidon-vs-anki",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/kanjidon-vs-duolingo-japanese/": {
+    "article": "kanjidon-vs-duolingo-japanese",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/kanjidon-vs-wanikani/": {
+    "article": "kanjidon-vs-wanikani",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/lista-kanji-jlpt-n5/": {
+    "article": "jlpt-n5-kanji-list",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/melhores-apps-kanji-2026/": {
+    "article": "best-kanji-apps-2026",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/o-que-ler-depois-dos-kanji-n5/": {
+    "article": "what-to-read-after-n5-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/particulas-japonesas-ni-de-wo-wa-ga/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/por-que-duolingo-nao-kanji/": {
+    "article": "why-duolingo-cant-teach-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/por-que-voce-nao-consegue-memorizar-kanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/quanto-tempo-aprender-kanji/": {
+    "article": "how-long-learn-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/quanto-tempo-passar-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/quantos-kanji-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/reconhecer-nao-e-lembrar-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/rendaku-por-que-as-leituras-mudam/": {
+    "article": "rendaku-why-readings-change",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/repeticao-espacada-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/romance-japones-evilove/": {
+    "article": "evilove-japanese-novel-for-learners",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/roteiro-japones-zero-n3/": {
+    "article": "japanese-roadmap-zero-to-n3",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/shadowing-japones-tecnica-pronuncia/": {
+    "article": "japanese-shadowing-technique-pronunciation",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/simulacao-exame-jlpt-teste-pratica/": {
+    "article": "jlpt-mock-exam-practice-test",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/blog/tipos-sanguineos-japoneses-personalidade/": {
+    "article": "japanese-blood-types-personality",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/pt/faq/": {
+    "article": "",
+    "locale": "pt",
+    "kind": "page"
+  },
+  "/ro/": {
+    "article": "",
+    "locale": "ro",
+    "kind": "page"
+  },
+  "/ro/blog/": {
+    "article": "",
+    "locale": "ro",
+    "kind": "blog"
+  },
+  "/ro/blog/100-kanji-cele-mai-folosite/": {
+    "article": "100-most-used-kanji",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/blog/aplicatii-utile-calatorie-japonia/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/blog/cate-kanji-pentru-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/blog/cum-sa-inveti-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/blog/hiragana-katakana-kanji-diferente/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/blog/japoneza-din-anime-argou-limbaj-personaje/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/blog/kanjidon-radio-liga-lupte-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/blog/srs-pentru-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "ro",
+    "kind": "article"
+  },
+  "/ro/faq/": {
+    "article": "",
+    "locale": "ro",
+    "kind": "page"
+  },
+  "/ru/": {
+    "article": "",
+    "locale": "ru",
+    "kind": "page"
+  },
+  "/ru/about.html": {
+    "article": "",
+    "locale": "ru",
+    "kind": "page"
+  },
+  "/ru/blog/": {
+    "article": "",
+    "locale": "ru",
+    "kind": "blog"
+  },
+  "/ru/blog/100-samyh-populyarnyh-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/chasticy-yaponskogo-yazyka-gid/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/hiragana-katakana-kanji-razlichiya/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/intervalnye-povtoreniya-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/jlpt-daty-registraciya-stoimost/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/kak-sdat-jlpt-10-strategiy/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/kak-uchit-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/kanji-finalnyi-boss-yazykov/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/kanjidon-radio-liga-bitvy-kandzi/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/pochemu-ne-poluchaetsya-zapomnit-kanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/polnyi-gid-po-jlpt-n5/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/raznica-mezhdu-urovnyami-jlpt/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/skolko-kanji-dlya-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/skolko-vremeni-nuzhno-chtoby-sdat-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/soobshchestvo-izucheniya-kanji-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/uznavanie-protiv-zapominaniya-kanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/blog/yaponskiy-iz-anime-sleng-i-rech-personazhey/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ru",
+    "kind": "article"
+  },
+  "/ru/faq/": {
+    "article": "",
+    "locale": "ru",
+    "kind": "page"
+  },
+  "/si/": {
+    "article": "",
+    "locale": "si",
+    "kind": "page"
+  },
+  "/si/blog/": {
+    "article": "",
+    "locale": "si",
+    "kind": "blog"
+  },
+  "/si/blog/anime-japan-bhashawa-charitha-kathawa/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/blog/bahulawa-bavitha-wana-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/blog/hiragana-katakana-kanji-wenasa/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/blog/japan-gamanata-awashya-apps/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/blog/jlpt-sandaha-kanji-kiyak/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/blog/kanji-igenaganna-krama-5/": {
+    "article": "how-to-learn-kanji",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/blog/kanjidon-radio-kanji-tharanga/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/blog/srs-kanji-weda-karanne-kohomada/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "si",
+    "kind": "article"
+  },
+  "/si/faq/": {
+    "article": "",
+    "locale": "si",
+    "kind": "page"
+  },
+  "/ta/": {
+    "article": "",
+    "locale": "ta",
+    "kind": "page"
+  },
+  "/ta/blog/": {
+    "article": "",
+    "locale": "ta",
+    "kind": "blog"
+  },
+  "/ta/blog/anime-japanese-pechu-vazhakku-kathapathira-mozhi/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ta",
+    "kind": "article"
+  },
+  "/ta/blog/hiragana-katakana-kanji-vithyasam/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ta",
+    "kind": "article"
+  },
+  "/ta/blog/jlpt-ku-ethanai-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ta",
+    "kind": "article"
+  },
+  "/ta/blog/kanji-karka-5-muraigal/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ta",
+    "kind": "article"
+  },
+  "/ta/blog/kanjidon-radio-kanji-potti/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ta",
+    "kind": "article"
+  },
+  "/ta/blog/migavum-payanpadum-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "ta",
+    "kind": "article"
+  },
+  "/ta/blog/srs-kanji-epadi-seyalpadum/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "ta",
+    "kind": "article"
+  },
+  "/ta/faq/": {
+    "article": "",
+    "locale": "ta",
+    "kind": "page"
+  },
+  "/te/": {
+    "article": "",
+    "locale": "te",
+    "kind": "page"
+  },
+  "/te/blog/": {
+    "article": "",
+    "locale": "te",
+    "kind": "blog"
+  },
+  "/te/blog/anime-japanese-yaasa-paatra-bhasha/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "te",
+    "kind": "article"
+  },
+  "/te/blog/ekkuva-vadey-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "te",
+    "kind": "article"
+  },
+  "/te/blog/hiragana-katakana-kanji-teda/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "te",
+    "kind": "article"
+  },
+  "/te/blog/jlpt-ku-enni-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "te",
+    "kind": "article"
+  },
+  "/te/blog/kanji-nerchukune-5-paddhatulu/": {
+    "article": "how-to-learn-kanji",
+    "locale": "te",
+    "kind": "article"
+  },
+  "/te/blog/kanjidon-radio-kanji-poti/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "te",
+    "kind": "article"
+  },
+  "/te/blog/srs-kanji-ela-panichestundi/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "te",
+    "kind": "article"
+  },
+  "/te/faq/": {
+    "article": "",
+    "locale": "te",
+    "kind": "page"
+  },
+  "/th/": {
+    "article": "",
+    "locale": "th",
+    "kind": "page"
+  },
+  "/th/about.html": {
+    "article": "",
+    "locale": "th",
+    "kind": "page"
+  },
+  "/th/blog/": {
+    "article": "",
+    "locale": "th",
+    "kind": "blog"
+  },
+  "/th/blog/app-tiao-yipun-2026/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "th",
+    "kind": "article"
+  },
+  "/th/blog/hiragana-katakana-kanji-tang-kan-yang-rai/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "th",
+    "kind": "article"
+  },
+  "/th/blog/jlpt-wan-longthbian-khaichai/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "th",
+    "kind": "article"
+  },
+  "/th/blog/kanji-jlpt-n5-n1-ki-tua/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "th",
+    "kind": "article"
+  },
+  "/th/blog/kanji-ngai-ngai-5-withee/": {
+    "article": "how-to-learn-kanji",
+    "locale": "th",
+    "kind": "article"
+  },
+  "/th/blog/kanjidon-radio-lik-duan-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "th",
+    "kind": "article"
+  },
+  "/th/blog/phasa-yipun-anime-slang-phasa-tua-lakhon/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "th",
+    "kind": "article"
+  },
+  "/th/faq/": {
+    "article": "",
+    "locale": "th",
+    "kind": "page"
+  },
+  "/tr/": {
+    "article": "",
+    "locale": "tr",
+    "kind": "page"
+  },
+  "/tr/about.html": {
+    "article": "",
+    "locale": "tr",
+    "kind": "page"
+  },
+  "/tr/blog/": {
+    "article": "",
+    "locale": "tr",
+    "kind": "blog"
+  },
+  "/tr/blog/anime-japoncasi-argo-karakter-dili/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "tr",
+    "kind": "article"
+  },
+  "/tr/blog/hiragana-katakana-kanji-farklari/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "tr",
+    "kind": "article"
+  },
+  "/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "tr",
+    "kind": "article"
+  },
+  "/tr/blog/jlpt-icin-kac-kanji-gerekli/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "tr",
+    "kind": "article"
+  },
+  "/tr/blog/kanji-nasil-ogrenilir-5-etkili-yontem/": {
+    "article": "how-to-learn-kanji",
+    "locale": "tr",
+    "kind": "article"
+  },
+  "/tr/blog/kanjidon-radio-lig-kanji-kapismalari/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "tr",
+    "kind": "article"
+  },
+  "/tr/faq/": {
+    "article": "",
+    "locale": "tr",
+    "kind": "page"
+  },
+  "/uk/": {
+    "article": "",
+    "locale": "uk",
+    "kind": "page"
+  },
+  "/uk/blog/": {
+    "article": "",
+    "locale": "uk",
+    "kind": "blog"
+  },
+  "/uk/blog/100-nayuzhyvanishykh-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/blog/hiragana-katakana-kanji-riznytsia/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/blog/kanjidon-radio-liha-bytvy-kandzi/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/blog/skilky-kanji-dlya-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/blog/srs-dlya-kanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/blog/yak-vyvchaty-kanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/blog/yaponska-z-anime-slenh-mova-personazhiv/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/blog/zastosunky-dlia-podorozhi-do-yaponii/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "uk",
+    "kind": "article"
+  },
+  "/uk/faq/": {
+    "article": "",
+    "locale": "uk",
+    "kind": "page"
+  },
+  "/ur/": {
+    "article": "",
+    "locale": "ur",
+    "kind": "page"
+  },
+  "/ur/blog/": {
+    "article": "",
+    "locale": "ur",
+    "kind": "blog"
+  },
+  "/ur/blog/anime-japanese-slang-kirdar-ki-zaban/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/blog/hiragana-katakana-kanji-farq/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/blog/japan-safar-zaroori-apps/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/blog/jlpt-ke-liye-kitne-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/blog/kanji-seekhne-ke-5-tareeqe/": {
+    "article": "how-to-learn-kanji",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/blog/kanjidon-radio-league-kanji-muqablay/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/blog/sab-se-zyada-istemal-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/blog/srs-kanji-kaise-kaam-karta/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "ur",
+    "kind": "article"
+  },
+  "/ur/faq/": {
+    "article": "",
+    "locale": "ur",
+    "kind": "page"
+  },
+  "/uz/": {
+    "article": "",
+    "locale": "uz",
+    "kind": "page"
+  },
+  "/uz/blog/": {
+    "article": "",
+    "locale": "uz",
+    "kind": "blog"
+  },
+  "/uz/blog/anime-yapon-tili-sleng-qahramon-nutqi/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/blog/eng-kop-ishlatiladigan-100-kanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/blog/hiragana-katakana-kanji-farqi/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/blog/jlpt-uchun-nechta-kanji/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/blog/kanji-organish-5-usul/": {
+    "article": "how-to-learn-kanji",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/blog/kanjidon-radio-liga-kanji-bellashuvlari/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/blog/srs-kanji-qanday-ishlaydi/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/blog/yaponiya-sayohati-zarur-ilovalar/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "uz",
+    "kind": "article"
+  },
+  "/uz/faq/": {
+    "article": "",
+    "locale": "uz",
+    "kind": "page"
+  },
+  "/vi/": {
+    "article": "",
+    "locale": "vi",
+    "kind": "page"
+  },
+  "/vi/about.html": {
+    "article": "",
+    "locale": "vi",
+    "kind": "page"
+  },
+  "/vi/blog/": {
+    "article": "",
+    "locale": "vi",
+    "kind": "blog"
+  },
+  "/vi/blog/cach-hoc-kanji-5-phuong-phap-hieu-qua/": {
+    "article": "how-to-learn-kanji",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/vi/blog/can-bao-nhieu-kanji-cho-jlpt/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/vi/blog/jlpt-lich-thi-dang-ky-phi/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/vi/blog/kanjidon-radio-giai-dau-kanji/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/vi/blog/phan-biet-hiragana-katakana-kanji/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/vi/blog/tieng-nhat-anime-tieng-long-ngon-ngu-nhan-vat/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/vi/blog/ung-dung-can-co-du-lich-nhat-ban/": {
+    "article": "essential-apps-japan-travel-2026",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/vi/faq/": {
+    "article": "",
+    "locale": "vi",
+    "kind": "page"
+  },
+  "/zh-tw/": {
+    "article": "",
+    "locale": "zh_TW",
+    "kind": "page"
+  },
+  "/zh-tw/about.html": {
+    "article": "",
+    "locale": "zh_TW",
+    "kind": "page"
+  },
+  "/zh-tw/blog/": {
+    "article": "",
+    "locale": "zh_TW",
+    "kind": "blog"
+  },
+  "/zh-tw/blog/100-changyong-hanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/dongman-riyu-wangluo-liuxingyu-jiaose-yuyan/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/hanji-xuexi-shequ-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/hanji-yuyan-zhongji-boss/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/hiragana-katakana-kanji-qubie/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/jiange-fuxi-hanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/jlpt-hanji-shuliang/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/jlpt-kaoshi-shijian-feiyong/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/jlpt-n5-n1-qubie/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/jlpt-n5-wanzheng-zhinan/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/kanjidon-radio-kanji-liansai-duizhan/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/riyu-zhuci-zhinan/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/ruhe-jizhu-hanji-bi-mian-cuowu/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/ruhe-tongguo-jlpt-celve/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/ruhe-xuexi-hanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/shibie-yu-jiyi-hanji/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/blog/skolko-vremeni-nuzhno-chtoby-sdat-jlpt/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "zh_TW",
+    "kind": "article"
+  },
+  "/zh-tw/faq/": {
+    "article": "",
+    "locale": "zh_TW",
+    "kind": "page"
+  },
+  "/zh/": {
+    "article": "",
+    "locale": "zh_CN",
+    "kind": "page"
+  },
+  "/zh/about.html": {
+    "article": "",
+    "locale": "zh_CN",
+    "kind": "page"
+  },
+  "/zh/blog/": {
+    "article": "",
+    "locale": "zh_CN",
+    "kind": "blog"
+  },
+  "/zh/blog/dongman-riyu-wangluo-liuxingyu-jiaose-yuyan/": {
+    "article": "anime-japanese-slang-role-language",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/hanji-xuexi-shequ-discord/": {
+    "article": "kanji-learning-community-discord",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/hanji-yuyan-zuizhong-boss/": {
+    "article": "kanji-final-boss-of-languages",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/jiange-chongfu-xuexi-hanji/": {
+    "article": "spaced-repetition-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/jlpt-geji-hanji-shuliang/": {
+    "article": "how-many-kanji-jlpt",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/jlpt-kaoshi-shijian-feiyong/": {
+    "article": "jlpt-dates-registration-costs",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/jlpt-n5-n1-qubie/": {
+    "article": "jlpt-n5-n4-n3-n2-n1-differences",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/jlpt-n5-wanzheng-zhinan/": {
+    "article": "jlpt-n5-complete-guide",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/jlpt-tonguo-xuyao-duojiu/": {
+    "article": "how-long-to-pass-jlpt",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/kanjidon-radio-hanzi-liansai-duizhan/": {
+    "article": "kanjidon-radio-league-kanji-battles",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/pingjiaming-pianjiaming-hanji-qubie/": {
+    "article": "hiragana-katakana-kanji-differences",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/renshi-vs-jiyi-hanji-wenti/": {
+    "article": "recognizing-vs-remembering-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/riben-zuichangyong-100ge-hanji/": {
+    "article": "100-most-used-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/riyu-zhuci-zhinan/": {
+    "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/ruhe-tongguo-jlpt-celve/": {
+    "article": "how-to-pass-jlpt-strategies",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/ruhe-xuexi-hanji/": {
+    "article": "how-to-learn-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/weishenme-jibuzhu-hanji/": {
+    "article": "why-you-cant-memorize-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/faq/": {
+    "article": "",
+    "locale": "zh_CN",
+    "kind": "page"
+  }
+}

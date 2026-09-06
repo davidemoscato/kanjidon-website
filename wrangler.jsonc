@@ -15,5 +15,21 @@
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1
-  }
+  },
+  "analytics_engine_datasets": [
+    {
+      "binding": "WEBSITE_ANALYTICS",
+      "dataset": "kanjidon_website_v1"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "WEBSITE_EVENTS_LIMIT",
+      "namespace_id": "260906410",
+      "simple": {
+        "limit": 600,
+        "period": 60
+      }
+    }
+  ]
 }

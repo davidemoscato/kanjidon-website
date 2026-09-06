@@ -559,3 +559,5 @@
         start();
     }
 })();
+
+(function(){if(location.hostname!=="kanjidon.com")return;var s=document.createElement("script");s.src="/website-analytics.js?v=20260906-v1";s.defer=true;document.head.appendChild(s);}());

@@ -1,3 +1,5 @@
+import { collectWebsiteEvent } from "./website-events.mjs";
+import websiteCatalog from "./website-catalog.json";
 // ============================================================================
 // Cloudflare Worker: kanjidon-410 (v6)
 // ============================================================================
@@ -1869,6 +1871,8 @@ export default {
       return Response.redirect(url.toString(), 301);
     }
 
+    if (url.pathname === "/api/website-events") return collectWebsiteEvent(request, env, websiteCatalog);
+
     // Normalizza encoding (Thai/CJK arrivano percent-encoded)
     let pathname = url.pathname;
     try { pathname = decodeURIComponent(url.pathname); } catch {}
@@ -1933,6 +1937,7 @@ export default {
         "/lang-banner.js",
         "/conversion.js",
         "/privacy-consent.js",
+        "/website-analytics.js",
       ].includes(pathname)
     ) {
       response.headers.set("Cache-Control", "public, max-age=0, must-revalidate");
