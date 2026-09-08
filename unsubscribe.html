@@ -474,7 +474,7 @@
 
             // If no token or placeholder token, show email form
             if (!token || token === 'test' || token === 'xxx') {
-                mainContent.dataset.state = 'form';
+                mainContent.dataset.state = 'error';
                 return;
             }
 
@@ -498,7 +498,7 @@
                 } else {
                     // If token invalid, show email form as fallback
                     if (data.error === 'invalid_token') {
-                        mainContent.dataset.state = 'form';
+                        mainContent.dataset.state = 'error';
                     } else {
                         mainContent.dataset.state = 'error';
                         errorMessage.textContent = 'An error occurred. Please try again or contact support.';
