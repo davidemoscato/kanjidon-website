@@ -1860,9 +1860,80 @@ for (const path of [
 ]) FANTASMA_URLS.add(path);
 // END RETIRED WEBSITE PAGES
 
+// BEGIN LEGACY BLOG REDIRECTS
+// Reviewed article migrations; preserve unrelated historical 410s.
+const LEGACY_BLOG_REDIRECTS = {
+  "/ar/blog/limadha-la-tastati-hifdh-kanji/": "/ar/blog/limatha-la-tahfaz-alkanji/",
+  "/ar/blog/altaearuf-laysa-altadhakur-kanji/": "/ar/blog/altaarruf-vs-altathakkur-kanji/",
+  "/ar/blog/kanji-alzaeim-alnihayi-lillughat/": "/ar/blog/alkanji-alboss-alnihaii-lilughat/",
+  "/ar/blog/kam-waqt-linajah-jlpt/": "/ar/blog/kam-yastaghriq-ijtiyaz-jlpt/",
+  "/ar/blog/furuq-jlpt-n5-n1/": "/ar/blog/jlpt-muqaranat-kull-almustawayat/",
+  "/ko/blog/wanji-oeuji-motaneun-iyu/": "/ko/blog/kanji-oeumji-mothaneun-iyu/",
+  "/ko/blog/araboneun-geot-gieokaneun-geot-dareuda/": "/ko/blog/kanji-inshik-vs-giok/",
+  "/ko/blog/hanja-eoneo-choejong-boseu/": "/ko/blog/kanji-eoneo-ui-choejongjeon-boss/",
+  "/ko/blog/jlpt-hapgyeok-gigan/": "/ko/blog/jlpt-hapgyeok-eolmana-geollilkka/",
+  "/ko/blog/jlpt-n5-wanjeon-gaideu/": "/ko/blog/jlpt-n5-wanbyeok-gaideu/",
+  "/ko/blog/jlpt-iljeong-deungnok-biyo/": "/ko/blog/jlpt-2026-siheom-iljeong-deungnok/",
+  "/ko/blog/jlpt-n5-n1-chaii/": "/ko/blog/jlpt-n5-n1-level-byeol-bigyo/",
+  "/ko/blog/jlpt-hapgyeok-jeonryak/": "/ko/blog/jlpt-hapgyeok-jeonryak-10gaji/",
+  "/ko/blog/neo-hanja-jalmot-baeugo-isseo/": "/ko/blog/kanji-hakseup-keomyuniti/",
+  "/ko/blog/ilboneo-josa-ni-de-wo-wa-ga/": "/ko/blog/ilboneo-josa-wanbyeok-gaideu/",
+  "/ru/blog/pochemu-ne-mozhesh-zapomnit-kanji/": "/ru/blog/pochemu-ne-poluchaetsya-zapomnit-kanji/",
+  "/ru/blog/uznavat-ne-znachit-pomnit-kanji/": "/ru/blog/uznavanie-protiv-zapominaniya-kanji/",
+  "/ru/blog/kanji-finalniy-boss-yazykov/": "/ru/blog/kanji-finalnyi-boss-yazykov/",
+  "/ru/blog/skolko-vremeni-sdat-jlpt/": "/ru/blog/skolko-vremeni-nuzhno-chtoby-sdat-jlpt/",
+  "/ru/blog/jlpt-n5-polnoe-rukovodstvo/": "/ru/blog/polnyi-gid-po-jlpt-n5/",
+  "/ru/blog/jlpt-daty-registratsiya-stoimost/": "/ru/blog/jlpt-daty-registraciya-stoimost/",
+  "/ru/blog/razlichiya-jlpt-n5-n4-n3-n2-n1/": "/ru/blog/raznica-mezhdu-urovnyami-jlpt/",
+  "/ru/blog/kak-sdat-jlpt-strategii/": "/ru/blog/kak-sdat-jlpt-10-strategiy/",
+  "/ru/blog/ty-uchish-kanji-nepravilno/": "/ru/blog/soobshchestvo-izucheniya-kanji-discord/",
+  "/ru/blog/yaponskie-chastitsy-ni-de-wo-wa-ga/": "/ru/blog/chasticy-yaponskogo-yazyka-gid/",
+  "/tr/blog/jlpt-tarihler-kayit-ucretler/": "/tr/blog/jlpt-2026-sinav-tarihleri-basvuru-ve-ucretler/",
+  "/zh/blog/weishenme-ji-buzhu-riyu-hanzi/": "/zh/blog/weishenme-jibuzhu-hanji/",
+  "/zh/blog/renshi-bushi-jiyi-hanzi/": "/zh/blog/renshi-vs-jiyi-hanji-wenti/",
+  "/zh/blog/hanzi-yuyan-zuizhong-boss/": "/zh/blog/hanji-yuyan-zuizhong-boss/",
+  "/zh/blog/jlpt-tonguo-shijian/": "/zh/blog/jlpt-tonguo-xuyao-duojiu/",
+  "/zh/blog/jlpt-riqi-baoming-feiyong/": "/zh/blog/jlpt-kaoshi-shijian-feiyong/",
+  "/zh/blog/jlpt-n5-n1-chabie/": "/zh/blog/jlpt-n5-n1-qubie/",
+  "/zh/blog/jlpt-tonguo-celue/": "/zh/blog/ruhe-tongguo-jlpt-celve/",
+  "/zh/blog/hanzi-xuexi-shequ-discord/": "/zh/blog/hanji-xuexi-shequ-discord/",
+  "/zh/blog/riyu-zhuchi-ni-de-wo-wa-ga/": "/zh/blog/riyu-zhuci-zhinan/",
+  "/zh-tw/blog/weishenme-ji-buzhu-riyu-hanzi/": "/zh-tw/blog/ruhe-jizhu-hanji-bi-mian-cuowu/",
+  "/zh-tw/blog/renshi-bushi-jiyi-hanzi/": "/zh-tw/blog/shibie-yu-jiyi-hanji/",
+  "/zh-tw/blog/hanzi-yuyan-zuizhong-boss/": "/zh-tw/blog/hanji-yuyan-zhongji-boss/",
+  "/zh-tw/blog/jlpt-tonguo-shijian/": "/zh-tw/blog/skolko-vremeni-nuzhno-chtoby-sdat-jlpt/",
+  "/zh-tw/blog/jlpt-riqi-baoming-feiyong/": "/zh-tw/blog/jlpt-kaoshi-shijian-feiyong/",
+  "/zh-tw/blog/jlpt-n5-n1-chabie/": "/zh-tw/blog/jlpt-n5-n1-qubie/",
+  "/zh-tw/blog/jlpt-tonguo-celue/": "/zh-tw/blog/ruhe-tongguo-jlpt-celve/",
+  "/zh-tw/blog/hanzi-xuexi-shequ-discord/": "/zh-tw/blog/hanji-xuexi-shequ-discord/",
+  "/zh-tw/blog/riyu-zhuci-ni-de-wo-wa-ga/": "/zh-tw/blog/riyu-zhuci-zhinan/"
+};
+// END LEGACY BLOG REDIRECTS
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    // BEGIN LEGACY BLOG REDIRECT HANDLER
+    // Resolve renamed articles before www canonicalization and the historical 410 list.
+    let legacyPath = url.pathname;
+    try { legacyPath = decodeURIComponent(legacyPath); } catch {}
+    if (legacyPath.endsWith('/index.html')) legacyPath = legacyPath.slice(0, -10);
+    if (!legacyPath.endsWith('/')) legacyPath += '/';
+    const legacyTarget = Object.hasOwn(LEGACY_BLOG_REDIRECTS, legacyPath)
+      ? LEGACY_BLOG_REDIRECTS[legacyPath] : null;
+    if (legacyTarget) {
+      const destination = new URL(legacyTarget, 'https://kanjidon.com');
+      destination.search = url.search;
+      return new Response(null, {
+        status: 301,
+        headers: {
+          Location: destination.toString(),
+          'Cache-Control': 'public, max-age=3600',
+          'X-Content-Type-Options': 'nosniff',
+        },
+      });
+    }
+    // END LEGACY BLOG REDIRECT HANDLER
     const isCanonicalHost = url.hostname === "kanjidon.com" || url.hostname === "www.kanjidon.com";
 
     // In produzione www deve convergere sull'apex preservando path e query.
