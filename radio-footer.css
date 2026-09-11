@@ -626,8 +626,8 @@ html[dir="rtl"] .category-filters .radio-site-footer{
   font-weight: 800 900;
   font-display: swap;
 }
-:root .radio-site-footer,html[data-theme="dark"] .radio-site-footer,html[data-theme="light"] .radio-site-footer{
-  color-scheme: dark !important;
+:root .radio-site-footer{
+  color-scheme: dark;
   --background: #1c1c1e;
   --surface: #252527;
   --surface-raised: #2c2c2e;
@@ -656,7 +656,7 @@ html[dir="rtl"] .category-filters .radio-site-footer{
   --challenger-purple: #9055c0;
 }
 html .radio-site-footer{
-  color-scheme: dark !important;
+  color-scheme: dark;
   background: var(--challenger-bg);
   scroll-behavior: smooth;
 }
@@ -695,7 +695,7 @@ html .radio-site-footer{
   font-weight: 800;
 }
 .radio-site-footer .theme-picker{
-  display: none;
+  display: block;
 }
 .radio-site-footer .footer{
   padding: clamp(64px, 9vw, 112px) 0 28px;
