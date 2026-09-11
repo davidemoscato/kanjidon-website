@@ -1,0 +1,1986 @@
+@font-face {
+
+  font-family: 'Kanjidon Japanese';
+  src: url('/assets/kanji-similar/mplus-japanese-400.woff2') format('woff2');
+  font-weight: 400 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+3000-30FF, U+31F0-31FF, U+3400-9FFF, U+FF00-FFEF;
+
+}
+@font-face {
+
+  font-family: 'Kanjidon Japanese';
+  src: url('/assets/kanji-similar/mplus-japanese-700.woff2') format('woff2');
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+3000-30FF, U+31F0-31FF, U+3400-9FFF, U+FF00-FFEF;
+
+}
+.kanji-similar {
+
+  --paper:#faf9f6;
+  --ink:#1c1c1e;
+  --surface:#f2f1ee;
+  --brand:#c65326;
+  --accent:#9f4520;
+  --line:#d8d6d0;
+  --white:#fff;
+  --dim:#56534e;
+  --dark-line:#55514e;
+  --dark-accent:#f29669;
+  --success:#295e43;
+  --soft-orange:#f4e3d8
+
+}
+.kanji-similar * {
+
+  box-sizing:border-box
+
+}
+.kanji-similar {
+
+  scroll-behavior:auto;
+  scroll-padding-top:28px
+
+}
+.kanji-similar {
+
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font:500 18px/1.65 Nunito,system-ui,sans-serif
+
+}
+.kanji-similar button,
+.kanji-similar a,
+.kanji-similar summary {
+
+  -webkit-tap-highlight-color:transparent
+
+}
+.kanji-similar a {
+
+  color:inherit;
+  text-underline-offset:5px
+
+}
+.kanji-similar button {
+
+  font:inherit;
+  cursor:pointer
+
+}
+.kanji-similar button,
+.kanji-similar a,
+.kanji-similar summary {
+
+  touch-action:manipulation
+
+}
+.kanji-similar button:focus-visible,
+.kanji-similar a:focus-visible,
+.kanji-similar summary:focus-visible {
+
+  outline:3px solid var(--brand);
+  outline-offset:5px
+
+}
+.kanji-similar button:disabled {
+
+  cursor:default
+
+}
+.kanji-similar img {
+
+  max-width:100%;
+  height:auto;
+  display:block
+
+}
+.kanji-similar h1,
+.kanji-similar h2,
+.kanji-similar h3,
+.kanji-similar p {
+
+  margin:0
+
+}
+.kanji-similar h1,
+.kanji-similar h2,
+.kanji-similar h3 {
+
+  font-weight:800
+
+}
+.kanji-similar strong {
+
+  font-weight:800
+
+}
+.kanji-similar em {
+
+  font-style:normal
+
+}
+.kanji-similar button[hidden],
+.kanji-similar [hidden] {
+
+  display:none!important
+
+}
+.kanji-similar .wrap {
+
+  max-width:1280px;
+  margin-inline:auto;
+  width:calc(100% - 96px)
+
+}
+.kanji-similar .reading-width {
+
+  max-width:720px;
+  margin-inline:auto
+
+}
+.kanji-similar .eyebrow {
+
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.12em;
+  line-height:1.5
+
+}
+.kanji-similar .skip {
+
+  position:absolute;
+  top:8px;
+  left:8px;
+  z-index:10;
+  padding:12px;
+  background:var(--ink);
+  color:var(--white);
+  transform:translateY(-200%)
+
+}
+.kanji-similar .skip:focus {
+
+  transform:none
+
+}
+.kanji-similar .site-header {
+
+  height:100px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid var(--line);
+  gap:16px
+
+}
+.kanji-similar .wordmark {
+
+  font-size:31px;
+  font-weight:800;
+  letter-spacing:-1.8px;
+  line-height:1;
+  text-decoration:none
+
+}
+.kanji-similar .wordmark>span {
+
+  font-size:12px;
+  vertical-align:top;
+  letter-spacing:0;
+  margin-left:3px
+
+}
+.kanji-similar .draft-label {
+
+  font-size:10px;
+  letter-spacing:.12em;
+  color:var(--dim);
+  border:1px solid var(--line);
+  padding:5px 12px;
+  border-radius:30px
+
+}
+.kanji-similar .header-link {
+
+  font-size:13px;
+  font-weight:800;
+  text-decoration:none
+
+}
+.kanji-similar .header-link span {
+
+  margin-left:10px
+
+}
+.kanji-similar .hero-eyebrow {
+
+  display:flex;
+  gap:14px;
+  color:var(--dim);
+  margin:36px 0 24px
+
+}
+.kanji-similar .hero-eyebrow a {
+
+  text-decoration:none
+
+}
+.kanji-similar .hero-eyebrow>span {
+
+  color:var(--brand)
+
+}
+.kanji-similar .hero {
+
+  display:grid;
+  grid-template-columns:1.17fr 1fr;
+  gap:48px;
+  align-items:stretch;
+  padding-bottom:58px
+
+}
+.kanji-similar .hero-copy {
+
+  padding-top:12px
+
+}
+.kanji-similar .hero h1 {
+
+  font-size:clamp(42px,5.3vw,76px);
+  line-height:1.05;
+  letter-spacing:-.052em
+
+}
+.kanji-similar .hero h1 em {
+
+  color:var(--brand)
+
+}
+.kanji-similar .dek {
+
+  font-size:19px;
+  line-height:1.65;
+  max-width:510px;
+  margin-top:28px
+
+}
+.kanji-similar .byline {
+
+  font-size:12px;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  margin-top:28px
+
+}
+.kanji-similar .byline-separator {
+
+  margin:0 7px;
+  color:var(--dim)
+
+}
+.kanji-similar .author-dot {
+
+  display:grid;
+  place-items:center;
+  width:28px;
+  height:28px;
+  border:1px solid var(--ink);
+  border-radius:50%;
+  font-weight:800
+
+}
+.kanji-similar .text-link {
+
+  font-weight:800;
+  font-size:14px;
+  text-decoration:none;
+  border-bottom:1px solid var(--ink);
+  padding-bottom:7px;
+  display:inline-flex;
+  gap:20px;
+  align-items:center
+
+}
+.kanji-similar .hero-start {
+
+  margin-top:30px
+
+}
+.kanji-similar .hero-game {
+
+  background:var(--ink);
+  color:var(--paper);
+  border-radius:20px;
+  padding:26px 28px 0;
+  overflow:hidden;
+  min-height:480px;
+  display:flex;
+  flex-direction:column
+
+}
+.kanji-similar .game-top {
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px
+
+}
+.kanji-similar .game-top .eyebrow {
+
+  font-size:9px
+
+}
+.kanji-similar .pill {
+
+  font-size:8px;
+  letter-spacing:.08em;
+  border:1px solid var(--dark-line);
+  border-radius:20px;
+  padding:4px 8px;
+  white-space:nowrap
+
+}
+.kanji-similar .game-question {
+
+  font-size:23px;
+  line-height:1.25;
+  font-weight:800;
+  margin:22px 0 18px;
+  letter-spacing:-.025em
+
+}
+.kanji-similar .quiz-options {
+
+  display:flex;
+  gap:12px
+
+}
+.kanji-similar .quiz-options button {
+
+  border:1px solid var(--line);
+  border-radius:12px;
+  flex:1;
+  background:var(--paper);
+  color:var(--ink);
+  padding:12px;
+  min-height:92px;
+  position:relative;
+  transition:background .15s,border-color .15s
+
+}
+.kanji-similar .quiz-options button [lang=ja] {
+
+  font:500 52px/1.2 'Kanjidon Japanese',Nunito,sans-serif
+
+}
+.kanji-similar .quiz-options button:not([aria-disabled=true]):hover {
+
+  background:var(--soft-orange);
+  border-color:var(--brand)
+
+}
+.kanji-similar .hero-options button {
+
+  background:transparent;
+  border-color:var(--dark-line);
+  color:var(--paper);
+  min-height:115px;
+  padding:16px
+
+}
+.kanji-similar .hero-options button [lang=ja] {
+
+  font-size:72px
+
+}
+.kanji-similar .hero-options button:not([aria-disabled=true]):hover {
+
+  background:#38312c;
+  border-color:var(--dark-accent)
+
+}
+.kanji-similar .quiz-feedback {
+
+  font-size:14px;
+  line-height:1.55
+
+}
+.kanji-similar .quiz-feedback:empty {
+
+  display:none
+
+}
+.kanji-similar .quiz-feedback:not(:empty) {
+
+  margin-top:16px
+
+}
+.kanji-similar .hero-game .quiz-feedback {
+
+  color:var(--paper);
+  font-size:13px
+
+}
+.kanji-similar .quiz-options button.is-correct {
+
+  border:2px solid var(--success);
+  background:#eaf0e9;
+  color:var(--ink)
+
+}
+.kanji-similar .quiz-options button.is-wrong {
+
+  border:2px dashed var(--accent);
+  background:var(--soft-orange);
+  color:var(--ink)
+
+}
+.kanji-similar .hero-options button.is-correct {
+
+  background:#d9eadc
+
+}
+.kanji-similar .choice-marker {
+
+  display:block;
+  font:800 10px/1.3 Nunito,sans-serif;
+  letter-spacing:.03em;
+  margin-top:5px
+
+}
+.kanji-similar .dodon-intro {
+
+  display:flex;
+  align-items:center;
+  gap:0;
+  margin-top:auto;
+  min-height:155px;
+  padding-top:10px
+
+}
+.kanji-similar .dodon-intro img {
+
+  width:47%;
+  margin:0 0 -16px -13px
+
+}
+.kanji-similar .dodon-intro p {
+
+  font-size:15px;
+  line-height:1.4;
+  font-weight:800;
+  flex:1
+
+}
+.kanji-similar .dodon-intro p>span {
+
+  display:block;
+  font-size:9px;
+  line-height:1.5;
+  color:#c8c3bd;
+  font-weight:500;
+  margin-top:9px;
+  max-width:150px
+
+}
+.kanji-similar .chapter-nav {
+
+  border-block:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:18px 0
+
+}
+.kanji-similar .chapter-nav a {
+
+  display:flex;
+  align-items:center;
+  gap:10px;
+  text-decoration:none;
+  font-size:17px;
+  font-weight:800;
+  min-height:44px
+
+}
+.kanji-similar .chapter-nav a>span:first-child:not(:last-child) {
+
+  font-size:10px;
+  color:var(--brand);
+  font-family:Nunito,sans-serif
+
+}
+.kanji-similar .chapter-nav .nav-quiz {
+
+  font-size:13px;
+  gap:20px
+
+}
+.kanji-similar .nav-label {
+
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.09em;
+  color:var(--dim)
+
+}
+.kanji-similar .opening {
+
+  padding-block:64px 78px
+
+}
+.kanji-similar .opening p+p,
+.kanji-similar .lesson-copy>p+p,
+.kanji-similar .next-step p+p {
+
+  margin-top:20px
+
+}
+.kanji-similar .opening p:first-child {
+
+  font-size:24px;
+  line-height:1.5;
+  font-weight:700;
+  letter-spacing:-.015em
+
+}
+.kanji-similar .lesson {
+
+  padding:0 0 76px;
+  scroll-margin-top:25px
+
+}
+.kanji-similar .lesson+.lesson {
+
+  padding-top:54px;
+  border-top:1px solid var(--line)
+
+}
+.kanji-similar .lesson-heading {
+
+  display:flex;
+  gap:26px;
+  align-items:flex-start;
+  margin-bottom:34px
+
+}
+.kanji-similar .chapter-number {
+
+  font-size:14px;
+  font-weight:800;
+  color:var(--brand);
+  padding-top:5px;
+  white-space:nowrap
+
+}
+.kanji-similar .lesson-heading .eyebrow {
+
+  color:var(--accent);
+  margin-bottom:10px
+
+}
+.kanji-similar h2 {
+
+  font-size:clamp(30px,3.5vw,44px);
+  line-height:1.13;
+  letter-spacing:-.035em
+
+}
+.kanji-similar .lesson-grid {
+
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:64px;
+  align-items:start
+
+}
+.kanji-similar .comparison {
+
+  background:var(--surface);
+  padding:16px;
+  border-radius:16px
+
+}
+.kanji-similar .pair-cards {
+
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px
+
+}
+.kanji-similar .kanji-card {
+
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:10px;
+  text-align:center;
+  padding:18px 6px
+
+}
+.kanji-similar .card-label {
+
+  font-size:9px;
+  letter-spacing:.09em;
+  font-weight:800;
+  color:var(--dim)
+
+}
+.kanji-similar .kanji-card svg {
+
+  display:block;
+  width:100%;
+  max-width:180px;
+  margin:20px auto 10px
+
+}
+.kanji-similar .glyph {
+
+  fill:none;
+  stroke:var(--ink);
+  stroke-width:7;
+  stroke-linecap:square;
+  stroke-linejoin:miter
+
+}
+.kanji-similar .key-stroke {
+
+  transition:stroke .2s
+
+}
+.kanji-similar .is-highlighted .key-stroke {
+
+  stroke:var(--brand)
+
+}
+.kanji-similar .glyph-caption {
+
+  font-family:'Kanjidon Japanese',Nunito,sans-serif;
+  font-size:18px;
+  border:1px solid var(--line);
+  border-radius:50%;
+  display:inline-grid;
+  place-items:center;
+  width:34px;
+  height:34px
+
+}
+.kanji-similar .kanji-card>p:last-child {
+
+  font-size:12px;
+  margin:12px 0 4px
+
+}
+.kanji-similar .reveal-detail {
+
+  width:100%;
+  background:var(--ink);
+  color:var(--paper);
+  border:1px solid var(--ink);
+  border-radius:9px;
+  min-height:48px;
+  font-size:13px;
+  font-weight:800;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  margin-top:14px
+
+}
+.kanji-similar .detail-icon {
+
+  font-size:20px;
+  color:var(--dark-accent)
+
+}
+.kanji-similar .reveal-detail[aria-pressed=true] {
+
+  background:var(--accent);
+  border-color:var(--accent)
+
+}
+.kanji-similar .reveal-detail[aria-pressed=true] .detail-icon {
+
+  color:var(--paper)
+
+}
+.kanji-similar .diagram-note {
+
+  font-size:11px;
+  line-height:1.6;
+  text-align:center;
+  color:var(--dim);
+  margin:12px 5px 0
+
+}
+.kanji-similar .lesson-copy {
+
+  font-size:16px;
+  line-height:1.75
+
+}
+.kanji-similar .word-example {
+
+  border-block:1px solid var(--line);
+  margin:24px 0;
+  padding:20px 0 12px
+
+}
+.kanji-similar .word-example .eyebrow {
+
+  color:var(--dim);
+  font-size:9px
+
+}
+.kanji-similar .word-example>p {
+
+  display:flex;
+  align-items:center;
+  gap:22px;
+  margin:19px 0 12px
+
+}
+.kanji-similar .word-example ruby {
+
+  font-size:26px;
+  min-width:110px;
+  font-family:'Kanjidon Japanese',Nunito,sans-serif;
+  line-height:1.7
+
+}
+.kanji-similar .word-example rt {
+
+  font-size:10px;
+  font-weight:500
+
+}
+.kanji-similar .word-example>p>span {
+
+  font-size:13px;
+  line-height:1.5
+
+}
+.kanji-similar .word-example i {
+
+  font-style:normal;
+  font-weight:800
+
+}
+.kanji-similar .memory-note {
+
+  font-size:14px;
+  line-height:1.65
+
+}
+.kanji-similar .memory-note>span:first-child {
+
+  color:var(--accent);
+  font-size:9px;
+  letter-spacing:.08em;
+  font-weight:800;
+  display:block;
+  margin-bottom:6px
+
+}
+.kanji-similar .dodon-break {
+
+  margin:0 0 70px;
+  padding:20px 40px 0 24px;
+  border-block:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  gap:30px;
+  overflow:hidden
+
+}
+.kanji-similar .dodon-break img {
+
+  width:158px;
+  align-self:end;
+  margin-bottom:-18px
+
+}
+.kanji-similar .dodon-break>div {
+
+  padding-bottom:20px
+
+}
+.kanji-similar .dodon-break .eyebrow {
+
+  font-size:9px;
+  color:var(--accent);
+  margin-bottom:10px
+
+}
+.kanji-similar .dodon-break>div>p:nth-child(2) {
+
+  font-size:24px;
+  font-weight:800;
+  letter-spacing:-.02em;
+  line-height:1.3
+
+}
+.kanji-similar .dodon-break>div>span {
+
+  font-size:12px;
+  display:block;
+  margin-top:9px;
+  color:var(--dim)
+
+}
+.kanji-similar .break-glyph {
+
+  font-size:90px;
+  margin-left:auto;
+  line-height:1;
+  color:#c8c4bd
+
+}
+.kanji-similar .recap {
+
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:64px;
+  background:var(--ink);
+  color:var(--paper);
+  border-radius:16px;
+  padding:40px 44px;
+  margin-bottom:78px
+
+}
+.kanji-similar .recap .eyebrow {
+
+  color:var(--dark-accent);
+  font-size:9px;
+  margin-bottom:12px
+
+}
+.kanji-similar .recap h2 {
+
+  font-size:35px
+
+}
+.kanji-similar .recap>div>p:last-child {
+
+  font-size:12px;
+  color:#c8c3bd;
+  line-height:1.6;
+  max-width:310px;
+  margin-top:20px
+
+}
+.kanji-similar .recap dl {
+
+  margin:0
+
+}
+.kanji-similar .recap dl>div {
+
+  display:flex;
+  gap:22px;
+  align-items:center;
+  padding:18px 0;
+  border-bottom:1px solid var(--dark-line)
+
+}
+.kanji-similar .recap dl>div:last-child {
+
+  border-bottom:0
+
+}
+.kanji-similar .recap dt {
+
+  font-size:25px;
+  white-space:nowrap;
+  min-width:95px
+
+}
+.kanji-similar .recap dd {
+
+  font-size:13px;
+  line-height:1.5;
+  margin:0
+
+}
+.kanji-similar .recap dd strong {
+
+  display:block;
+  color:var(--dark-accent);
+  margin-bottom:3px
+
+}
+.kanji-similar .final-quiz {
+
+  scroll-margin-top:24px
+
+}
+.kanji-similar .quiz-heading {
+
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:24px;
+  margin-bottom:30px
+
+}
+.kanji-similar .quiz-heading .eyebrow {
+
+  color:var(--accent);
+  margin-bottom:12px
+
+}
+.kanji-similar .quiz-heading h2 {
+
+  font-size:48px
+
+}
+.kanji-similar .quiz-heading p:last-child {
+
+  font-size:16px;
+  margin-top:16px;
+  max-width:640px
+
+}
+.kanji-similar .quiz-progress {
+
+  font-size:11px;
+  font-weight:800;
+  white-space:nowrap;
+  display:block;
+  border:1px solid var(--line);
+  padding:8px 12px;
+  border-radius:24px
+
+}
+.kanji-similar .quiz-grid {
+
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px
+
+}
+.kanji-similar .question-card {
+
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:24px;
+  background:var(--surface)
+
+}
+.kanji-similar .question-card>.eyebrow {
+
+  font-size:9px;
+  color:var(--dim)
+
+}
+.kanji-similar .question-card h3 {
+
+  font-size:21px;
+  line-height:1.3;
+  margin:16px 0 22px;
+  min-height:56px;
+  letter-spacing:-.015em
+
+}
+.kanji-similar .question-card .quiz-feedback {
+
+  font-size:13px
+
+}
+.kanji-similar .quiz-result {
+
+  margin-top:22px;
+  padding:22px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px
+
+}
+.kanji-similar .quiz-result p {
+
+  font-size:15px;
+  max-width:700px
+
+}
+.kanji-similar .reset-quiz {
+
+  background:transparent;
+  border:0;
+  border-bottom:1px solid var(--ink);
+  font-size:12px;
+  font-weight:800;
+  min-height:44px;
+  white-space:nowrap
+
+}
+.kanji-similar .quiz-fallback {
+
+  font-size:14px;
+  margin-block:14px
+
+}
+.kanji-similar .quiz-fallback summary {
+
+  padding-block:12px
+
+}
+.kanji-similar .next-step {
+
+  padding-block:80px
+
+}
+.kanji-similar .next-step .eyebrow {
+
+  color:var(--accent);
+  margin-bottom:14px
+
+}
+.kanji-similar .next-step h2 {
+
+  margin-bottom:28px
+
+}
+.kanji-similar .next-step>p:not(.eyebrow) {
+
+  font-size:17px
+
+}
+.kanji-similar .app-cta {
+
+  background:var(--soft-orange);
+  border:1px solid #e3c5b4;
+  border-radius:18px;
+  display:grid;
+  grid-template-columns:1.4fr 1fr;
+  padding:46px 52px 0;
+  gap:35px;
+  overflow:hidden;
+  align-items:center
+
+}
+.kanji-similar .app-cta>div {
+
+  padding-bottom:46px
+
+}
+.kanji-similar .app-cta .eyebrow {
+
+  font-size:9px;
+  color:var(--accent);
+  margin-bottom:14px
+
+}
+.kanji-similar .app-cta h2 {
+
+  font-size:43px
+
+}
+.kanji-similar .app-cta p:not(.eyebrow) {
+
+  font-size:16px;
+  max-width:490px;
+  margin-top:20px
+
+}
+.kanji-similar .button-primary {
+
+  display:inline-flex;
+  gap:38px;
+  align-items:center;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:800;
+  padding:14px 20px;
+  background:var(--ink);
+  color:var(--paper);
+  border-radius:9px;
+  margin-top:26px;
+  min-height:50px
+
+}
+.kanji-similar .button-primary:hover {
+
+  background:var(--accent)
+
+}
+.kanji-similar .app-cta img {
+
+  width:100%;
+  max-width:340px;
+  align-self:end;
+  margin-bottom:-25px
+
+}
+.kanji-similar .faq {
+
+  padding-top:78px
+
+}
+.kanji-similar .faq>.eyebrow {
+
+  color:var(--accent);
+  margin-bottom:14px
+
+}
+.kanji-similar .faq h2 {
+
+  margin-bottom:26px
+
+}
+.kanji-similar .faq details {
+
+  border-top:1px solid var(--line)
+
+}
+.kanji-similar summary {
+
+  cursor:pointer;
+  min-height:44px
+
+}
+.kanji-similar summary::marker {
+
+  color:var(--brand)
+
+}
+.kanji-similar .faq summary {
+
+  font-weight:800;
+  font-size:16px;
+  padding:22px 0
+
+}
+.kanji-similar .faq details p {
+
+  font-size:15px;
+  padding-bottom:24px;
+  line-height:1.75
+
+}
+.kanji-similar .sources {
+
+  padding:30px 0 70px
+
+}
+.kanji-similar .sources summary {
+
+  font-size:12px;
+  color:var(--dim);
+  padding:14px 0
+
+}
+.kanji-similar .sources p {
+
+  font-size:12px;
+  line-height:1.8;
+  color:var(--dim);
+  margin-top:12px
+
+}
+.kanji-similar .site-footer {
+
+  border-top:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:32px 0 40px
+
+}
+.kanji-similar .site-footer .wordmark {
+
+  font-size:25px
+
+}
+.kanji-similar .site-footer p,
+.kanji-similar .site-footer>a:last-child {
+
+  font-size:11px
+
+}
+.kanji-similar .site-footer>a:last-child {
+
+  min-height:44px;
+  display:flex;
+  align-items:center
+
+}
+@media(min-width:1500px) {
+.kanji-similar .hero h1 {
+
+    font-size:78px
+
+}
+.kanji-similar .hero-game {
+
+    min-height:500px
+
+}
+}
+@media(max-width:1050px) {
+.kanji-similar .wrap {
+
+    width:calc(100% - 56px)
+
+}
+.kanji-similar .hero {
+
+    gap:28px;
+    grid-template-columns:1.12fr 1fr
+
+}
+.kanji-similar .hero h1 {
+
+    font-size:clamp(42px,5.6vw,62px)
+
+}
+.kanji-similar .hero-game {
+
+    padding:22px 22px 0
+
+}
+.kanji-similar .hero .dek {
+
+    font-size:17px
+
+}
+.kanji-similar .game-top {
+
+    align-items:start
+
+}
+.kanji-similar .pill {
+
+    display:none
+
+}
+.kanji-similar .lesson-grid {
+
+    gap:34px
+
+}
+.kanji-similar .nav-label {
+
+    display:none
+
+}
+.kanji-similar .recap {
+
+    gap:35px;
+    padding:34px
+
+}
+.kanji-similar .question-card {
+
+    padding:20px 16px
+
+}
+.kanji-similar .app-cta {
+
+    padding:36px 34px 0
+
+}
+.kanji-similar .app-cta h2 {
+
+    font-size:36px
+
+}
+}
+@media(max-width:760px) {
+.kanji-similar .wrap {
+
+    width:calc(100% - 36px)
+
+}
+.kanji-similar .site-header {
+
+    height:76px
+
+}
+.kanji-similar .wordmark {
+
+    font-size:28px
+
+}
+.kanji-similar .draft-label {
+
+    font-size:8px;
+    padding:4px 8px
+
+}
+.kanji-similar .header-link {
+
+    font-size:0
+
+}
+.kanji-similar .header-link span {
+
+    font-size:24px;
+    margin:0
+
+}
+.kanji-similar .hero-eyebrow {
+
+    font-size:9px;
+    gap:10px;
+    margin:27px 0 20px
+
+}
+.kanji-similar .hero {
+
+    grid-template-columns:1fr;
+    gap:30px;
+    padding-bottom:32px
+
+}
+.kanji-similar .hero-copy {
+
+    padding-top:0
+
+}
+.kanji-similar .hero h1 {
+
+    font-size:clamp(44px,9.5vw,68px);
+    letter-spacing:-.05em
+
+}
+.kanji-similar .hero .dek {
+
+    font-size:17px;
+    max-width:530px;
+    margin-top:22px
+
+}
+.kanji-similar .byline {
+
+    margin-top:20px;
+    font-size:11px
+
+}
+.kanji-similar .hero-start {
+
+    margin-top:22px
+
+}
+.kanji-similar .hero-game {
+
+    min-height:0;
+    padding:22px 22px 0;
+    border-radius:16px;
+    max-width:530px;
+    width:100%
+
+}
+.kanji-similar .game-top .eyebrow {
+
+    font-size:9px
+
+}
+.kanji-similar .pill {
+
+    display:block
+
+}
+.kanji-similar .game-question {
+
+    font-size:24px;
+    margin:20px 0
+
+}
+.kanji-similar .hero-options button {
+
+    min-height:107px;
+    padding:12px
+
+}
+.kanji-similar .hero-options button [lang=ja] {
+
+    font-size:64px
+
+}
+.kanji-similar .dodon-intro {
+
+    min-height:0
+
+}
+.kanji-similar .dodon-intro img {
+
+    max-width:180px;
+    width:45%;
+    margin-bottom:-12px
+
+}
+.kanji-similar .dodon-intro p {
+
+    font-size:15px
+
+}
+.kanji-similar .dodon-intro p>span {
+
+    font-size:10px
+
+}
+.kanji-similar .chapter-nav {
+
+    gap:10px;
+    flex-wrap:wrap;
+    padding:10px 0;
+    justify-content:space-around
+
+}
+.kanji-similar .chapter-nav a {
+
+    font-size:16px;
+    gap:5px
+
+}
+.kanji-similar .chapter-nav .nav-quiz {
+
+    font-size:11px;
+    gap:6px
+
+}
+.kanji-similar .chapter-nav a>span:first-child:not(:last-child) {
+
+    font-size:8px
+
+}
+.kanji-similar .opening {
+
+    padding-block:38px 48px
+
+}
+.kanji-similar .opening p:first-child {
+
+    font-size:22px
+
+}
+.kanji-similar .opening p {
+
+    font-size:16px
+
+}
+.kanji-similar .lesson {
+
+    padding-bottom:46px
+
+}
+.kanji-similar .lesson+.lesson {
+
+    padding-top:38px
+
+}
+.kanji-similar .lesson-heading {
+
+    gap:14px;
+    margin-bottom:25px
+
+}
+.kanji-similar .chapter-number {
+
+    font-size:12px
+
+}
+.kanji-similar .lesson-heading .eyebrow {
+
+    font-size:9px
+
+}
+.kanji-similar .lesson-heading h2 {
+
+    font-size:30px
+
+}
+.kanji-similar .lesson-grid {
+
+    grid-template-columns:1fr;
+    gap:26px
+
+}
+.kanji-similar .comparison {
+
+    padding:12px;
+    max-width:530px;
+    width:100%;
+    margin-inline:auto
+
+}
+.kanji-similar .kanji-card {
+
+    padding:16px 4px
+
+}
+.kanji-similar .kanji-card svg {
+
+    max-width:155px;
+    margin:16px auto 10px
+
+}
+.kanji-similar .card-label {
+
+    font-size:8px
+
+}
+.kanji-similar .kanji-card>p:last-child {
+
+    font-size:11px
+
+}
+.kanji-similar .lesson-copy {
+
+    font-size:16px
+
+}
+.kanji-similar .word-example>p {
+
+    gap:20px
+
+}
+.kanji-similar .word-example>p>span {
+
+    font-size:13px
+
+}
+.kanji-similar .dodon-break {
+
+    gap:15px;
+    margin-bottom:44px;
+    padding:16px 6px 0 0
+
+}
+.kanji-similar .dodon-break img {
+
+    width:100px;
+    margin-left:-8px;
+    margin-bottom:-10px
+
+}
+.kanji-similar .dodon-break>div {
+
+    padding-bottom:18px
+
+}
+.kanji-similar .dodon-break>div>p:nth-child(2) {
+
+    font-size:18px
+
+}
+.kanji-similar .dodon-break>div>span {
+
+    font-size:10px
+
+}
+.kanji-similar .dodon-break .eyebrow {
+
+    font-size:8px
+
+}
+.kanji-similar .break-glyph {
+
+    display:none
+
+}
+.kanji-similar .recap {
+
+    grid-template-columns:1fr;
+    gap:12px;
+    padding:26px 24px;
+    margin-bottom:48px
+
+}
+.kanji-similar .recap h2 {
+
+    font-size:33px
+
+}
+.kanji-similar .recap h2 br {
+
+    display:none
+
+}
+.kanji-similar .recap>div>p:last-child {
+
+    max-width:none;
+    margin-top:16px
+
+}
+.kanji-similar .recap dl>div {
+
+    gap:14px
+
+}
+.kanji-similar .recap dt {
+
+    font-size:23px;
+    min-width:84px
+
+}
+.kanji-similar .recap dd {
+
+    font-size:12px
+
+}
+.kanji-similar .quiz-heading {
+
+    align-items:start;
+    flex-direction:column;
+    gap:16px;
+    margin-bottom:22px
+
+}
+.kanji-similar .quiz-heading h2 {
+
+    font-size:38px
+
+}
+.kanji-similar .quiz-heading p:last-child {
+
+    font-size:15px;
+    margin-top:14px
+
+}
+.kanji-similar .quiz-heading .eyebrow {
+
+    font-size:9px
+
+}
+.kanji-similar .quiz-grid {
+
+    grid-template-columns:1fr;
+    gap:14px
+
+}
+.kanji-similar .question-card {
+
+    padding:24px
+
+}
+.kanji-similar .question-card h3 {
+
+    min-height:0;
+    font-size:22px;
+    margin:12px 0 20px
+
+}
+.kanji-similar .quiz-options button {
+
+    min-height:92px
+
+}
+.kanji-similar .quiz-result {
+
+    flex-direction:column;
+    align-items:start;
+    padding:20px
+
+}
+.kanji-similar .quiz-result p {
+
+    font-size:14px
+
+}
+.kanji-similar .next-step {
+
+    padding-block:52px
+
+}
+.kanji-similar .next-step h2 {
+
+    font-size:34px
+
+}
+.kanji-similar .next-step>p:not(.eyebrow) {
+
+    font-size:16px
+
+}
+.kanji-similar .app-cta {
+
+    grid-template-columns:1fr;
+    gap:0;
+    padding:28px 24px 0
+
+}
+.kanji-similar .app-cta h2 {
+
+    font-size:35px
+
+}
+.kanji-similar .app-cta>div {
+
+    padding-bottom:0
+
+}
+.kanji-similar .app-cta p:not(.eyebrow) {
+
+    font-size:15px
+
+}
+.kanji-similar .app-cta img {
+
+    max-width:220px;
+    justify-self:end;
+    margin-top:10px;
+    margin-bottom:-22px
+
+}
+.kanji-similar .app-cta .eyebrow {
+
+    font-size:8px
+
+}
+.kanji-similar .faq {
+
+    padding-top:52px
+
+}
+.kanji-similar .faq h2 {
+
+    font-size:34px
+
+}
+.kanji-similar .faq summary {
+
+    font-size:15px
+
+}
+.kanji-similar .sources {
+
+    padding-bottom:40px
+
+}
+.kanji-similar .site-footer {
+
+    display:grid;
+    grid-template-columns:1fr auto;
+    padding:26px 0
+
+}
+.kanji-similar .site-footer p {
+
+    grid-row:2;
+    grid-column:1/-1;
+    font-size:11px
+
+}
+.kanji-similar .site-footer>a:last-child {
+
+    grid-column:2;
+    grid-row:1
+
+}
+.kanji-similar .site-footer .wordmark {
+
+    font-size:25px
+
+}
+}
+@media(prefers-reduced-motion:reduce) {
+.kanji-similar {
+
+    scroll-behavior:auto
+
+}
+.kanji-similar *,
+.kanji-similar *::before,
+.kanji-similar *::after {
+
+    transition:none!important
+
+}
+}
+@media print {
+.kanji-similar .site-header,
+.kanji-similar .chapter-nav,
+.kanji-similar .hero-game,
+.kanji-similar .hero-start,
+.kanji-similar .app-cta,
+.kanji-similar .site-footer,
+.kanji-similar .reveal-detail,
+.kanji-similar .quiz-options,
+.kanji-similar .reset-quiz,
+.kanji-similar .draft-label {
+
+    display:none!important
+
+}
+.kanji-similar .wrap {
+
+    width:100%
+
+}
+.kanji-similar .hero,
+.kanji-similar .lesson-grid,
+.kanji-similar .recap {
+
+    display:block
+
+}
+.kanji-similar .hero h1 {
+
+    font-size:40px
+
+}
+.kanji-similar .lesson,
+.kanji-similar .opening,
+.kanji-similar .next-step {
+
+    padding-block:20px
+
+}
+.kanji-similar .lesson-heading {
+
+    break-after:avoid
+
+}
+.kanji-similar .comparison,
+.kanji-similar .question-card {
+
+    break-inside:avoid
+
+}
+.kanji-similar .quiz-fallback {
+
+    display:block!important
+
+}
+.kanji-similar .key-stroke {
+
+    stroke:var(--brand)
+
+}
+.kanji-similar .recap {
+
+    color:var(--ink);
+    background:transparent
+
+}
+.kanji-similar .recap dd strong,
+.kanji-similar .recap .eyebrow,
+.kanji-similar .recap>div>p:last-child {
+
+    color:var(--ink)
+
+}
+}
+.kanji-similar .glyph-base {
+ fill: var(--ink);
+}
+.kanji-similar .glyph-detail {
+ fill: var(--brand); opacity: 0; transition: opacity .2s ease;
+}
+.kanji-similar .is-highlighted .glyph-detail {
+ opacity: 1;
+}
+.kanji-similar .word-example i {
+ font-family: Nunito, system-ui, sans-serif;
+}
+.kanji-similar .dodon-intro {
+ gap: 12px; margin-top: 16px; align-items: center; min-height: 178px;
+}
+.kanji-similar .dodon-intro img {
+ width: 46%; margin: 0 0 -6px -12px;
+}
+.kanji-similar .dodon-bubble {
+ flex: 1; padding: 13px 0;
+}
+.kanji-similar .dodon-bubble p {
+ font-size: 15px; line-height: 1.5;
+}
+.kanji-similar .dodon-bubble>span {
+ display: block; font-size: 10px; line-height: 1.5; color: #c8c3bd; margin-top: 9px;
+}
+.kanji-similar .dodon-break {
+ border: 0; padding: 14px 7% 12px; gap: 42px; overflow: visible;
+}
+.kanji-similar .dodon-break img {
+ width: 220px; margin: 0; align-self: center; mix-blend-mode: multiply;
+}
+.kanji-similar .dodon-break>div {
+ padding: 0; max-width: 510px;
+}
+.kanji-similar .dodon-break>div>p:nth-child(2) {
+ font-size: 30px; line-height: 1.3;
+}
+.kanji-similar .dodon-break>div>span {
+ font-size: 13px; line-height: 1.6; max-width: 370px; margin-top: 13px;
+}
+.kanji-similar .dodon-next {
+ display: inline-flex; align-items: center; gap: 15px; font-size: 12px; font-weight: 800; min-height: 44px; margin-top: 12px;
+}
+.kanji-similar .app-cta {
+ border: 0;
+}
+@media (max-width: 760px) {
+.kanji-similar .dodon-intro {
+ gap: 8px; min-height: 150px;
+}
+.kanji-similar .dodon-intro img {
+ width: 43%; margin-left: -8px;
+}
+.kanji-similar .dodon-bubble p {
+ font-size: 14px;
+}
+.kanji-similar .dodon-bubble>span {
+ font-size: 9px;
+}
+.kanji-similar .dodon-break {
+ padding: 8px 0 12px; gap: 10px; align-items: center;
+}
+.kanji-similar .dodon-break img {
+ width: 34%; margin-left: -6px;
+}
+.kanji-similar .dodon-break>div {
+ flex: 1;
+}
+.kanji-similar .dodon-break>div>p:nth-child(2) {
+ font-size: 21px;
+}
+.kanji-similar .dodon-break>div>span {
+ font-size: 11px;
+}
+.kanji-similar .dodon-next {
+ font-size: 11px; margin-top: 8px; gap: 8px;
+}
+}
+
+.kanji-similar [lang="ja"] { font-family: 'Kanjidon Japanese', sans-serif; direction: ltr; unicode-bidi: isolate; }
+.kanji-similar .word-example i { font-family: Nunito,system-ui,sans-serif; direction:ltr; unicode-bidi:isolate; }
+.kanji-similar { padding: 32px 0 0; margin:0; width:100%; }
+.kanji-similar .ks-article { padding:0; margin:0; width:100%; max-width:none; background:var(--paper); }
+.kanji-similar .ks-breadcrumb { display:flex; gap:12px; font:700 12px/1.5 Nunito,system-ui,sans-serif; padding-block:18px 30px; }
+.kanji-similar .hero { margin-top:0; }
+.kanji-similar .ks-related { padding-block:30px 60px; border-top:1px solid var(--line); }
+.kanji-similar .ks-related h2 { font-size:26px; margin-bottom:24px; }
+.kanji-similar .ks-related>div { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.kanji-similar .ks-related a { border:1px solid var(--line); border-radius:12px; padding:18px; font-weight:800; font-size:16px; text-decoration:none; }
+.kanji-similar .reveal-detail { white-space:normal; padding:10px; }
+.kanji-similar .hero-copy,.kanji-similar .hero-game,.kanji-similar .lesson-copy { min-width:0; }
+.kanji-similar h1,.kanji-similar h2,.kanji-similar h3 { overflow-wrap:anywhere; }
+.kanji-similar .hero h1 { font-size:clamp(40px,4.9vw,70px); }
+.kanji-similar .hero h1 [lang="ja"] { font-size:.9em; }
+/* Leave room for vowel signs and stacked glyphs in these writing systems. */
+.kanji-similar:is(:lang(my), :lang(km), :lang(th), :lang(si), :lang(hi), :lang(ne), :lang(bn), :lang(ta), :lang(kn), :lang(mr), :lang(te)) :is(h1, h2, h3, .game-question) {
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.kanji-similar .word-example p { flex-wrap:wrap; }
+.kanji-similar .chapter-nav a { unicode-bidi:isolate; }
+.kanji-similar [data-pair],.kanji-similar .quiz-options,.kanji-similar .recap dt { direction:ltr; }
+.kanji-similar .kanji-card p { direction:inherit; }
+html[dir="rtl"] .kanji-similar .kanji-card p { direction:rtl; }
+html[dir="rtl"] .kanji-similar .dodon-break img { transform:scaleX(-1); }
+html[dir="rtl"] .kanji-similar .dodon-intro img { margin-left:0; margin-right:-12px; }
+@media(max-width:760px) { .kanji-similar .ks-related>div { grid-template-columns:1fr; } .kanji-similar .hero h1 { font-size:clamp(36px,9vw,62px); } }
+@media(prefers-reduced-motion:reduce) { .kanji-similar .glyph-detail { transition:none; } }
