@@ -20,18 +20,19 @@
 }
 .kanji-similar {
 
-  --paper:#faf9f6;
-  --ink:#1c1c1e;
-  --surface:#f2f1ee;
-  --brand:#c65326;
-  --accent:#9f4520;
-  --line:#d8d6d0;
-  --white:#fff;
-  --dim:#56534e;
+  /* Use the same fixed dark palette as the shared site chrome. */
+  --ks-background:var(--challenger-bg, #1c1c1e);
+  --ks-text:var(--challenger-text, #faf9f6);
+  --surface:var(--challenger-surface, #252527);
+  --brand:var(--challenger-orange, #db6d3d);
+  --accent:var(--challenger-orange, #db6d3d);
+  --line:var(--challenger-line, rgba(250,249,246,.18));
+  --dim:var(--challenger-muted, #b8b5b0);
   --dark-line:#55514e;
   --dark-accent:#f29669;
-  --success:#295e43;
-  --soft-orange:#f4e3d8
+  --success:#8fd4a3;
+  --success-surface:#203c2a;
+  --soft-orange:#382a24
 
 }
 .kanji-similar * {
@@ -48,8 +49,8 @@
 .kanji-similar {
 
   margin:0;
-  background:var(--paper);
-  color:var(--ink);
+  background:var(--ks-background);
+  color:var(--ks-text);
   font:500 18px/1.65 Nunito,system-ui,sans-serif
 
 }
@@ -158,8 +159,8 @@
   left:8px;
   z-index:10;
   padding:12px;
-  background:var(--ink);
-  color:var(--white);
+  background:var(--ks-text);
+  color:var(--ks-background);
   transform:translateY(-200%)
 
 }
@@ -290,7 +291,7 @@
   place-items:center;
   width:28px;
   height:28px;
-  border:1px solid var(--ink);
+  border:1px solid var(--ks-text);
   border-radius:50%;
   font-weight:800
 
@@ -300,7 +301,7 @@
   font-weight:800;
   font-size:14px;
   text-decoration:none;
-  border-bottom:1px solid var(--ink);
+  border-bottom:1px solid var(--ks-text);
   padding-bottom:7px;
   display:inline-flex;
   gap:20px;
@@ -314,8 +315,8 @@
 }
 .kanji-similar .hero-game {
 
-  background:var(--ink);
-  color:var(--paper);
+  background:var(--surface);
+  color:var(--ks-text);
   border-radius:20px;
   padding:26px 28px 0;
   overflow:hidden;
@@ -367,8 +368,8 @@
   border:1px solid var(--line);
   border-radius:12px;
   flex:1;
-  background:var(--paper);
-  color:var(--ink);
+  background:var(--ks-background);
+  color:var(--ks-text);
   padding:12px;
   min-height:92px;
   position:relative;
@@ -390,7 +391,7 @@
 
   background:transparent;
   border-color:var(--dark-line);
-  color:var(--paper);
+  color:var(--ks-text);
   min-height:115px;
   padding:16px
 
@@ -424,27 +425,27 @@
 }
 .kanji-similar .hero-game .quiz-feedback {
 
-  color:var(--paper);
+  color:var(--ks-text);
   font-size:13px
 
 }
 .kanji-similar .quiz-options button.is-correct {
 
   border:2px solid var(--success);
-  background:#eaf0e9;
-  color:var(--ink)
+  background:var(--success-surface);
+  color:var(--ks-text)
 
 }
 .kanji-similar .quiz-options button.is-wrong {
 
   border:2px dashed var(--accent);
   background:var(--soft-orange);
-  color:var(--ink)
+  color:var(--ks-text)
 
 }
 .kanji-similar .hero-options button.is-correct {
 
-  background:#d9eadc
+  background:var(--success-surface)
 
 }
 .kanji-similar .choice-marker {
@@ -618,7 +619,7 @@
 }
 .kanji-similar .kanji-card {
 
-  background:var(--paper);
+  background:var(--ks-background);
   border:1px solid var(--line);
   border-radius:10px;
   text-align:center;
@@ -644,7 +645,7 @@
 .kanji-similar .glyph {
 
   fill:none;
-  stroke:var(--ink);
+  stroke:var(--ks-text);
   stroke-width:7;
   stroke-linecap:square;
   stroke-linejoin:miter
@@ -681,9 +682,9 @@
 .kanji-similar .reveal-detail {
 
   width:100%;
-  background:var(--ink);
-  color:var(--paper);
-  border:1px solid var(--ink);
+  background:var(--ks-text);
+  color:var(--ks-background);
+  border:1px solid var(--ks-text);
   border-radius:9px;
   min-height:48px;
   font-size:13px;
@@ -698,7 +699,7 @@
 .kanji-similar .detail-icon {
 
   font-size:20px;
-  color:var(--dark-accent)
+  color:var(--accent)
 
 }
 .kanji-similar .reveal-detail[aria-pressed=true] {
@@ -709,7 +710,7 @@
 }
 .kanji-similar .reveal-detail[aria-pressed=true] .detail-icon {
 
-  color:var(--paper)
+  color:var(--ks-background)
 
 }
 .kanji-similar .diagram-note {
@@ -849,8 +850,8 @@
   display:grid;
   grid-template-columns:.9fr 1.1fr;
   gap:64px;
-  background:var(--ink);
-  color:var(--paper);
+  background:var(--surface);
+  color:var(--ks-text);
   border-radius:16px;
   padding:40px 44px;
   margin-bottom:78px
@@ -1017,7 +1018,7 @@
 
   background:transparent;
   border:0;
-  border-bottom:1px solid var(--ink);
+  border-bottom:1px solid var(--ks-text);
   font-size:12px;
   font-weight:800;
   min-height:44px;
@@ -1102,8 +1103,8 @@
   font-size:14px;
   font-weight:800;
   padding:14px 20px;
-  background:var(--ink);
-  color:var(--paper);
+  background:var(--ks-text);
+  color:var(--ks-background);
   border-radius:9px;
   margin-top:26px;
   min-height:50px
@@ -1862,7 +1863,7 @@
 }
 .kanji-similar .recap {
 
-    color:var(--ink);
+    color:var(--ks-text);
     background:transparent
 
 }
@@ -1870,12 +1871,12 @@
 .kanji-similar .recap .eyebrow,
 .kanji-similar .recap>div>p:last-child {
 
-    color:var(--ink)
+    color:var(--ks-text)
 
 }
 }
 .kanji-similar .glyph-base {
- fill: var(--ink);
+ fill: var(--ks-text);
 }
 .kanji-similar .glyph-detail {
  fill: var(--brand); opacity: 0; transition: opacity .2s ease;
@@ -1905,7 +1906,7 @@
  border: 0; padding: 14px 7% 12px; gap: 42px; overflow: visible;
 }
 .kanji-similar .dodon-break img {
- width: 220px; margin: 0; align-self: center; mix-blend-mode: multiply;
+ width: 220px; margin: 0; align-self: center; background:var(--ks-text); border-radius:50%;
 }
 .kanji-similar .dodon-break>div {
  padding: 0; max-width: 510px;
@@ -1958,7 +1959,7 @@
 .kanji-similar [lang="ja"] { font-family: 'Kanjidon Japanese', sans-serif; direction: ltr; unicode-bidi: isolate; }
 .kanji-similar .word-example i { font-family: Nunito,system-ui,sans-serif; direction:ltr; unicode-bidi:isolate; }
 .kanji-similar { padding: 32px 0 0; margin:0; width:100%; }
-.kanji-similar .ks-article { padding:0; margin:0; width:100%; max-width:none; background:var(--paper); }
+.kanji-similar .ks-article { padding:0; margin:0; width:100%; max-width:none; background:var(--ks-background); }
 .kanji-similar .ks-breadcrumb { display:flex; gap:12px; font:700 12px/1.5 Nunito,system-ui,sans-serif; padding-block:18px 30px; }
 .kanji-similar .hero { margin-top:0; }
 .kanji-similar .ks-related { padding-block:30px 60px; border-top:1px solid var(--line); }
