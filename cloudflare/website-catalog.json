@@ -274,6 +274,11 @@
     "locale": "en",
     "kind": "article"
   },
+  "/blog/jlpt-december-2026-preparation/": {
+    "article": "jlpt-december-2026-preparation",
+    "locale": "en",
+    "kind": "article"
+  },
   "/blog/jlpt-mock-exam-practice-test/": {
     "article": "jlpt-mock-exam-practice-test",
     "locale": "en",
@@ -584,6 +589,11 @@
     "locale": "de",
     "kind": "article"
   },
+  "/de/blog/jlpt-dezember-2026-probepruefungen-lernplan/": {
+    "article": "jlpt-december-2026-preparation",
+    "locale": "de",
+    "kind": "article"
+  },
   "/de/blog/jlpt-n5-kanji-liste/": {
     "article": "jlpt-n5-kanji-list",
     "locale": "de",
@@ -881,6 +891,11 @@
   },
   "/es/blog/japones-anime-jerga-habla-personajes/": {
     "article": "anime-japanese-slang-role-language",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/jlpt-diciembre-2026-simulacros-plan-estudio/": {
+    "article": "jlpt-december-2026-preparation",
     "locale": "es",
     "kind": "article"
   },
@@ -1286,6 +1301,11 @@
   },
   "/fr/blog/jlpt-dates-inscription-tarifs/": {
     "article": "jlpt-dates-registration-costs",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/jlpt-decembre-2026-examens-blancs-revisions/": {
+    "article": "jlpt-december-2026-preparation",
     "locale": "fr",
     "kind": "article"
   },
@@ -1746,6 +1766,11 @@
   },
   "/it/blog/jlpt-date-iscrizione-costi/": {
     "article": "jlpt-dates-registration-costs",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/jlpt-dicembre-2026-simulazioni-preparazione/": {
+    "article": "jlpt-december-2026-preparation",
     "locale": "it",
     "kind": "article"
   },
@@ -2624,6 +2649,11 @@
     "locale": "pt",
     "kind": "article"
   },
+  "/pt/blog/jlpt-dezembro-2026-simulados-plano-estudo/": {
+    "article": "jlpt-december-2026-preparation",
+    "locale": "pt",
+    "kind": "article"
+  },
   "/pt/blog/jlpt-n5-guia-completo/": {
     "article": "jlpt-n5-complete-guide",
     "locale": "pt",
@@ -3424,6 +3454,11 @@
     "locale": "vi",
     "kind": "article"
   },
+  "/vi/blog/jlpt-thang-12-2026-thi-thu-ke-hoach-on-tap/": {
+    "article": "jlpt-december-2026-preparation",
+    "locale": "vi",
+    "kind": "article"
+  },
   "/vi/blog/kanji-giong-nhau-cach-phan-biet/": {
     "article": "similar-kanji-differences",
     "locale": "vi",
@@ -3596,6 +3631,11 @@
   },
   "/zh/blog/jiange-chongfu-xuexi-hanji/": {
     "article": "spaced-repetition-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/zh/blog/jlpt-2026-december-mock-exams-study-plan/": {
+    "article": "jlpt-december-2026-preparation",
     "locale": "zh_CN",
     "kind": "article"
   },
