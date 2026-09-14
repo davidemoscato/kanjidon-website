@@ -26,8 +26,7 @@ custom domain. A Git push does not deploy Cloudflare. Upload and verify a
 version before promoting it:
 
 ```sh
-pnpm cf:build
-pnpm exec wrangler versions upload \
+pnpm cf:upload \
   --preview-alias candidate \
   --message "Deploy <commit>: <summary>"
 
@@ -50,3 +49,24 @@ pnpm exec wrangler rollback <PREVIOUS_VERSION_ID> \
 
 Email DNS records are unrelated to the Worker route and must not be edited as
 part of a website release.
+
+
+## Remote image files
+
+The 85 website images live on Cloudflare and are described by
+`cloudflare/image-manifest.json` (public/source paths, byte size and SHA-256).
+There are intentionally no image files in the working tree at rest.
+`cf:check`, `cf:upload` and `cf:dev` recover the verified remote images into a
+fresh temporary asset bundle and remove it when the process ends. `cf:build`
+validates a temporary bundle and removes it immediately. Do not use a stale
+`.cloudflare-assets` directory or run a raw upload without an explicit bundle.
+
+Use `pnpm cf:dev` for a local preview with images. New/edited images must be
+uploaded and verified in a deliberately prepared temporary preview bundle
+before updating the canonical manifest and its recovery version. Keep the
+manifest and helper scripts synchronized from the main Kanjidon repository.
+Changed or unregistered local image data blocks normal publication.
+
+A fallback immutable Worker version URL is recorded in the manifest; it is
+not an independent backup or a retention guarantee after deleting Cloudflare
+resources. Working file cleanup does not rewrite historical Git objects.

@@ -4,9 +4,10 @@
   "packageManager": "pnpm@11.19.0",
   "scripts": {
     "cf:build": "node ./cloudflare/stage-assets.mjs",
-    "cf:check": "pnpm cf:build && wrangler deploy --dry-run",
-    "cf:dev": "pnpm cf:build && wrangler dev",
-    "cf:deploy": "pnpm cf:build && wrangler deploy"
+    "cf:check": "node ./cloudflare/with-assets.mjs check",
+    "cf:dev": "node ./cloudflare/with-assets.mjs dev",
+    "cf:deploy": "wrangler versions deploy",
+    "cf:upload": "node ./cloudflare/with-assets.mjs upload"
   },
   "devDependencies": {
     "wrangler": "4.123.0"

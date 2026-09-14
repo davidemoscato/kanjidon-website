@@ -1,3 +1,15 @@
 .cloudflare-assets/
 .wrangler/
 node_modules/
+
+# Published image bytes are restored from cloudflare/image-manifest.json only temporarily.
+/assets/**/*.png
+/assets/**/*.jpg
+/assets/**/*.jpeg
+/assets/**/*.webp
+/assets/**/*.svg
+/assets/**/*.ico
+/assets/**/*.gif
+/assets/**/*.avif
+/*.png
+/*.ico

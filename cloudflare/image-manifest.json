@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "origin": "https://kanjidon.com",
+  "archiveOrigin": "https://89a8a7b8-kanjidon-410.kanjimonapp.workers.dev",
+  "images": [
+    {
+      "path": "android-chrome-192x192.png",
+      "sourcePath": "android-chrome-192x192.png",
+      "sha256": "1fe34b221d686e970b10ad00bfcc79d617d9d197902e098ebc625a811579713b",
+      "bytes": 16197
+    },
+    {
+      "path": "android-chrome-512x512.png",
+      "sourcePath": "android-chrome-512x512.png",
+      "sha256": "3a0f19b4afa438b101960468aa981af4c6695a5a42043572743a57ebf7f85bb2",
+      "bytes": 53769
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "sourcePath": "apple-touch-icon.png",
+      "sha256": "1c190286d4506c98d96a6c038422b001add278b9e06e50d5c1429eb3cd3be016",
+      "bytes": 14998
+    },
+    {
+      "path": "assets/icons/google-play-store-icon.webp",
+      "sourcePath": "assets/icons/google-play-store-icon.webp",
+      "sha256": "fa7f2caabb4915596ae88927ef1ab3c5f7d5be2dafdb7e46d370dcfff020d74c",
+      "bytes": 3120
+    },
+    {
+      "path": "assets/images/Timbri/timbro_daruma.webp",
+      "sourcePath": "assets/images/Timbri/timbro_daruma.webp",
+      "sha256": "dff60e992aa153e914ec2e005840d28a073d5b4fb978925e4316178dabefce4e",
+      "bytes": 134590
+    },
+    {
+      "path": "assets/images/Timbri/timbro_gachapon.webp",
+      "sourcePath": "assets/images/Timbri/timbro_gachapon.webp",
+      "sha256": "848bc58343c4e3fbc2a3a44dd36e9ed6df8939e7c3ead3774d164297126f00c6",
+      "bytes": 58076
+    },
+    {
+      "path": "assets/images/Timbri/timbro_katana.webp",
+      "sourcePath": "assets/images/Timbri/timbro_katana.webp",
+      "sha256": "5c52cf8a634b84da850f64ea6f2bf2d50e4b74fe0f894947fcc5c4ccaf88b971",
+      "bytes": 21794
+    },
+    {
+      "path": "assets/images/Timbri/timbro_kitsune.webp",
+      "sourcePath": "assets/images/Timbri/timbro_kitsune.webp",
+      "sha256": "0b7ba5f6d71e0f490d45c92ec50a2665bcba4dc94702f8091631f4268da32805",
+      "bytes": 49356
+    },
+    {
+      "path": "assets/images/Timbri/timbro_momijine.webp",
+      "sourcePath": "assets/images/Timbri/timbro_momijine.webp",
+      "sha256": "6008c3f43350b20bc6f8ce34a33dd6b0b0d2af17170f43901a63872e0595d0c1",
+      "bytes": 108294
+    },
+    {
+      "path": "assets/images/Timbri/timbro_onigiri.webp",
+      "sourcePath": "assets/images/Timbri/timbro_onigiri.webp",
+      "sha256": "a41366dd090e81d730eb3061990e465e644b942b231a9530dae76b09aab4dd95",
+      "bytes": 116000
+    },
+    {
+      "path": "assets/images/Timbri/timbro_ramen.webp",
+      "sourcePath": "assets/images/Timbri/timbro_ramen.webp",
+      "sha256": "b3fb3988be7377c00afcd592174c9e196111248aec4dcfe78104b36a22dae603",
+      "bytes": 135872
+    },
+    {
+      "path": "assets/images/Timbri/timbro_sakura.webp",
+      "sourcePath": "assets/images/Timbri/timbro_sakura.webp",
+      "sha256": "5d51ca0e8fea1b2384f54f9ffc216b8d20771aafd9ac91295dd6ac6de040aedb",
+      "bytes": 257398
+    },
+    {
+      "path": "assets/images/Timbri/timbro_suica.webp",
+      "sourcePath": "assets/images/Timbri/timbro_suica.webp",
+      "sha256": "3f3667e45ad01abdf592b64a502a94cd91884754285d58e126073566ede93e53",
+      "bytes": 64458
+    },
+    {
+      "path": "assets/images/Timbri/timbro_takoyaki.webp",
+      "sourcePath": "assets/images/Timbri/timbro_takoyaki.webp",
+      "sha256": "aacb00a0cd9316a1a7dcf9f8ebff640bd7ddf4af70b52625f66824f76c18884b",
+      "bytes": 68660
+    },
+    {
+      "path": "assets/images/Timbri/timbro_tokyo_tower.webp",
+      "sourcePath": "assets/images/Timbri/timbro_tokyo_tower.webp",
+      "sha256": "2266b285b313a0f4b5b406495aab73ed6f2b719a7030e0cc743f5fd155e549b2",
+      "bytes": 64370
+    },
+    {
+      "path": "assets/images/app-store-badge.svg",
+      "sourcePath": "assets/images/app-store-badge.svg",
+      "sha256": "0187cc5b00082de6cea0e17e9821f22d80b8bd2a49fe2bd6891d7a99acbfd590",
+      "bytes": 863
+    },
+    {
+      "path": "assets/images/authors/author-david.webp",
+      "sourcePath": "assets/images/authors/author-david.webp",
+      "sha256": "0dcea5434e189e95eabafbdab8d707fab3bcad05d563a4173d710118be996ba3",
+      "bytes": 61938
+    },
+    {
+      "path": "assets/images/authors/author-deborah.webp",
+      "sourcePath": "assets/images/authors/author-deborah.webp",
+      "sha256": "eb46dfe8d04319948a2e7d8cf281632a51752eae18c2ae1cf83e2ed174698620",
+      "bytes": 128694
+    },
+    {
+      "path": "assets/images/buste/busta_n5_1.webp",
+      "sourcePath": "assets/images/buste/busta_n5_1.webp",
+      "sha256": "cd600f42af6e6f5f40886c6f7f3771ba2f1ea353b29238e67faf6277ee8d816c",
+      "bytes": 39784
+    },
+    {
+      "path": "assets/images/cards/kanjidon_card_back.webp",
+      "sourcePath": "assets/images/cards/kanjidon_card_back.webp",
+      "sha256": "798d43bb8c38abb0ee48c0477449b03ac70871b4233df33aa9b55b37ee07925d",
+      "bytes": 255474
+    },
+    {
+      "path": "assets/images/cards/kanjidon_card_horse.webp",
+      "sourcePath": "assets/images/cards/kanjidon_card_horse.webp",
+      "sha256": "15633b0301a2da5f06c08b44bd2ea10d50f8ca8e55be4d98d38eb848149ea945",
+      "bytes": 404146
+    },
+    {
+      "path": "assets/images/cards/kanjidon_card_mountain.webp",
+      "sourcePath": "assets/images/cards/kanjidon_card_mountain.webp",
+      "sha256": "603dd1d82b819392247a1fce5517c43408284a6cd845e01eaa476e9ab2ac2dde",
+      "bytes": 126440
+    },
+    {
+      "path": "assets/images/cards/kanjidon_card_north.webp",
+      "sourcePath": "assets/images/cards/kanjidon_card_north.webp",
+      "sha256": "64dde6608a18240eea3d427c286554e78a9cfb7f40d8dd97131b1b681b39e8e7",
+      "bytes": 269500
+    },
+    {
+      "path": "assets/images/cards/kanjidon_card_river.webp",
+      "sourcePath": "assets/images/cards/kanjidon_card_river.webp",
+      "sha256": "9300651f52f91a25438763071f63e44deb0ed3884e05f65e432e00c2865fc8ac",
+      "bytes": 403944
+    },
+    {
+      "path": "assets/images/cards/kanjidon_card_tree.webp",
+      "sourcePath": "assets/images/cards/kanjidon_card_tree.webp",
+      "sha256": "b87e8e6fa087c71523f9c58432094671e7fc0b231a42536617dca238e7a65afb",
+      "bytes": 212536
+    },
+    {
+      "path": "assets/images/cards/kanjidon_card_water.webp",
+      "sourcePath": "assets/images/cards/kanjidon_card_water.webp",
+      "sha256": "4f4a49a614c2a2b0cae564731e6eed72983babdb47ae92b108dc95b809622a5f",
+      "bytes": 346418
+    },
+    {
+      "path": "assets/images/download-qr.svg",
+      "sourcePath": "assets/images/download-qr.svg",
+      "sha256": "a1019e084b4d9bf13498fe2d4a70adb1b26c0acdc35ec4b8829cd31a72fe7783",
+      "bytes": 2533
+    },
+    {
+      "path": "assets/images/evilove/evilove-bear-card.webp",
+      "sourcePath": "assets/images/evilove/evilove-bear-card.webp",
+      "sha256": "0f78ea0c9eab7b7c8fd3a84bcf5730b8de984af0102c187e8b5209adbc7da141",
+      "bytes": 103366
+    },
+    {
+      "path": "assets/images/evilove/evilove-japanese-cover-800.webp",
+      "sourcePath": "assets/images/evilove/evilove-japanese-cover-800.webp",
+      "sha256": "2a0f10d2bbb03f8665492400582cad5f8c07595dd8578968c3d3dd07074ddec1",
+      "bytes": 46258
+    },
+    {
+      "path": "assets/images/evilove/evilove-social-1200x630.webp",
+      "sourcePath": "assets/images/evilove/evilove-social-1200x630.webp",
+      "sha256": "4700e846dc8606645a051d70bcf5980dc94b0f907da693c86fb0a9f94590a883",
+      "bytes": 35950
+    },
+    {
+      "path": "assets/images/google-play-badge.svg",
+      "sourcePath": "assets/images/google-play-badge.svg",
+      "sha256": "aa2e99d1451692b0279264966fe8c2434e075bb852e1c1c41912f9f042a5e4c3",
+      "bytes": 784
+    },
+    {
+      "path": "assets/images/icona.png",
+      "sourcePath": "assets/images/icona.png",
+      "sha256": "61f3bd9a5b445d5996d591f01d5a7dd416b8d80e7a5fe7333ec7350fce8cd0a2",
+      "bytes": 97274
+    },
+    {
+      "path": "assets/images/jlpt-n1-card-pack.webp",
+      "sourcePath": "assets/images/jlpt-n1-card-pack.webp",
+      "sha256": "6d3111898e6dfeac75b71c212f6f9fac0a6dabe8c182ff68f206787d8121c962",
+      "bytes": 45682
+    },
+    {
+      "path": "assets/images/jlpt-n2-card-pack.webp",
+      "sourcePath": "assets/images/jlpt-n2-card-pack.webp",
+      "sha256": "fb86221e232a1f891b782fc38356cd3c62ce1ce67261756d4f8a714f43c733cc",
+      "bytes": 47200
+    },
+    {
+      "path": "assets/images/jlpt-n3-card-pack.webp",
+      "sourcePath": "assets/images/jlpt-n3-card-pack.webp",
+      "sha256": "19869b6c10fb3adb37b84a3fac0ffda131581dba28cb865ca3861b596308c364",
+      "bytes": 41050
+    },
+    {
+      "path": "assets/images/jlpt-n4-card-pack.webp",
+      "sourcePath": "assets/images/jlpt-n4-card-pack.webp",
+      "sha256": "4710a97e3562a2ddb33d819e2fe696a71f97d21ba79b3af71be83a30b106df11",
+      "bytes": 50360
+    },
+    {
+      "path": "assets/images/jlpt-n5-card-pack.webp",
+      "sourcePath": "assets/images/jlpt-n5-card-pack.webp",
+      "sha256": "17f649d8f3b07eb4dd7f215488ed01983dc1eb3ad610ecb5adf0859dd4b5a733",
+      "bytes": 40682
+    },
+    {
+      "path": "assets/images/kanjidon-app-icon.png",
+      "sourcePath": "assets/images/kanjidon-app-icon.png",
+      "sha256": "61f3bd9a5b445d5996d591f01d5a7dd416b8d80e7a5fe7333ec7350fce8cd0a2",
+      "bytes": 97274
+    },
+    {
+      "path": "assets/images/kanjidon-japanese-reading-tokyo-cafe.webp",
+      "sourcePath": "assets/images/kanjidon-japanese-reading-tokyo-cafe.webp",
+      "sha256": "ad736da8130e57f05fa56eefaf855838742305f6b45b242a1b07b6035e78c174",
+      "bytes": 545640
+    },
+    {
+      "path": "assets/images/kanjidon-jlpt-n5-collectible-pack.webp",
+      "sourcePath": "assets/images/kanjidon-jlpt-n5-collectible-pack.webp",
+      "sha256": "cd600f42af6e6f5f40886c6f7f3771ba2f1ea353b29238e67faf6277ee8d816c",
+      "bytes": 39784
+    },
+    {
+      "path": "assets/images/mockups/daily-missions.webp",
+      "sourcePath": "assets/images/mockups/daily-missions.webp",
+      "sha256": "5f3add633dfedf9968c2315ee41c3310ba5046ece50b74bb90256e7cea62ff3f",
+      "bytes": 98412
+    },
+    {
+      "path": "assets/images/mockups/kanjidon-japanese-grammar-learning-path.webp",
+      "sourcePath": "assets/images/mockups/kanjidon-japanese-grammar-learning-path.webp",
+      "sha256": "3e2972e7caf153275b6d06215959a20ded1901037a891d08cc63277ef31bfc3d",
+      "bytes": 114442
+    },
+    {
+      "path": "assets/images/mockups/kanjidon-jlpt-n5-card-set-rewards.webp",
+      "sourcePath": "assets/images/mockups/kanjidon-jlpt-n5-card-set-rewards.webp",
+      "sha256": "c92005b55563f5fd70142008fc919af0f8567c408f8dcff4bcac2aae374d19d9",
+      "bytes": 257486
+    },
+    {
+      "path": "assets/images/mockups/monthly-leaderboard.webp",
+      "sourcePath": "assets/images/mockups/monthly-leaderboard.webp",
+      "sha256": "b0f419e8c1806dfaf34e2e4f5103e7579abf5be8436e71b96e63d13112780a52",
+      "bytes": 181766
+    },
+    {
+      "path": "assets/images/mockups/pack-opening.webp",
+      "sourcePath": "assets/images/mockups/pack-opening.webp",
+      "sha256": "f4b7a029183b8eb33a8deb06389658be513c5c6d48b5f2b215ab969dc9693766",
+      "bytes": 118088
+    },
+    {
+      "path": "assets/images/mockups/pvp-matchup.webp",
+      "sourcePath": "assets/images/mockups/pvp-matchup.webp",
+      "sha256": "c2ba200203c593afdcc1e093d801bc9567b236208203e9e7e5832a1808858359",
+      "bytes": 111322
+    },
+    {
+      "path": "assets/images/mockups/pvp-quiz.webp",
+      "sourcePath": "assets/images/mockups/pvp-quiz.webp",
+      "sha256": "2cf8bac11baa1790271d3263c615e0ef3308ba7247fed78d4d91de1152f002f7",
+      "bytes": 199882
+    },
+    {
+      "path": "assets/images/mockups/quiz-choice.webp",
+      "sourcePath": "assets/images/mockups/quiz-choice.webp",
+      "sha256": "7d57ed3ed7d58a614449e1288135eef535b5914a72a49351110b441dd16842cb",
+      "bytes": 94710
+    },
+    {
+      "path": "assets/images/og-image-wide.c3aa8cbc.png",
+      "sourcePath": "assets/images/og-image-wide.c3aa8cbc.png",
+      "sha256": "c3aa8cbc5af2fdcad89b31b7ca4957ce784509fd639389fdfee04ac1d4c78a3b",
+      "bytes": 525999
+    },
+    {
+      "path": "assets/images/og-image.png",
+      "sourcePath": "assets/images/og-image.png",
+      "sha256": "61f3bd9a5b445d5996d591f01d5a7dd416b8d80e7a5fe7333ec7350fce8cd0a2",
+      "bytes": 97274
+    },
+    {
+      "path": "assets/images/optimized/home/final-dodon-1024.35621f00.webp",
+      "sourcePath": "assets/images/optimized/home/final-dodon-1024.35621f00.webp",
+      "sha256": "35621f001f148553bb69c5bf8e34708c052711fe77c942dc72ba0c13af4011c2",
+      "bytes": 52458
+    },
+    {
+      "path": "assets/images/optimized/home/hero-card-horse-320.0e500aa3.webp",
+      "sourcePath": "assets/images/optimized/home/hero-card-horse-320.0e500aa3.webp",
+      "sha256": "0e500aa3b456c8cdccc19335d6c1f8eceb3924469c897112403aab3bffea5a76",
+      "bytes": 23782
+    },
+    {
+      "path": "assets/images/optimized/home/hero-card-horse-640.df785b77.webp",
+      "sourcePath": "assets/images/optimized/home/hero-card-horse-640.df785b77.webp",
+      "sha256": "df785b77b28854fddf7a8febced6f40e5ef0a3a376b2f03a33b197800ab7db75",
+      "bytes": 56972
+    },
+    {
+      "path": "assets/images/optimized/home/hero-card-north-320.968b64d0.webp",
+      "sourcePath": "assets/images/optimized/home/hero-card-north-320.968b64d0.webp",
+      "sha256": "968b64d0a9982999ffc33827dc49872a0113dd987870a9253c4d45cf190648cb",
+      "bytes": 26374
+    },
+    {
+      "path": "assets/images/optimized/home/hero-card-north-640.51fb0459.webp",
+      "sourcePath": "assets/images/optimized/home/hero-card-north-640.51fb0459.webp",
+      "sha256": "51fb045971adafab9b526b1b20cdc186af71b5e7c8de1ac7c5ebb440d7017868",
+      "bytes": 60284
+    },
+    {
+      "path": "assets/images/optimized/home/hero-pack-512.e540dd92.webp",
+      "sourcePath": "assets/images/optimized/home/hero-pack-512.e540dd92.webp",
+      "sha256": "e540dd92a6e3337fde7961c893ebb6361d1aac0297eea6999432f636357056da",
+      "bytes": 24034
+    },
+    {
+      "path": "assets/images/optimized/home/hero-phone-480.f6865f9a.webp",
+      "sourcePath": "assets/images/optimized/home/hero-phone-480.f6865f9a.webp",
+      "sha256": "f6865f9afae49b8b9de855861ef2706b8c02ebe6ea0922f98e8a9c30a16a381e",
+      "bytes": 78744
+    },
+    {
+      "path": "assets/images/optimized/home/hero-phone-720.cc1a1d4d.webp",
+      "sourcePath": "assets/images/optimized/home/hero-phone-720.cc1a1d4d.webp",
+      "sha256": "cc1a1d4d3a880ba4ba07540e335202a638f1ea298de969a843fe788065f3974b",
+      "bytes": 142528
+    },
+    {
+      "path": "assets/images/team-kanjidon.webp",
+      "sourcePath": "assets/images/team-kanjidon.webp",
+      "sha256": "ec262da90d4dbb68e3b8fec1bb8c7a3b740d413379dfc4d1af8606c03dc3b9dd",
+      "bytes": 158344
+    },
+    {
+      "path": "assets/images/travel-apps/airalo.jpg",
+      "sourcePath": "assets/images/travel-apps/airalo.jpg",
+      "sha256": "d97208b3b7a7565835efb12db3d635001c5d46c75740bf4016c9358ff10f6f21",
+      "bytes": 19958
+    },
+    {
+      "path": "assets/images/travel-apps/chatgpt.jpg",
+      "sourcePath": "assets/images/travel-apps/chatgpt.jpg",
+      "sha256": "d743a4de1f9e65425bcae50190222d6fe5f5e9461f72778297c6e2c39f9624ee",
+      "bytes": 40350
+    },
+    {
+      "path": "assets/images/travel-apps/go.jpg",
+      "sourcePath": "assets/images/travel-apps/go.jpg",
+      "sha256": "2fc259169e7a50fabc29e2c0b702ed0623c883da01c311431c8cb4901de796fe",
+      "bytes": 16930
+    },
+    {
+      "path": "assets/images/travel-apps/kanjidon.jpg",
+      "sourcePath": "assets/images/travel-apps/kanjidon.jpg",
+      "sha256": "bc04b12c6594b1430d380a69740fd5ed98b00c460403419236642cb2b778546f",
+      "bytes": 28101
+    },
+    {
+      "path": "assets/images/travel-apps/maps.jpg",
+      "sourcePath": "assets/images/travel-apps/maps.jpg",
+      "sha256": "33d71f441e73086199b4e320bc1ff9e6b01e247d9acfbeac099a34c94bf16774",
+      "bytes": 21735
+    },
+    {
+      "path": "assets/images/travel-apps/navitime.jpg",
+      "sourcePath": "assets/images/travel-apps/navitime.jpg",
+      "sha256": "650af4565cd00972e12cc463c89921ab0e33bad74524321a88d228488d6b22d0",
+      "bytes": 39101
+    },
+    {
+      "path": "assets/jlpt-preparation/dodon-cheer.png",
+      "sourcePath": "assets/jlpt-preparation/dodon-cheer.png",
+      "sha256": "5ebf4423d1cc59f214c556e000415b0b3eae62866286bb60f770234cb7de6539",
+      "bytes": 774626
+    },
+    {
+      "path": "assets/jlpt-preparation/social-de.png",
+      "sourcePath": "assets/jlpt-preparation/social-de.png",
+      "sha256": "e12be2468bb7c46c1d5d4189226873554d87b1c141df34c699484a7dc6d5b1a5",
+      "bytes": 124466
+    },
+    {
+      "path": "assets/jlpt-preparation/social-en.png",
+      "sourcePath": "assets/jlpt-preparation/social-en.png",
+      "sha256": "1d184d1d59b64af94a8f4b562e83513063268f161cb95233556a3355be26bfb8",
+      "bytes": 122718
+    },
+    {
+      "path": "assets/jlpt-preparation/social-es.png",
+      "sourcePath": "assets/jlpt-preparation/social-es.png",
+      "sha256": "2ac5a15cb62c43e79a771c03ee39a8c720d4de43faa6d15e14d41121861e0926",
+      "bytes": 129360
+    },
+    {
+      "path": "assets/jlpt-preparation/social-fr.png",
+      "sourcePath": "assets/jlpt-preparation/social-fr.png",
+      "sha256": "93702b0e019fc2254192bb691486996ea2e5a97fe6da9d4eeaa4f1943fd95d4c",
+      "bytes": 116401
+    },
+    {
+      "path": "assets/jlpt-preparation/social-it.png",
+      "sourcePath": "assets/jlpt-preparation/social-it.png",
+      "sha256": "ba08c7c74fd8768604b93a86828b02a76ce533f3ddc4b6514dfc027a767a7e67",
+      "bytes": 117138
+    },
+    {
+      "path": "assets/jlpt-preparation/social-pt.png",
+      "sourcePath": "assets/jlpt-preparation/social-pt.png",
+      "sha256": "8f193de05154d8cc87f47d36d31811e0198d7e42e43220bbfc81ddb399117723",
+      "bytes": 132299
+    },
+    {
+      "path": "assets/jlpt-preparation/social-vi.png",
+      "sourcePath": "assets/jlpt-preparation/social-vi.png",
+      "sha256": "44f264d9820e1a371f649f8f58ed1e3208d4d6344b4d3d579e77a17bcee0611f",
+      "bytes": 121549
+    },
+    {
+      "path": "assets/jlpt-preparation/social-zh_CN.png",
+      "sourcePath": "assets/jlpt-preparation/social-zh_CN.png",
+      "sha256": "26f0cc1f6033d15ad6bcaf3d4361f18de8b041fff51c1cbdf9caab2bb3c19764",
+      "bytes": 126752
+    },
+    {
+      "path": "assets/kanji-similar/dodon-detective.webp",
+      "sourcePath": "assets/kanji-similar/dodon-detective.webp",
+      "sha256": "3173520970250d80718f4890ae8bd1c69307e64da90d4ae2098c3d0902a94aca",
+      "bytes": 81728
+    },
+    {
+      "path": "assets/kanji-similar/dodon-point.webp",
+      "sourcePath": "assets/kanji-similar/dodon-point.webp",
+      "sha256": "d4848f6a3ae40a7c44a8d5d2308b69c2f206679fc4dba3329f4c3eadad65430e",
+      "bytes": 38786
+    },
+    {
+      "path": "assets/kanji-similar/dodon.webp",
+      "sourcePath": "assets/kanji-similar/dodon.webp",
+      "sha256": "35621f001f148553bb69c5bf8e34708c052711fe77c942dc72ba0c13af4011c2",
+      "bytes": 52458
+    },
+    {
+      "path": "assets/kanji-similar/kanji-similar-international-social.jpg",
+      "sourcePath": "assets/kanji-similar/kanji-similar-international-social.jpg",
+      "sha256": "01dc5b2d1bda325bf08f213b0fb28e12f0885323d7b0d08ac27ba361d3ac81db",
+      "bytes": 34944
+    },
+    {
+      "path": "assets/kanji-similar/kanji-similar-italian-social.jpg",
+      "sourcePath": "assets/kanji-similar/kanji-similar-italian-social.jpg",
+      "sha256": "6c9db9436285b5cd60762615e49d6520290dbf9175acd17aac4d7f03c70ea58f",
+      "bytes": 50286
+    },
+    {
+      "path": "assets/kanji-similar/social-card-international.png",
+      "sourcePath": "assets/kanji-similar/social-card-international.png",
+      "sha256": "82906bc383ac873914137b1df9fc2dbb5784c0c1d1cb5c7c3991a02f405457be",
+      "bytes": 153180
+    },
+    {
+      "path": "assets/kanji-similar/social-card.png",
+      "sourcePath": "assets/kanji-similar/social-card.png",
+      "sha256": "1ce7fb0dea83366633df69102e818419fce246b23f38fc54db243a934c113af9",
+      "bytes": 233533
+    },
+    {
+      "path": "assets/store-badges/apple-en.svg",
+      "sourcePath": "src/referral-badges/apple-en.svg",
+      "sha256": "a26fc5b38380272c92e9019a2eb8b45542a66814b3e2b203772db8904b9fb99f",
+      "bytes": 10804
+    },
+    {
+      "path": "assets/store-badges/apple-it.svg",
+      "sourcePath": "src/referral-badges/apple-it.svg",
+      "sha256": "ec8e9566058da3382fc0c8b8a8532a342e3587be801fee42e110f8fd707cee0b",
+      "bytes": 10497
+    },
+    {
+      "path": "assets/store-badges/google-en.png",
+      "sourcePath": "src/referral-badges/google-en.png",
+      "sha256": "f72611e2df8e88204009fd896d05d5e8e83c77009c63943bbffa169559934849",
+      "bytes": 4904
+    },
+    {
+      "path": "favicon.ico",
+      "sourcePath": "favicon.ico",
+      "sha256": "2ca8a0016cd15e74c7116b462d062d0771e81cae983c10ec3c8614edb9276dd0",
+      "bytes": 5430
+    }
+  ]
+}

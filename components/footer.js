@@ -40,7 +40,7 @@ function renderFooter(currentLang = 'en') {
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-brand">
-                <img src="/assets/images/icona.png" alt="Kanjidon" class="footer-logo">
+                <img src="/assets/images/kanjidon-app-icon.png" alt="Kanjidon" class="footer-logo">
                 <p>Collect Cards. Remember Kanji.</p>
             </div>
             <div class="footer-links">
