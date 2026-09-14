@@ -1,3 +1,7 @@
+import { referralAppLinks } from "./referral-app-links.mjs";
+import { referralGateway } from "./referral-gateway.mjs";
+import { referralLanding } from "./referral-landing.mjs";
+import referralCatalog from "./referral-landing-catalog.json";
 import { collectWebsiteEvent } from "./website-events.mjs";
 import websiteCatalog from "./website-catalog.json";
 // ============================================================================
@@ -1943,6 +1947,11 @@ export default {
     }
 
     if (url.pathname === "/api/website-events") return collectWebsiteEvent(request, env, websiteCatalog);
+
+    if (url.pathname === "/api/referral-invitation") return referralGateway(request, env);
+    if (url.pathname === "/open" && url.searchParams.get("to") === "referral") return referralLanding(request, env, referralCatalog);
+    if (url.pathname.startsWith("/i/")) return referralLanding(request, env, referralCatalog);
+    if (url.pathname === "/.well-known/apple-app-site-association" && ["GET", "HEAD"].includes(request.method)) return referralAppLinks(request, env);
 
     // Normalizza encoding (Thai/CJK arrivano percent-encoded)
     let pathname = url.pathname;

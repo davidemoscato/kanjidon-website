@@ -30,6 +30,17 @@
         "limit": 600,
         "period": 60
       }
+    },
+    {
+      "name": "REFERRAL_PREVIEW_LIMIT",
+      "namespace_id": "260913600",
+      "simple": {
+        "limit": 30,
+        "period": 60
+      }
     }
-  ]
+  ],
+  "vars": {
+    "REFERRALS_ENABLED": "true"
+  }
 }
