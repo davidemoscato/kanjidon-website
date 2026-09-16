@@ -512,6 +512,48 @@ h2 em {
   line-height: 0.9;
 }
 
+/* A repeating satin reflection, with matching orange edges for a seamless loop.
+   Theme text tints the reflection: champagne at night, copper on light paper. */
+@supports (background-clip: text) and (color: color-mix(in srgb, red, white)) {
+  .srs-word {
+    background-image: linear-gradient(110deg,
+      var(--orange) 0%,
+      var(--orange) 12%,
+      color-mix(in srgb, var(--orange) 65%, var(--paper)) 30%,
+      color-mix(in srgb, var(--orange) 30%, var(--paper)) 43%,
+      color-mix(in srgb, var(--orange) 10%, var(--paper)) 50%,
+      color-mix(in srgb, var(--orange) 35%, var(--paper)) 57%,
+      color-mix(in srgb, var(--orange) 75%, var(--paper)) 72%,
+      var(--orange) 88%,
+      var(--orange) 100%);
+    background-size: 200% 100%;
+    background-position: 50% 50%;
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: srs-satin 10s linear -2.5s infinite;
+    animation-play-state: paused;
+  }
+
+  .srs-reveal.is-visible .srs-word {
+    animation-play-state: running;
+  }
+}
+
+@keyframes srs-satin {
+  from { background-position: 0% 50%; }
+  to { background-position: 200% 50%; }
+}
+
+@media (prefers-reduced-motion: reduce), (forced-colors: active) {
+  .srs-word {
+    animation: none;
+    background-image: none;
+    color: var(--orange);
+  }
+}
+
 .pack-origin {
   display: grid;
   min-height: 100svh;
