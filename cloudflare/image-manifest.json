@@ -1,7 +1,7 @@
 {
   "version": 1,
   "origin": "https://kanjidon.com",
-  "archiveOrigin": "https://89a8a7b8-kanjidon-410.kanjimonapp.workers.dev",
+  "archiveOrigin": "https://37f2abf9-kanjidon-410.kanjimonapp.workers.dev",
   "images": [
     {
       "path": "android-chrome-192x192.png",
@@ -506,6 +506,48 @@
       "sourcePath": "src/referral-badges/google-en.png",
       "sha256": "f72611e2df8e88204009fd896d05d5e8e83c77009c63943bbffa169559934849",
       "bytes": 4904
+    },
+    {
+      "path": "assets/suica/candidate-01.png",
+      "sourcePath": "assets/suica/candidate-01.png",
+      "sha256": "5257a82458c44481298eacc39e4df646bd325f2a54fa5e23703fb87a5e8143b3",
+      "bytes": 57048
+    },
+    {
+      "path": "assets/suica/candidate-02.png",
+      "sourcePath": "assets/suica/candidate-02.png",
+      "sha256": "1a4cf87ff21f60b7c98d468dcc86306f5deeb763456f020000ce5c911410f416",
+      "bytes": 53571
+    },
+    {
+      "path": "assets/suica/candidate-03.png",
+      "sourcePath": "assets/suica/candidate-03.png",
+      "sha256": "4aea883c3e6db29cd6e3037633f7229eed3e49aa81aa46bce2bdd05ff1c6a4e3",
+      "bytes": 79908
+    },
+    {
+      "path": "assets/suica/dodon-con-suica.png",
+      "sourcePath": "assets/suica/dodon-con-suica.png",
+      "sha256": "9b47a05ac847ff16d7df0861b31880644620adaad4f3a869128962c76fbef8af",
+      "bytes": 846174
+    },
+    {
+      "path": "assets/suica/suica-dodon-social.png",
+      "sourcePath": "assets/suica/suica-dodon-social.png",
+      "sha256": "ebcb2fcf58515fd8b8cfc33475fb4f5c3e871a69612ae5aa36e43c115697e042",
+      "bytes": 2192962
+    },
+    {
+      "path": "assets/suica/suica-dodon-trasparente.png",
+      "sourcePath": "assets/suica/suica-dodon-trasparente.png",
+      "sha256": "4a61bd54429d81d8afa59d6eee092f58ffe57190778db22fe86e850693909174",
+      "bytes": 1482070
+    },
+    {
+      "path": "assets/suica/suica-originale-trasparente.png",
+      "sourcePath": "assets/suica/suica-originale-trasparente.png",
+      "sha256": "014fe18bf60fd11865e7c0771287ee4e46158e8467d3f8e80d204bafc77536e0",
+      "bytes": 597699
     },
     {
       "path": "favicon.ico",

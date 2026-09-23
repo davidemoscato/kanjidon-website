@@ -3713,5 +3713,50 @@
     "article": "",
     "locale": "zh_CN",
     "kind": "page"
+  },
+  "/it/blog/suica-pinguino-nuova-mascotte/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/blog/suica-penguin-new-mascot/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/fr/blog/suica-pingouin-nouvelle-mascotte/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/de/blog/suica-pinguin-neues-maskottchen/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/es/blog/suica-pinguino-nueva-mascota/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/pt/blog/suica-pinguim-nova-mascote/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/zh/blog/suica-penguin-new-mascot/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/vi/blog/suica-chim-canh-cut-linh-vat-moi/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/ja/blog/suica-penguin-new-mascot/": {
+    "article": "suica-penguin-new-mascot",
+    "locale": "ja",
+    "kind": "article"
   }
 }

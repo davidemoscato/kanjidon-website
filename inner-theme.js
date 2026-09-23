@@ -8,6 +8,7 @@
     var STORAGE_KEY = "kanjidon-theme";
     var VALID_PREFERENCES = ["system", "light", "dark"];
     var labelsByLanguage = {
+    "ja": {"theme":"表示テーマ","system":"システム","light":"ライト","dark":"ダーク"},
     "en": {
         "theme": "Theme",
         "system": "System",

@@ -20,6 +20,15 @@
     window.gtag('set', 'ads_data_redaction', true);
 
     var copy = {
+        ja: {
+            title: 'プライバシー',
+            message: '同意いただいた場合、広告ツールを使用してキャンペーンの効果を測定し、オーディエンスを分類します。同意するまで、これらのツールは無効のままです。',
+            reject: '拒否する',
+            accept: '同意する',
+            policy: 'プライバシーポリシー（英語）',
+            choices: 'プライバシー設定',
+            close: '閉じて拒否する'
+        },
         en: {
             title: 'Privacy',
             message: 'With your permission, we use advertising tools to measure campaign performance and create audience segments. They stay off until you accept.',
