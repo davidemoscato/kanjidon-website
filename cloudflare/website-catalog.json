@@ -3758,5 +3758,45 @@
     "article": "suica-penguin-new-mascot",
     "locale": "ja",
     "kind": "article"
+  },
+  "/it/blog/perche-scegliere-kanjidon-giapponese/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/blog/why-choose-kanjidon-learn-japanese/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/fr/blog/pourquoi-choisir-kanjidon-japonais/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/de/blog/warum-kanjidon-japanisch-lernen/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/es/blog/por-que-elegir-kanjidon-japones/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/pt/blog/por-que-escolher-kanjidon-japones/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/zh/blog/why-choose-kanjidon-learn-japanese/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/vi/blog/vi-sao-chon-kanjidon-hoc-tieng-nhat/": {
+    "article": "why-choose-kanjidon-learn-japanese",
+    "locale": "vi",
+    "kind": "article"
   }
 }

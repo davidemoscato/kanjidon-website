@@ -1,7 +1,7 @@
 {
   "version": 1,
   "origin": "https://kanjidon.com",
-  "archiveOrigin": "https://37f2abf9-kanjidon-410.kanjimonapp.workers.dev",
+  "archiveOrigin": "https://d669fab0-kanjidon-410.kanjimonapp.workers.dev",
   "images": [
     {
       "path": "android-chrome-192x192.png",
@@ -554,6 +554,36 @@
       "sourcePath": "favicon.ico",
       "sha256": "2ca8a0016cd15e74c7116b462d062d0771e81cae983c10ec3c8614edb9276dd0",
       "bytes": 5430
+    },
+    {
+      "path": "assets/why-kanjidon/dodon-caffe.png",
+      "sourcePath": "assets/why-kanjidon/dodon-caffe.png",
+      "sha256": "fc5ac0aa140247a7bb738b154af893a3bd4a584db63939f3fd3b2c2a596c14d5",
+      "bytes": 746369
+    },
+    {
+      "path": "assets/why-kanjidon/dodon-campione.png",
+      "sourcePath": "assets/why-kanjidon/dodon-campione.png",
+      "sha256": "b3b4051c9ca4478300340d63df389f2bf81c59d6693f296bc4560270bdf8a358",
+      "bytes": 805672
+    },
+    {
+      "path": "assets/why-kanjidon/dodon-complice.png",
+      "sourcePath": "assets/why-kanjidon/dodon-complice.png",
+      "sha256": "4f26ace24b3aa059086c45e7527b03b3581d2020e39483e6c3a9149c9756a38a",
+      "bytes": 633414
+    },
+    {
+      "path": "assets/why-kanjidon/dodon-investigatore.png",
+      "sourcePath": "assets/why-kanjidon/dodon-investigatore.png",
+      "sha256": "ebc62738a46aa6d9a0d415a4b6402d1991f9d964146e270be12a851885eb2e68",
+      "bytes": 810604
+    },
+    {
+      "path": "assets/why-kanjidon/dodon-presentatore.png",
+      "sourcePath": "assets/why-kanjidon/dodon-presentatore.png",
+      "sha256": "1eb1d77978e4ef6267985752c932df25883d39c404e837552b40cab0c68c0b69",
+      "bytes": 711301
     }
   ]
 }
