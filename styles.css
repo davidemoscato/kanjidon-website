@@ -3486,3 +3486,127 @@ body * {
     order: 3;
   }
 }
+
+
+/* Homepage interactions: use the app's wrapper and unaltered card faces. */
+[data-site-layout="home"] .story-card {
+  background: #faf9f6;
+  color: #1c1c1e;
+}
+
+.pack-preview {
+  position: relative;
+  display: block;
+  width: min(480px, 84%);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  transform: rotate(-4deg);
+  isolation: isolate;
+  touch-action: pan-x pan-y pinch-zoom;
+  -webkit-tap-highlight-color: transparent;
+}
+.pack-preview:focus-visible { outline: 3px solid var(--orange); outline-offset: 12px; }
+.pack-stage .pack-preview img {
+  display: block;
+  width: 100%;
+  border-radius: 0;
+  transform: none;
+  animation: none;
+  pointer-events: none;
+  user-select: none;
+}
+.pack-preview-body { clip-path: polygon(0 11%, 8% 10.7%, 17% 11.4%, 27% 10.8%, 38% 11.2%, 49% 10.6%, 60% 11.3%, 70% 10.7%, 81% 11.2%, 91% 10.8%, 100% 11%, 100% 100%, 0 100%); }
+.pack-stage .pack-preview-seal {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  clip-path: polygon(0 0, 100% 0, 100% 11%, 91% 10.8%, 81% 11.2%, 70% 10.7%, 60% 11.3%, 49% 10.6%, 38% 11.2%, 27% 10.8%, 17% 11.4%, 8% 10.7%, 0 11%);
+  transform-origin: 50% 11%;
+  transition: transform 650ms cubic-bezier(.22,.7,.3,1);
+}
+.pack-preview-cards {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  /* Only the heads escape the opening, even around the transparent wrapper. */
+  clip-path: inset(-30% 4% 78%);
+}
+.pack-stage .pack-preview-cards img {
+  position: absolute;
+  top: 13%;
+  left: 7%;
+  width: 86%;
+  border-radius: 4%;
+  transform-origin: 50% 100%;
+  transition: transform 650ms cubic-bezier(.22,.7,.3,1);
+}
+.pack-preview-cards img:nth-child(1) { --peek-y: -28%; }
+.pack-preview-cards img:nth-child(2) { --peek-y: -23%; }
+.pack-preview-cards img:nth-child(3) { --peek-y: -18%; }
+.pack-preview-cards img:nth-child(4) { --peek-y: -13%; }
+.pack-stage .pack-preview[aria-pressed="true"] .pack-preview-seal {
+  transform: translate(-8%, -16%) rotate(-12deg);
+}
+.pack-stage .pack-preview[aria-pressed="true"] .pack-preview-cards img {
+  transform: translateY(var(--peek-y));
+  transition-delay: 160ms;
+}
+
+.word-river {
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+  overflow: hidden;
+  direction: ltr;
+}
+.river-row.river-loop { gap: 0; animation: river-loop 38s linear infinite; }
+.river-row.river-right.river-loop { animation-direction: reverse; animation-duration: 42s; }
+.river-group { display: flex; flex: none; gap: var(--space-xl); padding-right: var(--space-xl); white-space: nowrap; }
+@keyframes river-loop { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.pack-fan img {
+  transition: transform 1100ms cubic-bezier(.22,.7,.25,1), translate 350ms ease;
+  translate: 0 0;
+}
+.pack-fan img:nth-child(1), .pack-fan img:nth-child(5) { z-index: 1; }
+.pack-fan img:nth-child(2), .pack-fan img:nth-child(4) { z-index: 2; }
+.pack-fan.is-stacked img { transform: translateX(-50%) rotate(0); }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .pack-fan:not(.is-stacked):hover img { translate: 0 -3px; transition: transform 1100ms cubic-bezier(.22,.7,.25,1), translate 350ms ease; }
+  .pack-fan:not(.is-stacked) img:hover { translate: 0 -7px; }
+}
+
+/* Keep the mascot in flow so every translation reserves its own space. */
+.final-cta { grid-template-columns: minmax(0, 1fr); gap: 24px; min-height: 0; padding-bottom: 48px; }
+.final-copy { grid-row: 1; }
+.final-dodon {
+  position: relative;
+  grid-row: 2;
+  right: auto;
+  bottom: auto;
+  width: clamp(180px, 26vw, 340px);
+  justify-self: end;
+  opacity: 1;
+  transform: rotate(2deg);
+}
+@media (max-width: 720px) {
+  .final-cta { min-height: 0; padding-bottom: 40px; }
+  .final-dodon { width: min(230px, 58vw); justify-self: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pack-stage .pack-preview img, .pack-fan img { transition: none !important; }
+  .river-row.river-loop { animation: none; }
+}
+
+
+/* Size the complete rotated fan from its grid column, not the viewport.
+   At 18deg, a 2:3 pack plus its offset spans 2.44 times its own width. */
+.jlpt-future > .pack-fan {
+  width: 100%;
+  max-width: 800px;
+  min-height: 0;
+  aspect-ratio: 1.1;
+  justify-self: center;
+}
+.jlpt-future > .pack-fan img { width: 40%; }
