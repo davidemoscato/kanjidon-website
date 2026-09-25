@@ -3798,5 +3798,45 @@
     "article": "why-choose-kanjidon-learn-japanese",
     "locale": "vi",
     "kind": "article"
+  },
+  "/it/blog/metro-tokyo-trucchi-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/blog/tokyo-subway-tips-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/fr/blog/metro-tokyo-astuces-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/de/blog/tokio-metro-tipps-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/es/blog/metro-tokio-trucos-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/pt/blog/metro-toquio-dicas-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/zh/blog/dongjing-ditie-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/vi/blog/tau-dien-tokyo-meo-suica-yamanote/": {
+    "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "vi",
+    "kind": "article"
   }
 }

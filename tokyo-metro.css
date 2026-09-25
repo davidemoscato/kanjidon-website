@@ -1,0 +1,179 @@
+@font-face{font-family:MetroNunito;src:url(/assets/vangelo-dodon/nunito-500.woff2);font-weight:400 600;font-display:swap}
+@font-face{font-family:MetroNunito;src:url(/assets/vangelo-dodon/nunito-800.woff2);font-weight:700 900;font-display:swap}
+@font-face{font-family:MetroJapanese;src:url(/assets/kanji-similar/mplus-japanese-400.woff2);font-weight:400 600;font-display:swap}
+@font-face{font-family:MetroJapanese;src:url(/assets/kanji-similar/mplus-japanese-700.woff2);font-weight:700 900;font-display:swap}
+body.metro-page .metro-article{--bg:var(--theme-bg);--ink:var(--theme-text);--muted:var(--theme-muted);--surface:var(--theme-raised);--line:var(--theme-line);--accent:var(--theme-on-soft);--gold:#ffe082;width:100%;max-width:none;padding:0;margin:0}
+.metro-skip{position:absolute;left:-9999px}.metro-skip:focus{left:20px;top:20px;z-index:1000;background:var(--theme-bg);color:var(--theme-text);padding:16px}
+body.metro-page .metro-article *{box-sizing:border-box}
+body.metro-page .metro-article{margin:0;background:var(--bg);color:var(--ink);font:500 19px/1.75 MetroNunito,system-ui,sans-serif}
+body.metro-page .metro-article a{color:inherit;text-decoration:none}
+body.metro-page .metro-article a:hover{color:var(--accent)}
+body.metro-page .metro-article a:focus-visible,body.metro-page .metro-article summary:focus-visible,body.metro-page .metro-article select:focus-visible,body.metro-page .metro-article [tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+body.metro-page .metro-article p{margin:0 0 22px}
+body.metro-page .metro-article h1,body.metro-page .metro-article h2,body.metro-page .metro-article h3{font-weight:900;line-height:1.08;letter-spacing:-.04em;text-wrap:balance;margin:0 0 26px}
+body.metro-page .metro-article h1{font-size:clamp(46px,5.3vw,78px)}
+body.metro-page .metro-article h2{font-size:clamp(34px,4.1vw,54px)}
+body.metro-page .metro-article h3{font-size:29px}
+body.metro-page .metro-article em{font-style:normal;color:var(--accent)}
+body.metro-page .metro-article strong,body.metro-page .metro-article b{font-weight:800}
+body.metro-page .metro-article .wrap{width:min(1140px,calc(100% - 64px));margin-inline:auto}
+body.metro-page .metro-article .prose{width:min(720px,calc(100% - 48px));margin-inline:auto}
+body.metro-page .metro-article .prose-inline,body.metro-page .metro-article .section-intro{max-width:750px}
+body.metro-page .metro-article .draft{padding:10px 16px;text-align:center;font-size:10px;letter-spacing:.15em;border-bottom:1px solid var(--line)}
+body.metro-page .metro-article .hero{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:30px;padding-block:75px 60px}
+body.metro-page .metro-article .eyebrow{font-size:11px;font-weight:900;letter-spacing:.13em;line-height:1.6;margin-bottom:22px}
+body.metro-page .metro-article .dek{font-size:23px;line-height:1.5}
+body.metro-page .metro-article .byline{font-size:12px;color:var(--muted);margin-top:28px}
+body.metro-page .metro-article figure{margin:0;min-width:0}
+body.metro-page .metro-article figure img{display:block;width:100%;height:auto}
+body.metro-page .metro-article figcaption,body.metro-page .metro-article .caption{font-size:12px;color:var(--muted);line-height:1.6;margin-top:16px}
+body.metro-page .metro-article figcaption{text-align:center;max-width:330px;margin-inline:auto}
+body.metro-page .metro-article .ribbon{background:var(--gold);color:#1c1c1e;padding:23px;text-align:center;font-weight:900;font-size:15px}
+body.metro-page .metro-article .ribbon span{font-weight:500;font-size:14px;margin-left:26px}
+body.metro-page .metro-article .toc{display:flex;justify-content:center;gap:25px;padding-block:25px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+body.metro-page .metro-article .toc a,body.metro-page .metro-article .source,body.metro-page .metro-article .button{font-size:13px;font-weight:800;border:1px solid var(--line);padding:10px 16px;border-radius:30px;display:inline-flex;align-items:center;min-height:44px}
+body.metro-page .metro-article .toc a:hover,body.metro-page .metro-article .source:hover,body.metro-page .metro-article .button:hover{background:var(--surface)}
+body.metro-page .metro-article .intro{padding-top:65px}
+body.metro-page .metro-article .intro>p:first-child{font-size:25px;line-height:1.5}
+body.metro-page .metro-article .section{padding-top:105px}
+body.metro-page .metro-article .note{border-left:4px solid var(--accent);background:var(--surface);padding:27px 30px;margin:32px 0;border-radius:0 16px 16px 0}
+body.metro-page .metro-article .note p:last-child{margin:0}
+body.metro-page .metro-article .note .eyebrow{margin-bottom:12px}
+body.metro-page .metro-article .note p{font-size:17px}
+body.metro-page .metro-article .network{margin:30px 0;border-block:1px solid var(--line)}
+body.metro-page .metro-article .network>div{display:flex;gap:20px;justify-content:space-between;padding:18px 0;font-size:16px}
+body.metro-page .metro-article .network>div+div{border-top:1px solid var(--line)}
+body.metro-page .metro-article .network span{max-width:55%;color:var(--muted)}
+body.metro-page .metro-article .split{display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:center}
+body.metro-page .metro-article .tilted img{transform:rotate(-9deg);width:94%;margin-inline:auto}
+body.metro-page .metro-article .story-link{display:block;border:1px solid var(--line);border-radius:18px;padding:25px;margin-top:28px;font-size:16px}
+body.metro-page .metro-article .story-link span{display:block;font-size:10px;letter-spacing:.13em;color:var(--accent);font-weight:800}
+body.metro-page .metro-article .story-link strong{display:block;font-size:23px;margin:9px 0}
+body.metro-page .metro-article .story-link b{display:block;margin-top:12px}
+body.metro-page .metro-article .station-trip{display:flex;justify-content:space-between;align-items:center;gap:6px;margin:30px 0;padding:22px 0}
+body.metro-page .metro-article .station-trip span{display:flex;align-items:center;flex-direction:column;font-size:12px}
+body.metro-page .metro-article .station-trip b{display:grid;place-items:center;width:62px;height:62px;border:7px solid #e7981c;border-radius:50%;font-size:18px;margin-bottom:9px}
+body.metro-page .metro-article .station-trip i{font-style:normal;color:var(--accent)}
+body.metro-page .metro-article .table-scroll{overflow:auto;margin-top:30px;border:1px solid var(--line);border-radius:18px}
+body.metro-page .metro-article table{border-collapse:collapse;min-width:800px;width:100%;font-size:15px;line-height:1.6;text-align:left}
+body.metro-page .metro-article thead{background:var(--ink);color:var(--bg)}
+body.metro-page .metro-article th,body.metro-page .metro-article td{padding:22px;vertical-align:top}
+body.metro-page .metro-article th{font-weight:800}
+body.metro-page .metro-article tbody tr+tr{border-top:1px solid var(--line)}
+body.metro-page .metro-article tbody tr:nth-child(even){background:var(--surface)}
+body.metro-page .metro-article td a{display:inline-block;padding:7px 12px;border:1px solid var(--line);border-radius:12px;font-weight:800}
+body.metro-page .metro-article small{font-weight:500}
+body.metro-page .metro-article .two-notes{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+body.metro-page .metro-article .source-row{display:flex;gap:12px;flex-wrap:wrap}
+body.metro-page .metro-article .hotel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:35px}
+body.metro-page .metro-article .hotel-grid article{border:1px solid var(--line);border-radius:20px;padding:27px;display:flex;align-items:flex-start;flex-direction:column}
+body.metro-page .metro-article .hotel-grid p{font-size:16px}
+body.metro-page .metro-article .hotel-grid .button{margin-top:auto}
+body.metro-page .metro-article .pill{font-size:10px;background:var(--gold);color:#1c1c1e;font-weight:900;border-radius:20px;padding:7px 11px;letter-spacing:.04em;display:inline-block;margin-bottom:24px}
+body.metro-page .metro-article .with-sidekick{position:relative}
+body.metro-page .metro-article .sidekick{position:absolute;width:170px;height:auto;right:-205px;top:135px;transform:rotate(8deg)}
+body.metro-page .metro-article [lang=ja]{font-family:'M PLUS Rounded 1c',sans-serif}
+body.metro-page .metro-article .kanji-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:35px}
+body.metro-page .metro-article .kanji-grid>div{background:var(--surface);padding:28px;border-radius:20px}
+body.metro-page .metro-article .kanji-grid>div>span{display:block;font-size:58px;font-weight:700;line-height:1.3;margin-bottom:16px}
+body.metro-page .metro-article .kanji-grid b{font-size:23px}
+body.metro-page .metro-article .kanji-grid p{font-size:16px;margin:12px 0 0}
+body.metro-page .metro-article details{border-block:1px solid var(--line);padding:23px 0;margin-top:30px}
+body.metro-page .metro-article summary{cursor:pointer;font-weight:800}
+body.metro-page .metro-article details p{margin:20px 0 0}
+body.metro-page .metro-article .cta{padding:58px 65px;margin-top:100px;border-radius:26px;background:var(--gold);color:#1c1c1e;text-align:center}
+body.metro-page .metro-article .cta em{color:#aa3c18}
+body.metro-page .metro-article .cta>p{max-width:700px;margin-inline:auto}
+body.metro-page .metro-article .app-icon{display:block;margin:0 auto 25px;border-radius:23px}
+body.metro-page .metro-article .store-links{display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap;margin:32px 0}
+body.metro-page .metro-article .store-links a{display:flex;border-radius:9px}
+body.metro-page .metro-article .store-links img{display:block;height:54px;width:auto}
+body.metro-page .metro-article .store-links a:hover{opacity:.8}
+body.metro-page .metro-article .signoff{font-weight:800;font-size:22px}
+body.metro-page .metro-article .footer{padding-block:50px 65px;font-size:12px;color:var(--muted)}
+body.metro-page .metro-article select{font:inherit;padding:10px;min-height:44px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px}
+@media(max-width:1180px){body.metro-page .metro-article .sidekick{position:static;float:right;width:130px;margin:0 0 15px 25px}
+body.metro-page .metro-article .with-sidekick:after{content:'';display:block;clear:both}
+}
+@media(max-width:760px){body.metro-page .metro-article{font-size:18px}
+body.metro-page .metro-article .wrap{width:calc(100% - 40px)}
+body.metro-page .metro-article .hero{grid-template-columns:1fr;padding-top:42px;gap:20px}
+body.metro-page .metro-article .hero h1{font-size:clamp(42px,10vw,62px)}
+body.metro-page .metro-article .hero figure{max-width:330px;margin:auto}
+body.metro-page .metro-article .dek{font-size:21px}
+body.metro-page .metro-article .ribbon span{display:block;margin:7px 0 0}
+body.metro-page .metro-article .toc{justify-content:flex-start;gap:10px}
+body.metro-page .metro-article .toc a{font-size:12px}
+body.metro-page .metro-article .section{padding-top:70px}
+body.metro-page .metro-article .split{grid-template-columns:1fr;gap:35px}
+body.metro-page .metro-article .split figure{max-width:340px;margin:20px auto}
+body.metro-page .metro-article .split figure{order:2}
+body.metro-page .metro-article .two-notes,body.metro-page .metro-article .hotel-grid,body.metro-page .metro-article .kanji-grid{grid-template-columns:1fr}
+body.metro-page .metro-article .two-notes{gap:0}
+body.metro-page .metro-article .hotel-grid article{padding:27px}
+body.metro-page .metro-article .kanji-grid>div{display:grid;grid-template-columns:1fr 1fr;align-items:center;column-gap:20px}
+body.metro-page .metro-article .kanji-grid>div>span{grid-row:span 2;margin:0;font-size:50px}
+body.metro-page .metro-article .kanji-grid p{margin:0}
+body.metro-page .metro-article .cta{padding:35px 24px;margin-top:70px}
+body.metro-page .metro-article .store-links{gap:15px}
+body.metro-page .metro-article .store-links img{height:48px}
+body.metro-page .metro-article .network>div{flex-direction:column;gap:3px}
+body.metro-page .metro-article .network span{max-width:none}
+body.metro-page .metro-article .station-trip b{width:53px;height:53px;font-size:15px}
+body.metro-page .metro-article .station-trip span{font-size:10px}
+body.metro-page .metro-article .intro{padding-top:45px}
+body.metro-page .metro-article .source{max-width:100%;font-size:12px}
+body.metro-page .metro-article .sidekick{width:100px;margin-left:12px}
+body.metro-page .metro-article .note{padding:23px}
+body.metro-page .metro-article .intro>p:first-child{font-size:23px}
+}
+@media(prefers-reduced-motion:reduce){}
+body.metro-page .metro-article .store-links img[src$="google-en.png"]{height:76px}
+@media(max-width:760px){body.metro-page .metro-article .store-links img[src$="google-en.png"]{height:68px}
+}
+body.metro-page .metro-article .hero{grid-template-columns:1fr;padding-bottom:42px;gap:12px}
+body.metro-page .metro-article .hero>div{max-width:940px}
+body.metro-page .metro-article .hero h1 br{display:none}
+body.metro-page .metro-article .hero h1{max-width:930px;font-size:clamp(46px,5.8vw,80px)}
+body.metro-page .metro-article .hero .dek{max-width:760px}
+body.metro-page .metro-article .hero-train{width:100%;margin:18px 0 0}
+body.metro-page .metro-article .hero-train img{width:100%;height:auto}
+body.metro-page .metro-article .hero-train figcaption{max-width:none;text-align:right;margin-top:12px}
+body.metro-page .metro-article .ginza-layout{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:65px}
+body.metro-page .metro-article .ginza-cutout{width:100%;transform:rotate(-4deg)}
+body.metro-page .metro-article .ginza-cutout figcaption{transform:rotate(4deg)}
+body.metro-page .metro-article .station-sign{width:min(830px,90%);margin:0 0 65px auto;transform:rotate(3deg)}
+body.metro-page .metro-article .station-sign figcaption{transform:rotate(-3deg);max-width:none}
+body.metro-page .metro-article .dodon-ride{float:right;width:350px;margin:40px -220px 25px 35px;transform:rotate(3deg)}
+body.metro-page .metro-article .dodon-ride figcaption{transform:rotate(-3deg)}
+body.metro-page .metro-article figcaption a{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:3px 10px;margin-left:5px}
+body.metro-page .metro-article .image-credits{margin:0 0 30px;font-size:12px}
+body.metro-page .metro-article .image-credits summary{font-size:14px}
+body.metro-page .metro-article .image-credits p{font-size:12px;overflow-wrap:anywhere}
+body.metro-page .metro-article .image-credits a{border-bottom:0;background:var(--surface);border-radius:6px;padding:3px 6px}
+@media(max-width:1180px){body.metro-page .metro-article .dodon-ride{width:300px;margin:20px -35px 25px 25px}
+}
+@media(max-width:760px){body.metro-page .metro-article .hero{gap:15px;padding-bottom:34px}
+body.metro-page .metro-article .hero h1{font-size:clamp(42px,10vw,62px)}
+body.metro-page .metro-article .hero .hero-train{max-width:none;width:100%;margin:12px 0 0}
+body.metro-page .metro-article .hero-train figcaption{text-align:center;font-size:11px}
+body.metro-page .metro-article .ginza-layout{grid-template-columns:1fr;gap:30px}
+body.metro-page .metro-article .ginza-cutout{width:95%;max-width:500px;margin:0 auto;order:2}
+body.metro-page .metro-article .station-sign{width:100%;margin:0 0 45px;transform:rotate(2deg)}
+body.metro-page .metro-article .station-sign figcaption{font-size:11px}
+body.metro-page .metro-article .dodon-ride{float:none;width:90%;max-width:390px;margin:0 0 36px auto}
+body.metro-page .metro-article .store-links{gap:10px}
+}
+
+body.metro-page .metro-article [lang=ja]{font-family:MetroJapanese,sans-serif}
+body.metro-page .metro-article .hero{background:none;color:var(--ink);text-align:left;min-height:0;border-radius:0}
+body.metro-page .metro-article .hero h1,body.metro-page .metro-article .hero p{color:inherit}
+body.metro-page .metro-article .hero .byline{color:var(--muted)}
+body.metro-page .metro-article .note{border-left-width:4px!important}
+body.metro-page .metro-article .network,body.metro-page .metro-article details{border-block-width:1px!important}
+body.metro-page .metro-article .toc{border-bottom-width:1px!important}
+body.metro-page .metro-article .station-trip b{border-width:7px!important}
+body.metro-page .metro-article .credits-wrap{padding-block:45px 65px}
+body.metro-page .metro-article .source,body.metro-page .metro-article .button{white-space:normal;text-align:left}
+body.metro-page .metro-article .cta h2,body.metro-page .metro-article .cta p{color:#1c1c1e}
+body.metro-page .metro-article section{scroll-margin-top:100px}

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "origin": "https://kanjidon.com",
-  "archiveOrigin": "https://d669fab0-kanjidon-410.kanjimonapp.workers.dev",
+  "archiveOrigin": "https://750f0980-kanjidon-410.kanjimonapp.workers.dev",
   "images": [
     {
       "path": "android-chrome-192x192.png",
@@ -584,6 +584,36 @@
       "sourcePath": "assets/why-kanjidon/dodon-presentatore.png",
       "sha256": "1eb1d77978e4ef6267985752c932df25883d39c404e837552b40cab0c68c0b69",
       "bytes": 711301
+    },
+    {
+      "path": "assets/tokyo-metro/dodon-yamanote.webp",
+      "sourcePath": "assets/tokyo-metro/dodon-yamanote.webp",
+      "sha256": "7bd91a978bd27c9320038ac9ed81d1515237a79c880d35e5a3a89bb9f0332c33",
+      "bytes": 145024
+    },
+    {
+      "path": "assets/tokyo-metro/ginza-metro.webp",
+      "sourcePath": "assets/tokyo-metro/ginza-metro.webp",
+      "sha256": "737a624b904789655e4f3da82d498324ed3de45c1d68a2de8dfda3bdb7feac58",
+      "bytes": 176800
+    },
+    {
+      "path": "assets/tokyo-metro/tokyo-jy01-cartello.webp",
+      "sourcePath": "assets/tokyo-metro/tokyo-jy01-cartello.webp",
+      "sha256": "f8424c22c894de698b442849d05cdaa98c47b1f77faf92d0b205b3aa2a91c525",
+      "bytes": 97032
+    },
+    {
+      "path": "assets/tokyo-metro/tokyo-metro-social.png",
+      "sourcePath": "assets/tokyo-metro/tokyo-metro-social.png",
+      "sha256": "da9de17ad5d42285796d3820adb22c781aa8775121198c3db2566be2bf664acd",
+      "bytes": 703002
+    },
+    {
+      "path": "assets/tokyo-metro/yamanote-e235.webp",
+      "sourcePath": "assets/tokyo-metro/yamanote-e235.webp",
+      "sha256": "d41414beae79d8ef4aa7b37c7c8e59055272aa7c5a2d871106d5890e21220deb",
+      "bytes": 229584
     }
   ]
 }
