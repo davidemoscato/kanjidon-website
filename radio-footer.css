@@ -747,3 +747,4 @@ html .radio-site-footer{
   border-width: 0 !important;
 }
 .radio-site-footer{font-family:"Nunito Site Footer",Nunito,system-ui,sans-serif;overflow:visible}
+.radio-site-footer .footer-preferences .theme-toggle,.radio-site-footer .footer-preferences .language-btn{height:auto;min-height:44px}

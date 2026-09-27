@@ -3,10 +3,12 @@
 
     var PIXEL_ID = 'a2_ift9317orjdh';
     var GOOGLE_TAG_ID = 'AW-17488655629';
+    var OPENAI_PIXEL_ID = '32S2k9iNzxgaoNo257nPqg';
     var CONSENT_KEY = 'kanjidon_privacy_consent';
-    var CONSENT_VERSION = 2;
+    var CONSENT_VERSION = 3;
     var pixelLoaded = false;
     var googleTagLoaded = false;
+    var openaiPixelLoaded = false;
 
     window.kanjidonAdvertisingConsentGranted = false;
     window.dataLayer = window.dataLayer || [];
@@ -401,6 +403,8 @@
     function readConsent() {
         try {
             var value = JSON.parse(localStorage.getItem(CONSENT_KEY));
+            // Retain prior refusals; an older acceptance needs a new choice for OpenAI.
+            if (value && value.choice === 'rejected' && value.version < CONSENT_VERSION) return 'rejected';
             return value && value.version === CONSENT_VERSION ? value.choice : null;
         } catch (error) {
             return null;
@@ -420,7 +424,7 @@
     }
 
     function expireAdvertisingCookies() {
-        var names = ['_rdt_cid', 'rdt_cid'];
+        var names = ['_rdt_cid', 'rdt_cid', '__oppref'];
         document.cookie.split(';').forEach(function (part) {
             var name = part.split('=')[0].trim();
             if (/^_gcl_|^_gac_/i.test(name)) names.push(name);
@@ -477,10 +481,55 @@
         window.rdt('track', 'PageVisit');
     }
 
+    function openaiMeasurementAllowed() {
+        if (window.kanjidonAdvertisingConsentGranted !== true) return false;
+        if (navigator.globalPrivacyControl === true || navigator.doNotTrack === '1' || window.doNotTrack === '1') return false;
+        if (!/^(www\.)?kanjidon\.com$/.test(window.location.hostname)) return false;
+        if (navigator.webdriver || /KanjidonEditorialQA/i.test(navigator.userAgent || '')) return false;
+        var robots = document.querySelector('meta[name="robots"]');
+        return !!document.querySelector('link[rel="canonical"]') && !(robots && /noindex/i.test(robots.content));
+    }
+
+    window.kanjidonMeasureOpenAI = function (eventName, placement) {
+        if (!openaiPixelLoaded || !openaiMeasurementAllowed() || typeof window.oaiq !== 'function') return;
+        var options = { opt_out: true };
+        var data = { type: eventName === 'page_viewed' ? 'contents' : 'custom' };
+        if (eventName !== 'page_viewed') {
+            if (!/^(download_click|store_click_ios|store_click_android)$/.test(eventName)) return;
+            options.custom_event_name = eventName;
+            if (/^(header|hero|download|sticky)$/.test(placement)) {
+                data.contents = [{ id: placement, content_type: 'button' }];
+            }
+        }
+        try {
+            window.oaiq('measure', eventName === 'page_viewed' ? eventName : 'custom', data, options);
+        } catch (_) { /* Advertising must never interrupt navigation. */ }
+    };
+
+    function loadOpenAIPixel() {
+        if (openaiPixelLoaded || !openaiMeasurementAllowed()) return;
+        openaiPixelLoaded = true;
+        if (!window.oaiq) {
+            var queue = function () { queue.q.push(arguments); };
+            queue.q = [];
+            window.oaiq = queue;
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = 'https://bzrcdn.openai.com/sdk/oaiq.min.js';
+            document.head.appendChild(script);
+        }
+        window.oaiq('consent', false);
+        window.oaiq('init', { pixelId: OPENAI_PIXEL_ID });
+        window.oaiq('consent', true);
+        window.kanjidonMeasureOpenAI('page_viewed');
+    }
+
     function loadAdvertisingTools() {
+        if (navigator.globalPrivacyControl === true) return;
         window.kanjidonAdvertisingConsentGranted = true;
         loadGoogleTag();
         loadPixel();
+        loadOpenAIPixel();
     }
 
     function removeBanner() {
@@ -489,7 +538,7 @@
     }
 
     function decide(choice) {
-        var wasLoaded = pixelLoaded || googleTagLoaded;
+        var wasLoaded = pixelLoaded || googleTagLoaded || openaiPixelLoaded;
         writeConsent(choice);
         removeBanner();
 
@@ -497,6 +546,7 @@
             loadAdvertisingTools();
         } else {
             window.kanjidonAdvertisingConsentGranted = false;
+            if (openaiPixelLoaded) window.oaiq('consent', false);
             updateGoogleConsent(false);
             expireAdvertisingCookies();
             if (wasLoaded) window.location.reload();

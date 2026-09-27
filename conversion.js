@@ -17,7 +17,7 @@
     }
 
     function destinationFor(targetPlatform, placement) {
-        if (targetPlatform === 'ios') return 'https://apps.apple.com/app/id6747951805';
+        if (targetPlatform === 'ios') return 'https://apps.apple.com/app/apple-store/id6747951805?pt=121509463&ct=website_install&mt=8';
         var campaign = 'utm_source=kanjidon.com&utm_medium=website&utm_campaign=website_install&utm_content=' + placement;
         return 'https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon' + '&referrer=' + encodeURIComponent(campaign);
     }
@@ -34,6 +34,9 @@
 
     function recordClick(targetPlatform, placement) {
         recordGoogleStoreConversion();
+        if (typeof window.kanjidonMeasureOpenAI === 'function') {
+            window.kanjidonMeasureOpenAI('store_click_' + targetPlatform, placement);
+        }
         if (!window.fetch) return;
         window.fetch('/go/' + targetPlatform + '/' + placement + '/', {
             method: 'GET',
@@ -53,6 +56,11 @@
     }
 
     document.querySelectorAll('[data-smart-download]').forEach(function (link) {
+        link.addEventListener('click', function () {
+            if (typeof window.kanjidonMeasureOpenAI === 'function') {
+                window.kanjidonMeasureOpenAI('download_click', placementFor(link));
+            }
+        });
         if (platform) configureStoreLink(link, platform);
         else link.href = '#download';
     });

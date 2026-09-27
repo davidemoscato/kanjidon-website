@@ -394,6 +394,11 @@
     "locale": "en",
     "kind": "article"
   },
+  "/blog/why-you-forget-kanji/": {
+    "article": "why-you-forget-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
   "/bn/": {
     "article": "",
     "locale": "bn",
@@ -709,6 +714,11 @@
     "locale": "de",
     "kind": "article"
   },
+  "/de/blog/warum-du-kanji-vergisst/": {
+    "article": "why-you-forget-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
   "/de/blog/warum-duolingo-kein-kanji/": {
     "article": "why-duolingo-cant-teach-kanji",
     "locale": "de",
@@ -971,6 +981,11 @@
   },
   "/es/blog/por-que-no-puedes-memorizar-kanji/": {
     "article": "why-you-cant-memorize-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/es/blog/por-que-olvidas-los-kanji/": {
+    "article": "why-you-forget-kanji",
     "locale": "es",
     "kind": "article"
   },
@@ -1366,6 +1381,11 @@
   },
   "/fr/blog/pourquoi-duolingo-kanji/": {
     "article": "why-duolingo-cant-teach-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/fr/blog/pourquoi-tu-oublies-les-kanji/": {
+    "article": "why-you-forget-kanji",
     "locale": "fr",
     "kind": "article"
   },
@@ -1826,6 +1846,11 @@
   },
   "/it/blog/particelle-giapponesi-ni-de-wo-wa/": {
     "article": "japanese-particles-ni-de-wo-wa-ga",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/it/blog/perche-dimentichi-kanji/": {
+    "article": "why-you-forget-kanji",
     "locale": "it",
     "kind": "article"
   },
@@ -2724,6 +2749,11 @@
     "locale": "pt",
     "kind": "article"
   },
+  "/pt/blog/por-que-voce-esquece-os-kanji/": {
+    "article": "why-you-forget-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
   "/pt/blog/por-que-voce-nao-consegue-memorizar-kanji/": {
     "article": "why-you-cant-memorize-kanji",
     "locale": "pt",
@@ -3484,6 +3514,11 @@
     "locale": "vi",
     "kind": "article"
   },
+  "/vi/blog/vi-sao-ban-hay-quen-kanji/": {
+    "article": "why-you-forget-kanji",
+    "locale": "vi",
+    "kind": "article"
+  },
   "/vi/faq/": {
     "article": "",
     "locale": "vi",
@@ -3684,6 +3719,11 @@
     "locale": "zh_CN",
     "kind": "article"
   },
+  "/zh/blog/riyu-hanzi-weishenme-zong-wang/": {
+    "article": "why-you-forget-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
   "/zh/blog/riyu-zhuci-zhinan/": {
     "article": "japanese-particles-ni-de-wo-wa-ga",
     "locale": "zh_CN",
@@ -3836,6 +3876,46 @@
   },
   "/vi/blog/tau-dien-tokyo-meo-suica-yamanote/": {
     "article": "tokyo-subway-tips-suica-yamanote",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/it/blog/10-trucchi-memorizzare-kanji/": {
+    "article": "10-tips-memorize-kanji",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/blog/10-tips-memorize-kanji/": {
+    "article": "10-tips-memorize-kanji",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/fr/blog/10-astuces-memoriser-kanji/": {
+    "article": "10-tips-memorize-kanji",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/de/blog/10-tipps-kanji-merken/": {
+    "article": "10-tips-memorize-kanji",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/es/blog/10-trucos-memorizar-kanji/": {
+    "article": "10-tips-memorize-kanji",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/pt/blog/10-truques-memorizar-kanji/": {
+    "article": "10-tips-memorize-kanji",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/zh/blog/10-tips-memorize-kanji/": {
+    "article": "10-tips-memorize-kanji",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/vi/blog/10-meo-ghi-nho-kanji/": {
+    "article": "10-tips-memorize-kanji",
     "locale": "vi",
     "kind": "article"
   }

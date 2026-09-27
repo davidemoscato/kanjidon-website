@@ -1,7 +1,7 @@
 {
   "version": 1,
   "origin": "https://kanjidon.com",
-  "archiveOrigin": "https://750f0980-kanjidon-410.kanjimonapp.workers.dev",
+  "archiveOrigin": "https://d9caffb4-kanjidon-410.kanjimonapp.workers.dev",
   "images": [
     {
       "path": "android-chrome-192x192.png",
@@ -550,10 +550,136 @@
       "bytes": 597699
     },
     {
-      "path": "favicon.ico",
-      "sourcePath": "favicon.ico",
-      "sha256": "2ca8a0016cd15e74c7116b462d062d0771e81cae983c10ec3c8614edb9276dd0",
-      "bytes": 5430
+      "path": "assets/tokyo-metro/dodon-yamanote.webp",
+      "sourcePath": "assets/tokyo-metro/dodon-yamanote.webp",
+      "sha256": "7bd91a978bd27c9320038ac9ed81d1515237a79c880d35e5a3a89bb9f0332c33",
+      "bytes": 145024
+    },
+    {
+      "path": "assets/tokyo-metro/ginza-metro.webp",
+      "sourcePath": "assets/tokyo-metro/ginza-metro.webp",
+      "sha256": "737a624b904789655e4f3da82d498324ed3de45c1d68a2de8dfda3bdb7feac58",
+      "bytes": 176800
+    },
+    {
+      "path": "assets/tokyo-metro/tokyo-jy01-cartello.webp",
+      "sourcePath": "assets/tokyo-metro/tokyo-jy01-cartello.webp",
+      "sha256": "f8424c22c894de698b442849d05cdaa98c47b1f77faf92d0b205b3aa2a91c525",
+      "bytes": 97032
+    },
+    {
+      "path": "assets/tokyo-metro/tokyo-metro-social.png",
+      "sourcePath": "assets/tokyo-metro/tokyo-metro-social.png",
+      "sha256": "da9de17ad5d42285796d3820adb22c781aa8775121198c3db2566be2bf664acd",
+      "bytes": 703002
+    },
+    {
+      "path": "assets/tokyo-metro/yamanote-e235.webp",
+      "sourcePath": "assets/tokyo-metro/yamanote-e235.webp",
+      "sha256": "d41414beae79d8ef4aa7b37c7c8e59055272aa7c5a2d871106d5890e21220deb",
+      "bytes": 229584
+    },
+    {
+      "path": "assets/vangelo-dodon/anteprima-social.png",
+      "sourcePath": "assets/vangelo-dodon/anteprima-social.png",
+      "sha256": "84741b6aca2285321e28756dc7d0168b36f48c8b48f779f27a677d9c93229d88",
+      "bytes": 385302
+    },
+    {
+      "path": "assets/vangelo-dodon/dodon-cheer.png",
+      "sourcePath": "assets/vangelo-dodon/dodon-cheer.png",
+      "sha256": "5ebf4423d1cc59f214c556e000415b0b3eae62866286bb60f770234cb7de6539",
+      "bytes": 774626
+    },
+    {
+      "path": "assets/vangelo-dodon/dodon-detective.webp",
+      "sourcePath": "assets/vangelo-dodon/dodon-detective.webp",
+      "sha256": "3173520970250d80718f4890ae8bd1c69307e64da90d4ae2098c3d0902a94aca",
+      "bytes": 81728
+    },
+    {
+      "path": "assets/vangelo-dodon/dodon-profeta.png",
+      "sourcePath": "assets/vangelo-dodon/dodon-profeta.png",
+      "sha256": "4521c704e55f5131188ee29aa2a3caca007fe2d949478e178784a863324abdbd",
+      "bytes": 1342129
+    },
+    {
+      "path": "assets/vangelo-dodon/icona.png",
+      "sourcePath": "assets/vangelo-dodon/icona.png",
+      "sha256": "61f3bd9a5b445d5996d591f01d5a7dd416b8d80e7a5fe7333ec7350fce8cd0a2",
+      "bytes": 97274
+    },
+    {
+      "path": "assets/vangelo-dodon/kanjidon_card_mountain.webp",
+      "sourcePath": "assets/vangelo-dodon/kanjidon_card_mountain.webp",
+      "sha256": "603dd1d82b819392247a1fce5517c43408284a6cd845e01eaa476e9ab2ac2dde",
+      "bytes": 126440
+    },
+    {
+      "path": "assets/vangelo-dodon/kanjidon_card_tree.webp",
+      "sourcePath": "assets/vangelo-dodon/kanjidon_card_tree.webp",
+      "sha256": "b87e8e6fa087c71523f9c58432094671e7fc0b231a42536617dca238e7a65afb",
+      "bytes": 212536
+    },
+    {
+      "path": "assets/vangelo-dodon/kanjidon_card_water.webp",
+      "sourcePath": "assets/vangelo-dodon/kanjidon_card_water.webp",
+      "sha256": "4f4a49a614c2a2b0cae564731e6eed72983babdb47ae92b108dc95b809622a5f",
+      "bytes": 346418
+    },
+    {
+      "path": "assets/vangelo-dodon/pack-n5.webp",
+      "sourcePath": "assets/vangelo-dodon/pack-n5.webp",
+      "sha256": "e540dd92a6e3337fde7961c893ebb6361d1aac0297eea6999432f636357056da",
+      "bytes": 24034
+    },
+    {
+      "path": "assets/vangelo-dodon/social-de.png",
+      "sourcePath": "assets/vangelo-dodon/social-de.png",
+      "sha256": "66f461bf117efeee3379f33f749bd788674993ed8fb0c1e0cec3a9a2a8eb49c5",
+      "bytes": 339925
+    },
+    {
+      "path": "assets/vangelo-dodon/social-en.png",
+      "sourcePath": "assets/vangelo-dodon/social-en.png",
+      "sha256": "ccd042ee7bb58ba86a61467c82b14b36245cc34560967db1dbfb883a86f48763",
+      "bytes": 331413
+    },
+    {
+      "path": "assets/vangelo-dodon/social-es.png",
+      "sourcePath": "assets/vangelo-dodon/social-es.png",
+      "sha256": "7625950ff7703d2f6c75598926fdb3f192788aa91e270942762bf30ae756d86d",
+      "bytes": 332659
+    },
+    {
+      "path": "assets/vangelo-dodon/social-fr.png",
+      "sourcePath": "assets/vangelo-dodon/social-fr.png",
+      "sha256": "255e8772dfd403493e7249e15975824876067bbff1667e8f55c0d6dc9e8c2e2a",
+      "bytes": 330845
+    },
+    {
+      "path": "assets/vangelo-dodon/social-it.png",
+      "sourcePath": "assets/vangelo-dodon/social-it.png",
+      "sha256": "84741b6aca2285321e28756dc7d0168b36f48c8b48f779f27a677d9c93229d88",
+      "bytes": 385302
+    },
+    {
+      "path": "assets/vangelo-dodon/social-pt.png",
+      "sourcePath": "assets/vangelo-dodon/social-pt.png",
+      "sha256": "59d51f5b4cb548376ec5bbc3c2381b80289f721989599650121cbe5d40b26f0e",
+      "bytes": 331132
+    },
+    {
+      "path": "assets/vangelo-dodon/social-vi.png",
+      "sourcePath": "assets/vangelo-dodon/social-vi.png",
+      "sha256": "b5de0febde56a939cc5efe16091b9dcc5b864c87477d00a227658ee930c7edc3",
+      "bytes": 332326
+    },
+    {
+      "path": "assets/vangelo-dodon/social-zh_CN.png",
+      "sourcePath": "assets/vangelo-dodon/social-zh_CN.png",
+      "sha256": "6d8f3595274cc18d58bca05481f82857e88142c7d39055719a4e1cb18c25a1b9",
+      "bytes": 323233
     },
     {
       "path": "assets/why-kanjidon/dodon-caffe.png",
@@ -586,34 +712,10 @@
       "bytes": 711301
     },
     {
-      "path": "assets/tokyo-metro/dodon-yamanote.webp",
-      "sourcePath": "assets/tokyo-metro/dodon-yamanote.webp",
-      "sha256": "7bd91a978bd27c9320038ac9ed81d1515237a79c880d35e5a3a89bb9f0332c33",
-      "bytes": 145024
-    },
-    {
-      "path": "assets/tokyo-metro/ginza-metro.webp",
-      "sourcePath": "assets/tokyo-metro/ginza-metro.webp",
-      "sha256": "737a624b904789655e4f3da82d498324ed3de45c1d68a2de8dfda3bdb7feac58",
-      "bytes": 176800
-    },
-    {
-      "path": "assets/tokyo-metro/tokyo-jy01-cartello.webp",
-      "sourcePath": "assets/tokyo-metro/tokyo-jy01-cartello.webp",
-      "sha256": "f8424c22c894de698b442849d05cdaa98c47b1f77faf92d0b205b3aa2a91c525",
-      "bytes": 97032
-    },
-    {
-      "path": "assets/tokyo-metro/tokyo-metro-social.png",
-      "sourcePath": "assets/tokyo-metro/tokyo-metro-social.png",
-      "sha256": "da9de17ad5d42285796d3820adb22c781aa8775121198c3db2566be2bf664acd",
-      "bytes": 703002
-    },
-    {
-      "path": "assets/tokyo-metro/yamanote-e235.webp",
-      "sourcePath": "assets/tokyo-metro/yamanote-e235.webp",
-      "sha256": "d41414beae79d8ef4aa7b37c7c8e59055272aa7c5a2d871106d5890e21220deb",
-      "bytes": 229584
+      "path": "favicon.ico",
+      "sourcePath": "favicon.ico",
+      "sha256": "2ca8a0016cd15e74c7116b462d062d0771e81cae983c10ec3c8614edb9276dd0",
+      "bytes": 5430
     }
   ]
 }
