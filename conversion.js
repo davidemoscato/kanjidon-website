@@ -16,9 +16,40 @@
         return 'header';
     }
 
+    // Only campaign metadata, never click IDs, arbitrary query values or user IDs.
+    // Page-local by design: no cookies, storage or attribution across visits.
+    function metaAttribution() {
+        if (window.kanjidonAdvertisingConsentGranted !== true
+            || navigator.globalPrivacyControl === true || navigator.doNotTrack === '1') return null;
+        try {
+            var params = new URL(window.location.href).searchParams;
+            var keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+            if (keys.some(function (key) { return params.getAll(key).length > 1; })) return null;
+            var source = params.get('utm_source');
+            if (['fb', 'ig', 'msg', 'an', 'th', 'facebook', 'instagram', 'messenger', 'threads'].indexOf(source) < 0
+                || params.get('utm_medium') !== 'paid_social'
+                || params.get('utm_campaign') !== 'meta_jlpt_video_6lang') return null;
+            var content = params.get('utm_content') || '';
+            if (!/^(it|fr|de|en|es|pt)_[0-9]{10,20}$/.test(content)) return null;
+            var term = params.get('utm_term') || '';
+            return { source: source, content: content,
+                term: ['feed', 'story', 'stories', 'reels', 'facebook_feed', 'instagram_feed',
+                    'instagram_stories', 'facebook_stories', 'instagram_reels', 'facebook_reels',
+                    'marketplace', 'search', 'video_feeds', 'explore', 'threads_feed'].indexOf(term.toLowerCase()) >= 0 ? term : '' };
+        } catch (_) { return null; }
+    }
+
     function destinationFor(targetPlatform, placement) {
-        if (targetPlatform === 'ios') return 'https://apps.apple.com/app/apple-store/id6747951805?pt=121509463&ct=website_install&mt=8';
+        var meta = metaAttribution();
+        if (targetPlatform === 'ios') return 'https://apps.apple.com/app/apple-store/id6747951805?pt=121509463&ct='
+            + (meta ? 'meta_jlpt_video_6lang' : 'website_install') + '&mt=8';
         var campaign = 'utm_source=kanjidon.com&utm_medium=website&utm_campaign=website_install&utm_content=' + placement;
+        if (meta) {
+            campaign = 'utm_source=' + encodeURIComponent(meta.source)
+                + '&utm_medium=paid_social&utm_campaign=meta_jlpt_video_6lang'
+                + '&utm_content=' + encodeURIComponent(meta.content);
+            if (meta.term) campaign += '&utm_term=' + encodeURIComponent(meta.term);
+        }
         return 'https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon' + '&referrer=' + encodeURIComponent(campaign);
     }
 
@@ -49,10 +80,18 @@
     function configureStoreLink(link, targetPlatform) {
         if (link.dataset.storeRoutingReady === 'true') return;
         var placement = placementFor(link);
-        link.href = destinationFor(targetPlatform, placement);
+        function refreshDestination() { link.href = destinationFor(targetPlatform, placement); }
+        refreshDestination();
         link.dataset.storeRoutingReady = 'true';
         if (platform) link.removeAttribute('target');
-        link.addEventListener('click', function () { recordClick(targetPlatform, placement); });
+        // Re-read consent at interaction time, including keyboard, middle-click and copying links.
+        ['pointerdown', 'focus', 'contextmenu', 'auxclick'].forEach(function (type) {
+            link.addEventListener(type, refreshDestination);
+        });
+        link.addEventListener('click', function () {
+            refreshDestination();
+            recordClick(targetPlatform, placement);
+        });
     }
 
     document.querySelectorAll('[data-smart-download]').forEach(function (link) {
