@@ -1973,7 +1973,33 @@ export default {
     }
 
     // Tutto il resto viene servito dallo storage asset nativo di Workers.
-    const assetResponse = await env.ASSETS.fetch(request);
+    // BEGIN CANONICAL ABOUT ROUTING
+    let assetRequest = request;
+    if (request.method === 'GET' || request.method === 'HEAD') {
+      const canonicalAboutPaths = ["/about.html","/ar/about.html","/de/about.html","/es/about.html","/fa/about.html","/fil/about.html","/fr/about.html","/hi/about.html","/id/about.html","/it/about.html","/ko/about.html","/ms/about.html","/pl/about.html","/pt/about.html","/ru/about.html","/th/about.html","/tr/about.html","/vi/about.html","/zh-tw/about.html","/zh/about.html"];
+      if (canonicalAboutPaths.includes(url.pathname + '.html')) {
+        const destination = new URL(request.url);
+        destination.pathname += '.html';
+        return new Response(null, {
+          status: 301,
+          headers: {
+            Location: destination.toString(),
+            'Cache-Control': 'public, max-age=3600',
+            'X-Content-Type-Options': 'nosniff',
+            ...(!isCanonicalHost ? { 'X-Robots-Tag': 'noindex, nofollow' } : {}),
+          },
+        });
+      }
+      if (canonicalAboutPaths.includes(url.pathname)) {
+        // Fetch the clean asset internally, retaining the public .html URL.
+        // This avoids Static Assets' automatic .html -> extensionless 307.
+        const assetUrl = new URL(request.url);
+        assetUrl.pathname = assetUrl.pathname.slice(0, -5);
+        assetRequest = new Request(assetUrl, request);
+      }
+    }
+    const assetResponse = await env.ASSETS.fetch(assetRequest);
+    // END CANONICAL ABOUT ROUTING
     const response = new Response(assetResponse.body, assetResponse);
 
     response.headers.delete("-Frame-Options");
