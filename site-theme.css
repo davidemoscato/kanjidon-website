@@ -8,7 +8,9 @@
   --theme-text: #faf9f6;
   --theme-muted: #bbb8b3;
   --theme-line: rgba(250,249,246,.18);
-  --theme-accent: #db6d3d;
+  --theme-pause-kanji: rgba(255,255,255,.075);
+  /* Stable brand accent, matching DesignTokens.brandAccent in the app. */
+  --theme-accent: #c65326;
   --theme-soft: #382a24;
   --theme-on-soft: #f29669;
   --theme-success: #8fd4a3;
@@ -25,7 +27,7 @@
   --theme-text: #1c1c1e;
   --theme-muted: #5c5955;
   --theme-line: rgba(28,28,30,.18);
-  --theme-accent: #9f4520;
+  --theme-pause-kanji: rgba(28,28,30,.14);
   --theme-soft: #f4e3d8;
     --theme-on-soft: #9f4520;
   --theme-success: #295e43;
@@ -43,7 +45,7 @@
     --theme-text: #1c1c1e;
     --theme-muted: #5c5955;
     --theme-line: rgba(28,28,30,.18);
-    --theme-accent: #9f4520;
+    --theme-pause-kanji: rgba(28,28,30,.14);
     --theme-soft: #f4e3d8;
     --theme-on-soft: #9f4520;
     --theme-success: #295e43;
@@ -179,7 +181,12 @@
 [data-site-layout="home"] .card-aside,
 [data-site-layout="home"] .review-slide:nth-child(4n + 2) { color:#faf9f6; }
 [data-site-layout="home"] .review-slide:nth-child(4n) .review-stars { color:var(--theme-accent); }
-[data-site-layout="home"] .pause-kanji { color:var(--theme-line); }
+[data-site-layout="home"] .pause-kanji,
+[data-site-layout="home"] .pause-frame.is-visible .pause-kanji { color:var(--theme-pause-kanji); }
+/* Tama keeps its orange surface in both themes, so its copy stays white. */
+[data-site-layout="home"] .tile-tama .tile-copy,
+[data-site-layout="home"] .tile-tama .tile-copy h3,
+[data-site-layout="home"] .tile-tama .tile-copy p { color:var(--on-primary); opacity:1; }
 
 .travel-page .skip { color:var(--theme-bg); }
 .travel-page .travel-tips li>p { color:var(--theme-text); }
@@ -198,3 +205,10 @@
 .theme-picker:not(.theme-picker--footer) .theme-toggle-label,
 .theme-picker:not(.theme-picker--footer) .theme-chevron { display:none; }
 .challenger-inner .download { background:var(--theme-surface); }
+
+/* Keep shared controls within narrow screens, including long locale labels. */
+.challenger-inner .logo { flex-shrink:0; }
+.challenger-inner .header-content { column-gap:8px; }
+@media (max-width:360px) {
+  .challenger-inner .language-dropdown { left:auto; right:0; transform:none; }
+}

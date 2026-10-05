@@ -1,7 +1,7 @@
 {
   "version": 1,
   "origin": "https://kanjidon.com",
-  "archiveOrigin": "https://d9caffb4-kanjidon-410.kanjimonapp.workers.dev",
+  "archiveOrigin": "https://9d2c9f54-kanjidon-410.kanjimonapp.workers.dev",
   "images": [
     {
       "path": "android-chrome-192x192.png",
@@ -716,6 +716,30 @@
       "sourcePath": "favicon.ico",
       "sha256": "2ca8a0016cd15e74c7116b462d062d0771e81cae983c10ec3c8614edb9276dd0",
       "bytes": 5430
+    },
+    {
+      "path": "assets/jlpt-exam-day/dodon-kit-jlpt.webp",
+      "sourcePath": "assets/jlpt-exam-day/dodon-kit-jlpt.webp",
+      "sha256": "3beb151762126b8f2c3c28eb8516b518a3b24fbc80a15cb6e1e5e9ec5cfe9a15",
+      "bytes": 109070
+    },
+    {
+      "path": "assets/jlpt-exam-day/dodon-pausa-jlpt.webp",
+      "sourcePath": "assets/jlpt-exam-day/dodon-pausa-jlpt.webp",
+      "sha256": "688749a9f14e3d486a7bbaea740a15f44546385a6c28c630cd8aea8c0ab09cea",
+      "bytes": 96732
+    },
+    {
+      "path": "assets/jlpt-exam-day/kit-giorno-jlpt.webp",
+      "sourcePath": "assets/jlpt-exam-day/kit-giorno-jlpt.webp",
+      "sha256": "1303f892fae46fd73b7530e3bdb9e1a6fa4efeeceeb1b76b947ee40382e19f3f",
+      "bytes": 210406
+    },
+    {
+      "path": "assets/jlpt-exam-day/social.jpg",
+      "sourcePath": "assets/jlpt-exam-day/social.jpg",
+      "sha256": "c5b14caf45f57e5cf42694ab23177632ad4e5f5769be755d549f2620e253e717",
+      "bytes": 87549
     }
   ]
 }

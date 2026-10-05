@@ -3918,5 +3918,50 @@
     "article": "10-tips-memorize-kanji",
     "locale": "vi",
     "kind": "article"
+  },
+  "/it/blog/jlpt-cosa-portare-giorno-esame/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "it",
+    "kind": "article"
+  },
+  "/blog/jlpt-test-day-what-to-bring/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "en",
+    "kind": "article"
+  },
+  "/fr/blog/jlpt-jour-examen-quoi-apporter/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "fr",
+    "kind": "article"
+  },
+  "/de/blog/jlpt-pruefungstag-was-mitnehmen/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "de",
+    "kind": "article"
+  },
+  "/es/blog/jlpt-dia-examen-que-llevar/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "es",
+    "kind": "article"
+  },
+  "/pt/blog/jlpt-dia-prova-o-que-levar/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "pt",
+    "kind": "article"
+  },
+  "/zh/blog/jlpt-kaoshi-dangtian-yao-dai-shenme/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "zh_CN",
+    "kind": "article"
+  },
+  "/vi/blog/jlpt-ngay-thi-mang-gi/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "vi",
+    "kind": "article"
+  },
+  "/ru/blog/jlpt-den-ekzamena-chto-vzyat/": {
+    "article": "jlpt-test-day-what-to-bring",
+    "locale": "ru",
+    "kind": "article"
   }
 }

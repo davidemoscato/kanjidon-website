@@ -1,0 +1,119 @@
+@font-face{font-family:JLPT Editorial;src:url(/assets/jlpt-exam-day/nunito-500.woff2) format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:JLPT Editorial;src:url(/assets/jlpt-exam-day/nunito-800.woff2) format('woff2');font-weight:700 900;font-display:swap}
+@font-face{font-family:JLPT Japanese;src:url(/assets/jlpt-exam-day/MPLUSRounded1c-Regular.ttf) format('truetype');font-weight:400;font-display:swap}
+.exam-day{overflow-wrap:anywhere;font-family:JLPT Editorial,Nunito,system-ui,sans-serif;color:var(--theme-text);font-size:18px;line-height:1.75;padding:34px 0 88px}
+.exam-day *{box-sizing:border-box}
+.exam-day .ed-wrap{width:min(1120px,calc(100% - 64px));margin:auto}
+.exam-day h1,.exam-day h2,.exam-day h3{color:var(--theme-text);font-family:inherit;font-weight:800;letter-spacing:-.045em;line-height:1.12;text-wrap:balance}
+.exam-day h1{font-size:clamp(42px,5.6vw,72px);margin:18px 0 24px}
+.exam-day h2{font-size:clamp(34px,4.3vw,53px);margin:12px 0 28px}
+.exam-day h3{font-size:27px;margin:8px 0 18px;letter-spacing:-.025em}
+.exam-day p{margin:0 0 23px}
+.exam-day strong{font-weight:800}
+.exam-day figure{margin:0;min-width:0}
+.exam-day img{display:block;max-width:100%;height:auto}
+.exam-day figcaption{font-size:13px;line-height:1.6;color:var(--theme-muted);text-align:center;margin-top:10px}
+.exam-day a{color:var(--theme-on-soft);text-decoration-thickness:1px;text-underline-offset:4px}
+.exam-day [lang=ja]{font-family:JLPT Japanese,'M PLUS Rounded 1c',sans-serif;letter-spacing:0}
+.exam-day :focus-visible{outline:3px solid var(--theme-on-soft);outline-offset:5px}
+.exam-day button{font:inherit;cursor:pointer}
+.exam-day .ed-preview{font-size:12px;font-weight:800;color:var(--theme-muted);padding:12px 0;border-bottom:1px solid var(--theme-line);letter-spacing:.055em}
+.exam-day .ed-eyebrow{font-size:11px;font-weight:800;letter-spacing:.13em;line-height:1.7;margin:0 0 10px;color:var(--theme-on-soft)}
+.exam-day .ed-hero{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:34px;padding:52px 0 48px}
+.exam-day .ed-hero h1 em{font-style:normal;color:var(--theme-on-soft)}
+.exam-day .ed-deck{font-size:21px;line-height:1.6;max-width:560px}
+.exam-day .ed-byline{font-size:12px;color:var(--theme-muted)}
+.exam-day .ed-hero-image img{width:100%}
+.exam-day .ed-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:48px;padding:13px 22px;background:var(--theme-accent);border:1px solid var(--theme-accent);border-radius:10px;color:var(--on-primary,#fff);font-size:15px;font-weight:800;text-decoration:none}
+.exam-day .ed-button:hover{filter:brightness(1.08)}
+.exam-day .ed-button-soft{background:var(--theme-soft);color:var(--theme-on-soft);border-color:var(--theme-line)}
+.exam-day .ed-date{display:flex;gap:28px;align-items:center;padding:25px 32px;background:var(--theme-surface);border-radius:16px;margin:16px 0 65px}
+.exam-day .ed-date-number{font-size:64px;line-height:1;font-weight:800;letter-spacing:-.06em;color:var(--theme-on-soft)}
+.exam-day .ed-date-number>span{display:block;font-size:10px;letter-spacing:.12em;margin-top:8px}
+.exam-day .ed-date p{font-size:15px;margin:8px 0 0;line-height:1.6}
+.exam-day .ed-prose{max-width:740px;margin-left:auto;margin-right:auto}
+.exam-day .ed-intro{font-size:21px;line-height:1.8}
+.exam-day .ed-toc{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:54px 0 90px}
+.exam-day .ed-toc a{display:flex;align-items:center;min-height:44px;padding:9px 16px;border:1px solid var(--theme-line);border-radius:30px;font-size:13px;font-weight:800;color:var(--theme-text);text-decoration:none}
+.exam-day .ed-toc a:hover{background:var(--theme-hover)}
+.exam-day .ed-section{padding-top:22px;margin-bottom:104px;scroll-margin-top:110px}
+.exam-day .ed-section-head{max-width:740px;margin:0 auto 36px}
+.exam-day .ed-split{display:grid;grid-template-columns:1.35fr 1fr;gap:60px;align-items:center;margin-top:40px}
+.exam-day .ed-source{display:inline-block;font-size:12px;font-weight:800;white-space:normal}
+.exam-day .ed-kit-image{padding:16px}
+.exam-day .ed-panel{padding:36px;background:var(--theme-surface);border-radius:20px;border:1px solid var(--theme-line)}
+.exam-day .ed-checklist{margin-top:40px}
+.exam-day .ed-panel-title{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.exam-day .ed-panel-title output{font-size:13px;font-weight:800;color:var(--theme-success);max-width:210px}
+.exam-day .ed-small{font-size:13px;color:var(--theme-muted);line-height:1.65}
+.exam-day .ed-check-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+.exam-day .ed-check-grid label{display:flex;gap:14px;padding:19px;border:1px solid var(--theme-line);border-radius:12px;align-items:flex-start;cursor:pointer;background:var(--theme-bg)}
+.exam-day .ed-check-grid label:has(input:checked){background:var(--theme-success-surface);border-color:var(--theme-success)}
+.exam-day .ed-check-grid input{width:22px;height:22px;margin:3px 0 0;flex:none;accent-color:var(--theme-success)}
+.exam-day .ed-check-grid strong{display:block;font-size:16px;line-height:1.4}
+.exam-day .ed-check-grid small{display:block;font-size:13px;color:var(--theme-muted);line-height:1.5;margin-top:5px}
+.exam-day progress{width:100%;height:9px;border:0;border-radius:10px;background:var(--theme-hover);accent-color:var(--theme-success);display:block;margin:30px 0 20px}
+.exam-day progress::-webkit-progress-bar{background:var(--theme-hover);border-radius:10px}
+.exam-day progress::-webkit-progress-value{background:var(--theme-success);border-radius:10px}
+.exam-day .ed-check-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.exam-day .ed-reset{background:none;color:var(--theme-muted);border:0;padding:8px;min-height:44px;font-size:13px}
+.exam-day .ed-aside{max-width:740px;margin:44px auto 52px;border-left:5px solid var(--theme-accent);padding:12px 0 12px 32px}
+.exam-day .ed-aside h3{font-size:35px;line-height:1.15}
+.exam-day .ed-aside p:last-child{margin-bottom:0}
+.exam-day .ed-phone{max-width:850px;margin:auto}
+.exam-day .ed-phone h3{font-size:40px}
+.exam-day .ed-times{max-width:850px;margin:34px auto 45px}
+.exam-day .ed-levels{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:30px}
+.exam-day .ed-levels button{min-height:48px;font-weight:800;border:1px solid var(--theme-line);border-radius:9px;background:var(--theme-bg);color:var(--theme-muted)}
+.exam-day .ed-levels button[aria-pressed=true]{background:var(--theme-soft);border-color:var(--theme-on-soft);color:var(--theme-on-soft)}
+.exam-day .ed-time-grid{display:flex;gap:14px;margin:22px 0}
+.exam-day .ed-time-grid>div{flex:1;min-width:0;padding:20px;background:var(--theme-bg);border-radius:12px}
+.exam-day .ed-time-grid span{display:block;font-size:13px;line-height:1.5;min-height:39px}
+.exam-day .ed-time-grid strong{display:block;font-size:52px;line-height:1.1;letter-spacing:-.06em;margin:12px 0;color:var(--theme-on-soft)}
+.exam-day .ed-time-grid small{font-size:13px;margin-left:9px;letter-spacing:0}
+.exam-day .ed-time-total{font-size:14px;margin:20px 0}
+.exam-day .ed-mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:35px}
+.exam-day .ed-mini-grid>div{border-top:1px solid var(--theme-line);padding-top:25px}
+.exam-day .ed-mini-number{font-size:14px;color:var(--theme-on-soft);font-weight:800}
+.exam-day .ed-mini-grid h3{font-size:24px;margin:15px 0}
+.exam-day .ed-mini-grid p{font-size:16px;line-height:1.7}
+.exam-day .ed-breather{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;margin:110px 0 140px;padding:40px 0;border-top:1px solid var(--theme-line);border-bottom:1px solid var(--theme-line);scroll-margin-top:100px}
+.exam-day .ed-breather-line{font-size:34px;font-weight:800;line-height:1.4;color:var(--theme-on-soft);margin:40px 0 0}
+.exam-day .ed-breather figure{padding:20px}
+.exam-day .ed-stories{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.exam-day .ed-story{background:var(--theme-surface);border-radius:14px;padding:28px;display:flex;flex-direction:column}
+.exam-day .ed-story-place{color:var(--theme-on-soft);font-size:11px;font-weight:800;letter-spacing:.1em}
+.exam-day .ed-story h3{font-size:26px;line-height:1.2}
+.exam-day .ed-story p{font-size:16px}
+.exam-day .ed-story a{font-size:13px;font-weight:800;margin-top:auto;min-height:44px;display:flex;align-items:center}
+.exam-day .ed-word{display:flex;gap:25px;padding:28px 0;border-top:1px solid var(--theme-line);align-items:center}
+.exam-day .ed-word>[lang=ja]{font-size:46px;flex:none;color:var(--theme-on-soft)}
+.exam-day .ed-word strong{font-size:15px}
+.exam-day .ed-word p{font-size:16px;margin:7px 0 0}
+.exam-day .ed-finale{text-align:center;max-width:850px;margin:95px auto;padding:55px}
+.exam-day .ed-finale p{max-width:650px;margin:0 auto 25px}
+.exam-day .ed-goodluck{font-size:20px;font-weight:800;margin-top:34px!important}
+.exam-day .ed-goodluck [lang=ja]{font-size:37px;color:var(--theme-on-soft)}
+.exam-day .ed-cta{display:grid;grid-template-columns:120px 1fr;gap:35px;max-width:850px;margin:90px auto;padding:35px 0;border-top:1px solid var(--theme-line);border-bottom:1px solid var(--theme-line)}
+.exam-day .ed-cta h2{font-size:32px}
+.exam-day .ed-app-icon{border-radius:25px}
+.exam-day .ed-badges{display:flex;gap:14px;flex-wrap:wrap;margin:24px 0}
+.exam-day .ed-badges a{display:flex;min-height:48px;align-items:center;border-radius:6px}
+.exam-day .ed-badges img{height:40px;width:auto}
+.exam-day .ed-related{font-size:14px;font-weight:800}
+.exam-day details{border-top:1px solid var(--theme-line);padding:18px 0}
+.exam-day summary{cursor:pointer;font-size:18px;font-weight:800;padding:9px 0;min-height:44px}
+.exam-day details p{margin:18px 0 8px;font-size:16px}
+.exam-day .ed-faq{margin-bottom:75px}
+.exam-day .ed-sources{max-width:740px;margin:0 auto;color:var(--theme-muted);font-size:13px}
+.exam-day .ed-sources summary{font-size:16px}
+.exam-day .ed-sources p{font-size:13px}
+.exam-day .ed-sources ul{padding-left:20px}
+.exam-day .ed-sources li{margin:12px 0}
+@media(max-width:800px){.exam-day .ed-wrap{width:calc(100% - 40px)}.exam-day .ed-hero{grid-template-columns:1fr;gap:10px;padding-top:36px}.exam-day .ed-hero-image{max-width:400px;margin:auto}.exam-day .ed-deck{font-size:20px}.exam-day .ed-split,.exam-day .ed-breather{grid-template-columns:1fr;gap:22px}.exam-day .ed-kit-image{max-width:390px;margin:auto}.exam-day .ed-mini-grid,.exam-day .ed-stories{grid-template-columns:1fr}.exam-day .ed-story{padding:26px}.exam-day .ed-breather figure{max-width:370px;margin:auto}.exam-day .ed-section{margin-bottom:75px}.exam-day .ed-toc{margin:42px 0 60px;justify-content:flex-start}.exam-day .ed-check-grid{grid-template-columns:1fr}.exam-day .ed-breather{margin:75px 0 95px}.exam-day .ed-intro{font-size:19px}.exam-day .ed-finale{padding:36px 26px}.exam-day .ed-word{align-items:flex-start;flex-direction:column;gap:10px}}
+@media(max-width:480px){.exam-day{font-size:17px}.exam-day .ed-wrap{width:calc(100% - 32px)}.exam-day .ed-panel{padding:23px}.exam-day .ed-panel-title{align-items:flex-start;flex-direction:column;gap:0}.exam-day .ed-panel-title output{margin:4px 0 12px}.exam-day .ed-time-grid{flex-direction:column;gap:10px}.exam-day .ed-time-grid>div{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:16px 20px}.exam-day .ed-time-grid span{min-height:0;max-width:65%}.exam-day .ed-time-grid strong{font-size:38px;margin:0;white-space:nowrap}.exam-day .ed-date{padding:23px;gap:20px}.exam-day .ed-date-number{font-size:48px}.exam-day .ed-date strong{font-size:16px}.exam-day .ed-date p{font-size:13px}.exam-day .ed-cta{grid-template-columns:1fr;gap:22px}.exam-day .ed-app-icon{width:80px}.exam-day .ed-check-actions{gap:7px}.exam-day h1{font-size:42px}.exam-day .ed-phone h3{font-size:34px}}
+@media print{body>.header,body>.footer,.ed-preview,.ed-hero,.ed-date,.ed-intro,.ed-toc,.ed-section-head,.ed-split,.ed-check-actions,.ed-small,.exam-day article>*:not(#kit),#kit>*:not(.ed-checklist){display:none!important}.exam-day{padding:0;color:#000}.exam-day .ed-wrap{width:100%}.exam-day .ed-checklist{margin:0;background:#fff;border:0}.exam-day .ed-check-grid{grid-template-columns:1fr 1fr}.exam-day .ed-check-grid label{background:#fff;border:1px solid #ccc;break-inside:avoid}.exam-day .ed-check-grid small{color:#333}.exam-day .ed-checklist h3{color:#000}.exam-day .ed-eyebrow{color:#333}.exam-day progress{display:none}}
+
+.exam-day .ed-related{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;border-radius:9px;background:var(--theme-soft);text-decoration:none}
+.exam-day .ed-badges img[src$="google-en.png"]{height:56px}
+html[lang="zh-CN"] .exam-day{overflow-wrap:anywhere;font-family:Nunito,system-ui,sans-serif;line-height:1.9}
