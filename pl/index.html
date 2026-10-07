@@ -76,7 +76,7 @@
   <link rel="preload" href="/assets/fonts/nunito-500.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/nunito-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" href="/assets/images/optimized/home/hero-phone-720.cc1a1d4d.webp" imagesrcset="../assets/images/optimized/home/hero-phone-480.f6865f9a.webp 480w, ../assets/images/optimized/home/hero-phone-720.cc1a1d4d.webp 720w" imagesizes="(max-width: 720px) 60vw, 360px" fetchpriority="high">
-  <link rel="stylesheet" href="../styles.css?v=20261003-jlpt-contrast">
+  <link rel="stylesheet" href="../styles.css?v=20261007-collector-auto">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kanjidon.com/#organization","name":"Kanjidon","url":"https://kanjidon.com/","logo":{"@type":"ImageObject","url":"https://kanjidon.com/assets/images/kanjidon-app-icon.png","width":1024,"height":1024},"sameAs":["https://www.reddit.com/r/kanjidon/","https://apps.apple.com/app/id6747951805","https://play.google.com/store/apps/details?id=com.davidemoscato.kanjidon"],"email":"info@kanjidon.com","address":{"@type":"PostalAddress","addressCountry":"IT"},"vatID":"IT01691020083"},{"@type":"WebSite","@id":"https://kanjidon.com/#website","url":"https://kanjidon.com/","name":"Kanjidon","publisher":{"@id":"https://kanjidon.com/#organization"},"inLanguage":"pl","dateModified":"2026-09-14"},{"@type":"MobileApplication","@id":"https://kanjidon.com/#app","name":"Kanjidon","url":"https://kanjidon.com/pl/","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","description":"Zamień kanji w kolekcjonerskie karty. Quizy, historie, bitwy i powtórki rozłożone w czasie od JLPT N5 do N1. Metoda jest poważna. Aplikacja trochę mniej.","inLanguage":"pl","author":{"@id":"https://kanjidon.com/#organization"}}]}</script>
   <script src="/privacy-consent.js?v=20260908-openai-consent-v3" defer></script>
   <script src="/conversion.js?v=20260908-openai-store-conversion" defer></script>
@@ -394,11 +394,36 @@
         <p>To nie album. To twoja pamięć, która wreszcie ma za czym gonić.</p>
       </div>
       <div class="collector-cards" aria-hidden="true">
-        <img src="../assets/images/cards/kanjidon_card_mountain.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy">
-        <img src="../assets/images/cards/kanjidon_card_water.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy">
-        <img src="../assets/images/cards/kanjidon_card_north.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy">
-        <img src="../assets/images/cards/kanjidon_card_tree.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy">
-        <img src="../assets/images/cards/kanjidon_card_river.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy">
+        <span class="collector-card">
+          <span class="collector-card-inner">
+            <img class="collector-card-front" src="../assets/images/cards/kanjidon_card_mountain.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+            <img class="collector-card-back" src="../assets/images/cards/kanjidon_card_back.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+          </span>
+        </span>
+        <span class="collector-card">
+          <span class="collector-card-inner">
+            <img class="collector-card-front" src="../assets/images/cards/kanjidon_card_water.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+            <img class="collector-card-back" src="../assets/images/cards/kanjidon_card_back.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+          </span>
+        </span>
+        <span class="collector-card">
+          <span class="collector-card-inner">
+            <img class="collector-card-front" src="../assets/images/cards/kanjidon_card_north.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+            <img class="collector-card-back" src="../assets/images/cards/kanjidon_card_back.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+          </span>
+        </span>
+        <span class="collector-card">
+          <span class="collector-card-inner">
+            <img class="collector-card-front" src="../assets/images/cards/kanjidon_card_tree.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+            <img class="collector-card-back" src="../assets/images/cards/kanjidon_card_back.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+          </span>
+        </span>
+        <span class="collector-card">
+          <span class="collector-card-inner">
+            <img class="collector-card-front" src="../assets/images/cards/kanjidon_card_river.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+            <img class="collector-card-back" src="../assets/images/cards/kanjidon_card_back.webp" alt="" width="1024" height="1536" decoding="async" loading="lazy" draggable="false">
+          </span>
+        </span>
       </div>
     </section>
 
@@ -654,7 +679,7 @@
     </div>
   </aside>
 
-  <script src="/card-flip.js?v=20260914" defer></script>
+  <script src="/card-flip.js?v=20261007-collector-immediate" defer></script>
   <script src="/home-motion.js?v=20260924" defer></script>
   <script>
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

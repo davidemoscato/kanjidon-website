@@ -45,3 +45,61 @@
     });
   });
 })();
+
+// Decorative collector cards turn independently of pointer and touch input.
+(() => {
+  const section = document.querySelector('.collector-dream');
+  const cards = Array.from(section?.querySelectorAll('.collector-card') || []);
+  if (!cards.length) return;
+
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const pauseMs = 2500;
+  let visible = false;
+  let timer = null;
+  let activeCard = null;
+  let previousCard = null;
+  const canAnimate = () => visible && !document.hidden && !reducedMotion.matches;
+
+  function stop() {
+    window.clearTimeout(timer);
+    timer = null;
+    activeCard?.classList.remove('is-turning');
+    activeCard = null;
+  }
+
+  function schedule(immediate = false) {
+    if (!canAnimate() || timer !== null || activeCard) return;
+    timer = window.setTimeout(() => {
+      timer = null;
+      if (!canAnimate()) return;
+      const choices = cards.filter((card) => card !== previousCard);
+      activeCard = choices[Math.floor(Math.random() * choices.length)] || cards[0];
+      previousCard = activeCard;
+      activeCard.classList.add('is-turning');
+    }, immediate ? 0 : pauseMs);
+  }
+
+  cards.forEach((card) => {
+    card.addEventListener('animationend', (event) => {
+      if (event.animationName !== 'collector-card-turn' || card !== activeCard) return;
+      card.classList.remove('is-turning');
+      activeCard = null;
+      schedule();
+    });
+  });
+
+  function update() {
+    if (canAnimate()) schedule(true);
+    else stop();
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    visible = entries.some((entry) => entry.isIntersecting);
+    update();
+  });
+  observer.observe(section);
+  document.addEventListener('visibilitychange', update);
+  reducedMotion.addEventListener('change', update);
+  window.addEventListener('pagehide', stop);
+  window.addEventListener('pageshow', update);
+})();
